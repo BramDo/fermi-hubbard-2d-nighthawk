@@ -1,0 +1,188 @@
+{
+  "status": "PUBLIC_BILINGUAL_VERIFIED",
+  "pages": [
+    {
+      "part": 0,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 0,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 1,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 1,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/1-laptop-versus-quantum-computer/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 2,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 2,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/2-fermion-model/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 3,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 3,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/3-mapping-circuit-depth/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 4,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 4,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/4-pilots-shots-noise/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 5,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 5,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/5-error-mitigation/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 6,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 6,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/6-results/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 7,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 7,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/7-speed-comparison/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 8,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 8,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/8-google-bonsai/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 9,
+      "language": "nl",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    },
+    {
+      "part": 9,
+      "language": "en",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/9-next-step/",
+      "http_status": 200,
+      "reciprocal_switch": true,
+      "series_navigation": true,
+      "mathjax_markers": true
+    }
+  ],
+  "menu_unchanged": true,
+  "visual_browser_check": false,
+  "visual_note": "Public HTML and link targets checked; no browser screenshot claimed."
+}

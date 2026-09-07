@@ -1,0 +1,25 @@
+<section class="nighthawk-series3" id="nighthawk-en-part-7" lang="en">
+<style>.nighthawk-series3 .nh-language-switch{display:flex;flex-wrap:wrap;gap:.55rem;margin:0 0 1rem}.nighthawk-series3 .nh-language-switch a{display:inline-block;padding:.5rem .85rem;border:1px solid #17212b;border-radius:4px;background:#fff;color:#17212b;text-decoration:none;font-weight:600}.nighthawk-series3 .nh-language-switch a[aria-current="page"]{background:#17212b;color:#fff}.nighthawk-series3 .nh-language-switch a:focus-visible{outline:3px solid #087f73;outline-offset:3px}</style><nav class="nh-language-switch" aria-label="Language"><a href="https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/" hreflang="nl" lang="nl">Nederlands</a><a href="https://edukaizen.nl/2d-local-quantum-advantage-en/7-speed-comparison/" hreflang="en" lang="en" aria-current="page">English</a></nav>
+<nav class="fh-series-nav" aria-label="Article navigation"><a href="https://edukaizen.nl/2d-local-quantum-advantage-en/">2D Local Quantum Advantage</a> | <a href="https://edukaizen.nl/2d-local-quantum-advantage-en/6-results/">Previous</a> | <a href="https://edukaizen.nl/2d-local-quantum-advantage-en/8-google-bonsai/">Next</a></nav>
+<p>Our local timing goal deserves its own yardstick. The question is not whether every classical method has been beaten, but how much registered QPU time we use compared with the kernel of our current local classical approach. The saved measurements give a ratio of approximately twenty.</p>
+<h2>Two separate quantum jobs, one existing baseline</h2>
+<p>The chi64 kernel of the classical 6x6 baseline took 150.819180 seconds. The cold worker, including imports, took 156.905497 seconds, excluding the Windows/WSL launcher. Other local work was running concurrently, so this was not an isolated system performance benchmark.</p>
+<p>Two separate quantum jobs recorded 8 and 7 seconds of QPU usage respectively. The second included both original and compact. It would be incorrect to add the jobs together and present that as one necessary quantum budget, or to assign seven seconds to each arm.</p>
+<table>
+<thead><tr><th>Comparison</th><th>Calculation</th><th>Ratio</th></tr></thead>
+<tbody>
+<tr><td>Classical kernel / earlier QPU job</td><td>150.819180 / 8</td><td>18.85x</td></tr>
+<tr><td>Classical kernel / latest paired QPU job</td><td>150.819180 / 7</td><td>21.55x</td></tr>
+</tbody>
+</table>
+<p>The concise description is therefore approximately 20x less registered QPU time than the classical kernel time of our current baseline. It is a resource comparison with explicitly defined clocks.</p>
+<h2>Why this is not a stopwatch comparison</h2>
+<p>According to the provider timestamps, the newest hardware job took approximately 181 seconds between running and finished. That interval alone was much longer than the seven registered QPU seconds; queueing and local analysis are not fully described by it either. Accounted QPU usage and experienced elapsed time therefore answer different questions.</p>
+<p>The <a href="https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time">IBM documentation on workload usage</a> matters here: use the provider's registration as intended, rather than retrospectively treating it as complete end-user elapsed time.</p>
+<h2>What if chi64 is still insufficient?</h2>
+<p>A higher bond dimension can make the classical calculation more expensive. But we did not run chi128. We cannot count an estimated longer classical runtime as additional measured quantum advantage. Conversely, improved classical algorithms or a different observable could make the local calculation cheaper.</p>
+<p>Our reference is an MPS approximation to the selected finite circuit. Its accuracy must be established separately. The same applies to the quantum estimator, whose TFLO holdouts have not yet passed. A matched-accuracy test can support a stronger statement only when both approaches meet the same predefined error tolerances.</p>
+<h2>Why this limited milestone still matters</h2>
+<p>Choosing a concrete local competitor is a meaningful goal for a small project. The ratio shows that the registered QPU resource for this experiment is small relative to our current classical kernel. That motivates further improvement. Accuracy checks do not erase this milestone; they determine which stronger claim can responsibly follow.</p>
+<p>Sources: both provider_metrics.json files and summary.json from classical_full_6x6_mps_T04_chi64_v1, preserved in full in the repository.</p>
+</section>

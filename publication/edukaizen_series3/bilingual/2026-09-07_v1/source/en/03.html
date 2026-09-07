@@ -1,0 +1,15 @@
+<p>The most important optimisation question was not how many qubits we could reserve, but how many error-prone operations were needed to execute our task on connected hardware. A 72-qubit circuit can be useful or unusable, depending on its routing and depth.</p>
+<h2>Three measures that are easily confused</h2>
+<p>Gate count counts all operations. Depth counts successive layers; gates acting on different qubits can sometimes run simultaneously. Physical duration also takes actual gate times and idle periods into account.</p>
+<p>An optimisation can therefore reduce single-qubit pulses and duration without changing the number of two-qubit gates. The reverse is also possible: a shorter logical expression can become more expensive after hardware routing. We preserve these three measures separately.</p>
+<h2>Fermionic SWAP networks</h2>
+<p>An fSWAP moves fermion modes past one another while preserving the required minus sign for double occupancy. A network of these swaps lets the appropriate interactions take place on suitable hardware pairs. Tracking the final mode order is just as important as the gates themselves: otherwise, we read the correct bit as the wrong physical site.</p>
+<p>In earlier compilation stages, the chosen network approach substantially reduced the CZ gate count. That historical circuit family is not identical to every later training or twirling family. An old figure of 15,400 CZ gates must therefore not be combined with the outcome of a differently composed run.</p>
+<h2>Original versus compact</h2>
+<p>The latest paired 6x6 test used two versions of the same parameterised circuit family. The compact version simplified the single-qubit structure before binding parameters. Both arms retained 20,736 CZ gates and 584 CZ layers.</p>
+<p>The overall gate depth fell from roughly 4,350–4,385 to 2,914–2,926. The estimated scheduled duration decreased from approximately 123–124 to 81 microseconds. That is a substantial compiler improvement. Nevertheless, the measured, mitigated observables were not better for the compact version in this single test.</p>
+<p>A shorter circuit is therefore a means to an end, not conclusive evidence. Measurement must show whether the relevant information is actually preserved better.</p>
+<h2>Ancillas, Bonsai and qDRIFT</h2>
+<p>Extra qubits can simplify certain parity operations, but preparation, stabilisers and routing can consume those gains. Our ancilla and Bonsai experiments are therefore preserved with their full resource costs, including cases that did not improve the result.</p>
+<p>Bonsai constructs a hardware-dependent tree encoding. That is interesting for heavy-hex hardware, but a good Boston mapping is not automatically a good Nighthawk mapping. qDRIFT is different again: it changes the time-evolution approximation by sampling Hamiltonian terms. It comes with its own approximation error, not merely a new gate count.</p>
+<p>Sources: scheduling_validation.json from the paired 6x6 run, BONSAI_AUGUST_2026_REVIEW.md, PA_ANCILLA_PROTOCOL.md and <a href="https://arxiv.org/abs/2212.09731">the original Bonsai publication</a>.</p>

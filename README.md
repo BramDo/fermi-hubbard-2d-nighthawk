@@ -21,6 +21,8 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   failed controls and alternative mappings stay visible.
 - [Edukaizen series 3](https://edukaizen.nl/2d-local-quantum-advantage/): nine
   Dutch articles and a hub, published with explicit approval on 2026-09-07.
+  The [complete English series](https://edukaizen.nl/2d-local-quantum-advantage-en/)
+  is also live, with reciprocal Nederlands/English controls on all twenty pages.
   [Sources and publication receipts](publication/edukaizen_series3/README.md).
 - [Student Advantage List entry](https://edukaizen.nl/pro-student-quantum-advantage-list/#fermi-hubbard-2d-nighthawk-72q):
   added on 2026-09-07 as a local execution-metric ratio with unvalidated accuracy.

@@ -54,3 +54,6 @@ uitgevoerd. Exact N32 is een modelconstraint, niet een gemeten hardwarewaarde.
 Verdere hardwaregebruikstoestemming: geen. Publicatiestatus serie3: gepubliceerd
 op 2026-09-07 onder [2D Local Quantum Advantage](https://edukaizen.nl/2d-local-quantum-advantage/).
 De repository blijft prive; dit verandert de validatiestatus van de resultaten niet.
+De volledige [Engelse serie](https://edukaizen.nl/2d-local-quantum-advantage-en/)
+is op dezelfde datum gepubliceerd met wederzijdse taalkeuze op alle pagina's.
+Formules, tabelwaarden en claimgrenzen zijn bij de vertaling behouden.

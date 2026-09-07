@@ -1,0 +1,31 @@
+<p>The latest paired run shows two things at once. Readout plus TFLO produces a much clearer spin profile than the raw data. However, in this test the compact circuit version does not agree more closely with our classical chi64 reference on local observables than the original version.</p>
+<p>This is job daf6foe42tqs73avhoeg on ibm_phoenix, with registered QPU usage of 7 seconds for the entire job. Both circuit arms and their training, holdouts and calibrations are included. The model is 6x6, N=32, U=8, t'=-0.25 and T=0.4, with two symmetric steps.</p>
+<h2>First the values, then the differences</h2>
+<p>N is the total particle number. D is the average double occupancy per site. Spin RMS measures the magnitude of the local spin profile, not its error.</p>
+<table>
+<thead><tr><th>Method</th><th>N</th><th>D per site</th><th>Spin RMS</th></tr></thead>
+<tbody>
+<tr><td>Original, raw</td><td>35.463</td><td>0.24065</td><td>0.01632</td></tr>
+<tr><td>Original, readout + TFLO</td><td>31.396</td><td>0.09013</td><td>0.65683</td></tr>
+<tr><td>Compact, raw</td><td>35.868</td><td>0.24854</td><td>0.01935</td></tr>
+<tr><td>Compact, readout + TFLO</td><td>31.231</td><td>0.07719</td><td>0.67128</td></tr>
+<tr><td>Classical chi64 reference</td><td>32.000</td><td>0.08790</td><td>0.70346</td></tr>
+</tbody>
+</table>
+<p>The contrast between raw and corrected spin is particularly striking. However, the correction uses information from U=0 training. We therefore need to test whether the final U=8 estimator is reliable.</p>
+<p>The local RMS differences use all 36 sites and compare each observable separately against the same chi64 reference:</p>
+<table>
+<thead><tr><th>Method</th><th>Charge</th><th>Spin</th><th>Doublons</th></tr></thead>
+<tbody>
+<tr><td>Original, readout + TFLO</td><td>0.08389</td><td>0.09185</td><td>0.05080</td></tr>
+<tr><td>Compact, readout + TFLO</td><td>0.10930</td><td>0.12586</td><td>0.06412</td></tr>
+</tbody>
+</table>
+<p>These numbers are not known absolute errors: chi64 is not yet converged. They do show what the current comparison actually yields. Looking only at average D would hide local differences that can cancel in the sum.</p>
+<h2>Why we do not simply replace N with 32</h2>
+<p>The ideal Hamiltonian conserves particle number. We therefore know that N=32 is the model value, and may state it as a constraint. But replacing the measured N cell with 32 and then claiming that the hardware reproduced charge almost perfectly would be misleading.</p>
+<p>If we genuinely want to incorporate a constraint into an estimator, the method must be specified in advance, and the local values and their uncertainties must change consistently with it. Repairing one number afterwards is not a validated mitigation method.</p>
+<h2>How far can we trust the table?</h2>
+<p>The independent U=0 holdouts did not meet our screening requirements. Some reconstructed local probabilities are negative. We preserve those outcomes without clipping. The bootstrap intervals describe only the chosen statistical assumptions; they do not include every source of drift, transfer bias or classical truncation error.</p>
+<p>This is therefore a concrete, reproducible hardware milestone and an informative mitigation result. The next scientific step is not a more attractive table, but an estimator that also passes independent checks.</p>
+<p>Source: analysis/summary.json and CONCLUSIE.md under results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1, together with the saved classical_full_6x6_mps_T04_chi64_v1 reference.</p>

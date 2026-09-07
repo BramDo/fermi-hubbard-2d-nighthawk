@@ -1,0 +1,801 @@
+{
+  "nl": [
+    {
+      "part": 0,
+      "id": 1089,
+      "title": "2D Local Quantum Advantage",
+      "slug": "2d-local-quantum-advantage",
+      "parent": 0,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-0\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/\">Volgende</a></nav>\n<p><strong>Hubbard serie 3 — IBM Nighthawk, 72 fermionmodi en onze lokale snelheidsbenchmark.</strong></p>\n<p>Kunnen we als student-/hobbyproject met een quantumcomputer onze eigen klassieke computer verslaan op geregistreerde rekentijd? Deze derde Hubbard-serie volgt die concrete vraag: van fermiontheorie en mapping naar 72 modi op IBM Nighthawk, foutmitigatie en de lokale circa 20x tijdsverhouding.</p>\n<p>De claim is bewust precies: ongeveer twintig keer minder geregistreerde QPU-tijd dan de rekenkerntijd van onze huidige klassieke chi64-baseline. Dit is nog geen gelijke-nauwkeurigheids- of end-to-end-voordeel. Beide interpretatiegrenzen worden naast de resultaten uitgelegd.</p>\n<h2>Leesvolgorde</h2>\n<ol>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/\">Deel 1: Een laptop als tegenstander: ons Nighthawk-project</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/\">Deel 2: Wat betekent U=8-dynamica? Het volledige fermionmodel</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/\">Deel 3: Van 2D-rooster naar hardware: mapping en circuitdiepte</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/\">Deel 4: Kleine pilots: ligt het aan shots of aan het circuit?</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/\">Deel 5: Readout, ZNE, PEC en TFLO: wat hebben we werkelijk gebruikt?</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/\">Deel 6: Onze 6x6-resultaten: lading, spin en doublons</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/\">Deel 7: Circa 20x: onze lokale snelheidsmijlpaal precies uitgelegd</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/\">Deel 8: Hoe dicht zitten we bij Google en de Bonsai-resultaten?</a></li>\n<li><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/\">Deel 9: Van een snelle run naar een betrouwbaar antwoord</a></li>\n</ol>\n<h2>Eerdere series en bronmateriaal</h2>\n<ul>\n<li><a href=\"https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/\">Hubbard 1D</a></li>\n<li><a href=\"https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/\">Hubbard 2D</a></li>\n<li><a href=\"https://github.com/BramDo/fermi-hubbard-2d-nighthawk\">Nighthawk-repository</a></li>\n</ul>\n<p>De negen artikelen zijn hieronder toegankelijk. De bijbehorende GitHub-repository blijft privé; toegang tot het onderzoeksarchief vereist toestemming. De eerdere Hubbard-series blijven beschikbaar.</p>\n</section>\n",
+      "sha256": "78675b8122da4b2bff4b7eafa9c2d0c647111b8435a0d0000e126ff8a57c05fd"
+    },
+    {
+      "part": 1,
+      "id": 1090,
+      "title": "Deel 1: Een laptop als tegenstander: ons Nighthawk-project",
+      "slug": "1-laptop-versus-quantumcomputer",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-1\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/\">Volgende</a></nav>\n<p>Ons doel begint niet bij het verslaan van iedere supercomputer. Het begint bij een veel persoonlijkere vraag: kunnen wij als student-/hobbyproject een quantumcomputer een interessante berekening laten uitvoeren met minder geregistreerde rekentijd dan onze eigen klassieke computer nodig heeft?</p>\n<p>Dat beperkte doel is de rode draad van deze derde Hubbard-serie. In de eerste serie verkenden we het eendimensionale model. In de tweede stapten we over naar twee dimensies. Nu concentreren we ons op IBM Nighthawk, fysisch correctere fermioncircuits en een meetbare lokale tijdsvergelijking.</p>\n<h2>De eerste mijlpaal: ongeveer twintig keer</h2>\n<p>Voor onze opgeslagen 6x6-opgave duurde de klassieke chi64-berekening 150,819 seconden in de rekenkern. Een Nighthawk-job registreerde 8 seconden QPU-gebruik; een latere gepaarde original/compact-job 7 seconden. De verhoudingen zijn ongeveer 18,85 en 21,55. Afgerond noemen we dat circa 20x.</p>\n<p>Die verhouding is echt een uitkomst van de opgeslagen tijdregistraties. Maar zij beantwoordt een specifieke vraag. QPU-gebruik is niet hetzelfde als de tijd tussen op &#x27;start&#x27; klikken en een gevalideerd antwoord lezen. Wachtrij, voorbereiding, netwerkverkeer en lokale analyse staan niet allemaal op die QPU-klok. Onze klassieke referentie is bovendien nog niet aangetoond convergent: chi64 is een berekeningsinstelling, geen garantie op juistheid.</p>\n<p>Daarom luidt onze claim: de quantumjob gebruikte circa twintig keer minder geregistreerde QPU-tijd dan de rekenkern van onze huidige lokale klassieke baseline. We claimen nog geen twintig keer kortere totale doorlooptijd bij bewezen gelijke nauwkeurigheid.</p>\n<h2>Wat rekent de quantumcomputer eigenlijk uit?</h2>\n<p>We simuleren een vereenvoudigd model van bewegende en onderling afstotende elektronen: het tweedimensionale Fermi-Hubbard-model. Het rooster heeft 36 sites. Met twee spinmodi per site zijn dat 72 fermionmodi, weergegeven op 72 qubits. De toestand bevat 32 deeltjes, niet 72.</p>\n<p>We lezen niet de volledige quantumtoestand uit. We vragen naar lokale lading, spin en dubbelbezetting. Zulke observabelen vertellen waar de deeltjes zitten en hoe de gekozen begintoestand zich ontwikkelt. Een bruikbare quantumrun moet op die gevraagde grootheden worden beoordeeld.</p>\n<h2>Werken met een beperkt budget</h2>\n<p>De hardwareproeven groeiden van kleine pilots naar 6x6. We werkten met 512 shots per instelling en expliciete QPU-tijdgrenzen, uiteindelijk een maximum van 15 seconden voor een toegestane job. Meer instellingen, extra mitigatiecircuits en meer shots kosten samen budget. Er is dus geen gratis combinatie van maximale diepte, veel tijdpunten en perfecte statistiek.</p>\n<p>Dat maakt dit project leerzaam. We moesten beslissen welke controle het meeste informatie oplevert, wanneer een circuit te diep wordt en wanneer een mooi gecorrigeerd getal vooral iets over de correctiemethode zegt.</p>\n<p>De <a href=\"https://github.com/BramDo/fermi-hubbard-2d-nighthawk\">nieuwe repository</a> bevat daarom niet alleen aantrekkelijke eindtabellen. Ook broncode, ruwe data, mislukte pilots en theorie blijven bewaard. Zolang de repo privé is, is toegang alleen mogelijk voor gemachtigde lezers.</p>\n<p>Bronnen: de eigen jobregistraties onder hardware_tflo_dd6_2026-09-06_v1 en hardware_compact_tflo_2026-09-07_v1, de chi64-baseline en de <a href=\"https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time\">IBM-uitleg over workload usage</a>.</p>\n</section>\n",
+      "sha256": "5d4976be602f4e5b480323a5b5c089f3169a5740f5f301fbe03a0dc760ef9a7c"
+    },
+    {
+      "part": 2,
+      "id": 1091,
+      "title": "Deel 2: Wat betekent U=8-dynamica? Het volledige fermionmodel",
+      "slug": "2-fermionmodel",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-2\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/\">Volgende</a></nav>\n<p>Een groter quantumcircuit is niet automatisch een betere simulatie. Eerst moet vaststaan welk model het circuit uitvoert. In ons project bleek dat verschil belangrijk: een ondiepe, deeltjesbehoudende XY-route is niet zomaar dezelfde berekening als het volledige tweedimensionale fermionmodel.</p>\n<h2>Hopping, afstoting en spin</h2>\n<p>Het Hubbard-model beschrijft deeltjes die tussen naburige sites bewegen. De hoppingparameter t bepaalt de energieschaal. Twee deeltjes met tegengestelde spin kunnen dezelfde site bezetten, maar dat kost in ons repulsieve model de energie U. Daarom is dubbelbezetting een interessante observabele: zij reageert op de wisselwerking en op de dynamica.</p>\n<p>Ons target bevat ook diagonale hopping t&#x27;=-0,25, naast t=1 en U=8. Het getal U=8 betekent dus U/t=8. Het betekent niet acht interacties of acht seconden. De evolutietijd T=0,4 is eveneens een modelgrootheid, uitgedrukt in eenheden hbar/t. Die tijd heeft geen directe gelijkheid met de duur van de quantumjob.</p>\n[latex syntax=\"display\"]\nH=-t\\sum_{\\langle i,j\\rangle,\\sigma}(c^\\dagger_{i\\sigma}c_{j\\sigma}+\\mathrm{h.c.})-t'\\sum_{\\langle\\!\\langle i,j\\rangle\\!\\rangle,\\sigma}(c^\\dagger_{i\\sigma}c_{j\\sigma}+\\mathrm{h.c.})+U\\sum_i n_{i\\uparrow}n_{i\\downarrow}.\n[/latex]\n<p>Hier staat c-dagger voor het creëren van een fermion en c voor het vernietigen ervan. De eerste twee sommen verplaatsen deeltjes; de laatste term bestraft dubbelbezetting. We gebruiken open randen, geen periodiek aan elkaar geknoopte roosterzijden.</p>\n<h2>De mintekens die je niet mag vergeten</h2>\n<p>Fermionen voldoen aan anticommutatieregels. Verwisselen van twee fermionen kan een minteken opleveren. Een qubit heeft die eigenschap niet vanzelf. Een fermion-naar-qubitmapping moet die algebra daarom expliciet bewaren.</p>\n<p>Bij Jordan-Wigner gebeurt dat met pariteitsstrings van Z-operatoren. Voor modi die in de gekozen volgorde ver uit elkaar liggen, kunnen die strings lang worden. In twee dimensies ontstaat zo een spanning tussen een lokaal fysisch rooster en de qubitvolgorde waarmee we het implementeren.</p>\n<p>De vroege bare-XY/t-only-routes waren bruikbaar voor technische pilots, maar bevatten niet alle niet-lokale fermiontekens en modeltermen. De latere volledige route houdt pariteit, t&#x27;, en U wel bij. Beide blijven in het archief staan, met verschillende labels en referenties.</p>\n<h2>Wat behouden blijft, en wat echt moet worden voorspeld</h2>\n<p>We starten op 6x6 met 32 deeltjes: zestien up en zestien down. Het model behoudt beide aantallen. Een resultaat dichtbij N=32 is een nuttige controle, maar de waarde 32 kennen we al vóór de simulatie.</p>\n<p>De niet-triviale vragen zijn waar de lading terechtkomt, hoeveel lokale spinstructuur overblijft en waar dubbelbezetting ontstaat. De bekende totale lading mag die onbekende lokale dynamica niet vervangen.</p>\n<p>Ons model is geïnspireerd door gecorreleerde-elektronenfysica. Daaruit volgt niet dat we een echt cupratenmateriaal of supergeleiding hebben gesimuleerd. Deze serie gaat over een concreet, programmeerbaar model en de kwaliteit van de berekening daarvan.</p>\n<p>Bronnen: theory/HANDBOOK.md, cuprate_2d_fermionic_mapping.py, cuprate_2d_fermionic_dynamics.py en de onafhankelijke kleine-roostercontroles in validate_cuprate_2d_fermionic_dynamics.py in de projectrepo.</p>\n</section>\n",
+      "sha256": "3582d8ae5bb6482981673718592fffef329cc9ac7be8b37a254b0d50db7e73cc"
+    },
+    {
+      "part": 3,
+      "id": 1092,
+      "title": "Deel 3: Van 2D-rooster naar hardware: mapping en circuitdiepte",
+      "slug": "3-mapping-circuitdiepte",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-3\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/\">Volgende</a></nav>\n<p>De belangrijkste optimalisatievraag was niet hoeveel qubits we konden reserveren, maar hoeveel foutgevoelige bewerkingen nodig waren om onze opgave op verbonden hardware uit te voeren. Een 72-qubit circuit kan bruikbaar of onbruikbaar zijn, afhankelijk van routing en diepte.</p>\n<h2>Drie maten die gemakkelijk door elkaar lopen</h2>\n<p>Poortaantal telt alle bewerkingen. Diepte telt opeenvolgende lagen; poorten op verschillende qubits kunnen soms tegelijk plaatsvinden. Fysieke duur houdt bovendien rekening met werkelijke poorttijden en wachttijden.</p>\n<p>Daarom kan een optimalisatie minder éénqubitpulsen en een kortere duur opleveren zonder het aantal tweequbitpoorten te veranderen. Het omgekeerde kan ook: een kortere logische expressie kan na hardware-routing toch duurder worden. We bewaren deze drie maten afzonderlijk.</p>\n<h2>Fermionic SWAP-netwerken</h2>\n<p>Een fSWAP brengt fermionmodi langs elkaar terwijl het vereiste minteken voor dubbele bezetting behouden blijft. Door een netwerk van zulke verwisselingen kunnen de juiste interacties op geschikte hardwareparen plaatsvinden. De boekhouding van de uiteindelijke modenvolgorde is net zo belangrijk als de poorten zelf: anders lezen we de juiste bit op de verkeerde fysische site uit.</p>\n<p>In eerdere compilatiestappen verlaagde de gekozen netwerkroute het aantal CZ-poorten sterk. Die historische circuitfamilie is niet identiek aan iedere latere trainings- of twirlingfamilie. Een oud getal van 15.400 CZ mag dus niet worden gecombineerd met de uitkomst van een anders samengestelde run.</p>\n<h2>Origineel tegenover compact</h2>\n<p>De laatste gepaarde 6x6-test gebruikte twee versies van dezelfde geparametriseerde circuitfamilie. De compacte versie vereenvoudigde de éénqubitstructuur vóór het invullen van parameters. Beide armen behielden 20.736 CZ-poorten en 584 CZ-lagen.</p>\n<p>De gewone poortdiepte ging grofweg van 4.350–4.385 naar 2.914–2.926. De geschatte ingeplande duur daalde van ongeveer 123–124 naar 81 microseconden. Dat is een serieuze compilerverbetering. Toch waren de gemeten, gemitigeerde observabelen in deze ene proef niet beter voor compact.</p>\n<p>Een korter circuit is dus een middel, geen eindbewijs. De meting moet laten zien of de relevante informatie daadwerkelijk beter behouden blijft.</p>\n<h2>Ancilla&#x27;s, Bonsai en qDRIFT</h2>\n<p>Extra qubits kunnen bepaalde pariteitsbewerkingen vereenvoudigen, maar voorbereiding, stabilisatoren en routing kunnen de winst weer opeten. Onze ancilla- en Bonsai-proeven zijn daarom met volledige resourcekosten bewaard, ook wanneer ze geen verbetering gaven.</p>\n<p>Bonsai bouwt een hardware-afhankelijke boomencoding. Dat is interessant op heavy-hex hardware, maar een goede Boston-mapping is niet automatisch een goede Nighthawk-mapping. qDRIFT is weer iets anders: het verandert de tijdsbenadering door Hamiltoniaantermen te bemonsteren. Daarbij hoort een eigen benaderingsfout, niet alleen een nieuw poortaantal.</p>\n<p>Bronnen: scheduling_validation.json van de gepaarde 6x6-run, BONSAI_AUGUST_2026_REVIEW.md, PA_ANCILLA_PROTOCOL.md en <a href=\"https://arxiv.org/abs/2212.09731\">de oorspronkelijke Bonsai-publicatie</a>.</p>\n</section>\n",
+      "sha256": "77e538dfd84db8de4020d9b8ddcb2149b8eb231c59106e5b23a35a6e76763ddc"
+    },
+    {
+      "part": 4,
+      "id": 1093,
+      "title": "Deel 4: Kleine pilots: ligt het aan shots of aan het circuit?",
+      "slug": "4-pilots-shots-ruis",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-4\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/\">Volgende</a></nav>\n<p>Een quantumuitkomst kan om verschillende redenen verkeerd zijn. Met te weinig shots kan een schatting toevallig schommelen. Een te diep circuit kan de bedoelde informatie systematisch verliezen. Een verkeerde mapping kan zelfs op ideale hardware het verkeerde model uitvoeren. Meer shots lost alleen het eerste probleem rechtstreeks op.</p>\n<h2>Wat 512 shots wel en niet betekenen</h2>\n<p>Een shot is één uitvoering en meting van een circuit. Bij onafhankelijke herhalingen neemt de gewone statistische standaardfout typisch af als één gedeeld door de wortel uit het aantal shots. Vier keer zoveel shots geven dan ongeveer een halvering van de standaardfout, niet vier keer zoveel nauwkeurigheid.</p>\n<p>In ons project is 512 vaak het aantal shots per instelling. Een job kan meerdere tijdpunten, twirls, trainingscircuits en kalibraties bevatten. De laatste gepaarde run had 76 PUBs van elk 512 shots: samen 38.912 metingen. &#x27;Een run met 512 shots&#x27; beschrijft die totale job dus onvolledig.</p>\n<p>Als ruis een spinprofiel bijna heeft uitgewist, kunnen extra shots juist heel precies bevestigen dat het ruizige profiel bijna vlak is. Dan is circuitverbetering of betrouwbare mitigatie nodig, niet alleen statistiek.</p>\n<h2>Waarom eerst 3x3 en 5x5?</h2>\n<p>Op kleine roosters kunnen we meer exact controleren. We kunnen de fermion-Hamiltoniaan in bezettingsruimte opbouwen, de ideale circuituitkomst berekenen en de meetgrootheden site voor site vergelijken. Daarmee onderscheiden we programmeerfouten van hardwareproblemen.</p>\n<p>Een voorbereidende 5x5-controle maakt het mogelijk de toestandspreparatie te vergelijken met een dynamisch circuit. Dat een voorbereidingscontrole de juiste deeltjesaantallen geeft, betekent niet dat een lange evolutie die kwaliteit behoudt. En een geslaagde niet-interagerende controle is nog geen bewijs dat de interagerende U=8-target goed is.</p>\n<h2>Aer als gerichte diagnose</h2>\n<p>Een ruissimulator met opgeslagen Nighthawk-parameters helpt specifieke vragen te onderzoeken: hoeveel effect hebben readoutfouten, éénqubitruis en CZ-ruis afzonderlijk? Wat verandert bij extra folding of meer shots? Het voordeel is dat we dezelfde bedoelde schakeling ook zonder ruis kunnen doorrekenen op de kleinere gevallen.</p>\n<p>Zo&#x27;n simulator is geen volledige digitale tweeling van het apparaat. Drift, gecorreleerde fouten en niet-gemodelleerde effecten kunnen ontbreken. Een spinpiek in Aer is daarom een aanwijzing over het geteste ruismodel, niet automatisch een verklaring van iedere hardwarepiek.</p>\n<p>Ook random seeds vragen controle. Het archief bewaart een correctie voor overlappende seeds: schijnbaar verschillende simulaties kunnen anders statistisch afhankelijk zijn. Een eerlijke vergelijking bewaart zulke correcties in plaats van alleen het aantrekkelijkste plaatje te tonen.</p>\n<p>Bronnen: AER_NIGHTHAWK_512_PROTOCOL.md, AER_SEED_CORRECTION_2026-09-06.md, HARDWARE_CONTROL_5X5_PROTOCOL.md en HARDWARE_COMPACT_TFLO_PROTOCOL.md.</p>\n</section>\n",
+      "sha256": "5c9926ba24c26fd612e94bfce99e9435a689395f5c1a2e395f215bfbc907f6b3"
+    },
+    {
+      "part": 5,
+      "id": 1094,
+      "title": "Deel 5: Readout, ZNE, PEC en TFLO: wat hebben we werkelijk gebruikt?",
+      "slug": "5-foutmitigatie",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-5\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/\">Volgende</a></nav>\n<p>Foutmitigatie kan gemeten observabelen sterk verbeteren. Maar &#x27;mitigatie aan&#x27; is geen enkele, universele schakelaar. Verschillende methoden richten zich op verschillende fouten en gebruiken verschillende extra informatie. In dit project hebben we meerdere routes onderzocht; ze mogen niet als één grote combinatie op de laatste hardwaretabel worden geplakt.</p>\n<h2>Readout: de meting kalibreren</h2>\n<p>Een qubit die als nul wordt voorbereid, kan soms als één worden gelezen, en andersom. Met bekende voorbereidende toestanden schatten we een verwarringsmatrix. Readout-mitigatie corrigeert vervolgens de gemeten verdeling of de relevante momenten volgens dat kalibratiemodel.</p>\n<p>Dat helpt bij meetfouten. Het kan niet zonder meer informatie herstellen die eerder tijdens duizenden poorten verloren ging. Een te eenvoudig readoutmodel kan bovendien gecorreleerde fouten missen.</p>\n<h2>ZNE en PEC: ruis vergroten of statistisch compenseren</h2>\n<p>Zero-noise extrapolation, ZNE, vergelijkt uitvoeringen met verschillende ruisniveaus en extrapoleert naar nul ruis. Bij CZ-folding vervangen we een CZ bijvoorbeeld door drie CZ-poorten. Omdat CZ kwadraat de identiteit is, blijft de ideale bewerking gelijk. De extra fysieke poorten vergroten wel de blootstelling aan ruis, mits een optimizer ze niet weer verwijdert.</p>\n<p>Probabilistic error cancellation, PEC, combineert ruizige bewerkingen met getekende quasi-kansgewichten. De kwaliteit hangt af van het ruismodel; de benodigde aantallen samples kunnen sterk toenemen. Beide methoden vragen dus meer dan alleen het kiezen van een naam in een instellingenmenu. Zie <a href=\"https://arxiv.org/abs/1612.02058\">Temme, Bravyi en Gambetta</a>.</p>\n<h2>TFLO: leren van een oplosbare buuropgave</h2>\n<p>Training with Fermionic Linear Optics gebruikt circuits die klassiek efficiënt oplosbaar zijn. In onze toepassing nemen we U=0-trainingscircuits en leren we het verband tussen hun exacte en ruizige Pauli-momenten. Die correctie wordt daarna op de U=8-target toegepast. De aanpak is geïnspireerd door <a href=\"https://arxiv.org/abs/2102.02120\">Montanaro en Stanisic</a>.</p>\n<p>De laatste gepaarde proef gebruikte per arm zes trainingsmomenten: 0,04; 0,08; 0,12; 0,24; 0,32; 0,48. Twee andere U=0-momenten, 0,2 en 0,4, dienden als holdouts. De U=8-target bij 0,4 leverde geen juiste referentiewaarde aan de fit. De affine correctie werd apart per Pauli en per circuitarm geleerd, met een kleine regularisatie naar de identiteit.</p>\n<p>Dat is een controleerbare opzet, maar de holdouts slaagden niet voor onze gekozen nauwkeurigheidseisen. Ook een controle zonder targethardware-input kwam voor sommige grootheden dichter bij de chi64-referentie. Dan kan een mooi TFLO-resultaat niet uitsluitend aan de gemeten U=8-dynamica worden toegeschreven. De training draagt zelf veel informatie.</p>\n<h2>Het label op de laatste run</h2>\n<p>De nieuwste original/compact-vergelijking gebruikte readoutcorrectie en TFLO. ZNE, PEC, postselectie en DD waren daar niet ingeschakeld. Een afzonderlijke eerdere DD-proef staat met een ander job-ID in het archief.</p>\n<p>Onze gemitigeerde schattingen zijn veel interessanter dan de bijna vlakke ruwe spinprofielen, maar blijven niet-gevalideerde schattingen. Negatieve gereconstrueerde lokale kansen en mislukte holdouts worden daarom zichtbaar gerapporteerd. Dat maakt verbetering gericht mogelijk.</p>\n<p>Bronnen: HARDWARE_COMPACT_TFLO_PROTOCOL.md, TFLO_DD_6X6_PROTOCOL.md en de bijbehorende ruwe data, fits, holdouts en ablaties in de projectrepo.</p>\n</section>\n",
+      "sha256": "53a15886f8fb4922c899c15585334c63460cd34142ffbcf3f294667dc9e29591"
+    },
+    {
+      "part": 6,
+      "id": 1095,
+      "title": "Deel 6: Onze 6x6-resultaten: lading, spin en doublons",
+      "slug": "6-resultaten",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-6\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/\">Volgende</a></nav>\n<p>De laatste gepaarde run laat twee dingen tegelijk zien. Readout plus TFLO levert een veel duidelijker spinprofiel dan de ruwe data. Maar de compacte circuitversie geeft in deze proef geen betere lokale overeenkomst met onze klassieke chi64-referentie dan het origineel.</p>\n<p>Het gaat om job daf6foe42tqs73avhoeg op ibm_phoenix, met een geregistreerd QPU-gebruik van 7 seconden voor de hele job. Beide circuitarmen en hun training, holdouts en kalibraties zijn daarin opgenomen. Het model is 6x6, N=32, U=8, t&#x27;=-0,25 en T=0,4 met twee symmetrische stappen.</p>\n<h2>Eerst de waarden, daarna de afwijkingen</h2>\n<p>N is het totale deeltjesaantal. D is de gemiddelde dubbelbezetting per site. Spin-RMS is de grootte van het lokale spinprofiel, niet zijn fout.</p>\n<table>\n<thead><tr><th>Methode</th><th>N</th><th>D per site</th><th>Spin-RMS</th></tr></thead>\n<tbody>\n<tr><td>Origineel, ruw</td><td>35,463</td><td>0,24065</td><td>0,01632</td></tr>\n<tr><td>Origineel, readout + TFLO</td><td>31,396</td><td>0,09013</td><td>0,65683</td></tr>\n<tr><td>Compact, ruw</td><td>35,868</td><td>0,24854</td><td>0,01935</td></tr>\n<tr><td>Compact, readout + TFLO</td><td>31,231</td><td>0,07719</td><td>0,67128</td></tr>\n<tr><td>Klassieke chi64-referentie</td><td>32,000</td><td>0,08790</td><td>0,70346</td></tr>\n</tbody>\n</table>\n<p>Vooral het verschil tussen de ruwe en de gecorrigeerde spin springt eruit. Daar staat tegenover dat de correctie informatie uit U=0-training gebruikt. We moeten dus testen of de uiteindelijke U=8-schatter betrouwbaar is.</p>\n<p>De lokale RMS-afwijkingen gebruiken alle 36 sites en vergelijken iedere observabele afzonderlijk met dezelfde chi64-referentie:</p>\n<table>\n<thead><tr><th>Methode</th><th>Lading</th><th>Spin</th><th>Doublons</th></tr></thead>\n<tbody>\n<tr><td>Origineel, readout + TFLO</td><td>0,08389</td><td>0,09185</td><td>0,05080</td></tr>\n<tr><td>Compact, readout + TFLO</td><td>0,10930</td><td>0,12586</td><td>0,06412</td></tr>\n</tbody>\n</table>\n<p>Deze getallen zijn geen bekende absolute fouten: chi64 is nog niet geconvergeerd. Ze laten wel zien wat de huidige vergelijking daadwerkelijk oplevert. Alleen naar het gemiddelde D kijken zou lokale afwijkingen verbergen die elkaar in de som kunnen opheffen.</p>\n<h2>Waarom we N niet simpelweg door 32 vervangen</h2>\n<p>De ideale Hamiltoniaan behoudt het deeltjesaantal. We weten dus dat N=32 de modelwaarde is. Die mag als constraint worden vermeld. Maar het zou misleidend zijn om de gemeten N-cel door 32 te vervangen en vervolgens te zeggen dat de hardware de lading vrijwel perfect heeft gereproduceerd.</p>\n<p>Als we een constraint echt in een estimator willen verwerken, moet die methode vooraf worden beschreven en moeten de lokale waarden en hun onzekerheden consequent mee veranderen. Eén getal achteraf repareren is geen gevalideerde mitigatiemethode.</p>\n<h2>Hoe ver mogen we de tabel vertrouwen?</h2>\n<p>De onafhankelijke U=0-holdouts haalden onze screeningseisen niet. Sommige gereconstrueerde lokale kansen zijn negatief. We bewaren die uitkomsten zonder clipping. De bootstrapintervallen beschrijven slechts de gekozen statistische aannames; ze omvatten niet alle drift, transferbias of klassieke truncatiefout.</p>\n<p>Dit is dus een concrete, reproduceerbare hardwaremijlpaal en een leerzaam mitigatieresultaat. De volgende wetenschappelijke stap is niet een mooiere tabel, maar een estimator die ook op onafhankelijke controles standhoudt.</p>\n<p>Bron: analysis/summary.json en CONCLUSIE.md onder results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1, plus de opgeslagen classical_full_6x6_mps_T04_chi64_v1-referentie.</p>\n</section>\n",
+      "sha256": "2d0bdf450025a2438c55fa0ee06d394466c6357d72351846378ce34fcf183b1f"
+    },
+    {
+      "part": 7,
+      "id": 1096,
+      "title": "Deel 7: Circa 20x: onze lokale snelheidsmijlpaal precies uitgelegd",
+      "slug": "7-snelheidswinst",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-7\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/\">Volgende</a></nav>\n<p>Ons eigen snelheidsdoel verdient een eigen meetlat. Niet: is hiermee iedere klassieke methode verslagen? Wel: hoeveel geregistreerde QPU-tijd gebruiken we ten opzichte van de rekenkern van onze huidige lokale klassieke aanpak? Met de opgeslagen metingen is dat een verhouding van ongeveer twintig.</p>\n<h2>Twee afzonderlijke quantumjobs, één bestaande baseline</h2>\n<p>De chi64-rekenkern van de klassieke 6x6-baseline duurde 150,819180 seconden. De koude worker inclusief imports duurde 156,905497 seconden, exclusief de Windows/WSL-launcher. Er liep tegelijk ander lokaal werk; dit was dus geen geïsoleerde prestatietest van het systeem.</p>\n<p>Twee afzonderlijke quantumjobs registreerden respectievelijk 8 en 7 seconden QPU-gebruik. De tweede bevatte zowel origineel als compact. Het is niet correct beide jobs op te tellen en het resultaat als één noodzakelijk quantumbudget te presenteren, of zeven seconden aan elke arm toe te kennen.</p>\n<table>\n<thead><tr><th>Vergelijking</th><th>Berekening</th><th>Verhouding</th></tr></thead>\n<tbody>\n<tr><td>Klassieke kernel / eerdere QPU-job</td><td>150,819180 / 8</td><td>18,85x</td></tr>\n<tr><td>Klassieke kernel / laatste gepaarde QPU-job</td><td>150,819180 / 7</td><td>21,55x</td></tr>\n</tbody>\n</table>\n<p>De compacte omschrijving is daarom circa 20x minder geregistreerde QPU-tijd dan de klassieke rekenkerntijd van onze huidige baseline. Het is een resourcevergelijking met expliciete klokken.</p>\n<h2>Waarom het geen stopwatchvergelijking is</h2>\n<p>De nieuwste hardwarejob liep volgens de provider-tijdstempels ongeveer 181 seconden tussen running en finished. Alleen dat interval was al veel langer dan de zeven geregistreerde QPU-seconden; wachtrij en lokale analyse zijn daarmee nog niet volledig beschreven. De boekhoudkundige QPU-tijd en de ervaren doorlooptijd beantwoorden dus andere vragen.</p>\n<p>De <a href=\"https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time\">IBM-documentatie over workload usage</a> is hier belangrijk: gebruik de providerregistratie zoals bedoeld en geef er niet achteraf de betekenis van een volledige eindgebruikerstijd aan.</p>\n<h2>En als chi64 nog niet genoeg is?</h2>\n<p>Een hogere bond-dimensie kan de klassieke berekening duurder maken. Maar we hebben chi128 niet uitgevoerd. We mogen een geschatte langere klassieke tijd dus niet alvast als extra gemeten quantumwinst boeken. Omgekeerd kunnen verbeterde klassieke algoritmen of een andere observabele de lokale berekening juist goedkoper maken.</p>\n<p>Onze referentie is een MPS-benadering van het gekozen eindige circuit. Zijn nauwkeurigheid moet afzonderlijk worden vastgesteld. Hetzelfde geldt voor de quantumestimator, waarvan de TFLO-holdouts nog niet slaagden. Een matched-accuracy-test kan pas een sterkere uitspraak doen als beide kanten aan dezelfde vooraf gekozen fouttoleranties voldoen.</p>\n<h2>Waarom deze beperkte mijlpaal toch telt</h2>\n<p>Het is zinvol om als klein project een concrete lokale tegenstander te kiezen. De verhouding laat zien dat de geregistreerde QPU-resource voor deze proef klein is ten opzichte van onze huidige klassieke rekenkern. Dat motiveert verdere verbetering. De nauwkeurigheidscontrole neemt die mijlpaal niet weg; zij bepaalt welke volgende claim verantwoord wordt.</p>\n<p>Bronnen: beide provider_metrics.json-bestanden en summary.json van classical_full_6x6_mps_T04_chi64_v1, integraal bewaard in de repository.</p>\n</section>\n",
+      "sha256": "f671e6d55b53a636a88ee4d3a3b62e844f37f480edf6af1ebf3d7412de7eb810"
+    },
+    {
+      "part": 8,
+      "id": 1097,
+      "title": "Deel 8: Hoe dicht zitten we bij Google en de Bonsai-resultaten?",
+      "slug": "8-google-bonsai",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-8\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/\">Vorige</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/\">Volgende</a></nav>\n<p>Voor een klein project is het interessant om niet alleen naar de eigen vorige run te kijken. Wat publiceren grotere onderzoeksgroepen voor vergelijkbare roosters? De bruikbare vraag is niet wie het meest indrukwekkende qubitgetal noemt, maar welke observabelen onder welke omstandigheden zijn gemeten en hoe de referentie tot stand kwam.</p>\n<h2>Google is vooral zichtbaar op 5x5, maar heeft ook 6x6-data</h2>\n<p>Veel uitvoerig besproken figuren in de Google/Phasecraft-publicatie gaan over 5x5. Toch bevat de openbare dataset ook volledige lokale Z- en ZZ-verwachtingswaarden voor 6x6. We hebben die data rechtstreeks gebruikt, zonder punten uit afbeeldingen te schatten. Zie de <a href=\"https://arxiv.org/abs/2510.26845v2\">paper</a> en <a href=\"https://zenodo.org/records/17881822\">de dataset</a>.</p>\n<p>Onze selectie is beperkt: een holon-stripe-begintoestand, U=8, T=0,4, nul flux en twee of drie Trotterlagen. Uit de Pauli-momenten berekenen we dezelfde lading, spin en doublons als in onze eigen analyse. Googles spindefinitie is hier al n_up-n_down; een extra factor twee zou fout zijn.</p>\n<h2>De lokale afwijkingen in dezelfde eenheden</h2>\n<p>Iedere rij hieronder wordt vergeleken met zijn eigen modelreferentie. Google gebruikt in deze vergelijking TDVP chi2048, wij de nog niet geconvergeerde chi64. De waarden zijn RMS-afwijkingen over alle lokale sites.</p>\n<table>\n<thead><tr><th>Gemitigeerd resultaat</th><th>Lading</th><th>Spin</th><th>Doublons</th></tr></thead>\n<tbody>\n<tr><td>Google 5x5, twee lagen</td><td>0,01779</td><td>0,02280</td><td>0,01021</td></tr>\n<tr><td>Google 5x5, drie lagen</td><td>0,02431</td><td>0,04269</td><td>0,01841</td></tr>\n<tr><td>Google 6x6, twee lagen</td><td>0,02809</td><td>0,04478</td><td>0,02497</td></tr>\n<tr><td>Google 6x6, drie lagen</td><td>0,02661</td><td>0,08023</td><td>0,02971</td></tr>\n<tr><td>Ons 6x6, origineel + TFLO</td><td>0,08389</td><td>0,09185</td><td>0,05080</td></tr>\n<tr><td>Ons 6x6, compact + TFLO</td><td>0,10930</td><td>0,12586</td><td>0,06412</td></tr>\n</tbody>\n</table>\n<p>Voor de geselecteerde 6x6-tweelaagsvergelijking zijn onze afwijkingen ongeveer twee keer zo groot voor spin en doublons en drie keer voor lading. Dat is dezelfde orde van grootte, niet dezelfde bewezen kwaliteit. Onze Hamiltoniaan bevat diagonale hopping en onze toestand heeft N=32; de geselecteerde Google 6x6-toestand heeft N=30 en t&#x27;=0.</p>\n<p>Googles referentie is bij dit tijdpunt bovendien behoorlijk stabiel: chi1024 naar chi2048 verandert het 6x6-spinprofiel met ongeveer 0,00021 RMS. Dat is geen strikt foutcertificaat, maar wel veel kleiner dan de getoonde hardwareafwijkingen. De vergelijking is daarom inhoudelijker dan de constatering dat beide projecten een 6x6-rooster noemen.</p>\n<h2>Bonsai beantwoordt weer een andere vraag</h2>\n<p>De <a href=\"https://arxiv.org/abs/2608.25024\">heavy-hex-publicatie van Esposito en collega&#x27;s</a> combineert hardware-afhankelijke mapping en Hamiltoniaansimulatie tot 6x6. De daar gebruikte Boston-processor is Heron r3, geen Nighthawk. Een mapping die op dat verbindingspatroon goed werkt, moet op onze hardware opnieuw worden beoordeeld. Een ander U, tijdpunt of integratieschema kan evenmin door simpel normaliseren in onze doelopgave worden veranderd.</p>\n<h2>Een eerlijke waardering</h2>\n<p>Deze vergelijking maakt ons resultaat niet waardeloos. Met beperkte middelen hebben we een werkende 72-modusroute, een groot controlearchief en gemitigeerde observabelen in een relevante orde van grootte. Het verantwoorde vervolg is daarvan leren, niet alvast de titel &#x27;beste 6x6&#x27; opeisen. De volledige omzetting en haar metadatawaarschuwingen staan onder google_conversion_2026-09-07_v1 in onze repository.</p>\n</section>\n",
+      "sha256": "91ccc08bee29f9264cb657ded8d1df1b22d91ee1e9d81c9baa1451fa9fdbddac"
+    },
+    {
+      "part": 9,
+      "id": 1098,
+      "title": "Deel 9: Van een snelle run naar een betrouwbaar antwoord",
+      "slug": "9-volgende-stap",
+      "parent": 1089,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "html": "<section class=\"nighthawk-series3\" id=\"nighthawk-part-9\">\n<nav class=\"fh-series-nav\" aria-label=\"Artikelnavigatie\"><a href=\"https://edukaizen.nl/2d-local-quantum-advantage/\">2D Local Quantum Advantage</a> | <a href=\"https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/\">Vorige</a></nav>\n<p>De volgende stap is niet automatisch een groter rooster. Ons project heeft al een interessante lokale tijdsverhouding en een volledige 6x6-route. De belangrijkste open vraag is hoeveel betrouwbare U=8-informatie de quantummeting na mitigatie werkelijk toevoegt.</p>\n<h2>Eerst de estimator toetsen</h2>\n<p>We kiezen vooraf welke observabelen we willen schatten en welke afwijking we acceptabel vinden. Lading, spin en doublons krijgen ieder een eigen tolerantie. Een gemiddelde over alle soorten observabelen kan anders een slechte spinschatting verbergen achter een eenvoudigere ladingcontrole.</p>\n<p>Daarna testen we de mitigatie op instellingen waarvan we het antwoord wel kennen, maar die niet in de training zitten. Onze laatste U=0-holdouts laten zien dat dit nog werk vraagt. Als de methode zelfs daar niet goed generaliseert, is een mooie U=8-targetwaarde onvoldoende onderbouwing.</p>\n<p>De controle zonder targethardware-input blijft daarbij belangrijk. Wanneer een schatter ongeveer hetzelfde antwoord geeft zonder de interagerende hardwaredata te gebruiken, meet dat antwoord niet overtuigend de gewenste quantumdynamica. We willen juist aantonen dat die data nuttige, controleerbare informatie toevoegen.</p>\n<h2>Twee ladders, niet één</h2>\n<p>Aan de klassieke kant verfijnen we de bond-dimensie. Aan de quantum- en circuitkant moeten we ruis, herhalingen en tijdstapfout onderscheiden. Meer chi verhelpt geen verkeerd circuit; meer shots verhelpt geen verkeerde fermionmapping; betere readout verhelpt niet iedere poortfout.</p>\n<p>Een bruikbare opzet houdt T vast, vergelijkt meerdere tijdstappen en gebruikt steeds de juiste referentie voor het gekozen eindige circuit. Pas daarna kan de afwijking van de continue Hamiltoniaandynamica worden beoordeeld. Bij een kostenlimiet is het verstandiger één duidelijke vraag te toetsen dan veel factoren tegelijk te veranderen.</p>\n<h2>De sterkere snelheidsproef</h2>\n<p>De circa 20x-verhouding uit deze serie gebruikt geregistreerde QPU-tijd en de bestaande lokale klassieke rekenkerntijd. Voor een sterkere proef leggen we ook voorbereiding, training, kalibratie, wachttijd en analyse vast. We maken expliciet of een kalibratie eenmalig is of over meerdere berekeningen wordt hergebruikt.</p>\n<p>De finishlijn is dan niet &#x27;de job is klaar&#x27;, maar &#x27;de gevraagde observabelen halen de afgesproken fouttolerantie&#x27;. Daarmee kunnen we een echte time-to-acceptable-answer-vergelijking maken voor onze lokale computer. Dat is nog steeds een beperkte, haalbare doelstelling; zij vereist niet dat we iedere klassieke computer ter wereld verslaan.</p>\n<h2>Een dossier dat een ander kan controleren</h2>\n<p>De aparte Nighthawk-repository bewaart code, theorie, ruwe metingen, kalibraties, referenties, controlesommen en de resultaten van minder succesvolle routes. Grote bestanden zijn verliesvrij gecomprimeerd en hebben een herstelmanifest. De oorspronkelijke projectmap blijft bestaan.</p>\n<p>Deze serie is daarom geen eindverklaring, maar een goed gedocumenteerd tussenresultaat. We mogen trots zijn op wat met een beperkt budget is bereikt én precies blijven over wat nog niet bewezen is. De volgende hardwarejob wordt pas ingediend na een nieuwe expliciete budgettoestemming.</p>\n<p>Bronnen: theory/RESULTS_AND_CLAIMS.md, HARDWARE_COMPACT_TFLO_PROTOCOL.md, de holdouttabellen en de bewaarde chi32/chi64-controles in de projectrepo.</p>\n</section>\n",
+      "sha256": "119d423cab127bf367ba1595eaff744d056001492052e7909304f9c81b37d856"
+    }
+  ],
+  "menu": [
+    {
+      "db_id": 21,
+      "title": "News",
+      "menu_item_parent": "0",
+      "position": 1,
+      "url": "https://edukaizen.nl/"
+    },
+    {
+      "db_id": 332,
+      "title": "Hubbard 1D",
+      "menu_item_parent": "1119",
+      "position": 2,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/"
+    },
+    {
+      "db_id": 1119,
+      "title": "Hubbard",
+      "menu_item_parent": "0",
+      "position": 3,
+      "url": "#"
+    },
+    {
+      "db_id": 334,
+      "title": "Part 1: 1D Hubbard model",
+      "menu_item_parent": "332",
+      "position": 4,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-1-1d-hubbard-model/"
+    },
+    {
+      "db_id": 335,
+      "title": "Part 2: Snake layout and fSWAP",
+      "menu_item_parent": "332",
+      "position": 5,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-2-snake-layout-and-fswap/"
+    },
+    {
+      "db_id": 356,
+      "title": "Part 3: Qiskit and Fire Opal",
+      "menu_item_parent": "332",
+      "position": 6,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-3-qiskit-ibm-runtime-and-fire-opal/"
+    },
+    {
+      "db_id": 357,
+      "title": "Part 4: 120-qubit run",
+      "menu_item_parent": "332",
+      "position": 7,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-4-the-120-qubit-quantum-run/"
+    },
+    {
+      "db_id": 358,
+      "title": "Part 5: Time-to-answer",
+      "menu_item_parent": "332",
+      "position": 8,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-5-quantum-advantage-or-time-to-answer/"
+    },
+    {
+      "db_id": 359,
+      "title": "Part 6: Tensor networks",
+      "menu_item_parent": "332",
+      "position": 9,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-6-tensor-networks-tdvp-and-chi/"
+    },
+    {
+      "db_id": 360,
+      "title": "Part 7: Majorana propagation",
+      "menu_item_parent": "332",
+      "position": 10,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-7-majorana-propagation-as-a-laptop-competitor/"
+    },
+    {
+      "db_id": 361,
+      "title": "Part 8: Reading heatmaps",
+      "menu_item_parent": "332",
+      "position": 11,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-8-heatmaps-as-a-material-like-measurement/"
+    },
+    {
+      "db_id": 646,
+      "title": "Part 9: Digital vs cold-atom labs",
+      "menu_item_parent": "332",
+      "position": 12,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-10-can-a-quantum-computer-replace-a-quantum-lab/"
+    },
+    {
+      "db_id": 669,
+      "title": "Part 10: Official Monoprop benchmark",
+      "menu_item_parent": "332",
+      "position": 13,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-11-official-monoprop-benchmark/"
+    },
+    {
+      "db_id": 373,
+      "title": "Hubbard 2D",
+      "menu_item_parent": "1119",
+      "position": 14,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/"
+    },
+    {
+      "db_id": 379,
+      "title": "Part 1: 1D to 2D",
+      "menu_item_parent": "373",
+      "position": 15,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/"
+    },
+    {
+      "db_id": 392,
+      "title": "Part 2: Cuprates",
+      "menu_item_parent": "373",
+      "position": 16,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/"
+    },
+    {
+      "db_id": 393,
+      "title": "Part 3: 3x3",
+      "menu_item_parent": "373",
+      "position": 17,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/"
+    },
+    {
+      "db_id": 394,
+      "title": "Part 4: Time",
+      "menu_item_parent": "373",
+      "position": 18,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/"
+    },
+    {
+      "db_id": 395,
+      "title": "Part 5: 4x4",
+      "menu_item_parent": "373",
+      "position": 19,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines/"
+    },
+    {
+      "db_id": 396,
+      "title": "Part 6: 6x6 Fez",
+      "menu_item_parent": "373",
+      "position": 20,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/"
+    },
+    {
+      "db_id": 424,
+      "title": "Hadron",
+      "menu_item_parent": "0",
+      "position": 21,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/"
+    },
+    {
+      "db_id": 425,
+      "title": "Part 1: Hadron on a quantum processor",
+      "menu_item_parent": "424",
+      "position": 22,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hadron-on-quantum-processor/"
+    },
+    {
+      "db_id": 426,
+      "title": "Part 2: Quarks and confinement",
+      "menu_item_parent": "424",
+      "position": 23,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quarks-color-fields-confinement/"
+    },
+    {
+      "db_id": 427,
+      "title": "Part 3: SU(2) and LSH",
+      "menu_item_parent": "424",
+      "position": 24,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/su2-lattice-model-lsh/"
+    },
+    {
+      "db_id": 428,
+      "title": "Part 4: Hamiltonian and circuit",
+      "menu_item_parent": "424",
+      "position": 25,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hamiltonian-to-quantum-circuit/"
+    },
+    {
+      "db_id": 429,
+      "title": "Part 5: Fire Opal",
+      "menu_item_parent": "424",
+      "position": 26,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-simulation-fire-opal/"
+    },
+    {
+      "db_id": 430,
+      "title": "Part 6: Classical simulations",
+      "menu_item_parent": "424",
+      "position": 27,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/classical-simulation-methods/"
+    },
+    {
+      "db_id": 431,
+      "title": "Part 7: Quantum advantage",
+      "menu_item_parent": "424",
+      "position": 28,
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-advantage-comparison/"
+    },
+    {
+      "db_id": 443,
+      "title": "Black Hole OLE",
+      "menu_item_parent": "0",
+      "position": 29,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-project/"
+    },
+    {
+      "db_id": 444,
+      "title": "Part 1: What we ran",
+      "menu_item_parent": "443",
+      "position": 30,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-1-what-we-ran/"
+    },
+    {
+      "db_id": 445,
+      "title": "Part 2: How OLE works",
+      "menu_item_parent": "443",
+      "position": 31,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-2-how-operator-loschmidt-echo-works/"
+    },
+    {
+      "db_id": 446,
+      "title": "Part 3: Fire Opal and Kingston",
+      "menu_item_parent": "443",
+      "position": 32,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-3-fire-opal-on-ibm-kingston/"
+    },
+    {
+      "db_id": 447,
+      "title": "Part 4: The tensor-network challenge",
+      "menu_item_parent": "443",
+      "position": 33,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-4-the-tensor-network-challenge/"
+    },
+    {
+      "db_id": 448,
+      "title": "Part 5: Hawking and scrambling",
+      "menu_item_parent": "443",
+      "position": 34,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-5-hawking-black-holes-and-scrambling/"
+    },
+    {
+      "db_id": 449,
+      "title": "Part 6: What the result proves",
+      "menu_item_parent": "443",
+      "position": 35,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-6-what-the-result-proves/"
+    },
+    {
+      "db_id": 622,
+      "title": "Part 7: Local toy model",
+      "menu_item_parent": "443",
+      "position": 36,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-7-local-toy-model-user-guide/"
+    },
+    {
+      "db_id": 477,
+      "title": "Random Graph",
+      "menu_item_parent": "0",
+      "position": 37,
+      "url": "https://edukaizen.nl/random-graph-sampling/"
+    },
+    {
+      "db_id": 636,
+      "title": "Part 8: QGSS26 compatibility",
+      "menu_item_parent": "443",
+      "position": 38,
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-8-qgss26-ole-otoc-protocol-compatibility/"
+    },
+    {
+      "db_id": 629,
+      "title": "Start here",
+      "menu_item_parent": "477",
+      "position": 39,
+      "url": "https://edukaizen.nl/random-graph-sampling/random-graph-sampling-beginner-guide/"
+    },
+    {
+      "db_id": 478,
+      "title": "Part 1: Theory",
+      "menu_item_parent": "477",
+      "position": 40,
+      "url": "https://edukaizen.nl/random-graph-sampling/from-tracker-claim-to-independent-reproduction/"
+    },
+    {
+      "db_id": 479,
+      "title": "Part 2: Circuit",
+      "menu_item_parent": "477",
+      "position": 41,
+      "url": "https://edukaizen.nl/random-graph-sampling/reproducible-70-qubit-circuit/"
+    },
+    {
+      "db_id": 480,
+      "title": "Part 3: Qiskit",
+      "menu_item_parent": "477",
+      "position": 42,
+      "url": "https://edukaizen.nl/random-graph-sampling/ibm-hardware-70-qubits-8-checks/"
+    },
+    {
+      "db_id": 481,
+      "title": "Part 4: Complexity",
+      "menu_item_parent": "477",
+      "position": 43,
+      "url": "https://edukaizen.nl/random-graph-sampling/why-75-percent-is-not-fidelity/"
+    },
+    {
+      "db_id": 482,
+      "title": "Part 5: Verification",
+      "menu_item_parent": "477",
+      "position": 44,
+      "url": "https://edukaizen.nl/random-graph-sampling/stabilizer-folding-futility/"
+    },
+    {
+      "db_id": 483,
+      "title": "Part 6: Workflow",
+      "menu_item_parent": "477",
+      "position": 45,
+      "url": "https://edukaizen.nl/random-graph-sampling/classical-simulation-mps-aer-majorana/"
+    },
+    {
+      "db_id": 484,
+      "title": "Part 7: Conclusion",
+      "menu_item_parent": "477",
+      "position": 46,
+      "url": "https://edukaizen.nl/random-graph-sampling/19-seconds-versus-6-89-million-years/"
+    },
+    {
+      "db_id": 506,
+      "title": "QOS QML",
+      "menu_item_parent": "0",
+      "position": 47,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/"
+    },
+    {
+      "db_id": 563,
+      "title": "Tutorial: UMI counts to a four-qubit circuit",
+      "menu_item_parent": "506",
+      "position": 48,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qml-beginners-guide-umi-to-four-qubit-circuit/"
+    },
+    {
+      "db_id": 564,
+      "title": "Part 1: The QML task",
+      "menu_item_parent": "506",
+      "position": 49,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/what-is-the-qml-task-cell-classification/"
+    },
+    {
+      "db_id": 614,
+      "title": "Part 2: QOS theory",
+      "menu_item_parent": "506",
+      "position": 50,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-oracle-sketching-theory/"
+    },
+    {
+      "db_id": 705,
+      "title": "Floquet-Ising",
+      "menu_item_parent": "0",
+      "position": 51,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/"
+    },
+    {
+      "db_id": 832,
+      "title": "Part 3: Gene expression to 40 qubits",
+      "menu_item_parent": "506",
+      "position": 52,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/pbmc68k-from-gene-expression-to-qubits/"
+    },
+    {
+      "db_id": 706,
+      "title": "Part 1: Floquet physics",
+      "menu_item_parent": "705",
+      "position": 53,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-physics-prethermalization/"
+    },
+    {
+      "db_id": 833,
+      "title": "Part 4: JAX to hardware",
+      "menu_item_parent": "506",
+      "position": 54,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qos-to-40-qubit-hardware-fire-opal/"
+    },
+    {
+      "db_id": 707,
+      "title": "Part 2: Ising cycle",
+      "menu_item_parent": "705",
+      "position": 55,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-ising-cycle-heavy-hex/"
+    },
+    {
+      "db_id": 834,
+      "title": "Part 5: Readout and classifier",
+      "menu_item_parent": "506",
+      "position": 56,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-readout-405-observables-classifier/"
+    },
+    {
+      "db_id": 708,
+      "title": "Part 3: Two-qubit toy model",
+      "menu_item_parent": "705",
+      "position": 57,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/two-qubit-floquet-toy-model-worked-out/"
+    },
+    {
+      "db_id": 835,
+      "title": "Part 6: 40-qubit result",
+      "menu_item_parent": "506",
+      "position": 58,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/result-hardware-versus-classical/"
+    },
+    {
+      "db_id": 709,
+      "title": "Part 4: Oscillation and entanglement",
+      "menu_item_parent": "705",
+      "position": 59,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/magnetization-entanglement-period-four-oscillation/"
+    },
+    {
+      "db_id": 836,
+      "title": "Part 7: Route to quantum advantage",
+      "menu_item_parent": "506",
+      "position": 60,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/route-to-quantum-advantage-qml/"
+    },
+    {
+      "db_id": 710,
+      "title": "Part 5: Noise and error mitigation",
+      "menu_item_parent": "705",
+      "position": 61,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/noise-error-mitigation-zne-pec/"
+    },
+    {
+      "db_id": 837,
+      "title": "Part 8: 60-qubit result",
+      "menu_item_parent": "506",
+      "position": 62,
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/proposal-60-qubit-qml-follow-up-study/"
+    },
+    {
+      "db_id": 711,
+      "title": "Part 6: Toward 51 qubits",
+      "menu_item_parent": "705",
+      "position": 63,
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/from-toy-model-to-51-qubits-quantum-advantage/"
+    },
+    {
+      "db_id": 932,
+      "title": "Work",
+      "menu_item_parent": "0",
+      "position": 64,
+      "url": "https://edukaizen.nl/"
+    },
+    {
+      "db_id": 781,
+      "title": "Quantum Gold",
+      "menu_item_parent": "932",
+      "position": 65,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/"
+    },
+    {
+      "db_id": 782,
+      "title": "Part 1: Why gold is a relativistic quantum problem",
+      "menu_item_parent": "781",
+      "position": 66,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-gold-is-a-relativistic-quantum-problem/"
+    },
+    {
+      "db_id": 783,
+      "title": "Part 2: Why the 2025 gold VQE study stalled",
+      "menu_item_parent": "781",
+      "position": 67,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-the-2025-gold-vqe-study-stalled/"
+    },
+    {
+      "db_id": 784,
+      "title": "Part 3: From QE and spin–orbit coupling to Qiskit",
+      "menu_item_parent": "781",
+      "position": 68,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/from-qe-spin-orbit-coupling-wannier90-to-qiskit/"
+    },
+    {
+      "db_id": 785,
+      "title": "Part 4: Twelve gold spinor modes on four qubits",
+      "menu_item_parent": "781",
+      "position": 69,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/twelve-gold-spinor-modes-on-four-qubits/"
+    },
+    {
+      "db_id": 786,
+      "title": "Part 5: The 24-qubit route: an active window for transport",
+      "menu_item_parent": "781",
+      "position": 70,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubit-active-window-for-transport/"
+    },
+    {
+      "db_id": 787,
+      "title": "Part 6: 24 qubits on IBM and with Fire Opal",
+      "menu_item_parent": "781",
+      "position": 71,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubits-on-ibm-and-fire-opal/"
+    },
+    {
+      "db_id": 788,
+      "title": "Part 7: The road to quantum advantage for gold",
+      "menu_item_parent": "781",
+      "position": 72,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/road-to-quantum-advantage-for-gold/"
+    },
+    {
+      "db_id": 925,
+      "title": "Part 8: 24 gold spinor modes on IBM with ZNE-PEA",
+      "menu_item_parent": "781",
+      "position": 73,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-gold-spinor-modes-on-ibm-with-zne-pea/"
+    },
+    {
+      "db_id": 961,
+      "title": "HaPPY Gravity",
+      "menu_item_parent": "932",
+      "position": 74,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/"
+    },
+    {
+      "db_id": 994,
+      "title": "Part 9: Forced gold colour on 56 qubits",
+      "menu_item_parent": "781",
+      "position": 75,
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/forced-gold-colour-56-qubit-ibm-hardware/"
+    },
+    {
+      "db_id": 962,
+      "title": "Part 1: Gravity as a phase gate",
+      "menu_item_parent": "961",
+      "position": 76,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/quantum-gravity-controlled-phase/"
+    },
+    {
+      "db_id": 963,
+      "title": "Part 2: Bosons and convergence",
+      "menu_item_parent": "961",
+      "position": 77,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/bosonic-gravity-cutoff-convergence/"
+    },
+    {
+      "db_id": 964,
+      "title": "Part 3: The dynamic HaPPY benchmark",
+      "menu_item_parent": "961",
+      "position": 78,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/dynamic-happy-benchmark/"
+    },
+    {
+      "db_id": 965,
+      "title": "Part 4: The N=145 classical audit",
+      "menu_item_parent": "961",
+      "position": 79,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/n145-classical-audit/"
+    },
+    {
+      "db_id": 966,
+      "title": "Part 5: MPS and Majorana baselines",
+      "menu_item_parent": "961",
+      "position": 80,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/majorana-mps-classical-baselines/"
+    },
+    {
+      "db_id": 967,
+      "title": "Part 6: PEA/ZNE and the decisive test",
+      "menu_item_parent": "961",
+      "position": 81,
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/pea-zne-runtime-quantum-advantage/"
+    },
+    {
+      "db_id": 975,
+      "title": "Fibonacci Anyons",
+      "menu_item_parent": "932",
+      "position": 82,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/"
+    },
+    {
+      "db_id": 976,
+      "title": "Part 1: Fusion and braiding",
+      "menu_item_parent": "975",
+      "position": 83,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/fusion-f-moves-r-moves-non-abelian-braiding/"
+    },
+    {
+      "db_id": 977,
+      "title": "Part 2: The 3/5/9-qubit ladder",
+      "menu_item_parent": "975",
+      "position": 84,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/three-five-nine-qubit-validation-ladder/"
+    },
+    {
+      "db_id": 978,
+      "title": "Part 3: Why nine qubits were too deep",
+      "menu_item_parent": "975",
+      "position": 85,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/why-full-nine-qubit-circuit-was-too-deep/"
+    },
+    {
+      "db_id": 979,
+      "title": "Part 4: Structure-aware simplification",
+      "menu_item_parent": "975",
+      "position": 86,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/structure-aware-f-move-simplification/"
+    },
+    {
+      "db_id": 980,
+      "title": "Part 5: IBM hardware diagnostic",
+      "menu_item_parent": "975",
+      "position": 87,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/ibm-marrakesh-hardware-diagnostic/"
+    },
+    {
+      "db_id": 981,
+      "title": "Part 6: Results and open questions",
+      "menu_item_parent": "975",
+      "position": 88,
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/what-the-experiment-establishes/"
+    },
+    {
+      "db_id": 1109,
+      "title": "2D Local Quantum Advantage",
+      "menu_item_parent": "1119",
+      "position": 89,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/"
+    },
+    {
+      "db_id": 1110,
+      "title": "Deel 1: Doel en budget",
+      "menu_item_parent": "1109",
+      "position": 90,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/"
+    },
+    {
+      "db_id": 1111,
+      "title": "Deel 2: Fermionmodel",
+      "menu_item_parent": "1109",
+      "position": 91,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/"
+    },
+    {
+      "db_id": 1112,
+      "title": "Deel 3: Mapping en diepte",
+      "menu_item_parent": "1109",
+      "position": 92,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/"
+    },
+    {
+      "db_id": 1113,
+      "title": "Deel 4: Pilots en shots",
+      "menu_item_parent": "1109",
+      "position": 93,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/"
+    },
+    {
+      "db_id": 1114,
+      "title": "Deel 5: Foutmitigatie",
+      "menu_item_parent": "1109",
+      "position": 94,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/"
+    },
+    {
+      "db_id": 1115,
+      "title": "Deel 6: 6x6-resultaten",
+      "menu_item_parent": "1109",
+      "position": 95,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/"
+    },
+    {
+      "db_id": 1116,
+      "title": "Deel 7: Circa 20x",
+      "menu_item_parent": "1109",
+      "position": 96,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/"
+    },
+    {
+      "db_id": 1117,
+      "title": "Deel 8: Google en Bonsai",
+      "menu_item_parent": "1109",
+      "position": 97,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/"
+    },
+    {
+      "db_id": 1118,
+      "title": "Deel 9: Volgende stap",
+      "menu_item_parent": "1109",
+      "position": 98,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/"
+    },
+    {
+      "db_id": 452,
+      "title": "Advantage List",
+      "menu_item_parent": "0",
+      "position": 99,
+      "url": "https://edukaizen.nl/pro-student-quantum-advantage-list/"
+    }
+  ],
+  "english_hub_matches": [],
+  "mathjax_active": true
+}

@@ -1,0 +1,65 @@
+{
+  "status": "VALIDATED",
+  "pairs": [
+    {
+      "part": 0,
+      "numbers_preserved": "hub",
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 1,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 2,
+      "numbers_preserved": true,
+      "formulas_preserved": 1,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 3,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 4,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 5,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 6,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 7,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 8,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    },
+    {
+      "part": 9,
+      "numbers_preserved": true,
+      "formulas_preserved": 0,
+      "dutch_body_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "status": "BILINGUAL_PUBLISHED_AND_SERVER_VERIFIED",
+  "release": "nighthawk-bilingual-2026-09-07-v1",
+  "pairs": [
+    {
+      "part": 0,
+      "en": {
+        "id": 1121,
+        "parent": 0,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/",
+        "title": "2D Local Quantum Advantage",
+        "sha256": "83e768c594dc3f5826c4309bc5ee860cc8280c17f4ef90177933308fe0a466c3",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1089,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+        "before_sha256": "78675b8122da4b2bff4b7eafa9c2d0c647111b8435a0d0000e126ff8a57c05fd",
+        "sha256": "45c2bc0ca18e467913e55f5d21b941edbcd464c825854fc09cfe85cc838c959a",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 1,
+      "en": {
+        "id": 1122,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/1-laptop-versus-quantum-computer/",
+        "title": "Part 1: A laptop as our benchmark: the Nighthawk project",
+        "sha256": "72659901e0142af9a4aec7c66818da95244379bee53874828cce78ecdbbc37ac",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1090,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+        "before_sha256": "5d4976be602f4e5b480323a5b5c089f3169a5740f5f301fbe03a0dc760ef9a7c",
+        "sha256": "f9e41651ceb6df37edf817a2af84ac0b65ee9eac057dbe103a7d349f30381ed8",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 2,
+      "en": {
+        "id": 1123,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/2-fermion-model/",
+        "title": "Part 2: What does U=8 dynamics mean? The full fermion model",
+        "sha256": "5f3116c0df58dec0de034348c426ce2853289ede5649da9a5920a6b66ee9e967",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1091,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+        "before_sha256": "3582d8ae5bb6482981673718592fffef329cc9ac7be8b37a254b0d50db7e73cc",
+        "sha256": "a6e7829c345e9f5e24bef1769566267cdb5a91217c77b0b20a9de73b032687c8",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 3,
+      "en": {
+        "id": 1124,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/3-mapping-circuit-depth/",
+        "title": "Part 3: From a 2D lattice to hardware: mapping and circuit depth",
+        "sha256": "330b09af91e925db3317a273066cc1f3cb52bf38d0d15498c86161d12d85247e",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1092,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+        "before_sha256": "77e538dfd84db8de4020d9b8ddcb2149b8eb231c59106e5b23a35a6e76763ddc",
+        "sha256": "fb747aab37f0002a41fbbe623a8244e5e9c5f1ab4105cce89c92820a1838184a",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 4,
+      "en": {
+        "id": 1125,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/4-pilots-shots-noise/",
+        "title": "Part 4: Small pilots: is the problem shots or the circuit?",
+        "sha256": "09901a37f914f150c16f0c72f8c83ff77267047430521a9519dcc31c8cecf496",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1093,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+        "before_sha256": "5c9926ba24c26fd612e94bfce99e9435a689395f5c1a2e395f215bfbc907f6b3",
+        "sha256": "413aa3f12d0b77860cc1eb6779284e7ec393200d9685ce481effe69bee256fd2",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 5,
+      "en": {
+        "id": 1126,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/5-error-mitigation/",
+        "title": "Part 5: Readout, ZNE, PEC and TFLO: what did we actually use?",
+        "sha256": "9388e69620f831d101bf658f2b061dcd1d3fdd89f5a3d999e03d11474c144308",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1094,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+        "before_sha256": "53a15886f8fb4922c899c15585334c63460cd34142ffbcf3f294667dc9e29591",
+        "sha256": "8c18568717977b19b9b522594d65c066ba1c3a1ff478d6ec2305b8c58c534e2a",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 6,
+      "en": {
+        "id": 1127,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/6-results/",
+        "title": "Part 6: Our 6x6 results: charge, spin and doublons",
+        "sha256": "86977a4dca1047b997d2cd5a38aed351b3002238f139845721a0bc96f1665ec5",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1095,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+        "before_sha256": "2d0bdf450025a2438c55fa0ee06d394466c6357d72351846378ce34fcf183b1f",
+        "sha256": "3c48ca2878693b8c146adcc18f8a43d28de4965ceed126d9b5f8868c6916a5bf",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 7,
+      "en": {
+        "id": 1128,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/7-speed-comparison/",
+        "title": "Part 7: Approximately 20x: our local timing milestone explained",
+        "sha256": "4dffa659671e2bed638d7ac68c847c75ac899efa0b9393ab01f3c9e42fc28184",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1096,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+        "before_sha256": "f671e6d55b53a636a88ee4d3a3b62e844f37f480edf6af1ebf3d7412de7eb810",
+        "sha256": "adb706472910e5944d0fe7d8dc70f20069d63fd4808d2e4c2cd0e1dc781380f0",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 8,
+      "en": {
+        "id": 1129,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/8-google-bonsai/",
+        "title": "Part 8: How close are we to Google and the Bonsai results?",
+        "sha256": "b4e2068c99977fd8c310891c9f3c9b1b3466ac0a89912897fc6d8536b858fe73",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1097,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+        "before_sha256": "91ccc08bee29f9264cb657ded8d1df1b22d91ee1e9d81c9baa1451fa9fdbddac",
+        "sha256": "60e82520ecf7220957d8955597203552ea7a7ebbdeb366d1aaec7ce6803bfb4e",
+        "status": "publish"
+      }
+    },
+    {
+      "part": 9,
+      "en": {
+        "id": 1130,
+        "parent": 1121,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage-en/9-next-step/",
+        "title": "Part 9: From a fast run to a reliable answer",
+        "sha256": "bd67e63dd594639fb6aa77039994209dfa74999fbe54a73871376fbc1d8d3a8e",
+        "status": "publish"
+      },
+      "nl": {
+        "id": 1098,
+        "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+        "before_sha256": "119d423cab127bf367ba1595eaff744d056001492052e7909304f9c81b37d856",
+        "sha256": "f1959a6312f887686e9a8c3f6935e4a6d44f4b9a95aea9ca412619308fddf5d1",
+        "status": "publish"
+      }
+    }
+  ],
+  "backup_path": "/var/www/vhosts/edukaizen.nl/private/nighthawk-bilingual-20260907T155342Z/backup.sql",
+  "menu_unchanged": true,
+  "menu_items_preserved": 99,
+  "unrelated_posts_preserved": 223,
+  "completed_utc": "2026-09-07T15:53:49+00:00"
+}

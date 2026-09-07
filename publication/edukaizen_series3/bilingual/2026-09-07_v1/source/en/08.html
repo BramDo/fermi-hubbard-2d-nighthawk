@@ -1,0 +1,23 @@
+<p>For a small project, it is useful to look beyond our own previous run. What do larger research groups publish for comparable lattices? The useful question is not who quotes the most impressive qubit count, but which observables were measured, under what conditions, and how the reference was obtained.</p>
+<h2>Google prominently features 5x5, but also provides 6x6 data</h2>
+<p>Many extensively discussed figures in the Google/Phasecraft publication concern 5x5. Nevertheless, the public dataset also contains complete local Z and ZZ expectation values for 6x6. We used those data directly, without estimating points from images. See the <a href="https://arxiv.org/abs/2510.26845v2">paper</a> and <a href="https://zenodo.org/records/17881822">dataset</a>.</p>
+<p>Our selection is limited: a holon-stripe initial state, U=8, T=0.4, zero flux and two or three Trotter layers. From the Pauli moments, we calculate the same charge, spin and doublon observables as in our own analysis. Google's spin definition here is already n_up-n_down; an additional factor of two would be incorrect.</p>
+<h2>Local differences in the same units</h2>
+<p>Each row below is compared against its own model reference. Google uses TDVP chi2048 in this comparison, while we use the not-yet-converged chi64 reference. The values are RMS differences over all local sites.</p>
+<table>
+<thead><tr><th>Mitigated result</th><th>Charge</th><th>Spin</th><th>Doublons</th></tr></thead>
+<tbody>
+<tr><td>Google 5x5, two layers</td><td>0.01779</td><td>0.02280</td><td>0.01021</td></tr>
+<tr><td>Google 5x5, three layers</td><td>0.02431</td><td>0.04269</td><td>0.01841</td></tr>
+<tr><td>Google 6x6, two layers</td><td>0.02809</td><td>0.04478</td><td>0.02497</td></tr>
+<tr><td>Google 6x6, three layers</td><td>0.02661</td><td>0.08023</td><td>0.02971</td></tr>
+<tr><td>Our 6x6, original + TFLO</td><td>0.08389</td><td>0.09185</td><td>0.05080</td></tr>
+<tr><td>Our 6x6, compact + TFLO</td><td>0.10930</td><td>0.12586</td><td>0.06412</td></tr>
+</tbody>
+</table>
+<p>For the selected 6x6 two-layer comparison, our differences are approximately twice as large for spin and doublons and three times as large for charge. That is the same order of magnitude, not the same demonstrated quality. Our Hamiltonian includes diagonal hopping and our state has N=32; the selected Google 6x6 state has N=30 and t'=0.</p>
+<p>Google's reference is also fairly stable at this time point: increasing chi1024 to chi2048 changes the 6x6 spin profile by approximately 0.00021 RMS. This is not a strict error certificate, but it is much smaller than the reported hardware differences. The comparison therefore has more substance than simply noting that both projects use a 6x6 lattice.</p>
+<h2>Bonsai addresses another question</h2>
+<p>The <a href="https://arxiv.org/abs/2608.25024">heavy-hex publication by Esposito and colleagues</a> combines hardware-dependent mapping and Hamiltonian simulation up to 6x6. The Boston processor used there is Heron r3, not Nighthawk. A mapping that works well on that connectivity must be reassessed on our hardware. Nor can a different U, time point or integration scheme be turned into our target task through simple normalisation.</p>
+<h2>A fair assessment</h2>
+<p>This comparison does not make our result worthless. With limited resources, we have a working 72-mode implementation, a substantial validation archive and mitigated observables within a relevant order of magnitude. The responsible next step is to learn from this, not to claim the title 'best 6x6' in advance. The complete conversion and its metadata warnings are stored under google_conversion_2026-09-07_v1 in our repository.</p>
