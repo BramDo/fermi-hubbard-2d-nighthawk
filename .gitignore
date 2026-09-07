@@ -29,3 +29,6 @@ tmp/
 *.synctex.gz
 *.bbl
 *.blg
+
+# Local public-page snapshots; checks and exact article HTML are tracked.
+/publication/edukaizen_series3/releases/*/live_*.html

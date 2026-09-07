@@ -1,0 +1,169 @@
+{
+  "release": "series3-2026-09-07-v1",
+  "status": "IN_PROGRESS",
+  "pages": [
+    {
+      "part": 0,
+      "id": 1089,
+      "parent": 0,
+      "title": "2D Local Quantum Advantage",
+      "slug": "2d-local-quantum-advantage",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "sha256": "78675b8122da4b2bff4b7eafa9c2d0c647111b8435a0d0000e126ff8a57c05fd",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "status": "publish"
+    },
+    {
+      "part": 1,
+      "id": 1090,
+      "parent": 1089,
+      "title": "Deel 1: Een laptop als tegenstander: ons Nighthawk-project",
+      "slug": "1-laptop-versus-quantumcomputer",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "sha256": "5d4976be602f4e5b480323a5b5c089f3169a5740f5f301fbe03a0dc760ef9a7c",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "status": "publish"
+    },
+    {
+      "part": 2,
+      "id": 1091,
+      "parent": 1089,
+      "title": "Deel 2: Wat betekent U=8-dynamica? Het volledige fermionmodel",
+      "slug": "2-fermionmodel",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "sha256": "3582d8ae5bb6482981673718592fffef329cc9ac7be8b37a254b0d50db7e73cc",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "status": "publish"
+    },
+    {
+      "part": 3,
+      "id": 1092,
+      "parent": 1089,
+      "title": "Deel 3: Van 2D-rooster naar hardware: mapping en circuitdiepte",
+      "slug": "3-mapping-circuitdiepte",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "sha256": "77e538dfd84db8de4020d9b8ddcb2149b8eb231c59106e5b23a35a6e76763ddc",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "status": "publish"
+    },
+    {
+      "part": 4,
+      "id": 1093,
+      "parent": 1089,
+      "title": "Deel 4: Kleine pilots: ligt het aan shots of aan het circuit?",
+      "slug": "4-pilots-shots-ruis",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "sha256": "5c9926ba24c26fd612e94bfce99e9435a689395f5c1a2e395f215bfbc907f6b3",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "status": "publish"
+    },
+    {
+      "part": 5,
+      "id": 1094,
+      "parent": 1089,
+      "title": "Deel 5: Readout, ZNE, PEC en TFLO: wat hebben we werkelijk gebruikt?",
+      "slug": "5-foutmitigatie",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "sha256": "53a15886f8fb4922c899c15585334c63460cd34142ffbcf3f294667dc9e29591",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "status": "publish"
+    },
+    {
+      "part": 6,
+      "id": 1095,
+      "parent": 1089,
+      "title": "Deel 6: Onze 6x6-resultaten: lading, spin en doublons",
+      "slug": "6-resultaten",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "sha256": "2d0bdf450025a2438c55fa0ee06d394466c6357d72351846378ce34fcf183b1f",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "status": "publish"
+    },
+    {
+      "part": 7,
+      "id": 1096,
+      "parent": 1089,
+      "title": "Deel 7: Circa 20x: onze lokale snelheidsmijlpaal precies uitgelegd",
+      "slug": "7-snelheidswinst",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "sha256": "f671e6d55b53a636a88ee4d3a3b62e844f37f480edf6af1ebf3d7412de7eb810",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "status": "publish"
+    },
+    {
+      "part": 8,
+      "id": 1097,
+      "parent": 1089,
+      "title": "Deel 8: Hoe dicht zitten we bij Google en de Bonsai-resultaten?",
+      "slug": "8-google-bonsai",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "sha256": "91ccc08bee29f9264cb657ded8d1df1b22d91ee1e9d81c9baa1451fa9fdbddac",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "status": "publish"
+    },
+    {
+      "part": 9,
+      "id": 1098,
+      "parent": 1089,
+      "title": "Deel 9: Van een snelle run naar een betrouwbaar antwoord",
+      "slug": "9-volgende-stap",
+      "expected_url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "sha256": "119d423cab127bf367ba1595eaff744d056001492052e7909304f9c81b37d856",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "status": "publish"
+    }
+  ],
+  "menu_items": [
+    {
+      "part": 0,
+      "id": 1109,
+      "parent": 0
+    },
+    {
+      "part": 1,
+      "id": 1110,
+      "parent": 1109
+    },
+    {
+      "part": 2,
+      "id": 1111,
+      "parent": 1109
+    },
+    {
+      "part": 3,
+      "id": 1112,
+      "parent": 1109
+    },
+    {
+      "part": 4,
+      "id": 1113,
+      "parent": 1109
+    },
+    {
+      "part": 5,
+      "id": 1114,
+      "parent": 1109
+    },
+    {
+      "part": 6,
+      "id": 1115,
+      "parent": 1109
+    },
+    {
+      "part": 7,
+      "id": 1116,
+      "parent": 1109
+    },
+    {
+      "part": 8,
+      "id": 1117,
+      "parent": 1109
+    },
+    {
+      "part": 9,
+      "id": 1118,
+      "parent": 1109
+    }
+  ],
+  "backup_path": "/var/www/vhosts/edukaizen.nl/private/series3-publish-20260907T142126Z/backup.sql"
+}

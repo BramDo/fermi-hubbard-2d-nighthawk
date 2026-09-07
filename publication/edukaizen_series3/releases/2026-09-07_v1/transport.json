@@ -1,0 +1,5 @@
+{
+  "remote_directory": "/var/www/vhosts/edukaizen.nl/private/series3-publish-20260907T142126Z",
+  "status": "STARTED",
+  "contains_database_backup_on_server_only": true
+}

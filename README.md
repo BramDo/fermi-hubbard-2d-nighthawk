@@ -19,8 +19,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,
   failed controls and alternative mappings stay visible.
-- [Edukaizen series 3 drafts](publication/edukaizen_series3/README.md): nine
-  Dutch articles and a hub, prepared locally; not published automatically.
+- [Edukaizen series 3](https://edukaizen.nl/2d-local-quantum-advantage/): nine
+  Dutch articles and a hub, published with explicit approval on 2026-09-07.
+  [Sources and publication receipts](publication/edukaizen_series3/README.md).
 - [Google comparison](results_cuprate_2d/google_conversion_2026-09-07_v1/DELIVERY.md):
   actual 5x5 and 6x6 public data, converted to the same observable definitions.
 - [Imported project README](archive/imported_root/README.md): the original
@@ -86,5 +87,6 @@ files are historical receipts, not reusable permission. Every new submission
 requires a fresh explicit backend, budget and shot authorization. Do not
 remove attempt markers or resubmit uncertain jobs. Never commit credentials.
 
-Series 3 is a draft package. Publishing WordPress pages, changing site menus,
-making this repository public or enabling GitHub Pages are separate actions.
+Series 3 was published on Edukaizen on 2026-09-07 after explicit approval.
+The repository remains private. Publishing future changes, making this
+repository public or enabling GitHub Pages require separate authorization.

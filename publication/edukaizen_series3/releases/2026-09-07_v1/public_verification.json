@@ -1,0 +1,158 @@
+{
+  "status": "PUBLIC_HTTP_VERIFIED",
+  "pages": [
+    {
+      "part": 0,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true,
+        "all_article_links": true
+      }
+    },
+    {
+      "part": 1,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 2,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 3,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 4,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 5,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 6,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 7,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 8,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    },
+    {
+      "part": 9,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "checks": {
+        "status_code": 200,
+        "has_series_content": true,
+        "has_title": true,
+        "has_nav": true,
+        "no_draft_marker": true,
+        "no_old_hub_link": true,
+        "no_raw_latex_shortcode": true,
+        "mathjax_script": true
+      }
+    }
+  ],
+  "homepage_link": true,
+  "existing_menu_fields_and_relative_order_unchanged": true,
+  "computed_menu_position_changes": [
+    {
+      "id": 452,
+      "title": "Advantage List",
+      "before": 88,
+      "after": 98,
+      "stored_menu_order": 1000
+    }
+  ],
+  "publication": "series3-2026-09-07-v1"
+}

@@ -51,4 +51,6 @@ uitgevoerd. Exact N32 is een modelconstraint, niet een gemeten hardwarewaarde.
 - results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json
 - results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json
 
-Verdere hardwaregebruikstoestemming: geen. Publicatiestatus serie3: concept.
+Verdere hardwaregebruikstoestemming: geen. Publicatiestatus serie3: gepubliceerd
+op 2026-09-07 onder [2D Local Quantum Advantage](https://edukaizen.nl/2d-local-quantum-advantage/).
+De repository blijft prive; dit verandert de validatiestatus van de resultaten niet.
