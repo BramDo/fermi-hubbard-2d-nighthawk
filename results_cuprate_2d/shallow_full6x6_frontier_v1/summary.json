@@ -1,0 +1,314 @@
+{
+  "status": "OFFLINE_FRONTIER_CANDIDATES_VERIFIED",
+  "tests": 14,
+  "candidates": [
+    {
+      "policy": "distance",
+      "routing_fswaps": 7086,
+      "modewise_order_verified": true,
+      "qpy": "circuits/distance_twirl0.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31506,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 1.9431830252869846e-13,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27704,
+        "sx": 19194,
+        "cz": 15717,
+        "x": 7892,
+        "measure": 72
+      },
+      "cz": 15717,
+      "physical_X_SX": 27086,
+      "depth": 12395,
+      "CZ_depth": 4094,
+      "snapshot_unaligned_duration_seconds": 0.0004390119999999341,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "policy": "critical",
+      "routing_fswaps": 7054,
+      "modewise_order_verified": true,
+      "qpy": "circuits/critical_twirl0.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 1.4717807101875486e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27671,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7917,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27077,
+      "depth": 11841,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.00041997199999994076,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "policy": "asap",
+      "routing_fswaps": 7268,
+      "modewise_order_verified": true,
+      "qpy": "circuits/asap_twirl0.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 32222,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 5.05440113631266e-13,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 28328,
+        "sx": 19663,
+        "cz": 16075,
+        "x": 8002,
+        "measure": 72
+      },
+      "cz": 16075,
+      "physical_X_SX": 27665,
+      "depth": 12021,
+      "CZ_depth": 4006,
+      "snapshot_unaligned_duration_seconds": 0.0004273479999999387,
+      "exact_edgewise_factor2_possible": false
+    }
+  ],
+  "best_frontier_policy": "critical",
+  "selected_twirl_metrics": [
+    {
+      "policy": "critical",
+      "routing_fswaps": 7054,
+      "modewise_order_verified": true,
+      "qpy": "circuits/critical_twirl0.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 1.4717807101875486e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27671,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7917,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27077,
+      "depth": 11841,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.00041997199999994076,
+      "exact_edgewise_factor2_possible": false,
+      "twirl_id": 0
+    },
+    {
+      "twirl_id": 1,
+      "qpy": "circuits/selected_twirl1.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0658141036401503e-14,
+        "global_phase_error": 7.524229933961338e-13,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27698,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7921,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27081,
+      "depth": 11748,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.00041925199999994124,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 2,
+      "qpy": "circuits/selected_twirl2.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0658141036401503e-14,
+        "global_phase_error": 2.3989227054809306e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27519,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7862,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27022,
+      "depth": 11770,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.0004186919999999417,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 3,
+      "qpy": "circuits/selected_twirl3.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 1.4717807101875486e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27728,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7955,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27115,
+      "depth": 11748,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.0004178919999999417,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 4,
+      "qpy": "circuits/selected_twirl4.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 2.139176031601488e-13,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27773,
+        "sx": 19162,
+        "cz": 15685,
+        "x": 7890,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27052,
+      "depth": 11756,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.0004160999999999423,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 5,
+      "qpy": "circuits/selected_twirl5.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 5.490973357665433e-13,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27603,
+        "sx": 19162,
+        "cz": 15685,
+        "x": 7923,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27085,
+      "depth": 11764,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.0004182999999999417,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 6,
+      "qpy": "circuits/selected_twirl6.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0658141036401503e-14,
+        "global_phase_error": 1.7677618415310424e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27724,
+        "sx": 19164,
+        "cz": 15685,
+        "x": 7972,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27136,
+      "depth": 11784,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.0004187719999999415,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "twirl_id": 7,
+      "qpy": "circuits/selected_twirl7.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 31442,
+        "max_segment_error": 1.0780605716316238e-14,
+        "global_phase_error": 2.7145031374558747e-12,
+        "CZ_partial_order_preserved": true
+      },
+      "operations": {
+        "rz": 27520,
+        "sx": 19160,
+        "cz": 15685,
+        "x": 7874,
+        "measure": 72
+      },
+      "cz": 15685,
+      "physical_X_SX": 27034,
+      "depth": 11786,
+      "CZ_depth": 3914,
+      "snapshot_unaligned_duration_seconds": 0.00041985199999994093,
+      "exact_edgewise_factor2_possible": false
+    }
+  ],
+  "beats_existing_one_qubit_cleanup": false,
+  "original_baseline": {
+    "name": "original_factor1_twirl0",
+    "operations": {
+      "rz": 48923,
+      "x": 31593,
+      "sx": 18897,
+      "cz": 15400,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 50490,
+    "depth": 3241,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 9.973200000000324e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "existing_cleanup": {
+    "name": "compact_factor1_twirl0",
+    "qpy": "circuits/compact_factor1_twirl0.qpy",
+    "operations": {
+      "rz": 25275,
+      "sx": 18691,
+      "cz": 15400,
+      "x": 7533,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 26224,
+    "depth": 2030,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 7.225200000000045e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "CZ_reduction_fraction": -0.018506493506493582,
+  "duration_reduction_fraction": -3.2110054947251347,
+  "hardware_error_improvement_measured": false,
+  "hardware_submission_authorized": false,
+  "exact_72q_statevector_checked": false,
+  "full72_modewise_event_trace_verified": true,
+  "readout_mapping": "Use logical_output_layout and reordered readout mask stored in each QPY.",
+  "fold2_warning": "Do not assume edgewise exact factor2 folding if counts on some supports are odd.",
+  "elapsed_seconds": 151.510729859001
+}

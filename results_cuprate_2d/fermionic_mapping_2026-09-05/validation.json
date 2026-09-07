@@ -1,0 +1,432 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "fswap_includes_minus_for_double_occupation",
+      "value": 1.2246467991473532e-16,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_left_exact_reference_unitary",
+      "value": 7.459178622433537e-15,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_look4_exact_reference_unitary",
+      "value": 7.459178622433537e-15,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_look12_exact_reference_unitary",
+      "value": 7.459178622433537e-15,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "parallel_network_full_H_generator",
+      "value": 4.567571210145616e-09,
+      "threshold": 2e-07,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_unitarity",
+      "value": 5.329086631716563e-15,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_N_spin_0",
+      "value": 2.7382545410892716e-16,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_N_spin_1",
+      "value": 2.7382545410892716e-16,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "native_CZ_compilation_equivalence",
+      "value": 2.2796280797984175e-12,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x2_s2",
+      "value": 2.6645352591003757e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x2_s2",
+      "value": 2.886579864025407e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x2_s2",
+      "value": 1.9984014443252818e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x2_s4",
+      "value": 5.551115123125783e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x2_s4",
+      "value": 4.218847493575595e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x2_s4",
+      "value": 1.5543122344752192e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x2_s8",
+      "value": 1.1546319456101628e-14,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x2_s8",
+      "value": 4.6629367034256575e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x2_s8",
+      "value": 2.1094237467877974e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_second_order_2x2_0",
+      "value": 4.0755590255192855,
+      "threshold": 3.4,
+      "minimum": true,
+      "passed": true
+    },
+    {
+      "check": "network_second_order_2x2_1",
+      "value": 4.018762924606267,
+      "threshold": 3.4,
+      "minimum": true,
+      "passed": true
+    },
+    {
+      "check": "network_fine_dt_error_2x2",
+      "value": 0.0015968723677875548,
+      "threshold": 0.01,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x3_s2",
+      "value": 4.218847493575595e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x3_s2",
+      "value": 4.218847493575595e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x3_s2",
+      "value": 4.440892098500626e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x3_s4",
+      "value": 7.771561172376096e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x3_s4",
+      "value": 7.549516567451064e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x3_s4",
+      "value": 5.551115123125783e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "reference_sector_2x3_s8",
+      "value": 1.6209256159527285e-14,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "adaptive_sector_2x3_s8",
+      "value": 1.2434497875801753e-14,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_sector_2x3_s8",
+      "value": 8.659739592076221e-15,
+      "threshold": 2e-10,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_second_order_2x3_0",
+      "value": 4.057277910154073,
+      "threshold": 3.4,
+      "minimum": true,
+      "passed": true
+    },
+    {
+      "check": "network_second_order_2x3_1",
+      "value": 4.014266242987865,
+      "threshold": 3.4,
+      "minimum": true,
+      "passed": true
+    },
+    {
+      "check": "network_fine_dt_error_2x3",
+      "value": 0.0011247027340763383,
+      "threshold": 0.01,
+      "minimum": false,
+      "passed": true
+    },
+    {
+      "check": "network_MPS_vs_statevector",
+      "value": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "minimum": false,
+      "passed": true
+    }
+  ],
+  "dynamics": [
+    {
+      "lattice": "2x2",
+      "method": "reference",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.02799953604461378,
+      "charge_rmse": 5.15995272615255e-06,
+      "spin_z_rmse": 0.012283074139102942,
+      "double_occupancy_rmse": 0.005606731084098475
+    },
+    {
+      "lattice": "2x2",
+      "method": "adaptive",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.027999536044613443,
+      "charge_rmse": 5.1599527262635725e-06,
+      "spin_z_rmse": 0.012283074139102915,
+      "double_occupancy_rmse": 0.0056067310840984
+    },
+    {
+      "lattice": "2x2",
+      "method": "network",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.02006984025839965,
+      "charge_rmse": 0.00034386144406632656,
+      "spin_z_rmse": 0.0064010452499498015,
+      "double_occupancy_rmse": 0.003211435341233726
+    },
+    {
+      "lattice": "2x2",
+      "method": "reference",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.02887724215476275,
+      "charge_rmse": 1.7668963701450435e-05,
+      "spin_z_rmse": 0.017945876456244673,
+      "double_occupancy_rmse": 0.005346898589165119
+    },
+    {
+      "lattice": "2x2",
+      "method": "adaptive",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.028877242154762145,
+      "charge_rmse": 1.7668963701505946e-05,
+      "spin_z_rmse": 0.01794587645624423,
+      "double_occupancy_rmse": 0.005346898589165026
+    },
+    {
+      "lattice": "2x2",
+      "method": "network",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.026154702247134683,
+      "charge_rmse": 0.0006170434261261541,
+      "spin_z_rmse": 0.009843084855471059,
+      "double_occupancy_rmse": 0.005221882093900688
+    },
+    {
+      "lattice": "2x2",
+      "method": "reference",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.035575595740141235,
+      "charge_rmse": 2.5577205967325378e-05,
+      "spin_z_rmse": 0.026083527101965553,
+      "double_occupancy_rmse": 0.004805823428265523
+    },
+    {
+      "lattice": "2x2",
+      "method": "adaptive",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.03557559574014006,
+      "charge_rmse": 2.5577205967214356e-05,
+      "spin_z_rmse": 0.026083527101964658,
+      "double_occupancy_rmse": 0.004805823428265407
+    },
+    {
+      "lattice": "2x2",
+      "method": "network",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.03138282215756933,
+      "charge_rmse": 0.00029860082232635284,
+      "spin_z_rmse": 0.0023404994091510427,
+      "double_occupancy_rmse": 0.0028656291148289183
+    },
+    {
+      "lattice": "2x3",
+      "method": "reference",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.019038259858906965,
+      "charge_rmse": 0.00033335863791347694,
+      "spin_z_rmse": 0.005230742236966252,
+      "double_occupancy_rmse": 0.0022981019797788113
+    },
+    {
+      "lattice": "2x3",
+      "method": "adaptive",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.019038259858906535,
+      "charge_rmse": 0.00033335863791344084,
+      "spin_z_rmse": 0.0052307422369661915,
+      "double_occupancy_rmse": 0.002298101979778762
+    },
+    {
+      "lattice": "2x3",
+      "method": "network",
+      "steps": 2,
+      "time": 0.2,
+      "state_distance": 0.013446264490840657,
+      "charge_rmse": 0.0005756830085481119,
+      "spin_z_rmse": 0.0026663195279523306,
+      "double_occupancy_rmse": 0.0012164645237643643
+    },
+    {
+      "lattice": "2x3",
+      "method": "reference",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.02395152296806159,
+      "charge_rmse": 0.0006411135378199112,
+      "spin_z_rmse": 0.008270407558953427,
+      "double_occupancy_rmse": 0.002547867038982915
+    },
+    {
+      "lattice": "2x3",
+      "method": "adaptive",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.023951522968060694,
+      "charge_rmse": 0.0006411135378198597,
+      "spin_z_rmse": 0.008270407558953374,
+      "double_occupancy_rmse": 0.002547867038982869
+    },
+    {
+      "lattice": "2x3",
+      "method": "network",
+      "steps": 4,
+      "time": 0.4,
+      "state_distance": 0.018318026404054125,
+      "charge_rmse": 0.000908789439943779,
+      "spin_z_rmse": 0.004135310496665771,
+      "double_occupancy_rmse": 0.0021469067335024208
+    },
+    {
+      "lattice": "2x3",
+      "method": "reference",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.02213340225788767,
+      "charge_rmse": 0.0011966330468669076,
+      "spin_z_rmse": 0.004151970585837298,
+      "double_occupancy_rmse": 0.0011449098660956383
+    },
+    {
+      "lattice": "2x3",
+      "method": "adaptive",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.022133402257886656,
+      "charge_rmse": 0.0011966330468668957,
+      "spin_z_rmse": 0.004151970585836044,
+      "double_occupancy_rmse": 0.001144909866095548
+    },
+    {
+      "lattice": "2x3",
+      "method": "network",
+      "steps": 8,
+      "time": 0.8,
+      "state_distance": 0.01904931200195172,
+      "charge_rmse": 0.0011311543001114928,
+      "spin_z_rmse": 0.0025689094034212386,
+      "double_occupancy_rmse": 0.0006236304080247512
+    }
+  ],
+  "source_sha256": {
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_qiskit_circuit.py": "2a0ca7e431b9d79409063f173e5d8018092a7111dcf6f72fc9e38e563e9399ca",
+    "optimize_cuprate_2d_fermionic_mapping.py": "133bc2e6c98a78cd75c5a5807ee1fab879b35a28c196066f4b7fdd144f7eaa9c"
+  },
+  "boundary": "Small open-lattice checks. Network changes the second-order term ordering; adaptive is exact to reference."
+}

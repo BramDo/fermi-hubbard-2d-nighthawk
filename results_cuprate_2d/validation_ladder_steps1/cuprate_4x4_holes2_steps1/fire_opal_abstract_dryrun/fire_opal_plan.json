@@ -1,0 +1,232 @@
+{
+  "backend": "ibm_marrakesh",
+  "backend_transpile": {
+    "enabled": false
+  },
+  "claim_boundary": "Fire Opal route for diagonal 72q 2D Hubbard observables. Pairing observables require separate circuits.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 2,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 4,
+    "ly": 4,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "fire_opal_input_strategy": {
+    "abstract_for_fire_opal": true,
+    "backend_optimization_level": 1,
+    "backend_transpile": false,
+    "qasm_basis": "native",
+    "qasm_optimization_level": 0,
+    "recommendation": "preferred_for_next_fire_opal_validation",
+    "warnings": [
+      "none"
+    ]
+  },
+  "groups": {
+    "main": {
+      "circuit_count": 1,
+      "shots": 1024
+    },
+    "readout": {
+      "circuit_count": 2,
+      "shots": 4096
+    }
+  },
+  "model": "2d-cuprate-hubbard",
+  "qasm_basis": "native",
+  "qasm_manifest": "fire_opal_qasm_manifest.json",
+  "qasm_optimization_level": 0,
+  "readout_shots": 4096,
+  "records": [
+    {
+      "circuit_metadata": {
+        "logical_forward_steps": 1,
+        "model": "2d-cuprate-hubbard",
+        "observable_basis": "Z",
+        "role": "main"
+      },
+      "exported_summary": {
+        "clbits": 32,
+        "depth": 1694,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 2144,
+          "h": 672,
+          "measure": 32,
+          "rz": 216,
+          "s": 168,
+          "sdg": 168,
+          "x": 14
+        },
+        "qubits": 32,
+        "size": 3414
+      },
+      "group": "main",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 32,
+        "depth": 1694,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 2144,
+          "h": 672,
+          "measure": 32,
+          "rz": 216,
+          "s": 168,
+          "sdg": 168,
+          "x": 14
+        },
+        "qubits": 32,
+        "size": 3414
+      },
+      "path": "qasm/main_00_main.qasm",
+      "qasm": {
+        "basis": "native",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 0,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 32,
+          "depth": 1694,
+          "operation_counts": {
+            "barrier": 1,
+            "cx": 2144,
+            "h": 672,
+            "measure": 32,
+            "rz": 216,
+            "s": 168,
+            "sdg": 168,
+            "x": 14
+          },
+          "qubits": 32,
+          "size": 3414,
+          "two_qubit_count": 2144,
+          "two_qubit_depth": 1331
+        },
+        "qasm_characters": 47395
+      },
+      "role": "main"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "00000000000000000000000000000000",
+        "role": "readout_all0"
+      },
+      "exported_summary": {
+        "clbits": 32,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 32
+        },
+        "qubits": 32,
+        "size": 32
+      },
+      "group": "readout",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 32,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 32
+        },
+        "qubits": 32,
+        "size": 32
+      },
+      "path": "qasm/readout_00_readout_all0.qasm",
+      "qasm": {
+        "basis": "native",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 0,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 32,
+          "depth": 1,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 32
+          },
+          "qubits": 32,
+          "size": 32,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 1097
+      },
+      "role": "readout_all0"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "11111111111111111111111111111111",
+        "role": "readout_all1"
+      },
+      "exported_summary": {
+        "clbits": 32,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 32,
+          "x": 32
+        },
+        "qubits": 32,
+        "size": 64
+      },
+      "group": "readout",
+      "index": 1,
+      "logical_summary": {
+        "clbits": 32,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 32,
+          "x": 32
+        },
+        "qubits": 32,
+        "size": 64
+      },
+      "path": "qasm/readout_01_readout_all1.qasm",
+      "qasm": {
+        "basis": "native",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 0,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 32,
+          "depth": 2,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 32,
+            "x": 32
+          },
+          "qubits": 32,
+          "size": 64,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 1375
+      },
+      "role": "readout_all1"
+    }
+  ],
+  "route": "fire_opal_qasm",
+  "shots": 1024,
+  "submit_requested": false
+}

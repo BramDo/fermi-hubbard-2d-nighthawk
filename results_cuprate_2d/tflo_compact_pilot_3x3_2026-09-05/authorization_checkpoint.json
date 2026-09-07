@@ -1,0 +1,36 @@
+{
+  "checkpoint_id": "compact-tflo-single-job-max5s",
+  "checkpoint_type": "decision",
+  "checkpoint_reason": "explicit",
+  "awaiting": "new user authorization for exactly one compact pilot on ibm_phoenix, max 5 QPU seconds",
+  "verification_prework_done": [
+    "frozen 80 scalar inputs",
+    "80 bound QPY roundtrips",
+    "unchanged physics and old lock"
+  ],
+  "resume_contract": [
+    "explicit new authorization",
+    "successful fresh preflight",
+    "independent exactly-once lock",
+    "live ISA and cap recheck"
+  ],
+  "success_path": "after approval, prepare guarded one-shot dispatch; no batch, session, backend switch or automatic retry",
+  "issue_path": "preserve everything and report; no spend or implicit cap increase",
+  "execution_segment": {
+    "completed_tasks": [
+      "compact input preparation",
+      "prospective analysis freeze"
+    ],
+    "current_task": "fresh preflight then approval",
+    "cursor": "before hardware dispatch",
+    "resume_preconditions": [
+      "new authorization",
+      "preflight passed"
+    ],
+    "downstream_locked": true
+  },
+  "new_submission_authorized": false,
+  "execution_attempted": false,
+  "quantum_seconds_used": 0,
+  "legacy_runner_warning": "run_cuprate_2d_tflo_once.py is intentionally locked to the already-used old plan; do not change its constants or remove its lock"
+}

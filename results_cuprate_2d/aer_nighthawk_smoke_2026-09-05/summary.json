@@ -1,0 +1,9 @@
+{
+  "status": "PASS_feasibility_only",
+  "noisy_shots": 8,
+  "run_wall_seconds": 13.107319766000728,
+  "qpu_seconds": 0,
+  "noise_off_max_pauli_error": 1.7541523789077473e-14,
+  "quality_not_established": true,
+  "linear_512_shot_projection_seconds_not_benchmark": 838.8684650240466
+}

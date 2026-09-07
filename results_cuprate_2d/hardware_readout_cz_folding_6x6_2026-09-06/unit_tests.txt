@@ -1,0 +1,22 @@
+test_ambiguous_no_retry (test_hardware_6x6_rocz.Hardware6Tests.test_ambiguous_no_retry) ... ok
+test_bad_allocation (test_hardware_6x6_rocz.Hardware6Tests.test_bad_allocation) ... ok
+test_bad_embedding (test_hardware_6x6_rocz.Hardware6Tests.test_bad_embedding) ... ok
+test_bad_masks (test_hardware_6x6_rocz.Hardware6Tests.test_bad_masks) ... ok
+test_bit_order_72 (test_hardware_6x6_rocz.Hardware6Tests.test_bit_order_72) ... ok
+test_cap_options (test_hardware_6x6_rocz.Hardware6Tests.test_cap_options) ... ok
+test_confirmation (test_hardware_6x6_rocz.Hardware6Tests.test_confirmation) ... ok
+test_dispatch_lock_and_single_post (test_hardware_6x6_rocz.Hardware6Tests.test_dispatch_lock_and_single_post) ... ok
+test_duplicate (test_hardware_6x6_rocz.Hardware6Tests.test_duplicate) ... ok
+test_embedding_72_order_and_qpy (test_hardware_6x6_rocz.Hardware6Tests.test_embedding_72_order_and_qpy) ... ok
+test_linear_weights_vs_lstsq (test_hardware_6x6_rocz.Hardware6Tests.test_linear_weights_vs_lstsq) ... ok
+test_readout_inverse_vs_confusion_matrix (test_hardware_6x6_rocz.Hardware6Tests.test_readout_inverse_vs_confusion_matrix) ... ok
+test_records_counts (test_hardware_6x6_rocz.Hardware6Tests.test_records_counts) ... ok
+test_small_full_network_compilation_twirling_folding (test_hardware_6x6_rocz.Hardware6Tests.test_small_full_network_compilation_twirling_folding) ... ok
+test_unstable_readout_refused (test_hardware_6x6_rocz.Hardware6Tests.test_unstable_readout_refused) ... ok
+test_wrong_cap_or_authority_no_send (test_hardware_6x6_rocz.Hardware6Tests.test_wrong_cap_or_authority_no_send) ... ok
+test_zero_and_occupied_pair_bounds (test_hardware_6x6_rocz.Hardware6Tests.test_zero_and_occupied_pair_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 5.236s
+
+OK

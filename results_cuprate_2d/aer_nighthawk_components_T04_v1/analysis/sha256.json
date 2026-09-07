@@ -1,0 +1,9 @@
+{
+  "bootstrap_draws.npz": "5f96e5656dd3266e03ee7904e5398d2d090dcff250890a125dd95e7abbda8cd7",
+  "REPORT.md": "6ec0187c3d7f4ec3e594cdf62f984e0ec7e2815e5a3ab5be8a8d1255bc3da8bf",
+  "results.json": "b3c320b87c472e24b5fbcf3fbd976320fbe65621608796ff29fdf14742e0c5e8",
+  "unit_tests.txt": "1bcc4ae4f7b210cbfcd3c689be876fc7a1d61ffc25397be7bc365dd4ef5b445b",
+  "verification.json": "e62d7dd6cbfeefec5150fd26e7726890586a3d171d9d9438a934dbbc8af73e38",
+  "source_snapshot/analyze_aer_noise_components.py": "cb2e17fd4873728697c032c61cbe2cdf3206eae782666d849eb9776e541cbbf0",
+  "source_snapshot/test_analyze_aer_noise_components.py": "2dc85308d842cbc4aa2e6ff8d5341cef6ffa4ff4467d13df715666974cacf71e"
+}

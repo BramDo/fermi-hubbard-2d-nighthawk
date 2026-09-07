@@ -1,0 +1,68 @@
+{
+  "validation_passed": true,
+  "thresholds": {
+    "rmse": 0.001,
+    "maximum_site_difference": 0.005,
+    "particle_number_drift": 0.01,
+    "minimum_retained_norm_weight": 0.99
+  },
+  "comparisons": [
+    {
+      "chi_low": 16,
+      "chi_high": 32,
+      "differences": {
+        "charge": {
+          "rmse": 0.009052444959461467,
+          "max_abs": 0.019878108936637606
+        },
+        "spin_z": {
+          "rmse": 0.05602732252314545,
+          "max_abs": 0.08301594637920717
+        },
+        "double_occupancy": {
+          "rmse": 0.023222637799942866,
+          "max_abs": 0.0348230370652553
+        }
+      },
+      "passes_screening_thresholds": false
+    },
+    {
+      "chi_low": 32,
+      "chi_high": 64,
+      "differences": {
+        "charge": {
+          "rmse": 0.004612118513007738,
+          "max_abs": 0.01081703052744798
+        },
+        "spin_z": {
+          "rmse": 0.024367997916044864,
+          "max_abs": 0.03563545040095062
+        },
+        "double_occupancy": {
+          "rmse": 0.009706086992746612,
+          "max_abs": 0.014237447161026595
+        }
+      },
+      "passes_screening_thresholds": false
+    }
+  ],
+  "two_consecutive_refinements_pass": false,
+  "case_count": 3,
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 20000
+  },
+  "claim_boundary": "Finite-chi circuit convergence screening, not an exact 6x6 Hamiltonian reference. Independent dt convergence is also required.",
+  "hardware_submission_allowed_by_this_script": false
+}

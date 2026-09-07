@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "efa703db787ecec29f92ec487cd0ca61c04bfaed0a03324c7a9269f6c7c88ee6",
+  "source_sha256": {
+    "analyze_hardware_compact_tflo.py": "7f1399b8b36e15c736bf21eebaecb4758b71615dade4a18f9871f98d0168751a",
+    "test_analysis_hardware_compact_tflo.py": "5090e2e3395d58319f3e52a31bea1f213cc1b121867cb0f3e20bf02c17ad9418",
+    "analyze_tflo_dd6.py": "ed5b56cd8d48cfa5aa0556fb8ca98e6279bef5ac1c0ed66d2176282f244dc4c1",
+    "cuprate_2d_hardware_controls.py": "dd82e570f7cd97f29ad04ec38f55c21295696794becb00207a5a2802cf28c98d"
+  },
+  "tests_passed": 19,
+  "plan_sha256": "edfc322feba5b38b16cd161af314eb1113fd0828440ffb43b8c45bbe294aedf8",
+  "frozen_before_submission": true,
+  "created_unix": 1788764922.410462
+}

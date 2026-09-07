@@ -1,0 +1,29 @@
+{
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "diagnostics": {
+    "elapsed_seconds": 0.28734081499715103,
+    "final_total_charge": 32.00000000000001,
+    "final_total_spin_z": -1.1136924715771102e-15,
+    "initial_total_charge": 32.0,
+    "initial_total_spin_z": 0.0,
+    "internal_dt": 0.005,
+    "internal_steps": 20,
+    "max_abs_charge_change": 0.02111318477873159,
+    "max_abs_spin_change": 0.07450506962192582,
+    "mean_final_double_occupancy_mean_field": 0.023966776259171752
+  }
+}

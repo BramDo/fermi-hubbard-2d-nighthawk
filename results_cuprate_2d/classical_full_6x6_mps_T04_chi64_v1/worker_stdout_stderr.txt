@@ -1,0 +1,25 @@
+{"chi": 64, "threads": 1, "completed_layers": 12, "total_layers": 288, "updates": 426, "seconds": 0.7399237960016762, "max_bond": 8, "log_retained_norm": 2.886579864025399e-15, "rss_bytes": 324685824}
+{"chi": 64, "threads": 1, "completed_layers": 24, "total_layers": 288, "updates": 852, "seconds": 1.740383346001181, "max_bond": 64, "log_retained_norm": -3.611777501645285e-08, "rss_bytes": 330407936}
+{"chi": 64, "threads": 1, "completed_layers": 36, "total_layers": 288, "updates": 1278, "seconds": 4.822222719001729, "max_bond": 64, "log_retained_norm": -4.2857288191410974e-08, "rss_bytes": 335732736}
+{"chi": 64, "threads": 1, "completed_layers": 48, "total_layers": 288, "updates": 1704, "seconds": 10.161973918999138, "max_bond": 64, "log_retained_norm": -0.0018908147999928437, "rss_bytes": 340619264}
+{"chi": 64, "threads": 1, "completed_layers": 60, "total_layers": 288, "updates": 2130, "seconds": 16.830628702002286, "max_bond": 64, "log_retained_norm": -0.007017351563931704, "rss_bytes": 340893696}
+{"chi": 64, "threads": 1, "completed_layers": 72, "total_layers": 288, "updates": 2556, "seconds": 23.828249239999423, "max_bond": 64, "log_retained_norm": -0.015291620057329865, "rss_bytes": 341229568}
+{"chi": 64, "threads": 1, "completed_layers": 84, "total_layers": 288, "updates": 2982, "seconds": 30.54502605000016, "max_bond": 64, "log_retained_norm": -0.017918016538781636, "rss_bytes": 341082112}
+{"chi": 64, "threads": 1, "completed_layers": 96, "total_layers": 288, "updates": 3408, "seconds": 37.071286029000476, "max_bond": 64, "log_retained_norm": -0.028044342403451612, "rss_bytes": 340942848}
+{"chi": 64, "threads": 1, "completed_layers": 108, "total_layers": 288, "updates": 3834, "seconds": 44.04758998300167, "max_bond": 64, "log_retained_norm": -0.05947255536028917, "rss_bytes": 341295104}
+{"chi": 64, "threads": 1, "completed_layers": 120, "total_layers": 288, "updates": 4260, "seconds": 51.52521276100015, "max_bond": 64, "log_retained_norm": -0.1059380322996974, "rss_bytes": 341147648}
+{"chi": 64, "threads": 1, "completed_layers": 132, "total_layers": 288, "updates": 4686, "seconds": 58.96988511900054, "max_bond": 64, "log_retained_norm": -0.18130598926660405, "rss_bytes": 340713472}
+{"chi": 64, "threads": 1, "completed_layers": 144, "total_layers": 288, "updates": 5112, "seconds": 65.92103250999935, "max_bond": 64, "log_retained_norm": -0.2639941950226427, "rss_bytes": 340824064}
+{"chi": 64, "threads": 1, "completed_layers": 156, "total_layers": 288, "updates": 5538, "seconds": 72.82034255200051, "max_bond": 64, "log_retained_norm": -0.4128472186501688, "rss_bytes": 340951040}
+{"chi": 64, "threads": 1, "completed_layers": 168, "total_layers": 288, "updates": 5964, "seconds": 79.41101267699923, "max_bond": 64, "log_retained_norm": -0.6008348373561132, "rss_bytes": 341090304}
+{"chi": 64, "threads": 1, "completed_layers": 180, "total_layers": 288, "updates": 6390, "seconds": 85.91973933900226, "max_bond": 64, "log_retained_norm": -0.7696799906522133, "rss_bytes": 340987904}
+{"chi": 64, "threads": 1, "completed_layers": 192, "total_layers": 288, "updates": 6816, "seconds": 92.63579151299928, "max_bond": 64, "log_retained_norm": -0.8888835486798189, "rss_bytes": 341037056}
+{"chi": 64, "threads": 1, "completed_layers": 204, "total_layers": 288, "updates": 7242, "seconds": 100.21358294500169, "max_bond": 64, "log_retained_norm": -0.9744562813323173, "rss_bytes": 341229568}
+{"chi": 64, "threads": 1, "completed_layers": 216, "total_layers": 288, "updates": 7668, "seconds": 108.22043343000041, "max_bond": 64, "log_retained_norm": -1.059322085395233, "rss_bytes": 340914176}
+{"chi": 64, "threads": 1, "completed_layers": 228, "total_layers": 288, "updates": 8094, "seconds": 115.94409656599964, "max_bond": 64, "log_retained_norm": -1.0782624271698953, "rss_bytes": 341721088}
+{"chi": 64, "threads": 1, "completed_layers": 240, "total_layers": 288, "updates": 8520, "seconds": 122.88381256499997, "max_bond": 64, "log_retained_norm": -1.134733040578469, "rss_bytes": 340971520}
+{"chi": 64, "threads": 1, "completed_layers": 252, "total_layers": 288, "updates": 8946, "seconds": 129.72630760299944, "max_bond": 64, "log_retained_norm": -1.2331597438646933, "rss_bytes": 340979712}
+{"chi": 64, "threads": 1, "completed_layers": 264, "total_layers": 288, "updates": 9372, "seconds": 136.95290183600082, "max_bond": 64, "log_retained_norm": -1.3124566139674507, "rss_bytes": 341090304}
+{"chi": 64, "threads": 1, "completed_layers": 276, "total_layers": 288, "updates": 9798, "seconds": 143.65705970199997, "max_bond": 64, "log_retained_norm": -1.4106214661158187, "rss_bytes": 341106688}
+{"chi": 64, "threads": 1, "completed_layers": 288, "total_layers": 288, "updates": 10224, "seconds": 150.47599572400213, "max_bond": 64, "log_retained_norm": -1.5252794954490607, "rss_bytes": 341499904}
+{"status": "COMPLETE", "kernel_seconds": 150.81918013700124, "number_error": -8.029653812968718e-07}

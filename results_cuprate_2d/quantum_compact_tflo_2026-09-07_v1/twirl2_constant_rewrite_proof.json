@@ -1,0 +1,8 @@
+{
+  "segments": 43736,
+  "max_segment_error": 6.684427777288335e-16,
+  "max_global_phase_error": 5.75621952003119e-12,
+  "symbolic_and_CZ_wire_anchors_unchanged": true,
+  "unique_synthesized_segments": 352,
+  "synthesis_max_abs": 7.447602459741819e-16
+}

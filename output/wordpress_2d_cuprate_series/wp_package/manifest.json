@@ -1,0 +1,73 @@
+{
+  "site": "https://edukaizen.nl",
+  "series": {
+    "title": "Fermi-Hubbard 2D cuprate series",
+    "slug": "fermi-hubbard-2d-cuprate-series",
+    "post_type": "page",
+    "excerpt": "Second Fermi-Hubbard project page: from the earlier 1D IBM/TDVP validation route to a 2D cuprate-oriented validation ladder with exact 3x3 checks, IBM and Fire Opal diagnostics, and 4x4/6x6 tensor baselines.",
+    "file": "series_page.html",
+    "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/"
+  },
+  "articles": [
+    {
+      "part": 1,
+      "title": "Fermi-Hubbard 2D cuprate series, part 1: from 1D to 2D",
+      "short_title": "Part 1: from 1D to 2D",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d",
+      "post_type": "post",
+      "excerpt": "The second Fermi-Hubbard series starts by carrying the validation discipline from the earlier 1D IBM/TDVP route into a 2D cuprate-oriented ladder.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/01_from_1d_to_2d.md",
+      "file": "articles/01.html"
+    },
+    {
+      "part": 2,
+      "title": "Fermi-Hubbard 2D cuprate series, part 2: 2D Hubbard, cuprates, and Google/Willow context",
+      "short_title": "Part 2: 2D Hubbard, cuprates, and Google/Willow context",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google",
+      "post_type": "post",
+      "excerpt": "The 2D route is motivated by the one-band Hubbard model as a minimal description of strongly correlated electrons in cuprate-like planes.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/02_2d_hubbard_cuprates_google.md",
+      "file": "articles/02.html"
+    },
+    {
+      "part": 3,
+      "title": "Fermi-Hubbard 2D cuprate series, part 3: our 3x3 implementation",
+      "short_title": "Part 3: our 3x3 implementation",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation",
+      "post_type": "post",
+      "excerpt": "The 3x3 run is not meant to be large-scale cuprate physics. It is the exact validation lab that makes the later hardware results interpretable.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/03_3x3_implementation.md",
+      "file": "articles/03.html"
+    },
+    {
+      "part": 4,
+      "title": "Fermi-Hubbard 2D cuprate series, part 4: time evolution and hardware diagnostics",
+      "short_title": "Part 4: time evolution and hardware diagnostics",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics",
+      "post_type": "post",
+      "excerpt": "The 3x3 hardware comparison shows the main diagnostic pattern: Fire Opal is cleaner than direct IBM, but sector survival still falls with time.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/04_time_evolution_and_hardware_diagnostics.md",
+      "file": "articles/04.html"
+    },
+    {
+      "part": 5,
+      "title": "Fermi-Hubbard 2D cuprate series, part 5: 4x4 hardware and tensor baselines",
+      "short_title": "Part 5: 4x4 hardware and tensor baselines",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines",
+      "post_type": "post",
+      "excerpt": "The 4x4 run is where exact ED stops being the comfortable reference route and tensor baselines become necessary.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/05_4x4_tensor_and_hardware.md",
+      "file": "articles/05.html"
+    },
+    {
+      "part": 6,
+      "title": "Fermi-Hubbard 2D cuprate series, part 6: 6x6 tensor baseline, IBM diagnostics, and Fire Opal Fez",
+      "short_title": "Part 6: 6x6 tensor baseline, IBM diagnostics, and Fire Opal Fez",
+      "slug": "fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status",
+      "post_type": "post",
+      "excerpt": "The 6x6 step reaches 72 qubits, but the current hardware result is still diagnostic: Fire Opal Fez improves strongly over IBM, while sector survival remains low.",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/06_6x6_tensor_ibm_fire_opal_status.md",
+      "file": "articles/06.html"
+    }
+  ]
+}

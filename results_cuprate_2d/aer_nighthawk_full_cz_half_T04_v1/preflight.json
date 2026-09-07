@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "twirl_id": 0,
+      "max_exact_error": 1.7541523789077473e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 1,
+      "max_exact_error": 1.8540724511240114e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 2,
+      "max_exact_error": 2.042810365310288e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 3,
+      "max_exact_error": 1.2101430968414206e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 4,
+      "max_exact_error": 1.609823385706477e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 5,
+      "max_exact_error": 1.5654144647214707e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 6,
+      "max_exact_error": 2.2648549702353193e-14,
+      "cz": 1008
+    },
+    {
+      "twirl_id": 7,
+      "max_exact_error": 1.587618925213974e-14,
+      "cz": 1008
+    }
+  ]
+}

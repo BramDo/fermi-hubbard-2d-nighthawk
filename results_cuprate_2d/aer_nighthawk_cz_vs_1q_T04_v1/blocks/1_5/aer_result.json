@@ -1,0 +1,319 @@
+{
+  "backend_name": "aer_simulator_statevector",
+  "backend_version": "0.17.2",
+  "date": "2026-09-06T09:28:53.900043",
+  "header": null,
+  "job_id": "6ae978f8-615b-4289-b750-1edfd9c6d7e1",
+  "status": "COMPLETED",
+  "success": true,
+  "results": [
+    {
+      "shots": 16,
+      "success": true,
+      "data": {
+        "z_10": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrq/HZ8ZGFj+3R6c9X87U+Wrz3L7p9EKpleXP7c96p+3QM0TIH5u+v1zBCsF/vdTQ6Kn5CwxzCNEAHcBjHg=="
+        },
+        "z_2": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrt+KDhEbTJ7bo9Mf7uRflUx4YL8nYPZSZ5WX9vMiz9WfKnyxHyavuWD7usiip3D18suP1+81frkfl3m4aABVe1sG"
+        },
+        "z_7": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrrnZ0r2Hzj2wR6cXSv3Tnvf7oX2H6Cy93VMe2XskfZhbIvwILt+5+6ppwJRrcL7RygpR9faHGOYQogEfI19V"
+        },
+        "z_3": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLrcDT/O0GR7ao9NHsuuZY8+92R9u+ZBZ798De6V379bXfb8Gl2dYFnQqfSVC/TG3aZKvO69hmEOIBgDnGFkx"
+        },
+        "zz_8": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLoEl4ecuCTzej07PDkhTXCX+eH9HSN7lQoHH9vp3+fe1vH8Ol49Y679VQgyhnrn/Teei/48wzCFEAwBU62Ea"
+        },
+        "z_12": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrtUKGV3uqs/t0Wmd50JfuMKe2xs+nybpzPXcvlWzY9uVd6/g8h88lddwhr6G848Ge59ffPIFhjmEaABhhlPc"
+        },
+        "z_4": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrut20zPV/z+zR6fj7SJT/b8+slc0X2Bw+vEz+8OWjGe0zV/D5Z88i210FXgO5x9dtZL9rsVbDHMI0QDqHl8l"
+        },
+        "zz_7": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrmYpjaN/Pt3dj0437bjksG3l3f3R1gXCWnfv7l/w7PGc7ex37GHys5b4/3/BhVBff7Z20ekpmOYQogH01Wuv"
+        },
+        "z_6": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrsN1duWapc/t0enk4GUVi2Oe26sdtWfhCn1prxjUviLw8BO4/Iq7D9nawl7sh/Gftz/b4bYE0xxCNAB+81kC"
+        },
+        "zz_3": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLg+ZqR5PeO/Zo9MWPA03Lsy8a39Pf1Fynsw9eysX6c+f2u/A5a8bJl4O23dhP4zP4R8R3jz5DoY5hGgAeLVT5w=="
+        },
+        "z_5": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrs2ei26p/X9mj047JnP3rTrxyn5qPmf14t8v7IMV1aOnmj6Gyx9d9vhk9y+E+v3rHplFyj3GMIcQDQA8SmSu"
+        },
+        "z_17": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLoPPG9+/PfVsPzp99OAP860Xn+3fZ7VfROPUM/sQPY41/lte2cPkJ7vaizw5ilBvIVyiZ/ER0xxCNADjKHQf"
+        },
+        "zz_6": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrs0Wdl9niD7ej07PXlg/f7rh4/2ViuZl3N6P9/txfGp+1fwALq/8yHqVsNJDOP9p+86V2oyY5hCiAYeRYVY="
+        },
+        "z_9": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrp6tfz9y3T27H52evPCY9f9XN/bPSennEBa6u9/8q8oOGf2bcPnvYZO2ZwVdhfP1rCPSRDdfwTCHEA0AvxhuyA=="
+        },
+        "zz_5": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrk/n11xRe3l3Pzp9bnZgzU/3u/szuA0e/Zhwb7/JS8etE3Yj5C/9sjb13onglxw65+1ahGkOIRoAS3N0yg=="
+        },
+        "z_0": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDro32+34KfHy2H502u1JsJXXw0X7hr11e5/a8sm9iUOB+GfQaLn+q0yNHVBPBf1vzZOM75dcY5hCiAcvda70="
+        },
+        "zz_1": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLia+W7vqDO/Zo9NV5Z/+CNy8s1/h/6EvH9/csd/7r+33FoGL+2HyNk3ct+tl7sLVH7Av/XOjDCFPLA0Ah+9aqw=="
+        },
+        "zz_0": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDru1BXEdviD+2x6Dr1/RODX5oH5R74NbPGTf3OyVcTc8NewiXn9+6bvluJwT/PXvL4/WZDzHNIUADAOgsXVo="
+        },
+        "z_14": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDroe9W4+aND/fj06vadBa4Vf9fP90rr7nQe3P9x8wufFYwuOVPUw+6yh/UfKNp3D1xk8+3JNPfIZhDiEaACQJbDw="
+        },
+        "z_13": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrp3u0f+qbj3bj04bS7flxm97tt/muvq/1OYX+zXefBft2/IILh+zhreiW+0xnH/Ubc59s++Y5hCiAS64bPU="
+        },
+        "z_15": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLu2Gkqypix/Yo9Pz7D/wbql8YH+4/7B8x/4H9jZ3uAPPJCDkZypNkZ3p9xDOX/JU/o7KNkxzCNEA+PFagQ=="
+        },
+        "z_8": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrsYFWkvmLnq3H52uUeb/9frE2/0r2Q7PVTj4bv++fydCbrC/gMtn/BXpa5n/Cs4/HuL46z3/awxzCNEAsMBprg=="
+        },
+        "zz_4": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrqoF6Un/Ys7ao9PtPmulNpVft9/G2lC9fe0d+5Dgrcs1VG7A5X9YNrl8KLkC5yfFRWjHLriMYQ4hGgCzKF3J"
+        },
+        "z_1": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrsyQzW7HeZ7vR6dXv/wy0z3k7f6GFzuNpr28v9+gm+uNRspjuHzeZ6Ot61IR/LT394uKJj7GMIcQDQAdRWJ2"
+        },
+        "z_11": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDLpf5Oali2x7sR6ebfY/PMrB9sP+BX9jNKSWP9kf94OjU6H8MlxcRi07Zthmh3ilj9pvm/IcY5hCiAQcMXvo="
+        },
+        "zz_2": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDriyX5k+rxR7bo9P5L7/E9G1+YL9nW80c702P7VWubl1zXv4hXD7y9x3BxdII9ZevMH9Q7XiIYQ4hGgArJF5V"
+        },
+        "z_16": {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGZjqaOgq1CuQDrv1/rFa26j63R6cfneDsrDB8bj/LQP7bZCD/Y83H9Q9a3uyHye+L/dBabo9Qz+pzbfKKT88wzCFEAwBGeGNV"
+        }
+      },
+      "meas_level": 2,
+      "header": {
+        "creg_sizes": [],
+        "global_phase": 3.795574285306614,
+        "memory_slots": 0,
+        "n_qubits": 18,
+        "name": "circuit-2023",
+        "qreg_sizes": [
+          [
+            "q",
+            18
+          ]
+        ],
+        "metadata": {
+          "family": "tflo_fixed_network",
+          "steps": 2,
+          "binding_rule": "step_time=T/steps; interaction_phase=U*T/steps",
+          "compile_before_bind": true,
+          "mode_order_restored": true,
+          "global_phase_canonicalization": "affine derivatives; no phase dropped",
+          "original_phase_text_length": 75268,
+          "twirl_seed": 202609055,
+          "readout_mask_little_endian": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "logical_to_physical": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            109,
+            108,
+            107,
+            106,
+            105,
+            104,
+            103,
+            102,
+            101,
+            111
+          ],
+          "one_qubit_cleanup": true,
+          "cleanup_before_binding": true,
+          "hardware_tested": false,
+          "phase_compaction_max_error": 7.275970622533224e-12,
+          "setting_id": "interacting_holdout_U8_T0.4",
+          "twirl_id": 5,
+          "tflo_record_index": 3,
+          "tflo_plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+          "tflo_protocol_sha256": "cfe212f3935c7c5952b56bd1217aea900ddffab29706c2630be6b8785f69ec5b",
+          "pilot_revision": "compact-one-qubit-v1",
+          "synthetic_aer": true
+        }
+      },
+      "status": "DONE",
+      "seed_simulator": 2026091105,
+      "metadata": {
+        "time_taken": 14.087135619,
+        "num_bind_params": 1,
+        "parallel_state_update": 1,
+        "required_memory_mb": 4,
+        "input_qubit_map": [],
+        "method": "statevector",
+        "device": "CPU",
+        "num_qubits": 18,
+        "active_input_qubits": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "num_clbits": 0,
+        "remapped_qubits": false,
+        "parallel_shots": 2,
+        "runtime_parameter_bind": false,
+        "max_memory_mb": 7942,
+        "noise": "circuit",
+        "measure_sampling": false,
+        "batched_shots_optimization": false,
+        "fusion": {
+          "applied": true,
+          "time_taken": 0.096815963,
+          "cost_factor": 1.8,
+          "parallelization": 1,
+          "max_fused_qubits": 5,
+          "method": "unitary",
+          "threshold": 14,
+          "enabled": true
+        },
+        "result_types": {
+          "zz_5": "save_expval",
+          "zz_1": "save_expval",
+          "zz_0": "save_expval",
+          "z_15": "save_expval",
+          "z_14": "save_expval",
+          "z_13": "save_expval",
+          "z_0": "save_expval",
+          "zz_4": "save_expval",
+          "z_8": "save_expval",
+          "z_1": "save_expval",
+          "zz_2": "save_expval",
+          "z_16": "save_expval",
+          "z_11": "save_expval",
+          "z_9": "save_expval",
+          "zz_6": "save_expval",
+          "z_17": "save_expval",
+          "z_5": "save_expval",
+          "zz_3": "save_expval",
+          "z_6": "save_expval",
+          "zz_7": "save_expval",
+          "z_4": "save_expval",
+          "z_12": "save_expval",
+          "zz_8": "save_expval",
+          "z_3": "save_expval",
+          "z_7": "save_expval",
+          "z_2": "save_expval",
+          "z_10": "save_expval"
+        },
+        "result_subtypes": {
+          "zz_5": "list",
+          "zz_1": "list",
+          "zz_0": "list",
+          "z_15": "list",
+          "z_14": "list",
+          "z_13": "list",
+          "z_0": "list",
+          "zz_4": "list",
+          "z_8": "list",
+          "z_1": "list",
+          "zz_2": "list",
+          "z_16": "list",
+          "z_11": "list",
+          "z_9": "list",
+          "zz_6": "list",
+          "z_17": "list",
+          "z_5": "list",
+          "zz_3": "list",
+          "z_6": "list",
+          "zz_7": "list",
+          "z_4": "list",
+          "z_12": "list",
+          "zz_8": "list",
+          "z_3": "list",
+          "z_7": "list",
+          "z_2": "list",
+          "z_10": "list"
+        }
+      },
+      "time_taken": 14.087135619
+    }
+  ],
+  "qobj_id": "",
+  "metadata": {
+    "time_taken_parameter_binding": 0.000792878,
+    "time_taken_execute": 14.087210844,
+    "omp_enabled": true,
+    "max_gpu_memory_mb": 0,
+    "max_memory_mb": 7942,
+    "parallel_experiments": 1
+  },
+  "time_taken": 14.206679105758667
+}

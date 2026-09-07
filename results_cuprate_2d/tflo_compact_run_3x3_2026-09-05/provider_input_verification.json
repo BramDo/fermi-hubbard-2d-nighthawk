@@ -1,0 +1,16 @@
+{
+  "job_id": "dae5gat1ierc738lmg10",
+  "all_circuits_match": true,
+  "all_result_metadata_match": true,
+  "scalar_pubs": 80,
+  "shots_per_pub": 64,
+  "total_shots": 5120,
+  "max_execution_time_verified": true,
+  "plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+  "protocol_sha256": "cfe212f3935c7c5952b56bd1217aea900ddffab29706c2630be6b8785f69ec5b",
+  "usage": {
+    "qpu_charge_time_seconds": 4,
+    "status": "complete"
+  },
+  "analysis_status": "pending frozen compact protocol; no automatic legacy analysis"
+}

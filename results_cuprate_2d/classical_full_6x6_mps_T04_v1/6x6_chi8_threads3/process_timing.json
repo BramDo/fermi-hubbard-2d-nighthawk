@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "cold_worker_seconds": 18.58307773600245,
+  "includes_imports": true,
+  "includes_Windows_WSL_launcher": false
+}

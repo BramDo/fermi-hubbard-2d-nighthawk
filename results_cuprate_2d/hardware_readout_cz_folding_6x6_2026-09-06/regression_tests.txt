@@ -1,0 +1,46 @@
+test_ambiguous_no_retry (test_hardware_6x6_rocz.Hardware6Tests.test_ambiguous_no_retry) ... ok
+test_bad_allocation (test_hardware_6x6_rocz.Hardware6Tests.test_bad_allocation) ... ok
+test_bad_embedding (test_hardware_6x6_rocz.Hardware6Tests.test_bad_embedding) ... ok
+test_bad_masks (test_hardware_6x6_rocz.Hardware6Tests.test_bad_masks) ... ok
+test_bit_order_72 (test_hardware_6x6_rocz.Hardware6Tests.test_bit_order_72) ... ok
+test_cap_options (test_hardware_6x6_rocz.Hardware6Tests.test_cap_options) ... ok
+test_confirmation (test_hardware_6x6_rocz.Hardware6Tests.test_confirmation) ... ok
+test_dispatch_lock_and_single_post (test_hardware_6x6_rocz.Hardware6Tests.test_dispatch_lock_and_single_post) ... ok
+test_duplicate (test_hardware_6x6_rocz.Hardware6Tests.test_duplicate) ... ok
+test_embedding_72_order_and_qpy (test_hardware_6x6_rocz.Hardware6Tests.test_embedding_72_order_and_qpy) ... ok
+test_linear_weights_vs_lstsq (test_hardware_6x6_rocz.Hardware6Tests.test_linear_weights_vs_lstsq) ... ok
+test_readout_inverse_vs_confusion_matrix (test_hardware_6x6_rocz.Hardware6Tests.test_readout_inverse_vs_confusion_matrix) ... ok
+test_records_counts (test_hardware_6x6_rocz.Hardware6Tests.test_records_counts) ... ok
+test_small_full_network_compilation_twirling_folding (test_hardware_6x6_rocz.Hardware6Tests.test_small_full_network_compilation_twirling_folding) ... ok
+test_unstable_readout_refused (test_hardware_6x6_rocz.Hardware6Tests.test_unstable_readout_refused) ... ok
+test_wrong_cap_or_authority_no_send (test_hardware_6x6_rocz.Hardware6Tests.test_wrong_cap_or_authority_no_send) ... ok
+test_zero_and_occupied_pair_bounds (test_hardware_6x6_rocz.Hardware6Tests.test_zero_and_occupied_pair_bounds) ... ok
+test_allocation_derived (test_hardware_6x6_quota.QuotaTests.test_allocation_derived) ... ok
+test_canonical_v1_lock_shared (test_hardware_6x6_quota.QuotaTests.test_canonical_v1_lock_shared) ... ok
+test_known_quota_below_cap_fails (test_hardware_6x6_quota.QuotaTests.test_known_quota_below_cap_fails) ... ok
+test_nan_or_negative_rejected (test_hardware_6x6_quota.QuotaTests.test_nan_or_negative_rejected) ... ok
+test_submit_authority_before_files_or_provider (test_hardware_6x6_quota.QuotaTests.test_submit_authority_before_files_or_provider) ... ok
+test_unknown_is_not_zero_or_unlimited (test_hardware_6x6_quota.QuotaTests.test_unknown_is_not_zero_or_unlimited) ... ok
+test_deadline_before_work (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_deadline_before_work) ... ok
+test_exact2x2_full_state_and_observables (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_exact2x2_full_state_and_observables) ... ok
+test_fermionic_sign_and_involution (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fermionic_sign_and_involution) ... ok
+test_fused_matrix_against_qiskit (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fused_matrix_against_qiskit) ... ok
+test_mu_rejected (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_mu_rejected) ... ok
+test_sizes_target_and_update_count (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_sizes_target_and_update_count) ... ok
+test_unitary (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_unitary) ... ok
+test_zeroU_polynomial_FLO_reference (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_zeroU_polynomial_FLO_reference) ... ok
+test_comparison_rejects_wrong_size_or_nonfinite (test_continue_fermionic_6x6_chi64.ContinuationTests.test_comparison_rejects_wrong_size_or_nonfinite) ... ok
+test_cpu_environment (test_continue_fermionic_6x6_chi64.ContinuationTests.test_cpu_environment) ... ok
+test_exclusive_write_preserves_first_value (test_continue_fermionic_6x6_chi64.ContinuationTests.test_exclusive_write_preserves_first_value) ... ok
+test_fixed_limits (test_continue_fermionic_6x6_chi64.ContinuationTests.test_fixed_limits) ... ok
+test_full_site_comparison (test_continue_fermionic_6x6_chi64.ContinuationTests.test_full_site_comparison) ... ok
+test_kernel_stop_independent_of_process (test_continue_fermionic_6x6_chi64.ContinuationTests.test_kernel_stop_independent_of_process) ... ok
+test_memory_stop_and_no_false_stop (test_continue_fermionic_6x6_chi64.ContinuationTests.test_memory_stop_and_no_false_stop) ... ok
+test_number_gate (test_continue_fermionic_6x6_chi64.ContinuationTests.test_number_gate) ... ok
+test_process_stop_with_no_kernel_marker (test_continue_fermionic_6x6_chi64.ContinuationTests.test_process_stop_with_no_kernel_marker) ... ok
+test_refuse_driver_with_existing_output (test_continue_fermionic_6x6_chi64.ContinuationTests.test_refuse_driver_with_existing_output) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 5.026s
+
+OK

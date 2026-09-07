@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "exact_3x3_direct_site_probability_max_abs": 2.1649348980190553e-15,
+  "six_by_six_Quimb_four_mode_operator_max_abs": 1.3322676295501878e-15,
+  "independent_pairs": [
+    {
+      "site_i": 0,
+      "site_j": 1,
+      "connected": -0.12248742686590963
+    },
+    {
+      "site_i": 0,
+      "site_j": 2,
+      "connected": -0.00041632524061252507
+    },
+    {
+      "site_i": 0,
+      "site_j": 3,
+      "connected": -0.0001424192835492999
+    },
+    {
+      "site_i": 7,
+      "site_j": 14,
+      "connected": -0.005839058529965413
+    },
+    {
+      "site_i": 14,
+      "site_j": 21,
+      "connected": -0.00016414495785917194
+    }
+  ],
+  "total_covariance_mixture_identity_max_abs": 3.3306690738754696e-16,
+  "between_time_covariance": {
+    "3x3_max_abs_between_time_covariance": 0.0708697376702888,
+    "6x6_max_abs_between_time_covariance": 0.12051298429816111
+  },
+  "old_inputs_sha256_verified": 28,
+  "analysis_hashes_verified": 24,
+  "source_sha256": "ff3feb90af81119da23c59b1375a78389708c59c702886b565ffb1e0d44ea9c4",
+  "verification_seconds": 1.761900956997124,
+  "note": "Verifies extraction and mixture arithmetic, NOT chi64 accuracy or quantum advantage."
+}

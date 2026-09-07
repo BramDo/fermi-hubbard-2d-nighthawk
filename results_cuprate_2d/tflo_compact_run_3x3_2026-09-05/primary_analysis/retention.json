@@ -1,0 +1,16 @@
+{
+  "filter_tolerance": 1,
+  "counts": {
+    "train_U0_T0": 175,
+    "train_U0_T0.1": 157,
+    "train_U0_T0.2": 182,
+    "train_U0_T0.3": 167,
+    "train_U0_T0.4": 181,
+    "train_U0_T0.5": 165,
+    "flo_holdout_U0_T0.15": 179,
+    "flo_holdout_U0_T0.35": 168,
+    "interacting_holdout_U8_T0.2": 141,
+    "interacting_holdout_U8_T0.4": 190
+  },
+  "minimum_required": 32
+}

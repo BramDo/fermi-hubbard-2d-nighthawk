@@ -1,0 +1,21 @@
+test_ambiguous_send_never_retried (test_hardware_readout_cz.HardwareTests.test_ambiguous_send_never_retried) ... ok
+test_arm_and_union_costs (test_hardware_readout_cz.HardwareTests.test_arm_and_union_costs) ... ok
+test_bad_allocation_rejected (test_hardware_readout_cz.HardwareTests.test_bad_allocation_rejected) ... ok
+test_bad_layout_rejected (test_hardware_readout_cz.HardwareTests.test_bad_layout_rejected) ... ok
+test_calibration_shared_inverse (test_hardware_readout_cz.HardwareTests.test_calibration_shared_inverse) ... ok
+test_duplicate_rejected (test_hardware_readout_cz.HardwareTests.test_duplicate_rejected) ... ok
+test_embed_nontrivial_layout_and_register (test_hardware_readout_cz.HardwareTests.test_embed_nontrivial_layout_and_register) ... ok
+test_literal_confirmation_before_work (test_hardware_readout_cz.HardwareTests.test_literal_confirmation_before_work) ... ok
+test_missing_authority_never_calls_send (test_hardware_readout_cz.HardwareTests.test_missing_authority_never_calls_send) ... ok
+test_options_hard_cap_no_builtin_mitigation (test_hardware_readout_cz.HardwareTests.test_options_hard_cap_no_builtin_mitigation) ... ok
+test_prediction_weights_identity_readout (test_hardware_readout_cz.HardwareTests.test_prediction_weights_identity_readout) ... ok
+test_records_counts (test_hardware_readout_cz.HardwareTests.test_records_counts) ... ok
+test_single_send_and_lock_precedes_post (test_hardware_readout_cz.HardwareTests.test_single_send_and_lock_precedes_post) ... ok
+test_unsupported_instruction_rejected (test_hardware_readout_cz.HardwareTests.test_unsupported_instruction_rejected) ... ok
+test_wrong_cap_never_calls_send (test_hardware_readout_cz.HardwareTests.test_wrong_cap_never_calls_send) ... ok
+test_wrong_shape_refused (test_hardware_readout_cz.HardwareTests.test_wrong_shape_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.090s
+
+OK

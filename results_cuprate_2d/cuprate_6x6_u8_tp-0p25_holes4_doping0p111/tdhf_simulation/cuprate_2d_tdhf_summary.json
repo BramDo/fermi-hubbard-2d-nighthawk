@@ -1,0 +1,31 @@
+{
+  "simulation_kind": "time_dependent_hartree_fock",
+  "claim_boundary": "Classical mean-field baseline only. Use DMRG/AFQMC/DCA or hardware off-diagonal correlator measurements for superconductivity claims.",
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 4,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 20000
+  },
+  "diagnostics": {
+    "elapsed_seconds": 0.4947640329992282,
+    "internal_dt": 0.005,
+    "internal_steps": 80,
+    "initial_total_charge": 32.0,
+    "final_total_charge": 32.0,
+    "initial_total_spin_z": 0.0,
+    "final_total_spin_z": -3.6637359812630166e-15,
+    "max_abs_charge_change": 0.23332937701818723,
+    "max_abs_spin_change": 0.45366556276627257,
+    "mean_final_double_occupancy_mean_field": 0.12303793657701718
+  }
+}

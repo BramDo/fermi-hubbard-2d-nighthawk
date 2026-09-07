@@ -1,0 +1,6 @@
+{
+  "all_2x2_hopping_intertwining_max_abs": 0.0,
+  "2x2_full_native_state_vs_original_max_abs": 7.093047387092099e-13,
+  "2x2_isometry_unitarity_max_abs": 0.0,
+  "phase_correction": "single Fock-input global phase only"
+}

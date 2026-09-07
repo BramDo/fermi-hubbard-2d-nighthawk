@@ -1,0 +1,42 @@
+[
+  {
+    "file": "circuits/native72_compact_parameterized.qpy",
+    "sha256": "30201e0ff45a90951245ade8e788816873bba5f9bd2711da66f4b69cb09358b6",
+    "bytes": 3842664,
+    "gzip": "git_qpy_mirrors/native72_compact_parameterized.qpy.gz",
+    "gzip_sha256": "c7f005e9c75718dd1501dd247610b7ff202e30f8755af87bcb1ab4d794b2f6a3",
+    "gzip_bytes": 71386
+  },
+  {
+    "file": "circuits/physical120_compact_parameterized_twirl0.qpy",
+    "sha256": "7255fa177b4ed24a157f8398f86f7a625999d21176eeae1dec74620c6eacef41",
+    "bytes": 5369497,
+    "gzip": "git_qpy_mirrors/physical120_compact_parameterized_twirl0.qpy.gz",
+    "gzip_sha256": "5fc65d9ec16633a5039de22d981c972f984ba0ca26805f22525606ae903060a5",
+    "gzip_bytes": 239286
+  },
+  {
+    "file": "circuits/physical120_compact_parameterized_twirl1.qpy",
+    "sha256": "9c9bee4cf6a83309abf0057e709680dc80b36fcb8d949ec923c67f6205522a2b",
+    "bytes": 5366268,
+    "gzip": "git_qpy_mirrors/physical120_compact_parameterized_twirl1.qpy.gz",
+    "gzip_sha256": "ba6b0090fe59250785fce92842ba4979becf51219a34b21586f3c56b90914813",
+    "gzip_bytes": 238753
+  },
+  {
+    "file": "circuits/physical120_compact_parameterized_twirl2.qpy",
+    "sha256": "f18be73676660509ee5412f6b372d39951bb1c6e8e25c40f6df4f12c73c05884",
+    "bytes": 5371873,
+    "gzip": "git_qpy_mirrors/physical120_compact_parameterized_twirl2.qpy.gz",
+    "gzip_sha256": "134ed555b90496a9eb3d0876c712bdeb64ed8795ef7afac98b833107cd1d7164",
+    "gzip_bytes": 239302
+  },
+  {
+    "file": "circuits/physical120_compact_parameterized_twirl3.qpy",
+    "sha256": "76ae60a41501d3e452d05c72f11f00d36e241e6b85786d8d41a739a18d9eb8e3",
+    "bytes": 5372937,
+    "gzip": "git_qpy_mirrors/physical120_compact_parameterized_twirl3.qpy.gz",
+    "gzip_sha256": "3dfc9f194c5b566a2e40742dcf90110d2319de38ccbd4bc0efb151d3a44041e2",
+    "gzip_bytes": 239214
+  }
+]

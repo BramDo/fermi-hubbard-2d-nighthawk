@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_CZ_VS_XSX_SCREEN",
+  "new_qpu_seconds": 0,
+  "scope": "128 trajectories per residual gate class; same eight twirls and finite circuit.",
+  "hash_counts": [
+    73,
+    5
+  ],
+  "verification": {
+    "status": "PASS",
+    "tests": 29,
+    "run_hashes_verified": 73,
+    "input_hashes_verified": 22,
+    "independent_max_physical_error": 6.661338147750939e-16
+  }
+}

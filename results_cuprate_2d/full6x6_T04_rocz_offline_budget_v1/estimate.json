@@ -1,0 +1,227 @@
+{
+  "status": "OFFLINE_ESTIMATE_ONLY_NO_JOB",
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "backend": "ibm_phoenix",
+  "calibration_updated": "2026-09-06 14:35:09+02:00",
+  "layout": [
+    87,
+    86,
+    96,
+    97,
+    107,
+    106,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    98,
+    99,
+    89,
+    88,
+    78,
+    79,
+    69,
+    68,
+    58,
+    59,
+    49,
+    48,
+    47,
+    57,
+    67,
+    77,
+    76,
+    66,
+    56,
+    46,
+    36,
+    37,
+    38,
+    39,
+    29,
+    19,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    111,
+    101,
+    91,
+    81,
+    71,
+    61,
+    51,
+    41,
+    31,
+    21,
+    11,
+    12,
+    22
+  ],
+  "factors": [
+    {
+      "factor": 1,
+      "cz": 15400,
+      "depth": 3241,
+      "unaligned_circuit_seconds": 9.973200000000324e-05,
+      "one_shot_seconds": 0.00010113200000000323
+    },
+    {
+      "factor": 2,
+      "cz": 30800,
+      "depth": 3896,
+      "unaligned_circuit_seconds": 0.00014814800000000194,
+      "one_shot_seconds": 0.00014954800000000195
+    },
+    {
+      "factor": 3,
+      "cz": 46200,
+      "depth": 4369,
+      "unaligned_circuit_seconds": 0.00017643599999999905,
+      "one_shot_seconds": 0.00017783599999999906
+    }
+  ],
+  "cases": [
+    {
+      "name": "808-shot union, like current small pilot",
+      "shots_per_factor": [
+        512,
+        56,
+        112
+      ],
+      "calibration_per_state": 64,
+      "total_shots": 808,
+      "shot_execution_seconds": 0.08050198400000166,
+      "estimated_qpu_seconds_by_subjobs": {
+        "1": 2.080501984000002,
+        "2": 4.080501984000001,
+        "3": 6.080501984000001,
+        "4": 8.080501984000001
+      }
+    },
+    {
+      "name": "512 per factor",
+      "shots_per_factor": [
+        512,
+        512,
+        512
+      ],
+      "calibration_per_state": 256,
+      "total_shots": 2048,
+      "shot_execution_seconds": 0.22112051200000216,
+      "estimated_qpu_seconds_by_subjobs": {
+        "1": 2.2211205120000024,
+        "2": 4.221120512000002,
+        "3": 6.221120512000002,
+        "4": 8.221120512000002
+      }
+    },
+    {
+      "name": "2048 per factor",
+      "shots_per_factor": [
+        2048,
+        2048,
+        2048
+      ],
+      "calibration_per_state": 512,
+      "total_shots": 7168,
+      "shot_execution_seconds": 0.8810414080000086,
+      "estimated_qpu_seconds_by_subjobs": {
+        "1": 2.8810414080000086,
+        "2": 4.881041408000009,
+        "3": 6.881041408000009,
+        "4": 8.881041408000009
+      }
+    },
+    {
+      "name": "4096 per factor",
+      "shots_per_factor": [
+        4096,
+        4096,
+        4096
+      ],
+      "calibration_per_state": 512,
+      "total_shots": 13312,
+      "shot_execution_seconds": 1.7586421760000173,
+      "estimated_qpu_seconds_by_subjobs": {
+        "1": 3.7586421760000173,
+        "2": 5.758642176000017,
+        "3": 7.758642176000017,
+        "4": 9.758642176000016
+      }
+    },
+    {
+      "name": "8192 per factor",
+      "shots_per_factor": [
+        8192,
+        8192,
+        8192
+      ],
+      "calibration_per_state": 1024,
+      "total_shots": 26624,
+      "shot_execution_seconds": 3.5172843520000345,
+      "estimated_qpu_seconds_by_subjobs": {
+        "1": 5.5172843520000345,
+        "2": 7.5172843520000345,
+        "3": 9.517284352000035,
+        "4": 11.517284352000035
+      }
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "authorization_to_increase_budget": false,
+  "reset_seconds": 4e-07,
+  "rep_delay": 1e-06,
+  "assumptions": [
+    "One representative explicit uncompressed Pauli twirl, not all8 compiled PUBs.",
+    "Saved calibration, not a fresh live ISA or faulty-qubit validation.",
+    "Unaligned ASAP timing; final alignment/scheduling may increase it.",
+    "Assumes recorded reset timing applies to all72 selected wires.",
+    "Internal subjob count is unknown;2s per subjob is approximate.",
+    "These are runtime scenarios, not a guaranteed invoice or accuracy prediction."
+  ],
+  "input_sha256": {
+    "estimate_6x6_rocz_budget.py": "2495b41de5eb0ab76a0d39a4f94c0e1d722d89399f67af860d4854d1a859aa3c",
+    "benchmark_fermionic_6x6_mps.py": "7ec7044206587f559a5959d04f2900e8dd1e2d5a2bf63a5612b7082aa49c12c8",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_preflight.json": "0a3393e6ea43c3f49c83b62c0c4a34c07085e5d5b8da4066e039e687c90d6096",
+    "results_cuprate_2d/fermionic_mapping_2026-09-05/steps2/plan.json": "7f0e6eb9a60e184436904b613c104000b0f3c1afbc682c6c31b7941815a908bd"
+  },
+  "local_preparation_seconds": 32.421706141998584
+}

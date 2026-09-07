@@ -1,0 +1,1803 @@
+{
+  "passed": true,
+  "checks_passed": 448,
+  "checks": [
+    {
+      "name": "CZ_partial_order_0",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_0",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_0",
+      "passed": true
+    },
+    {
+      "name": "native_counts_0",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_0",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_1",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_1",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_1",
+      "passed": true
+    },
+    {
+      "name": "native_counts_1",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_1",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_2",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_2",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_2",
+      "passed": true
+    },
+    {
+      "name": "native_counts_2",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_2",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_3",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_3",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_3",
+      "passed": true
+    },
+    {
+      "name": "native_counts_3",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_3",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_4",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_4",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_4",
+      "passed": true
+    },
+    {
+      "name": "native_counts_4",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_4",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_5",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_5",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_5",
+      "passed": true
+    },
+    {
+      "name": "native_counts_5",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_5",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_6",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_6",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_6",
+      "passed": true
+    },
+    {
+      "name": "native_counts_6",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_6",
+      "passed": true
+    },
+    {
+      "name": "CZ_partial_order_7",
+      "passed": true
+    },
+    {
+      "name": "measurement_map_7",
+      "passed": true
+    },
+    {
+      "name": "unbound_parameters_7",
+      "passed": true
+    },
+    {
+      "name": "native_counts_7",
+      "passed": true
+    },
+    {
+      "name": "unbound_cleanup_7",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_0",
+      "passed": true
+    },
+    {
+      "name": "structure_0",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_0",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_0",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_0",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_1",
+      "passed": true
+    },
+    {
+      "name": "structure_1",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_1",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_1",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_1",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_2",
+      "passed": true
+    },
+    {
+      "name": "structure_2",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_2",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_2",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_2",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_3",
+      "passed": true
+    },
+    {
+      "name": "structure_3",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_3",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_3",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_3",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_4",
+      "passed": true
+    },
+    {
+      "name": "structure_4",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_4",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_4",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_4",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_5",
+      "passed": true
+    },
+    {
+      "name": "structure_5",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_5",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_5",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_5",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_6",
+      "passed": true
+    },
+    {
+      "name": "structure_6",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_6",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_6",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_6",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_7",
+      "passed": true
+    },
+    {
+      "name": "structure_7",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_7",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_7",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_7",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_8",
+      "passed": true
+    },
+    {
+      "name": "structure_8",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_8",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_8",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_8",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_9",
+      "passed": true
+    },
+    {
+      "name": "structure_9",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_9",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_9",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_9",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_10",
+      "passed": true
+    },
+    {
+      "name": "structure_10",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_10",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_10",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_10",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_11",
+      "passed": true
+    },
+    {
+      "name": "structure_11",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_11",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_11",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_11",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_12",
+      "passed": true
+    },
+    {
+      "name": "structure_12",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_12",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_12",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_12",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_13",
+      "passed": true
+    },
+    {
+      "name": "structure_13",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_13",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_13",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_13",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_14",
+      "passed": true
+    },
+    {
+      "name": "structure_14",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_14",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_14",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_14",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_15",
+      "passed": true
+    },
+    {
+      "name": "structure_15",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_15",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_15",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_15",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_16",
+      "passed": true
+    },
+    {
+      "name": "structure_16",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_16",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_16",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_16",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_17",
+      "passed": true
+    },
+    {
+      "name": "structure_17",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_17",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_17",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_17",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_18",
+      "passed": true
+    },
+    {
+      "name": "structure_18",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_18",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_18",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_18",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_19",
+      "passed": true
+    },
+    {
+      "name": "structure_19",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_19",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_19",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_19",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_20",
+      "passed": true
+    },
+    {
+      "name": "structure_20",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_20",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_20",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_20",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_21",
+      "passed": true
+    },
+    {
+      "name": "structure_21",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_21",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_21",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_21",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_22",
+      "passed": true
+    },
+    {
+      "name": "structure_22",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_22",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_22",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_22",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_23",
+      "passed": true
+    },
+    {
+      "name": "structure_23",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_23",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_23",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_23",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_24",
+      "passed": true
+    },
+    {
+      "name": "structure_24",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_24",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_24",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_24",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_25",
+      "passed": true
+    },
+    {
+      "name": "structure_25",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_25",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_25",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_25",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_26",
+      "passed": true
+    },
+    {
+      "name": "structure_26",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_26",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_26",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_26",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_27",
+      "passed": true
+    },
+    {
+      "name": "structure_27",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_27",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_27",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_27",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_28",
+      "passed": true
+    },
+    {
+      "name": "structure_28",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_28",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_28",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_28",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_29",
+      "passed": true
+    },
+    {
+      "name": "structure_29",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_29",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_29",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_29",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_30",
+      "passed": true
+    },
+    {
+      "name": "structure_30",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_30",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_30",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_30",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_31",
+      "passed": true
+    },
+    {
+      "name": "structure_31",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_31",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_31",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_31",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_32",
+      "passed": true
+    },
+    {
+      "name": "structure_32",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_32",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_32",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_32",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_33",
+      "passed": true
+    },
+    {
+      "name": "structure_33",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_33",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_33",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_33",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_34",
+      "passed": true
+    },
+    {
+      "name": "structure_34",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_34",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_34",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_34",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_35",
+      "passed": true
+    },
+    {
+      "name": "structure_35",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_35",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_35",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_35",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_36",
+      "passed": true
+    },
+    {
+      "name": "structure_36",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_36",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_36",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_36",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_37",
+      "passed": true
+    },
+    {
+      "name": "structure_37",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_37",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_37",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_37",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_38",
+      "passed": true
+    },
+    {
+      "name": "structure_38",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_38",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_38",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_38",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_39",
+      "passed": true
+    },
+    {
+      "name": "structure_39",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_39",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_39",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_39",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_40",
+      "passed": true
+    },
+    {
+      "name": "structure_40",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_40",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_40",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_40",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_41",
+      "passed": true
+    },
+    {
+      "name": "structure_41",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_41",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_41",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_41",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_42",
+      "passed": true
+    },
+    {
+      "name": "structure_42",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_42",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_42",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_42",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_43",
+      "passed": true
+    },
+    {
+      "name": "structure_43",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_43",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_43",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_43",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_44",
+      "passed": true
+    },
+    {
+      "name": "structure_44",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_44",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_44",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_44",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_45",
+      "passed": true
+    },
+    {
+      "name": "structure_45",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_45",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_45",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_45",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_46",
+      "passed": true
+    },
+    {
+      "name": "structure_46",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_46",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_46",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_46",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_47",
+      "passed": true
+    },
+    {
+      "name": "structure_47",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_47",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_47",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_47",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_48",
+      "passed": true
+    },
+    {
+      "name": "structure_48",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_48",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_48",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_48",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_49",
+      "passed": true
+    },
+    {
+      "name": "structure_49",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_49",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_49",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_49",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_50",
+      "passed": true
+    },
+    {
+      "name": "structure_50",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_50",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_50",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_50",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_51",
+      "passed": true
+    },
+    {
+      "name": "structure_51",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_51",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_51",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_51",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_52",
+      "passed": true
+    },
+    {
+      "name": "structure_52",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_52",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_52",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_52",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_53",
+      "passed": true
+    },
+    {
+      "name": "structure_53",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_53",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_53",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_53",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_54",
+      "passed": true
+    },
+    {
+      "name": "structure_54",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_54",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_54",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_54",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_55",
+      "passed": true
+    },
+    {
+      "name": "structure_55",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_55",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_55",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_55",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_56",
+      "passed": true
+    },
+    {
+      "name": "structure_56",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_56",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_56",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_56",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_57",
+      "passed": true
+    },
+    {
+      "name": "structure_57",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_57",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_57",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_57",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_58",
+      "passed": true
+    },
+    {
+      "name": "structure_58",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_58",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_58",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_58",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_59",
+      "passed": true
+    },
+    {
+      "name": "structure_59",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_59",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_59",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_59",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_60",
+      "passed": true
+    },
+    {
+      "name": "structure_60",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_60",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_60",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_60",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_61",
+      "passed": true
+    },
+    {
+      "name": "structure_61",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_61",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_61",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_61",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_62",
+      "passed": true
+    },
+    {
+      "name": "structure_62",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_62",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_62",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_62",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_63",
+      "passed": true
+    },
+    {
+      "name": "structure_63",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_63",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_63",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_63",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_64",
+      "passed": true
+    },
+    {
+      "name": "structure_64",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_64",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_64",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_64",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_65",
+      "passed": true
+    },
+    {
+      "name": "structure_65",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_65",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_65",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_65",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_66",
+      "passed": true
+    },
+    {
+      "name": "structure_66",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_66",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_66",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_66",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_67",
+      "passed": true
+    },
+    {
+      "name": "structure_67",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_67",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_67",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_67",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_68",
+      "passed": true
+    },
+    {
+      "name": "structure_68",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_68",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_68",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_68",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_69",
+      "passed": true
+    },
+    {
+      "name": "structure_69",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_69",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_69",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_69",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_70",
+      "passed": true
+    },
+    {
+      "name": "structure_70",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_70",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_70",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_70",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_71",
+      "passed": true
+    },
+    {
+      "name": "structure_71",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_71",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_71",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_71",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_72",
+      "passed": true
+    },
+    {
+      "name": "structure_72",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_72",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_72",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_72",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_73",
+      "passed": true
+    },
+    {
+      "name": "structure_73",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_73",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_73",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_73",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_74",
+      "passed": true
+    },
+    {
+      "name": "structure_74",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_74",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_74",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_74",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_75",
+      "passed": true
+    },
+    {
+      "name": "structure_75",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_75",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_75",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_75",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_76",
+      "passed": true
+    },
+    {
+      "name": "structure_76",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_76",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_76",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_76",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_77",
+      "passed": true
+    },
+    {
+      "name": "structure_77",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_77",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_77",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_77",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_78",
+      "passed": true
+    },
+    {
+      "name": "structure_78",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_78",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_78",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_78",
+      "passed": true
+    },
+    {
+      "name": "seed_and_readout_79",
+      "passed": true
+    },
+    {
+      "name": "structure_79",
+      "passed": true
+    },
+    {
+      "name": "finite_angles_79",
+      "passed": true
+    },
+    {
+      "name": "bound_QPY_roundtrip_79",
+      "passed": true
+    },
+    {
+      "name": "scalar_PUB_79",
+      "passed": true
+    },
+    {
+      "name": "unchanged_config",
+      "passed": true
+    },
+    {
+      "name": "unchanged_settings",
+      "passed": true
+    },
+    {
+      "name": "unchanged_records",
+      "passed": true
+    },
+    {
+      "name": "unchanged_sampling",
+      "passed": true
+    },
+    {
+      "name": "unchanged_initial_layout",
+      "passed": true
+    },
+    {
+      "name": "old_submission_lock_preserved",
+      "passed": true
+    },
+    {
+      "name": "original_plan_preserved",
+      "passed": true
+    },
+    {
+      "name": "copied_QPY_hash",
+      "passed": true
+    }
+  ],
+  "source_artifact_hashes_verified": 32,
+  "prior_ideal_equivalence_checks_verified": 138,
+  "prior_max_state_distance": 2.9442685302314264e-14,
+  "new_ideal_statevector_simulation_performed": false,
+  "new_QPU_seconds": 0
+}

@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "name": "bootstrap_shape_linear_linear",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_CI_linear_linear",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_shape_affine_no_time",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_CI_affine_no_time",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_shape_time_only",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_CI_time_only",
+      "passed": true
+    },
+    {
+      "name": "classical_control_zero_contrast",
+      "passed": true
+    },
+    {
+      "name": "candidate_state_equivalence_network",
+      "passed": true
+    },
+    {
+      "name": "candidate_state_equivalence_left",
+      "passed": true
+    },
+    {
+      "name": "candidate_state_equivalence_right",
+      "passed": true
+    },
+    {
+      "name": "candidate_state_equivalence_look4",
+      "passed": true
+    },
+    {
+      "name": "candidate_state_equivalence_look12",
+      "passed": true
+    },
+    {
+      "name": "trotter_numerics",
+      "passed": true
+    },
+    {
+      "name": "regression_tests",
+      "passed": true
+    }
+  ],
+  "checks_passed": 14,
+  "new_QPU_seconds": 0
+}

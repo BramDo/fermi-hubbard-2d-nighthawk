@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_CZ_FOLDING_AND_CZOFF_DIAGNOSTIC",
+  "new_qpu_seconds": 0,
+  "new_trajectories": 384,
+  "reused_trajectories": 128,
+  "group_run_seconds": {
+    "factor2_folded": 193.23241985999994,
+    "factor3_folded": 220.13065980099782,
+    "cz_noise_off_diagnostic": 227.8982632160005
+  },
+  "runner_elapsed_seconds": 729.399622207
+}

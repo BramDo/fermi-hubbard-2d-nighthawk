@@ -1,0 +1,52 @@
+{
+  "native": {
+    "name": "rectangle72_anneal27",
+    "layout": "rectangle72",
+    "assignment": "anneal27",
+    "proxy": 4542.600000000002,
+    "graph_edges": 127,
+    "preparation_X": 29,
+    "operations": {
+      "rz": 20861,
+      "sx": 18884,
+      "cz": 14912,
+      "x": 6548,
+      "measure": 72
+    },
+    "cz": 14912,
+    "physical_X_SX": 25432,
+    "depth": 17757,
+    "CZ_depth": 5624,
+    "snapshot_unaligned_duration_seconds": 0.0006217599999998785,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/rectangle72_anneal27.qpy"
+  },
+  "twirl": {
+    "name": "rectangle72_anneal27_twirl",
+    "layout": "rectangle72",
+    "assignment": "anneal27",
+    "proxy": 4542.600000000002,
+    "graph_edges": 127,
+    "preparation_X": 29,
+    "operations": {
+      "rz": 29953,
+      "sx": 18812,
+      "cz": 14912,
+      "x": 7927,
+      "measure": 72
+    },
+    "cz": 14912,
+    "physical_X_SX": 26739,
+    "depth": 19282,
+    "CZ_depth": 5624,
+    "snapshot_unaligned_duration_seconds": 0.0006390599999998716,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/rectangle72_anneal27_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 29896,
+      "max_segment_error": 3.644420561304962e-14,
+      "global_phase_error": 1.0778030756868031e-12,
+      "CZ_partial_order_preserved": true
+    }
+  }
+}

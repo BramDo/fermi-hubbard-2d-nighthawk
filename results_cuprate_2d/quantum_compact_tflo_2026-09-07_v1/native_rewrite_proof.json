@@ -1,0 +1,35 @@
+{
+  "rounds": [
+    {
+      "round": 0,
+      "constant_cleanup": {
+        "segments": 43736,
+        "max_segment_error": 8.881784197001252e-16,
+        "max_global_phase_error": 1.0890353876900212e-11,
+        "symbolic_and_CZ_wire_anchors_unchanged": true,
+        "unique_synthesized_segments": 34,
+        "synthesis_max_abs": 8.881784197001252e-16
+      },
+      "cancellation": {
+        "pairs_cancelled": 0,
+        "CZ_removed": 0,
+        "exact_diagonal_commutation_witnesses": [],
+        "only_recorded_gates_removed": true
+      },
+      "counts": {
+        "sx": 27164,
+        "cz": 20736,
+        "x": 17760,
+        "rz": 8796
+      }
+    }
+  ],
+  "final_cleanup": {
+    "segments": 43736,
+    "max_segment_error": 3.3306690738754696e-16,
+    "max_global_phase_error": 1.7053025658242404e-13,
+    "symbolic_and_CZ_wire_anchors_unchanged": true,
+    "unique_synthesized_segments": 32,
+    "synthesis_max_abs": 2.4152186535413493e-16
+  }
+}

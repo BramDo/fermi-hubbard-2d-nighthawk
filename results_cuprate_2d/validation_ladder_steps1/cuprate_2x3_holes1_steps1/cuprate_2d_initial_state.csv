@@ -1,0 +1,7 @@
+site,x,y,hole,n_up_initial,n_down_initial,charge_initial,spin_z_initial,up_qubit,down_qubit
+0,0,0,0,1,0,1,1,0,1
+1,1,0,0,0,1,1,-1,2,3
+2,0,1,0,0,1,1,-1,4,5
+3,1,1,1,0,0,0,0,6,7
+4,0,2,0,1,0,1,1,8,9
+5,1,2,0,0,1,1,-1,10,11

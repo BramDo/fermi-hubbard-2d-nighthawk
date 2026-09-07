@@ -1,0 +1,951 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Google en onze Hubbard-resultaten in dezelfde eenheden",
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Google en onze Hubbard-resultaten in dezelfde eenheden"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "body": "## Technische samenvatting\nDe omrekening is gelukt op de openbare Z/ZZ-data, niet via schattingen uit figuren. De nadruk in Googles paper ligt vaak op 5x5, maar de dataset bevat ook volledige lokale 6x6-profielen. In de geselecteerde gevallen liggen Googles gemitigeerde profielen dichter bij hun eigen klassieke referentie dan onze laatste TFLO-profielen bij onze chi64-referentie. Dit is beschrijvend: modellen, begintoestanden en referenties verschillen."
+      },
+      {
+        "id": "definitions",
+        "type": "markdown",
+        "body": "## Zelfde grootheden, verschillende toestanden\nAlle rijen hebben U=8 en evolutietijd T=0.4, met hopping=1. Lading is n_up+n_down; spin is n_up-n_down; doublons is n_up*n_down. Google gebruikt in Eq. B1 al dezelfde spindefinitie: geen factor twee. N is de som van de lading; D is het gemiddelde per site; spin-RMS is de grootte van het lokale spinprofiel, niet zijn fout. De foutkolommen zijn RMS-afwijkingen per site ten opzichte van de eigen referentie.\n\nGoogle: holon stripe, t-prime=0, N0=20 op 5x5 en N0=30 op 6x6. Ons: vier gaten, t-prime=-0.25, N0=32 op 6x6. Delen door 25 of 36 verwijdert deze fysische verschillen niet."
+      },
+      {
+        "id": "values",
+        "type": "markdown",
+        "body": "## De omgezette waarden liggen in dezelfde orde van grootte\nN, gemiddelde doublons en spin-RMS zijn direct uit lokale verwachtingswaarden berekend. Bij ons origineel ligt het gemiddelde D dicht bij chi64, maar een goed gemiddelde kan fouten op verschillende sites laten wegvallen. Nabijheid van N tot een bekend deeltjesaantal is evenmin onafhankelijke validatie, zeker na selectie of mitigatie."
+      },
+      {
+        "id": "values-table",
+        "type": "table",
+        "tableId": "values"
+      },
+      {
+        "id": "profiles",
+        "type": "markdown",
+        "body": "## De lokale afwijkingen geven een strenger beeld\nDe balken tonen drie RMS-afwijkingen per configuratie; lager betekent dichter bij de eigen referentie. Google 5x5 gebruikt TDVP chi2048, net als de Google 6x6-vergelijking; wij gebruiken nog niet geconvergeerde chi64. Vergelijk daarom niet als een gecontroleerde ranglijst of als bewezen absolute fouten. Zowel twee als drie Google-Trotterlagen staan erin om selectie van alleen de beste laagdiepte te vermijden."
+      },
+      {
+        "id": "rms-chart",
+        "type": "chart",
+        "chartId": "rms"
+      },
+      {
+        "id": "rms-table",
+        "type": "table",
+        "tableId": "errors"
+      },
+      {
+        "id": "robustness",
+        "type": "markdown",
+        "body": "## Googles referentie is hier stabieler bij hogere chi\nBij 5x5 verandert chi1024 naar chi2048 de lokale lading/spin/doublons-RMS met ongeveer 0.0000042 / 0.0000142 / 0.0000086; bij 6x6 met 0.0000281 / 0.0002133 / 0.0000767. Dat is veel kleiner dan de hardwareafwijkingen, maar geen wiskundig foutcertificaat. Onze chi64 is nog niet geconvergeerd. Onze TFLO-holdoutcontrole is ook niet geslaagd en sommige gereconstrueerde lokale kansen zijn negatief; die zijn niet afgeknipt."
+      },
+      {
+        "id": "methods",
+        "type": "markdown",
+        "body": "## De omzetting is algebraisch en onafhankelijk gecontroleerd\nUit n=(1-Z)/2 volgt D=(1-Z_up-Z_down+ZZ)/4. Alle sites en spinlabels zijn op volledigheid en uniciteit gecontroleerd. Een onafhankelijke oplossing voor de vier lokale bezettingskansen en een aparte RMS-somberekening reproduceren de omzetting. Er is geen tijdinterpolatie, clipping of vervanging van gemeten N toegepast.\n\nHet aparte initial_states.json bevat herhaalde, inconsistente configuraties. Het is daarom niet gebruikt om de begintoestand vast te leggen. De HDF5-labels en t=0-profielen tonen onafhankelijk een rij gaten en N=20/30. Deze t=0-ankers zijn geen rauwe hardwaremetingen. De 5x5-tweelaagsmap heeft geen eigen TDVP-groep: daar is expliciet de overeenkomstige continue-tijdreferentie uit de drielaagsmap gebruikt."
+      },
+      {
+        "id": "uncertainty",
+        "type": "markdown",
+        "body": "## Dit is geen matched-accuracy of snelheidstest\nDe gepubliceerde marginale foutbalken bevatten geen volledige covariantie voor onze samengestelde grootheden; daarom zijn geen schijnbaar exacte betrouwbaarheidsintervallen toegevoegd. Google-mitigatie is overgenomen als gepubliceerd, niet opnieuw uit bitstrings gevalideerd. De verschillende Hamiltonianen, vullingen, Trottercircuits, shots en mitigatietraining verhinderen een rechtstreekse winnaarclaim. Deze selectie bestrijkt slechts U=8, T=0.4, holon stripe, nul flux, niet de hele paper."
+      },
+      {
+        "id": "next",
+        "type": "markdown",
+        "body": "## Concreet vervolg: dezelfde opgave als benchmark\nEen eerlijke volgende test zou eerst het Google-model en dezelfde begintoestand reproduceren, dan dezelfde lokale fouten en een onafhankelijke mitigatie-holdout gebruiken. Voor onze eigen opgave blijft validatie van de TFLO-overdracht nodig. Er is nu geen nieuwe QPU-job of klassieke dynamicasimulatie gestart.\n\nOpen vraag: blijft het verschil bestaan bij hetzelfde model, dezelfde circuitbenadering, dezelfde nauwkeurigheid en volledig gemeten doorlooptijd?"
+      }
+    ],
+    "tables": [
+      {
+        "id": "values",
+        "title": "Omgezette observabelen",
+        "dataset": "values",
+        "sourceId": "conversion",
+        "defaultSort": {
+          "field": "case",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "case",
+            "label": "Configuratie",
+            "type": "string"
+          },
+          {
+            "field": "N",
+            "label": "N gemeten",
+            "type": "number"
+          },
+          {
+            "field": "N0",
+            "label": "N doel",
+            "type": "number"
+          },
+          {
+            "field": "mean_D",
+            "label": "D per site",
+            "type": "number"
+          },
+          {
+            "field": "ref_D",
+            "label": "D referentie",
+            "type": "number"
+          },
+          {
+            "field": "spin_RMS",
+            "label": "Spin-RMS",
+            "type": "number"
+          },
+          {
+            "field": "ref_spin_RMS",
+            "label": "Spin referentie",
+            "type": "number"
+          }
+        ],
+        "source": {
+          "id": "conversion",
+          "label": "Google Zenodo 17881822 + eigen bewaarde hardwareanalyse",
+          "path": "results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json",
+          "query": {
+            "language": "sql",
+            "engine": "SQLite",
+            "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method",
+            "description": "Local Z/ZZ-to-occupancy conversion from convert_google_hubbard.py, followed by independent SQLite aggregation of all site profiles and their matched-within-model references; not merely reselecting precomputed metrics.",
+            "tables_used": [
+              "report_metrics.sqlite.local_profiles",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+              "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json"
+            ],
+            "filters": [
+              "U=8",
+              "T=0.4",
+              "Google holon_stripe, flux0, 5x5/6x6, layers2/3",
+              "Eigen laatste original/compact TFLO; geen N-vervanging"
+            ],
+            "metric_definitions": [
+              "charge=1-(Zup+Zdown)/2",
+              "spin=(Zdown-Zup)/2",
+              "D=(1-Zup-Zdown+ZZ)/4",
+              "RMS=sqrt(mean_sites((estimate-reference)^2))"
+            ]
+          },
+          "href": "https://zenodo.org/records/17881822"
+        }
+      },
+      {
+        "id": "errors",
+        "title": "RMS-afwijkingen per site",
+        "dataset": "values",
+        "sourceId": "conversion",
+        "defaultSort": {
+          "field": "case",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "case",
+            "label": "Configuratie",
+            "type": "string"
+          },
+          {
+            "field": "rms_charge",
+            "label": "Lading",
+            "type": "number"
+          },
+          {
+            "field": "rms_spin",
+            "label": "Spin",
+            "type": "number"
+          },
+          {
+            "field": "rms_D",
+            "label": "Doublons",
+            "type": "number"
+          }
+        ],
+        "source": {
+          "id": "conversion",
+          "label": "Google Zenodo 17881822 + eigen bewaarde hardwareanalyse",
+          "path": "results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json",
+          "query": {
+            "language": "sql",
+            "engine": "SQLite",
+            "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method",
+            "description": "Local Z/ZZ-to-occupancy conversion from convert_google_hubbard.py, followed by independent SQLite aggregation of all site profiles and their matched-within-model references; not merely reselecting precomputed metrics.",
+            "tables_used": [
+              "report_metrics.sqlite.local_profiles",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+              "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json"
+            ],
+            "filters": [
+              "U=8",
+              "T=0.4",
+              "Google holon_stripe, flux0, 5x5/6x6, layers2/3",
+              "Eigen laatste original/compact TFLO; geen N-vervanging"
+            ],
+            "metric_definitions": [
+              "charge=1-(Zup+Zdown)/2",
+              "spin=(Zdown-Zup)/2",
+              "D=(1-Zup-Zdown+ZZ)/4",
+              "RMS=sqrt(mean_sites((estimate-reference)^2))"
+            ]
+          },
+          "href": "https://zenodo.org/records/17881822"
+        }
+      }
+    ],
+    "charts": [
+      {
+        "id": "rms",
+        "title": "Lokale afwijkingen per configuratie",
+        "description": "U=8, T=0.4; elke rij tegen eigen referentie; geen identieke fysische opgave",
+        "showDescription": true,
+        "type": "bar",
+        "dataset": "rms",
+        "sourceId": "conversion",
+        "encodings": {
+          "x": {
+            "field": "case",
+            "type": "nominal"
+          },
+          "y": {
+            "field": "RMS",
+            "type": "quantitative"
+          },
+          "color": {
+            "field": "observable",
+            "type": "nominal"
+          }
+        },
+        "options": {
+          "grouping": "grouped"
+        },
+        "palette": {
+          "kind": "categorical",
+          "name": "default"
+        },
+        "source": {
+          "id": "conversion",
+          "label": "Google Zenodo 17881822 + eigen bewaarde hardwareanalyse",
+          "path": "results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json",
+          "query": {
+            "language": "sql",
+            "engine": "SQLite",
+            "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method",
+            "description": "Local Z/ZZ-to-occupancy conversion from convert_google_hubbard.py, followed by independent SQLite aggregation of all site profiles and their matched-within-model references; not merely reselecting precomputed metrics.",
+            "tables_used": [
+              "report_metrics.sqlite.local_profiles",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+              "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+              "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+              "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json"
+            ],
+            "filters": [
+              "U=8",
+              "T=0.4",
+              "Google holon_stripe, flux0, 5x5/6x6, layers2/3",
+              "Eigen laatste original/compact TFLO; geen N-vervanging"
+            ],
+            "metric_definitions": [
+              "charge=1-(Zup+Zdown)/2",
+              "spin=(Zdown-Zup)/2",
+              "D=(1-Zup-Zdown+ZZ)/4",
+              "RMS=sqrt(mean_sites((estimate-reference)^2))"
+            ]
+          },
+          "href": "https://zenodo.org/records/17881822"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "conversion",
+        "label": "Google Zenodo 17881822 + eigen bewaarde hardwareanalyse",
+        "path": "results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json",
+        "query": {
+          "language": "sql",
+          "engine": "SQLite",
+          "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method",
+          "description": "Local Z/ZZ-to-occupancy conversion from convert_google_hubbard.py, followed by independent SQLite aggregation of all site profiles and their matched-within-model references; not merely reselecting precomputed metrics.",
+          "tables_used": [
+            "report_metrics.sqlite.local_profiles",
+            "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+            "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+            "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+            "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+            "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+            "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json"
+          ],
+          "filters": [
+            "U=8",
+            "T=0.4",
+            "Google holon_stripe, flux0, 5x5/6x6, layers2/3",
+            "Eigen laatste original/compact TFLO; geen N-vervanging"
+          ],
+          "metric_definitions": [
+            "charge=1-(Zup+Zdown)/2",
+            "spin=(Zdown-Zup)/2",
+            "D=(1-Zup-Zdown+ZZ)/4",
+            "RMS=sqrt(mean_sites((estimate-reference)^2))"
+          ]
+        },
+        "href": "https://zenodo.org/records/17881822"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "status": "ready",
+    "generatedAt": "2026-09-07",
+    "datasets": {
+      "values": [
+        {
+          "case": "Google 5x5 / 2 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.13868,
+          "N_relative_error": 0.006934249003280213,
+          "mean_D": 0.06663,
+          "spin_RMS": 0.60307,
+          "ref_D": 0.0632,
+          "ref_spin_RMS": 0.58943,
+          "rms_charge": 0.01779,
+          "rms_spin": 0.0228,
+          "rms_D": 0.01021,
+          "minimum_probability": 0.005064494337043923,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0
+        },
+        {
+          "case": "Google 5x5 / 3 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.25972,
+          "N_relative_error": 0.012986089747407004,
+          "mean_D": 0.07788,
+          "spin_RMS": 0.55372,
+          "ref_D": 0.0632,
+          "ref_spin_RMS": 0.58943,
+          "rms_charge": 0.02431,
+          "rms_spin": 0.04269,
+          "rms_D": 0.01841,
+          "minimum_probability": 0.011211158742574723,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0
+        },
+        {
+          "case": "Google 6x6 / 2 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.50869,
+          "N_relative_error": 0.016956337289247392,
+          "mean_D": 0.08966,
+          "spin_RMS": 0.5641,
+          "ref_D": 0.07058,
+          "ref_spin_RMS": 0.58941,
+          "rms_charge": 0.02809,
+          "rms_spin": 0.04478,
+          "rms_D": 0.02497,
+          "minimum_probability": 0.0022564114134512314,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0
+        },
+        {
+          "case": "Google 6x6 / 3 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.44345,
+          "N_relative_error": 0.014781586195566687,
+          "mean_D": 0.09646,
+          "spin_RMS": 0.51646,
+          "ref_D": 0.07058,
+          "ref_spin_RMS": 0.58941,
+          "rms_charge": 0.02661,
+          "rms_spin": 0.08023,
+          "rms_D": 0.02971,
+          "minimum_probability": 0.008358708733366083,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0
+        },
+        {
+          "case": "Ons 6x6 / original",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.39633,
+          "N_relative_error": -0.01886468852285017,
+          "mean_D": 0.09013,
+          "spin_RMS": 0.65683,
+          "ref_D": 0.0879,
+          "ref_spin_RMS": 0.70346,
+          "rms_charge": 0.08389,
+          "rms_spin": 0.09185,
+          "rms_D": 0.0508,
+          "minimum_probability": -0.07730268310590348,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25
+        },
+        {
+          "case": "Ons 6x6 / compact",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.23064,
+          "N_relative_error": -0.024042458352959928,
+          "mean_D": 0.07719,
+          "spin_RMS": 0.67128,
+          "ref_D": 0.0879,
+          "ref_spin_RMS": 0.70346,
+          "rms_charge": 0.1093,
+          "rms_spin": 0.12586,
+          "rms_D": 0.06412,
+          "minimum_probability": -0.09272648460318754,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25
+        }
+      ],
+      "rms": [
+        {
+          "case": "Google 5x5 / 2 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.138684980065605,
+          "N_relative_error": 0.006934249003280213,
+          "mean_D": 0.06663399397458453,
+          "spin_RMS": 0.603073875038052,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.017792874115588928,
+          "rms_spin": 0.022798438545983044,
+          "rms_D": 0.010211155066410604,
+          "minimum_probability": 0.005064494337043923,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Lading",
+          "RMS": 0.017792874115588928
+        },
+        {
+          "case": "Google 5x5 / 2 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.138684980065605,
+          "N_relative_error": 0.006934249003280213,
+          "mean_D": 0.06663399397458453,
+          "spin_RMS": 0.603073875038052,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.017792874115588928,
+          "rms_spin": 0.022798438545983044,
+          "rms_D": 0.010211155066410604,
+          "minimum_probability": 0.005064494337043923,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Spin",
+          "RMS": 0.022798438545983044
+        },
+        {
+          "case": "Google 5x5 / 2 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.138684980065605,
+          "N_relative_error": 0.006934249003280213,
+          "mean_D": 0.06663399397458453,
+          "spin_RMS": 0.603073875038052,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.017792874115588928,
+          "rms_spin": 0.022798438545983044,
+          "rms_D": 0.010211155066410604,
+          "minimum_probability": 0.005064494337043923,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Doublons",
+          "RMS": 0.010211155066410604
+        },
+        {
+          "case": "Google 5x5 / 3 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.25972179494814,
+          "N_relative_error": 0.012986089747407004,
+          "mean_D": 0.07787951262906359,
+          "spin_RMS": 0.5537245068112602,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.024314248035963,
+          "rms_spin": 0.04268942799331486,
+          "rms_D": 0.018409484258423765,
+          "minimum_probability": 0.011211158742574723,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Lading",
+          "RMS": 0.024314248035963
+        },
+        {
+          "case": "Google 5x5 / 3 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.25972179494814,
+          "N_relative_error": 0.012986089747407004,
+          "mean_D": 0.07787951262906359,
+          "spin_RMS": 0.5537245068112602,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.024314248035963,
+          "rms_spin": 0.04268942799331486,
+          "rms_D": 0.018409484258423765,
+          "minimum_probability": 0.011211158742574723,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Spin",
+          "RMS": 0.04268942799331486
+        },
+        {
+          "case": "Google 5x5 / 3 lagen",
+          "group": "mitigated",
+          "side": 5,
+          "sites": 25,
+          "N0": 20,
+          "N": 20.25972179494814,
+          "N_relative_error": 0.012986089747407004,
+          "mean_D": 0.07787951262906359,
+          "spin_RMS": 0.5537245068112602,
+          "ref_D": 0.06319919959868099,
+          "ref_spin_RMS": 0.5894267223750966,
+          "rms_charge": 0.024314248035963,
+          "rms_spin": 0.04268942799331486,
+          "rms_D": 0.018409484258423765,
+          "minimum_probability": 0.011211158742574723,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Doublons",
+          "RMS": 0.018409484258423765
+        },
+        {
+          "case": "Google 6x6 / 2 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.508690118677425,
+          "N_relative_error": 0.016956337289247392,
+          "mean_D": 0.08965798756591838,
+          "spin_RMS": 0.5641048834492881,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02809247452736216,
+          "rms_spin": 0.044776225823599004,
+          "rms_D": 0.02496555231268121,
+          "minimum_probability": 0.0022564114134512314,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Lading",
+          "RMS": 0.02809247452736216
+        },
+        {
+          "case": "Google 6x6 / 2 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.508690118677425,
+          "N_relative_error": 0.016956337289247392,
+          "mean_D": 0.08965798756591838,
+          "spin_RMS": 0.5641048834492881,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02809247452736216,
+          "rms_spin": 0.044776225823599004,
+          "rms_D": 0.02496555231268121,
+          "minimum_probability": 0.0022564114134512314,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Spin",
+          "RMS": 0.044776225823599004
+        },
+        {
+          "case": "Google 6x6 / 2 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.508690118677425,
+          "N_relative_error": 0.016956337289247392,
+          "mean_D": 0.08965798756591838,
+          "spin_RMS": 0.5641048834492881,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02809247452736216,
+          "rms_spin": 0.044776225823599004,
+          "rms_D": 0.02496555231268121,
+          "minimum_probability": 0.0022564114134512314,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Doublons",
+          "RMS": 0.02496555231268121
+        },
+        {
+          "case": "Google 6x6 / 3 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.443447585867006,
+          "N_relative_error": 0.014781586195566687,
+          "mean_D": 0.09645729048205583,
+          "spin_RMS": 0.5164576516270122,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02661067163623662,
+          "rms_spin": 0.08022608397304244,
+          "rms_D": 0.029713766410071413,
+          "minimum_probability": 0.008358708733366083,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Lading",
+          "RMS": 0.02661067163623662
+        },
+        {
+          "case": "Google 6x6 / 3 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.443447585867006,
+          "N_relative_error": 0.014781586195566687,
+          "mean_D": 0.09645729048205583,
+          "spin_RMS": 0.5164576516270122,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02661067163623662,
+          "rms_spin": 0.08022608397304244,
+          "rms_D": 0.029713766410071413,
+          "minimum_probability": 0.008358708733366083,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Spin",
+          "RMS": 0.08022608397304244
+        },
+        {
+          "case": "Google 6x6 / 3 lagen",
+          "group": "mitigated",
+          "side": 6,
+          "sites": 36,
+          "N0": 30,
+          "N": 30.443447585867006,
+          "N_relative_error": 0.014781586195566687,
+          "mean_D": 0.09645729048205583,
+          "spin_RMS": 0.5164576516270122,
+          "ref_D": 0.07058310531827562,
+          "ref_spin_RMS": 0.5894066883954533,
+          "rms_charge": 0.02661067163623662,
+          "rms_spin": 0.08022608397304244,
+          "rms_D": 0.029713766410071413,
+          "minimum_probability": 0.008358708733366083,
+          "reference": "TDVP chi2048 (eigen Google-model)",
+          "reference_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "source_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "time": 0.4,
+          "U": 8,
+          "tprime": 0.0,
+          "observable": "Doublons",
+          "RMS": 0.029713766410071413
+        },
+        {
+          "case": "Ons 6x6 / original",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.396329967268795,
+          "N_relative_error": -0.01886468852285017,
+          "mean_D": 0.09013000235116306,
+          "spin_RMS": 0.6568256291162334,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.08388916355169083,
+          "rms_spin": 0.09185091447248535,
+          "rms_D": 0.050804775660592216,
+          "minimum_probability": -0.07730268310590348,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Lading",
+          "RMS": 0.08388916355169083
+        },
+        {
+          "case": "Ons 6x6 / original",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.396329967268795,
+          "N_relative_error": -0.01886468852285017,
+          "mean_D": 0.09013000235116306,
+          "spin_RMS": 0.6568256291162334,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.08388916355169083,
+          "rms_spin": 0.09185091447248535,
+          "rms_D": 0.050804775660592216,
+          "minimum_probability": -0.07730268310590348,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Spin",
+          "RMS": 0.09185091447248535
+        },
+        {
+          "case": "Ons 6x6 / original",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.396329967268795,
+          "N_relative_error": -0.01886468852285017,
+          "mean_D": 0.09013000235116306,
+          "spin_RMS": 0.6568256291162334,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.08388916355169083,
+          "rms_spin": 0.09185091447248535,
+          "rms_D": 0.050804775660592216,
+          "minimum_probability": -0.07730268310590348,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Doublons",
+          "RMS": 0.050804775660592216
+        },
+        {
+          "case": "Ons 6x6 / compact",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.230641332705282,
+          "N_relative_error": -0.024042458352959928,
+          "mean_D": 0.07719405736173775,
+          "spin_RMS": 0.6712822625176486,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.10930447582098059,
+          "rms_spin": 0.12586400513493357,
+          "rms_D": 0.06411575785625859,
+          "minimum_probability": -0.09272648460318754,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Lading",
+          "RMS": 0.10930447582098059
+        },
+        {
+          "case": "Ons 6x6 / compact",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.230641332705282,
+          "N_relative_error": -0.024042458352959928,
+          "mean_D": 0.07719405736173775,
+          "spin_RMS": 0.6712822625176486,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.10930447582098059,
+          "rms_spin": 0.12586400513493357,
+          "rms_D": 0.06411575785625859,
+          "minimum_probability": -0.09272648460318754,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Spin",
+          "RMS": 0.12586400513493357
+        },
+        {
+          "case": "Ons 6x6 / compact",
+          "group": "readout_tflo",
+          "side": 6,
+          "sites": 36,
+          "N0": 32,
+          "N": 31.230641332705282,
+          "N_relative_error": -0.024042458352959928,
+          "mean_D": 0.07719405736173775,
+          "spin_RMS": 0.6712822625176486,
+          "ref_D": 0.08789606270790114,
+          "ref_spin_RMS": 0.7034558374493842,
+          "rms_charge": 0.10930447582098059,
+          "rms_spin": 0.12586400513493357,
+          "rms_D": 0.06411575785625859,
+          "minimum_probability": -0.09272648460318754,
+          "reference": "MPS chi64 (eigen model, niet geconvergeerd)",
+          "source_file": "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json",
+          "reference_file": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "time": 0.4,
+          "U": 8,
+          "tprime": -0.25,
+          "observable": "Doublons",
+          "RMS": 0.06411575785625859
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "conversion",
+      "label": "Google Zenodo 17881822 + eigen bewaarde hardwareanalyse",
+      "path": "results_cuprate_2d/google_conversion_2026-09-07_v1/comparison.json",
+      "query": {
+        "language": "sql",
+        "engine": "SQLite",
+        "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method",
+        "description": "Local Z/ZZ-to-occupancy conversion from convert_google_hubbard.py, followed by independent SQLite aggregation of all site profiles and their matched-within-model references; not merely reselecting precomputed metrics.",
+        "tables_used": [
+          "report_metrics.sqlite.local_profiles",
+          "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+          "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+          "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json",
+          "results_cuprate_2d/hardware_compact_tflo_2026-09-07_v1/analysis/summary.json"
+        ],
+        "filters": [
+          "U=8",
+          "T=0.4",
+          "Google holon_stripe, flux0, 5x5/6x6, layers2/3",
+          "Eigen laatste original/compact TFLO; geen N-vervanging"
+        ],
+        "metric_definitions": [
+          "charge=1-(Zup+Zdown)/2",
+          "spin=(Zdown-Zup)/2",
+          "D=(1-Zup-Zdown+ZZ)/4",
+          "RMS=sqrt(mean_sites((estimate-reference)^2))"
+        ]
+      },
+      "href": "https://zenodo.org/records/17881822"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pauli": {
+    "lambda": 361.0,
+    "identity": 72.0,
+    "sampled_operators": 548,
+    "2_lambdaT_squared": 41702.72,
+    "leading_worst_case_reference_N_epsilon0_1": 417028,
+    "leading_worst_case_reference_N_epsilon0_02": 2085136,
+    "angles_by_N": {
+      "128": 1.128125,
+      "256": 0.5640625,
+      "512": 0.28203125,
+      "1024": 0.141015625
+    }
+  },
+  "grouped": {
+    "lambda": 433.0,
+    "identity": 0.0,
+    "sampled_operators": 256,
+    "2_lambdaT_squared": 59996.48000000001,
+    "leading_worst_case_reference_N_epsilon0_1": 599965,
+    "leading_worst_case_reference_N_epsilon0_02": 2999825,
+    "angles_by_N": {
+      "128": 1.3531250000000001,
+      "256": 0.6765625000000001,
+      "512": 0.33828125000000003,
+      "1024": 0.16914062500000002
+    }
+  },
+  "Qiskit_pauli_default_reps1_N": 41703,
+  "caveat": "Worst-case leading-order reference scale, not a lower bound, tight guarantee or observed accuracy requirement.",
+  "tighter_bound_normalization": "arXiv:2506.17199 Theorem1 channel is E(T/r)^(r Gamma); r is not total executed random steps."
+}

@@ -1,0 +1,268 @@
+{
+  "status": "PASS_INDEPENDENT_6X6_RESULT_AUDIT",
+  "job_id": "daen2vdnj4cs73afcn00",
+  "actual_shots": 13312,
+  "provider_circuits_verified": 26,
+  "QPY_byte_identical_count": 26,
+  "QPY_semantic_fallback_indices": [],
+  "shot_weighted_CZ_applications": 378470400,
+  "independent_native_readout_inverse_and_OLS_max_error": 6.661338147750939e-16,
+  "regression_tests": 41,
+  "qpu_charge_seconds": 5,
+  "qpu_cap_seconds": 15,
+  "provider_created_to_finished_seconds": 138.776094,
+  "local_prepare_seconds": 657.2236085749973,
+  "classical_comparisons": [
+    {
+      "classical_profile": "6x6_chi16_threads3",
+      "chi": 16,
+      "classical_kernel_seconds": 17.584634337999887,
+      "RMS_discrepancies_charge_spin_doublon_by_arm": [
+        [
+          0.3053628871924942,
+          0.8616400288132268,
+          0.2170873097488441
+        ],
+        [
+          0.3049554475110538,
+          0.8618722366251119,
+          0.2169012456323709
+        ],
+        [
+          0.30542326329214986,
+          0.8612567683060197,
+          0.21719703418839612
+        ],
+        [
+          0.3058114773462115,
+          0.8610487260337677,
+          0.21740839159097886
+        ]
+      ],
+      "raw_minus_readoutZNE_discrepancy": [
+        -6.037609965564572e-05,
+        0.0003832605072070505,
+        -0.00010972443955201139
+      ],
+      "raw_minus_readoutZNE_discrepancy_hybrid95": [
+        [
+          -0.0034992052769693876,
+          -0.0027859044407275795,
+          -0.002126869055860433
+        ],
+        [
+          0.0028823360479243295,
+          0.0034188824985319447,
+          0.0016106451670851378
+        ]
+      ],
+      "reference_certified": false
+    },
+    {
+      "classical_profile": "6x6_chi32_threads1",
+      "chi": 32,
+      "classical_kernel_seconds": 32.18295136300003,
+      "RMS_discrepancies_charge_spin_doublon_by_arm": [
+        [
+          0.28496817695381177,
+          0.7573940965565824,
+          0.18104199678051924
+        ],
+        [
+          0.284560972456613,
+          0.7576935913102378,
+          0.18085435207840034
+        ],
+        [
+          0.28505669578108755,
+          0.7569775564481547,
+          0.18116211206840985
+        ],
+        [
+          0.28544579382711016,
+          0.7567049741030991,
+          0.18137566732547483
+        ]
+      ],
+      "raw_minus_readoutZNE_discrepancy": [
+        -8.85188272757853e-05,
+        0.00041654010842773204,
+        -0.00012011528789060422
+      ],
+      "raw_minus_readoutZNE_discrepancy_hybrid95": [
+        [
+          -0.003544289742623774,
+          -0.0027860717585073136,
+          -0.0021485715724119613
+        ],
+        [
+          0.002805253210634532,
+          0.003446366447958933,
+          0.0015818060669150662
+        ]
+      ],
+      "reference_certified": false
+    },
+    {
+      "classical_profile": "6x6_chi32_threads3",
+      "chi": 32,
+      "classical_kernel_seconds": 178.5985214700013,
+      "RMS_discrepancies_charge_spin_doublon_by_arm": [
+        [
+          0.28496818427251647,
+          0.7573941139304404,
+          0.1810419995157812
+        ],
+        [
+          0.28456097970469574,
+          0.7576936087333979,
+          0.18085435477992806
+        ],
+        [
+          0.2850567035225379,
+          0.756977573861802,
+          0.18116211507238045
+        ],
+        [
+          0.2854458016290852,
+          0.7567049914676287,
+          0.1813756703518325
+        ]
+      ],
+      "raw_minus_readoutZNE_discrepancy": [
+        -8.851925002145711e-05,
+        0.00041654006863844906,
+        -0.00012011555659924289
+      ],
+      "raw_minus_readoutZNE_discrepancy_hybrid95": [
+        [
+          -0.0035442889572755197,
+          -0.0027860719402907548,
+          -0.002148571481471255
+        ],
+        [
+          0.002805252884067818,
+          0.0034463664275618047,
+          0.0015818056086986459
+        ]
+      ],
+      "reference_certified": false
+    },
+    {
+      "classical_profile": "6x6_chi8_threads3",
+      "chi": 8,
+      "classical_kernel_seconds": 14.287836715000594,
+      "RMS_discrepancies_charge_spin_doublon_by_arm": [
+        [
+          0.31931708212532955,
+          0.8709163684929339,
+          0.21806640220718013
+        ],
+        [
+          0.3189215996877887,
+          0.8711205931984228,
+          0.2178842892165088
+        ],
+        [
+          0.3193684740564575,
+          0.870567212334138,
+          0.21816869312886747
+        ],
+        [
+          0.3197443754066349,
+          0.870386108612046,
+          0.2183776399280948
+        ]
+      ],
+      "raw_minus_readoutZNE_discrepancy": [
+        -5.139193112796425e-05,
+        0.00034915615879582695,
+        -0.00010229092168734244
+      ],
+      "raw_minus_readoutZNE_discrepancy_hybrid95": [
+        [
+          -0.0034250488036719415,
+          -0.0027840946611470047,
+          -0.00215073421702364
+        ],
+        [
+          0.0028930190817181393,
+          0.0033929827214373327,
+          0.0016111771491372382
+        ]
+      ],
+      "reference_certified": false
+    },
+    {
+      "classical_profile": "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/6x6_chi64_threads1/result.json",
+      "chi": 64,
+      "classical_kernel_seconds": 150.81918013700124,
+      "RMS_discrepancies_charge_spin_doublon_by_arm": [
+        [
+          0.2785356151847924,
+          0.7038378034180279,
+          0.16459425524194568
+        ],
+        [
+          0.27814210623818075,
+          0.7041584709220047,
+          0.16441927136995724
+        ],
+        [
+          0.27859517737103257,
+          0.7034091177189741,
+          0.16470760246334548
+        ],
+        [
+          0.2789720248642048,
+          0.703116310424242,
+          0.1649090379879336
+        ]
+      ],
+      "raw_minus_readoutZNE_discrepancy": [
+        -5.956218624014742e-05,
+        0.00042868569905385456,
+        -0.00011334722139980102
+      ],
+      "raw_minus_readoutZNE_discrepancy_hybrid95": [
+        [
+          -0.003582492468564344,
+          -0.0027895399350406054,
+          -0.002149720953274823
+        ],
+        [
+          0.0028088004399471934,
+          0.003459816539741708,
+          0.0015764217743405608
+        ]
+      ],
+      "reference_certified": false
+    }
+  ],
+  "extra_reference_sha256": {
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/6x6_chi64_threads1/result.json": "10d38fd7e6981f4c5853b96a41b4efcc073557d0f7d27c6734f09fe052569d19"
+  },
+  "observed_sector_fractions_diagnostic_only": [
+    {
+      "factor": 1,
+      "Nup16_Ndown16_fraction": 0.01171875,
+      "postselection_applied": false
+    },
+    {
+      "factor": 2,
+      "Nup16_Ndown16_fraction": 0.01123046875,
+      "postselection_applied": false
+    },
+    {
+      "factor": 3,
+      "Nup16_Ndown16_fraction": 0.010986328125,
+      "postselection_applied": false
+    }
+  ],
+  "calibration_max_error": 0.08674463937621832,
+  "calibration_min_inverse_denominator": 0.8869395711500975,
+  "no_postselection_or_clipping": true,
+  "quantum_advantage_demonstrated": false,
+  "uncertainty_scope": "Pointwise hybrid intervals: whole-shot conditional bootstrap at fixed twirls, shared independent Jeffreys readout-channel draws. Not simultaneous or coverage-certified; excludes drift, correlated SPAM, folding/extrapolation bias, Trotter error and MPS truncation.",
+  "notes": "All-reference discrepancies are not exact-reference errors. Do not select a classical chi based on agreement with hardware. Timing definitions differ and classical convergence is assessed separately."
+}

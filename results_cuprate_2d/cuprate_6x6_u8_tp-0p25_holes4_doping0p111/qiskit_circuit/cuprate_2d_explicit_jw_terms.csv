@@ -1,0 +1,549 @@
+label,coefficient,single_step_angle,pauli_weight,qubits,paulis
+onsite_z_up_0,-2.0,-0.2,1,0,Z
+onsite_z_down_0,-2.0,-0.2,1,1,Z
+onsite_zz_0,2.0,0.2,2,0 1,Z Z
+onsite_z_up_1,-2.0,-0.2,1,2,Z
+onsite_z_down_1,-2.0,-0.2,1,3,Z
+onsite_zz_1,2.0,0.2,2,2 3,Z Z
+onsite_z_up_2,-2.0,-0.2,1,4,Z
+onsite_z_down_2,-2.0,-0.2,1,5,Z
+onsite_zz_2,2.0,0.2,2,4 5,Z Z
+onsite_z_up_3,-2.0,-0.2,1,6,Z
+onsite_z_down_3,-2.0,-0.2,1,7,Z
+onsite_zz_3,2.0,0.2,2,6 7,Z Z
+onsite_z_up_4,-2.0,-0.2,1,8,Z
+onsite_z_down_4,-2.0,-0.2,1,9,Z
+onsite_zz_4,2.0,0.2,2,8 9,Z Z
+onsite_z_up_5,-2.0,-0.2,1,10,Z
+onsite_z_down_5,-2.0,-0.2,1,11,Z
+onsite_zz_5,2.0,0.2,2,10 11,Z Z
+onsite_z_up_6,-2.0,-0.2,1,12,Z
+onsite_z_down_6,-2.0,-0.2,1,13,Z
+onsite_zz_6,2.0,0.2,2,12 13,Z Z
+onsite_z_up_7,-2.0,-0.2,1,14,Z
+onsite_z_down_7,-2.0,-0.2,1,15,Z
+onsite_zz_7,2.0,0.2,2,14 15,Z Z
+onsite_z_up_8,-2.0,-0.2,1,16,Z
+onsite_z_down_8,-2.0,-0.2,1,17,Z
+onsite_zz_8,2.0,0.2,2,16 17,Z Z
+onsite_z_up_9,-2.0,-0.2,1,18,Z
+onsite_z_down_9,-2.0,-0.2,1,19,Z
+onsite_zz_9,2.0,0.2,2,18 19,Z Z
+onsite_z_up_10,-2.0,-0.2,1,20,Z
+onsite_z_down_10,-2.0,-0.2,1,21,Z
+onsite_zz_10,2.0,0.2,2,20 21,Z Z
+onsite_z_up_11,-2.0,-0.2,1,22,Z
+onsite_z_down_11,-2.0,-0.2,1,23,Z
+onsite_zz_11,2.0,0.2,2,22 23,Z Z
+onsite_z_up_12,-2.0,-0.2,1,24,Z
+onsite_z_down_12,-2.0,-0.2,1,25,Z
+onsite_zz_12,2.0,0.2,2,24 25,Z Z
+onsite_z_up_13,-2.0,-0.2,1,26,Z
+onsite_z_down_13,-2.0,-0.2,1,27,Z
+onsite_zz_13,2.0,0.2,2,26 27,Z Z
+onsite_z_up_14,-2.0,-0.2,1,28,Z
+onsite_z_down_14,-2.0,-0.2,1,29,Z
+onsite_zz_14,2.0,0.2,2,28 29,Z Z
+onsite_z_up_15,-2.0,-0.2,1,30,Z
+onsite_z_down_15,-2.0,-0.2,1,31,Z
+onsite_zz_15,2.0,0.2,2,30 31,Z Z
+onsite_z_up_16,-2.0,-0.2,1,32,Z
+onsite_z_down_16,-2.0,-0.2,1,33,Z
+onsite_zz_16,2.0,0.2,2,32 33,Z Z
+onsite_z_up_17,-2.0,-0.2,1,34,Z
+onsite_z_down_17,-2.0,-0.2,1,35,Z
+onsite_zz_17,2.0,0.2,2,34 35,Z Z
+onsite_z_up_18,-2.0,-0.2,1,36,Z
+onsite_z_down_18,-2.0,-0.2,1,37,Z
+onsite_zz_18,2.0,0.2,2,36 37,Z Z
+onsite_z_up_19,-2.0,-0.2,1,38,Z
+onsite_z_down_19,-2.0,-0.2,1,39,Z
+onsite_zz_19,2.0,0.2,2,38 39,Z Z
+onsite_z_up_20,-2.0,-0.2,1,40,Z
+onsite_z_down_20,-2.0,-0.2,1,41,Z
+onsite_zz_20,2.0,0.2,2,40 41,Z Z
+onsite_z_up_21,-2.0,-0.2,1,42,Z
+onsite_z_down_21,-2.0,-0.2,1,43,Z
+onsite_zz_21,2.0,0.2,2,42 43,Z Z
+onsite_z_up_22,-2.0,-0.2,1,44,Z
+onsite_z_down_22,-2.0,-0.2,1,45,Z
+onsite_zz_22,2.0,0.2,2,44 45,Z Z
+onsite_z_up_23,-2.0,-0.2,1,46,Z
+onsite_z_down_23,-2.0,-0.2,1,47,Z
+onsite_zz_23,2.0,0.2,2,46 47,Z Z
+onsite_z_up_24,-2.0,-0.2,1,48,Z
+onsite_z_down_24,-2.0,-0.2,1,49,Z
+onsite_zz_24,2.0,0.2,2,48 49,Z Z
+onsite_z_up_25,-2.0,-0.2,1,50,Z
+onsite_z_down_25,-2.0,-0.2,1,51,Z
+onsite_zz_25,2.0,0.2,2,50 51,Z Z
+onsite_z_up_26,-2.0,-0.2,1,52,Z
+onsite_z_down_26,-2.0,-0.2,1,53,Z
+onsite_zz_26,2.0,0.2,2,52 53,Z Z
+onsite_z_up_27,-2.0,-0.2,1,54,Z
+onsite_z_down_27,-2.0,-0.2,1,55,Z
+onsite_zz_27,2.0,0.2,2,54 55,Z Z
+onsite_z_up_28,-2.0,-0.2,1,56,Z
+onsite_z_down_28,-2.0,-0.2,1,57,Z
+onsite_zz_28,2.0,0.2,2,56 57,Z Z
+onsite_z_up_29,-2.0,-0.2,1,58,Z
+onsite_z_down_29,-2.0,-0.2,1,59,Z
+onsite_zz_29,2.0,0.2,2,58 59,Z Z
+onsite_z_up_30,-2.0,-0.2,1,60,Z
+onsite_z_down_30,-2.0,-0.2,1,61,Z
+onsite_zz_30,2.0,0.2,2,60 61,Z Z
+onsite_z_up_31,-2.0,-0.2,1,62,Z
+onsite_z_down_31,-2.0,-0.2,1,63,Z
+onsite_zz_31,2.0,0.2,2,62 63,Z Z
+onsite_z_up_32,-2.0,-0.2,1,64,Z
+onsite_z_down_32,-2.0,-0.2,1,65,Z
+onsite_zz_32,2.0,0.2,2,64 65,Z Z
+onsite_z_up_33,-2.0,-0.2,1,66,Z
+onsite_z_down_33,-2.0,-0.2,1,67,Z
+onsite_zz_33,2.0,0.2,2,66 67,Z Z
+onsite_z_up_34,-2.0,-0.2,1,68,Z
+onsite_z_down_34,-2.0,-0.2,1,69,Z
+onsite_zz_34,2.0,0.2,2,68 69,Z Z
+onsite_z_up_35,-2.0,-0.2,1,70,Z
+onsite_z_down_35,-2.0,-0.2,1,71,Z
+onsite_zz_35,2.0,0.2,2,70 71,Z Z
+nearest_t_x_up_0_1_x,-0.5,-0.05,3,0 1 2,X Z X
+nearest_t_x_up_0_1_y,-0.5,-0.05,3,0 1 2,Y Z Y
+nearest_t_x_down_0_1_x,-0.5,-0.05,3,1 2 3,X Z X
+nearest_t_x_down_0_1_y,-0.5,-0.05,3,1 2 3,Y Z Y
+nearest_t_y_up_0_6_x,-0.5,-0.05,13,0 1 2 3 4 5 6 7 8 9 10 11 12,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_0_6_y,-0.5,-0.05,13,0 1 2 3 4 5 6 7 8 9 10 11 12,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_0_6_x,-0.5,-0.05,13,1 2 3 4 5 6 7 8 9 10 11 12 13,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_0_6_y,-0.5,-0.05,13,1 2 3 4 5 6 7 8 9 10 11 12 13,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_1_2_x,-0.5,-0.05,3,2 3 4,X Z X
+nearest_t_x_up_1_2_y,-0.5,-0.05,3,2 3 4,Y Z Y
+nearest_t_x_down_1_2_x,-0.5,-0.05,3,3 4 5,X Z X
+nearest_t_x_down_1_2_y,-0.5,-0.05,3,3 4 5,Y Z Y
+nearest_t_y_up_1_7_x,-0.5,-0.05,13,2 3 4 5 6 7 8 9 10 11 12 13 14,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_1_7_y,-0.5,-0.05,13,2 3 4 5 6 7 8 9 10 11 12 13 14,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_1_7_x,-0.5,-0.05,13,3 4 5 6 7 8 9 10 11 12 13 14 15,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_1_7_y,-0.5,-0.05,13,3 4 5 6 7 8 9 10 11 12 13 14 15,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_2_3_x,-0.5,-0.05,3,4 5 6,X Z X
+nearest_t_x_up_2_3_y,-0.5,-0.05,3,4 5 6,Y Z Y
+nearest_t_x_down_2_3_x,-0.5,-0.05,3,5 6 7,X Z X
+nearest_t_x_down_2_3_y,-0.5,-0.05,3,5 6 7,Y Z Y
+nearest_t_y_up_2_8_x,-0.5,-0.05,13,4 5 6 7 8 9 10 11 12 13 14 15 16,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_2_8_y,-0.5,-0.05,13,4 5 6 7 8 9 10 11 12 13 14 15 16,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_2_8_x,-0.5,-0.05,13,5 6 7 8 9 10 11 12 13 14 15 16 17,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_2_8_y,-0.5,-0.05,13,5 6 7 8 9 10 11 12 13 14 15 16 17,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_3_4_x,-0.5,-0.05,3,6 7 8,X Z X
+nearest_t_x_up_3_4_y,-0.5,-0.05,3,6 7 8,Y Z Y
+nearest_t_x_down_3_4_x,-0.5,-0.05,3,7 8 9,X Z X
+nearest_t_x_down_3_4_y,-0.5,-0.05,3,7 8 9,Y Z Y
+nearest_t_y_up_3_9_x,-0.5,-0.05,13,6 7 8 9 10 11 12 13 14 15 16 17 18,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_3_9_y,-0.5,-0.05,13,6 7 8 9 10 11 12 13 14 15 16 17 18,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_3_9_x,-0.5,-0.05,13,7 8 9 10 11 12 13 14 15 16 17 18 19,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_3_9_y,-0.5,-0.05,13,7 8 9 10 11 12 13 14 15 16 17 18 19,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_4_5_x,-0.5,-0.05,3,8 9 10,X Z X
+nearest_t_x_up_4_5_y,-0.5,-0.05,3,8 9 10,Y Z Y
+nearest_t_x_down_4_5_x,-0.5,-0.05,3,9 10 11,X Z X
+nearest_t_x_down_4_5_y,-0.5,-0.05,3,9 10 11,Y Z Y
+nearest_t_y_up_4_10_x,-0.5,-0.05,13,8 9 10 11 12 13 14 15 16 17 18 19 20,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_4_10_y,-0.5,-0.05,13,8 9 10 11 12 13 14 15 16 17 18 19 20,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_4_10_x,-0.5,-0.05,13,9 10 11 12 13 14 15 16 17 18 19 20 21,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_4_10_y,-0.5,-0.05,13,9 10 11 12 13 14 15 16 17 18 19 20 21,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_up_5_11_x,-0.5,-0.05,13,10 11 12 13 14 15 16 17 18 19 20 21 22,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_5_11_y,-0.5,-0.05,13,10 11 12 13 14 15 16 17 18 19 20 21 22,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_5_11_x,-0.5,-0.05,13,11 12 13 14 15 16 17 18 19 20 21 22 23,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_5_11_y,-0.5,-0.05,13,11 12 13 14 15 16 17 18 19 20 21 22 23,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_6_7_x,-0.5,-0.05,3,12 13 14,X Z X
+nearest_t_x_up_6_7_y,-0.5,-0.05,3,12 13 14,Y Z Y
+nearest_t_x_down_6_7_x,-0.5,-0.05,3,13 14 15,X Z X
+nearest_t_x_down_6_7_y,-0.5,-0.05,3,13 14 15,Y Z Y
+nearest_t_y_up_6_12_x,-0.5,-0.05,13,12 13 14 15 16 17 18 19 20 21 22 23 24,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_6_12_y,-0.5,-0.05,13,12 13 14 15 16 17 18 19 20 21 22 23 24,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_6_12_x,-0.5,-0.05,13,13 14 15 16 17 18 19 20 21 22 23 24 25,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_6_12_y,-0.5,-0.05,13,13 14 15 16 17 18 19 20 21 22 23 24 25,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_7_8_x,-0.5,-0.05,3,14 15 16,X Z X
+nearest_t_x_up_7_8_y,-0.5,-0.05,3,14 15 16,Y Z Y
+nearest_t_x_down_7_8_x,-0.5,-0.05,3,15 16 17,X Z X
+nearest_t_x_down_7_8_y,-0.5,-0.05,3,15 16 17,Y Z Y
+nearest_t_y_up_7_13_x,-0.5,-0.05,13,14 15 16 17 18 19 20 21 22 23 24 25 26,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_7_13_y,-0.5,-0.05,13,14 15 16 17 18 19 20 21 22 23 24 25 26,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_7_13_x,-0.5,-0.05,13,15 16 17 18 19 20 21 22 23 24 25 26 27,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_7_13_y,-0.5,-0.05,13,15 16 17 18 19 20 21 22 23 24 25 26 27,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_8_9_x,-0.5,-0.05,3,16 17 18,X Z X
+nearest_t_x_up_8_9_y,-0.5,-0.05,3,16 17 18,Y Z Y
+nearest_t_x_down_8_9_x,-0.5,-0.05,3,17 18 19,X Z X
+nearest_t_x_down_8_9_y,-0.5,-0.05,3,17 18 19,Y Z Y
+nearest_t_y_up_8_14_x,-0.5,-0.05,13,16 17 18 19 20 21 22 23 24 25 26 27 28,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_8_14_y,-0.5,-0.05,13,16 17 18 19 20 21 22 23 24 25 26 27 28,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_8_14_x,-0.5,-0.05,13,17 18 19 20 21 22 23 24 25 26 27 28 29,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_8_14_y,-0.5,-0.05,13,17 18 19 20 21 22 23 24 25 26 27 28 29,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_9_10_x,-0.5,-0.05,3,18 19 20,X Z X
+nearest_t_x_up_9_10_y,-0.5,-0.05,3,18 19 20,Y Z Y
+nearest_t_x_down_9_10_x,-0.5,-0.05,3,19 20 21,X Z X
+nearest_t_x_down_9_10_y,-0.5,-0.05,3,19 20 21,Y Z Y
+nearest_t_y_up_9_15_x,-0.5,-0.05,13,18 19 20 21 22 23 24 25 26 27 28 29 30,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_9_15_y,-0.5,-0.05,13,18 19 20 21 22 23 24 25 26 27 28 29 30,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_9_15_x,-0.5,-0.05,13,19 20 21 22 23 24 25 26 27 28 29 30 31,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_9_15_y,-0.5,-0.05,13,19 20 21 22 23 24 25 26 27 28 29 30 31,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_10_11_x,-0.5,-0.05,3,20 21 22,X Z X
+nearest_t_x_up_10_11_y,-0.5,-0.05,3,20 21 22,Y Z Y
+nearest_t_x_down_10_11_x,-0.5,-0.05,3,21 22 23,X Z X
+nearest_t_x_down_10_11_y,-0.5,-0.05,3,21 22 23,Y Z Y
+nearest_t_y_up_10_16_x,-0.5,-0.05,13,20 21 22 23 24 25 26 27 28 29 30 31 32,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_10_16_y,-0.5,-0.05,13,20 21 22 23 24 25 26 27 28 29 30 31 32,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_10_16_x,-0.5,-0.05,13,21 22 23 24 25 26 27 28 29 30 31 32 33,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_10_16_y,-0.5,-0.05,13,21 22 23 24 25 26 27 28 29 30 31 32 33,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_up_11_17_x,-0.5,-0.05,13,22 23 24 25 26 27 28 29 30 31 32 33 34,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_11_17_y,-0.5,-0.05,13,22 23 24 25 26 27 28 29 30 31 32 33 34,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_11_17_x,-0.5,-0.05,13,23 24 25 26 27 28 29 30 31 32 33 34 35,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_11_17_y,-0.5,-0.05,13,23 24 25 26 27 28 29 30 31 32 33 34 35,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_12_13_x,-0.5,-0.05,3,24 25 26,X Z X
+nearest_t_x_up_12_13_y,-0.5,-0.05,3,24 25 26,Y Z Y
+nearest_t_x_down_12_13_x,-0.5,-0.05,3,25 26 27,X Z X
+nearest_t_x_down_12_13_y,-0.5,-0.05,3,25 26 27,Y Z Y
+nearest_t_y_up_12_18_x,-0.5,-0.05,13,24 25 26 27 28 29 30 31 32 33 34 35 36,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_12_18_y,-0.5,-0.05,13,24 25 26 27 28 29 30 31 32 33 34 35 36,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_12_18_x,-0.5,-0.05,13,25 26 27 28 29 30 31 32 33 34 35 36 37,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_12_18_y,-0.5,-0.05,13,25 26 27 28 29 30 31 32 33 34 35 36 37,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_13_14_x,-0.5,-0.05,3,26 27 28,X Z X
+nearest_t_x_up_13_14_y,-0.5,-0.05,3,26 27 28,Y Z Y
+nearest_t_x_down_13_14_x,-0.5,-0.05,3,27 28 29,X Z X
+nearest_t_x_down_13_14_y,-0.5,-0.05,3,27 28 29,Y Z Y
+nearest_t_y_up_13_19_x,-0.5,-0.05,13,26 27 28 29 30 31 32 33 34 35 36 37 38,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_13_19_y,-0.5,-0.05,13,26 27 28 29 30 31 32 33 34 35 36 37 38,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_13_19_x,-0.5,-0.05,13,27 28 29 30 31 32 33 34 35 36 37 38 39,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_13_19_y,-0.5,-0.05,13,27 28 29 30 31 32 33 34 35 36 37 38 39,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_14_15_x,-0.5,-0.05,3,28 29 30,X Z X
+nearest_t_x_up_14_15_y,-0.5,-0.05,3,28 29 30,Y Z Y
+nearest_t_x_down_14_15_x,-0.5,-0.05,3,29 30 31,X Z X
+nearest_t_x_down_14_15_y,-0.5,-0.05,3,29 30 31,Y Z Y
+nearest_t_y_up_14_20_x,-0.5,-0.05,13,28 29 30 31 32 33 34 35 36 37 38 39 40,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_14_20_y,-0.5,-0.05,13,28 29 30 31 32 33 34 35 36 37 38 39 40,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_14_20_x,-0.5,-0.05,13,29 30 31 32 33 34 35 36 37 38 39 40 41,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_14_20_y,-0.5,-0.05,13,29 30 31 32 33 34 35 36 37 38 39 40 41,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_15_16_x,-0.5,-0.05,3,30 31 32,X Z X
+nearest_t_x_up_15_16_y,-0.5,-0.05,3,30 31 32,Y Z Y
+nearest_t_x_down_15_16_x,-0.5,-0.05,3,31 32 33,X Z X
+nearest_t_x_down_15_16_y,-0.5,-0.05,3,31 32 33,Y Z Y
+nearest_t_y_up_15_21_x,-0.5,-0.05,13,30 31 32 33 34 35 36 37 38 39 40 41 42,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_15_21_y,-0.5,-0.05,13,30 31 32 33 34 35 36 37 38 39 40 41 42,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_15_21_x,-0.5,-0.05,13,31 32 33 34 35 36 37 38 39 40 41 42 43,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_15_21_y,-0.5,-0.05,13,31 32 33 34 35 36 37 38 39 40 41 42 43,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_16_17_x,-0.5,-0.05,3,32 33 34,X Z X
+nearest_t_x_up_16_17_y,-0.5,-0.05,3,32 33 34,Y Z Y
+nearest_t_x_down_16_17_x,-0.5,-0.05,3,33 34 35,X Z X
+nearest_t_x_down_16_17_y,-0.5,-0.05,3,33 34 35,Y Z Y
+nearest_t_y_up_16_22_x,-0.5,-0.05,13,32 33 34 35 36 37 38 39 40 41 42 43 44,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_16_22_y,-0.5,-0.05,13,32 33 34 35 36 37 38 39 40 41 42 43 44,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_16_22_x,-0.5,-0.05,13,33 34 35 36 37 38 39 40 41 42 43 44 45,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_16_22_y,-0.5,-0.05,13,33 34 35 36 37 38 39 40 41 42 43 44 45,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_up_17_23_x,-0.5,-0.05,13,34 35 36 37 38 39 40 41 42 43 44 45 46,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_17_23_y,-0.5,-0.05,13,34 35 36 37 38 39 40 41 42 43 44 45 46,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_17_23_x,-0.5,-0.05,13,35 36 37 38 39 40 41 42 43 44 45 46 47,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_17_23_y,-0.5,-0.05,13,35 36 37 38 39 40 41 42 43 44 45 46 47,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_18_19_x,-0.5,-0.05,3,36 37 38,X Z X
+nearest_t_x_up_18_19_y,-0.5,-0.05,3,36 37 38,Y Z Y
+nearest_t_x_down_18_19_x,-0.5,-0.05,3,37 38 39,X Z X
+nearest_t_x_down_18_19_y,-0.5,-0.05,3,37 38 39,Y Z Y
+nearest_t_y_up_18_24_x,-0.5,-0.05,13,36 37 38 39 40 41 42 43 44 45 46 47 48,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_18_24_y,-0.5,-0.05,13,36 37 38 39 40 41 42 43 44 45 46 47 48,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_18_24_x,-0.5,-0.05,13,37 38 39 40 41 42 43 44 45 46 47 48 49,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_18_24_y,-0.5,-0.05,13,37 38 39 40 41 42 43 44 45 46 47 48 49,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_19_20_x,-0.5,-0.05,3,38 39 40,X Z X
+nearest_t_x_up_19_20_y,-0.5,-0.05,3,38 39 40,Y Z Y
+nearest_t_x_down_19_20_x,-0.5,-0.05,3,39 40 41,X Z X
+nearest_t_x_down_19_20_y,-0.5,-0.05,3,39 40 41,Y Z Y
+nearest_t_y_up_19_25_x,-0.5,-0.05,13,38 39 40 41 42 43 44 45 46 47 48 49 50,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_19_25_y,-0.5,-0.05,13,38 39 40 41 42 43 44 45 46 47 48 49 50,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_19_25_x,-0.5,-0.05,13,39 40 41 42 43 44 45 46 47 48 49 50 51,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_19_25_y,-0.5,-0.05,13,39 40 41 42 43 44 45 46 47 48 49 50 51,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_20_21_x,-0.5,-0.05,3,40 41 42,X Z X
+nearest_t_x_up_20_21_y,-0.5,-0.05,3,40 41 42,Y Z Y
+nearest_t_x_down_20_21_x,-0.5,-0.05,3,41 42 43,X Z X
+nearest_t_x_down_20_21_y,-0.5,-0.05,3,41 42 43,Y Z Y
+nearest_t_y_up_20_26_x,-0.5,-0.05,13,40 41 42 43 44 45 46 47 48 49 50 51 52,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_20_26_y,-0.5,-0.05,13,40 41 42 43 44 45 46 47 48 49 50 51 52,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_20_26_x,-0.5,-0.05,13,41 42 43 44 45 46 47 48 49 50 51 52 53,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_20_26_y,-0.5,-0.05,13,41 42 43 44 45 46 47 48 49 50 51 52 53,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_21_22_x,-0.5,-0.05,3,42 43 44,X Z X
+nearest_t_x_up_21_22_y,-0.5,-0.05,3,42 43 44,Y Z Y
+nearest_t_x_down_21_22_x,-0.5,-0.05,3,43 44 45,X Z X
+nearest_t_x_down_21_22_y,-0.5,-0.05,3,43 44 45,Y Z Y
+nearest_t_y_up_21_27_x,-0.5,-0.05,13,42 43 44 45 46 47 48 49 50 51 52 53 54,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_21_27_y,-0.5,-0.05,13,42 43 44 45 46 47 48 49 50 51 52 53 54,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_21_27_x,-0.5,-0.05,13,43 44 45 46 47 48 49 50 51 52 53 54 55,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_21_27_y,-0.5,-0.05,13,43 44 45 46 47 48 49 50 51 52 53 54 55,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_22_23_x,-0.5,-0.05,3,44 45 46,X Z X
+nearest_t_x_up_22_23_y,-0.5,-0.05,3,44 45 46,Y Z Y
+nearest_t_x_down_22_23_x,-0.5,-0.05,3,45 46 47,X Z X
+nearest_t_x_down_22_23_y,-0.5,-0.05,3,45 46 47,Y Z Y
+nearest_t_y_up_22_28_x,-0.5,-0.05,13,44 45 46 47 48 49 50 51 52 53 54 55 56,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_22_28_y,-0.5,-0.05,13,44 45 46 47 48 49 50 51 52 53 54 55 56,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_22_28_x,-0.5,-0.05,13,45 46 47 48 49 50 51 52 53 54 55 56 57,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_22_28_y,-0.5,-0.05,13,45 46 47 48 49 50 51 52 53 54 55 56 57,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_up_23_29_x,-0.5,-0.05,13,46 47 48 49 50 51 52 53 54 55 56 57 58,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_23_29_y,-0.5,-0.05,13,46 47 48 49 50 51 52 53 54 55 56 57 58,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_23_29_x,-0.5,-0.05,13,47 48 49 50 51 52 53 54 55 56 57 58 59,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_23_29_y,-0.5,-0.05,13,47 48 49 50 51 52 53 54 55 56 57 58 59,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_24_25_x,-0.5,-0.05,3,48 49 50,X Z X
+nearest_t_x_up_24_25_y,-0.5,-0.05,3,48 49 50,Y Z Y
+nearest_t_x_down_24_25_x,-0.5,-0.05,3,49 50 51,X Z X
+nearest_t_x_down_24_25_y,-0.5,-0.05,3,49 50 51,Y Z Y
+nearest_t_y_up_24_30_x,-0.5,-0.05,13,48 49 50 51 52 53 54 55 56 57 58 59 60,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_24_30_y,-0.5,-0.05,13,48 49 50 51 52 53 54 55 56 57 58 59 60,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_24_30_x,-0.5,-0.05,13,49 50 51 52 53 54 55 56 57 58 59 60 61,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_24_30_y,-0.5,-0.05,13,49 50 51 52 53 54 55 56 57 58 59 60 61,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_25_26_x,-0.5,-0.05,3,50 51 52,X Z X
+nearest_t_x_up_25_26_y,-0.5,-0.05,3,50 51 52,Y Z Y
+nearest_t_x_down_25_26_x,-0.5,-0.05,3,51 52 53,X Z X
+nearest_t_x_down_25_26_y,-0.5,-0.05,3,51 52 53,Y Z Y
+nearest_t_y_up_25_31_x,-0.5,-0.05,13,50 51 52 53 54 55 56 57 58 59 60 61 62,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_25_31_y,-0.5,-0.05,13,50 51 52 53 54 55 56 57 58 59 60 61 62,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_25_31_x,-0.5,-0.05,13,51 52 53 54 55 56 57 58 59 60 61 62 63,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_25_31_y,-0.5,-0.05,13,51 52 53 54 55 56 57 58 59 60 61 62 63,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_26_27_x,-0.5,-0.05,3,52 53 54,X Z X
+nearest_t_x_up_26_27_y,-0.5,-0.05,3,52 53 54,Y Z Y
+nearest_t_x_down_26_27_x,-0.5,-0.05,3,53 54 55,X Z X
+nearest_t_x_down_26_27_y,-0.5,-0.05,3,53 54 55,Y Z Y
+nearest_t_y_up_26_32_x,-0.5,-0.05,13,52 53 54 55 56 57 58 59 60 61 62 63 64,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_26_32_y,-0.5,-0.05,13,52 53 54 55 56 57 58 59 60 61 62 63 64,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_26_32_x,-0.5,-0.05,13,53 54 55 56 57 58 59 60 61 62 63 64 65,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_26_32_y,-0.5,-0.05,13,53 54 55 56 57 58 59 60 61 62 63 64 65,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_27_28_x,-0.5,-0.05,3,54 55 56,X Z X
+nearest_t_x_up_27_28_y,-0.5,-0.05,3,54 55 56,Y Z Y
+nearest_t_x_down_27_28_x,-0.5,-0.05,3,55 56 57,X Z X
+nearest_t_x_down_27_28_y,-0.5,-0.05,3,55 56 57,Y Z Y
+nearest_t_y_up_27_33_x,-0.5,-0.05,13,54 55 56 57 58 59 60 61 62 63 64 65 66,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_27_33_y,-0.5,-0.05,13,54 55 56 57 58 59 60 61 62 63 64 65 66,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_27_33_x,-0.5,-0.05,13,55 56 57 58 59 60 61 62 63 64 65 66 67,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_27_33_y,-0.5,-0.05,13,55 56 57 58 59 60 61 62 63 64 65 66 67,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_28_29_x,-0.5,-0.05,3,56 57 58,X Z X
+nearest_t_x_up_28_29_y,-0.5,-0.05,3,56 57 58,Y Z Y
+nearest_t_x_down_28_29_x,-0.5,-0.05,3,57 58 59,X Z X
+nearest_t_x_down_28_29_y,-0.5,-0.05,3,57 58 59,Y Z Y
+nearest_t_y_up_28_34_x,-0.5,-0.05,13,56 57 58 59 60 61 62 63 64 65 66 67 68,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_28_34_y,-0.5,-0.05,13,56 57 58 59 60 61 62 63 64 65 66 67 68,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_28_34_x,-0.5,-0.05,13,57 58 59 60 61 62 63 64 65 66 67 68 69,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_28_34_y,-0.5,-0.05,13,57 58 59 60 61 62 63 64 65 66 67 68 69,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_up_29_35_x,-0.5,-0.05,13,58 59 60 61 62 63 64 65 66 67 68 69 70,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_up_29_35_y,-0.5,-0.05,13,58 59 60 61 62 63 64 65 66 67 68 69 70,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_y_down_29_35_x,-0.5,-0.05,13,59 60 61 62 63 64 65 66 67 68 69 70 71,X Z Z Z Z Z Z Z Z Z Z Z X
+nearest_t_y_down_29_35_y,-0.5,-0.05,13,59 60 61 62 63 64 65 66 67 68 69 70 71,Y Z Z Z Z Z Z Z Z Z Z Z Y
+nearest_t_x_up_30_31_x,-0.5,-0.05,3,60 61 62,X Z X
+nearest_t_x_up_30_31_y,-0.5,-0.05,3,60 61 62,Y Z Y
+nearest_t_x_down_30_31_x,-0.5,-0.05,3,61 62 63,X Z X
+nearest_t_x_down_30_31_y,-0.5,-0.05,3,61 62 63,Y Z Y
+nearest_t_x_up_31_32_x,-0.5,-0.05,3,62 63 64,X Z X
+nearest_t_x_up_31_32_y,-0.5,-0.05,3,62 63 64,Y Z Y
+nearest_t_x_down_31_32_x,-0.5,-0.05,3,63 64 65,X Z X
+nearest_t_x_down_31_32_y,-0.5,-0.05,3,63 64 65,Y Z Y
+nearest_t_x_up_32_33_x,-0.5,-0.05,3,64 65 66,X Z X
+nearest_t_x_up_32_33_y,-0.5,-0.05,3,64 65 66,Y Z Y
+nearest_t_x_down_32_33_x,-0.5,-0.05,3,65 66 67,X Z X
+nearest_t_x_down_32_33_y,-0.5,-0.05,3,65 66 67,Y Z Y
+nearest_t_x_up_33_34_x,-0.5,-0.05,3,66 67 68,X Z X
+nearest_t_x_up_33_34_y,-0.5,-0.05,3,66 67 68,Y Z Y
+nearest_t_x_down_33_34_x,-0.5,-0.05,3,67 68 69,X Z X
+nearest_t_x_down_33_34_y,-0.5,-0.05,3,67 68 69,Y Z Y
+nearest_t_x_up_34_35_x,-0.5,-0.05,3,68 69 70,X Z X
+nearest_t_x_up_34_35_y,-0.5,-0.05,3,68 69 70,Y Z Y
+nearest_t_x_down_34_35_x,-0.5,-0.05,3,69 70 71,X Z X
+nearest_t_x_down_34_35_y,-0.5,-0.05,3,69 70 71,Y Z Y
+next_nearest_t_prime_diag_pos_up_0_7_x,0.125,0.0125,15,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_0_7_y,0.125,0.0125,15,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_0_7_x,0.125,0.0125,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_0_7_y,0.125,0.0125,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_1_8_x,0.125,0.0125,15,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_1_8_y,0.125,0.0125,15,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_1_8_x,0.125,0.0125,15,3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_1_8_y,0.125,0.0125,15,3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_2_9_x,0.125,0.0125,15,4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_2_9_y,0.125,0.0125,15,4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_2_9_x,0.125,0.0125,15,5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_2_9_y,0.125,0.0125,15,5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_3_10_x,0.125,0.0125,15,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_3_10_y,0.125,0.0125,15,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_3_10_x,0.125,0.0125,15,7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_3_10_y,0.125,0.0125,15,7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_4_11_x,0.125,0.0125,15,8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_4_11_y,0.125,0.0125,15,8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_4_11_x,0.125,0.0125,15,9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_4_11_y,0.125,0.0125,15,9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_6_13_x,0.125,0.0125,15,12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_6_13_y,0.125,0.0125,15,12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_6_13_x,0.125,0.0125,15,13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_6_13_y,0.125,0.0125,15,13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_1_6_x,0.125,0.0125,11,2 3 4 5 6 7 8 9 10 11 12,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_1_6_y,0.125,0.0125,11,2 3 4 5 6 7 8 9 10 11 12,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_1_6_x,0.125,0.0125,11,3 4 5 6 7 8 9 10 11 12 13,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_1_6_y,0.125,0.0125,11,3 4 5 6 7 8 9 10 11 12 13,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_7_14_x,0.125,0.0125,15,14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_7_14_y,0.125,0.0125,15,14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_7_14_x,0.125,0.0125,15,15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_7_14_y,0.125,0.0125,15,15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_2_7_x,0.125,0.0125,11,4 5 6 7 8 9 10 11 12 13 14,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_2_7_y,0.125,0.0125,11,4 5 6 7 8 9 10 11 12 13 14,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_2_7_x,0.125,0.0125,11,5 6 7 8 9 10 11 12 13 14 15,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_2_7_y,0.125,0.0125,11,5 6 7 8 9 10 11 12 13 14 15,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_8_15_x,0.125,0.0125,15,16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_8_15_y,0.125,0.0125,15,16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_8_15_x,0.125,0.0125,15,17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_8_15_y,0.125,0.0125,15,17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_3_8_x,0.125,0.0125,11,6 7 8 9 10 11 12 13 14 15 16,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_3_8_y,0.125,0.0125,11,6 7 8 9 10 11 12 13 14 15 16,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_3_8_x,0.125,0.0125,11,7 8 9 10 11 12 13 14 15 16 17,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_3_8_y,0.125,0.0125,11,7 8 9 10 11 12 13 14 15 16 17,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_9_16_x,0.125,0.0125,15,18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_9_16_y,0.125,0.0125,15,18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_9_16_x,0.125,0.0125,15,19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_9_16_y,0.125,0.0125,15,19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_4_9_x,0.125,0.0125,11,8 9 10 11 12 13 14 15 16 17 18,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_4_9_y,0.125,0.0125,11,8 9 10 11 12 13 14 15 16 17 18,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_4_9_x,0.125,0.0125,11,9 10 11 12 13 14 15 16 17 18 19,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_4_9_y,0.125,0.0125,11,9 10 11 12 13 14 15 16 17 18 19,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_10_17_x,0.125,0.0125,15,20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_10_17_y,0.125,0.0125,15,20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_10_17_x,0.125,0.0125,15,21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_10_17_y,0.125,0.0125,15,21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_5_10_x,0.125,0.0125,11,10 11 12 13 14 15 16 17 18 19 20,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_5_10_y,0.125,0.0125,11,10 11 12 13 14 15 16 17 18 19 20,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_5_10_x,0.125,0.0125,11,11 12 13 14 15 16 17 18 19 20 21,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_5_10_y,0.125,0.0125,11,11 12 13 14 15 16 17 18 19 20 21,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_12_19_x,0.125,0.0125,15,24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_12_19_y,0.125,0.0125,15,24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_12_19_x,0.125,0.0125,15,25 26 27 28 29 30 31 32 33 34 35 36 37 38 39,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_12_19_y,0.125,0.0125,15,25 26 27 28 29 30 31 32 33 34 35 36 37 38 39,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_7_12_x,0.125,0.0125,11,14 15 16 17 18 19 20 21 22 23 24,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_7_12_y,0.125,0.0125,11,14 15 16 17 18 19 20 21 22 23 24,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_7_12_x,0.125,0.0125,11,15 16 17 18 19 20 21 22 23 24 25,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_7_12_y,0.125,0.0125,11,15 16 17 18 19 20 21 22 23 24 25,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_13_20_x,0.125,0.0125,15,26 27 28 29 30 31 32 33 34 35 36 37 38 39 40,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_13_20_y,0.125,0.0125,15,26 27 28 29 30 31 32 33 34 35 36 37 38 39 40,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_13_20_x,0.125,0.0125,15,27 28 29 30 31 32 33 34 35 36 37 38 39 40 41,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_13_20_y,0.125,0.0125,15,27 28 29 30 31 32 33 34 35 36 37 38 39 40 41,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_8_13_x,0.125,0.0125,11,16 17 18 19 20 21 22 23 24 25 26,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_8_13_y,0.125,0.0125,11,16 17 18 19 20 21 22 23 24 25 26,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_8_13_x,0.125,0.0125,11,17 18 19 20 21 22 23 24 25 26 27,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_8_13_y,0.125,0.0125,11,17 18 19 20 21 22 23 24 25 26 27,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_14_21_x,0.125,0.0125,15,28 29 30 31 32 33 34 35 36 37 38 39 40 41 42,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_14_21_y,0.125,0.0125,15,28 29 30 31 32 33 34 35 36 37 38 39 40 41 42,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_14_21_x,0.125,0.0125,15,29 30 31 32 33 34 35 36 37 38 39 40 41 42 43,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_14_21_y,0.125,0.0125,15,29 30 31 32 33 34 35 36 37 38 39 40 41 42 43,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_9_14_x,0.125,0.0125,11,18 19 20 21 22 23 24 25 26 27 28,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_9_14_y,0.125,0.0125,11,18 19 20 21 22 23 24 25 26 27 28,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_9_14_x,0.125,0.0125,11,19 20 21 22 23 24 25 26 27 28 29,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_9_14_y,0.125,0.0125,11,19 20 21 22 23 24 25 26 27 28 29,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_15_22_x,0.125,0.0125,15,30 31 32 33 34 35 36 37 38 39 40 41 42 43 44,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_15_22_y,0.125,0.0125,15,30 31 32 33 34 35 36 37 38 39 40 41 42 43 44,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_15_22_x,0.125,0.0125,15,31 32 33 34 35 36 37 38 39 40 41 42 43 44 45,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_15_22_y,0.125,0.0125,15,31 32 33 34 35 36 37 38 39 40 41 42 43 44 45,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_10_15_x,0.125,0.0125,11,20 21 22 23 24 25 26 27 28 29 30,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_10_15_y,0.125,0.0125,11,20 21 22 23 24 25 26 27 28 29 30,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_10_15_x,0.125,0.0125,11,21 22 23 24 25 26 27 28 29 30 31,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_10_15_y,0.125,0.0125,11,21 22 23 24 25 26 27 28 29 30 31,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_16_23_x,0.125,0.0125,15,32 33 34 35 36 37 38 39 40 41 42 43 44 45 46,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_16_23_y,0.125,0.0125,15,32 33 34 35 36 37 38 39 40 41 42 43 44 45 46,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_16_23_x,0.125,0.0125,15,33 34 35 36 37 38 39 40 41 42 43 44 45 46 47,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_16_23_y,0.125,0.0125,15,33 34 35 36 37 38 39 40 41 42 43 44 45 46 47,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_11_16_x,0.125,0.0125,11,22 23 24 25 26 27 28 29 30 31 32,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_11_16_y,0.125,0.0125,11,22 23 24 25 26 27 28 29 30 31 32,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_11_16_x,0.125,0.0125,11,23 24 25 26 27 28 29 30 31 32 33,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_11_16_y,0.125,0.0125,11,23 24 25 26 27 28 29 30 31 32 33,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_18_25_x,0.125,0.0125,15,36 37 38 39 40 41 42 43 44 45 46 47 48 49 50,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_18_25_y,0.125,0.0125,15,36 37 38 39 40 41 42 43 44 45 46 47 48 49 50,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_18_25_x,0.125,0.0125,15,37 38 39 40 41 42 43 44 45 46 47 48 49 50 51,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_18_25_y,0.125,0.0125,15,37 38 39 40 41 42 43 44 45 46 47 48 49 50 51,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_13_18_x,0.125,0.0125,11,26 27 28 29 30 31 32 33 34 35 36,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_13_18_y,0.125,0.0125,11,26 27 28 29 30 31 32 33 34 35 36,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_13_18_x,0.125,0.0125,11,27 28 29 30 31 32 33 34 35 36 37,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_13_18_y,0.125,0.0125,11,27 28 29 30 31 32 33 34 35 36 37,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_19_26_x,0.125,0.0125,15,38 39 40 41 42 43 44 45 46 47 48 49 50 51 52,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_19_26_y,0.125,0.0125,15,38 39 40 41 42 43 44 45 46 47 48 49 50 51 52,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_19_26_x,0.125,0.0125,15,39 40 41 42 43 44 45 46 47 48 49 50 51 52 53,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_19_26_y,0.125,0.0125,15,39 40 41 42 43 44 45 46 47 48 49 50 51 52 53,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_14_19_x,0.125,0.0125,11,28 29 30 31 32 33 34 35 36 37 38,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_14_19_y,0.125,0.0125,11,28 29 30 31 32 33 34 35 36 37 38,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_14_19_x,0.125,0.0125,11,29 30 31 32 33 34 35 36 37 38 39,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_14_19_y,0.125,0.0125,11,29 30 31 32 33 34 35 36 37 38 39,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_20_27_x,0.125,0.0125,15,40 41 42 43 44 45 46 47 48 49 50 51 52 53 54,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_20_27_y,0.125,0.0125,15,40 41 42 43 44 45 46 47 48 49 50 51 52 53 54,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_20_27_x,0.125,0.0125,15,41 42 43 44 45 46 47 48 49 50 51 52 53 54 55,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_20_27_y,0.125,0.0125,15,41 42 43 44 45 46 47 48 49 50 51 52 53 54 55,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_15_20_x,0.125,0.0125,11,30 31 32 33 34 35 36 37 38 39 40,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_15_20_y,0.125,0.0125,11,30 31 32 33 34 35 36 37 38 39 40,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_15_20_x,0.125,0.0125,11,31 32 33 34 35 36 37 38 39 40 41,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_15_20_y,0.125,0.0125,11,31 32 33 34 35 36 37 38 39 40 41,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_21_28_x,0.125,0.0125,15,42 43 44 45 46 47 48 49 50 51 52 53 54 55 56,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_21_28_y,0.125,0.0125,15,42 43 44 45 46 47 48 49 50 51 52 53 54 55 56,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_21_28_x,0.125,0.0125,15,43 44 45 46 47 48 49 50 51 52 53 54 55 56 57,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_21_28_y,0.125,0.0125,15,43 44 45 46 47 48 49 50 51 52 53 54 55 56 57,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_16_21_x,0.125,0.0125,11,32 33 34 35 36 37 38 39 40 41 42,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_16_21_y,0.125,0.0125,11,32 33 34 35 36 37 38 39 40 41 42,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_16_21_x,0.125,0.0125,11,33 34 35 36 37 38 39 40 41 42 43,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_16_21_y,0.125,0.0125,11,33 34 35 36 37 38 39 40 41 42 43,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_22_29_x,0.125,0.0125,15,44 45 46 47 48 49 50 51 52 53 54 55 56 57 58,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_22_29_y,0.125,0.0125,15,44 45 46 47 48 49 50 51 52 53 54 55 56 57 58,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_22_29_x,0.125,0.0125,15,45 46 47 48 49 50 51 52 53 54 55 56 57 58 59,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_22_29_y,0.125,0.0125,15,45 46 47 48 49 50 51 52 53 54 55 56 57 58 59,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_17_22_x,0.125,0.0125,11,34 35 36 37 38 39 40 41 42 43 44,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_17_22_y,0.125,0.0125,11,34 35 36 37 38 39 40 41 42 43 44,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_17_22_x,0.125,0.0125,11,35 36 37 38 39 40 41 42 43 44 45,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_17_22_y,0.125,0.0125,11,35 36 37 38 39 40 41 42 43 44 45,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_24_31_x,0.125,0.0125,15,48 49 50 51 52 53 54 55 56 57 58 59 60 61 62,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_24_31_y,0.125,0.0125,15,48 49 50 51 52 53 54 55 56 57 58 59 60 61 62,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_24_31_x,0.125,0.0125,15,49 50 51 52 53 54 55 56 57 58 59 60 61 62 63,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_24_31_y,0.125,0.0125,15,49 50 51 52 53 54 55 56 57 58 59 60 61 62 63,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_19_24_x,0.125,0.0125,11,38 39 40 41 42 43 44 45 46 47 48,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_19_24_y,0.125,0.0125,11,38 39 40 41 42 43 44 45 46 47 48,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_19_24_x,0.125,0.0125,11,39 40 41 42 43 44 45 46 47 48 49,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_19_24_y,0.125,0.0125,11,39 40 41 42 43 44 45 46 47 48 49,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_25_32_x,0.125,0.0125,15,50 51 52 53 54 55 56 57 58 59 60 61 62 63 64,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_25_32_y,0.125,0.0125,15,50 51 52 53 54 55 56 57 58 59 60 61 62 63 64,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_25_32_x,0.125,0.0125,15,51 52 53 54 55 56 57 58 59 60 61 62 63 64 65,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_25_32_y,0.125,0.0125,15,51 52 53 54 55 56 57 58 59 60 61 62 63 64 65,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_20_25_x,0.125,0.0125,11,40 41 42 43 44 45 46 47 48 49 50,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_20_25_y,0.125,0.0125,11,40 41 42 43 44 45 46 47 48 49 50,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_20_25_x,0.125,0.0125,11,41 42 43 44 45 46 47 48 49 50 51,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_20_25_y,0.125,0.0125,11,41 42 43 44 45 46 47 48 49 50 51,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_26_33_x,0.125,0.0125,15,52 53 54 55 56 57 58 59 60 61 62 63 64 65 66,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_26_33_y,0.125,0.0125,15,52 53 54 55 56 57 58 59 60 61 62 63 64 65 66,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_26_33_x,0.125,0.0125,15,53 54 55 56 57 58 59 60 61 62 63 64 65 66 67,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_26_33_y,0.125,0.0125,15,53 54 55 56 57 58 59 60 61 62 63 64 65 66 67,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_21_26_x,0.125,0.0125,11,42 43 44 45 46 47 48 49 50 51 52,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_21_26_y,0.125,0.0125,11,42 43 44 45 46 47 48 49 50 51 52,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_21_26_x,0.125,0.0125,11,43 44 45 46 47 48 49 50 51 52 53,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_21_26_y,0.125,0.0125,11,43 44 45 46 47 48 49 50 51 52 53,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_27_34_x,0.125,0.0125,15,54 55 56 57 58 59 60 61 62 63 64 65 66 67 68,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_27_34_y,0.125,0.0125,15,54 55 56 57 58 59 60 61 62 63 64 65 66 67 68,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_27_34_x,0.125,0.0125,15,55 56 57 58 59 60 61 62 63 64 65 66 67 68 69,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_27_34_y,0.125,0.0125,15,55 56 57 58 59 60 61 62 63 64 65 66 67 68 69,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_22_27_x,0.125,0.0125,11,44 45 46 47 48 49 50 51 52 53 54,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_22_27_y,0.125,0.0125,11,44 45 46 47 48 49 50 51 52 53 54,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_22_27_x,0.125,0.0125,11,45 46 47 48 49 50 51 52 53 54 55,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_22_27_y,0.125,0.0125,11,45 46 47 48 49 50 51 52 53 54 55,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_up_28_35_x,0.125,0.0125,15,56 57 58 59 60 61 62 63 64 65 66 67 68 69 70,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_up_28_35_y,0.125,0.0125,15,56 57 58 59 60 61 62 63 64 65 66 67 68 69 70,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_pos_down_28_35_x,0.125,0.0125,15,57 58 59 60 61 62 63 64 65 66 67 68 69 70 71,X Z Z Z Z Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_pos_down_28_35_y,0.125,0.0125,15,57 58 59 60 61 62 63 64 65 66 67 68 69 70 71,Y Z Z Z Z Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_23_28_x,0.125,0.0125,11,46 47 48 49 50 51 52 53 54 55 56,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_23_28_y,0.125,0.0125,11,46 47 48 49 50 51 52 53 54 55 56,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_23_28_x,0.125,0.0125,11,47 48 49 50 51 52 53 54 55 56 57,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_23_28_y,0.125,0.0125,11,47 48 49 50 51 52 53 54 55 56 57,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_25_30_x,0.125,0.0125,11,50 51 52 53 54 55 56 57 58 59 60,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_25_30_y,0.125,0.0125,11,50 51 52 53 54 55 56 57 58 59 60,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_25_30_x,0.125,0.0125,11,51 52 53 54 55 56 57 58 59 60 61,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_25_30_y,0.125,0.0125,11,51 52 53 54 55 56 57 58 59 60 61,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_26_31_x,0.125,0.0125,11,52 53 54 55 56 57 58 59 60 61 62,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_26_31_y,0.125,0.0125,11,52 53 54 55 56 57 58 59 60 61 62,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_26_31_x,0.125,0.0125,11,53 54 55 56 57 58 59 60 61 62 63,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_26_31_y,0.125,0.0125,11,53 54 55 56 57 58 59 60 61 62 63,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_27_32_x,0.125,0.0125,11,54 55 56 57 58 59 60 61 62 63 64,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_27_32_y,0.125,0.0125,11,54 55 56 57 58 59 60 61 62 63 64,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_27_32_x,0.125,0.0125,11,55 56 57 58 59 60 61 62 63 64 65,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_27_32_y,0.125,0.0125,11,55 56 57 58 59 60 61 62 63 64 65,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_28_33_x,0.125,0.0125,11,56 57 58 59 60 61 62 63 64 65 66,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_28_33_y,0.125,0.0125,11,56 57 58 59 60 61 62 63 64 65 66,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_28_33_x,0.125,0.0125,11,57 58 59 60 61 62 63 64 65 66 67,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_28_33_y,0.125,0.0125,11,57 58 59 60 61 62 63 64 65 66 67,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_up_29_34_x,0.125,0.0125,11,58 59 60 61 62 63 64 65 66 67 68,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_up_29_34_y,0.125,0.0125,11,58 59 60 61 62 63 64 65 66 67 68,Y Z Z Z Z Z Z Z Z Z Y
+next_nearest_t_prime_diag_neg_down_29_34_x,0.125,0.0125,11,59 60 61 62 63 64 65 66 67 68 69,X Z Z Z Z Z Z Z Z Z X
+next_nearest_t_prime_diag_neg_down_29_34_y,0.125,0.0125,11,59 60 61 62 63 64 65 66 67 68 69,Y Z Z Z Z Z Z Z Z Z Y

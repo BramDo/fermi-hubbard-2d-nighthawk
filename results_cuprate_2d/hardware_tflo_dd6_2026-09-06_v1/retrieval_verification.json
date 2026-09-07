@@ -1,0 +1,11 @@
+{
+  "status": "DONE_ARCHIVED_VERIFIED",
+  "job_id": "daesvo51ierc738mji3g",
+  "actual_shots": 38912,
+  "provider_circuits_match": 76,
+  "verification": "byte equality or exact native instruction fields; no graph-isomorphism shortcut",
+  "usage": {
+    "qpu_charge_time_seconds": 8,
+    "status": "complete"
+  }
+}

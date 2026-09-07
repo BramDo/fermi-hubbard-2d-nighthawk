@@ -1,0 +1,13 @@
+test_empty_sector (test_compare_6x6_sector_mitigation.SectorTests.test_empty_sector) ... ok
+test_hand_computed_site_features (test_compare_6x6_sector_mitigation.SectorTests.test_hand_computed_site_features) ... ok
+test_linear_numerator_and_denominator (test_compare_6x6_sector_mitigation.SectorTests.test_linear_numerator_and_denominator) ... ok
+test_mask_and_endianness (test_compare_6x6_sector_mitigation.SectorTests.test_mask_and_endianness) ... ok
+test_normalize_after_extrapolation (test_compare_6x6_sector_mitigation.SectorTests.test_normalize_after_extrapolation) ... ok
+test_reject_invalid_bits (test_compare_6x6_sector_mitigation.SectorTests.test_reject_invalid_bits) ... ok
+test_spin_sectors_not_just_total_number (test_compare_6x6_sector_mitigation.SectorTests.test_spin_sectors_not_just_total_number) ... ok
+test_zero_noise_identity (test_compare_6x6_sector_mitigation.SectorTests.test_zero_noise_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

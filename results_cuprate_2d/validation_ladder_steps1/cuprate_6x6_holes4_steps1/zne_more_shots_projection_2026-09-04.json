@@ -1,0 +1,647 @@
+{
+  "date": "2026-09-04",
+  "source_job": "dadhl2642tqs73atf07g",
+  "reference": "mps32:mps_chi32",
+  "shots_per_noise_factor_observed": 128,
+  "noise_factors": [
+    1,
+    3,
+    5
+  ],
+  "n_sites": 36,
+  "method": "Fixed-weight linear ZNE sampling-variance propagation from observed per-factor one-site joint outcome probabilities; residual MSE estimated by subtracting shot variance from observed MSE.",
+  "formula": "RMSE(N) = sqrt(max(0, RMSE(128)^2 - V128) + V128*128/N)",
+  "assumptions": [
+    "Same hardware noise and circuit/protocol",
+    "Independent measurement samples within and across noise-factor batches",
+    "WLS weights fixed at current pilot estimates",
+    "Up/down and ZZ covariance retained within each site/noise factor",
+    "Estimated residual reference mismatch remains fixed with shot count"
+  ],
+  "limitations": [
+    "Single pilot, no empirically validated asymptotic error floor",
+    "Random fitted weights and calibration drift not included",
+    "MPS chi32 remains the reference, not exact solution",
+    "No uncertainty interval for estimated residual component",
+    "Output values are scenario projections, not measured future results"
+  ],
+  "reconstruction": {
+    "n_up_n_down_max_abs_difference": 1.3322676295501878e-15,
+    "max_double_fit_difference": 6.661338147750939e-16,
+    "negative_probabilities": 0,
+    "checks": [
+      {
+        "site": 0,
+        "reported": 0.08442178669802128,
+        "reconstructed": 0.0844217866980213,
+        "shot_standard_errors": {
+          "charge": 0.05013806112692706,
+          "spin_z": 0.04847282697784731,
+          "double_occupancy": 0.0313628034658846
+        }
+      },
+      {
+        "site": 1,
+        "reported": 0.008884948555516942,
+        "reconstructed": 0.00888494855551708,
+        "shot_standard_errors": {
+          "charge": 0.035484075127790386,
+          "spin_z": 0.03896097680525778,
+          "double_occupancy": 0.017630925705807095
+        }
+      }
+    ]
+  },
+  "stats": {
+    "charge": {
+      "observed_rmse": 0.1372142589951749,
+      "shot_component_rmse": 0.05327758007194891,
+      "residual_component_estimate": 0.126448615386931,
+      "variance_fraction": 0.15076151454087328,
+      "projection": [
+        {
+          "shots_per_noise_factor": 128,
+          "noise_only_assumption_rmse": 0.1372142589951749,
+          "fixed_residual_model_rmse": 0.1372142589951749,
+          "shot_component_rmse": 0.05327758007194891
+        },
+        {
+          "shots_per_noise_factor": 512,
+          "noise_only_assumption_rmse": 0.06860712949758745,
+          "fixed_residual_model_rmse": 0.1292241365529394,
+          "shot_component_rmse": 0.026638790035974455
+        },
+        {
+          "shots_per_noise_factor": 1024,
+          "noise_only_assumption_rmse": 0.04851256650548769,
+          "fixed_residual_model_rmse": 0.12784390834358267,
+          "shot_component_rmse": 0.018836469077042173
+        },
+        {
+          "shots_per_noise_factor": 2048,
+          "noise_only_assumption_rmse": 0.03430356474879372,
+          "fixed_residual_model_rmse": 0.12714817583008095,
+          "shot_component_rmse": 0.013319395017987228
+        },
+        {
+          "shots_per_noise_factor": 4096,
+          "noise_only_assumption_rmse": 0.024256283252743847,
+          "fixed_residual_model_rmse": 0.1267988780514031,
+          "shot_component_rmse": 0.009418234538521086
+        }
+      ]
+    },
+    "spin_z": {
+      "observed_rmse": 0.14980378368562333,
+      "shot_component_rmse": 0.05588138135343339,
+      "residual_component_estimate": 0.13899080841753952,
+      "variance_fraction": 0.13915175902651217,
+      "projection": [
+        {
+          "shots_per_noise_factor": 128,
+          "noise_only_assumption_rmse": 0.14980378368562333,
+          "fixed_residual_model_rmse": 0.14980378368562333,
+          "shot_component_rmse": 0.05588138135343339
+        },
+        {
+          "shots_per_noise_factor": 512,
+          "noise_only_assumption_rmse": 0.07490189184281167,
+          "fixed_residual_model_rmse": 0.14177138999125719,
+          "shot_component_rmse": 0.027940690676716694
+        },
+        {
+          "shots_per_noise_factor": 1024,
+          "noise_only_assumption_rmse": 0.05296363564575348,
+          "fixed_residual_model_rmse": 0.14038798353957208,
+          "shot_component_rmse": 0.01975705184854212
+        },
+        {
+          "shots_per_noise_factor": 2048,
+          "noise_only_assumption_rmse": 0.03745094592140583,
+          "fixed_residual_model_rmse": 0.13969114278806,
+          "shot_component_rmse": 0.013970345338358347
+        },
+        {
+          "shots_per_noise_factor": 4096,
+          "noise_only_assumption_rmse": 0.02648181782287674,
+          "fixed_residual_model_rmse": 0.13934141559133692,
+          "shot_component_rmse": 0.00987852592427106
+        }
+      ]
+    },
+    "double_occupancy": {
+      "observed_rmse": 0.05727912856544082,
+      "shot_component_rmse": 0.02951069415423327,
+      "residual_component_estimate": 0.049091929069365374,
+      "variance_fraction": 0.26543980287471164,
+      "projection": [
+        {
+          "shots_per_noise_factor": 128,
+          "noise_only_assumption_rmse": 0.05727912856544082,
+          "fixed_residual_model_rmse": 0.05727912856544082,
+          "shot_component_rmse": 0.02951069415423327
+        },
+        {
+          "shots_per_noise_factor": 512,
+          "noise_only_assumption_rmse": 0.02863956428272041,
+          "fixed_residual_model_rmse": 0.051261464738317566,
+          "shot_component_rmse": 0.014755347077116635
+        },
+        {
+          "shots_per_noise_factor": 1024,
+          "noise_only_assumption_rmse": 0.02025123011453964,
+          "fixed_residual_model_rmse": 0.050188421308452094,
+          "shot_component_rmse": 0.010433605976990275
+        },
+        {
+          "shots_per_noise_factor": 2048,
+          "noise_only_assumption_rmse": 0.014319782141360204,
+          "fixed_residual_model_rmse": 0.049643202622243705,
+          "shot_component_rmse": 0.007377673538558317
+        },
+        {
+          "shots_per_noise_factor": 4096,
+          "noise_only_assumption_rmse": 0.01012561505726982,
+          "fixed_residual_model_rmse": 0.04936833532915985,
+          "shot_component_rmse": 0.005216802988495138
+        }
+      ]
+    }
+  },
+  "site_variances_and_reference_residuals": [
+    {
+      "site": 0,
+      "variance": {
+        "charge": 0.002513825173567474,
+        "spin_z": 0.0023496149552243214,
+        "double_occupancy": 0.000983625441239703
+      },
+      "residuals": {
+        "charge": 0.01637034591387665,
+        "spin_z": -0.10597268629510614,
+        "double_occupancy": 0.06598741627937069
+      }
+    },
+    {
+      "site": 1,
+      "variance": {
+        "charge": 0.0012591195876746725,
+        "spin_z": 0.0015179577136198346,
+        "double_occupancy": 0.00031084954124368944
+      },
+      "residuals": {
+        "charge": -0.01377972812953887,
+        "spin_z": -0.023794594539187086,
+        "double_occupancy": -0.01869640562744765
+      }
+    },
+    {
+      "site": 2,
+      "variance": {
+        "charge": 0.0021032539606650347,
+        "spin_z": 0.0029685909681891475,
+        "double_occupancy": 0.000625404033340718
+      },
+      "residuals": {
+        "charge": -0.06824114843010443,
+        "spin_z": -0.07292050069386624,
+        "double_occupancy": -0.010527440733279603
+      }
+    },
+    {
+      "site": 3,
+      "variance": {
+        "charge": 0.0021855652445667687,
+        "spin_z": 0.0024320558400947353,
+        "double_occupancy": 0.0009374432571790296
+      },
+      "residuals": {
+        "charge": 0.04116695926408642,
+        "spin_z": 0.0760070124171095,
+        "double_occupancy": 0.05783581337372676
+      }
+    },
+    {
+      "site": 4,
+      "variance": {
+        "charge": 0.002937259664916453,
+        "spin_z": 0.003372514505340194,
+        "double_occupancy": 0.0011700569992188238
+      },
+      "residuals": {
+        "charge": 0.019990536582721763,
+        "spin_z": -0.10399426074345319,
+        "double_occupancy": 0.07521142081957591
+      }
+    },
+    {
+      "site": 5,
+      "variance": {
+        "charge": 0.003030299343704993,
+        "spin_z": 0.003139995924711415,
+        "double_occupancy": 0.001004005353245604
+      },
+      "residuals": {
+        "charge": -0.04461972238102763,
+        "spin_z": 0.17689302848126887,
+        "double_occupancy": 0.0675208820077601
+      }
+    },
+    {
+      "site": 6,
+      "variance": {
+        "charge": 0.0020989305314222024,
+        "spin_z": 0.0028123096275390505,
+        "double_occupancy": 0.000285092011986662
+      },
+      "residuals": {
+        "charge": -0.06567230206731889,
+        "spin_z": 0.0834023294437094,
+        "double_occupancy": 0.0033993476500873976
+      }
+    },
+    {
+      "site": 7,
+      "variance": {
+        "charge": 0.0024672774752947857,
+        "spin_z": 0.0037115530218187476,
+        "double_occupancy": 0.0009945284986273598
+      },
+      "residuals": {
+        "charge": 0.024735148856124378,
+        "spin_z": -0.08383614846518783,
+        "double_occupancy": 0.04804450771107496
+      }
+    },
+    {
+      "site": 8,
+      "variance": {
+        "charge": 0.0013909584137977995,
+        "spin_z": 0.002050662165933347,
+        "double_occupancy": 0.000365321505675815
+      },
+      "residuals": {
+        "charge": 0.0030456240151663927,
+        "spin_z": -0.00507983938217893,
+        "double_occupancy": 0.01054035043362822
+      }
+    },
+    {
+      "site": 9,
+      "variance": {
+        "charge": 0.002598169742426791,
+        "spin_z": 0.003713143860144905,
+        "double_occupancy": 0.001029422434002457
+      },
+      "residuals": {
+        "charge": -0.004901024735525561,
+        "spin_z": -0.13845106212225267,
+        "double_occupancy": 0.04362402981670474
+      }
+    },
+    {
+      "site": 10,
+      "variance": {
+        "charge": 0.003496335855449851,
+        "spin_z": 0.0037639930666635776,
+        "double_occupancy": 0.0015645887552734254
+      },
+      "residuals": {
+        "charge": 0.0425499054648979,
+        "spin_z": 0.254593208795871,
+        "double_occupancy": 0.10112142765523863
+      }
+    },
+    {
+      "site": 11,
+      "variance": {
+        "charge": 0.004288914348837668,
+        "spin_z": 0.004239582771121456,
+        "double_occupancy": 0.0012578939409242892
+      },
+      "residuals": {
+        "charge": -0.1183526944203207,
+        "spin_z": -0.34761613002817715,
+        "double_occupancy": 0.08578306877171606
+      }
+    },
+    {
+      "site": 12,
+      "variance": {
+        "charge": 0.0021791598488390147,
+        "spin_z": 0.0034812893919740555,
+        "double_occupancy": 0.0004212084737551565
+      },
+      "residuals": {
+        "charge": -0.08907086903938521,
+        "spin_z": -0.1725602373064169,
+        "double_occupancy": -0.010391384954479
+      }
+    },
+    {
+      "site": 13,
+      "variance": {
+        "charge": 0.002849166913414848,
+        "spin_z": 0.003609011913355726,
+        "double_occupancy": 0.0006538549320038948
+      },
+      "residuals": {
+        "charge": -0.1486096354703037,
+        "spin_z": 0.0959267531050012,
+        "double_occupancy": -0.010154153278307071
+      }
+    },
+    {
+      "site": 14,
+      "variance": {
+        "charge": 0.0039488887093531225,
+        "spin_z": 0.0033095984696818823,
+        "double_occupancy": 0.0006253125579912395
+      },
+      "residuals": {
+        "charge": 0.24700427963144578,
+        "spin_z": -0.03950252409115529,
+        "double_occupancy": 0.007364068979669167
+      }
+    },
+    {
+      "site": 15,
+      "variance": {
+        "charge": 0.003658055407215635,
+        "spin_z": 0.002886671608613835,
+        "double_occupancy": 0.0005248475843767059
+      },
+      "residuals": {
+        "charge": 0.24282237058753126,
+        "spin_z": -0.004631155172826029,
+        "double_occupancy": 0.04512202017238018
+      }
+    },
+    {
+      "site": 16,
+      "variance": {
+        "charge": 0.003244333462659848,
+        "spin_z": 0.0038839862518611256,
+        "double_occupancy": 0.0010990842080871297
+      },
+      "residuals": {
+        "charge": -0.061569905174159056,
+        "spin_z": -0.24124849104094415,
+        "double_occupancy": 0.05457991070624979
+      }
+    },
+    {
+      "site": 17,
+      "variance": {
+        "charge": 0.0031991224326126523,
+        "spin_z": 0.0035908414598236063,
+        "double_occupancy": 0.0011591207457663875
+      },
+      "residuals": {
+        "charge": -0.0001728412093352505,
+        "spin_z": 0.16622302126172117,
+        "double_occupancy": 0.09039546879570484
+      }
+    },
+    {
+      "site": 18,
+      "variance": {
+        "charge": 0.003026207085830119,
+        "spin_z": 0.002962381254941117,
+        "double_occupancy": 0.0005901308614544598
+      },
+      "residuals": {
+        "charge": -0.10195183395292884,
+        "spin_z": 0.17936724782701607,
+        "double_occupancy": 0.02545686623704288
+      }
+    },
+    {
+      "site": 19,
+      "variance": {
+        "charge": 0.002359015188563786,
+        "spin_z": 0.002468081401732639,
+        "double_occupancy": 0.0008586512923781971
+      },
+      "residuals": {
+        "charge": -0.07831128780613517,
+        "spin_z": -0.10052362826206096,
+        "double_occupancy": -0.0013278248625945566
+      }
+    },
+    {
+      "site": 20,
+      "variance": {
+        "charge": 0.005340182103135874,
+        "spin_z": 0.004398047537961296,
+        "double_occupancy": 0.0012333626636539079
+      },
+      "residuals": {
+        "charge": 0.4885024452086222,
+        "spin_z": -0.012612682083787519,
+        "double_occupancy": 0.08361598859199339
+      }
+    },
+    {
+      "site": 21,
+      "variance": {
+        "charge": 0.0047556593562416765,
+        "spin_z": 0.0041657851809939125,
+        "double_occupancy": 0.0009759747876341937
+      },
+      "residuals": {
+        "charge": 0.40104416637546453,
+        "spin_z": 0.040185672291240315,
+        "double_occupancy": 0.04046342320613393
+      }
+    },
+    {
+      "site": 22,
+      "variance": {
+        "charge": 0.0032348647075620875,
+        "spin_z": 0.003663849344305624,
+        "double_occupancy": 0.0011029494571966176
+      },
+      "residuals": {
+        "charge": -0.02145918263082358,
+        "spin_z": 0.14568513907376912,
+        "double_occupancy": 0.044009582374612444
+      }
+    },
+    {
+      "site": 23,
+      "variance": {
+        "charge": 0.0031425507294567346,
+        "spin_z": 0.0030660504293287785,
+        "double_occupancy": 0.0006813672596399557
+      },
+      "residuals": {
+        "charge": -0.13633773046845887,
+        "spin_z": -0.23442849073562466,
+        "double_occupancy": 0.03863212981044348
+      }
+    },
+    {
+      "site": 24,
+      "variance": {
+        "charge": 0.0029280053160442325,
+        "spin_z": 0.004172774336401074,
+        "double_occupancy": 0.0009316608384903669
+      },
+      "residuals": {
+        "charge": -0.05773303802553631,
+        "spin_z": -0.17292339291554493,
+        "double_occupancy": 0.06533019488740843
+      }
+    },
+    {
+      "site": 25,
+      "variance": {
+        "charge": 0.0022841369465224047,
+        "spin_z": 0.0027830932076610567,
+        "double_occupancy": 0.0011475867991598322
+      },
+      "residuals": {
+        "charge": 0.090514817485428,
+        "spin_z": 0.07717985827481189,
+        "double_occupancy": 0.07917011195650359
+      }
+    },
+    {
+      "site": 26,
+      "variance": {
+        "charge": 0.0037697471178780714,
+        "spin_z": 0.0040605191661709,
+        "double_occupancy": 0.0019889249918901646
+      },
+      "residuals": {
+        "charge": 0.10375695374525806,
+        "spin_z": -0.2565877103798919,
+        "double_occupancy": 0.14566523610484705
+      }
+    },
+    {
+      "site": 27,
+      "variance": {
+        "charge": 0.0027875586357048046,
+        "spin_z": 0.0033621497090159753,
+        "double_occupancy": 0.0007115946227605296
+      },
+      "residuals": {
+        "charge": -0.094510020247079,
+        "spin_z": 0.18468153742437665,
+        "double_occupancy": 0.039548598103580246
+      }
+    },
+    {
+      "site": 28,
+      "variance": {
+        "charge": 0.0022947577643273004,
+        "spin_z": 0.0022231155379961415,
+        "double_occupancy": 0.0008381355265697793
+      },
+      "residuals": {
+        "charge": -0.05677008612750101,
+        "spin_z": -0.06750437521104813,
+        "double_occupancy": 0.008703413186447323
+      }
+    },
+    {
+      "site": 29,
+      "variance": {
+        "charge": 0.0018504314504618946,
+        "spin_z": 0.0022695081729293466,
+        "double_occupancy": 0.0008086793670498573
+      },
+      "residuals": {
+        "charge": 0.06585773198875078,
+        "spin_z": 0.049052894861211005,
+        "double_occupancy": 0.057778936931798835
+      }
+    },
+    {
+      "site": 30,
+      "variance": {
+        "charge": 0.0021712020532109106,
+        "spin_z": 0.0021356264048757088,
+        "double_occupancy": 0.0005573585547519337
+      },
+      "residuals": {
+        "charge": 0.0097476176929987,
+        "spin_z": 0.031077816940030756,
+        "double_occupancy": 0.028346273313811343
+      }
+    },
+    {
+      "site": 31,
+      "variance": {
+        "charge": 0.00252219069762074,
+        "spin_z": 0.002389845578236226,
+        "double_occupancy": 0.0007081130912178292
+      },
+      "residuals": {
+        "charge": -0.06648981940534326,
+        "spin_z": -0.11706808374642563,
+        "double_occupancy": 0.01920862248456559
+      }
+    },
+    {
+      "site": 32,
+      "variance": {
+        "charge": 0.002696330166048709,
+        "spin_z": 0.002991214345330454,
+        "double_occupancy": 0.0008099678198309609
+      },
+      "residuals": {
+        "charge": -0.06891994081895403,
+        "spin_z": 0.16715893025699302,
+        "double_occupancy": 0.02911217964501714
+      }
+    },
+    {
+      "site": 33,
+      "variance": {
+        "charge": 0.002449938803405651,
+        "spin_z": 0.002594485963191895,
+        "double_occupancy": 0.001152048991934938
+      },
+      "residuals": {
+        "charge": 0.025892769275527527,
+        "spin_z": -0.16543841150597793,
+        "double_occupancy": 0.09074994753916546
+      }
+    },
+    {
+      "site": 34,
+      "variance": {
+        "charge": 0.002601693923758866,
+        "spin_z": 0.003414236268235668,
+        "double_occupancy": 0.0007084088385323514
+      },
+      "residuals": {
+        "charge": 0.012086565034283403,
+        "spin_z": 0.19581800155078433,
+        "double_occupancy": 0.0599696736891957
+      }
+    },
+    {
+      "site": 35,
+      "variance": {
+        "charge": 0.0025229112174319328,
+        "spin_z": 0.00246409879582392,
+        "double_occupancy": 0.0005351424626451409
+      },
+      "residuals": {
+        "charge": -0.10063606102808753,
+        "spin_z": -0.1622755264985417,
+        "double_occupancy": 0.03277875395303409
+      }
+    }
+  ],
+  "source_paths": [
+    "ibm_phoenix_zne_estimator_s128_max5s/estimator_result.json",
+    "ibm_phoenix_zne_estimator_s128_max5s/site_observables.csv",
+    "mps_shallow_t_only_steps1/cuprate_2d_mps_site_observables_chi32.csv"
+  ],
+  "documentation": "https://quantum.cloud.ibm.com/docs/en/guides/error-mitigation-and-suppression-techniques"
+}

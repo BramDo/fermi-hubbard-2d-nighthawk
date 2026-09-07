@@ -1,0 +1,108 @@
+<!--
+Title: Fermi-Hubbard 2D cuprate-serie, deel 1: van 1D naar 2D
+Slug: fermi-hubbard-2d-cuprate-serie-deel-1-van-1d-naar-2d
+Excerpt: De tweede Fermi-Hubbard serie begint met de overstap van de eerdere 1D IBM/TDVP-validatie naar een 2D cuprate-route: waarom 2D moeilijker is, welke observables we meten, en waar de validatiegrens ligt.
+Tags: quantum computing, Fermi-Hubbard, cuprates, IBM Quantum, Fire Opal, TDHF, tensor networks
+-->
+
+<div class="fh-series-nav">
+  <p><strong>Fermi-Hubbard serie 2:</strong> 2D cuprate-route</p>
+  <p><a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-serie/">Seriepagina</a> | Deel 1 van 4</p>
+</div>
+
+<p>De eerste Fermi-Hubbard serie op Edukaizen ging over een 1D keten: 60 qubits, 30 Hubbard-sites, 8 Trotter-stappen, IBM hardware en ITensorMPS TDVP als klassieke referentie. De beste hardware-route lag dicht bij de TDVP chi64 baseline op de diagonale observables: charge RMSE <code>0.01471</code> en spin RMSE <code>0.03850</code>. Dat was een reproduceerbare engineering- en validatie-snapshot, geen quantum-advantage claim.</p>
+
+<p>Deze tweede serie gebruikt dezelfde discipline, maar zet de stap naar 2D. Het doel is niet om meteen een groot 2D resultaat als fysische claim te presenteren. Het doel is eerst een betrouwbare route bouwen: kleine exacte validatie, dezelfde observables in alle routes, hardwarediagnostiek op IBM en Fire Opal, en tensor-netwerkreferenties zodra exact rekenen te groot wordt.</p>
+
+<h2>Waarom 2D?</h2>
+
+<p>Het 2D Fermi-Hubbard model is interessant omdat het een minimale roosterbeschrijving is van sterk gecorreleerde elektronen. In cuprate-supergeleiders spelen tweedimensionale CuO2-vlakken, antiferromagnetisme, hole doping en pairing-achtige correlaties een centrale rol. Het one-band Hubbard-model vangt niet alle materiaaldetails, maar het is wel een belangrijk startpunt voor de vraag hoe charge en spin zich in zo'n sterk gecorreleerd 2D systeem gedragen.</p>
+
+<p>De Hamiltoniaan die we als uitgangspunt gebruiken is:</p>
+
+<pre><code>H =
+  - t  sum_&lt;i,j&gt;,sigma     (c^dagger_i,sigma c_j,sigma + h.c.)
+  - t' sum_&lt;&lt;i,j&gt;&gt;,sigma   (c^dagger_i,sigma c_j,sigma + h.c.)
+  + U  sum_i n_i,up n_i,down
+  - mu sum_i,sigma n_i,sigma</code></pre>
+
+<p>Hier is <code>t</code> nearest-neighbor hopping, <code>t'</code> next-nearest-neighbor hopping, <code>U</code> de onsite repulsie en <code>mu</code> de chemische potentiaal. In deze repo gebruiken we voor de cuprate-route onder andere <code>U/t = 8</code> en <code>t'/t = -0.25</code>, met open boundaries en een hole-doped Neel/stripe-achtige initialisatie.</p>
+
+<h2>Wat meten we nu?</h2>
+
+<p>De eerste 2D metingen zijn bewust sober. We meten diagonale Z-basis observables:</p>
+
+<ul>
+  <li><code>charge_i = n_i,up + n_i,down</code></li>
+  <li><code>spin_z_i = n_i,up - n_i,down</code></li>
+  <li><code>double_occupancy_i = n_i,up n_i,down</code></li>
+  <li>nearest-neighbor charge/spin-z bond correlations</li>
+</ul>
+
+<p>Deze observables zijn geschikt om vroeg te zien of charge en spin logisch bewegen, of het juiste particle-sector behouden blijft, en hoe ver hardware-output van lokale baselines afligt. Ze meten nog geen off-diagonal d-wave pairing. Daarvoor zijn extra basisrotaties, correlatorcircuits of meer tomografische metingen nodig.</p>
+
+<h2>Waarom eerst 3x3?</h2>
+
+<p>Een 3x3 rooster is te klein om echte cuprate-fysica op schaal te claimen. Maar het is precies groot genoeg voor een nuttige validatierung. We kunnen daar exact fixed-sector ED draaien, TDHF en Gaussian/free baselines berekenen, IBM hardware ophalen, Fire Opal vergelijken, en alles op dezelfde site- en bond-observables leggen.</p>
+
+<p>De 3x3 run gebruikt een hole en sector <code>N_up = N_down = 4</code>. De exacte fixed-sector dimensie is <code>15876</code>. Dat is nog haalbaar, en dat maakt 3x3 waardevol: als de hardware of mitigation hier al niet tegen exact ED te leggen is, dan heeft een grotere hardware-run nog geen fysische interpretatie.</p>
+
+<h2>Wat kwam er uit de eerste 3x3 hardwarelaag?</h2>
+
+<p>De korte samenvatting is: Fire Opal was duidelijk schoner dan directe IBM, maar sector survival daalde met de tijd. Tegen exact full ED gaf de 3x3 step-1 hardwarediagnostiek:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Route</th>
+      <th>Exact-sector survival</th>
+      <th>Charge RMSE</th>
+      <th>Spin-z RMSE</th>
+      <th>Doublon RMSE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IBM exact-sector</td>
+      <td>0.224609</td>
+      <td>0.072170</td>
+      <td>0.098797</td>
+      <td>0.038610</td>
+    </tr>
+    <tr>
+      <td>Fire Opal exact-sector</td>
+      <td>0.567568</td>
+      <td>0.012651</td>
+      <td>0.019293</td>
+      <td>0.010273</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Dat is geen eindresultaat over cuprates. Het is wel precies de diagnostiek die we nodig hebben: dezelfde observable-definities, dezelfde referentie en een duidelijk verschil tussen routes.</p>
+
+<h2>Waarom daarna 4x4?</h2>
+
+<p>4x4 is de volgende stap omdat exacte ED daar als algemene route niet meer praktisch is. Daardoor moeten tensor-netwerkreferenties onderdeel van de workflow worden. In deze serie gebruiken we een MPS circuit-baseline voor dezelfde shallow circuitfamilie als de hardware. Dat is geen volledige Hamiltonian TDVP voor alle fysica, maar het is wel een apples-to-apples referentie voor wat het circuit op hardware probeert te doen.</p>
+
+<p>De eerste 4x4 IBM-run gebruikte 32 qubits op <code>ibm_marrakesh</code>, met job-id <code>d93v9a6vtlqs73ftm6mg</code>. De run was uitvoerbaar, maar de vergelijking met MPS liet zien dat ruis en sector leakage nog dominant zijn. Exact-sector postselectie verbeterde de RMSE, maar hield maar ongeveer 13 procent van de shots over. Dat is een belangrijk technisch signaal voor de volgende iteratie: circuitdiepte, layout, readout/sector mitigation en Fire Opal-input moeten beter voordat we groter willen.</p>
+
+<h2>Externe context: Google/Willow 2D</h2>
+
+<p>De juiste externe vergelijking is niet alleen de eerdere 1D Q-CTRL route, maar ook recente 2D Fermi-Hubbard simulatie op Google's Willow processor. Alam et al. rapporteren programmeerbare digitale simulatie van 2D Fermi-Hubbard dynamica met 72 qubits en lattice sizes tot <code>6x6</code>, met exact rekenen waar mogelijk en tensor/operator-propagation baselines waar exact rekenen niet meer haalbaar is.</p>
+
+<p>Dat zet onze route op zijn plaats. De ambitie is niet om blind een <code>6x6</code> IBM-circuit te submitten. De ambitie is om de stack te bouwen die zo'n run betekenisvol maakt: ondiepere circuits, betere fermion-routing, betrouwbare tensorbaselines, en een observable-comparison die de hardware-output niet meer dan diagnostisch interpreteert voordat die vergelijking is gedaan.</p>
+
+<h2>Interpretatiegrens</h2>
+
+<p>De huidige serie gaat dus over validatie en engineering. De hardware-output is interessant, maar pas fysisch bruikbaar nadat hij tegen lokale baselines en dezelfde observables is gelegd. De woorden "cuprate-route" betekenen hier: een route richting de relevante 2D Hubbard-structuur, niet een claim dat we nu materiaalgedrag of superconductiviteit op hardware hebben aangetoond.</p>
+
+<p>In deel 2 gaan we naar de 3x3 resultaten zelf: exact ED, TDHF, Gaussian/free, IBM en Fire Opal in een gezamenlijke tabel, met de RMSE's en sector survival die bepalen hoe betrouwbaar elke route op dit moment is.</p>
+
+<h2>Bronnen</h2>
+
+<ul>
+  <li>Alam et al., <em>Programmable digital quantum simulation of 2D Fermi-Hubbard dynamics using 72 superconducting qubits</em>, arXiv:2510.26845, <a href="https://arxiv.org/abs/2510.26845">https://arxiv.org/abs/2510.26845</a></li>
+  <li>Dataset bij Alam et al., Zenodo 17881822, <a href="https://zenodo.org/records/17881822">https://zenodo.org/records/17881822</a></li>
+  <li>Hartnett et al., <em>Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor</em>, arXiv:2605.04025, <a href="https://arxiv.org/abs/2605.04025">https://arxiv.org/abs/2605.04025</a></li>
+</ul>

@@ -1,0 +1,20 @@
+{
+  "cz_noise_off.json": "8cb837bda4c88f2f94cbfc22ca62786891cc28cc3c9d8a104e1ff429671aa249",
+  "FAILURE.json": "d84745d09a06a0bdf9035888dff167052fcec1955a23f8cc233605c96b7d5bcf",
+  "full_noise.json": "b66b051c3a6cd3740a6864ae306cee66b1d8d2803691e24436f3064c55b63f29",
+  "plan.json": "ba0cd5c3293b894bbc7559e7a58044cb0731d910703c7b0bbcc4e7d405bb428c",
+  "preflight_unit_tests.txt": "bb5c7f3774ad184afa6135bb60191dccb7fef514ecc585277a88d296234beb32",
+  "readout_matrices.json": "fb57b426d990feb70d97d2b6c93a5159d7415f1ada56ecd06014ff0bdc527428",
+  "source_snapshot/aer_cuprate_cz_half.py": "e0f84d7321e35474d29abb29e501023d0ee6177f644ce69e6b0ff875fd357409",
+  "source_snapshot/aer_cuprate_cz_half_v2.py": "533b4cc22fd5b4302ef009d0f996a8374619bacbb223bbc063c13bdce9743766",
+  "source_snapshot/aer_cuprate_cz_zne.py": "41a7e172cf57545e0add60290ee95fdfd17bba0b31c549bd8d4379b3746344bb",
+  "source_snapshot/aer_cuprate_gate_split.py": "8c543a088ce4a14787be4211fc709472ccd62aa1387fd694ead4e920b6691e93",
+  "source_snapshot/aer_cuprate_nighthawk_smoke.py": "0e2e74459b7e2e84210a8bb6d25999b2e32d65aa559df73101b056521dc8f288",
+  "source_snapshot/aer_cuprate_noise_components.py": "f76fe25b082edc21c6536a55e09f566dc55992eefd51803e2a1ecdbf96210826",
+  "source_snapshot/AER_CZ_ZNE_PROTOCOL.md": "8effe57db15f66a334dcf78055a7bfba391eb20c9df43321106db7a6cfa2a221",
+  "source_snapshot/analyze_aer_cuprate_cz_zne.py": "bbaf7075c0950829bb6b8a608bebf973ce8b55efeb0b34cb657b9b89a562e0f9",
+  "source_snapshot/analyze_aer_noise_components.py": "cb2e17fd4873728697c032c61cbe2cdf3206eae782666d849eb9776e541cbbf0",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/test_aer_cuprate_cz_zne.py": "6d0387c64a5226b41fb6cb121c3f9129123db8310df8777b508484d9dba2745f",
+  "source_snapshot/verify_aer_noise_components.py": "37ba091f25d0c9007088681169aa2c4eef1ae59e2891b788116d8ecb467c048e"
+}

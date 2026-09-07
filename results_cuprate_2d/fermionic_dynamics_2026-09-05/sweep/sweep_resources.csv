@@ -1,0 +1,4 @@
+steps,time,logical_depth,logical_two_qubit_count,isa_depth,isa_two_qubit_count,isa_two_qubit_depth
+2,0.2,7702,15512,63098,67793,33537
+4,0.4,15404,31024,132008,136653,70067
+8,0.8,30808,62048,256615,275834,136355

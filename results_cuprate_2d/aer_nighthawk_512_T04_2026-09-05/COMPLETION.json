@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_SIMULATION_ANALYSIS_AND_INDEPENDENT_AUDIT",
+  "scope": "Only U8 T0.4; eight matched twirls, 512 shots per data set.",
+  "historical_run_summary_analysis_pending_is_superseded": true,
+  "unit_tests": 23,
+  "checks": {
+    "run_hash_count": 44,
+    "analysis_hash_count": 7,
+    "independent_physical_max_error": 1.1102230246251565e-16,
+    "noise_off_max_pauli_error": 2.2648549702353193e-14,
+    "bootstrap_band_reproduction": true,
+    "zero_new_QPU_seconds": true
+  },
+  "new_QPU_seconds": 0
+}

@@ -1,0 +1,10 @@
+{
+  "CLASSICAL_MEAN6_BENCHMARK_PROTOCOL.md": "34594355eca961d0007a12aa091186f75e21294d3041cc45dd22d77afabad889",
+  "benchmark_classical_mean6.py": "643ceee40703bf831739ad9c923657924bb2089962bb9538b3bd96535624cef2",
+  "test_classical_mean6.py": "2f6a45651dfddda8d1fd8b17fc3166ff54a9236bf229e30f1899f418d66e4f96",
+  "run_classical_mean6_benchmark.ps1": "4d4b45939397d107b5a3e45218f9a074e5cb8a74cad62ec522eb1d4bd4458e36",
+  "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+  "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+  "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901"
+}

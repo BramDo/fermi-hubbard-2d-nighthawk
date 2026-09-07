@@ -1,0 +1,60 @@
+{
+  "series_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/",
+  "articles": [
+    {
+      "part": 1,
+      "title": "Fermi-Hubbard 2D cuprate series, part 1: from 1D to 2D",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/01_from_1d_to_2d.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/",
+      "markdown": "md/01_from_1d_to_2d.md",
+      "html": "html/01_from_1d_to_2d.html",
+      "plain_text": "txt/01_from_1d_to_2d.txt"
+    },
+    {
+      "part": 2,
+      "title": "Fermi-Hubbard 2D cuprate series, part 2: 2D Hubbard, cuprates, and Google/Willow context",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/02_2d_hubbard_cuprates_google.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/",
+      "markdown": "md/02_2d_hubbard_cuprates_google.md",
+      "html": "html/02_2d_hubbard_cuprates_google.html",
+      "plain_text": "txt/02_2d_hubbard_cuprates_google.txt"
+    },
+    {
+      "part": 3,
+      "title": "Fermi-Hubbard 2D cuprate series, part 3: our 3x3 implementation",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/03_3x3_implementation.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/",
+      "markdown": "md/03_3x3_implementation.md",
+      "html": "html/03_3x3_implementation.html",
+      "plain_text": "txt/03_3x3_implementation.txt"
+    },
+    {
+      "part": 4,
+      "title": "Fermi-Hubbard 2D cuprate series, part 4: time evolution and hardware diagnostics",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/04_time_evolution_and_hardware_diagnostics.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/",
+      "markdown": "md/04_time_evolution_and_hardware_diagnostics.md",
+      "html": "html/04_time_evolution_and_hardware_diagnostics.html",
+      "plain_text": "txt/04_time_evolution_and_hardware_diagnostics.txt"
+    },
+    {
+      "part": 5,
+      "title": "Fermi-Hubbard 2D cuprate series, part 5: 4x4 hardware and tensor baselines",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/05_4x4_tensor_and_hardware.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines/",
+      "markdown": "md/05_4x4_tensor_and_hardware.md",
+      "html": "html/05_4x4_tensor_and_hardware.html",
+      "plain_text": "txt/05_4x4_tensor_and_hardware.txt"
+    },
+    {
+      "part": 6,
+      "title": "Fermi-Hubbard 2D cuprate series, part 6: 6x6 tensor baseline, IBM diagnostics, and Fire Opal Fez",
+      "source": "C:/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-60q-tdvp/output/wordpress_2d_cuprate_series/en_md/06_6x6_tensor_ibm_fire_opal_status.md",
+      "canonical_url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/",
+      "markdown": "md/06_6x6_tensor_ibm_fire_opal_status.md",
+      "html": "html/06_6x6_tensor_ibm_fire_opal_status.html",
+      "plain_text": "txt/06_6x6_tensor_ibm_fire_opal_status.txt"
+    }
+  ],
+  "format_note": "Medium does not reliably render WordPress MathJax shortcodes. LaTeX display blocks are converted to plain text code blocks."
+}

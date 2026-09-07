@@ -1,0 +1,13 @@
+test_budget_excess_stops (test_submit_verified_tflo_dd6.SubmitTests.test_budget_excess_stops) ... ok
+test_changed_timing_stops (test_submit_verified_tflo_dd6.SubmitTests.test_changed_timing_stops) ... ok
+test_failed_preflight_not_reused (test_submit_verified_tflo_dd6.SubmitTests.test_failed_preflight_not_reused) ... ok
+test_fault_stops (test_submit_verified_tflo_dd6.SubmitTests.test_fault_stops) ... ok
+test_insufficient_quota_stops (test_submit_verified_tflo_dd6.SubmitTests.test_insufficient_quota_stops) ... ok
+test_missing_confirmation (test_submit_verified_tflo_dd6.SubmitTests.test_missing_confirmation) ... ok
+test_options_change_stops (test_submit_verified_tflo_dd6.SubmitTests.test_options_change_stops) ... ok
+test_success_once (test_submit_verified_tflo_dd6.SubmitTests.test_success_once) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.169s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "results_cuprate_2d/hardware_readout_cz_folding_6x6_2026-09-06/plan.json": "d117dbcda76825b8593c3e884220e7a626b8ae2b0c8677c6ecd816852faeaac6",
+  "results_cuprate_2d/hardware_readout_cz_folding_6x6_2026-09-06/raw_bitstrings.json": "09f4899f94d84493194cc1b3c7e105315314d7342b27bb0f57755174e534cb4a",
+  "results_cuprate_2d/hardware_readout_cz_folding_6x6_2026-09-06/analysis/results.json": "8b0d6e49538df8aec5b0b5fc967e58ed0832d8a4492a6a840cac9d30832a6f36",
+  "results_cuprate_2d/hardware_readout_cz_folding_6x6_2026-09-06/analysis/bootstrap.npz": "c8114a3708354c423c98f78f7375f4aeb6765e2f13c2660d103f34d8cbff25eb",
+  "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json": "642f74e6e04b59ae4cd329297bc5592d6bf63efba81903fabd1a4ab63cb4070e",
+  "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "analyze_hardware_6x6_rocz.py": "fea357bc0fbafdf8c727dcda0e4ed63a81a19a6fab1942cf1c2010033e9c934d",
+  "MITIGATION_6X6_REANALYSIS_PROTOCOL.md": "6d19f69c85a095e8a887d7ebb7d190c2f455db1a8d8a406f4d3ec15e1f95ec8f",
+  "compare_6x6_sector_mitigation.py": "60452323a61b23c55b0fa964f7465b5b375e2fad0d9fb7d364b5cdf8fff6b9b9",
+  "test_compare_6x6_sector_mitigation.py": "67daebea59b0221af46ea5eebd0b21e2575b55a093b309f2667ae61ceede218d"
+}

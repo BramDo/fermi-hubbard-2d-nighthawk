@@ -1,0 +1,11 @@
+test_allocation_derived (test_hardware_6x6_quota.QuotaTests.test_allocation_derived) ... ok
+test_canonical_v1_lock_shared (test_hardware_6x6_quota.QuotaTests.test_canonical_v1_lock_shared) ... ok
+test_known_quota_below_cap_fails (test_hardware_6x6_quota.QuotaTests.test_known_quota_below_cap_fails) ... ok
+test_nan_or_negative_rejected (test_hardware_6x6_quota.QuotaTests.test_nan_or_negative_rejected) ... ok
+test_submit_authority_before_files_or_provider (test_hardware_6x6_quota.QuotaTests.test_submit_authority_before_files_or_provider) ... ok
+test_unknown_is_not_zero_or_unlimited (test_hardware_6x6_quota.QuotaTests.test_unknown_is_not_zero_or_unlimited) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

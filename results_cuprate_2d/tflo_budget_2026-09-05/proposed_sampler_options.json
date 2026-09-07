@@ -1,0 +1,16 @@
+{
+  "max_execution_time": 5,
+  "default_shots": 64,
+  "execution": {
+    "init_qubits": true,
+    "rep_delay": 1e-06,
+    "meas_type": "classified"
+  },
+  "twirling": {
+    "enable_gates": false,
+    "enable_measure": false
+  },
+  "dynamical_decoupling": {
+    "enable": false
+  }
+}

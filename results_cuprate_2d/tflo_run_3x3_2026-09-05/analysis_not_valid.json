@@ -1,0 +1,5 @@
+{
+  "reason": "Frozen PS/TFLO analysis rejected data; inspect retained samples without changing the frozen rule.",
+  "raw_bitstrings_preserved": true,
+  "no_resubmission": true
+}

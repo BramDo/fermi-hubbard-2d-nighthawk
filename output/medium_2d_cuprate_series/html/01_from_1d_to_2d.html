@@ -1,0 +1,73 @@
+<h1>Fermi-Hubbard 2D cuprate series, part 1: from 1D to 2D</h1>
+<p>Originally published at: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/</p>
+<p>Part 1 of 6 in the Fermi-Hubbard 2D cuprate series. Series page: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/</p>
+<p>The first Fermi-Hubbard series on Edukaizen was about a one-dimensional chain. It used 60 qubits for 30 Hubbard sites, 8 Trotter steps, IBM hardware, and ITensorMPS TDVP as the classical reference. The best hardware route was close to the TDVP chi64 reference on the diagonal observables: charge RMSE <code>0.01471</code> and spin RMSE <code>0.03850</code>. The local chi64 TDVP run took about <code>821.277 s</code>.</p>
+<p>That first series was not a quantum-advantage claim. It was a reproducible engineering and validation snapshot. The useful part was not just the final number. The useful part was the workflow:</p>
+<ul>
+<li>define the physical model;</li>
+<li>choose observables that can be compared route by route;</li>
+<li>use a fermion-aware circuit construction;</li>
+<li>respect hardware layout and calibration;</li>
+<li>run hardware;</li>
+<li>compare against a local classical baseline;</li>
+<li>keep the interpretation boundary explicit.</li>
+</ul>
+<p>This second series keeps that discipline, but moves from a 1D chain to a two-dimensional route.</p>
+<h2>Why 2D is a real change</h2>
+<p>One-dimensional Hubbard dynamics can already be hard, but the geometry gives you structure. A line can be mapped to a line of fermionic modes. A pair-interleaved Jordan-Wigner ordering and fSWAP routing can keep the circuit compact. The 1D route is still subtle, but the geometry is friendly.</p>
+<p>Two dimensions are different. A square lattice has horizontal and vertical bonds. Fermion routing becomes harder. Exact diagonalization fails earlier. Hardware connectivity matters more. A circuit that is acceptable for a small 3x3 lattice may already become too noisy at 4x4 if routing and mitigation are not under control.</p>
+<p>That is why the second series does not start by submitting the largest circuit we can write down. It starts with a ladder:</p>
+<ul>
+<li><code>3x3</code>, because exact fixed-sector ED is still possible;</li>
+<li><code>4x4</code>, because exact ED is no longer a comfortable general route and tensor</li>
+</ul>
+<p>baselines become necessary;</p>
+<ul>
+<li>later larger dry-runs only after the 3x3 and 4x4 steps make sense.</li>
+</ul>
+<h2>What the new route tries to measure</h2>
+<p>The current 2D route uses diagonal Z-basis observables:</p>
+<ul>
+<li><code>charge_i = n_i,up + n_i,down</code></li>
+<li><code>spin_z_i = n_i,up - n_i,down</code></li>
+<li><code>double_occupancy_i = n_i,up n_i,down</code></li>
+<li>nearest-neighbor charge and spin-z bond correlations</li>
+</ul>
+<p>These observables do not prove superconductivity. They do not measure off-diagonal d-wave pairing. They are the first layer of diagnostic physics: does charge move sensibly, does spin-z melt in a controlled way, does doublon formation look plausible, and does the hardware stay in the right particle sector?</p>
+<p>That is the right first question. If hardware output fails at this level, a larger claim would be premature.</p>
+<h2>What counts as evidence in this series</h2>
+<p>In this series, a hardware result is not interpreted by itself. It has to be placed next to local baselines:</p>
+<ul>
+<li>exact fixed-sector ED where possible;</li>
+<li>TDHF as a mean-field baseline;</li>
+<li>Gaussian/free-fermion evolution as a noninteracting baseline;</li>
+<li>MPS circuit simulation for 4x4 and beyond;</li>
+<li>observable-comparison tables using the same site and bond definitions.</li>
+</ul>
+<p>This is the core interpretation boundary:</p>
+<p>hardware output is diagnostic until it has been compared with the local baselines and validation files.</p>
+<p>That boundary matters especially for the 2D route. A raw IBM or Fire Opal result can look structured while still being dominated by sector leakage, readout error, or circuit noise. The comparison is not optional. It is the thing that makes the result readable.</p>
+<h2>The current status</h2>
+<p>The present 2D route has five layers:</p>
+<ol>
+<li>A 3x3 validation run with one hole, exact ED, TDHF, Gaussian/free</li>
+</ol>
+<p>evolution, IBM hardware, and Fire Opal diagnostics.</p>
+<ol>
+<li>A 3x3 time sweep through step 4, showing how the exact dynamics and</li>
+</ol>
+<p>approximate baselines separate over time.</p>
+<ol>
+<li>A 4x4 run with two holes, IBM hardware on <code>ibm_marrakesh</code>, and a quimb</li>
+</ol>
+<p>MPS circuit baseline for the shallow circuit family.</p>
+<ol>
+<li>A 4x4 Fire Opal qelib retry on the same shallow route, compared against the</li>
+</ol>
+<p>same MPS observables.</p>
+<ol>
+<li>A 6x6, 72-qubit diagnostic step with an MPS chi32 baseline and completed</li>
+</ol>
+<p>IBM hardware output. The matching Fire Opal qelib fallback is still pending.</p>
+<p>The main lesson so far is straightforward. 3x3 is a good validation lab. Fire Opal is much cleaner than direct IBM at 3x3 and 4x4. A direct 6x6 IBM run is executable, but the RMSE against the local MPS baseline is large and the particle-sector survival is very low. The next improvement is therefore not just &quot;run bigger&quot;. It is &quot;make the circuit shallower, improve the layout and mitigation, and strengthen the tensor baseline&quot;.</p>
+<p>Part 2 introduces the physical model: the 2D Hubbard Hamiltonian, why it is connected to cuprates, and how recent Google/Willow 2D Hubbard work sets the external scale.</p>

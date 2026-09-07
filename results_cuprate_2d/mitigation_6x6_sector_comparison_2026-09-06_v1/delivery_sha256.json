@@ -1,0 +1,15 @@
+{
+  "bootstrap.npz": "cf058eb2196adb0aabf637c39d47fcf68cda6c2362c50ebb0153bc19493cac81",
+  "input_sha256.json": "c11ff64d40ead583a77f3f98b102198eb06757d5952938454df43b7751490f4b",
+  "RAPPORT.md": "8ced40c97f2923f10622342aac936b7d602b918918c70eb14f10b6bfd2c76f1b",
+  "sha256.json": "5a749899e19786b479da72a71557896eb60af2a5e8d1c087e6aecb7133e4e45c",
+  "summary.json": "3798478aaae62cbd1839982e4011d8695fd2556a2e565e51fd17efee3f48b7c3",
+  "unit_tests.txt": "ef8b5a8e550e16b8fa717198758706d87ff96b6467f16e07bae4a0df253e1fae",
+  "verification.json": "f3fee7fc02735ba7fbb773a5e5e78216e80ee35e1ebc515a747fba5922b45c00",
+  "VERIFICATION.md": "f146b84d46cb25ffd1ad2df9a22fb71e482a376be456d900ae6703ed54e1b7ef",
+  "source_snapshot/analyze_hardware_6x6_rocz.py": "fea357bc0fbafdf8c727dcda0e4ed63a81a19a6fab1942cf1c2010033e9c934d",
+  "source_snapshot/compare_6x6_sector_mitigation.py": "60452323a61b23c55b0fa964f7465b5b375e2fad0d9fb7d364b5cdf8fff6b9b9",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/MITIGATION_6X6_REANALYSIS_PROTOCOL.md": "6d19f69c85a095e8a887d7ebb7d190c2f455db1a8d8a406f4d3ec15e1f95ec8f",
+  "source_snapshot/test_compare_6x6_sector_mitigation.py": "67daebea59b0221af46ea5eebd0b21e2575b55a093b309f2667ae61ceede218d"
+}

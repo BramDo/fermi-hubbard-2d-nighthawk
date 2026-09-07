@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "method": "independent Python integer bit extraction and math.fsum; no NumPy or fit helper",
+  "raw_target_profile_max_abs": 0.0,
+  "RMS_max_abs": 1.1102230246251565e-16,
+  "N_max_abs": 7.105427357601002e-15,
+  "rows_checked": 20,
+  "holdout_screen_recomputed": [
+    false,
+    false
+  ],
+  "source_sha256": "287e0ddf3e890bfdaf78b32f56a57e03825ee4d323e5b324481f59932b4b7848"
+}

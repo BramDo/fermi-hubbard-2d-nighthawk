@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 27,
+  "input_source_hashes": 42,
+  "parent_files_verified": 89,
+  "run_files_verified": 115,
+  "independent_physical_max_error": 6.661338147750939e-16,
+  "independent_linear_lstsq_match": true,
+  "primary_spin_gain_independently_reproduced": true,
+  "no_clipping": true
+}

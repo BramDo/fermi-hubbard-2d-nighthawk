@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "output_sha256:aer_result.json": true,
+    "output_sha256:measured_active18.qpy": true,
+    "output_sha256:noise_model.json": true,
+    "output_sha256:provenance.json": true,
+    "output_sha256:restricted_backend_properties.json": true,
+    "output_sha256:summary.json": true,
+    "output_sha256:synthetic_memory.json": true,
+    "input_sha256:aer_cuprate_nighthawk_smoke.py": true,
+    "input_sha256:results_cuprate_2d/tflo_compact_pilot_3x3_2026-09-05/manifest.json": true,
+    "input_sha256:results_cuprate_2d/tflo_compact_run_3x3_2026-09-05/provider_inputs/circuit_058.qpy": true,
+    "input_sha256:results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/backend_properties.json": true,
+    "input_sha256:results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/backend_snapshot.json": true,
+    "input_sha256:cuprate_2d_tflo.py": true,
+    "success": true,
+    "18_qubit_statevector": true,
+    "noisy_trajectories_not_ideal_measurement_sampling": true,
+    "raw_memory_matches_aer_result": true,
+    "exact_shot_count": true,
+    "zero_qpu_usage": true,
+    "all_checks_pass": true
+  },
+  "unit_tests": 11,
+  "failures": 0,
+  "errors": 0
+}

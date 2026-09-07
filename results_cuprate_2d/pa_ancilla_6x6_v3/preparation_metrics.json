@@ -1,0 +1,17 @@
+{
+  "name": "preparation_only",
+  "scope": "separate compilation, not additive",
+  "operations": {
+    "sx": 1498,
+    "cz": 852,
+    "rz": 482,
+    "x": 113
+  },
+  "cz": 852,
+  "physical_X_SX": 1611,
+  "depth": 870,
+  "CZ_depth": 375,
+  "snapshot_unaligned_duration_seconds": 3.931999999999989e-05,
+  "exact_edgewise_factor2_possible": false,
+  "qpy": "circuits/preparation_only.qpy"
+}

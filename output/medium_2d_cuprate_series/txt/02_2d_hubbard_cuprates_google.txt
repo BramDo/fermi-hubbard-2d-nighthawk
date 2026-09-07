@@ -1,0 +1,206 @@
+Fermi-Hubbard 2D cuprate series, part 2: 2D Hubbard, cuprates, and Google/Willow context
+
+Originally published at:
+https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/
+
+Part 2 of 6 in the Fermi-Hubbard 2D cuprate series.
+Series page: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/
+
+The two-dimensional Hubbard model is one of the standard minimal models for
+strongly correlated electrons. It is simple enough to write down, but hard
+enough that it remains a serious benchmark for classical and quantum methods.
+
+For the cuprate route, the basic idea is that the CuO2 planes in cuprate
+materials are effectively two-dimensional, and that strong local repulsion,
+antiferromagnetism, hole doping, and pairing-like correlations all matter.
+
+The one-band Hubbard model is not a full material model. Real cuprates have
+multiple orbitals, phonons, disorder, material-dependent parameters, finite
+temperature effects, and other complications. But as a first computational
+target, the 2D Hubbard model is the right place to build the simulation stack.
+
+The model
+
+The route in this repository uses the square-lattice one-band Hubbard model:
+
+
+\begin{aligned}
+H ={}&
+-t \sum_{\langle i,j\rangle,\sigma}
+\left(c^{\dagger}_{i\sigma} c_{j\sigma} + \mathrm{h.c.}\right) \\
+&-t' \sum_{\langle\langle i,j\rangle\rangle,\sigma}
+\left(c^{\dagger}_{i\sigma} c_{j\sigma} + \mathrm{h.c.}\right) \\
+&+U \sum_i n_{i\uparrow} n_{i\downarrow}
+-\mu \sum_{i,\sigma} n_{i\sigma}.
+\end{aligned}
+
+
+Here:
+
+- t is nearest-neighbor hopping;
+- t' is next-nearest-neighbor hopping;
+- U is the onsite repulsion;
+- mu is the chemical potential.
+
+For the cuprate-oriented route in this project, the typical parameters are:
+
+- U/t = 8
+- t'/t = -0.25
+- open boundary conditions
+- hole-doped Neel or stripe-like initial states
+
+The first hardware circuits do not implement every term equally. Some runs use
+a shallow number_preserving_t_only circuit family to keep depth under
+control. That is a deliberate engineering choice, not a claim that the full
+interacting model has been solved on hardware.
+
+Why the observables are modest
+
+The first layer of observables is diagonal in the measurement basis:
+
+
+\begin{aligned}
+\mathrm{charge}_i &= n_{i\uparrow} + n_{i\downarrow}, \\
+\mathrm{spin}^z_i &= n_{i\uparrow} - n_{i\downarrow}, \\
+\mathrm{double\ occupancy}_i &= n_{i\uparrow} n_{i\downarrow}.
+\end{aligned}
+
+
+We also track nearest-neighbor charge and spin-z bond correlations.
+
+This choice is conservative. These observables are directly accessible from
+computational-basis measurements and are useful for debugging physical
+structure:
+
+- total charge conservation;
+- total spin-z conservation;
+- particle-sector survival;
+- local spin melting;
+- doublon formation;
+- bond-level charge and spin correlations.
+
+They do not yet measure off-diagonal d-wave pairing. That would require extra
+basis rotations, correlator circuits, or more tomographic information. So the
+present series should be read as a validation ladder for 2D Hubbard dynamics,
+not as a superconductivity measurement.
+
+Exact diagonalization as the small-system reference
+
+Exact diagonalization, or ED, is the cleanest classical reference for the small
+systems in this series. The idea is not to approximate the wavefunction by a
+mean-field state or a tensor network. Instead, ED writes the Hamiltonian in the
+full many-body Hilbert space for a fixed particle sector and then evolves that
+state directly.
+
+For a square lattice with L sites, the spinful Hubbard basis can be organized
+by the number of spin-up and spin-down electrons. A basis state is a pair of
+occupation patterns:
+
+
+\left| S_{\uparrow}, S_{\downarrow} \right\rangle,
+\qquad
+|S_{\uparrow}| = N_{\uparrow},
+\qquad
+|S_{\downarrow}| = N_{\downarrow}.
+
+
+Because the spin-up and spin-down choices are independent, the fixed-sector
+dimension is the product
+
+
+D(L,N_{\uparrow},N_{\downarrow})
+=
+\binom{L}{N_{\uparrow}}
+\times
+\binom{L}{N_{\downarrow}}.
+
+
+That multiplication is the key scaling problem: spin-up configurations and
+spin-down configurations combine into a much larger spinful many-body basis.
+
+The Hamiltonian is then a sparse matrix in this basis. The hopping terms move a
+fermion from one site to another when the target spin orbital is empty, with
+the correct fermionic sign. The onsite interaction is diagonal:
+
+
+U \sum_i n_{i\uparrow} n_{i\downarrow}.
+
+
+Real-time ED means applying
+
+
+|\psi(t)\rangle = e^{-iHt} |\psi(0)\rangle
+
+
+either by dense diagonalization on very small systems or by sparse Krylov time
+evolution on somewhat larger ones. The result is exact up to numerical
+precision, so it is the best reference for checking whether TDHF, tensor
+baselines, IBM hardware, or Fire Opal output are following the same physical
+observable.
+
+The limitation is the combinatorial growth:
+
+| lattice | sites L | representative sector | ED basis dimension |
+|---|---:|---:|---:|
+| 3x3 | 9 | N_up = N_down = 4 | 15,876 |
+| 4x4 | 16 | N_up = N_down = 7 | 130,873,600 |
+| 6x6 | 36 | N_up = N_down = 16 | 53,404,994,776,115,852,100 |
+
+This is why ED is excellent for the 3x3 validation step, already awkward for
+routine 4x4 real-time work, and not a practical full reference for the 6x6
+cuprate-scale diagnostic. A 6x6 exact statevector in that sector would contain
+about 5.34e19 complex amplitudes. At 16 bytes per complex double, the
+statevector alone would be roughly 8.5e20 bytes, before storing any Hamiltonian
+or intermediate Krylov vectors.
+
+One small reporting convention matters: if a comparison table gives the ED
+error or ED RMSE as 0, that does not mean the physical observable is zero. It
+means ED has been chosen as the reference column, so the ED-vs-ED error is zero
+by definition. The actual ED charge, spin, doublon, or bond values are the
+reference values against which the other routes are compared.
+
+Why Google/Willow matters as context
+
+The relevant external comparison is recent 2D Fermi-Hubbard work on Google's
+Willow processor. Alam et al. report programmable digital simulation of 2D
+Fermi-Hubbard dynamics using 72 superconducting qubits, with lattice sizes up
+to 6x6. Their validation uses exact calculations where possible and tensor
+or operator-propagation methods once exact calculation becomes too expensive.
+The associated Zenodo dataset includes raw shots and expectation values per
+physical system.
+
+That matters because it sets the right scale. A serious 2D Hubbard route needs
+more than a submitted circuit:
+
+- optimized circuit structure;
+- hardware-aware layout;
+- mitigation or error suppression;
+- exact validation where possible;
+- tensor/operator baselines where exact validation is no longer possible;
+- observable definitions that match across all routes.
+
+That is also the standard this repository is trying to grow toward. The present
+IBM/Fire Opal route started smaller, with 3x3 and 4x4, because those runs
+make the validation problem visible before the 72-qubit 6x6 diagnostic step.
+
+Why not jump straight to 6x6?
+
+It is tempting to ask why not submit a 6x6 circuit immediately. The reason is
+that a larger circuit without a reliable comparison stack is not automatically
+more informative.
+
+The 3x3 run can be compared to exact ED. The 4x4 run can be compared to a
+tensor baseline for the same shallow circuit family. Those comparisons reveal
+whether the hardware output is mostly physics, mostly noise, mostly sector
+leakage, or some combination of all three.
+
+Only after those smaller runs are understood does a larger dry-run become
+useful. In this series, the current 6x6 step is therefore reported as a
+diagnostic comparison against an MPS tensor baseline, not as a standalone
+physics claim.
+
+Sources
+
+- Alam et al., "Programmable digital quantum simulation of 2D Fermi-Hubbard dynamics using 72 superconducting qubits", arXiv:2510.26845, https://arxiv.org/abs/2510.26845 (https://arxiv.org/abs/2510.26845)
+- Dataset for Alam et al., Zenodo 17881822, https://zenodo.org/records/17881822 (https://zenodo.org/records/17881822)
+- Hartnett et al., "Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor", arXiv:2605.04025, https://arxiv.org/abs/2605.04025 (https://arxiv.org/abs/2605.04025)

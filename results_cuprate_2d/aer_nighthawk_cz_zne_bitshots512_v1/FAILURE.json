@@ -1,0 +1,11 @@
+{
+  "status": "FAILED_PREFLIGHT_BEFORE_BITSHOTS",
+  "new_bitshots": 0,
+  "new_qpu_seconds": 0,
+  "cause": "remove_final_measurements canonicalizes global order, so absolute CZ indices differed",
+  "native_gates_compared": 5695,
+  "per_wire_order_identical_all18": true,
+  "canonical_indices_match_previous_fold_schedule": true,
+  "original_code_preserved": "source_snapshot",
+  "replacement_run": "aer_nighthawk_cz_zne_bitshots512_v2"
+}

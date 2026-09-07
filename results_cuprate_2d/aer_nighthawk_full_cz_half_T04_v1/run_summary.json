@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_FULL_VS_HALF_CZ_128_EACH",
+  "new_qpu_seconds": 0,
+  "model_run_seconds": {
+    "full_calibrated": 200.4158014479999,
+    "full_cz_residual_half": 207.55193906600016
+  }
+}

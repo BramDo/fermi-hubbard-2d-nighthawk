@@ -1,0 +1,11 @@
+test_flo_wick_matches_full_quantum (test_spin_correlation_probe.Tests.test_flo_wick_matches_full_quantum) ... ok
+test_mixture_includes_classical_covariance (test_spin_correlation_probe.Tests.test_mixture_includes_classical_covariance) ... ok
+test_product_state_zero_connected (test_spin_correlation_probe.Tests.test_product_state_zero_connected) ... ok
+test_random_mps_against_dense (test_spin_correlation_probe.Tests.test_random_mps_against_dense) ... ok
+test_safety_limits (test_spin_correlation_probe.Tests.test_safety_limits) ... ok
+test_shells_do_not_cancel_signed_errors (test_spin_correlation_probe.Tests.test_shells_do_not_cancel_signed_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.125s
+
+OK

@@ -1,0 +1,6 @@
+{"completed_layers": 12, "total_layers": 72, "updates": 102, "seconds": 0.18319327300196164, "max_bond": 16, "log_retained_norm": 7.660538869913572e-15, "rss_bytes": 324096000}
+{"completed_layers": 24, "total_layers": 72, "updates": 204, "seconds": 5.777195282000321, "max_bond": 64, "log_retained_norm": -4.352505116814248e-08, "rss_bytes": 329433088}
+{"completed_layers": 36, "total_layers": 72, "updates": 306, "seconds": 23.252266223000333, "max_bond": 64, "log_retained_norm": -1.7007431549191088e-05, "rss_bytes": 330227712}
+{"completed_layers": 48, "total_layers": 72, "updates": 408, "seconds": 31.193052005000936, "max_bond": 64, "log_retained_norm": -0.00040059943818397453, "rss_bytes": 330108928}
+{"completed_layers": 60, "total_layers": 72, "updates": 510, "seconds": 38.100333288999536, "max_bond": 64, "log_retained_norm": -0.0014026334548709585, "rss_bytes": 329900032}
+{"completed_layers": 72, "total_layers": 72, "updates": 612, "seconds": 43.997083673002635, "max_bond": 64, "log_retained_norm": -0.004498926580306482, "rss_bytes": 330764288}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "unit_tests": 8,
+  "notebook_executed": true,
+  "notebook_errors": 0,
+  "fresh_HDF_matches_archive": true,
+  "stdlib_RMS_max_abs": 5.551115123125783e-17,
+  "lossless_input_mirrors": 4,
+  "physics_validated": false,
+  "new_QPU_jobs": 0,
+  "new_classical_dynamics_jobs": 0
+}

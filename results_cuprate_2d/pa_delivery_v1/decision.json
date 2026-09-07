@@ -1,0 +1,63 @@
+{
+  "status": "PA_IMPLEMENTED_AND_SMALL_SYSTEM_VALIDATED_BUT_NO_NATIVE_DEPTH_WIN",
+  "selected_hardware_candidate": "none; keep previous 72-mode compact circuit as comparison",
+  "PA_modes": 72,
+  "PA_ancillas": 36,
+  "PA_total_qubits": 108,
+  "best_tested_PA": {
+    "name": "layered_seed27_twirl",
+    "ordering": "layered",
+    "seed": 27,
+    "scope": "full preparation+evolution+data readout+one Pauli twirl",
+    "operations": {
+      "sx": 38721,
+      "rz": 36750,
+      "cz": 21337,
+      "x": 7372,
+      "measure": 72
+    },
+    "cz": 21337,
+    "physical_X_SX": 46093,
+    "depth": 10772,
+    "CZ_depth": 3404,
+    "snapshot_unaligned_duration_seconds": 0.00039796799999995187,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/layered_seed27_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 42794,
+      "max_segment_error": 6.005608785484354e-14,
+      "global_phase_error": 2.8281156975011e-12,
+      "CZ_partial_order_preserved": true
+    }
+  },
+  "previous_compact": {
+    "name": "compact_factor1_twirl0",
+    "qpy": "circuits/compact_factor1_twirl0.qpy",
+    "operations": {
+      "rz": 25275,
+      "sx": 18691,
+      "cz": 15400,
+      "x": 7533,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 26224,
+    "depth": 2030,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 7.225200000000045e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "distinct_tests_passed": 11,
+  "full_6x6_preparation_stabilizers_checked": 25,
+  "full_6x6_preparation_occupations_checked": 72,
+  "small_term_intertwining_max_abs": 0.0,
+  "small_transpiled_state_max_abs": 7.209485120923825e-13,
+  "layered_requires_new_classical_reference": true,
+  "full_108_qubit_statevector_not_simulated": true,
+  "paper_XYZ_schedule_not_reproduced": true,
+  "no_new_hardware_authorization": true,
+  "QPU_seconds_used": 0,
+  "phi_model_not_simplified": true,
+  "interpretation": "Implementation/routing result, not an impossibility result for PA.",
+  "remaining_work": "PA-specific low-depth block synthesis and preparation/routing co-design; no depth promise."
+}

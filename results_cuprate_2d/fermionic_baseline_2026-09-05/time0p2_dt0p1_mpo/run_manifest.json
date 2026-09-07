@@ -1,0 +1,44 @@
+{
+  "source_sha256": {
+    "validate_cuprate_2d_fswap_baseline.py": "45b10c1db8ec5da5d82c9227fa4e58e872d6001b2da0ab70e6838f895c5ba841",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_mps_circuit_baseline.py": "6b84d9bdf967e9b45aeb0d68ec7252c4c1a92787a58fb6775cc88bbd50706131",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+    "cuprate_2d_qiskit_circuit.py": "2a0ca7e431b9d79409063f173e5d8018092a7111dcf6f72fc9e38e563e9399ca",
+    "cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+    "validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266",
+    "cuprate_2d_network_mpo_baseline.py": "362e5c9cbf686acd4e198aca22eb1d69118a98d4b7fc01232a579b72aaf57412"
+  },
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 20000
+  },
+  "matching_qpy": {
+    "path": "results_cuprate_2d/fermionic_mapping_2026-09-05/steps2/logical_circuit.qpy",
+    "sha256": "4375084791fc3f051644a1759020372f71a2e230da1a666009d334664ff5ee8c",
+    "logical_circuit_equal": true
+  },
+  "route": "routing_free_mpo",
+  "max_bonds": [
+    16,
+    32,
+    64
+  ],
+  "case_seconds": 300.0,
+  "blas_threads": 1,
+  "submitted": false,
+  "shots_field_unused": true,
+  "gate_baseline_manifest_for_versions": "../time0p2_dt0p1/run_manifest.json"
+}

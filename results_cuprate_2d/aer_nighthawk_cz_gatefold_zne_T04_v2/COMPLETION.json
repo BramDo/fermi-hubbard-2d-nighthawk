@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_LOCAL_CZ_GATEFOLDING_ZNE_PILOT",
+  "hash_counts": [
+    115,
+    5
+  ],
+  "verification": {
+    "status": "PASS",
+    "tests": 27,
+    "input_source_hashes": 42,
+    "parent_files_verified": 89,
+    "run_files_verified": 115,
+    "independent_physical_max_error": 6.661338147750939e-16,
+    "independent_linear_lstsq_match": true,
+    "primary_spin_gain_independently_reproduced": true,
+    "no_clipping": true
+  },
+  "new_qpu_seconds": 0,
+  "scope": "Selective-CZ ZNE conditional-trajectory screen, not hardware bitshot mitigation or equal-cost advantage."
+}

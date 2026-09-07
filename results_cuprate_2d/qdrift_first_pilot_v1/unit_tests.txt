@@ -1,0 +1,11 @@
+test_complete_Hamiltonians_and_norms (test_cuprate_2d_qdrift.TestQDrift.test_complete_Hamiltonians_and_norms) ... ok
+test_exact_N_sampler_matches_installed_Qiskit (test_cuprate_2d_qdrift.TestQDrift.test_exact_N_sampler_matches_installed_Qiskit) ... ok
+test_grouped_conserves_particle_number (test_cuprate_2d_qdrift.TestQDrift.test_grouped_conserves_particle_number) ... ok
+test_individual_Paulis_can_leak_number (test_cuprate_2d_qdrift.TestQDrift.test_individual_Paulis_can_leak_number) ... ok
+test_time_and_sampling_guards (test_cuprate_2d_qdrift.TestQDrift.test_time_and_sampling_guards) ... ok
+test_vectorized_trajectories_match_circuit (test_cuprate_2d_qdrift.TestQDrift.test_vectorized_trajectories_match_circuit) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.459s
+
+OK

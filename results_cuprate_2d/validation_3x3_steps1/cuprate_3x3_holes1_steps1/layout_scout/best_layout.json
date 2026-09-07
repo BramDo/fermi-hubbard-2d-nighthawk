@@ -1,0 +1,73 @@
+{
+  "artifacts": {
+    "best_layout_json": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/layout_scout/best_layout.json",
+    "layout_candidates_csv": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/layout_scout/layout_candidates.csv",
+    "report_md": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/layout_scout/layout_scout_report.md"
+  },
+  "backend": "ibm_marrakesh",
+  "backend_num_qubits": 156,
+  "backend_operational": true,
+  "backend_pending_jobs": 8,
+  "best_candidate": {
+    "candidate": "sabre_seed_47",
+    "depth": 4053,
+    "edge_error_max": 0.0036765159467199993,
+    "edge_error_sum": 6.031884861252374,
+    "initial_layout": "",
+    "min_t1": 98.07108594057227,
+    "min_t2": 8.181065098253981,
+    "physical_qubits": "134 53 0 21 129 114 146 7 93 17 148 47 75 138 6 107 133 27",
+    "readout_error_max": 0.0106201171875,
+    "readout_error_mean": 0.004645453559027778,
+    "score": 11.230449639898207,
+    "seed_transpiler": 47,
+    "two_qubit_count": 2946,
+    "two_qubit_depth": 1740,
+    "unknown_two_qubit_edges": 0
+  },
+  "candidate_count": 50,
+  "claim_boundary": "Dry-run layout/calibration ranking only; no hardware submission.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "created_at_utc": "2026-07-03T10:49:55.225576+00:00",
+  "initial_layout": [
+    134,
+    53,
+    0,
+    21,
+    129,
+    114,
+    146,
+    7,
+    93,
+    17,
+    148,
+    47,
+    75,
+    138,
+    6,
+    107,
+    133,
+    27
+  ],
+  "layout_format": "logical_qubit_index_to_physical_qubit_index",
+  "optimization_level": 1,
+  "recommended_runner_args": {
+    "force_initial_layout": false,
+    "note": "For Qiskit SABRE candidates, reproducing the best seed is the first choice. Forcing the discovered physical map as initial_layout can change routing and should be rescored.",
+    "seed_transpiler": 47
+  }
+}

@@ -1,0 +1,114 @@
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/">Previous</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/">Next</a></nav>
+<p>The two-dimensional Hubbard model is one of the standard minimal models for strongly correlated electrons. It is simple enough to write down, but hard enough that it remains a serious benchmark for classical and quantum methods.</p>
+<p>For the cuprate route, the basic idea is that the CuO2 planes in cuprate materials are effectively two-dimensional, and that strong local repulsion, antiferromagnetism, hole doping, and pairing-like correlations all matter.</p>
+<p>The one-band Hubbard model is not a full material model. Real cuprates have multiple orbitals, phonons, disorder, material-dependent parameters, finite temperature effects, and other complications. But as a first computational target, the 2D Hubbard model is the right place to build the simulation stack.</p>
+<h2>The model</h2>
+<p>The route in this repository uses the square-lattice one-band Hubbard model:</p>
+[latex syntax="display"]
+\begin{aligned}
+H ={}&
+-t \sum_{\langle i,j\rangle,\sigma}
+\left(c^{\dagger}_{i\sigma} c_{j\sigma} + \mathrm{h.c.}\right) \\
+&-t' \sum_{\langle\langle i,j\rangle\rangle,\sigma}
+\left(c^{\dagger}_{i\sigma} c_{j\sigma} + \mathrm{h.c.}\right) \\
+&+U \sum_i n_{i\uparrow} n_{i\downarrow}
+-\mu \sum_{i,\sigma} n_{i\sigma}.
+\end{aligned}
+[/latex]
+<p>Here:</p>
+<ul>
+<li><code>t</code> is nearest-neighbor hopping;</li>
+<li><code>t&#x27;</code> is next-nearest-neighbor hopping;</li>
+<li><code>U</code> is the onsite repulsion;</li>
+<li><code>mu</code> is the chemical potential.</li>
+</ul>
+<p>For the cuprate-oriented route in this project, the typical parameters are:</p>
+<ul>
+<li><code>U/t = 8</code></li>
+<li><code>t&#x27;/t = -0.25</code></li>
+<li>open boundary conditions</li>
+<li>hole-doped Neel or stripe-like initial states</li>
+</ul>
+<p>The first hardware circuits do not implement every term equally. Some runs use a shallow <code>number_preserving_t_only</code> circuit family to keep depth under control. That is a deliberate engineering choice, not a claim that the full interacting model has been solved on hardware.</p>
+<h2>Why the observables are modest</h2>
+<p>The first layer of observables is diagonal in the measurement basis:</p>
+[latex syntax="display"]
+\begin{aligned}
+\mathrm{charge}_i &= n_{i\uparrow} + n_{i\downarrow}, \\
+\mathrm{spin}^z_i &= n_{i\uparrow} - n_{i\downarrow}, \\
+\mathrm{double\ occupancy}_i &= n_{i\uparrow} n_{i\downarrow}.
+\end{aligned}
+[/latex]
+<p>We also track nearest-neighbor charge and spin-z bond correlations.</p>
+<p>This choice is conservative. These observables are directly accessible from computational-basis measurements and are useful for debugging physical structure:</p>
+<ul>
+<li>total charge conservation;</li>
+<li>total spin-z conservation;</li>
+<li>particle-sector survival;</li>
+<li>local spin melting;</li>
+<li>doublon formation;</li>
+<li>bond-level charge and spin correlations.</li>
+</ul>
+<p>They do not yet measure off-diagonal d-wave pairing. That would require extra basis rotations, correlator circuits, or more tomographic information. So the present series should be read as a validation ladder for 2D Hubbard dynamics, not as a superconductivity measurement.</p>
+<h2>Exact diagonalization as the small-system reference</h2>
+<p>Exact diagonalization, or ED, is the cleanest classical reference for the small systems in this series. The idea is not to approximate the wavefunction by a mean-field state or a tensor network. Instead, ED writes the Hamiltonian in the full many-body Hilbert space for a fixed particle sector and then evolves that state directly.</p>
+<p>For a square lattice with <code>L</code> sites, the spinful Hubbard basis can be organized by the number of spin-up and spin-down electrons. A basis state is a pair of occupation patterns:</p>
+[latex syntax="display"]
+\left| S_{\uparrow}, S_{\downarrow} \right\rangle,
+\qquad
+|S_{\uparrow}| = N_{\uparrow},
+\qquad
+|S_{\downarrow}| = N_{\downarrow}.
+[/latex]
+<p>Because the spin-up and spin-down choices are independent, the fixed-sector dimension is the product</p>
+[latex syntax="display"]
+D(L,N_{\uparrow},N_{\downarrow})
+=
+\binom{L}{N_{\uparrow}}
+\times
+\binom{L}{N_{\downarrow}}.
+[/latex]
+<p>That multiplication is the key scaling problem: spin-up configurations and spin-down configurations combine into a much larger spinful many-body basis.</p>
+<p>The Hamiltonian is then a sparse matrix in this basis. The hopping terms move a fermion from one site to another when the target spin orbital is empty, with the correct fermionic sign. The onsite interaction is diagonal:</p>
+[latex syntax="display"]
+U \sum_i n_{i\uparrow} n_{i\downarrow}.
+[/latex]
+<p>Real-time ED means applying</p>
+[latex syntax="display"]
+|\psi(t)\rangle = e^{-iHt} |\psi(0)\rangle
+[/latex]
+<p>either by dense diagonalization on very small systems or by sparse Krylov time evolution on somewhat larger ones. The result is exact up to numerical precision, so it is the best reference for checking whether TDHF, tensor baselines, IBM hardware, or Fire Opal output are following the same physical observable.</p>
+<p>The limitation is the combinatorial growth:</p>
+<table>
+<thead><tr><th>lattice</th><th>sites <code>L</code></th><th>representative sector</th><th>ED basis dimension</th></tr></thead>
+<tbody>
+<tr><td><code>3x3</code></td><td>9</td><td><code>N_up = N_down = 4</code></td><td><code>15,876</code></td></tr>
+<tr><td><code>4x4</code></td><td>16</td><td><code>N_up = N_down = 7</code></td><td><code>130,873,600</code></td></tr>
+<tr><td><code>6x6</code></td><td>36</td><td><code>N_up = N_down = 16</code></td><td><code>53,404,994,776,115,852,100</code></td></tr>
+</tbody>
+</table>
+<p>This is why ED is excellent for the <code>3x3</code> validation step, already awkward for routine <code>4x4</code> real-time work, and not a practical full reference for the <code>6x6</code> cuprate-scale diagnostic. A <code>6x6</code> exact statevector in that sector would contain about <code>5.34e19</code> complex amplitudes. At 16 bytes per complex double, the statevector alone would be roughly <code>8.5e20</code> bytes, before storing any Hamiltonian or intermediate Krylov vectors.</p>
+<p>One small reporting convention matters: if a comparison table gives the ED error or ED RMSE as <code>0</code>, that does not mean the physical observable is zero. It means ED has been chosen as the reference column, so the ED-vs-ED error is zero by definition. The actual ED charge, spin, doublon, or bond values are the reference values against which the other routes are compared.</p>
+<h2>Why Google/Willow matters as context</h2>
+<p>The relevant external comparison is recent 2D Fermi-Hubbard work on Google&#x27;s Willow processor. Alam et al. report programmable digital simulation of 2D Fermi-Hubbard dynamics using 72 superconducting qubits, with lattice sizes up to <code>6x6</code>. Their validation uses exact calculations where possible and tensor or operator-propagation methods once exact calculation becomes too expensive. The associated Zenodo dataset includes raw shots and expectation values per physical system.</p>
+<p>That matters because it sets the right scale. A serious 2D Hubbard route needs more than a submitted circuit:</p>
+<ul>
+<li>optimized circuit structure;</li>
+<li>hardware-aware layout;</li>
+<li>mitigation or error suppression;</li>
+<li>exact validation where possible;</li>
+<li>tensor/operator baselines where exact validation is no longer possible;</li>
+<li>observable definitions that match across all routes.</li>
+</ul>
+<p>That is also the standard this repository is trying to grow toward. The present IBM/Fire Opal route started smaller, with <code>3x3</code> and <code>4x4</code>, because those runs make the validation problem visible before the 72-qubit <code>6x6</code> diagnostic step.</p>
+<h2>Why not jump straight to 6x6?</h2>
+<p>It is tempting to ask why not submit a <code>6x6</code> circuit immediately. The reason is that a larger circuit without a reliable comparison stack is not automatically more informative.</p>
+<p>The 3x3 run can be compared to exact ED. The 4x4 run can be compared to a tensor baseline for the same shallow circuit family. Those comparisons reveal whether the hardware output is mostly physics, mostly noise, mostly sector leakage, or some combination of all three.</p>
+<p>Only after those smaller runs are understood does a larger dry-run become useful. In this series, the current <code>6x6</code> step is therefore reported as a diagnostic comparison against an MPS tensor baseline, not as a standalone physics claim.</p>
+<h2>Sources</h2>
+<ul>
+<li>Alam et al., &quot;Programmable digital quantum simulation of 2D Fermi-Hubbard dynamics using 72 superconducting qubits&quot;, arXiv:2510.26845, <a href="https://arxiv.org/abs/2510.26845">https://arxiv.org/abs/2510.26845</a></li>
+<li>Dataset for Alam et al., Zenodo 17881822, <a href="https://zenodo.org/records/17881822">https://zenodo.org/records/17881822</a></li>
+<li>Hartnett et al., &quot;Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor&quot;, arXiv:2605.04025, <a href="https://arxiv.org/abs/2605.04025">https://arxiv.org/abs/2605.04025</a></li>
+</ul>
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/">Previous</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/">Next</a></nav>

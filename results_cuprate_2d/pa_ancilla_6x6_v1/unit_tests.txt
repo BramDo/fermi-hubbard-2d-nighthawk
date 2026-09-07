@@ -1,0 +1,13 @@
+test_all_hubbard_terms_both_parity_sectors (test_cuprate_2d_pa_mapping.TestPA.test_all_hubbard_terms_both_parity_sectors) ... ok
+test_edge_algebra_and_loops (test_cuprate_2d_pa_mapping.TestPA.test_edge_algebra_and_loops) ... ok
+test_full_circuit_arbitrary_even_state_and_mu (test_cuprate_2d_pa_mapping.TestPA.test_full_circuit_arbitrary_even_state_and_mu) ... ok
+test_integer_pauli_against_qiskit (test_cuprate_2d_pa_mapping.TestPA.test_integer_pauli_against_qiskit) ... ok
+test_model_coverage (test_cuprate_2d_pa_mapping.TestPA.test_model_coverage) ... ok
+test_network_target_is_original (test_cuprate_2d_pa_mapping.TestPA.test_network_target_is_original) ... ok
+test_rotation_zero_and_inverse (test_cuprate_2d_pa_mapping.TestPA.test_rotation_zero_and_inverse) ... ok
+test_state_preparation (test_cuprate_2d_pa_mapping.TestPA.test_state_preparation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.365s
+
+OK

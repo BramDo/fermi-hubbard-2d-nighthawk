@@ -1,0 +1,1875 @@
+{
+  "diagonal_z_basis": {
+    "site_observables": [
+      {
+        "site": 0,
+        "x": 0,
+        "y": 0,
+        "n_up_qubit": 0,
+        "n_down_qubit": 1,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 1,
+        "x": 1,
+        "y": 0,
+        "n_up_qubit": 2,
+        "n_down_qubit": 3,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 2,
+        "x": 2,
+        "y": 0,
+        "n_up_qubit": 4,
+        "n_down_qubit": 5,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 3,
+        "x": 3,
+        "y": 0,
+        "n_up_qubit": 6,
+        "n_down_qubit": 7,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 4,
+        "x": 4,
+        "y": 0,
+        "n_up_qubit": 8,
+        "n_down_qubit": 9,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 5,
+        "x": 5,
+        "y": 0,
+        "n_up_qubit": 10,
+        "n_down_qubit": 11,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 6,
+        "x": 0,
+        "y": 1,
+        "n_up_qubit": 12,
+        "n_down_qubit": 13,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 7,
+        "x": 1,
+        "y": 1,
+        "n_up_qubit": 14,
+        "n_down_qubit": 15,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 8,
+        "x": 2,
+        "y": 1,
+        "n_up_qubit": 16,
+        "n_down_qubit": 17,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 9,
+        "x": 3,
+        "y": 1,
+        "n_up_qubit": 18,
+        "n_down_qubit": 19,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 10,
+        "x": 4,
+        "y": 1,
+        "n_up_qubit": 20,
+        "n_down_qubit": 21,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 11,
+        "x": 5,
+        "y": 1,
+        "n_up_qubit": 22,
+        "n_down_qubit": 23,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 12,
+        "x": 0,
+        "y": 2,
+        "n_up_qubit": 24,
+        "n_down_qubit": 25,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 13,
+        "x": 1,
+        "y": 2,
+        "n_up_qubit": 26,
+        "n_down_qubit": 27,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 14,
+        "x": 2,
+        "y": 2,
+        "n_up_qubit": 28,
+        "n_down_qubit": 29,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 15,
+        "x": 3,
+        "y": 2,
+        "n_up_qubit": 30,
+        "n_down_qubit": 31,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 16,
+        "x": 4,
+        "y": 2,
+        "n_up_qubit": 32,
+        "n_down_qubit": 33,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 17,
+        "x": 5,
+        "y": 2,
+        "n_up_qubit": 34,
+        "n_down_qubit": 35,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 18,
+        "x": 0,
+        "y": 3,
+        "n_up_qubit": 36,
+        "n_down_qubit": 37,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 19,
+        "x": 1,
+        "y": 3,
+        "n_up_qubit": 38,
+        "n_down_qubit": 39,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 20,
+        "x": 2,
+        "y": 3,
+        "n_up_qubit": 40,
+        "n_down_qubit": 41,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 21,
+        "x": 3,
+        "y": 3,
+        "n_up_qubit": 42,
+        "n_down_qubit": 43,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 22,
+        "x": 4,
+        "y": 3,
+        "n_up_qubit": 44,
+        "n_down_qubit": 45,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 23,
+        "x": 5,
+        "y": 3,
+        "n_up_qubit": 46,
+        "n_down_qubit": 47,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 24,
+        "x": 0,
+        "y": 4,
+        "n_up_qubit": 48,
+        "n_down_qubit": 49,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 25,
+        "x": 1,
+        "y": 4,
+        "n_up_qubit": 50,
+        "n_down_qubit": 51,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 26,
+        "x": 2,
+        "y": 4,
+        "n_up_qubit": 52,
+        "n_down_qubit": 53,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 27,
+        "x": 3,
+        "y": 4,
+        "n_up_qubit": 54,
+        "n_down_qubit": 55,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 28,
+        "x": 4,
+        "y": 4,
+        "n_up_qubit": 56,
+        "n_down_qubit": 57,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 29,
+        "x": 5,
+        "y": 4,
+        "n_up_qubit": 58,
+        "n_down_qubit": 59,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 30,
+        "x": 0,
+        "y": 5,
+        "n_up_qubit": 60,
+        "n_down_qubit": 61,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 31,
+        "x": 1,
+        "y": 5,
+        "n_up_qubit": 62,
+        "n_down_qubit": 63,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 32,
+        "x": 2,
+        "y": 5,
+        "n_up_qubit": 64,
+        "n_down_qubit": 65,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 33,
+        "x": 3,
+        "y": 5,
+        "n_up_qubit": 66,
+        "n_down_qubit": 67,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 34,
+        "x": 4,
+        "y": 5,
+        "n_up_qubit": 68,
+        "n_down_qubit": 69,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      },
+      {
+        "site": 35,
+        "x": 5,
+        "y": 5,
+        "n_up_qubit": 70,
+        "n_down_qubit": 71,
+        "charge": "n_up + n_down",
+        "spin_z": "n_up - n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge"
+      }
+    ],
+    "bond_observables": [
+      {
+        "bond": "0-1",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "0-6",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "1-2",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "1-7",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "2-3",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "2-8",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "3-4",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "3-9",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "4-5",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "4-10",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "5-11",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "6-7",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "6-12",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "7-8",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "7-13",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "8-9",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "8-14",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "9-10",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "9-15",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "10-11",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "10-16",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "11-17",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "12-13",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "12-18",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "13-14",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "13-19",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "14-15",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "14-20",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "15-16",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "15-21",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "16-17",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "16-22",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "17-23",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "18-19",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "18-24",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "19-20",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "19-25",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "20-21",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "20-26",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "21-22",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "21-27",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "22-23",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "22-28",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "23-29",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "24-25",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "24-30",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "25-26",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "25-31",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "26-27",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "26-32",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "27-28",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "27-33",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "28-29",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "28-34",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "29-35",
+        "orientation": "y",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "30-31",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "31-32",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "32-33",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "33-34",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "34-35",
+        "orientation": "x",
+        "charge_correlation": "<n_i n_j>",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      }
+    ],
+    "structure_factors": [
+      {
+        "name": "antiferromagnetic_spin_structure",
+        "wavevector": "(pi, pi)",
+        "formula": "S_s(q)=sum_ij exp(i q.(r_i-r_j)) <S_i^z S_j^z> / N"
+      },
+      {
+        "name": "vertical_charge_stripe_structure",
+        "wavevector": "(pi/2, 0) for period-4 charge modulation",
+        "formula": "S_c(q)=sum_ij exp(i q.(r_i-r_j)) <delta_n_i delta_n_j> / N"
+      }
+    ]
+  },
+  "off_diagonal_pairing": {
+    "d_wave_pair_center_definition": "Delta_d(i)=0.5*(Delta_i,+x + Delta_i,-x - Delta_i,+y - Delta_i,-y), with singlet bond Delta_ij=c_i_up c_j_down - c_i_down c_j_up",
+    "pair_centers": [
+      {
+        "site": 0,
+        "x": 0,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 0,
+            "site_j": 1,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 0,
+            "site_j": 6,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 1,
+        "x": 1,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 1,
+            "site_j": 2,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 1,
+            "site_j": 0,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 1,
+            "site_j": 7,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 2,
+        "x": 2,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 2,
+            "site_j": 3,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 2,
+            "site_j": 1,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 2,
+            "site_j": 8,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 3,
+        "x": 3,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 3,
+            "site_j": 4,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 3,
+            "site_j": 2,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 3,
+            "site_j": 9,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 4,
+        "x": 4,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 4,
+            "site_j": 5,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 4,
+            "site_j": 3,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 4,
+            "site_j": 10,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 5,
+        "x": 5,
+        "y": 0,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 5,
+            "site_j": 4,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 5,
+            "site_j": 11,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 6,
+        "x": 0,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 6,
+            "site_j": 7,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 6,
+            "site_j": 12,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 6,
+            "site_j": 0,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 7,
+        "x": 1,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 7,
+            "site_j": 8,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 7,
+            "site_j": 6,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 7,
+            "site_j": 13,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 7,
+            "site_j": 1,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 8,
+        "x": 2,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 8,
+            "site_j": 9,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 8,
+            "site_j": 7,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 8,
+            "site_j": 14,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 8,
+            "site_j": 2,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 9,
+        "x": 3,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 9,
+            "site_j": 10,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 9,
+            "site_j": 8,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 9,
+            "site_j": 15,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 9,
+            "site_j": 3,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 10,
+        "x": 4,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 10,
+            "site_j": 11,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 10,
+            "site_j": 9,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 10,
+            "site_j": 16,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 10,
+            "site_j": 4,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 11,
+        "x": 5,
+        "y": 1,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 11,
+            "site_j": 10,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 11,
+            "site_j": 17,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 11,
+            "site_j": 5,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 12,
+        "x": 0,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 12,
+            "site_j": 13,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 12,
+            "site_j": 18,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 12,
+            "site_j": 6,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 13,
+        "x": 1,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 13,
+            "site_j": 14,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 13,
+            "site_j": 12,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 13,
+            "site_j": 19,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 13,
+            "site_j": 7,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 14,
+        "x": 2,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 14,
+            "site_j": 15,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 14,
+            "site_j": 13,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 14,
+            "site_j": 20,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 14,
+            "site_j": 8,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 15,
+        "x": 3,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 15,
+            "site_j": 16,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 15,
+            "site_j": 14,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 15,
+            "site_j": 21,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 15,
+            "site_j": 9,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 16,
+        "x": 4,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 16,
+            "site_j": 17,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 16,
+            "site_j": 15,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 16,
+            "site_j": 22,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 16,
+            "site_j": 10,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 17,
+        "x": 5,
+        "y": 2,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 17,
+            "site_j": 16,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 17,
+            "site_j": 23,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 17,
+            "site_j": 11,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 18,
+        "x": 0,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 18,
+            "site_j": 19,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 18,
+            "site_j": 24,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 18,
+            "site_j": 12,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 19,
+        "x": 1,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 19,
+            "site_j": 20,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 19,
+            "site_j": 18,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 19,
+            "site_j": 25,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 19,
+            "site_j": 13,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 20,
+        "x": 2,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 20,
+            "site_j": 21,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 20,
+            "site_j": 19,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 20,
+            "site_j": 26,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 20,
+            "site_j": 14,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 21,
+        "x": 3,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 21,
+            "site_j": 22,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 21,
+            "site_j": 20,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 21,
+            "site_j": 27,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 21,
+            "site_j": 15,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 22,
+        "x": 4,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 22,
+            "site_j": 23,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 22,
+            "site_j": 21,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 22,
+            "site_j": 28,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 22,
+            "site_j": 16,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 23,
+        "x": 5,
+        "y": 3,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 23,
+            "site_j": 22,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 23,
+            "site_j": 29,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 23,
+            "site_j": 17,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 24,
+        "x": 0,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 24,
+            "site_j": 25,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 24,
+            "site_j": 30,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 24,
+            "site_j": 18,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 25,
+        "x": 1,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 25,
+            "site_j": 26,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 25,
+            "site_j": 24,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 25,
+            "site_j": 31,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 25,
+            "site_j": 19,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 26,
+        "x": 2,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 26,
+            "site_j": 27,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 26,
+            "site_j": 25,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 26,
+            "site_j": 32,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 26,
+            "site_j": 20,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 27,
+        "x": 3,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 27,
+            "site_j": 28,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 27,
+            "site_j": 26,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 27,
+            "site_j": 33,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 27,
+            "site_j": 21,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 28,
+        "x": 4,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 28,
+            "site_j": 29,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 28,
+            "site_j": 27,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 28,
+            "site_j": 34,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 28,
+            "site_j": 22,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 29,
+        "x": 5,
+        "y": 4,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 29,
+            "site_j": 28,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "plus_y",
+            "sign": -1.0,
+            "site_i": 29,
+            "site_j": 35,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 29,
+            "site_j": 23,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 30,
+        "x": 0,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 30,
+            "site_j": 31,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 30,
+            "site_j": 24,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 31,
+        "x": 1,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 31,
+            "site_j": 32,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 31,
+            "site_j": 30,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 31,
+            "site_j": 25,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 32,
+        "x": 2,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 32,
+            "site_j": 33,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 32,
+            "site_j": 31,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 32,
+            "site_j": 26,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 33,
+        "x": 3,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 33,
+            "site_j": 34,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 33,
+            "site_j": 32,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 33,
+            "site_j": 27,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 34,
+        "x": 4,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "sign": 1.0,
+            "site_i": 34,
+            "site_j": 35,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 34,
+            "site_j": 33,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 34,
+            "site_j": 28,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      },
+      {
+        "site": 35,
+        "x": 5,
+        "y": 5,
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "sign": 1.0,
+            "site_i": 35,
+            "site_j": 34,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          },
+          {
+            "component": "minus_y",
+            "sign": -1.0,
+            "site_i": 35,
+            "site_j": 29,
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up"
+          }
+        ]
+      }
+    ],
+    "pair_correlator": "<Delta_d^dagger(i) Delta_d(j)>",
+    "measurement_note": "These are four-fermion off-diagonal correlators. They require additional basis rotations or dedicated fermionic tomography circuits; they cannot be recovered from the existing charge/spin Z-basis pipeline alone."
+  }
+}

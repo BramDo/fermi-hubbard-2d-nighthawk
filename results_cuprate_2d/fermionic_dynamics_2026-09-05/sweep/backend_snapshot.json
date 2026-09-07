@@ -1,0 +1,7 @@
+{
+  "backend": "ibm_phoenix",
+  "qubits": 120,
+  "operational": true,
+  "pending_jobs": 0,
+  "captured_unix": 1788593958.2274375
+}

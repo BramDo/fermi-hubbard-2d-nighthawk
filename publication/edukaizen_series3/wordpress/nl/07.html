@@ -1,0 +1,23 @@
+<nav class="fh-series-nav"><a href="https://edukaizen.nl/hubbard-nighthawk-serie-3/">Serie 3</a> | <a href="https://edukaizen.nl/hubbard-nighthawk-serie-3-06-resultaten/">Vorige</a> | <a href="https://edukaizen.nl/hubbard-nighthawk-serie-3-08-vergelijking/">Volgende</a></nav>
+<p><strong>CONCEPT — nog niet gepubliceerd.</strong></p>
+<p>Ons eigen snelheidsdoel verdient een eigen meetlat. Niet: is hiermee iedere klassieke methode verslagen? Wel: hoeveel geregistreerde QPU-tijd gebruiken we ten opzichte van de rekenkern van onze huidige lokale klassieke aanpak? Met de opgeslagen metingen is dat een verhouding van ongeveer twintig.</p>
+<h2>Twee afzonderlijke quantumjobs, één bestaande baseline</h2>
+<p>De chi64-rekenkern van de klassieke 6x6-baseline duurde 150,819180 seconden. De koude worker inclusief imports duurde 156,905497 seconden, exclusief de Windows/WSL-launcher. Er liep tegelijk ander lokaal werk; dit was dus geen geïsoleerde prestatietest van het systeem.</p>
+<p>Twee afzonderlijke quantumjobs registreerden respectievelijk 8 en 7 seconden QPU-gebruik. De tweede bevatte zowel origineel als compact. Het is niet correct beide jobs op te tellen en het resultaat als één noodzakelijk quantumbudget te presenteren, of zeven seconden aan elke arm toe te kennen.</p>
+<table>
+<thead><tr><th>Vergelijking</th><th>Berekening</th><th>Verhouding</th></tr></thead>
+<tbody>
+<tr><td>Klassieke kernel / eerdere QPU-job</td><td>150,819180 / 8</td><td>18,85x</td></tr>
+<tr><td>Klassieke kernel / laatste gepaarde QPU-job</td><td>150,819180 / 7</td><td>21,55x</td></tr>
+</tbody>
+</table>
+<p>De compacte omschrijving is daarom circa 20x minder geregistreerde QPU-tijd dan de klassieke rekenkerntijd van onze huidige baseline. Het is een resourcevergelijking met expliciete klokken.</p>
+<h2>Waarom het geen stopwatchvergelijking is</h2>
+<p>De nieuwste hardwarejob liep volgens de provider-tijdstempels ongeveer 181 seconden tussen running en finished. Alleen dat interval was al veel langer dan de zeven geregistreerde QPU-seconden; wachtrij en lokale analyse zijn daarmee nog niet volledig beschreven. De boekhoudkundige QPU-tijd en de ervaren doorlooptijd beantwoorden dus andere vragen.</p>
+<p>De <a href="https://quantum.cloud.ibm.com/docs/en/guides/estimate-job-run-time">IBM-documentatie over workload usage</a> is hier belangrijk: gebruik de providerregistratie zoals bedoeld en geef er niet achteraf de betekenis van een volledige eindgebruikerstijd aan.</p>
+<h2>En als chi64 nog niet genoeg is?</h2>
+<p>Een hogere bond-dimensie kan de klassieke berekening duurder maken. Maar we hebben chi128 niet uitgevoerd. We mogen een geschatte langere klassieke tijd dus niet alvast als extra gemeten quantumwinst boeken. Omgekeerd kunnen verbeterde klassieke algoritmen of een andere observabele de lokale berekening juist goedkoper maken.</p>
+<p>Onze referentie is een MPS-benadering van het gekozen eindige circuit. Zijn nauwkeurigheid moet afzonderlijk worden vastgesteld. Hetzelfde geldt voor de quantumestimator, waarvan de TFLO-holdouts nog niet slaagden. Een matched-accuracy-test kan pas een sterkere uitspraak doen als beide kanten aan dezelfde vooraf gekozen fouttoleranties voldoen.</p>
+<h2>Waarom deze beperkte mijlpaal toch telt</h2>
+<p>Het is zinvol om als klein project een concrete lokale tegenstander te kiezen. De verhouding laat zien dat de geregistreerde QPU-resource voor deze proef klein is ten opzichte van onze huidige klassieke rekenkern. Dat motiveert verdere verbetering. De nauwkeurigheidscontrole neemt die mijlpaal niet weg; zij bepaalt welke volgende claim verantwoord wordt.</p>
+<p>Bronnen: beide provider_metrics.json-bestanden en summary.json van classical_full_6x6_mps_T04_chi64_v1, integraal bewaard in de repository.</p>

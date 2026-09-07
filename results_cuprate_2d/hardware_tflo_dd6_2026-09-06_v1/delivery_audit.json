@@ -1,0 +1,35 @@
+{
+  "job_id": "daesvo51ierc738mji3g",
+  "direct_integer_raw_profiles_max_abs": 0.0,
+  "independent_RMS_max_abs": 0.0,
+  "independent_no_target_input_comparator_max_abs": 0.0,
+  "fixed_ablation_reproduced": [
+    {
+      "dd": false,
+      "RMS_without_U8_hardware_input": [
+        0.029278397000165123,
+        0.0576728998997805,
+        0.011374623054263329
+      ]
+    },
+    {
+      "dd": true,
+      "RMS_without_U8_hardware_input": [
+        0.029280544181124597,
+        0.05767218451776107,
+        0.011376429868389763
+      ]
+    }
+  ],
+  "additional_posthoc_diagnostic_not_a_selected_method": {
+    "name": "arithmetic mean of six exact U0 training profiles, no hardware input",
+    "RMS_to_uncertified_U8_chi64": [
+      0.02930626559204128,
+      0.05759411383824057,
+      0.011376628950462972
+    ],
+    "N": 32.00000000000001,
+    "not_validation_or_quantum_advantage": true
+  },
+  "source_sha256": "ecda9a77350fd55a8977c3b37a8591250363ee7da21067f81e55e51581ec1b55"
+}

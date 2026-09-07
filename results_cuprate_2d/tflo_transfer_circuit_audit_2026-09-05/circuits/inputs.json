@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "6cfe3cfa79d7ec023cff2916d47612de16f74f5a8096ba83a7e3e7126afd02bb",
+  "plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+  "raw_sha256": "cb89e967d2f2b2617dae73b304e26e20fa2a67319b02c779615db2a9750de6b7",
+  "old_lock_sha256": "68942f2c3c947b3f1663496e1a2e7db92d4151f7878cc90a35d1fadf36f8f1b1",
+  "compact_lock_sha256": "5a8d3516301fc185e539917a57969aad11424baf9c9818961b808e03b30e68d4",
+  "source_sha256": {
+    "cuprate_2d_local_followup.py": "a67ff8c8a1385bb164291e14baa811cabbef2357d3ad59c22a68bfec1f2b7e82",
+    "run_cuprate_2d_local_followup.py": "17dfeae553f8428013ee82966e308718716e5f1b84fe1089cf5ed5307840d1fc",
+    "test_cuprate_2d_local_followup.py": "6cbe14fd8fb8c9e1e9b9d858d236fc6635dd7c0a75705c0b9578148151abca36",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+    "cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+    "validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266",
+    "analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84",
+    "preflight_cuprate_2d_tflo_budget.py": "34747508fc6bb7a88f6f9267868671652bf9748fd55100395e45aa92fb8fc070"
+  },
+  "new_QPU_seconds": 0,
+  "created_unix": 1788637079.347614,
+  "exploratory": true
+}

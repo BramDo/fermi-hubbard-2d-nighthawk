@@ -1,0 +1,2 @@
+source,profile,reference,sites,n_up_rmse,n_down_rmse,charge_rmse,spin_z_rmse,hole_density_rmse,double_occupancy_rmse
+gaussian_u0,free_fermion_step1,tdhf:mean_field_step1,9,0.0010231855658961104,0.0009052976938476688,0.0003733983939015224,0.0018956578997592957,0.0003733983939015224,0.0008492833852997858

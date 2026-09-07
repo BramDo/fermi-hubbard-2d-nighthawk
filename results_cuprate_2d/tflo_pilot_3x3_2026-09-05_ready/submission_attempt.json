@@ -1,0 +1,8 @@
+{
+  "started_unix": 1788624344.056407,
+  "tag": "tflo3x3-1ada18e5011c4786",
+  "plan_sha256": "453a3d3f237f1912577ef5528f950c96220f0916e231191a929df38d3cbe071e",
+  "max_execution_time": 5,
+  "run_dir": "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/results_cuprate_2d/tflo_run_3x3_2026-09-05",
+  "warning": "Never delete this lock to retry; recover the job by tag."
+}

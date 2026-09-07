@@ -1,0 +1,212 @@
+[
+  {
+    "check": "hopping_matrix_3_0_2",
+    "value": 2.7755575615628914e-17,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "hopping_matrix_4_0_3",
+    "value": 2.7755575615628914e-17,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "hopping_matrix_4_3_1",
+    "value": 2.7755575615628914e-17,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "missing_parity_negative_control",
+    "value": 0.39733866159012243,
+    "threshold": 0.3,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "onsite_U_and_mu_matrix",
+    "value": 5.578801654593729e-16,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "independent_vs_existing_ED_H",
+    "value": 0.0,
+    "threshold": 1e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "full_H_generator",
+    "value": 5.789768664499206e-10,
+    "threshold": 1e-07,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "N_spin_0_commutator",
+    "value": 0.0,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "N_spin_1_commutator",
+    "value": 0.0,
+    "threshold": 2e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "unitarity",
+    "value": 2.4424911781522363e-15,
+    "threshold": 3e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "H_hermiticity_2x2",
+    "value": 0.0,
+    "threshold": 1e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x2_1",
+    "value": 1.1102230246251565e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x2_2",
+    "value": 2.6645352591003757e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x2_4",
+    "value": 5.551115123125783e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x2_8",
+    "value": 1.1546319456101628e-14,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "second_order_2x2_0",
+    "value": 4.058852296451635,
+    "threshold": 3.4,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "second_order_2x2_1",
+    "value": 4.014611590893446,
+    "threshold": 3.4,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "fine_state_distance_2x2",
+    "value": 0.0017721844974195728,
+    "threshold": 0.01,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "H_hermiticity_2x3",
+    "value": 0.0,
+    "threshold": 1e-12,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x3_1",
+    "value": 1.7763568394002505e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x3_2",
+    "value": 4.218847493575595e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x3_4",
+    "value": 7.771561172376096e-15,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "sector_leakage_2x3_8",
+    "value": 1.6209256159527285e-14,
+    "threshold": 5e-11,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "second_order_2x3_0",
+    "value": 4.042605808075003,
+    "threshold": 3.4,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "second_order_2x3_1",
+    "value": 4.010651860618183,
+    "threshold": 3.4,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "fine_state_distance_2x3",
+    "value": 0.001477259435462067,
+    "threshold": 0.01,
+    "relation": "<=",
+    "passed": true
+  },
+  {
+    "check": "U_changes_dynamics",
+    "value": 1.355378253656055,
+    "threshold": 0.1,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "t_prime_changes_doped_dynamics",
+    "value": 0.2522992266903587,
+    "threshold": 0.01,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "legacy_is_not_physical_replacement",
+    "value": 0.8916653633335411,
+    "threshold": 0.1,
+    "relation": ">=",
+    "passed": true
+  },
+  {
+    "check": "MPS_new_gates_vs_statevector",
+    "value": 1.5753888471525812e-10,
+    "threshold": 1e-10,
+    "relation": "<=",
+    "passed": false
+  }
+]

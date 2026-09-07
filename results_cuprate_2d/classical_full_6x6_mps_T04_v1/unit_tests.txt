@@ -1,0 +1,13 @@
+test_deadline_before_work (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_deadline_before_work) ... ok
+test_exact2x2_full_state_and_observables (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_exact2x2_full_state_and_observables) ... ok
+test_fermionic_sign_and_involution (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fermionic_sign_and_involution) ... ok
+test_fused_matrix_against_qiskit (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fused_matrix_against_qiskit) ... ok
+test_mu_rejected (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_mu_rejected) ... ok
+test_sizes_target_and_update_count (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_sizes_target_and_update_count) ... ok
+test_unitary (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_unitary) ... ok
+test_zeroU_polynomial_FLO_reference (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_zeroU_polynomial_FLO_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.432s
+
+OK

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "rows": 14,
+  "max_abs_difference": 7.105427357601002e-15,
+  "sqlite_sha256": "0a49054303996662f6f0eaf7d4ed320f2695d96db82ac6e6674f0e391cf76fc9",
+  "sql": "SELECT case_name, method, count(*) AS sites,\n sum(charge) AS N, avg(doublon) AS mean_D,\n sqrt(avg(spin*spin)) AS spin_RMS,\n avg(ref_doublon) AS ref_D, sqrt(avg(ref_spin*ref_spin)) AS ref_spin_RMS,\n sqrt(avg((charge-ref_charge)*(charge-ref_charge))) AS rms_charge,\n sqrt(avg((spin-ref_spin)*(spin-ref_spin))) AS rms_spin,\n sqrt(avg((doublon-ref_doublon)*(doublon-ref_doublon))) AS rms_D\n FROM local_profiles GROUP BY case_name, method ORDER BY case_name, method"
+}

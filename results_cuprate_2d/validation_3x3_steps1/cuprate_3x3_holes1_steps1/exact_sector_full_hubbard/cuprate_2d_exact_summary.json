@@ -1,0 +1,40 @@
+{
+  "claim_boundary": "Small-rung exact diagonal observables only; no off-diagonal pairing tomography.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "metadata": {
+    "basis_dimension": 15876,
+    "elapsed_seconds": 7.594499279999582,
+    "final_summary": {
+      "max_charge": 0.9995545148113617,
+      "mean_abs_spin_z": 0.8551155065479489,
+      "mean_double_occupancy": 0.016222765198735816,
+      "min_charge": 0.04072419008455726,
+      "total_charge": 7.999999999999951,
+      "total_spin_z": 6.369904603786836e-15
+    },
+    "hamiltonian_nnz": 368046,
+    "hopping_bonds": 20,
+    "model": "full_hubbard",
+    "n_down": 4,
+    "n_up": 4,
+    "norm_by_step": {
+      "0": 1.0,
+      "1": 1.0000000000000013
+    }
+  },
+  "simulation_kind": "exact_fixed_sector_sparse_hubbard"
+}

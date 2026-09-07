@@ -1,0 +1,227 @@
+{
+  "backend": "ibm_marrakesh",
+  "backend_transpile": {
+    "enabled": false
+  },
+  "circuit_family": "number_preserving_t_only",
+  "claim_boundary": "Fire Opal route for diagonal 72q 2D Hubbard observables. Pairing observables require separate circuits.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 3,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "fire_opal_input_strategy": {
+    "abstract_for_fire_opal": false,
+    "backend_optimization_level": 1,
+    "backend_transpile": false,
+    "qasm_basis": "qelib",
+    "qasm_optimization_level": 1,
+    "recommendation": "use --abstract-input for the next Fire Opal validation dry-run",
+    "warnings": [
+      "qelib_export_decomposes_to_cx_u_gates_before_fire_opal"
+    ]
+  },
+  "groups": {
+    "main": {
+      "circuit_count": 1,
+      "shots": 1024
+    },
+    "readout": {
+      "circuit_count": 2,
+      "shots": 4096
+    }
+  },
+  "model": "2d-cuprate-hubbard",
+  "qasm_basis": "qelib",
+  "qasm_manifest": "fire_opal_qasm_manifest.json",
+  "qasm_optimization_level": 1,
+  "readout_shots": 4096,
+  "records": [
+    {
+      "circuit_metadata": {
+        "logical_forward_steps": 3,
+        "model": "2d-cuprate-hubbard",
+        "observable_basis": "Z",
+        "role": "main"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 73,
+        "operation_counts": {
+          "barrier": 13,
+          "cx": 198,
+          "measure": 18,
+          "u1": 144,
+          "u2": 144,
+          "u3": 225
+        },
+        "qubits": 18,
+        "size": 729
+      },
+      "group": "main",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 20,
+        "operation_counts": {
+          "barrier": 13,
+          "measure": 18,
+          "rz": 54,
+          "rzz": 27,
+          "x": 8,
+          "xx_plus_yy": 72
+        },
+        "qubits": 18,
+        "size": 179
+      },
+      "path": "qasm/main_00_main.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 73,
+          "operation_counts": {
+            "barrier": 13,
+            "cx": 198,
+            "measure": 18,
+            "u1": 144,
+            "u2": 144,
+            "u3": 225
+          },
+          "qubits": 18,
+          "size": 729,
+          "two_qubit_count": 198,
+          "two_qubit_depth": 30
+        },
+        "qasm_characters": 13859
+      },
+      "role": "main"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "000000000000000000",
+        "role": "readout_all0"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18
+        },
+        "qubits": 18,
+        "size": 18
+      },
+      "group": "readout",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18
+        },
+        "qubits": 18,
+        "size": 18
+      },
+      "path": "qasm/readout_00_readout_all0.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 1,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 18
+          },
+          "qubits": 18,
+          "size": 18,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 635
+      },
+      "role": "readout_all0"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "111111111111111111",
+        "role": "readout_all1"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18,
+          "u3": 18
+        },
+        "qubits": 18,
+        "size": 36
+      },
+      "group": "readout",
+      "index": 1,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18,
+          "x": 18
+        },
+        "qubits": 18,
+        "size": 36
+      },
+      "path": "qasm/readout_01_readout_all1.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 2,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 18,
+            "u3": 18
+          },
+          "qubits": 18,
+          "size": 36,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 967
+      },
+      "role": "readout_all1"
+    }
+  ],
+  "route": "fire_opal_qasm",
+  "shots": 1024,
+  "submit_requested": false
+}

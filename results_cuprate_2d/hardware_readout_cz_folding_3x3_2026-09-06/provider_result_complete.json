@@ -1,0 +1,1728 @@
+{
+  "__type__": "PrimitiveResult",
+  "__value__": {
+    "pub_results": [
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIuBqoDFsrVMyGRBNQDAFySG+A="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "readout_all0",
+              "twirl_id": 0,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 0,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIu5v//8aF4CGM/lPsbLvUXh5a/6LK/MWWJQ79xsOEi7/8z/v8PAOEpmwI="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "readout_all1",
+              "twirl_id": 0,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 1,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIuJo7nzA8jmfz0GRRSGI+JMDkHMX99zBRlxPT5BeOtPMZnaxjC5zK/3MyYtgIALTorMg=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 1,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "hardware_rocz_index": 2,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIupmJ+BrVFTMoSTMGGDNoLmd8zM2UyM0TvZ9o5iSl1OnP/ZIZ0dqbNCkyeecz7nzFpbWZ4KMqkqcywoI1RMYfpCyNTJTNTxWmmQjemTk3GdTFMWssZ77kz7PzPtJOZgZmZ6aslczUzUyAnY816BvbdTNXbGLT7mQ2dmet1meYrM720ZeaOZ3ZUZHphxGSvxqTNyXTKmWnnVMaPdcynGZm4HjPH/mSqa2RiL2HOVmEqXsqkycmU2crMcoE5gZOJbRYTcztz9mYABllQBQ=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 5,
+              "readout_mask_little_endian": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 3,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy4mJ2mGjK1M7zkYXq1nCqpishFlXCgPAP8JIa0="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 5,
+              "readout_mask_little_endian": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 4,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIuxg0ijO8ZGBc+ZWh1YU6/w/CnnXF7LsNXdYY6GUb1Gsa3qYxPGZhNGJgNVBk9NjBu7WT+r8n4xpLB0J/xiR3zjWkMZakMXcsYH/gyimgypuoybj/DaFrJvGMXw9sSxv2qjLbTGZcuZraLZFytymjNyjxTiyFwK+OTmUxPFzKwnmU+/4zxwyrGbyrMB2UZeQMZ5AOZlEwZn/IynmVhvKrPHL2bcYcNc3g3c60S40VGhq2CjF/0Gf8yMF7tY/ofz3x/IvN1dsZ3ogDaulqV"
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 3,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 5,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy6mJdUMEeGM+vMZWvczpuxnMHzMeEYAAAX7IrU="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 3,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 6,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIuhlh+hn8PGZY9ZfjwkLmRmylHlsniFtNuTubtUgx1T5gXfGX8ksqUfYjhsTYAWB8ryw=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 6,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 7,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIu5k1FjN/lmbZLMc3uYSy6zywewPBvDSNPBHNmLuOpS8wPZzLonGAWncnItgoAPqIqGQ=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 4,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 8,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIuxltXGL95MNy+x1C/moGZl9nnKLPTEebqR0xvBRmyjzMZyTBfrGJ8K8Us9AAAYHoq9g=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 5,
+              "readout_mask_little_endian": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 9,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy7GxRcZXRWYlRyZen8ynwhmZmphcE0EAAISIdM="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 2,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 10,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIupvKdzMfkGd+uZlr2g/moImN+BHNIJmOCAeODAEaOIkat9QxO+cw5yoz6zAA8cygc"
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 2,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 11,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIu5tblzPnKjL/CmO60Msj6M/y+yywSxzRzPRO3AJNLNeOXqcyskxkVZzJtPAEALbwpfw=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 7,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 12,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIu5q+aDFETGRu8mflMmLNMmV2uMl7yZX5uythylumaIwPLZGaWp8xTEhmPejN7PmAKTWa8sJm55SSzUyozy0MQEnnJ9Owxs4o3M3smw9J65q29zAwTGPf9ZpZxZjpoyvj1EbPIViax48wCusxxD5k3/mR8lsgwJ4qZ4T9z1CXmp4qMId7MLAsZ+x4yxTkyXHFkVvFkSIlg/KvM3JbJsFeFmeEsc4Ans2sH492PTF6nmFleMbM5MocoMU5+yBhSwBiSyOiQCAC3tVj0"
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 2,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 13,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIuhtvzmP1rGKKjmBylmP2rmCKDmbijmBgLmKTimM5WMXlEMWd7Mf7TZNp2ikkzjImbnWnWXQbrm8yem5jbmpgC4xgrlzIw32YwKmR2dGPijWbof8jg/5OhWpTh8iuGbfqMgUbMS/uZvGuYo6KYvcuZdv9g8nZheufOxHOL6VwUM7ckk34uAxsT8+p5DLsPMkkWM/n4MXRbMThHMGyrZ2AOYPQMYnD+zdzqzpAvwOAdwVwdx9w+mUn7HTPnLaaoAqaZtcyOAQCmP1IT"
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 0,
+              "readout_mask_little_endian": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 14,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy7G6ALGriqm6GmMl24w805kdrVgPpkBAAWGIoE="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 0,
+              "readout_mask_little_endian": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 15,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy5GpZ0Mk2Yy1X1ltvvHeEuL8c4yZhYZABEmIyM="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 4,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 16,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIuBmVepprFTJtsGVudGQ2qGCWfMjuuYv5qyyDHxjj9JYOtLXPHU4b9ccxu/gD6Xifn"
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 3,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 17,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy6m3PuM2iIMbqcYFicxrpRmfnCTsUYCAANzInY="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 7,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 18,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy6G31uZbdIYFZYwHvZmOhzB8DuFqU8fAA+eIyE="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 1,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "hardware_rocz_index": 19,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RrmOgrGmjoKtQpkAy6G7oMMYXcYPV4z5VQyZp1lsBBnqvkDABCUI1c="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor2",
+              "twirl_id": 6,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 20,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIuppYDjDZXmVtrmLalMngdYHaIZ6hKZPx+gCGlgeHJUYZ3hxlsDjOrPGQKzWBWbWRua2Xe5sr4zJGpLpNprjbznFamlAcMdfOZ1LgYdY8za95ksLjEKJLNlKLAoObNsO8gQ9ohhtD1TDVmzA75TGmeDEksDGnvmTc5MyhkM6kfYDLZybQklqnjIXPeAqaMZKBi5iPnmUpPMuksYMp3Ztr7kOFbIlNpJ1PKEabDyUwh8cz2DUypF5juuzG5sDAkXGawP8pcdhAAe+RbzQ=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 6,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 21,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIupif3mBM6GafMZLLlYOxpZPoTy+yyhUnAkFHlJlPKbyYDX8ZAdeZvdxkqJzCzezI5L2DWkWQ2m82Y84UpN51Zp5M5w5JRbyLzjItMX/mYU2Yyme9kTpnMWCTJvHUxY2oas+oMZhMJZrUDTBG7mP/MY3A9yWjKw6jBybiAm7lwDcOXG8yODxjzVzIvkmR8coWxJJI5Zy+Diy3TsyBmMSPGJwzMKZ3MKZbMNROYd3QxK4oz11QyztZg0pBmrq1jTHRgVJRgVrkNAIHkVOE="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 7,
+              "readout_mask_little_endian": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+              ],
+              "hardware_rocz_index": 22,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqGJjoKxpo6CrUK5AIuBuvbDCu+MwewMazrYwhkYuDpYziQxyQ/hSHvFkM1J+O620wOu5jnrmCalQQAIQkpfQ=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor3",
+              "twirl_id": 0,
+              "readout_mask_little_endian": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+              ],
+              "hardware_rocz_index": 23,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIuxhQDxu0WjFoszFtymVRmMKTsZl46nzFDgcFOjFFKinGqAWNKL6PZBObcD4x2ygznKhgdJBjN1BjyZjO67WBUWcHYtpc5pJpZeAWzjRSjqjpDsgKjjj3DoyiGKi3mWgvGEiPmWEPGz/4M5sIMFbbMVwQYP+Uwb7FkPGvG+MGAIWEOo8MOxsu2TL3nGfcaMN7TY0gtZCz5wfx+FqMDL8McC6YNFoxn4hnlfJhLljMvsWBi1WDsPsCYspORW5aRbwdz0m7GkgoAec9RKg=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 4,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+              ],
+              "hardware_rocz_index": 24,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      },
+      {
+        "__type__": "SamplerPubResult",
+        "__value__": {
+          "data": {
+            "__type__": "DataBin",
+            "__value__": {
+              "field_names": [
+                "meas"
+              ],
+              "shape": [],
+              "fields": {
+                "meas": {
+                  "__type__": "BitArray",
+                  "__value__": {
+                    "array": {
+                      "__type__": "ndarray",
+                      "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBeU2qorqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RpmJjoKxpo6CrUK5AIupmofhtV5DJfPMP5KYVjpwpSdwujBzOj/hOHxQ6Y9Bgza3xjvMzBMLmF6+IPh5xOmtREML98z1FcwZRUw2BYy/DvDtO82U30G4zoGhvpjDKu3MEQ9YfgSw8BsxnD9KUN3KsPzYwycPozSqQx7uhg2BzGeVmWqdGGekcZQfIBh9QUm1smMBr4M/e8YX2cxrvRhqjjA9D2PYXUSI5MO873lDAtzGOa7MDx+wrBrC+Pu/Uy/3BgKexmi3zDUv2AoTGP4qcKwWIHx93MAd8lkbw=="
+                    },
+                    "num_bits": 18
+                  }
+                }
+              }
+            }
+          },
+          "metadata": {
+            "circuit_metadata": {
+              "setting_id": "U8_T04_factor1",
+              "twirl_id": 1,
+              "readout_mask_little_endian": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "hardware_rocz_index": 25,
+              "hardware_rocz_plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+              "hardware_rocz_tag": "ro-cz-3x3-9cdf57bffdc44a87"
+            }
+          }
+        }
+      }
+    ],
+    "metadata": {
+      "execution": {
+        "execution_spans": {
+          "__type__": "ExecutionSpans",
+          "__value__": {
+            "spans": [
+              {
+                "__type__": "DoubleSliceSpan",
+                "__value__": {
+                  "start": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:51.375567"
+                  },
+                  "stop": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:52.788776"
+                  },
+                  "data_slices": {
+                    "4": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "6": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "10": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "15": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "16": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "19": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "18": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ],
+                    "20": [
+                      [
+                        7
+                      ],
+                      0,
+                      1,
+                      0,
+                      7
+                    ]
+                  }
+                }
+              },
+              {
+                "__type__": "DoubleSliceSpan",
+                "__value__": {
+                  "start": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:52.793146"
+                  },
+                  "stop": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:55.355387"
+                  },
+                  "data_slices": {
+                    "2": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "7": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "8": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "9": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "11": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "12": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "17": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ],
+                    "23": [
+                      [
+                        14
+                      ],
+                      0,
+                      1,
+                      0,
+                      14
+                    ]
+                  }
+                }
+              },
+              {
+                "__type__": "DoubleSliceSpan",
+                "__value__": {
+                  "start": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:55.360602"
+                  },
+                  "stop": {
+                    "__type__": "datetime",
+                    "__value__": "2026-09-06T13:00:56.432803"
+                  },
+                  "data_slices": {
+                    "0": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "1": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "3": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "13": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "5": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "14": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "21": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "22": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "24": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ],
+                    "25": [
+                      [
+                        64
+                      ],
+                      0,
+                      1,
+                      0,
+                      64
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "version": 2
+    }
+  }
+}

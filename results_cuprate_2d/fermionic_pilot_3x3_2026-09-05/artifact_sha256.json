@@ -1,0 +1,162 @@
+[
+  {
+    "path": "backend_properties.json",
+    "sha256": "af0ff3217d034e7b9075e6ad11a959736f5f1c5a33b15d79d2248f9356ec7e4b"
+  },
+  {
+    "path": "backend_snapshot.json",
+    "sha256": "d0a87e85605875b1b21653d271185791f9ee8d2a0814dec7cc280056ccaf6c33"
+  },
+  {
+    "path": "comparison.json",
+    "sha256": "238347abb4e0d480ecbb54a3d8af2c72cfba4095a94c20aaa608dcc074ad4e43"
+  },
+  {
+    "path": "config.json",
+    "sha256": "a5aab789c5388cee818ceef0a0c5c0a48858089f9c5ac88c1301f8f71ac5d976"
+  },
+  {
+    "path": "exact_circuit_observables.json",
+    "sha256": "3247756eee0ecd2b15e5f9f6aa433681e772ed02f1dcacf6ecccbb98e4cca987"
+  },
+  {
+    "path": "exact_hamiltonian_observables.json",
+    "sha256": "9650d3b2166c5c152d51f94875cbde6619c1315d663013f425a7f13d371c01a9"
+  },
+  {
+    "path": "exact_reference_states.npz",
+    "sha256": "15a5160e30097e72391dc2eb6acd3074e2d9e97f6d66c6df37ac9a93d98368d6"
+  },
+  {
+    "path": "factor_1_site_observables.json",
+    "sha256": "9c5288a0b8a3fab376ff78f94ce50305e8face9b7893d31d09cd5641910b43f0"
+  },
+  {
+    "path": "factor_3_site_observables.json",
+    "sha256": "1d2a0a19d80c7d180d061a7b50c736150e33be4eea2c714712b2640d3cde6b3c"
+  },
+  {
+    "path": "factor_5_site_observables.json",
+    "sha256": "aed7b208ab4784eb1447a8c3247c047d607ed143a291a178421250ae10971a3c"
+  },
+  {
+    "path": "frozen_inputs_sha256.json",
+    "sha256": "31e744f5d531c2ab5ad5dbe362d6a232d0a17c72bf8abeb13a7b9361eca2466a"
+  },
+  {
+    "path": "isa_active18_circuit.qpy",
+    "sha256": "3553aa535d7c3aad91b4134127d3c06c20b3d24ac165363713d3de371aaba3e6"
+  },
+  {
+    "path": "isa_circuit.qpy",
+    "sha256": "c6ce4be41181b3b3023458eb1fd3412fc579e56ff57533b0d1a94a534ea9c273"
+  },
+  {
+    "path": "job_status.json",
+    "sha256": "6feb65771ddc688c4aae340cbfeac3065329ef226e1494f01c9eec6aa65a5dc7"
+  },
+  {
+    "path": "layout_candidates.json",
+    "sha256": "85e8c9d5667620b3b29e0c89bbe5d2c0e569f08141afeec0a5abf530752557d6"
+  },
+  {
+    "path": "logical_circuit.qpy",
+    "sha256": "5b2f589bb844ed5111475fda5905406b09f6a90dce537ab1c9e91e24003d6cf4"
+  },
+  {
+    "path": "observables.json",
+    "sha256": "535599b21cf79f6dc0840a49a6953c41c67431c4262f9459ba25c8a99fc96b0e"
+  },
+  {
+    "path": "pilot_report.md",
+    "sha256": "d7f970b90f258cdf438b5a01226e5fcf6e359e88788a0415824d69ee5c314c89"
+  },
+  {
+    "path": "plan.json",
+    "sha256": "2828f490e314280f0012a87eec5e65e2b12d7c596bab04dff9313549e9be5f10"
+  },
+  {
+    "path": "provider_inputs.json",
+    "sha256": "353a8bf8195ee4829ebd3a21fd8c72d0f5983be0873747a107114aa24f58e3d6"
+  },
+  {
+    "path": "provider_job_metadata.json",
+    "sha256": "81a9fff7508771b89596278e03b535f41a9241b22764d1094b9612425a09e067"
+  },
+  {
+    "path": "provider_metrics.json",
+    "sha256": "f2431f439e2fda5ac9f0262d957a204103697763e50e64ccef248093c4c48570"
+  },
+  {
+    "path": "provider_result_complete.json",
+    "sha256": "63634fa7d1dd9d5a7de90c196f003fc94cb2974595b29ae683332e1f1adc137b"
+  },
+  {
+    "path": "result_arrays.json",
+    "sha256": "df29f16c7ce05ad0b967ecabc482dfd34d26408c470f582cf67ff33889a34326"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_exact_sector_baseline.py",
+    "sha256": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_fermionic_dynamics.py",
+    "sha256": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_fermionic_mapping.py",
+    "sha256": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_fermionic_pilot.py",
+    "sha256": "796303333c2e6784e737d32eab2b13679b6296e511197d9fe55026dc4d8c6474"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_hubbard_pipeline.py",
+    "sha256": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e"
+  },
+  {
+    "path": "source_snapshot/ibm_staged_fermi_hubbard_runner.py",
+    "sha256": "c69155edac6a6de24db4e5d40ed29e98cf13def9464b2f5fec440d4929683634"
+  },
+  {
+    "path": "source_snapshot/optimize_cuprate_2d_fermionic_mapping.py",
+    "sha256": "133bc2e6c98a78cd75c5a5807ee1fab879b35a28c196066f4b7fdd144f7eaa9c"
+  },
+  {
+    "path": "source_snapshot/prepare_cuprate_2d_fermionic_sweep.py",
+    "sha256": "18a75e58a1663886321d1386e7253fd4c93f5a3bfde2b514d08821a809bf11d3"
+  },
+  {
+    "path": "source_snapshot/validate_cuprate_2d_fermionic_dynamics.py",
+    "sha256": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266"
+  },
+  {
+    "path": "source_snapshot/validate_cuprate_2d_fswap_baseline.py",
+    "sha256": "45b10c1db8ec5da5d82c9227fa4e58e872d6001b2da0ab70e6838f895c5ba841"
+  },
+  {
+    "path": "submission_attempt.json",
+    "sha256": "27a05eb404c2c3ce286ba6f5d42a48489c1571a4ed83876f420481e137ffd269"
+  },
+  {
+    "path": "submission_receipt.json",
+    "sha256": "99b848c7cdca263dc4f5b044613c4448490b2955dfe4d36500dfb39521b29456"
+  },
+  {
+    "path": "timestep_refinement.json",
+    "sha256": "f41d305ad5102c76672b7d17bba3386fe9085d56fc2448f980bc06725bc0637f"
+  },
+  {
+    "path": "verification.json",
+    "sha256": "747adfb83fadf8bdf33fe502b526a80f2c52cc8920748d044f9ce0a20df5fa8d"
+  },
+  {
+    "path": "verification.md",
+    "sha256": "ae4837128fe086b51fdfd4175bfab2eeaf3bb1b15f9f3c892471d89f56473081"
+  },
+  {
+    "path": "zne_site_observables.json",
+    "sha256": "22836f73c4a30e2042505c6f51c382ea3d9187a39a7bec0295432b9af7216001"
+  }
+]

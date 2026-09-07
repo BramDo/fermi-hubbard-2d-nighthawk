@@ -1,0 +1,10 @@
+{
+  "revision": 2,
+  "reason": "IBM returned usage_consumed_seconds but no limit/allocation/remaining fields.",
+  "interpretation": "Missing remaining quota is unknown. Do not assert sufficient/unlimited quota.",
+  "authority": "Same user authorization: one job with max_execution_time15, no retry.",
+  "quota_gate": "Reject reported remaining quota below15; if unreported rely solely on explicit per-job cap.",
+  "physics_circuits_shots_layout_cap_retry_unchanged": true,
+  "plan_sha256": "d117dbcda76825b8593c3e884220e7a626b8ae2b0c8677c6ecd816852faeaac6",
+  "created_unix": 1788702715.8937151
+}

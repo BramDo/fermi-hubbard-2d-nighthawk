@@ -1,0 +1,177 @@
+{
+  "records": [
+    {
+      "circuit_metadata": {
+        "logical_forward_steps": 1,
+        "model": "2d-cuprate-hubbard",
+        "observable_basis": "Z",
+        "role": "main"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 25,
+        "operation_counts": {
+          "barrier": 5,
+          "cx": 66,
+          "measure": 18,
+          "u1": 48,
+          "u2": 48,
+          "u3": 75
+        },
+        "qubits": 18,
+        "size": 255
+      },
+      "group": "main",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 8,
+        "operation_counts": {
+          "barrier": 5,
+          "measure": 18,
+          "rz": 18,
+          "rzz": 9,
+          "x": 8,
+          "xx_plus_yy": 24
+        },
+        "qubits": 18,
+        "size": 77
+      },
+      "path": "qasm/main_00_main.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 25,
+          "operation_counts": {
+            "barrier": 5,
+            "cx": 66,
+            "measure": 18,
+            "u1": 48,
+            "u2": 48,
+            "u3": 75
+          },
+          "qubits": 18,
+          "size": 255,
+          "two_qubit_count": 66,
+          "two_qubit_depth": 10
+        },
+        "qasm_characters": 5139
+      },
+      "role": "main"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "000000000000000000",
+        "role": "readout_all0"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18
+        },
+        "qubits": 18,
+        "size": 18
+      },
+      "group": "readout",
+      "index": 0,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 1,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18
+        },
+        "qubits": 18,
+        "size": 18
+      },
+      "path": "qasm/readout_00_readout_all0.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 1,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 18
+          },
+          "qubits": 18,
+          "size": 18,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 635
+      },
+      "role": "readout_all0"
+    },
+    {
+      "circuit_metadata": {
+        "calibration_state": "111111111111111111",
+        "role": "readout_all1"
+      },
+      "exported_summary": {
+        "clbits": 18,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18,
+          "u3": 18
+        },
+        "qubits": 18,
+        "size": 36
+      },
+      "group": "readout",
+      "index": 1,
+      "logical_summary": {
+        "clbits": 18,
+        "depth": 2,
+        "operation_counts": {
+          "barrier": 1,
+          "measure": 18,
+          "x": 18
+        },
+        "qubits": 18,
+        "size": 36
+      },
+      "path": "qasm/readout_01_readout_all1.qasm",
+      "qasm": {
+        "basis": "qelib",
+        "contains_custom_xx_plus_yy": false,
+        "contains_rzz": false,
+        "contains_swap": false,
+        "optimization_level": 1,
+        "parse_check": true,
+        "parse_ok": true,
+        "parsed_summary": {
+          "clbits": 18,
+          "depth": 2,
+          "operation_counts": {
+            "barrier": 1,
+            "measure": 18,
+            "u3": 18
+          },
+          "qubits": 18,
+          "size": 36,
+          "two_qubit_count": 0,
+          "two_qubit_depth": 0
+        },
+        "qasm_characters": 967
+      },
+      "role": "readout_all1"
+    }
+  ]
+}

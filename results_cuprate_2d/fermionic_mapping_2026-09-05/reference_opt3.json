@@ -1,0 +1,13 @@
+{
+  "candidate": "reference_opt3",
+  "qubits": 120,
+  "depth": 59271,
+  "operations": {
+    "sx": 100810,
+    "cz": 60646,
+    "rz": 18716,
+    "x": 1389
+  },
+  "two_qubit_count": 60646,
+  "two_qubit_depth": 29038
+}

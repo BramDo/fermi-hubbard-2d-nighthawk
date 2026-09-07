@@ -1,0 +1,205 @@
+<h1>Fermi-Hubbard 2D cuprate series, part 6: 6x6 tensor baseline, IBM diagnostics, and Fire Opal Fez</h1>
+<p>Originally published at: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/</p>
+<p>Part 6 of 6 in the Fermi-Hubbard 2D cuprate series. Series page: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/</p>
+<p>The <code>6x6</code> step is the first 72-qubit point in this 2D series. It is the same headline lattice size as the external Google/Willow 2D Hubbard context, but it should not be read as the same level of physical validation.</p>
+<p>In this series, the 6x6 run is a diagnostic scale test:</p>
+<ul>
+<li>can the 72-qubit circuit be built and submitted;</li>
+<li>can the same observables be compared against a tensor baseline;</li>
+<li>does readout correction repair the main error modes;</li>
+<li>does the result remain in the right particle sector;</li>
+<li>is Fire Opal available for the same route?</li>
+</ul>
+<p>The current answer is mixed. The IBM run completed and was compared against an MPS circuit baseline. The local baselines agree well with each other. The IBM hardware output is much farther away. A matching 6x6 Fire Opal qelib fallback on <code>ibm_fez</code> has now completed and has been compared against MPS chi32. The separate <code>ibm_marrakesh</code> fallback remains a separate pending route.</p>
+<h2>Target</h2>
+<p>The 6x6 diagnostic uses:</p>
+<table>
+<thead><tr><th>item</th><th>value</th></tr></thead>
+<tbody>
+<tr><td>lattice</td><td><code>6x6</code></td></tr>
+<tr><td>sites / qubits</td><td><code>36 / 72</code></td></tr>
+<tr><td>holes / doping</td><td><code>4 / 0.111111</code></td></tr>
+<tr><td>expected sector</td><td><code>N_up = N_down = 16</code></td></tr>
+<tr><td>parameters</td><td><code>U/t = 8</code>, <code>t&#x27;/t = -0.25</code></td></tr>
+<tr><td>circuit family</td><td><code>number_preserving_t_only</code></td></tr>
+<tr><td>step / dt / time</td><td><code>1 / 0.1 / 0.1</code></td></tr>
+<tr><td>backend</td><td><code>ibm_marrakesh</code></td></tr>
+</tbody>
+</table>
+<p>This is still a shallow early-time circuit. It is not a full measurement of off-diagonal d-wave pairing, and it is not a material-level cuprate claim.</p>
+<h2>MPS tensor baseline</h2>
+<p>Exact diagonalization is not the right reference route at this size. For this step we use a quimb MPS simulation of the same shallow circuit family. That is important: the MPS baseline is not a different physical experiment. It is the same circuit family evaluated locally.</p>
+<p>MPS convergence:</p>
+<table>
+<thead><tr><th>max bond</th><th>observed max bond</th><th>elapsed s</th><th>occupation RMSE vs previous</th><th>total charge</th><th>total spin-z</th><th>mean doublon</th></tr></thead>
+<tbody>
+<tr><td>16</td><td>16</td><td>6.630</td><td>-</td><td>32.000000</td><td>0.000000</td><td>0.021662</td></tr>
+<tr><td>32</td><td>32</td><td>62.604</td><td>0.002741</td><td>32.000000</td><td>0.000000</td><td>0.023625</td></tr>
+</tbody>
+</table>
+<p>The chi16 to chi32 difference is small on the measured occupation observables. For this short shallow step, MPS chi32 is a usable local reference.</p>
+<h2>Local baselines versus MPS</h2>
+<p>Before interpreting hardware, the local baselines should agree with the tensor reference. They do:</p>
+<table>
+<thead><tr><th>source</th><th>reference</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>TDHF mean-field</td><td>MPS chi32</td><td>0.001003</td><td>0.001905</td><td>0.000682</td></tr>
+<tr><td>Gaussian/free</td><td>MPS chi32</td><td>0.001181</td><td>0.004429</td><td>0.001750</td></tr>
+<tr><td>MPS chi16</td><td>MPS chi32</td><td>0.001034</td><td>0.005384</td><td>0.002231</td></tr>
+</tbody>
+</table>
+<p>This matters because it removes a common ambiguity. The large hardware error is not caused by TDHF, Gaussian/free, and MPS disagreeing wildly at step 1. The local references are close on these diagonal observables.</p>
+<h2>IBM hardware result</h2>
+<p>The IBM hardware run completed:</p>
+<table>
+<thead><tr><th>item</th><th>value</th></tr></thead>
+<tbody>
+<tr><td>job id</td><td><code>d94cogcql68s73c9clg0</code></td></tr>
+<tr><td>backend</td><td><code>ibm_marrakesh</code></td></tr>
+<tr><td>shots</td><td><code>1024</code></td></tr>
+<tr><td>best layout seed</td><td><code>26</code></td></tr>
+<tr><td>transpiled depth</td><td><code>759</code></td></tr>
+<tr><td>two-qubit gates</td><td><code>2397</code></td></tr>
+<tr><td>two-qubit depth</td><td><code>317</code></td></tr>
+</tbody>
+</table>
+<p>Summary against MPS chi32:</p>
+<table>
+<thead><tr><th>route</th><th>profile</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>IBM</td><td>raw</td><td>0.332687</td><td>0.733615</td><td>0.167283</td></tr>
+<tr><td>IBM</td><td>readout-corrected</td><td>0.330085</td><td>0.731364</td><td>0.166579</td></tr>
+<tr><td>TDHF</td><td>mean-field</td><td>0.001003</td><td>0.001905</td><td>0.000682</td></tr>
+<tr><td>Gaussian/free</td><td>free-fermion</td><td>0.001181</td><td>0.004429</td><td>0.001750</td></tr>
+</tbody>
+</table>
+<p>Readout correction does not fix the main problem. The charge RMSE changes only slightly, and the spin-z RMSE remains very large.</p>
+<p>The site-level summary shows the same issue:</p>
+<table>
+<thead><tr><th>profile</th><th>total charge</th><th>total spin-z</th><th>mean abs spin-z</th><th>mean doublon</th></tr></thead>
+<tbody>
+<tr><td>MPS chi32</td><td>32.000000</td><td>0.000000</td><td>0.840386</td><td>0.023625</td></tr>
+<tr><td>IBM raw</td><td>31.205078</td><td>-0.591797</td><td>0.226237</td><td>0.171224</td></tr>
+<tr><td>IBM readout-corrected</td><td>31.153041</td><td>-0.455994</td><td>0.237755</td><td>0.168657</td></tr>
+</tbody>
+</table>
+<p>The total charge is not disastrous, but the spin pattern has collapsed and the doublon estimate is much too high. This is hardware noise and sector leakage showing up directly in the observables.</p>
+<h2>Particle-sector diagnostic</h2>
+<p>The intended sector is part of the model. For this 6x6 run it is <code>N_up = N_down = 16</code>.</p>
+<table>
+<thead><tr><th>route</th><th>exact-sector fraction</th><th>mean abs <code>N_up</code> error</th><th>mean abs <code>N_down</code> error</th></tr></thead>
+<tbody>
+<tr><td>IBM</td><td>0.018555</td><td>2.238281</td><td>2.238281</td></tr>
+<tr><td>Fire Opal qelib fallback on <code>ibm_fez</code></td><td>0.043945</td><td>not reported in summary</td><td>not reported in summary</td></tr>
+</tbody>
+</table>
+<p>Only about 1.9 percent of IBM shots and 4.4 percent of Fez Fire Opal shots remain in the exact expected sector. That is the most important diagnostic number in this chapter. At this scale, the hardware can execute the job, but the measured distribution is not yet a clean physical distribution for the intended particle sector.</p>
+<h2>Fire Opal status</h2>
+<p>There are now three 6x6 Fire Opal routes in the local artifacts:</p>
+<table>
+<thead><tr><th>route</th><th>action ids</th><th>status</th><th>note</th></tr></thead>
+<tbody>
+<tr><td>abstract/native</td><td><code>2331687</code>, <code>2331688</code></td><td>main failed</td><td>QASM used reserved <code>rzz</code> gate name from <code>qelib1.inc</code></td></tr>
+<tr><td>qelib fallback on <code>ibm_marrakesh</code></td><td><code>2331689</code>, <code>2331690</code></td><td>pending</td><td>left running</td></tr>
+<tr><td>qelib fallback on <code>ibm_fez</code></td><td><code>2331691</code>, <code>2331692</code></td><td>success</td><td>compared against MPS chi32</td></tr>
+</tbody>
+</table>
+<p>The qelib fallback was created to avoid the reserved-gate-name problem. Its local QASM check passes:</p>
+<table>
+<thead><tr><th>check</th><th>value</th></tr></thead>
+<tbody>
+<tr><td>contains <code>rzz</code></td><td><code>False</code></td></tr>
+<tr><td>contains <code>xx_plus_yy</code></td><td><code>False</code></td></tr>
+<tr><td>two-qubit count</td><td><code>312</code></td></tr>
+<tr><td>two-qubit depth</td><td><code>10</code></td></tr>
+<tr><td>circuit depth</td><td><code>25</code></td></tr>
+</tbody>
+</table>
+<p>This is a much shallower Fire Opal input than the IBM-transpiled hardware circuit. Fire Opal warned that the qelib circuit may already be pre-processed/transpiled, so performance gains may be limited. That is the cost of this fallback route.</p>
+<h2>Fez Fire Opal result</h2>
+<p>The Fez Fire Opal result is much better than direct IBM, but it is still far from the local tensor and mean-field baselines.</p>
+<p>Summary against MPS chi32:</p>
+<table>
+<thead><tr><th>route</th><th>profile</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>Fire Opal Fez</td><td>raw</td><td>0.127246</td><td>0.210454</td><td>0.116802</td></tr>
+<tr><td>Fire Opal Fez</td><td>readout-corrected</td><td>0.127916</td><td>0.210285</td><td>0.117542</td></tr>
+<tr><td>IBM</td><td>readout-corrected</td><td>0.330085</td><td>0.731364</td><td>0.166579</td></tr>
+</tbody>
+</table>
+<p>The site-level summary shows the same pattern:</p>
+<table>
+<thead><tr><th>profile</th><th>total charge</th><th>total spin-z</th><th>mean abs spin-z</th><th>mean doublon</th></tr></thead>
+<tbody>
+<tr><td>MPS chi32</td><td>32.000000</td><td>0.000000</td><td>0.840386</td><td>0.023625</td></tr>
+<tr><td>Fire Opal Fez raw</td><td>33.642578</td><td>0.447266</td><td>0.678385</td><td>0.098606</td></tr>
+<tr><td>Fire Opal Fez readout-corrected</td><td>33.685489</td><td>0.456067</td><td>0.679056</td><td>0.098926</td></tr>
+<tr><td>IBM readout-corrected</td><td>31.153041</td><td>-0.455994</td><td>0.237755</td><td>0.168657</td></tr>
+</tbody>
+</table>
+<p>The Fez result recovers much more spin-z structure than direct IBM. It also has a lower doublon error. But the total charge is high, the mean doublon is still about four times the MPS value, and the exact-sector survival is low.</p>
+<p>Sector-conditioned Fez rows:</p>
+<table>
+<thead><tr><th>profile</th><th>kept fraction</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>exact sector</td><td>0.043945</td><td>0.114526</td><td>0.195952</td><td>0.085595</td></tr>
+<tr><td>near sector L1 &lt;= 1</td><td>0.187500</td><td>0.100592</td><td>0.176036</td><td>0.086749</td></tr>
+<tr><td>near sector L1 &lt;= 2</td><td>0.429688</td><td>0.102253</td><td>0.185340</td><td>0.095039</td></tr>
+</tbody>
+</table>
+<p>The near-sector rows improve the RMSE, which confirms that particle-sector leakage is a major error source. But the exact-sector row keeps only 45 shots out of 1024, so it is not standalone physical evidence.</p>
+<h2>Cross-size diagnostic summary</h2>
+<p>The current step-1 hardware comparison is:</p>
+<table>
+<thead><tr><th>lattice</th><th>route</th><th>reference</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>3x3</td><td>IBM readout-corrected</td><td>ED</td><td>0.137934</td><td>0.221699</td><td>0.045795</td></tr>
+<tr><td>3x3</td><td>Fire Opal readout-corrected</td><td>ED</td><td>0.044332</td><td>0.075335</td><td>0.028962</td></tr>
+<tr><td>4x4</td><td>IBM readout-corrected</td><td>MPS chi64</td><td>0.130838</td><td>0.190883</td><td>0.056986</td></tr>
+<tr><td>4x4</td><td>Fire Opal readout-corrected</td><td>MPS chi64</td><td>0.068299</td><td>0.097232</td><td>0.041630</td></tr>
+<tr><td>6x6</td><td>IBM readout-corrected</td><td>MPS chi32</td><td>0.330085</td><td>0.731364</td><td>0.166579</td></tr>
+<tr><td>6x6</td><td>Fire Opal Fez readout-corrected</td><td>MPS chi32</td><td>0.127916</td><td>0.210285</td><td>0.117542</td></tr>
+</tbody>
+</table>
+<p>The pattern is clear. Fire Opal improves the available 3x3 and 4x4 hardware results. The completed 6x6 Fire Opal Fez point is much better than the direct 6x6 IBM point, especially in spin-z, but it is still not close to the local MPS/TDHF/Gaussian baselines.</p>
+<h2>Interpretation boundary</h2>
+<p>The 6x6 result is useful, but only as a diagnostic:</p>
+<ul>
+<li>the tensor baseline exists and is stable enough for this shallow step;</li>
+<li>local TDHF, Gaussian/free, and MPS agree on the diagonal observables;</li>
+<li>IBM hardware completed but is far from the MPS reference;</li>
+<li>readout correction is not enough;</li>
+<li>particle-sector survival is too low for a physical claim;</li>
+<li>Fire Opal Fez improves the 6x6 route, but its exact-sector survival remains</li>
+</ul>
+<p>too low for a physical claim.</p>
+<p>So the next engineering target is not simply another larger run. It is a shallower 72-qubit route with better sector protection, followed by the same observable comparison against tensor baselines.</p>
+<h2>Artifacts</h2>
+<ul>
+<li>MPS report:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_report.md</code></p>
+<ul>
+<li>IBM summary:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/ibm_hardware_steps1_shallow_t_only_best_layout/cuprate_2d_ibm_hardware_summary.md</code></p>
+<ul>
+<li>observable comparison:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/observable_comparison_shallow_t_only_steps1_vs_mps_hardware/cuprate_2d_observable_comparison.md</code></p>
+<ul>
+<li>Fire Opal qelib fallback status:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/fire_opal_qelib_fallback_status.md</code></p>
+<ul>
+<li>Fire Opal qelib fallback Fez status:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/fire_opal_qelib_fallback_ibm_fez_preparation_status.md</code></p>
+<ul>
+<li>Fire Opal Fez observable comparison:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/observable_comparison_shallow_t_only_steps1_vs_mps_qelib_fallback_ibm_fez/cuprate_2d_observable_comparison.md</code></p>
+<ul>
+<li>Fire Opal Fez sector-conditioned report:</li>
+</ul>
+<p><code>results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/sector_conditioned_qelib_fallback_ibm_fez_vs_mps/sector_conditioned_report.md</code></p>

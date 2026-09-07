@@ -1,0 +1,233 @@
+{
+  "status": "LIVE_PREFLIGHT_PASS_NOT_SUBMITTED",
+  "implementation_revision": 2,
+  "checked_unix": 1788702867.9890013,
+  "backend": "ibm_phoenix",
+  "instance_sha256": "6f963c3f49c03a803a8cf32a97e546fb9bae6523a062f3497e8bc4532ea4f6b9",
+  "pending_jobs": 0,
+  "options": {
+    "max_execution_time": 15,
+    "default_shots": 512,
+    "execution": {
+      "init_qubits": true,
+      "rep_delay": 1e-06,
+      "meas_type": "classified"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": false
+    },
+    "dynamical_decoupling": {
+      "enable": false
+    },
+    "environment": {
+      "job_tags": [
+        "2d-cuprate",
+        "readout-cz-folding",
+        "ro-cz-6x6-9fddf6eb050d4ed2"
+      ]
+    }
+  },
+  "execution_seconds": 1.772032,
+  "one_subjob_estimate": 3.7720320000000003,
+  "two_subjob_estimate": 5.772032,
+  "three_subjob_estimate": 7.772032,
+  "six_subjob_estimate": 13.772032,
+  "subjob_count_known": false,
+  "cost_is_estimate_not_guarantee": true,
+  "all26_ISA_and_fault_checks_pass": true,
+  "reset_seconds": 2.14e-06,
+  "timing_by_pub": [
+    {
+      "index": 0,
+      "shots": 512,
+      "duration": 1.94e-06,
+      "aligned_duration": 1.94e-06,
+      "shot_execution_seconds": 0.00260096
+    },
+    {
+      "index": 1,
+      "shots": 512,
+      "duration": 1.98e-06,
+      "aligned_duration": 1.98e-06,
+      "shot_execution_seconds": 0.0026214399999999996
+    },
+    {
+      "index": 2,
+      "shots": 512,
+      "duration": 0.00014651600000000162,
+      "aligned_duration": 0.00014651600000000002,
+      "shot_execution_seconds": 0.07662387200000001
+    },
+    {
+      "index": 3,
+      "shots": 512,
+      "duration": 9.933200000000324e-05,
+      "aligned_duration": 9.9332e-05,
+      "shot_execution_seconds": 0.052465664
+    },
+    {
+      "index": 4,
+      "shots": 512,
+      "duration": 0.00014796400000000178,
+      "aligned_duration": 0.000147964,
+      "shot_execution_seconds": 0.077365248
+    },
+    {
+      "index": 5,
+      "shots": 512,
+      "duration": 9.973200000000324e-05,
+      "aligned_duration": 9.9732e-05,
+      "shot_execution_seconds": 0.052670464
+    },
+    {
+      "index": 6,
+      "shots": 512,
+      "duration": 9.953200000000323e-05,
+      "aligned_duration": 9.953200000000001e-05,
+      "shot_execution_seconds": 0.052568064000000005
+    },
+    {
+      "index": 7,
+      "shots": 512,
+      "duration": 0.00014814800000000194,
+      "aligned_duration": 0.00014814800000000002,
+      "shot_execution_seconds": 0.07745945600000001
+    },
+    {
+      "index": 8,
+      "shots": 512,
+      "duration": 0.00014792400000000202,
+      "aligned_duration": 0.00014792400000000002,
+      "shot_execution_seconds": 0.07734476800000001
+    },
+    {
+      "index": 9,
+      "shots": 512,
+      "duration": 0.00017643599999999905,
+      "aligned_duration": 0.000176436,
+      "shot_execution_seconds": 0.091942912
+    },
+    {
+      "index": 10,
+      "shots": 512,
+      "duration": 0.00017439599999999903,
+      "aligned_duration": 0.000174396,
+      "shot_execution_seconds": 0.090898432
+    },
+    {
+      "index": 11,
+      "shots": 512,
+      "duration": 0.00017519599999999913,
+      "aligned_duration": 0.00017519600000000002,
+      "shot_execution_seconds": 0.09130803200000001
+    },
+    {
+      "index": 12,
+      "shots": 512,
+      "duration": 0.00014705200000000168,
+      "aligned_duration": 0.000147052,
+      "shot_execution_seconds": 0.076898304
+    },
+    {
+      "index": 13,
+      "shots": 512,
+      "duration": 0.00014658000000000173,
+      "aligned_duration": 0.00014658,
+      "shot_execution_seconds": 0.07665664
+    },
+    {
+      "index": 14,
+      "shots": 512,
+      "duration": 0.00014682000000000155,
+      "aligned_duration": 0.00014682,
+      "shot_execution_seconds": 0.07677952
+    },
+    {
+      "index": 15,
+      "shots": 512,
+      "duration": 0.0001760359999999993,
+      "aligned_duration": 0.00017603600000000002,
+      "shot_execution_seconds": 0.09173811200000001
+    },
+    {
+      "index": 16,
+      "shots": 512,
+      "duration": 0.0001762359999999991,
+      "aligned_duration": 0.000176236,
+      "shot_execution_seconds": 0.091840512
+    },
+    {
+      "index": 17,
+      "shots": 512,
+      "duration": 9.941200000000326e-05,
+      "aligned_duration": 9.9412e-05,
+      "shot_execution_seconds": 0.052506624
+    },
+    {
+      "index": 18,
+      "shots": 512,
+      "duration": 0.0001761159999999992,
+      "aligned_duration": 0.000176116,
+      "shot_execution_seconds": 0.091779072
+    },
+    {
+      "index": 19,
+      "shots": 512,
+      "duration": 9.769200000000301e-05,
+      "aligned_duration": 9.7692e-05,
+      "shot_execution_seconds": 0.051625984
+    },
+    {
+      "index": 20,
+      "shots": 512,
+      "duration": 0.00017623599999999905,
+      "aligned_duration": 0.000176236,
+      "shot_execution_seconds": 0.091840512
+    },
+    {
+      "index": 21,
+      "shots": 512,
+      "duration": 9.857200000000307e-05,
+      "aligned_duration": 9.8572e-05,
+      "shot_execution_seconds": 0.052076544
+    },
+    {
+      "index": 22,
+      "shots": 512,
+      "duration": 0.00014621200000000198,
+      "aligned_duration": 0.000146212,
+      "shot_execution_seconds": 0.076468224
+    },
+    {
+      "index": 23,
+      "shots": 512,
+      "duration": 9.849200000000311e-05,
+      "aligned_duration": 9.8492e-05,
+      "shot_execution_seconds": 0.052035584
+    },
+    {
+      "index": 24,
+      "shots": 512,
+      "duration": 0.00017527599999999909,
+      "aligned_duration": 0.000175276,
+      "shot_execution_seconds": 0.091348992
+    },
+    {
+      "index": 25,
+      "shots": 512,
+      "duration": 9.953200000000321e-05,
+      "aligned_duration": 9.953200000000001e-05,
+      "shot_execution_seconds": 0.052568064000000005
+    }
+  ],
+  "plan_sha256": "d117dbcda76825b8593c3e884220e7a626b8ae2b0c8677c6ecd816852faeaac6",
+  "properties_updated": "2026-09-06 15:22:33+02:00",
+  "usage": {
+    "usage_consumed_seconds": 33.0,
+    "remaining_quota_reported": false,
+    "unknown_is_not_zero_or_unlimited": true,
+    "authorized_job_cap_seconds": 15
+  },
+  "instruction_memory_max_per_wire": 215489
+}

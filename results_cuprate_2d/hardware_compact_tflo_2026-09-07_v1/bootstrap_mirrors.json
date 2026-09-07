@@ -1,0 +1,23 @@
+{
+  "original": "analysis/bootstrap.npz",
+  "original_sha256": "c2c9d8a3e073c8d6512960bdd83f52886739706d99e70783d3cb8cb25ddea30c",
+  "original_bytes": 14472065,
+  "original_retained": true,
+  "mirrors": [
+    {
+      "arm": "original",
+      "file": "git_bootstrap_mirrors/bootstrap_original.npz",
+      "sha256": "29f711041814fa16742a6e7858db704c4646432cfd3a19f95fa23585be52c8ea",
+      "bytes": 7234528
+    },
+    {
+      "arm": "compact",
+      "file": "git_bootstrap_mirrors/bootstrap_compact.npz",
+      "sha256": "43c5b83d37dbb8313848009a76531c45498a2b14fa6cca6d06f57e28cab07a4e",
+      "bytes": 7235018
+    }
+  ],
+  "byte_exact_reconstruction_verified": true,
+  "numpy_version": "2.4.6",
+  "reconstruction": "np.savez_compressed(out, physical=np.stack([original_arm_physical,compact_arm_physical],axis=1), null_physical=np.stack([original_arm_null,compact_arm_null],axis=1))"
+}

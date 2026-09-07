@@ -1,0 +1,12 @@
+{
+  "qubits": 72,
+  "encoding_ancillas": 0,
+  "root": 31,
+  "tree_edges": 71,
+  "tree_height": 8,
+  "Majorana_anticommutation_checks": 10296,
+  "occupation_weight_max": 16,
+  "occupation_weight_mean": 1.875,
+  "Fock_preparation": "X only",
+  "decoder": "GF2 parity matrix, not direct occupations"
+}

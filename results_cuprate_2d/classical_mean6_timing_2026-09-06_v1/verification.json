@@ -1,0 +1,9 @@
+{
+  "training_profiles_match_archive_max_abs": 0.0,
+  "historical_RMS_reproduced_max_abs": 0.0,
+  "repeat_profile_max_abs": 0.0,
+  "config_matches_frozen_plan": true,
+  "all_references_recomputed": true,
+  "comparison_loaded_after_timed_workers": true,
+  "source_hashes_match_protocol_manifest": true
+}

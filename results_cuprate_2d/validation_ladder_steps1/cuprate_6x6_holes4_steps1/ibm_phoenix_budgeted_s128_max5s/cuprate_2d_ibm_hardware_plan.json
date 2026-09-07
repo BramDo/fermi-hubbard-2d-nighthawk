@@ -1,0 +1,130 @@
+{
+  "account_name": "qiskit-runtime-q9",
+  "backend": "ibm_phoenix",
+  "backend_num_qubits": 120,
+  "backend_operational": true,
+  "backend_pending_jobs": 21,
+  "circuit_family": "number_preserving_t_only",
+  "claim_boundary": "72-qubit IBM hardware smoke test for diagonal observables. Not a d-wave superconductivity or quantum advantage claim.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "created_at_utc": "2026-09-04T18:16:50.024897+00:00",
+  "initial_layout": null,
+  "initial_layout_path": null,
+  "logical_summaries": [
+    {
+      "clbits": 72,
+      "depth": 8,
+      "operation_counts": {
+        "barrier": 5,
+        "measure": 72,
+        "rz": 72,
+        "rzz": 36,
+        "x": 32,
+        "xx_plus_yy": 120
+      },
+      "qubits": 72,
+      "size": 332,
+      "two_qubit_count": 156,
+      "two_qubit_depth": 5
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72
+      },
+      "qubits": 72,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 72,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ],
+  "max_execution_time": 5,
+  "mitigation_plan": {
+    "readout": "all-0/all-1 calibration circuits; repeated calibrations are pooled in postprocessing",
+    "readout_shots_note": "IBM SamplerV2 direct runner uses one shots value per run here; different readout_shots requires separate jobs or provider-side support.",
+    "sector_profiles": "postselection is intentionally not applied automatically; keep raw/readout-corrected profiles separate."
+  },
+  "optimization_level": 1,
+  "readout_repetitions": 1,
+  "readout_shots_requested": 128,
+  "roles": [
+    "main",
+    "readout_all0",
+    "readout_all1"
+  ],
+  "seed_transpiler": 9,
+  "shots": 128,
+  "submit": true,
+  "transpiled_summaries": [
+    {
+      "clbits": 72,
+      "depth": 249,
+      "operation_counts": {
+        "barrier": 5,
+        "cz": 777,
+        "measure": 72,
+        "rz": 1520,
+        "sx": 1906,
+        "x": 54
+      },
+      "qubits": 120,
+      "size": 4329,
+      "two_qubit_count": 777,
+      "two_qubit_depth": 89
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72
+      },
+      "qubits": 120,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 120,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

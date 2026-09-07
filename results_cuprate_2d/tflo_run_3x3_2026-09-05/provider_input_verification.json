@@ -1,0 +1,9 @@
+{
+  "job_id": "dae3rou42tqs73au78d0",
+  "all_circuits_match": true,
+  "all_result_metadata_match": true,
+  "scalar_pubs": 80,
+  "shots_per_pub": 64,
+  "total_shots": 5120,
+  "max_execution_time_verified": true
+}

@@ -1,0 +1,197 @@
+{
+  "artifacts": {
+    "latest_bond_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_bond_observables_chi64.csv",
+    "latest_site_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_site_observables_chi64.csv",
+    "report_md": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_report.md",
+    "summary_json": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_summary.json"
+  },
+  "circuit_family": "number_preserving_t_only",
+  "claim_boundary": "Tensor-network simulation of the submitted shallow circuit family. This is not a full Hamiltonian TDVP/ITensor convergence result.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 2,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 4,
+    "ly": 4,
+    "qubits": 32,
+    "shots": 20000,
+    "sites": 16,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "total_time": 0.1,
+    "u_over_t": 8.0
+  },
+  "latest_profile": "mps_chi64",
+  "profiles": [
+    {
+      "artifacts": {
+        "bond_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_bond_observables_chi32.csv",
+        "site_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_site_observables_chi32.csv"
+      },
+      "circuit": {
+        "applied_gate_count": 96,
+        "applied_two_qubit_gate_count": 64,
+        "barrier_diagnostics": [
+          {
+            "after_gate": 64,
+            "barrier_index": 0,
+            "max_bond_observed": 4
+          },
+          {
+            "after_gate": 80,
+            "barrier_index": 1,
+            "max_bond_observed": 32
+          },
+          {
+            "after_gate": 92,
+            "barrier_index": 2,
+            "max_bond_observed": 32
+          },
+          {
+            "after_gate": 96,
+            "barrier_index": 3,
+            "max_bond_observed": 32
+          }
+        ],
+        "logical_depth": 7,
+        "logical_size": 110,
+        "max_bond_observed": 32,
+        "operation_counts": {
+          "barrier": 4,
+          "rz": 32,
+          "rzz": 16,
+          "x": 14,
+          "xx_plus_yy": 48
+        }
+      },
+      "final_summary": {
+        "max_charge": 1.0000003460900209,
+        "mean_abs_spin_z": 0.8336133749700096,
+        "mean_charge": 0.875,
+        "mean_double_occupancy": 0.020072534648498876,
+        "min_charge": 0.02946579849519182,
+        "total_charge": 14.0,
+        "total_spin_z": 1.32971411659355e-12
+      },
+      "mps": {
+        "barrier_diagnostics": [
+          {
+            "after_gate": 64,
+            "barrier_index": 0,
+            "max_bond_observed": 4
+          },
+          {
+            "after_gate": 80,
+            "barrier_index": 1,
+            "max_bond_observed": 32
+          },
+          {
+            "after_gate": 92,
+            "barrier_index": 2,
+            "max_bond_observed": 32
+          },
+          {
+            "after_gate": 96,
+            "barrier_index": 3,
+            "max_bond_observed": 32
+          }
+        ],
+        "cutoff": 1e-10,
+        "elapsed_seconds": 13.496915081996121,
+        "library": "quimb",
+        "max_bond_observed": 32,
+        "max_bond_requested": 32
+      },
+      "occupation_rmse_vs_previous": null,
+      "profile": "mps_chi32"
+    },
+    {
+      "artifacts": {
+        "bond_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_bond_observables_chi64.csv",
+        "site_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/mps_shallow_t_only_steps1/cuprate_2d_mps_site_observables_chi64.csv"
+      },
+      "circuit": {
+        "applied_gate_count": 96,
+        "applied_two_qubit_gate_count": 64,
+        "barrier_diagnostics": [
+          {
+            "after_gate": 64,
+            "barrier_index": 0,
+            "max_bond_observed": 4
+          },
+          {
+            "after_gate": 80,
+            "barrier_index": 1,
+            "max_bond_observed": 56
+          },
+          {
+            "after_gate": 92,
+            "barrier_index": 2,
+            "max_bond_observed": 64
+          },
+          {
+            "after_gate": 96,
+            "barrier_index": 3,
+            "max_bond_observed": 64
+          }
+        ],
+        "logical_depth": 7,
+        "logical_size": 110,
+        "max_bond_observed": 64,
+        "operation_counts": {
+          "barrier": 4,
+          "rz": 32,
+          "rzz": 16,
+          "x": 14,
+          "xx_plus_yy": 48
+        }
+      },
+      "final_summary": {
+        "max_charge": 1.0000079022935913,
+        "mean_abs_spin_z": 0.8333320292005848,
+        "mean_charge": 0.8749999999947438,
+        "mean_double_occupancy": 0.020169656301327554,
+        "min_charge": 0.029589651702799702,
+        "total_charge": 13.9999999999159,
+        "total_spin_z": 4.3298697960381105e-15
+      },
+      "mps": {
+        "barrier_diagnostics": [
+          {
+            "after_gate": 64,
+            "barrier_index": 0,
+            "max_bond_observed": 4
+          },
+          {
+            "after_gate": 80,
+            "barrier_index": 1,
+            "max_bond_observed": 56
+          },
+          {
+            "after_gate": 92,
+            "barrier_index": 2,
+            "max_bond_observed": 64
+          },
+          {
+            "after_gate": 96,
+            "barrier_index": 3,
+            "max_bond_observed": 64
+          }
+        ],
+        "cutoff": 1e-10,
+        "elapsed_seconds": 49.45525145699503,
+        "library": "quimb",
+        "max_bond_observed": 64,
+        "max_bond_requested": 64
+      },
+      "occupation_rmse_vs_previous": 0.000202737115744488,
+      "profile": "mps_chi64"
+    }
+  ],
+  "reference_kind": "quimb_mps_shallow_cuprate_2d_circuit",
+  "reference_source": "cuprate_2d_mps_circuit_baseline.py"
+}

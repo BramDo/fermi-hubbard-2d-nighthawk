@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "twirl": 2,
+    "before": {
+      "rz": 4031,
+      "x": 2163,
+      "sx": 1682,
+      "cz": 1008,
+      "measure": 18
+    },
+    "after": {
+      "rz": 2542,
+      "sx": 1678,
+      "cz": 1008,
+      "x": 566,
+      "measure": 18
+    },
+    "depth_before": 896,
+    "depth_after": 631,
+    "XSX_before": 3845,
+    "XSX_after": 2244
+  },
+  "completed_checks": 54,
+  "max_state_distance_so_far": 2.745965421783945e-14
+}

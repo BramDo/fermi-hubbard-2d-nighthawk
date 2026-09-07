@@ -1,0 +1,593 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "archived_path_edges",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "all_CZ_basis_operations",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "all_native_two_qubit_gates_adjacent",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "logical_template.qpy_roundtrip_count",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "logical_template.qpy_roundtrip_exact_0",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "native_template.qpy_roundtrip_count",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "native_template.qpy_roundtrip_exact_0",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_norm",
+      "value": 1.5987211554602254e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_charge_conserved",
+      "value": 1.5987211554602254e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_spin_conserved",
+      "value": 0.0,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_same_legacy_unitary_on_initial_state",
+      "value": 8.079074247985274e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_FLO_vs_full_statevector",
+      "value": 1.5987211554602254e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0_FLO_projector",
+      "value": 0.0,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_norm",
+      "value": 1.7219559111936178e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_charge_conserved",
+      "value": 1.8474111129762605e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_spin_conserved",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_same_legacy_unitary_on_initial_state",
+      "value": 1.000107432889462e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_FLO_vs_full_statevector",
+      "value": 1.7841284005726266e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.1_FLO_projector",
+      "value": 7.771561179903867e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_norm",
+      "value": 1.5898393712632242e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_charge_conserved",
+      "value": 1.652011860642233e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_spin_conserved",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_same_legacy_unitary_on_initial_state",
+      "value": 8.461837163888398e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_FLO_vs_full_statevector",
+      "value": 1.5309975509580909e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.2_FLO_projector",
+      "value": 1.6653348910615258e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_norm",
+      "value": 9.681144774731365e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_charge_conserved",
+      "value": 9.947598300641403e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_spin_conserved",
+      "value": 1.7763568394002505e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_same_legacy_unitary_on_initial_state",
+      "value": 4.3573790318816245e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_FLO_vs_full_statevector",
+      "value": 8.126832540256146e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.3_FLO_projector",
+      "value": 1.4432911301586017e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_norm",
+      "value": 1.34781075189494e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_charge_conserved",
+      "value": 1.3855583347321954e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_spin_conserved",
+      "value": 1.27675647831893e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_same_legacy_unitary_on_initial_state",
+      "value": 6.69976020206708e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_FLO_vs_full_statevector",
+      "value": 1.1235457009206584e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.4_FLO_projector",
+      "value": 1.4432899733762263e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_norm",
+      "value": 1.667554982986985e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_charge_conserved",
+      "value": 1.6697754290362354e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_spin_conserved",
+      "value": 2.0539125955565396e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_same_legacy_unitary_on_initial_state",
+      "value": 9.018396013618471e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_FLO_vs_full_statevector",
+      "value": 1.078026556911027e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "train_U0_T0.5_FLO_projector",
+      "value": 6.661428497319261e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_norm",
+      "value": 1.482147737874584e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_charge_conserved",
+      "value": 1.545430450278218e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_spin_conserved",
+      "value": 3.3306690738754696e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_same_legacy_unitary_on_initial_state",
+      "value": 7.77702120632568e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_FLO_vs_full_statevector",
+      "value": 1.4099832412739488e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.15_FLO_projector",
+      "value": 1.4432899431226718e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_norm",
+      "value": 1.475486399726833e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_charge_conserved",
+      "value": 1.509903313490213e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_spin_conserved",
+      "value": 5.10702591327572e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_same_legacy_unitary_on_initial_state",
+      "value": 7.147801690462983e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_FLO_vs_full_statevector",
+      "value": 1.3744561044859438e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "flo_holdout_U0_T0.35_FLO_projector",
+      "value": 1.8873801578901358e-15,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.2_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.2_norm",
+      "value": 1.461053500406706e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.2_charge_conserved",
+      "value": 1.474376176702208e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.2_spin_conserved",
+      "value": 1.1102230246251565e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.2_same_legacy_unitary_on_initial_state",
+      "value": 7.800914126536046e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.4_fixed_native_structure",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.4_norm",
+      "value": 1.270095140171179e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.4_charge_conserved",
+      "value": 1.2256862191861728e-13,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.4_spin_conserved",
+      "value": 3.3306690738754696e-16,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "interacting_holdout_U8_T0.4_same_legacy_unitary_on_initial_state",
+      "value": 6.092713847602169e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_0_unitary_equivalence",
+      "value": 3.3990985429233053e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_1_unitary_equivalence",
+      "value": 3.734405207794365e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_2_unitary_equivalence",
+      "value": 3.7462380885241595e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_3_unitary_equivalence",
+      "value": 3.659593070941679e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_4_unitary_equivalence",
+      "value": 3.448200416820622e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_5_unitary_equivalence",
+      "value": 3.1179806650901833e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_6_unitary_equivalence",
+      "value": 3.901262740236963e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirl_7_unitary_equivalence",
+      "value": 3.4590808837557554e-14,
+      "limit": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_count",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_0",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_1",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_2",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_3",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_4",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_5",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_6",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "twirled_sampler_templates.qpy_roundtrip_exact_7",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609050",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609051",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609052",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609053",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609054",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609055",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609056",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    },
+    {
+      "name": "measurement_map_202609057",
+      "value": 0.0,
+      "limit": 0,
+      "passed": true
+    }
+  ]
+}

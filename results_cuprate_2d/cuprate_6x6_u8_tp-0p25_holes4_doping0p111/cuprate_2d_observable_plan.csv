@@ -1,0 +1,133 @@
+group,name,observable,requires,site_or_bond
+site_z_basis,site_0,charge/spin_z/double/hole_density,Z-basis counts,0
+site_z_basis,site_1,charge/spin_z/double/hole_density,Z-basis counts,1
+site_z_basis,site_2,charge/spin_z/double/hole_density,Z-basis counts,2
+site_z_basis,site_3,charge/spin_z/double/hole_density,Z-basis counts,3
+site_z_basis,site_4,charge/spin_z/double/hole_density,Z-basis counts,4
+site_z_basis,site_5,charge/spin_z/double/hole_density,Z-basis counts,5
+site_z_basis,site_6,charge/spin_z/double/hole_density,Z-basis counts,6
+site_z_basis,site_7,charge/spin_z/double/hole_density,Z-basis counts,7
+site_z_basis,site_8,charge/spin_z/double/hole_density,Z-basis counts,8
+site_z_basis,site_9,charge/spin_z/double/hole_density,Z-basis counts,9
+site_z_basis,site_10,charge/spin_z/double/hole_density,Z-basis counts,10
+site_z_basis,site_11,charge/spin_z/double/hole_density,Z-basis counts,11
+site_z_basis,site_12,charge/spin_z/double/hole_density,Z-basis counts,12
+site_z_basis,site_13,charge/spin_z/double/hole_density,Z-basis counts,13
+site_z_basis,site_14,charge/spin_z/double/hole_density,Z-basis counts,14
+site_z_basis,site_15,charge/spin_z/double/hole_density,Z-basis counts,15
+site_z_basis,site_16,charge/spin_z/double/hole_density,Z-basis counts,16
+site_z_basis,site_17,charge/spin_z/double/hole_density,Z-basis counts,17
+site_z_basis,site_18,charge/spin_z/double/hole_density,Z-basis counts,18
+site_z_basis,site_19,charge/spin_z/double/hole_density,Z-basis counts,19
+site_z_basis,site_20,charge/spin_z/double/hole_density,Z-basis counts,20
+site_z_basis,site_21,charge/spin_z/double/hole_density,Z-basis counts,21
+site_z_basis,site_22,charge/spin_z/double/hole_density,Z-basis counts,22
+site_z_basis,site_23,charge/spin_z/double/hole_density,Z-basis counts,23
+site_z_basis,site_24,charge/spin_z/double/hole_density,Z-basis counts,24
+site_z_basis,site_25,charge/spin_z/double/hole_density,Z-basis counts,25
+site_z_basis,site_26,charge/spin_z/double/hole_density,Z-basis counts,26
+site_z_basis,site_27,charge/spin_z/double/hole_density,Z-basis counts,27
+site_z_basis,site_28,charge/spin_z/double/hole_density,Z-basis counts,28
+site_z_basis,site_29,charge/spin_z/double/hole_density,Z-basis counts,29
+site_z_basis,site_30,charge/spin_z/double/hole_density,Z-basis counts,30
+site_z_basis,site_31,charge/spin_z/double/hole_density,Z-basis counts,31
+site_z_basis,site_32,charge/spin_z/double/hole_density,Z-basis counts,32
+site_z_basis,site_33,charge/spin_z/double/hole_density,Z-basis counts,33
+site_z_basis,site_34,charge/spin_z/double/hole_density,Z-basis counts,34
+site_z_basis,site_35,charge/spin_z/double/hole_density,Z-basis counts,35
+bond_z_basis,0-1,charge_correlation/spin_correlation,Z-basis counts,0-1
+bond_z_basis,0-6,charge_correlation/spin_correlation,Z-basis counts,0-6
+bond_z_basis,1-2,charge_correlation/spin_correlation,Z-basis counts,1-2
+bond_z_basis,1-7,charge_correlation/spin_correlation,Z-basis counts,1-7
+bond_z_basis,2-3,charge_correlation/spin_correlation,Z-basis counts,2-3
+bond_z_basis,2-8,charge_correlation/spin_correlation,Z-basis counts,2-8
+bond_z_basis,3-4,charge_correlation/spin_correlation,Z-basis counts,3-4
+bond_z_basis,3-9,charge_correlation/spin_correlation,Z-basis counts,3-9
+bond_z_basis,4-5,charge_correlation/spin_correlation,Z-basis counts,4-5
+bond_z_basis,4-10,charge_correlation/spin_correlation,Z-basis counts,4-10
+bond_z_basis,5-11,charge_correlation/spin_correlation,Z-basis counts,5-11
+bond_z_basis,6-7,charge_correlation/spin_correlation,Z-basis counts,6-7
+bond_z_basis,6-12,charge_correlation/spin_correlation,Z-basis counts,6-12
+bond_z_basis,7-8,charge_correlation/spin_correlation,Z-basis counts,7-8
+bond_z_basis,7-13,charge_correlation/spin_correlation,Z-basis counts,7-13
+bond_z_basis,8-9,charge_correlation/spin_correlation,Z-basis counts,8-9
+bond_z_basis,8-14,charge_correlation/spin_correlation,Z-basis counts,8-14
+bond_z_basis,9-10,charge_correlation/spin_correlation,Z-basis counts,9-10
+bond_z_basis,9-15,charge_correlation/spin_correlation,Z-basis counts,9-15
+bond_z_basis,10-11,charge_correlation/spin_correlation,Z-basis counts,10-11
+bond_z_basis,10-16,charge_correlation/spin_correlation,Z-basis counts,10-16
+bond_z_basis,11-17,charge_correlation/spin_correlation,Z-basis counts,11-17
+bond_z_basis,12-13,charge_correlation/spin_correlation,Z-basis counts,12-13
+bond_z_basis,12-18,charge_correlation/spin_correlation,Z-basis counts,12-18
+bond_z_basis,13-14,charge_correlation/spin_correlation,Z-basis counts,13-14
+bond_z_basis,13-19,charge_correlation/spin_correlation,Z-basis counts,13-19
+bond_z_basis,14-15,charge_correlation/spin_correlation,Z-basis counts,14-15
+bond_z_basis,14-20,charge_correlation/spin_correlation,Z-basis counts,14-20
+bond_z_basis,15-16,charge_correlation/spin_correlation,Z-basis counts,15-16
+bond_z_basis,15-21,charge_correlation/spin_correlation,Z-basis counts,15-21
+bond_z_basis,16-17,charge_correlation/spin_correlation,Z-basis counts,16-17
+bond_z_basis,16-22,charge_correlation/spin_correlation,Z-basis counts,16-22
+bond_z_basis,17-23,charge_correlation/spin_correlation,Z-basis counts,17-23
+bond_z_basis,18-19,charge_correlation/spin_correlation,Z-basis counts,18-19
+bond_z_basis,18-24,charge_correlation/spin_correlation,Z-basis counts,18-24
+bond_z_basis,19-20,charge_correlation/spin_correlation,Z-basis counts,19-20
+bond_z_basis,19-25,charge_correlation/spin_correlation,Z-basis counts,19-25
+bond_z_basis,20-21,charge_correlation/spin_correlation,Z-basis counts,20-21
+bond_z_basis,20-26,charge_correlation/spin_correlation,Z-basis counts,20-26
+bond_z_basis,21-22,charge_correlation/spin_correlation,Z-basis counts,21-22
+bond_z_basis,21-27,charge_correlation/spin_correlation,Z-basis counts,21-27
+bond_z_basis,22-23,charge_correlation/spin_correlation,Z-basis counts,22-23
+bond_z_basis,22-28,charge_correlation/spin_correlation,Z-basis counts,22-28
+bond_z_basis,23-29,charge_correlation/spin_correlation,Z-basis counts,23-29
+bond_z_basis,24-25,charge_correlation/spin_correlation,Z-basis counts,24-25
+bond_z_basis,24-30,charge_correlation/spin_correlation,Z-basis counts,24-30
+bond_z_basis,25-26,charge_correlation/spin_correlation,Z-basis counts,25-26
+bond_z_basis,25-31,charge_correlation/spin_correlation,Z-basis counts,25-31
+bond_z_basis,26-27,charge_correlation/spin_correlation,Z-basis counts,26-27
+bond_z_basis,26-32,charge_correlation/spin_correlation,Z-basis counts,26-32
+bond_z_basis,27-28,charge_correlation/spin_correlation,Z-basis counts,27-28
+bond_z_basis,27-33,charge_correlation/spin_correlation,Z-basis counts,27-33
+bond_z_basis,28-29,charge_correlation/spin_correlation,Z-basis counts,28-29
+bond_z_basis,28-34,charge_correlation/spin_correlation,Z-basis counts,28-34
+bond_z_basis,29-35,charge_correlation/spin_correlation,Z-basis counts,29-35
+bond_z_basis,30-31,charge_correlation/spin_correlation,Z-basis counts,30-31
+bond_z_basis,31-32,charge_correlation/spin_correlation,Z-basis counts,31-32
+bond_z_basis,32-33,charge_correlation/spin_correlation,Z-basis counts,32-33
+bond_z_basis,33-34,charge_correlation/spin_correlation,Z-basis counts,33-34
+bond_z_basis,34-35,charge_correlation/spin_correlation,Z-basis counts,34-35
+off_diagonal_pairing,d_wave_center_0,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,0
+off_diagonal_pairing,d_wave_center_1,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,1
+off_diagonal_pairing,d_wave_center_2,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,2
+off_diagonal_pairing,d_wave_center_3,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,3
+off_diagonal_pairing,d_wave_center_4,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,4
+off_diagonal_pairing,d_wave_center_5,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,5
+off_diagonal_pairing,d_wave_center_6,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,6
+off_diagonal_pairing,d_wave_center_7,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,7
+off_diagonal_pairing,d_wave_center_8,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,8
+off_diagonal_pairing,d_wave_center_9,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,9
+off_diagonal_pairing,d_wave_center_10,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,10
+off_diagonal_pairing,d_wave_center_11,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,11
+off_diagonal_pairing,d_wave_center_12,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,12
+off_diagonal_pairing,d_wave_center_13,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,13
+off_diagonal_pairing,d_wave_center_14,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,14
+off_diagonal_pairing,d_wave_center_15,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,15
+off_diagonal_pairing,d_wave_center_16,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,16
+off_diagonal_pairing,d_wave_center_17,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,17
+off_diagonal_pairing,d_wave_center_18,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,18
+off_diagonal_pairing,d_wave_center_19,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,19
+off_diagonal_pairing,d_wave_center_20,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,20
+off_diagonal_pairing,d_wave_center_21,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,21
+off_diagonal_pairing,d_wave_center_22,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,22
+off_diagonal_pairing,d_wave_center_23,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,23
+off_diagonal_pairing,d_wave_center_24,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,24
+off_diagonal_pairing,d_wave_center_25,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,25
+off_diagonal_pairing,d_wave_center_26,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,26
+off_diagonal_pairing,d_wave_center_27,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,27
+off_diagonal_pairing,d_wave_center_28,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,28
+off_diagonal_pairing,d_wave_center_29,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,29
+off_diagonal_pairing,d_wave_center_30,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,30
+off_diagonal_pairing,d_wave_center_31,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,31
+off_diagonal_pairing,d_wave_center_32,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,32
+off_diagonal_pairing,d_wave_center_33,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,33
+off_diagonal_pairing,d_wave_center_34,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,34
+off_diagonal_pairing,d_wave_center_35,d_wave_pair_correlator,fermionic tomography or dedicated basis rotations,35

@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_COMPONENT_SCREEN_AND_INDEPENDENT_AUDIT",
+  "new_qpu_seconds": 0,
+  "checks": {
+    "run_hashes": 68,
+    "analysis_hashes": 7,
+    "independent_max_physical_error": 1.2212453270876722e-15,
+    "independent_readout_only_spin_rmse": 0.018471002341958632,
+    "independent_spin_metrics": true,
+    "max_channel_reconstruction_error": 1.7763568394002505e-15,
+    "bootstrap_replicates_verified": 2000
+  },
+  "unit_tests": 18,
+  "scope": "128 trajectories per gate component; exact independent readout moments; one fixed setting."
+}

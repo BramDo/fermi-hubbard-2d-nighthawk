@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "windows_call_seconds": 2.5303789,
+  "stdout": "",
+  "stderr": "test_forbidden_inputs (__main__.Tests.test_forbidden_inputs) ... ok\ntest_full_small_quantum_circuit (__main__.Tests.test_full_small_quantum_circuit) ... ok\ntest_invalid_time (__main__.Tests.test_invalid_time) ... ok\ntest_linear_conversion_of_mean (__main__.Tests.test_linear_conversion_of_mean) ... ok\ntest_network_forbidden (__main__.Tests.test_network_forbidden) ... ok\ntest_zero_time (__main__.Tests.test_zero_time) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.111s\n\nOK\n"
+}

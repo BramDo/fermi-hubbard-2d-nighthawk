@@ -1,0 +1,349 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "hopping_matrix_3_0_2",
+      "value": 2.7755575615628914e-17,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "hopping_matrix_4_0_3",
+      "value": 2.7755575615628914e-17,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "hopping_matrix_4_3_1",
+      "value": 2.7755575615628914e-17,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "missing_parity_negative_control",
+      "value": 0.39733866159012243,
+      "threshold": 0.3,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "onsite_U_and_mu_matrix",
+      "value": 5.578801654593729e-16,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "independent_vs_existing_ED_H",
+      "value": 0.0,
+      "threshold": 1e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "full_H_generator",
+      "value": 5.789768664499206e-10,
+      "threshold": 1e-07,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "N_spin_0_commutator",
+      "value": 0.0,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "N_spin_1_commutator",
+      "value": 0.0,
+      "threshold": 2e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "unitarity",
+      "value": 2.4424911781522363e-15,
+      "threshold": 3e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "H_hermiticity_2x2",
+      "value": 0.0,
+      "threshold": 1e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x2_1",
+      "value": 1.1102230246251565e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x2_2",
+      "value": 2.6645352591003757e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x2_4",
+      "value": 5.551115123125783e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x2_8",
+      "value": 1.1546319456101628e-14,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "second_order_2x2_0",
+      "value": 4.058852296451635,
+      "threshold": 3.4,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "second_order_2x2_1",
+      "value": 4.014611590893446,
+      "threshold": 3.4,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "fine_state_distance_2x2",
+      "value": 0.0017721844974195728,
+      "threshold": 0.01,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "H_hermiticity_2x3",
+      "value": 0.0,
+      "threshold": 1e-12,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x3_1",
+      "value": 1.7763568394002505e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x3_2",
+      "value": 4.218847493575595e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x3_4",
+      "value": 7.771561172376096e-15,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "sector_leakage_2x3_8",
+      "value": 1.6209256159527285e-14,
+      "threshold": 5e-11,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "second_order_2x3_0",
+      "value": 4.042605808075003,
+      "threshold": 3.4,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "second_order_2x3_1",
+      "value": 4.010651860618183,
+      "threshold": 3.4,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "fine_state_distance_2x3",
+      "value": 0.001477259435462067,
+      "threshold": 0.01,
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "check": "U_changes_dynamics",
+      "value": 1.355378253656055,
+      "threshold": 0.1,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "t_prime_changes_doped_dynamics",
+      "value": 0.2522992266903587,
+      "threshold": 0.01,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "legacy_is_not_physical_replacement",
+      "value": 0.8916653633335411,
+      "threshold": 0.1,
+      "relation": ">=",
+      "passed": true
+    },
+    {
+      "check": "MPS_new_gates_vs_statevector",
+      "value": 4.696243394164412e-14,
+      "threshold": 1e-10,
+      "relation": "<=",
+      "passed": true
+    }
+  ],
+  "dynamics": [
+    {
+      "lattice": "2x2",
+      "steps": 1,
+      "dt": 0.1,
+      "time": 0.1,
+      "state_distance": 0.015596530168789719,
+      "charge_rmse": 8.693539754467405e-07,
+      "spin_z_rmse": 0.003947900359271029,
+      "double_occupancy_rmse": 0.001935240623853726
+    },
+    {
+      "lattice": "2x2",
+      "steps": 2,
+      "dt": 0.1,
+      "time": 0.2,
+      "state_distance": 0.02799953604461378,
+      "charge_rmse": 5.15995272615255e-06,
+      "spin_z_rmse": 0.012283074139102942,
+      "double_occupancy_rmse": 0.005606731084098475
+    },
+    {
+      "lattice": "2x2",
+      "steps": 4,
+      "dt": 0.1,
+      "time": 0.4,
+      "state_distance": 0.02887724215476275,
+      "charge_rmse": 1.7668963701450435e-05,
+      "spin_z_rmse": 0.017945876456244673,
+      "double_occupancy_rmse": 0.005346898589165119
+    },
+    {
+      "lattice": "2x2",
+      "steps": 8,
+      "dt": 0.1,
+      "time": 0.8,
+      "state_distance": 0.035575595740141235,
+      "charge_rmse": 2.5577205967325378e-05,
+      "spin_z_rmse": 0.026083527101965553,
+      "double_occupancy_rmse": 0.004805823428265523
+    },
+    {
+      "lattice": "2x3",
+      "steps": 1,
+      "dt": 0.1,
+      "time": 0.1,
+      "state_distance": 0.010546306287484437,
+      "charge_rmse": 0.00011712854986039663,
+      "spin_z_rmse": 0.0016269270319599243,
+      "double_occupancy_rmse": 0.0007638258327645912
+    },
+    {
+      "lattice": "2x3",
+      "steps": 2,
+      "dt": 0.1,
+      "time": 0.2,
+      "state_distance": 0.019038259858906965,
+      "charge_rmse": 0.00033335863791347694,
+      "spin_z_rmse": 0.005230742236966252,
+      "double_occupancy_rmse": 0.0022981019797788113
+    },
+    {
+      "lattice": "2x3",
+      "steps": 4,
+      "dt": 0.1,
+      "time": 0.4,
+      "state_distance": 0.02395152296806159,
+      "charge_rmse": 0.0006411135378199112,
+      "spin_z_rmse": 0.008270407558953427,
+      "double_occupancy_rmse": 0.002547867038982915
+    },
+    {
+      "lattice": "2x3",
+      "steps": 8,
+      "dt": 0.1,
+      "time": 0.8,
+      "state_distance": 0.02213340225788767,
+      "charge_rmse": 0.0011966330468669076,
+      "spin_z_rmse": 0.004151970585837298,
+      "double_occupancy_rmse": 0.0011449098660956383
+    }
+  ],
+  "convergence": [
+    {
+      "lattice": "2x2",
+      "steps": 4,
+      "dt": 0.1,
+      "time": 0.4,
+      "state_distance": 0.02887724215476275
+    },
+    {
+      "lattice": "2x2",
+      "steps": 8,
+      "dt": 0.05,
+      "time": 0.4,
+      "state_distance": 0.007114632424542293
+    },
+    {
+      "lattice": "2x2",
+      "steps": 16,
+      "dt": 0.025,
+      "time": 0.4,
+      "state_distance": 0.0017721844974195728
+    },
+    {
+      "lattice": "2x3",
+      "steps": 4,
+      "dt": 0.1,
+      "time": 0.4,
+      "state_distance": 0.02395152296806159
+    },
+    {
+      "lattice": "2x3",
+      "steps": 8,
+      "dt": 0.05,
+      "time": 0.4,
+      "state_distance": 0.005924773303451706
+    },
+    {
+      "lattice": "2x3",
+      "steps": 16,
+      "dt": 0.025,
+      "time": 0.4,
+      "state_distance": 0.001477259435462067
+    }
+  ],
+  "source_sha256": {
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_qiskit_circuit.py": "fc975936096fd2dd6459bff4f4e97dd0d321731e24b5749887f96aeeb22a56fc",
+    "cuprate_2d_mps_circuit_baseline.py": "6b84d9bdf967e9b45aeb0d68ec7252c4c1a92787a58fb6775cc88bbd50706131",
+    "validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266"
+  },
+  "elapsed_seconds": 5.120743591000064,
+  "boundary": "Small open lattices; finite dt remains approximate; no hardware submission."
+}

@@ -1,0 +1,98 @@
+{
+  "artifacts": {
+    "bond_observables_csv": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/fire_opal_steps1/ibm_runtime_tagged_job_d93ap6l958jc73bspr10/cuprate_2d_ibm_bond_observables.csv",
+    "plot": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/fire_opal_steps1/ibm_runtime_tagged_job_d93ap6l958jc73bspr10/cuprate_2d_ibm_readout_corrected_observables.png",
+    "raw_results_json": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/fire_opal_steps1/ibm_runtime_tagged_job_d93ap6l958jc73bspr10/cuprate_2d_ibm_raw_results.json",
+    "site_observables_csv": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/fire_opal_steps1/ibm_runtime_tagged_job_d93ap6l958jc73bspr10/cuprate_2d_ibm_site_observables.csv"
+  },
+  "backend": "ibm_marrakesh",
+  "claim_boundary": "Diagonal hardware observables only. Pairing observables require separate basis-rotation/tomography circuits.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 4,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "job_id": "d93ap6l958jc73bspr10",
+  "particle_sector": {
+    "exact_sector_fraction": 0.015625,
+    "expected_n_down": 16,
+    "expected_n_up": 16,
+    "mean_abs_n_down_error": 2.88671875,
+    "mean_abs_n_up_error": 2.61328125,
+    "top_particle_sectors": [
+      {
+        "n_down": 17,
+        "n_up": 16,
+        "shots": 13
+      },
+      {
+        "n_down": 18,
+        "n_up": 17,
+        "shots": 13
+      },
+      {
+        "n_down": 17,
+        "n_up": 17,
+        "shots": 11
+      },
+      {
+        "n_down": 18,
+        "n_up": 16,
+        "shots": 11
+      },
+      {
+        "n_down": 18,
+        "n_up": 14,
+        "shots": 10
+      },
+      {
+        "n_down": 15,
+        "n_up": 15,
+        "shots": 10
+      },
+      {
+        "n_down": 19,
+        "n_up": 17,
+        "shots": 10
+      },
+      {
+        "n_down": 19,
+        "n_up": 19,
+        "shots": 10
+      },
+      {
+        "n_down": 17,
+        "n_up": 19,
+        "shots": 8
+      },
+      {
+        "n_down": 17,
+        "n_up": 18,
+        "shots": 8
+      }
+    ]
+  },
+  "profiles": {
+    "raw": {
+      "max_charge": 1.265625,
+      "mean_abs_spin_z": 0.045355902777777776,
+      "mean_charge": 0.9893663194444444,
+      "mean_double_occupancy": 0.2458767361111111,
+      "min_charge": 0.64453125,
+      "total_charge": 35.6171875,
+      "total_spin_z": -0.75
+    }
+  },
+  "readout_calibration": null,
+  "shots": 512
+}

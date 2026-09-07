@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "actual_old_provider_circuits_compared": [
+    {
+      "twirl": 0,
+      "setting": "target",
+      "old_provider_index": 69,
+      "old_provider_sha256": "72d64bdbf1a01faffc960d9af29301ac9501b6b78add1d34e4e35bc84890eaa4",
+      "local_2x2_segments": 41664,
+      "max_segment_error": 9.155133597044475e-16,
+      "global_phase_error": 9.858765135705463e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "twirl": 1,
+      "setting": "target",
+      "old_provider_index": 4,
+      "old_provider_sha256": "277d538cc206474988339ef401469f9cfeabe154e4b6f93322dcd64ced34e1da",
+      "local_2x2_segments": 41664,
+      "max_segment_error": 8.899114524108741e-16,
+      "global_phase_error": 7.551705608723603e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "twirl": 2,
+      "setting": "target",
+      "old_provider_index": 9,
+      "old_provider_sha256": "0e6c5f7990715090d57aed7f02fdd4c0281c1bed8340179322a4c3d96186720b",
+      "local_2x2_segments": 41664,
+      "max_segment_error": 8.899114524108741e-16,
+      "global_phase_error": 1.573520591756896e-11,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "twirl": 3,
+      "setting": "target",
+      "old_provider_index": 61,
+      "old_provider_sha256": "0aa50826b328027cd94a977367d0093c5a2e9d12db8cad64e2dc5176fe83f1b7",
+      "local_2x2_segments": 41664,
+      "max_segment_error": 8.899114524108741e-16,
+      "global_phase_error": 1.3132165259243606e-11,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "twirl": 0,
+      "setting": "holdout1",
+      "old_provider_index": 59,
+      "old_provider_sha256": "466ff6df1d50d78b3830c9a9e499ba5cc8a3858b1b71f132fb1bb78d657fa377",
+      "local_2x2_segments": 41664,
+      "max_segment_error": 8.899114524108741e-16,
+      "global_phase_error": 7.867286040698546e-12,
+      "CZ_partial_order_preserved": true
+    }
+  ],
+  "SDK_timing_checks": [
+    {
+      "twirl": 0,
+      "sdk_before_seconds": 0.00012021200000000574,
+      "sdk_after_seconds": 8.02520000000011e-05,
+      "integer_clock_agrees": true
+    },
+    {
+      "twirl": 1,
+      "sdk_before_seconds": 0.00012101200000000581,
+      "sdk_after_seconds": 8.041200000000113e-05,
+      "integer_clock_agrees": true
+    },
+    {
+      "twirl": 2,
+      "sdk_before_seconds": 0.00012037200000000574,
+      "sdk_after_seconds": 8.04520000000011e-05,
+      "integer_clock_agrees": true
+    },
+    {
+      "twirl": 3,
+      "sdk_before_seconds": 0.00012061200000000576,
+      "sdk_after_seconds": 8.029200000000111e-05,
+      "integer_clock_agrees": true
+    }
+  ],
+  "no_full72_statevector_used": true,
+  "all_old_readout_masks_preserved": true,
+  "delay_removal_for_ideal_comparison_only": true,
+  "unitary_error_claim_scope": "Per-wire2x2 segment equality and global phase with unchanged CZ trace; not an interval-arithmetic certificate.",
+  "no_live_backend_or_hardware_error_check": true,
+  "seconds": 44.96780845799367,
+  "source_sha256": "f55af1f335cc02b68b71bb2fdc7b48044bb6ebd89871aaf0e24dfb3bdc9c3f0e",
+  "independent_reused_verifier_sha256": "9b55643cbe02766d2b93198abf6c1c0e98dcb9c50593bf8f3d9ab2be2794e590"
+}

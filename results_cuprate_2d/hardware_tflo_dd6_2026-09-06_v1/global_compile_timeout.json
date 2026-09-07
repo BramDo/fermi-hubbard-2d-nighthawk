@@ -1,0 +1,8 @@
+{
+  "status": "OWN_LOCAL_COMPILER_STOPPED_AFTER_900S",
+  "pid": 14975,
+  "QPU_seconds": 0,
+  "hardware_attempted": false,
+  "reason": "Cooperative Python alarm did not interrupt active native compilation",
+  "time": 1788724384.3294375
+}

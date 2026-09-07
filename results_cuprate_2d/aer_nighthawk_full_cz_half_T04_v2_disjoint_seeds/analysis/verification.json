@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 35,
+  "run_hashes_verified": 77,
+  "input_hashes_verified": 28,
+  "independent_max_physical_error": 6.661338147750939e-16,
+  "primary_readout_applied_once": true,
+  "primary_spin_benefit_independently_reproduced": true
+}

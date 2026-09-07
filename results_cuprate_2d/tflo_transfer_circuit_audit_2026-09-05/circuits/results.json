@@ -1,0 +1,442 @@
+{
+  "stage": "LOCAL_SAME_IDEAL_CIRCUIT_COMPARISON",
+  "new_QPU_seconds": 0,
+  "candidates": [
+    {
+      "name": "network",
+      "operations": {
+        "rz": 1998,
+        "sx": 1682,
+        "cz": 1008,
+        "x": 175
+      },
+      "depth": 549,
+      "CZ": 1008,
+      "two_qubit_depth": 144,
+      "source_routing_fswaps": null,
+      "state_checks": [
+        {
+          "U": 0.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 8.4618320731221e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 7.800914126536046e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.4,
+          "max_phase_aligned_state_distance": 6.092713847602169e-14
+        }
+      ],
+      "cached_measured_circuit_seconds": 1.8772000000000003e-05
+    },
+    {
+      "name": "left",
+      "operations": {
+        "rz": 2460,
+        "sx": 2064,
+        "cz": 1412,
+        "x": 224
+      },
+      "depth": 1126,
+      "CZ": 1412,
+      "two_qubit_depth": 420,
+      "source_routing_fswaps": 552,
+      "state_checks": [
+        {
+          "U": 0.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 8.718262898397326e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 8.066424782516916e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.4,
+          "max_phase_aligned_state_distance": 8.874746831638889e-14
+        }
+      ],
+      "cached_measured_circuit_seconds": 4.3820000000000004e-05
+    },
+    {
+      "name": "right",
+      "operations": {
+        "rz": 2731,
+        "sx": 2346,
+        "cz": 1624,
+        "x": 266
+      },
+      "depth": 1578,
+      "CZ": 1624,
+      "two_qubit_depth": 532,
+      "source_routing_fswaps": 624,
+      "state_checks": [
+        {
+          "U": 0.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 1.0947452850055828e-13
+        },
+        {
+          "U": 8.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 1.0289531442401546e-13
+        },
+        {
+          "U": 8.0,
+          "time": 0.4,
+          "max_phase_aligned_state_distance": 1.0353357792031508e-13
+        }
+      ],
+      "cached_measured_circuit_seconds": 5.7916e-05
+    },
+    {
+      "name": "look4",
+      "operations": {
+        "rz": 2126,
+        "sx": 1676,
+        "cz": 1040,
+        "x": 260
+      },
+      "depth": 1062,
+      "CZ": 1040,
+      "two_qubit_depth": 396,
+      "source_routing_fswaps": 388,
+      "state_checks": [
+        {
+          "U": 0.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 6.626074165243928e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 5.979256032702092e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.4,
+          "max_phase_aligned_state_distance": 6.244458825858521e-14
+        }
+      ],
+      "cached_measured_circuit_seconds": 4.1148e-05
+    },
+    {
+      "name": "look12",
+      "operations": {
+        "rz": 2109,
+        "sx": 1668,
+        "cz": 1032,
+        "x": 264
+      },
+      "depth": 1122,
+      "CZ": 1032,
+      "two_qubit_depth": 428,
+      "source_routing_fswaps": 376,
+      "state_checks": [
+        {
+          "U": 0.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 6.552933414217771e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.2,
+          "max_phase_aligned_state_distance": 5.958090545117488e-14
+        },
+        {
+          "U": 8.0,
+          "time": 0.4,
+          "max_phase_aligned_state_distance": 6.20725749677901e-14
+        }
+      ],
+      "cached_measured_circuit_seconds": 4.3964e-05
+    }
+  ],
+  "minimum_CZ_candidate": "network",
+  "CZ_reduction_fraction": 0.0,
+  "twirled_best": [
+    {
+      "twirl": 0,
+      "readout_mask_little_endian": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2459,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 550,
+        "measure": 18
+      },
+      "depth": 630,
+      "cached_measured_circuit_seconds": 2.1092e-05,
+      "decoded_target_state_distance": 8.724317227173798e-14
+    },
+    {
+      "twirl": 1,
+      "readout_mask_little_endian": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2466,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 575,
+        "measure": 18
+      },
+      "depth": 630,
+      "cached_measured_circuit_seconds": 2.1012e-05,
+      "decoded_target_state_distance": 8.845475094723096e-14
+    },
+    {
+      "twirl": 2,
+      "readout_mask_little_endian": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2542,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 566,
+        "measure": 18
+      },
+      "depth": 631,
+      "cached_measured_circuit_seconds": 2.0732000000000004e-05,
+      "decoded_target_state_distance": 9.184039945921854e-14
+    },
+    {
+      "twirl": 3,
+      "readout_mask_little_endian": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2448,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 588,
+        "measure": 18
+      },
+      "depth": 630,
+      "cached_measured_circuit_seconds": 2.0852000000000003e-05,
+      "decoded_target_state_distance": 8.513928911773302e-14
+    },
+    {
+      "twirl": 4,
+      "readout_mask_little_endian": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2476,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 555,
+        "measure": 18
+      },
+      "depth": 634,
+      "cached_measured_circuit_seconds": 2.0772000000000004e-05,
+      "decoded_target_state_distance": 8.802793550613531e-14
+    },
+    {
+      "twirl": 5,
+      "readout_mask_little_endian": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2436,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 568,
+        "measure": 18
+      },
+      "depth": 623,
+      "cached_measured_circuit_seconds": 2.0812000000000003e-05,
+      "decoded_target_state_distance": 8.291976093799527e-14
+    },
+    {
+      "twirl": 6,
+      "readout_mask_little_endian": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2456,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 546,
+        "measure": 18
+      },
+      "depth": 637,
+      "cached_measured_circuit_seconds": 2.0812000000000003e-05,
+      "decoded_target_state_distance": 9.105750242872371e-14
+    },
+    {
+      "twirl": 7,
+      "readout_mask_little_endian": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "CZ": 1008,
+      "operations": {
+        "rz": 2477,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 557,
+        "measure": 18
+      },
+      "depth": 632,
+      "cached_measured_circuit_seconds": 2.1212e-05,
+      "decoded_target_state_distance": 8.75381240467484e-14
+    }
+  ],
+  "cached_total_5120_shot_execution_seconds": 0.11423744000000001,
+  "calibration_captured_utc": "2026-09-05T17:38:21.910870+00:00",
+  "timing_limit": "Saved calibration, symmetric CZ-duration lookup; not live ISA validation, billing or fidelity measurement.",
+  "hardware_ready_or_authorized": false,
+  "new_noncommuting_order": false
+}

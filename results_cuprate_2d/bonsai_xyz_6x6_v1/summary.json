@@ -1,0 +1,102 @@
+{
+  "status": "XYZ_LABEL_AND_LOAD_TRIAL_COMPLETE",
+  "circuits": [
+    {
+      "name": "XYZ_count",
+      "scope": "full preparation+evolution+readout",
+      "operations": {
+        "rz": 20461,
+        "sx": 17791,
+        "cz": 15234,
+        "x": 7420,
+        "measure": 72
+      },
+      "cz": 15234,
+      "physical_X_SX": 25211,
+      "depth": 15924,
+      "CZ_depth": 5069,
+      "snapshot_unaligned_duration_seconds": 0.0005628079999998996,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/count.qpy"
+    },
+    {
+      "name": "XYZ_count_twirl",
+      "scope": "full preparation+evolution+readout+one control twirl",
+      "operations": {
+        "rz": 29729,
+        "sx": 17713,
+        "cz": 15234,
+        "x": 8750,
+        "measure": 72
+      },
+      "cz": 15234,
+      "physical_X_SX": 26463,
+      "depth": 17290,
+      "CZ_depth": 5069,
+      "snapshot_unaligned_duration_seconds": 0.0005746599999998948,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/count_twirl.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 30540,
+        "max_segment_error": 1.4608304229148328e-14,
+        "global_phase_error": 9.190170487634619e-13,
+        "CZ_partial_order_preserved": true
+      }
+    },
+    {
+      "name": "XYZ_load",
+      "scope": "full preparation+evolution+readout",
+      "operations": {
+        "rz": 19849,
+        "sx": 17441,
+        "cz": 14786,
+        "x": 6880,
+        "measure": 72
+      },
+      "cz": 14786,
+      "physical_X_SX": 24321,
+      "depth": 16387,
+      "CZ_depth": 5271,
+      "snapshot_unaligned_duration_seconds": 0.0005808959999998933,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/load.qpy"
+    },
+    {
+      "name": "XYZ_load_twirl",
+      "scope": "full preparation+evolution+readout+one control twirl",
+      "operations": {
+        "rz": 28742,
+        "sx": 17368,
+        "cz": 14786,
+        "x": 8196,
+        "measure": 72
+      },
+      "cz": 14786,
+      "physical_X_SX": 25564,
+      "depth": 17856,
+      "CZ_depth": 5271,
+      "snapshot_unaligned_duration_seconds": 0.0005955599999998883,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/load_twirl.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 29644,
+        "max_segment_error": 1.4544721579233895e-14,
+        "global_phase_error": 1.7677618415310424e-12,
+        "CZ_partial_order_preserved": true
+      }
+    }
+  ],
+  "verification": {
+    "XYZ_full_native_2x2_and_2x3_state_errors": [
+      1.6462450581375778e-13,
+      1.0224806495522503e-13
+    ],
+    "load_balance_score_checked": true,
+    "same_original_finite_circuit": true
+  },
+  "tests_passed": 7,
+  "additional_XYZ_native_state_checks": 2,
+  "same_old_finite_circuit": true,
+  "QPU_seconds_used": 0,
+  "seconds": 52.850150496000424
+}

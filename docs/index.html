@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2D Cuprate Fermi-Hubbard Validation</title>
+  <meta name="description" content="GitHub Pages runbook and artifact map for the 2D cuprate-oriented Fermi-Hubbard validation repository.">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="2D Cuprate Fermi-Hubbard home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>2D Cuprate Fermi-Hubbard</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#runbook">Runbook</a>
+      <a href="#artifacts">Artifacts</a>
+      <a href="#articles">Edukaizen</a>
+      <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro section-band">
+      <div class="intro-copy">
+        <p class="eyebrow">Repository companion site</p>
+        <h1>Validation map for the 2D cuprate-oriented Fermi-Hubbard route</h1>
+        <p class="lead">
+          This page is the GitHub Pages entry point for the code, run paths,
+          result snapshots, and Edukaizen article series around the square-lattice
+          one-band Hubbard workflow.
+        </p>
+        <div class="action-row" aria-label="Project links">
+          <a class="button primary" href="https://github.com/BramDo/fermi-hubbard-2d-cuprate">Open repository</a>
+          <a class="button" href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">Read series</a>
+          <a class="button" href="#runbook">Run paths</a>
+        </div>
+      </div>
+
+      <div class="system-panel" aria-label="6 by 6 square Hubbard lattice schematic">
+        <div class="panel-head">
+          <span>6x6 target</span>
+          <span>U/t = 8, t'/t = -0.25</span>
+        </div>
+        <div class="lattice" aria-hidden="true">
+          <span class="site up"></span><span class="site down"></span><span class="site hole"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span>
+          <span class="site down"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span><span class="site hole"></span><span class="site down"></span>
+          <span class="site up"></span><span class="site down"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span><span class="site down"></span>
+          <span class="site down"></span><span class="site hole"></span><span class="site down"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span>
+          <span class="site up"></span><span class="site down"></span><span class="site up"></span><span class="site hole"></span><span class="site up"></span><span class="site down"></span>
+          <span class="site down"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span><span class="site down"></span><span class="site up"></span>
+        </div>
+        <div class="legend" aria-label="Lattice legend">
+          <span><i class="key up"></i>up sector</span>
+          <span><i class="key down"></i>down sector</span>
+          <span><i class="key hole"></i>hole</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="status-grid">
+      <div class="metric">
+        <span class="metric-label">Primary model</span>
+        <strong>2D one-band Hubbard</strong>
+        <span>Square lattice, open boundaries, diagonal observables.</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Current scale</span>
+        <strong>3x3 -> 4x4 -> 6x6</strong>
+        <span>Exact small-rung checks, tensor baselines, IBM and Fire Opal diagnostics.</span>
+      </div>
+      <div class="metric">
+        <span class="metric-label">Claim boundary</span>
+        <strong>Diagnostic validation</strong>
+        <span>No d-wave superconductivity, cuprate-material, or quantum-advantage claim.</span>
+      </div>
+    </section>
+
+    <section id="runbook" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Runbook</p>
+        <h2>Run paths from the repository root</h2>
+      </div>
+      <div class="run-grid">
+        <article class="run-item">
+          <h3>Prepare the default 6x6 target</h3>
+          <pre><code>.\scripts\run_cuprate_2d_pipeline_wsl.ps1</code></pre>
+          <p>Builds the curated 6x6 target configuration and core planning artifacts under <code>results_cuprate_2d/</code>.</p>
+        </article>
+        <article class="run-item">
+          <h3>Run the validation ladder</h3>
+          <pre><code>.\scripts\run_cuprate_2d_validation_ladder_wsl.ps1</code></pre>
+          <p>Runs the staged local ladder for 2x3, 3x3, 4x4, and 6x6 step-1 validation snapshots.</p>
+        </article>
+        <article class="run-item">
+          <h3>Local baselines and comparisons</h3>
+          <pre><code>.\scripts\run_cuprate_2d_tdhf_wsl.ps1
+.\scripts\run_cuprate_2d_gaussian_wsl.ps1
+.\scripts\compare_cuprate_2d_observables_wsl.ps1</code></pre>
+          <p>Generates TDHF, Gaussian/free, and same-observable comparison data for interpretation.</p>
+        </article>
+        <article class="run-item">
+          <h3>3x3 exact and hardware diagnostics</h3>
+          <pre><code>.\scripts\run_cuprate_2d_3x3_validation_wsl.ps1
+.\scripts\run_cuprate_2d_3x3_exact_sector_baselines_wsl.ps1
+.\scripts\compare_cuprate_2d_3x3_observables_wsl.ps1</code></pre>
+          <p>Uses exact small-rung baselines before interpreting IBM or Fire Opal results.</p>
+        </article>
+        <article class="run-item">
+          <h3>4x4 and 6x6 tensor routes</h3>
+          <pre><code>.\scripts\run_cuprate_2d_4x4_mps_shallow_t_only_wsl.ps1
+.\scripts\run_cuprate_2d_6x6_layout_scout_wsl.ps1
+.\scripts\compare_cuprate_2d_6x6_shallow_t_only_vs_mps_wsl.ps1</code></pre>
+          <p>Keeps larger runs tied to MPS/layout evidence instead of reading hardware shots in isolation.</p>
+        </article>
+        <article class="run-item caution">
+          <h3>Submission scripts</h3>
+          <pre><code>.\scripts\submit_cuprate_2d_*.ps1</code></pre>
+          <p>Scripts named <code>submit_*</code> can submit IBM Runtime or Fire Opal jobs. Treat them as live hardware actions.</p>
+        </article>
+      </div>
+      <p class="env-note">
+        The Windows wrappers resolve the repository root from their own location
+        and call the known WSL Qiskit environment:
+        <code>/home/bram/.venvs/qiskit/bin/python</code>.
+      </p>
+    </section>
+
+    <section id="artifacts" class="section section-band">
+      <div class="section-title">
+        <p class="eyebrow">Artifact map</p>
+        <h2>Where the evidence lives</h2>
+      </div>
+      <div class="path-table" role="table" aria-label="Repository artifact paths">
+        <div role="row">
+          <strong role="cell">docs/2d_cuprate_hubbard_report.md</strong>
+          <span role="cell">Narrative report and claim boundary for the 2D route.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">results_cuprate_2d/validation_ladder_steps1/</strong>
+          <span role="cell">Validation ladder summaries, reports, and per-rung observable files.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/</strong>
+          <span role="cell">Default 6x6 target snapshot, circuit reports, baselines, hardware diagnostics, and comparisons.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">output/medium_2d_cuprate_series/</strong>
+          <span role="cell">Medium-friendly HTML, Markdown, and text exports for the Edukaizen series.</span>
+        </div>
+        <div role="row">
+          <strong role="cell">output/wordpress_2d_cuprate_series/</strong>
+          <span role="cell">WordPress package and source Markdown for the canonical Edukaizen pages.</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Edukaizen series</p>
+        <h2>Canonical articles and local source files</h2>
+      </div>
+      <div class="article-list">
+        <article>
+          <span>Part 1</span>
+          <h3>From 1D to 2D</h3>
+          <p>Bridge from the earlier 1D IBM/TDVP route into the 2D validation ladder.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/01_from_1d_to_2d.md">Markdown source</a>
+        </article>
+        <article>
+          <span>Part 2</span>
+          <h3>2D Hubbard, cuprates, and Google/Willow context</h3>
+          <p>External 2D context and how this repository's scale should be interpreted.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/02_2d_hubbard_cuprates_google.md">Markdown source</a>
+        </article>
+        <article>
+          <span>Part 3</span>
+          <h3>Our 3x3 implementation</h3>
+          <p>Exact fixed-sector checks and the first small-rung hardware validation target.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/03_3x3_implementation.md">Markdown source</a>
+        </article>
+        <article>
+          <span>Part 4</span>
+          <h3>Time evolution and hardware diagnostics</h3>
+          <p>Observable drift, sector survival, and why longer-time hardware data remains diagnostic.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/04_time_evolution_and_hardware_diagnostics.md">Markdown source</a>
+        </article>
+        <article>
+          <span>Part 5</span>
+          <h3>4x4 hardware and tensor baselines</h3>
+          <p>Why the 4x4 rung needs tensor-network comparison before hardware interpretation.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/05_4x4_tensor_and_hardware.md">Markdown source</a>
+        </article>
+        <article>
+          <span>Part 6</span>
+          <h3>6x6 tensor baseline, IBM diagnostics, and Fire Opal Fez</h3>
+          <p>Current larger-rung status with 6x6 baselines, IBM diagnostics, and Fire Opal context.</p>
+          <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/">Canonical article</a>
+          <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate/blob/main/output/medium_2d_cuprate_series/md/06_6x6_tensor_ibm_fire_opal_status.md">Markdown source</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reference">
+      <div class="section-title">
+        <p class="eyebrow">Boundary</p>
+        <h2>How to read the hardware results</h2>
+      </div>
+      <p>
+        Hardware output in this repository is diagnostic until it has been
+        compared with the local baselines and observable-comparison files.
+        The validated interpretation is narrower than a physics discovery
+        claim: circuit behavior, noise, sector survival, and same-observable
+        comparisons for a staged 2D Hubbard route.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>2D Cuprate Fermi-Hubbard Validation</span>
+    <a href="https://github.com/BramDo/fermi-hubbard-2d-cuprate">github.com/BramDo/fermi-hubbard-2d-cuprate</a>
+  </footer>
+</body>
+</html>

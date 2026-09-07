@@ -1,0 +1,9 @@
+{
+  "independent_scalar_RMS_max_abs": 3.469446951953614e-18,
+  "all_timing_statistics_exact": true,
+  "timing_boundary_order_valid": true,
+  "five_individual_records_match_aggregate": true,
+  "source_snapshots_verified": 8,
+  "old_input_artifact_hashes_still_match": 7,
+  "finalizer_source_sha256": "1482c3bf50f5e57955cfcf1aed8b79da7cc46deaf5c66a928b32dc8279b8c906"
+}

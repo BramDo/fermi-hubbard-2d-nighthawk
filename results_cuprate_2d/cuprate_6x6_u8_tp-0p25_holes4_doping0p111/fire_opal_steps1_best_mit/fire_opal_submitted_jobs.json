@@ -1,0 +1,208 @@
+{
+  "backend": "ibm_marrakesh",
+  "credential_source": {
+    "account": "default-ibm-cloud",
+    "source": "~/.qiskit/qiskit-ibm.json"
+  },
+  "groups": {
+    "main": {
+      "action_id": "2331673",
+      "backend": "ibm_marrakesh",
+      "circuit_count": 1,
+      "job_id": "2331673",
+      "job_repr": "<fireopal.fire_opal_job.FireOpalJob object at 0x708ef5d7ae70>",
+      "qasm_records": [
+        {
+          "circuit_metadata": {
+            "logical_forward_steps": 1,
+            "model": "2d-cuprate-hubbard",
+            "observable_basis": "Z",
+            "role": "main"
+          },
+          "exported_summary": {
+            "clbits": 72,
+            "depth": 4761,
+            "operation_counts": {
+              "barrier": 1,
+              "cx": 8232,
+              "measure": 72,
+              "u2": 1203,
+              "u3": 548
+            },
+            "qubits": 72,
+            "size": 10055
+          },
+          "group": "main",
+          "index": 0,
+          "logical_summary": {
+            "clbits": 72,
+            "depth": 5081,
+            "operation_counts": {
+              "barrier": 1,
+              "cx": 8232,
+              "h": 1760,
+              "measure": 72,
+              "rz": 548,
+              "s": 440,
+              "sdg": 440,
+              "x": 32
+            },
+            "qubits": 72,
+            "size": 11524
+          },
+          "path": "qasm/main_00_main.qasm",
+          "qasm": {
+            "basis": "qelib",
+            "contains_custom_xx_plus_yy": false,
+            "contains_rzz": false,
+            "contains_swap": false,
+            "optimization_level": 1,
+            "parse_check": true,
+            "parse_ok": true,
+            "parsed_summary": {
+              "clbits": 72,
+              "depth": 4761,
+              "operation_counts": {
+                "barrier": 1,
+                "cx": 8232,
+                "measure": 72,
+                "u2": 1203,
+                "u3": 548
+              },
+              "qubits": 72,
+              "size": 10055,
+              "two_qubit_count": 8232,
+              "two_qubit_depth": 4235
+            },
+            "qasm_characters": 168805
+          },
+          "role": "main"
+        }
+      ],
+      "result_available": true,
+      "shots": 1024,
+      "submitted": true
+    },
+    "readout": {
+      "action_id": "2331674",
+      "backend": "ibm_marrakesh",
+      "circuit_count": 2,
+      "job_id": "2331674",
+      "job_repr": "<fireopal.fire_opal_job.FireOpalJob object at 0x708ef52f6c00>",
+      "qasm_records": [
+        {
+          "circuit_metadata": {
+            "calibration_state": "000000000000000000000000000000000000000000000000000000000000000000000000",
+            "role": "readout_all0"
+          },
+          "exported_summary": {
+            "clbits": 72,
+            "depth": 1,
+            "operation_counts": {
+              "barrier": 1,
+              "measure": 72
+            },
+            "qubits": 72,
+            "size": 72
+          },
+          "group": "readout",
+          "index": 0,
+          "logical_summary": {
+            "clbits": 72,
+            "depth": 1,
+            "operation_counts": {
+              "barrier": 1,
+              "measure": 72
+            },
+            "qubits": 72,
+            "size": 72
+          },
+          "path": "qasm/readout_00_readout_all0.qasm",
+          "qasm": {
+            "basis": "qelib",
+            "contains_custom_xx_plus_yy": false,
+            "contains_rzz": false,
+            "contains_swap": false,
+            "optimization_level": 1,
+            "parse_check": true,
+            "parse_ok": true,
+            "parsed_summary": {
+              "clbits": 72,
+              "depth": 1,
+              "operation_counts": {
+                "barrier": 1,
+                "measure": 72
+              },
+              "qubits": 72,
+              "size": 72,
+              "two_qubit_count": 0,
+              "two_qubit_depth": 0
+            },
+            "qasm_characters": 2417
+          },
+          "role": "readout_all0"
+        },
+        {
+          "circuit_metadata": {
+            "calibration_state": "111111111111111111111111111111111111111111111111111111111111111111111111",
+            "role": "readout_all1"
+          },
+          "exported_summary": {
+            "clbits": 72,
+            "depth": 2,
+            "operation_counts": {
+              "barrier": 1,
+              "measure": 72,
+              "u3": 72
+            },
+            "qubits": 72,
+            "size": 144
+          },
+          "group": "readout",
+          "index": 1,
+          "logical_summary": {
+            "clbits": 72,
+            "depth": 2,
+            "operation_counts": {
+              "barrier": 1,
+              "measure": 72,
+              "x": 72
+            },
+            "qubits": 72,
+            "size": 144
+          },
+          "path": "qasm/readout_01_readout_all1.qasm",
+          "qasm": {
+            "basis": "qelib",
+            "contains_custom_xx_plus_yy": false,
+            "contains_rzz": false,
+            "contains_swap": false,
+            "optimization_level": 1,
+            "parse_check": true,
+            "parse_ok": true,
+            "parsed_summary": {
+              "clbits": 72,
+              "depth": 2,
+              "operation_counts": {
+                "barrier": 1,
+                "measure": 72,
+                "u3": 72
+              },
+              "qubits": 72,
+              "size": 144,
+              "two_qubit_count": 0,
+              "two_qubit_depth": 0
+            },
+            "qasm_characters": 3775
+          },
+          "role": "readout_all1"
+        }
+      ],
+      "result_available": true,
+      "shots": 4096,
+      "submitted": true
+    }
+  },
+  "qctrl_auth_source": "/mnt/c/Users/Lenna/SynologyDrive/stackexchange/get-started-with-fire-opal-on-ibm-quantum.ipynb",
+  "submitted_at_unix": 1783071255.6477494
+}

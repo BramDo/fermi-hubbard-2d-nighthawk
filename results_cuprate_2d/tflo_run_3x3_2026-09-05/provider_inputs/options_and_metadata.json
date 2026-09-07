@@ -1,0 +1,19 @@
+{
+  "options": {
+    "twirling": {
+      "enable_measure": false,
+      "enable_gates": false
+    },
+    "default_shots": 64,
+    "dynamical_decoupling": {
+      "enable": false
+    },
+    "execution": {
+      "init_qubits": true,
+      "meas_type": "classified",
+      "rep_delay": 1e-06
+    }
+  },
+  "support_qiskit": true,
+  "version": 2
+}

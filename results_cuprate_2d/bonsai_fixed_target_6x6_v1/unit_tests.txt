@@ -1,0 +1,12 @@
+test_full_majorana_and_hubbard_intertwining (test_cuprate_2d_bonsai.TestBonsai.test_full_majorana_and_hubbard_intertwining) ... ok
+test_native_compile_and_bit_decoding (test_cuprate_2d_bonsai.TestBonsai.test_native_compile_and_bit_decoding) ... ok
+test_number_and_doublon_from_decoded_samples (test_cuprate_2d_bonsai.TestBonsai.test_number_and_doublon_from_decoded_samples) ... ok
+test_pair_annealing_preserves_mapping (test_cuprate_2d_bonsai.TestBonsai.test_pair_annealing_preserves_mapping) ... ok
+test_same_finite_circuit_2x2_and_2x3 (test_cuprate_2d_bonsai.TestBonsai.test_same_finite_circuit_2x2_and_2x3) ... ok
+test_sparse_parity_rotation_restores_steiner_data (test_cuprate_2d_bonsai.TestBonsai.test_sparse_parity_rotation_restores_steiner_data) ... ok
+test_ternary_tree_algebra (test_cuprate_2d_bonsai.TestBonsai.test_ternary_tree_algebra) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.390s
+
+OK

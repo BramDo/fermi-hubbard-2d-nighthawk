@@ -1,0 +1,16 @@
+{
+  "factor1_shots": 4096,
+  "mean_N": 35.769287109375,
+  "expected_N": 32,
+  "conditional_shot_SE": 0.06748461578634525,
+  "normal_approx_95_interval": [
+    35.637017262433766,
+    35.901556956316234
+  ],
+  "deviation_in_conditional_SE_units": 55.85402043790953,
+  "scope": "Independent shots at fixed8 twirls; no drift/SPAM model.",
+  "readout_zne_N95_hybrid": [
+    35.56114746027543,
+    35.97554332948691
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_AUDIT",
+  "parent_files_verified": 131,
+  "run_files_verified": 227,
+  "independent_method_moment_error": 6.106226635438361e-15,
+  "independent_ridge_coefficient_error": 3.1030733538273125e-14,
+  "independent_physical_observable_error": 3.552713678800501e-15,
+  "primary_interval_independently_reproduced": [
+    -0.08406545841359545,
+    0.02406286080514095
+  ],
+  "noise_off_checks": 48,
+  "maximum_noise_off_error": 2.000621890374532e-13,
+  "model_audit": {
+    "saved_full_quantum_channel_max_error": 1.7763568394002505e-15,
+    "identical_readout_qubits": 18
+  },
+  "new_measured_aer_shots": 320,
+  "equal_main_arm_shots": 512,
+  "equal_gate_time_budget": false,
+  "readout_tflo_cz": 387072,
+  "readout_zne_cz": 669312,
+  "new_qpu_seconds": 0,
+  "first_preflight_failure_preserved": "aer_readout_tflo_zne_512_v1: zero sampled shots",
+  "budget_test_correction_before_sampling": "28/7/13 corrected to actual discrete optimum27/7/14",
+  "uncertainty_scope": "Exploratory hybrid bootstrap/calibration-posterior interval, not certified CI."
+}

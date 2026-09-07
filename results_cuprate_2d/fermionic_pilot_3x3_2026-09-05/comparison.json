@@ -1,0 +1,145 @@
+{
+  "job_id": "dadtrgjdd5gc73d7r7gg",
+  "status": "DONE",
+  "comparison": [
+    {
+      "profile": "zne",
+      "vs_exact_circuit": {
+        "charge": {
+          "rmse": 0.17885234134321423,
+          "max_abs": 0.4889475812119752
+        },
+        "spin_z": {
+          "rmse": 0.47605286401607655,
+          "max_abs": 0.6248552077110591
+        },
+        "double_occupancy": {
+          "rmse": 0.15360915930386446,
+          "max_abs": 0.23655608574351367
+        }
+      },
+      "vs_exact_hamiltonian": {
+        "charge": {
+          "rmse": 0.17977421288727125,
+          "max_abs": 0.4915813903492917
+        },
+        "spin_z": {
+          "rmse": 0.48185544339907627,
+          "max_abs": 0.6311757407698504
+        },
+        "double_occupancy": {
+          "rmse": 0.15623401029349943,
+          "max_abs": 0.24005900033928018
+        }
+      },
+      "total_charge": 8.516631382146832,
+      "total_spin_z": 0.14754215061223466
+    },
+    {
+      "profile": "factor_1",
+      "vs_exact_circuit": {
+        "charge": {
+          "rmse": 0.18712912941450494,
+          "max_abs": 0.5425780920471757
+        },
+        "spin_z": {
+          "rmse": 0.5047966187015346,
+          "max_abs": 0.619752112021569
+        },
+        "double_occupancy": {
+          "rmse": 0.15841091485034534,
+          "max_abs": 0.21528125497169354
+        }
+      },
+      "vs_exact_hamiltonian": {
+        "charge": {
+          "rmse": 0.18795487727050006,
+          "max_abs": 0.5452119011844923
+        },
+        "spin_z": {
+          "rmse": 0.5106096256601873,
+          "max_abs": 0.6260726450803603
+        },
+        "double_occupancy": {
+          "rmse": 0.16106267403170604,
+          "max_abs": 0.21811567664365356
+        }
+      },
+      "total_charge": 8.705078125,
+      "total_spin_z": 0.130859375
+    },
+    {
+      "profile": "factor_3",
+      "vs_exact_circuit": {
+        "charge": {
+          "rmse": 0.28999648792714616,
+          "max_abs": 0.8628905920471757
+        },
+        "spin_z": {
+          "rmse": 0.7611009789467548,
+          "max_abs": 0.856080237021569
+        },
+        "double_occupancy": {
+          "rmse": 0.19750651914073195,
+          "max_abs": 0.2330637831312462
+        }
+      },
+      "vs_exact_hamiltonian": {
+        "charge": {
+          "rmse": 0.29090528680554784,
+          "max_abs": 0.8655244011844923
+        },
+        "spin_z": {
+          "rmse": 0.766924857696666,
+          "max_abs": 0.8624007700803603
+        },
+        "double_occupancy": {
+          "rmse": 0.2000652380791011,
+          "max_abs": 0.2332083102885462
+        }
+      },
+      "total_charge": 8.904296875,
+      "total_spin_z": 0.173828125
+    },
+    {
+      "profile": "factor_5",
+      "vs_exact_circuit": {
+        "charge": {
+          "rmse": 0.2846050584056086,
+          "max_abs": 0.8414062170471757
+        },
+        "spin_z": {
+          "rmse": 0.8132217157410601,
+          "max_abs": 0.910190673487929
+        },
+        "double_occupancy": {
+          "rmse": 0.208392862383346,
+          "max_abs": 0.2506419081312462
+        }
+      },
+      "vs_exact_hamiltonian": {
+        "charge": {
+          "rmse": 0.28538704286327016,
+          "max_abs": 0.8440400261844923
+        },
+        "spin_z": {
+          "rmse": 0.8190450221908029,
+          "max_abs": 0.916388252481136
+        },
+        "double_occupancy": {
+          "rmse": 0.21089785762185495,
+          "max_abs": 0.2507864352885462
+        }
+      },
+      "total_charge": 9.09375,
+      "total_spin_z": -0.015625
+    }
+  ],
+  "zne_point_estimate_screen_passed": false,
+  "targets": {
+    "rmse_each_observable": 0.05,
+    "max_site_error_each_observable": 0.1
+  },
+  "qpu_charge_time_seconds": 3,
+  "claim_boundary": "Small exact-reference full-fermion hardware pilot. Pointwise statistical errors do not include all ZNE systematic bias; no advantage claim."
+}

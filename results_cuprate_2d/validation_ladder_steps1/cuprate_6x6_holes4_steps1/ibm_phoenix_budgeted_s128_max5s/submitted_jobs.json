@@ -1,0 +1,81 @@
+{
+  "account_name": "qiskit-runtime-q9",
+  "backend": "ibm_phoenix",
+  "circuit_family": "number_preserving_t_only",
+  "initial_layout": null,
+  "initial_layout_path": null,
+  "job_id": "dadgm5dnj4cs73ads6ng",
+  "job_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "circuits_execution_time_ns": 7215872,
+    "qiskit_version": "qiskit_ibm_runtime-0.48.0,qiskit-2.5.2*,qiskit_aer-0.17.2,qiskit_experiments-0.14.1,qiskit_optimization-0.6.1,qiskit_addon_opt_mapper-0.1.0,qiskit_fermions-0.1.0,qiskit_addon_pna-0.2.0,qiskit_addon_slc-0.1.0,qiskit_addon_sqd-0.12.1,qiskit_addon_utils-0.4.0,mthree-3.0.0,pauli_prop-0.2.0",
+    "timestamps": {
+      "created": "2026-09-04T18:16:53.219409Z",
+      "finished": "2026-09-04T18:21:13.115626Z",
+      "running": "2026-09-04T18:17:01.930321Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 3,
+      "status": "complete"
+    }
+  },
+  "job_usage_seconds": 3,
+  "last_checked_at_utc": "2026-09-04T18:25:17.074556+00:00",
+  "last_status": "DONE",
+  "max_execution_time": 5,
+  "plan_path": "results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/ibm_phoenix_budgeted_s128_max5s/cuprate_2d_ibm_hardware_plan.json",
+  "qpu_charge_time_seconds": 3,
+  "readout_repetitions": 1,
+  "readout_shots_requested": 128,
+  "roles": [
+    "main",
+    "readout_all0",
+    "readout_all1"
+  ],
+  "shots": 128,
+  "submitted": true,
+  "submitted_at_utc": "2026-09-04T18:16:53.591682+00:00",
+  "transpiled_summaries": [
+    {
+      "clbits": 72,
+      "depth": 249,
+      "operation_counts": {
+        "barrier": 5,
+        "cz": 777,
+        "measure": 72,
+        "rz": 1520,
+        "sx": 1906,
+        "x": 54
+      },
+      "qubits": 120,
+      "size": 4329,
+      "two_qubit_count": 777,
+      "two_qubit_depth": 89
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72
+      },
+      "qubits": 120,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 120,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

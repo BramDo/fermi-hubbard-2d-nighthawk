@@ -1,0 +1,10 @@
+test_bad_sector_stops_without_relaxation (test_analyze_cuprate_2d_tflo_compact_run.CompactAnalysisTests.test_bad_sector_stops_without_relaxation) ... ok
+test_central_results_match_existing_evaluator (test_analyze_cuprate_2d_tflo_compact_run.CompactAnalysisTests.test_central_results_match_existing_evaluator) ... ok
+test_fit_ignores_all_holdout_references (test_analyze_cuprate_2d_tflo_compact_run.CompactAnalysisTests.test_fit_ignores_all_holdout_references) ... ok
+test_interacting_training_rejected (test_analyze_cuprate_2d_tflo_compact_run.CompactAnalysisTests.test_interacting_training_rejected) ... ok
+test_zero_crossing_and_insufficient_bootstrap_do_not_pass (test_analyze_cuprate_2d_tflo_compact_run.CompactAnalysisTests.test_zero_crossing_and_insufficient_bootstrap_do_not_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.114s
+
+OK

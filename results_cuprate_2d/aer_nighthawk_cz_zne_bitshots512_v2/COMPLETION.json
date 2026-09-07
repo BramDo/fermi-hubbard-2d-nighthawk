@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE_LOCAL_EQUAL512_BITSHOT_COMPARISON",
+  "new_qpu_seconds": 0,
+  "checks": {
+    "status": "PASS_INDEPENDENT_BIT_OCCUPATION_AND_SHARED_CI_AUDIT",
+    "hash_counts": [
+      120,
+      5,
+      126
+    ],
+    "unique_new_bitshots": 728,
+    "raw_arm_shots": 512,
+    "zne_arm_shots": 512,
+    "shared_bitshots": 296,
+    "raw_cz_applications": 516096,
+    "zne_cz_applications": 878976,
+    "actually_executed_union_cz_applications": 1096704,
+    "independent_physical_error": 4.440892098500626e-16,
+    "independent_primary_spin_ci": [
+      0.02747986938754762,
+      0.1053468515175678
+    ],
+    "raw_hex_memory_and_counts_verified": true,
+    "readout_mask_independently_decoded": true,
+    "shared_factor1_budget_independently_verified": true,
+    "new_qpu_seconds": 0
+  },
+  "tests": 50,
+  "scope": "Same shot counts; shared-data covariance retained; not equal gate/time cost or actual hardware mitigation."
+}

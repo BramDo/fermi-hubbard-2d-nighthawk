@@ -1,0 +1,24 @@
+{
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "sources": {
+    "ibm": {
+      "backend": "ibm_phoenix",
+      "job_id": "dadhca3dd5gc73d7b8vg",
+      "path": "results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/ibm_phoenix_floquet_xy4_twirling_s128_max5s/cuprate_2d_ibm_raw_results.json"
+    }
+  }
+}

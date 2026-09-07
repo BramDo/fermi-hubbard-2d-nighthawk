@@ -1,0 +1,49 @@
+{
+  "validation_passed": true,
+  "thresholds": {
+    "rmse": 0.001,
+    "maximum_site_difference": 0.005,
+    "particle_number_drift": 0.01,
+    "minimum_retained_norm_weight": 0.99
+  },
+  "comparisons": [
+    {
+      "chi_low": 16,
+      "chi_high": 32,
+      "differences": {
+        "charge": {
+          "rmse": 0.0033851376251037577,
+          "max_abs": 0.008352982617596594
+        },
+        "spin_z": {
+          "rmse": 0.01626140406515407,
+          "max_abs": 0.024193741158560766
+        },
+        "double_occupancy": {
+          "rmse": 0.006331356234179456,
+          "max_abs": 0.011066824160089472
+        }
+      },
+      "passes_screening_thresholds": false
+    }
+  ],
+  "two_consecutive_refinements_pass": false,
+  "case_count": 2,
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 20000
+  },
+  "claim_boundary": "Finite-chi circuit convergence screening, not an exact 6x6 Hamiltonian reference. Independent dt convergence is also required.",
+  "hardware_submission_allowed_by_this_script": false
+}

@@ -1,0 +1,12 @@
+{
+  "returncode": 0,
+  "cold_worker_seconds": 156.9054965819996,
+  "peak_polled_rss_bytes": 343674880,
+  "poll_interval_seconds": 0.1,
+  "stop_reason": null,
+  "includes_imports": true,
+  "includes_Windows_WSL_launcher": false,
+  "measured_with_concurrent_local_work": true,
+  "isolated_performance_benchmark": false,
+  "only_owned_child_terminated": false
+}

@@ -1,0 +1,17 @@
+{
+  "chi32_seconds": 32.18295136300003,
+  "chi64_seconds": 150.81918013700124,
+  "observed_ratio": 4.686306685669433,
+  "chi128_same_ratio_seconds": 706.7849322032115,
+  "chi128_cubic_seconds": 1206.55344109601,
+  "user_15_times_150_seconds": 2250,
+  "chi128_measured": false,
+  "chi128_started": false,
+  "rough_planning_minutes": [
+    12,
+    25
+  ],
+  "not_a_confidence_interval_or_guaranteed_upper_bound": true,
+  "chi64_timing_with_concurrent_local_work": true,
+  "generic_MPS_SVD_scaling_source": "https://arxiv.org/abs/1901.05824"
+}

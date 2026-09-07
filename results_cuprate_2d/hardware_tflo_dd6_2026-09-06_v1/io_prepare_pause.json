@@ -1,0 +1,7 @@
+{
+  "owned_pid_stopped": 15245,
+  "no_hardware_attempt": true,
+  "plan_preserved": true,
+  "reason": "Resume immutable plan with byte-identical QPY roundtrip checks",
+  "time": 1788725471.1189997
+}

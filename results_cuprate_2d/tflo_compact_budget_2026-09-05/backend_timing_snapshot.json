@@ -1,0 +1,850 @@
+{
+  "captured_utc": "2026-09-05T17:38:21.910870+00:00",
+  "name": "ibm_phoenix",
+  "qubits": 120,
+  "operational": true,
+  "pending_jobs_at_capture": 0,
+  "properties_updated": "2026-09-05 19:14:58+02:00",
+  "dt_seconds": 4e-09,
+  "pulse_alignment_dt": 1,
+  "acquire_alignment_dt": 1,
+  "default_rep_delay_seconds": 1e-06,
+  "rep_delay_range_seconds": [
+    0.0,
+    0.002
+  ],
+  "selected_reset_duration_seconds": 4e-07,
+  "layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "faulty_qubits": [],
+  "used_instructions": [
+    {
+      "name": "rz",
+      "qubits": [
+        101
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        101
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0004033522641844482
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        102
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        102
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00015552102127897125
+    },
+    {
+      "name": "x",
+      "qubits": [
+        102
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00015552102127897125
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        103
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        103
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00016780138167062027
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        102,
+        103
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0010960114304673918
+    },
+    {
+      "name": "x",
+      "qubits": [
+        103
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00016780138167062027
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        103,
+        102
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0010960114304673918
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        104
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        104
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00010274075690338292
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        105
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        105
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00018787027844477145
+    },
+    {
+      "name": "x",
+      "qubits": [
+        105
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00018787027844477145
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        104,
+        105
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0018846836878466389
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        105,
+        104
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0018846836878466389
+    },
+    {
+      "name": "x",
+      "qubits": [
+        104
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00010274075690338292
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        103,
+        104
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0014183732569194862
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        106
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        106
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00040642439245703205
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        107
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        107
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0003512340998255912
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        106,
+        107
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0026776507064079913
+    },
+    {
+      "name": "x",
+      "qubits": [
+        107
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0003512340998255912
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        107,
+        106
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0026776507064079913
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        105,
+        106
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0016367081366811531
+    },
+    {
+      "name": "x",
+      "qubits": [
+        106
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00040642439245703205
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        108
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        108
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00020689060911495814
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        109
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        109
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00020214373866617497
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        108,
+        109
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0016340018970151249
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        109,
+        108
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0016340018970151249
+    },
+    {
+      "name": "x",
+      "qubits": [
+        109
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00020214373866617497
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        107,
+        108
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.002050003153417801
+    },
+    {
+      "name": "x",
+      "qubits": [
+        108
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00020689060911495814
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        111
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        111
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0006309378581540929
+    },
+    {
+      "name": "x",
+      "qubits": [
+        111
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0006309378581540929
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        111,
+        101
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.002622968071544468
+    },
+    {
+      "name": "x",
+      "qubits": [
+        101
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0004033522641844482
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        101,
+        111
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.002622968071544468
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        101,
+        102
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0016217619832374353
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        112
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        112
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0002100897950932027
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        113
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        113
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00024930784810826606
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        113,
+        112
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0017971761046717272
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        112,
+        113
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0017971761046717272
+    },
+    {
+      "name": "x",
+      "qubits": [
+        112
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0002100897950932027
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        114
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        114
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00018271657729103944
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        115
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        115
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0007383192298638783
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        115,
+        114
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0021331768785282923
+    },
+    {
+      "name": "x",
+      "qubits": [
+        114
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00018271657729103944
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        114,
+        115
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0021331768785282923
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        114,
+        113
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0013627963463887782
+    },
+    {
+      "name": "x",
+      "qubits": [
+        113
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00024930784810826606
+    },
+    {
+      "name": "x",
+      "qubits": [
+        115
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0007383192298638783
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        116
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        116
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00025290826191180316
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        117
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        117
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00027982458719231807
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        117,
+        116
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0019803901053838946
+    },
+    {
+      "name": "x",
+      "qubits": [
+        116
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00025290826191180316
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        116,
+        117
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0019803901053838946
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        116,
+        115
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.002297199070022793
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        118
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        118
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0001276069982250091
+    },
+    {
+      "name": "rz",
+      "qubits": [
+        119
+      ],
+      "duration_seconds": 0.0,
+      "error": 0.0
+    },
+    {
+      "name": "sx",
+      "qubits": [
+        119
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0003612452308778932
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        119,
+        118
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0033837215672429533
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        118,
+        119
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0033837215672429533
+    },
+    {
+      "name": "x",
+      "qubits": [
+        118
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0001276069982250091
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        118,
+        117
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.00127056178007387
+    },
+    {
+      "name": "x",
+      "qubits": [
+        117
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.00027982458719231807
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        109,
+        119
+      ],
+      "duration_seconds": 6.8e-08,
+      "error": 0.0038941011816885085
+    },
+    {
+      "name": "x",
+      "qubits": [
+        119
+      ],
+      "duration_seconds": 4e-08,
+      "error": 0.0003612452308778932
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        112
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0069580078125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        113
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.037841796875
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        114
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0057373046875
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        115
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0042724609375
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        116
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0047607421875
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        117
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0064697265625
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        118
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0089111328125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        119
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0074462890625
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        109
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0030517578125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        108
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.005859375
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        107
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.104736328125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        106
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.010009765625
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        105
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.007080078125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        104
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.01123046875
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        103
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.005126953125
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        102
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0054931640625
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        101
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0111083984375
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        111
+      ],
+      "duration_seconds": 1.94e-06,
+      "error": 0.0274658203125
+    }
+  ]
+}

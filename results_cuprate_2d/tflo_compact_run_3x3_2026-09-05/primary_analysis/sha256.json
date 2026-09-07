@@ -1,0 +1,14 @@
+{
+  "RESULT_REPORT.md": "6b0f7b046cfc54c169b8dbbdd26e4bf518efe53028c797ce1737be2cf6038ab9",
+  "U0_fit_frozen.json": "c3cad6fbe972a2c2d4ad66f5221fb67cafe9c9abec412573e28370bf827d6a9e",
+  "bootstrap_pauli_predictions.npz": "9f1e82d537d143e41aa5da2b7594e0f516ec3eb7a6bb74c9cb4018c7eaa1b61a",
+  "implementation_frozen.json": "c76bbdc67440616a4fbd2021d637db22e812553d3d7a0354e55ef76d7dae4a95",
+  "results.json": "3155130b7d83ad39a63e1363f72b6717cf4fa473eaf428e7efbf2c6dc75feb48",
+  "retention.json": "c2dc93c3fd8e86569e69f5cdc2c4682dbe9bb44cdc53864e952acea04195f27b",
+  "source_snapshot/analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84",
+  "source_snapshot/analyze_cuprate_2d_tflo_compact_run.py": "667db31839ad3e1819f1f4f5192b3b4daded61c567b0ec713c767080c11aabeb",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+  "source_snapshot/test_analyze_cuprate_2d_tflo_compact_run.py": "7487c1c28a9e5d15b8874c7ff267b43ad7315121d99aeb04ae7f5726f3e75e62",
+  "unit_tests.txt": "b84bb693e86a604e290db335e38f5757da5ea5411d125a5a4454e22e31b8657e"
+}

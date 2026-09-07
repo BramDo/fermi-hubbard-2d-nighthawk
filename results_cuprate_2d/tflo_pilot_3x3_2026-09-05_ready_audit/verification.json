@@ -1,0 +1,2760 @@
+{
+  "passed": true,
+  "plan_dir": "results_cuprate_2d/tflo_pilot_3x3_2026-09-05_ready",
+  "audit_checks": 682,
+  "checks": [
+    {
+      "name": "safe_path_README.md",
+      "passed": true
+    },
+    {
+      "name": "sha256_README.md",
+      "passed": true
+    },
+    {
+      "name": "safe_path_interacting_holdout_U8_T0.2_reference_state.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256_interacting_holdout_U8_T0.2_reference_state.npz",
+      "passed": true
+    },
+    {
+      "name": "safe_path_interacting_holdout_U8_T0.4_reference_state.npz",
+      "passed": true
+    },
+    {
+      "name": "sha256_interacting_holdout_U8_T0.4_reference_state.npz",
+      "passed": true
+    },
+    {
+      "name": "safe_path_logical_template.qpy",
+      "passed": true
+    },
+    {
+      "name": "sha256_logical_template.qpy",
+      "passed": true
+    },
+    {
+      "name": "safe_path_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "sha256_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "safe_path_native_template.qpy",
+      "passed": true
+    },
+    {
+      "name": "sha256_native_template.qpy",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/analyze_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/analyze_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/cuprate_2d_fermionic_dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/cuprate_2d_fermionic_dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/cuprate_2d_fermionic_mapping.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/cuprate_2d_fermionic_mapping.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/cuprate_2d_fermionic_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/cuprate_2d_fermionic_pilot.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/cuprate_2d_hubbard_pipeline.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/cuprate_2d_hubbard_pipeline.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/prepare_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/prepare_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/test_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/test_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_source_snapshot/validate_cuprate_2d_fermionic_dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "sha256_source_snapshot/validate_cuprate_2d_fermionic_dynamics.py",
+      "passed": true
+    },
+    {
+      "name": "safe_path_twirled_sampler_templates.qpy",
+      "passed": true
+    },
+    {
+      "name": "sha256_twirled_sampler_templates.qpy",
+      "passed": true
+    },
+    {
+      "name": "safe_path_validation.json",
+      "passed": true
+    },
+    {
+      "name": "sha256_validation.json",
+      "passed": true
+    },
+    {
+      "name": "exact_validation",
+      "passed": true
+    },
+    {
+      "name": "qpy_native_signature",
+      "passed": true
+    },
+    {
+      "name": "qpy_native_operations",
+      "passed": true
+    },
+    {
+      "name": "eight_twirl_templates",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.3', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 3)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 0)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.5', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('interacting_holdout_U8_T0.2', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 5)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.4', 4)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 6)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.2', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0', 7)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.15', 1)",
+      "passed": true
+    },
+    {
+      "name": "unique_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "mask_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "seed_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "time_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "U_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('train_U0_T0.1', 2)",
+      "passed": true
+    },
+    {
+      "name": "unique_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "mask_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "seed_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "time_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "U_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "all_parameters_bound_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "preserved_twirl_skeleton_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "CZ_exposure_('flo_holdout_U0_T0.35', 4)",
+      "passed": true
+    },
+    {
+      "name": "complete_settings",
+      "passed": true
+    },
+    {
+      "name": "total_shots",
+      "passed": true
+    },
+    {
+      "name": "no_submission_authority",
+      "passed": true
+    },
+    {
+      "name": "unit_tests",
+      "passed": true
+    }
+  ],
+  "physics_checks": 98,
+  "maxima": {
+    "FLO_vs_full_statevector": 1.7841284005726266e-13,
+    "same_legacy_unitary_on_initial_state": 1.000107432889462e-13,
+    "unitary_equivalence": 3.901262740236963e-14
+  },
+  "unit_test_command": [
+    "/home/bram/.venvs/qiskit/bin/python",
+    "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/test_cuprate_2d_tflo.py"
+  ],
+  "unit_test_exit_code": 0,
+  "versions": {
+    "python": "3.12.3",
+    "qiskit": "2.5.2",
+    "numpy": "2.4.6"
+  },
+  "source_sha256": {
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "prepare_cuprate_2d_tflo.py": "4fa36abe2457cc67a1e6cb95433c16a33ab3b2564622d89266e7684045f25a8f",
+    "test_cuprate_2d_tflo.py": "ee7d4a1fe7ccbbd692fe18e0c56c2154d6d01d586ddcc7c42b75a4d34e59a539",
+    "analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84",
+    "audit_cuprate_2d_tflo.py": "a72b6da4d0702dcf4a66723a7bfe0fa3118981bb905dabe121de2801b6c6d8c5"
+  },
+  "hardware_improvement_demonstrated": false,
+  "new_QPU_seconds": 0
+}

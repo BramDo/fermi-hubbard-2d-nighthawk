@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_512_SYNTHETIC_SHOTS",
+  "shots": 512,
+  "twirls": 8,
+  "setting_id": "interacting_holdout_U8_T0.4",
+  "qpu_seconds": 0,
+  "sum_aer_run_wall_seconds": 760.288259015997,
+  "this_execution_loop_wall_seconds": 761.2775344209986,
+  "analysis_pending": true
+}

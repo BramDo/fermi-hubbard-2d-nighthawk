@@ -1,0 +1,28 @@
+test_changed_readout_bit_order_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_changed_readout_bit_order_rejected) ... ok
+test_gate_and_measurement_permutation (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_gate_and_measurement_permutation) ... ok
+test_nonterminal_measurement_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_nonterminal_measurement_rejected) ... ok
+test_unmapped_wire_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_unmapped_wire_rejected) ... ok
+test_asymmetric_readout_matches_physical_not_local_indices (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_asymmetric_readout_matches_physical_not_local_indices) ... ok
+test_cz_channel_matches_original_physical_calibration (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_cz_channel_matches_original_physical_calibration) ... ok
+test_duplicate_layout_rejected (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_duplicate_layout_rejected) ... ok
+test_missing_frequency_supported_without_fabrication (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_missing_frequency_supported_without_fabrication) ... ok
+test_properties_are_unchanged_and_permuted_exactly (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_properties_are_unchanged_and_permuted_exactly) ... ok
+test_symmetric_cz_reverse_present (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_symmetric_cz_reverse_present) ... ok
+test_time_unit_conversion (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_time_unit_conversion) ... ok
+test_bootstrap_covariance_preserves_fixed_charge (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_bootstrap_covariance_preserves_fixed_charge) ... ok
+test_bootstrap_variance_matches_empirical_resampling_law (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_bootstrap_variance_matches_empirical_resampling_law) ... ok
+test_fixed_standard_error_formula (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_fixed_standard_error_formula) ... ok
+test_fixed_twirl_variance_not_between_twirl_variance (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_fixed_twirl_variance_not_between_twirl_variance) ... ok
+test_independent_dataset_resampling (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_independent_dataset_resampling) ... ok
+test_minimum_acceptance_enforced (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_minimum_acceptance_enforced) ... ok
+test_physical_spin_convention (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_physical_spin_convention) ... ok
+test_ps_is_pooled_not_per_twirl_unweighted (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_ps_is_pooled_not_per_twirl_unweighted) ... ok
+test_seed_reproducibility_and_hierarchical_mode (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_seed_reproducibility_and_hierarchical_mode) ... ok
+test_simultaneous_band_does_not_reject_zero_delta_for_positive_rmse (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_simultaneous_band_does_not_reject_zero_delta_for_positive_rmse) ... ok
+test_wrong_sample_shape_rejected (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_wrong_sample_shape_rejected) ... ok
+test_zero_reference_error (test_aer_cuprate_nighthawk_512.MatchedStatisticsTests.test_zero_reference_error) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 6.150s
+
+OK

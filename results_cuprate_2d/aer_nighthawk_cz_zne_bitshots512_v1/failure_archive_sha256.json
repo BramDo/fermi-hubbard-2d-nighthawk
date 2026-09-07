@@ -1,0 +1,23 @@
+{
+  "FAILURE.json": "61e22cb19719915d040dc4576cc17f8aeb87a499c567764d0fd07dab2cff25d6",
+  "noise_model.json": "0836af34e4a4b8781c042ac5f604a06630fd7f04f39d0e5425260ef9096ca2a7",
+  "plan.json": "61f973e867f9878cd2be199ba125bac0ea8c266840e0e4e400ac7748c03af7c6",
+  "preflight_unit_tests.txt": "be8d85351446d220290855f9ee9a09cae0297bab033d5ca016676ef4d83e4c33",
+  "circuits/0_0.qpy": "55c472450564f40402a12d7db8af0c33c83e8194bf8ce65b32506438f5a08e80",
+  "source_snapshot/aer_cuprate_cz_half.py": "e0f84d7321e35474d29abb29e501023d0ee6177f644ce69e6b0ff875fd357409",
+  "source_snapshot/aer_cuprate_cz_half_v2.py": "533b4cc22fd5b4302ef009d0f996a8374619bacbb223bbc063c13bdce9743766",
+  "source_snapshot/aer_cuprate_cz_zne.py": "4944c6aeb02e021f5a40289ee4d129cd3d530b9a6c9e6be94c8d812ff9cdfaa2",
+  "source_snapshot/aer_cuprate_cz_zne_bitshots.py": "8fa20d2cca0092a2cea2d5c8b798d466dd22c9632c58339d5619dadee0d828a1",
+  "source_snapshot/aer_cuprate_gate_split.py": "8c543a088ce4a14787be4211fc709472ccd62aa1387fd694ead4e920b6691e93",
+  "source_snapshot/aer_cuprate_nighthawk_smoke.py": "0e2e74459b7e2e84210a8bb6d25999b2e32d65aa559df73101b056521dc8f288",
+  "source_snapshot/aer_cuprate_noise_components.py": "f76fe25b082edc21c6536a55e09f566dc55992eefd51803e2a1ecdbf96210826",
+  "source_snapshot/AER_CZ_ZNE_BITSHOTS_512_PROTOCOL.md": "d1be0534045ff1bf0630cc2d1713f3edf081aab27c6c6e3e48b51154476fbf0a",
+  "source_snapshot/analyze_aer_cuprate_cz_zne.py": "bbaf7075c0950829bb6b8a608bebf973ce8b55efeb0b34cb657b9b89a562e0f9",
+  "source_snapshot/analyze_aer_cuprate_cz_zne_bitshots.py": "ba316249b865bd0b862031ad82a206f4ed49aff807b12a9a554c33e0ca374ea5",
+  "source_snapshot/analyze_aer_noise_components.py": "cb2e17fd4873728697c032c61cbe2cdf3206eae782666d849eb9776e541cbbf0",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/test_aer_cuprate_cz_zne.py": "f3e8f8fd08136fb986c47e6c53ea6ca4ea5c6e8fd4589c856da3c851a1b71f1b",
+  "source_snapshot/test_aer_cuprate_cz_zne_bitshots.py": "3702269dc18c9835de20df7eb231841587ba6266138c3fd505fa933f6015d348",
+  "source_snapshot/verify_aer_cuprate_cz_zne_bitshots.py": "65033927d39e03a9acc4434cb56a4ed7e028f1e7172d0d16d53022b4acef2404",
+  "source_snapshot/verify_aer_noise_components.py": "37ba091f25d0c9007088681169aa2c4eef1ae59e2891b788116d8ecb467c048e"
+}

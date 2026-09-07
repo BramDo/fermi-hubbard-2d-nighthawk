@@ -1,0 +1,110 @@
+{
+  "status": "COMPLETE_TIMING_OF_POSTHOC_CLASSICAL_CONTROL",
+  "timings": {
+    "kernel_seconds": {
+      "all_seconds": [
+        0.11408738300087862,
+        0.11576817199966172,
+        0.11697776299843099,
+        0.09098594700481044,
+        0.10211854200315429
+      ],
+      "median_seconds": 0.11408738300087862,
+      "minimum_seconds": 0.09098594700481044,
+      "maximum_seconds": 0.11697776299843099,
+      "repetitions": 5
+    },
+    "import_and_script_start_seconds": {
+      "all_seconds": [
+        0.9074266520037781,
+        0.968931531002454,
+        0.8993386720030685,
+        0.8579529970011208,
+        0.8034691630018642
+      ],
+      "median_seconds": 0.8993386720030685,
+      "minimum_seconds": 0.8034691630018642,
+      "maximum_seconds": 0.968931531002454,
+      "repetitions": 5
+    },
+    "python_to_result_ready_seconds": {
+      "all_seconds": [
+        1.0215353170060553,
+        1.0847092109979712,
+        1.0163276009989204,
+        0.9489464330035844,
+        0.9056008179977653
+      ],
+      "median_seconds": 1.0163276009989204,
+      "minimum_seconds": 0.9056008179977653,
+      "maximum_seconds": 1.0847092109979712,
+      "repetitions": 5
+    },
+    "python_including_checks_seconds": {
+      "all_seconds": [
+        1.0673301150018233,
+        1.1099790709995432,
+        1.0358897460027947,
+        0.9675036250046105,
+        0.9300923109985888
+      ],
+      "median_seconds": 1.0358897460027947,
+      "minimum_seconds": 0.9300923109985888,
+      "maximum_seconds": 1.1099790709995432,
+      "repetitions": 5
+    },
+    "windows_wsl_python_complete": {
+      "all_seconds": [
+        1.6158444,
+        1.6796695,
+        1.6131289,
+        1.5151299,
+        1.4851169
+      ],
+      "median_seconds": 1.6131289,
+      "minimum_seconds": 1.4851169,
+      "maximum_seconds": 1.6796695,
+      "repetitions": 5
+    }
+  },
+  "classical_control_RMS_charge_spin_doublon": [
+    0.02930626559204128,
+    0.05759411383824057,
+    0.011376628950462972
+  ],
+  "N": 32.00000000000001,
+  "hardware_TFLO_DD_RMS_charge_spin_doublon": [
+    0.0717023093196292,
+    0.09139302397657019,
+    0.051586934277651875
+  ],
+  "control_RMS_smaller_in_all_three": true,
+  "old_MPS_kernel_seconds": 150.81918013700124,
+  "old_MPS_cold_worker_seconds": 156.9054965819996,
+  "old_MPS_had_concurrent_local_work": true,
+  "QPU_charged_seconds": 8,
+  "quantum_service_running_to_done_seconds": 260.371928,
+  "quantum_analysis_archive_and_bootstrap_seconds": 37.39284759899601,
+  "quantum_full_end_to_end_seconds_not_measured": true,
+  "verification": {
+    "training_profiles_match_archive_max_abs": 0.0,
+    "historical_RMS_reproduced_max_abs": 0.0,
+    "repeat_profile_max_abs": 0.0,
+    "config_matches_frozen_plan": true,
+    "all_references_recomputed": true,
+    "comparison_loaded_after_timed_workers": true,
+    "source_hashes_match_protocol_manifest": true
+  },
+  "benchmark_scope": "Five fresh processes; OS caches and other machine load uncontrolled; six references recomputed each time. Existing code, no performance tuning.",
+  "scientific_scope": "Post-hoc, fixed single-endpoint heuristic, not a U-dependent interacting dynamics solver. chi64 reference uncertified. No prospective tolerance or quantum advantage certification.",
+  "hardware_seconds_added": 0,
+  "source_artifact_sha256": {
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/plan.json": "5dae25b56a68c258c20bfd76461b25a22b215bbadf6b6320e553582c2d8cb7fd",
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/references.json": "307608ec6ad468da93bbc54fd9aedcb43a0e77ed36a23e036158ffab62bb8c8d",
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/analysis/summary.json": "dc1e1e90026eae8240cb0e0d702d6f891d5aaefd1acbed398c96b41d9bda6a08",
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/delivery_audit.json": "bf89b9adf7ca6163db81576a1fa639a6d831484e66231ee8cb65abc0fafd34e4",
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/provider_metrics.json": "9193e8039474fcc76cad23fde5681b386d12d2accdeb56c4381807f21e6eb234",
+    "results_cuprate_2d/hardware_tflo_dd6_2026-09-06_v1/delivery_sha256.json": "61735e1f22a915c144409ff34eee9bf55a81580ffe5431fd78d9422d85dfa5d9",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/summary.json": "642f74e6e04b59ae4cd329297bc5592d6bf63efba81903fabd1a4ab63cb4070e"
+  }
+}

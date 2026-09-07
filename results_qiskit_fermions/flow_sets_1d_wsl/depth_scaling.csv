@@ -1,0 +1,6 @@
+num_sites,flow_two_qubit_depth,flow_cx_count,lie_two_qubit_depth,lie_cx_count
+4,12,22,23,26
+10,12,58,47,74
+20,12,118,87,154
+50,12,298,207,394
+100,12,598,407,794

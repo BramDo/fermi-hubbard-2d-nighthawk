@@ -1,0 +1,212 @@
+{
+  "status": "PA_PILOT_COMPILED_NOT_HARDWARE_READY",
+  "tests_passed": 11,
+  "algebra": {
+    "modes": 72,
+    "qubits": 108,
+    "ancillas": 36,
+    "edge_algebra_checks": 11472,
+    "loop_rank": 25,
+    "unfixed_boundary_auxiliary_degrees": 11
+  },
+  "small_checks": {
+    "small_all_hopping_intertwining_max_abs": 0.0,
+    "small_encoding_isometry_max_abs": 1.1102230246251565e-15,
+    "small_native_state_and_output_permutation_max_abs": 7.209485120923825e-13,
+    "small_layered_vs_old_network_state_distance": 0.18668419296579283,
+    "state_distance_is_Trotter_order_change_not_mapping_error": true,
+    "all_6x6_preparation_loop_expectations": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "all_6x6_preparation_data_expectations_correct": true
+  },
+  "circuits": [
+    {
+      "name": "preparation_only",
+      "scope": "separate compilation, not additive",
+      "operations": {
+        "sx": 1498,
+        "cz": 852,
+        "rz": 482,
+        "x": 113
+      },
+      "cz": 852,
+      "physical_X_SX": 1611,
+      "depth": 870,
+      "CZ_depth": 375,
+      "snapshot_unaligned_duration_seconds": 3.931999999999989e-05,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/preparation_only.qpy"
+    },
+    {
+      "name": "network_seed9",
+      "ordering": "network",
+      "seed": 9,
+      "scope": "full preparation+evolution+data readout",
+      "operations": {
+        "sx": 41809,
+        "cz": 23138,
+        "rz": 12324,
+        "x": 1282,
+        "measure": 72
+      },
+      "cz": 23138,
+      "physical_X_SX": 43091,
+      "depth": 14603,
+      "CZ_depth": 6288,
+      "snapshot_unaligned_duration_seconds": 0.0006761359999998655,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/network_seed9.qpy"
+    },
+    {
+      "name": "network_seed9_twirl",
+      "ordering": "network",
+      "seed": 9,
+      "scope": "full preparation+evolution+data readout+one Pauli twirl",
+      "operations": {
+        "sx": 41759,
+        "rz": 39261,
+        "cz": 23138,
+        "x": 7887,
+        "measure": 72
+      },
+      "cz": 23138,
+      "physical_X_SX": 49646,
+      "depth": 19635,
+      "CZ_depth": 6288,
+      "snapshot_unaligned_duration_seconds": 0.0007229439999998465,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/network_seed9_twirl.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 46396,
+        "max_segment_error": 1.9539925233402755e-14,
+        "global_phase_error": 2.7869254743664608e-12,
+        "CZ_partial_order_preserved": true
+      }
+    },
+    {
+      "name": "layered_seed9",
+      "ordering": "layered",
+      "seed": 9,
+      "scope": "full preparation+evolution+data readout",
+      "operations": {
+        "sx": 39362,
+        "cz": 21670,
+        "rz": 12352,
+        "x": 1218,
+        "measure": 72
+      },
+      "cz": 21670,
+      "physical_X_SX": 40580,
+      "depth": 8733,
+      "CZ_depth": 3745,
+      "snapshot_unaligned_duration_seconds": 0.0004084079999999462,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/layered_seed9.qpy"
+    },
+    {
+      "name": "layered_seed9_twirl",
+      "ordering": "layered",
+      "seed": 9,
+      "scope": "full preparation+evolution+data readout+one Pauli twirl",
+      "operations": {
+        "sx": 39318,
+        "rz": 37341,
+        "cz": 21670,
+        "x": 7449,
+        "measure": 72
+      },
+      "cz": 21670,
+      "physical_X_SX": 46767,
+      "depth": 11752,
+      "CZ_depth": 3745,
+      "snapshot_unaligned_duration_seconds": 0.00043635199999993824,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/layered_seed9_twirl.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 43460,
+        "max_segment_error": 6.013459241079322e-14,
+        "global_phase_error": 1.6049925708642244e-12,
+        "CZ_partial_order_preserved": true
+      }
+    },
+    {
+      "name": "layered_seed27",
+      "ordering": "layered",
+      "seed": 27,
+      "scope": "full preparation+evolution+data readout",
+      "operations": {
+        "sx": 38772,
+        "cz": 21337,
+        "rz": 12444,
+        "x": 1227,
+        "measure": 72
+      },
+      "cz": 21337,
+      "physical_X_SX": 39999,
+      "depth": 7969,
+      "CZ_depth": 3404,
+      "snapshot_unaligned_duration_seconds": 0.00037226799999995965,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/layered_seed27.qpy"
+    },
+    {
+      "name": "layered_seed27_twirl",
+      "ordering": "layered",
+      "seed": 27,
+      "scope": "full preparation+evolution+data readout+one Pauli twirl",
+      "operations": {
+        "sx": 38721,
+        "rz": 36750,
+        "cz": 21337,
+        "x": 7372,
+        "measure": 72
+      },
+      "cz": 21337,
+      "physical_X_SX": 46093,
+      "depth": 10772,
+      "CZ_depth": 3404,
+      "snapshot_unaligned_duration_seconds": 0.00039796799999995187,
+      "exact_edgewise_factor2_possible": false,
+      "qpy": "circuits/layered_seed27_twirl.qpy",
+      "cleanup_proof": {
+        "local_2x2_segments": 42794,
+        "max_segment_error": 6.005608785484354e-14,
+        "global_phase_error": 2.8281156975011e-12,
+        "CZ_partial_order_preserved": true
+      }
+    }
+  ],
+  "best_candidate": "layered_seed27_twirl",
+  "new_classical_reference_required_for_layered": true,
+  "full_6x6_statevector_not_simulated": true,
+  "XYZ_paper_schedule_not_reproduced": true,
+  "ZNE_batch_not_prepared": true,
+  "hardware_authorized": false,
+  "QPU_seconds_used": 0,
+  "seconds": 115.56334470099682
+}

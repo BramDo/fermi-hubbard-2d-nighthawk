@@ -1,0 +1,215 @@
+{
+  "account_name": "qiskit-runtime-q9",
+  "backend": "ibm_phoenix",
+  "backend_num_qubits": 120,
+  "backend_operational": true,
+  "backend_pending_jobs": 0,
+  "circuit_family": "number_preserving_t_only",
+  "claim_boundary": "72-qubit IBM hardware smoke test for diagonal observables. Not a d-wave superconductivity or quantum advantage claim.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "created_at_utc": "2026-09-04T19:04:06.065030+00:00",
+  "dynamical_decoupling": {
+    "enable": true,
+    "scheduling_method": "alap",
+    "sequence_type": "XY4"
+  },
+  "gate_twirling": {
+    "enable": true,
+    "num_randomizations": 4,
+    "shots_per_randomization": 32,
+    "strategy": "active-accum"
+  },
+  "initial_layout": null,
+  "initial_layout_path": null,
+  "job_tags": [
+    "2d-cuprate-phoenix-floquet-xy4-twirling"
+  ],
+  "logical_summaries": [
+    {
+      "clbits": 72,
+      "depth": 8,
+      "operation_counts": {
+        "barrier": 5,
+        "measure": 72,
+        "rz": 72,
+        "rzz": 36,
+        "x": 32,
+        "xx_plus_yy": 120
+      },
+      "qubits": 72,
+      "size": 332,
+      "two_qubit_count": 156,
+      "two_qubit_depth": 5
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "measure": 72
+      },
+      "qubits": 120,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 120,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ],
+  "max_execution_time": 5,
+  "measurement_physical_qubits_by_cbit": [
+    18,
+    46,
+    39,
+    68,
+    69,
+    59,
+    109,
+    98,
+    88,
+    119,
+    79,
+    76,
+    28,
+    26,
+    38,
+    57,
+    49,
+    48,
+    78,
+    99,
+    87,
+    107,
+    97,
+    118,
+    27,
+    35,
+    37,
+    67,
+    58,
+    47,
+    77,
+    89,
+    86,
+    106,
+    108,
+    114,
+    25,
+    45,
+    56,
+    65,
+    54,
+    66,
+    84,
+    96,
+    85,
+    105,
+    103,
+    117,
+    24,
+    34,
+    36,
+    64,
+    53,
+    55,
+    83,
+    95,
+    74,
+    104,
+    94,
+    116,
+    23,
+    44,
+    33,
+    63,
+    43,
+    75,
+    72,
+    93,
+    73,
+    113,
+    82,
+    115
+  ],
+  "mitigation_plan": {
+    "readout": "all-0/all-1 calibration circuits; repeated calibrations are pooled in postprocessing",
+    "readout_shots_note": "IBM SamplerV2 direct runner uses one shots value per run here; different readout_shots requires separate jobs or provider-side support.",
+    "sector_profiles": "postselection is intentionally not applied automatically; keep raw/readout-corrected profiles separate."
+  },
+  "optimization_level": 1,
+  "readout_layout_matched": true,
+  "readout_repetitions": 1,
+  "readout_shots_requested": 128,
+  "roles": [
+    "main",
+    "readout_all0",
+    "readout_all1"
+  ],
+  "seed_transpiler": 9,
+  "shots": 128,
+  "submit": true,
+  "transpiled_summaries": [
+    {
+      "clbits": 72,
+      "depth": 249,
+      "operation_counts": {
+        "barrier": 5,
+        "cz": 777,
+        "measure": 72,
+        "rz": 1520,
+        "sx": 1906,
+        "x": 54
+      },
+      "qubits": 120,
+      "size": 4329,
+      "two_qubit_count": 777,
+      "two_qubit_depth": 89
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "measure": 72
+      },
+      "qubits": 120,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 120,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

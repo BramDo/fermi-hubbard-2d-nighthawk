@@ -1,0 +1,11 @@
+{
+  "status": "DONE_ARCHIVED_VERIFIED",
+  "job_id": "daer9j5nj4cs73afhofg",
+  "actual_shots": 6144,
+  "provider_circuits_match": 12,
+  "provider_result_metadata_match": 12,
+  "usage": {
+    "qpu_charge_time_seconds": 3,
+    "status": "complete"
+  }
+}

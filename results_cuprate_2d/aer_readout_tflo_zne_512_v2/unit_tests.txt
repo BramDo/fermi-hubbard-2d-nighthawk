@@ -1,0 +1,13 @@
+test_allocation_and_cost (test_aer_readout_tflo_zne.ReadoutTests.test_allocation_and_cost) ... ok
+test_asymmetric_correlated_joint_distribution_all_masks (test_aer_readout_tflo_zne.ReadoutTests.test_asymmetric_correlated_joint_distribution_all_masks) ... ok
+test_calibration_endianness (test_aer_readout_tflo_zne.ReadoutTests.test_calibration_endianness) ... ok
+test_identity_and_masks (test_aer_readout_tflo_zne.ReadoutTests.test_identity_and_masks) ... ok
+test_raw_shared_strata_and_identity_tflo (test_aer_readout_tflo_zne.ReadoutTests.test_raw_shared_strata_and_identity_tflo) ... ok
+test_seed_disjoint (test_aer_readout_tflo_zne.ReadoutTests.test_seed_disjoint) ... ok
+test_singular_refused (test_aer_readout_tflo_zne.ReadoutTests.test_singular_refused) ... ok
+test_zero_calibration_not_false_certainty (test_aer_readout_tflo_zne.ReadoutTests.test_zero_calibration_not_false_certainty) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.027s
+
+OK

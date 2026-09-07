@@ -1,0 +1,8 @@
+{
+  "tag": "compact-tflo6-1ae199c5cf7645b6",
+  "plan_sha256": "edfc322feba5b38b16cd161af314eb1113fd0828440ffb43b8c45bbe294aedf8",
+  "cap_seconds": 15,
+  "started_unix": 1788765992.777396,
+  "authorization_consumed_on_attempt": true,
+  "resubmit_allowed": false
+}

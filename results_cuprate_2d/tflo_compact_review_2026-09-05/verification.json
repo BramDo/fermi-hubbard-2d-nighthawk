@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "checks_passed": 25,
+  "checks": [
+    {
+      "name": "original_plan_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_lock_unchanged",
+      "passed": true
+    },
+    {
+      "name": "optimized_QPY_exact_copy",
+      "passed": true
+    },
+    {
+      "name": "proposal_unsubmitted",
+      "passed": true
+    },
+    {
+      "name": "no_authorization",
+      "passed": true
+    },
+    {
+      "name": "new_proposed_cap_5",
+      "passed": true
+    },
+    {
+      "name": "same_backend",
+      "passed": true
+    },
+    {
+      "name": "same_plan_hash",
+      "passed": true
+    },
+    {
+      "name": "preflight_passed",
+      "passed": true
+    },
+    {
+      "name": "preflight_source_unchanged",
+      "passed": true
+    },
+    {
+      "name": "no_QPU_used",
+      "passed": true
+    },
+    {
+      "name": "allocation_unchanged",
+      "passed": true
+    },
+    {
+      "name": "protocol_frozen",
+      "passed": true
+    },
+    {
+      "name": "classical_control_frozen",
+      "passed": true
+    },
+    {
+      "name": "local_checks_passed",
+      "passed": true
+    },
+    {
+      "name": "options_cap_and_shots",
+      "passed": true
+    },
+    {
+      "name": "no_extra_mitigation",
+      "passed": true
+    },
+    {
+      "name": "independent_timing_sum",
+      "passed": true
+    },
+    {
+      "name": "positive_finite_timing",
+      "passed": true
+    },
+    {
+      "name": "overhead_scenario_1",
+      "passed": true
+    },
+    {
+      "name": "overhead_scenario_2",
+      "passed": true
+    },
+    {
+      "name": "overhead_scenario_3",
+      "passed": true
+    },
+    {
+      "name": "conservative_two_subjob_screen",
+      "passed": true
+    },
+    {
+      "name": "default_rep_delay_preserved",
+      "passed": true
+    },
+    {
+      "name": "offline_unit_tests",
+      "passed": true
+    }
+  ],
+  "frozen_artifact_hashes_verified": 16,
+  "plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+  "budget_sha256": "76faac9e89131d05b328c278dde26394f771e5964697460671d957544df5cc3a",
+  "source_sha256": "1b0c49d7dbb8703d94ed6d0e1fb7dfb2636f7ad4cdaea7b7b66de74fb8bba370",
+  "unit_test_exit_code": 0,
+  "new_QPU_seconds": 0,
+  "new_submission_authorized": false
+}

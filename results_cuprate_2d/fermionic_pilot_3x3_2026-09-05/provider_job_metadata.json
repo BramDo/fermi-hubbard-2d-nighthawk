@@ -1,0 +1,20 @@
+{
+  "backend": "ibm_phoenix",
+  "created": "2026-09-05T09:15:46.693126Z",
+  "estimated_running_time_seconds": 14.136388687,
+  "id": "dadtrgjdd5gc73d7r7gg",
+  "cost": 5,
+  "program": {
+    "id": "estimator"
+  },
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "tags": [
+    "2d-cuprate",
+    "full-fermion-pilot",
+    "fh3x3-c5dfe715e15f42da"
+  ],
+  "user_id": "IBMid-50BM9T9EKR"
+}

@@ -1,0 +1,12 @@
+{
+  "checked_at_local": "2026-07-03T19:56:11+02:00",
+  "submitted": false,
+  "stage": "fireopal.execute",
+  "backend": "ibm_marrakesh",
+  "circuit_family": "number_preserving_t_only",
+  "steps": 1,
+  "error_type": "qctrlclient.exceptions.GraphQLQueryError",
+  "error_summary": "Q-CTRL rejected the submit because the daily API call limit was exceeded before a Fire Opal action_id was returned.",
+  "raw_error": "You have exceeded the maximum number of API calls per day. For increased rate limits, reach out to the Q-CTRL team at support@q-ctrl.com.",
+  "action_id": null
+}

@@ -1,0 +1,13 @@
+test_FLO_against_exact_statevector (test_hardware_control_5x5.TestControls.test_FLO_against_exact_statevector) ... ok
+test_allocation_and_scope_guards (test_hardware_control_5x5.TestControls.test_allocation_and_scope_guards) ... ok
+test_ambiguous_submission_does_not_retry (test_hardware_control_5x5.TestControls.test_ambiguous_submission_does_not_retry) ... ok
+test_configurations_and_preparations (test_hardware_control_5x5.TestControls.test_configurations_and_preparations) ... ok
+test_exactly_once_success_and_confirmation (test_hardware_control_5x5.TestControls.test_exactly_once_success_and_confirmation) ... ok
+test_fixed_native_skeleton_and_state (test_hardware_control_5x5.TestControls.test_fixed_native_skeleton_and_state) ... ok
+test_quota_and_budget (test_hardware_control_5x5.TestControls.test_quota_and_budget) ... ok
+test_readout_inverse_with_correlations_and_masks (test_hardware_control_5x5.TestControls.test_readout_inverse_with_correlations_and_masks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.257s
+
+OK

@@ -1,0 +1,108 @@
+# Fermi-Hubbard 2D cuprate series, part 4: time evolution and hardware diagnostics
+
+Originally published at:
+https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/
+
+Part 4 of 6 in the Fermi-Hubbard 2D cuprate series.
+Series page: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/
+
+The 3x3 run is where hardware first enters the 2D route. Because exact ED is
+available, the hardware output can be treated properly: not as a standalone
+result, but as a diagnostic signal compared against exact and approximate local
+baselines.
+
+The main question is simple:
+
+how close are IBM and Fire Opal to the same exact observable values?
+
+## Circuit depth matters immediately
+
+The shallow 3x3 route reduced the IBM-transpiled step-1 resources to:
+
+- logical depth: `8`
+- transpiled IBM depth: `167`
+- two-qubit count: `159`
+- two-qubit depth: `52`
+
+For the Fire Opal qelib step-1 route, the exported circuit had:
+
+- exported depth: `25`
+- CX count: `66`
+- two-qubit depth: `10`
+
+These numbers already explain part of the result. Fire Opal is not just a
+different postprocessing label. It changes the hardware route enough that the
+effective circuit presented to the device is much easier.
+
+## Step-by-step hardware comparison
+
+The hardware comparison below is sector-conditioned against exact full ED.
+
+| step | route | exact-sector survival | charge RMSE | spin-z RMSE | doublon RMSE |
+|---:|---|---:|---:|---:|---:|
+| 1 | IBM exact-sector | 0.224609 | 0.072170 | 0.098797 | 0.038610 |
+| 1 | Fire Opal exact-sector | 0.567568 | 0.012651 | 0.019293 | 0.010273 |
+| 2 | IBM exact-sector | 0.137695 | 0.123534 | 0.233135 | 0.073125 |
+| 2 | Fire Opal exact-sector | 0.332692 | 0.035551 | 0.074967 | 0.027467 |
+| 3 | IBM exact-sector | 0.146484 | 0.079577 | 0.182239 | 0.036406 |
+| 3 | Fire Opal exact-sector | 0.216972 | 0.031717 | 0.074023 | 0.023461 |
+
+The pattern is clear:
+
+- Fire Opal is systematically closer to exact ED than direct IBM.
+- Fire Opal has much higher exact-sector survival at step 1.
+- Sector survival still decays with time.
+- By step 3, the hardware result is still diagnostic, not a final physical
+  answer.
+
+## Why sector survival is central
+
+The intended circuit family is number-preserving. The physical sector is part
+of the model definition. If a large fraction of shots leave the expected
+particle sector, the measured observables mix physical dynamics with noise.
+
+Postselecting the exact sector can improve RMSE, but it also reduces the
+number of usable shots. That tradeoff matters:
+
+- without postselection, leakage contaminates the observable;
+- with exact-sector postselection, statistics may become thin;
+- near-sector analysis can show whether errors are small particle-number
+  defects or completely off-sector noise.
+
+For the 3x3 time sweep, Fire Opal begins with much better sector survival than
+direct IBM, but the survival still falls from about `0.568` at step 1 to about
+`0.217` at step 3.
+
+That is the strongest warning from this run. Better mitigation is useful, but
+longer time evolution still needs shallower circuits and better protection of
+the particle sector.
+
+## What the time evolution says physically
+
+The exact 3x3 time evolution shows early spin melting and doublon formation.
+Mean absolute spin-z decreases from `0.888889` at step 0 to `0.674849` at step
+4. Mean doublon rises from `0.000000` to about `0.064354` by step 4.
+
+TDHF follows the early diagonal observables surprisingly well, especially at
+step 1 and step 2. That does not make TDHF exact. It means that for this small
+early-time window, the measured observables are not yet maximally sensitive to
+correlations beyond mean field.
+
+The Gaussian/free baseline diverges faster, especially in spin-z and doublon.
+That is useful because it shows the chosen observables do see interaction
+effects over the time sweep.
+
+## The interpretation boundary
+
+The hardware data should be read as hardware diagnostics:
+
+- IBM direct hardware shows significant noise and leakage.
+- Fire Opal improves the 3x3 result substantially.
+- Neither route removes the need for exact comparison.
+- Longer time evolution is limited by sector survival and circuit depth.
+
+The right conclusion is not "the hardware solved 2D Hubbard". The right
+conclusion is that the 3x3 validation run can distinguish better and worse
+hardware routes on physically defined observables.
+
+That is exactly what this run was built to do.

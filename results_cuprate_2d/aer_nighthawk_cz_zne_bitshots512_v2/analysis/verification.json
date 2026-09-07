@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests": 50,
+  "run_files_verified": 120,
+  "source_input_hashes_verified": 30,
+  "independent_physical_error": 0.0,
+  "independent_ols_match": true,
+  "shared_prefix_size": 296,
+  "both_arm_shot_counts": 512
+}

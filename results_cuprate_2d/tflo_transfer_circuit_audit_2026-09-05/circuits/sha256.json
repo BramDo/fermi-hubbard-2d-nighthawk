@@ -1,0 +1,22 @@
+{
+  "best_eight_unbound_templates.qpy": "e7f3aeb43d8ba40ed54bfc50b68429213b7c2b852d3d1669b913d21910776e50",
+  "inputs.json": "23a72c539991d4a9813d33b6ae61e7bf31cd3e9d0acc7a016a85fd2565746b53",
+  "left_unbound_native.qpy": "3886b6e3727a63cd4b59d681d2b24c28b067ca4c270228b2ad3f3b0b18fb3965",
+  "look12_unbound_native.qpy": "3be6a722dd6ee36c51dd752aa8ee513201777e15281758cc0a80aeef1e2d1cf9",
+  "look4_unbound_native.qpy": "7e893c357715340d92b2b85b50a590d224183be1c02579fac4d9bb598b5b7c06",
+  "network_unbound_native.qpy": "649ec65ad75f13307c60f2703b0a76b9eacfd35c9fec0cd16aa04c27ad1b24b9",
+  "results.json": "4a7b5c87bb8f6189d4e133d8a6a65a28fa3a1b55cefe0acc55fafd7d71fdaf1d",
+  "right_unbound_native.qpy": "a8b5bb89008930f4f97b4f695608f23c58b40dc80418d644f88b28320d1bc15d",
+  "source_snapshot/analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84",
+  "source_snapshot/cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+  "source_snapshot/cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+  "source_snapshot/cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+  "source_snapshot/cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+  "source_snapshot/cuprate_2d_local_followup.py": "a67ff8c8a1385bb164291e14baa811cabbef2357d3ad59c22a68bfec1f2b7e82",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+  "source_snapshot/preflight_cuprate_2d_tflo_budget.py": "34747508fc6bb7a88f6f9267868671652bf9748fd55100395e45aa92fb8fc070",
+  "source_snapshot/run_cuprate_2d_local_followup.py": "17dfeae553f8428013ee82966e308718716e5f1b84fe1089cf5ed5307840d1fc",
+  "source_snapshot/test_cuprate_2d_local_followup.py": "6cbe14fd8fb8c9e1e9b9d858d236fc6635dd7c0a75705c0b9578148151abca36",
+  "source_snapshot/validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266"
+}

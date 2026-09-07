@@ -1,0 +1,13 @@
+{
+  "created_unix": 1788631339.1963255,
+  "source_sha256": {
+    "analyze_cuprate_2d_tflo_compact_run.py": "667db31839ad3e1819f1f4f5192b3b4daded61c567b0ec713c767080c11aabeb",
+    "test_analyze_cuprate_2d_tflo_compact_run.py": "7487c1c28a9e5d15b8874c7ff267b43ad7315121d99aeb04ae7f5726f3e75e62",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+    "analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84"
+  },
+  "pre_submission_protocol_sha256": "cfe212f3935c7c5952b56bd1217aea900ddffab29706c2630be6b8785f69ec5b",
+  "disclosure": "Implementation written after hardware execution to execute the previously frozen protocol; no new sample-dependent choices.",
+  "new_samples_loaded_by_this_analysis": false
+}

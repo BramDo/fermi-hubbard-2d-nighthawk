@@ -1,0 +1,17 @@
+{
+  "status": "PASS_DISJOINT_SEEDS_AND_NATIVE_TRACE_IDENTITY",
+  "hash_counts": {
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1": 74,
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/analysis": 5,
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds": 77,
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/analysis": 5,
+    "results_cuprate_2d/aer_seed_overlap_audit_2026-09-06": 2,
+    "results_cuprate_2d/aer_seed_overlap_impact_2026-09-06": 2
+  },
+  "native_wire_traces_identical_all_8_twirls": true,
+  "unique_seed_labels": 256,
+  "new_qpu_seconds": 0,
+  "historical_control_discrepancy_fully_resolved": false,
+  "seed_impact_manifest_sha256": "f9183e862214fdec72c480579450eda2e03761043ce2c61499809703bf2e6cbd",
+  "seed_regression_manifest_sha256": "e4c05e4dc140cec51dee94cb75ab670d698629f3623c642b2f0a6f9ba4dcb088"
+}

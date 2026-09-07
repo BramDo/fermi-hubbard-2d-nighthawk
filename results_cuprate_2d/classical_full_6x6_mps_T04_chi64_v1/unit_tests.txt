@@ -1,0 +1,23 @@
+test_deadline_before_work (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_deadline_before_work) ... ok
+test_exact2x2_full_state_and_observables (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_exact2x2_full_state_and_observables) ... ok
+test_fermionic_sign_and_involution (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fermionic_sign_and_involution) ... ok
+test_fused_matrix_against_qiskit (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_fused_matrix_against_qiskit) ... ok
+test_mu_rejected (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_mu_rejected) ... ok
+test_sizes_target_and_update_count (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_sizes_target_and_update_count) ... ok
+test_unitary (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_unitary) ... ok
+test_zeroU_polynomial_FLO_reference (test_benchmark_fermionic_6x6_mps.BenchmarkTests.test_zeroU_polynomial_FLO_reference) ... ok
+test_comparison_rejects_wrong_size_or_nonfinite (test_continue_fermionic_6x6_chi64.ContinuationTests.test_comparison_rejects_wrong_size_or_nonfinite) ... ok
+test_cpu_environment (test_continue_fermionic_6x6_chi64.ContinuationTests.test_cpu_environment) ... ok
+test_exclusive_write_preserves_first_value (test_continue_fermionic_6x6_chi64.ContinuationTests.test_exclusive_write_preserves_first_value) ... ok
+test_fixed_limits (test_continue_fermionic_6x6_chi64.ContinuationTests.test_fixed_limits) ... ok
+test_full_site_comparison (test_continue_fermionic_6x6_chi64.ContinuationTests.test_full_site_comparison) ... ok
+test_kernel_stop_independent_of_process (test_continue_fermionic_6x6_chi64.ContinuationTests.test_kernel_stop_independent_of_process) ... ok
+test_memory_stop_and_no_false_stop (test_continue_fermionic_6x6_chi64.ContinuationTests.test_memory_stop_and_no_false_stop) ... ok
+test_number_gate (test_continue_fermionic_6x6_chi64.ContinuationTests.test_number_gate) ... ok
+test_process_stop_with_no_kernel_marker (test_continue_fermionic_6x6_chi64.ContinuationTests.test_process_stop_with_no_kernel_marker) ... ok
+test_refuse_driver_with_existing_output (test_continue_fermionic_6x6_chi64.ContinuationTests.test_refuse_driver_with_existing_output) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.878s
+
+OK

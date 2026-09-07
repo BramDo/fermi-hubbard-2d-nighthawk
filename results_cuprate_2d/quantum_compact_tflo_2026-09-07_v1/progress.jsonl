@@ -1,0 +1,8 @@
+{"UTC": "2026-09-07T06:31:52.567251+00:00", "stage": "frozen", "inputs": 13}
+{"UTC": "2026-09-07T06:32:02.167017+00:00", "stage": "tests_passed", "count": 6}
+{"UTC": "2026-09-07T06:32:11.422031+00:00", "stage": "native_round", "round": 0, "CZ": 20736, "CZ_removed": 0, "counts": {"sx": 27164, "cz": 20736, "x": 17760, "rz": 8796}}
+{"UTC": "2026-09-07T06:32:45.850755+00:00", "stage": "twirl_complete", "twirl": 0, "before_us": 120.212, "after_us": 80.25200000000001, "CZ_before": 20736, "CZ_after": 20736, "pulses_before": 104847, "pulses_after": 36527}
+{"UTC": "2026-09-07T06:33:15.544550+00:00", "stage": "twirl_complete", "twirl": 1, "before_us": 121.01200000000001, "after_us": 80.412, "CZ_before": 20736, "CZ_after": 20736, "pulses_before": 105496, "pulses_after": 36337}
+{"UTC": "2026-09-07T06:33:45.206172+00:00", "stage": "twirl_complete", "twirl": 2, "before_us": 120.372, "after_us": 80.45200000000001, "CZ_before": 20736, "CZ_after": 20736, "pulses_before": 105448, "pulses_after": 36473}
+{"UTC": "2026-09-07T06:34:14.087558+00:00", "stage": "twirl_complete", "twirl": 3, "before_us": 120.61200000000001, "after_us": 80.29200000000002, "CZ_before": 20736, "CZ_after": 20736, "pulses_before": 104786, "pulses_after": 36441}
+{"UTC": "2026-09-07T06:34:14.368921+00:00", "stage": "worker_complete", "seconds": 134.77335069100081, "CZ_before": 20736, "CZ_after": 20736, "shorter_all_twirls": true}

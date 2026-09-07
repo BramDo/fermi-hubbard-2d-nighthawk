@@ -1,0 +1,13 @@
+{
+  "BEVINDINGEN.md": "b96be81c115838eac21c623a982f030ef054305b67fb9a18d981b06304405ca9",
+  "bootstrap_draws.npz": "934445c8b0efacb6cc66d59155708c0b94373b9075a0a520639cc88bb564c313",
+  "COMPLETION.json": "dd4e295971d7a6b037e6341311baa9614bc34c3cacfd8a170cc860f687802b3c",
+  "plan.json": "344d51e5a7faeab445c4e74c451e77136b8d6598d154a1f70d313aa7c3194350",
+  "results.json": "74028ee1a2fd4bbfc08e4d64cd647cee39aed8a4b25295652a681cf43231a82e",
+  "selected_bitstrings.json": "663ba78390e549509d9f1609dded1ca77ad9307122b2ebdc2af81dcd19ed2d6b",
+  "unit_tests.txt": "7fddd769bdb71e2785cb580981a64af96db4746f35f7ae2b694c433adec3b6d3",
+  "verification.json": "56f6dd0a8bd059c55f7d1de1ea8cb2efbbfbc120c3ade23384ac6af1ba3e008b",
+  "source_snapshot/AER_EQUAL_CZ_BUDGET_PROTOCOL.md": "1b9e3f7ba6e2c94b18b9e91958a7cd52840ea488902eb12f7c0d8b0a5cf3aadb",
+  "source_snapshot/analyze_aer_equal_cz_budget.py": "3059100b1ff9f207485f313d345be80c39c9702927cc2e2a33a0ca99a4a00c91",
+  "source_snapshot/test_aer_equal_cz_budget.py": "40617e92044984d8acc32c00a96699baa4d73270861fe38a88e3fdc4d0a6d32a"
+}

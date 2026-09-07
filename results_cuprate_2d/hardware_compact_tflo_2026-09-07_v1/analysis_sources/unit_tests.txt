@@ -1,0 +1,24 @@
+test_budget_exceeded (test_hardware_compact_tflo.Guards.test_budget_exceeded) ... ok
+test_confirmation_before_provider (test_hardware_compact_tflo.Guards.test_confirmation_before_provider) ... ok
+test_exactly_once_uncertain (test_hardware_compact_tflo.Guards.test_exactly_once_uncertain) ... ok
+test_instance_changed (test_hardware_compact_tflo.Guards.test_instance_changed) ... ok
+test_options_changed (test_hardware_compact_tflo.Guards.test_options_changed) ... ok
+test_provider_fault_and_quota (test_hardware_compact_tflo.Guards.test_provider_fault_and_quota) ... ok
+test_records_pairing (test_hardware_compact_tflo.Guards.test_records_pairing) ... ok
+test_stale_preflight (test_hardware_compact_tflo.Guards.test_stale_preflight) ... ok
+test_success_once (test_hardware_compact_tflo.Guards.test_success_once) ... ok
+test_timing_changed (test_hardware_compact_tflo.Guards.test_timing_changed) ... ok
+test_CZ_cancels_only_through_diagonal_endpoints (test_compact_symbolic_tflo.Tests.test_CZ_cancels_only_through_diagonal_endpoints) ... ok
+test_constant_full_operator_and_symbolic_anchors (test_compact_symbolic_tflo.Tests.test_constant_full_operator_and_symbolic_anchors) ... ok
+test_full_small_network_family (test_compact_symbolic_tflo.Tests.test_full_small_network_family) ... ok
+test_measurement_mapping_preserved (test_compact_symbolic_tflo.Tests.test_measurement_mapping_preserved) ... ok
+test_twirl_cleanup_preserves_family (test_compact_symbolic_tflo.Tests.test_twirl_cleanup_preserves_family) ... ok
+test_wrong_anchor_and_gate_rejected (test_compact_symbolic_tflo.Tests.test_wrong_anchor_and_gate_rejected) ... ok
+test_null_mean_affine_identity (test_analysis_hardware_compact_tflo.AnalysisTests.test_null_mean_affine_identity) ... ok
+test_paired_gain_sign_and_axes (test_analysis_hardware_compact_tflo.AnalysisTests.test_paired_gain_sign_and_axes) ... ok
+test_target_and_holdouts_do_not_train (test_analysis_hardware_compact_tflo.AnalysisTests.test_target_and_holdouts_do_not_train) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 6.129s
+
+OK

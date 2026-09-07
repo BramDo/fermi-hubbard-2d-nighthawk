@@ -1,0 +1,59 @@
+{
+  "job_id": "dadir8l1ierc738kubfg",
+  "status": "DONE",
+  "provider_input_keys": [
+    "options",
+    "pubs",
+    "resilience_level",
+    "support_qiskit",
+    "version"
+  ],
+  "provider_options": {
+    "default_shots": 512,
+    "resilience": {
+      "pec_mitigation": false,
+      "zne": {
+        "extrapolated_noise_factors": [
+          0
+        ],
+        "extrapolator": [
+          "linear",
+          "fallback"
+        ],
+        "noise_factors": [
+          1,
+          3,
+          5
+        ],
+        "amplifier": "gate_folding"
+      },
+      "zne_mitigation": true,
+      "measure_mitigation": false
+    }
+  },
+  "same_circuit_as_128": true,
+  "provider_circuit_matches_plan": true,
+  "same_options_except_shots": true,
+  "same_observable_records": true,
+  "comparison": [
+    {
+      "shots_per_noise_factor": 128,
+      "sites": 36,
+      "total_charge": 32.436979365598205,
+      "total_spin_z": -0.70571747921474,
+      "charge_rmse": 0.1372142589951749,
+      "spin_z_rmse": 0.14980378368562333,
+      "double_occupancy_rmse": 0.05727912856544082
+    },
+    {
+      "shots_per_noise_factor": 512,
+      "sites": 36,
+      "total_charge": 32.00343275357615,
+      "total_spin_z": -0.40574194365697686,
+      "charge_rmse": 0.13597504978340444,
+      "spin_z_rmse": 0.1519103105881028,
+      "double_occupancy_rmse": 0.053021254118189906
+    }
+  ],
+  "qpu_charge_time_seconds": 3
+}

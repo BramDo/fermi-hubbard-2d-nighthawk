@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "job_id": "dadtrgjdd5gc73d7r7gg",
+  "provider_circuit_matches_frozen_QPY": true,
+  "mapped_observables_verified": 27,
+  "provider_shots_per_factor": 512,
+  "provider_num_randomizations": 8,
+  "provider_max_execution_time": 5,
+  "qpu_charge_time_seconds": 3,
+  "maximum_time_verification": "Provider job cost field; SDK Runtime.program_run maps max_execution_time in seconds to cost.",
+  "physics_checks_passed": 37,
+  "source_snapshots_verified": 10,
+  "comparison_recomputed_from_complete_provider_result": true,
+  "reported_uncertainties": {
+    "stds": {
+      "shape": [
+        27
+      ],
+      "median": 0.14426382602689833,
+      "min": 0.047572028958997495,
+      "max": 0.2766263208195032
+    },
+    "stds_noise_factors": {
+      "shape": [
+        27,
+        3
+      ],
+      "median": 0.023011468101461287,
+      "min": 0.012089275784316355,
+      "max": 0.04118964200969363
+    },
+    "ensemble_stds_noise_factors": {
+      "shape": [
+        27,
+        3
+      ],
+      "median": 0.02961897218922341,
+      "min": 0.01809432475835786,
+      "max": 0.031248450240807784
+    }
+  },
+  "hardware_point_estimate_screen_passed": false,
+  "interpretation": "Execution/provenance audit passed; hardware accuracy target failed. These are distinct statements."
+}

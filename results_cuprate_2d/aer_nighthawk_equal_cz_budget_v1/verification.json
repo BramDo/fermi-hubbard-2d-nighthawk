@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "unit_tests": 19,
+  "direct_bit_physical_error": 0.0,
+  "independent_arm_physical_error": 8.881784197001252e-16,
+  "independent_ols_match": true,
+  "independent_primary_spin_ci": {
+    "low": 0.015568335090645369,
+    "high": 0.11343360282855636
+  },
+  "exact_per_support_cz_cost_match": true,
+  "parent_hashes_verified": 131,
+  "new_shots": 0,
+  "new_qpu_seconds": 0,
+  "independent_replicate": false
+}

@@ -1,0 +1,32 @@
+test_all_hubbard_terms_both_parity_sectors (test_cuprate_2d_pa_mapping.TestPA.test_all_hubbard_terms_both_parity_sectors) ... ok
+test_bound_cleanup_interface (test_cuprate_2d_pa_mapping.TestPA.test_bound_cleanup_interface) ... ERROR
+test_edge_algebra_and_loops (test_cuprate_2d_pa_mapping.TestPA.test_edge_algebra_and_loops) ... ok
+test_full_circuit_arbitrary_even_state_and_mu (test_cuprate_2d_pa_mapping.TestPA.test_full_circuit_arbitrary_even_state_and_mu) ... ok
+test_integer_pauli_against_qiskit (test_cuprate_2d_pa_mapping.TestPA.test_integer_pauli_against_qiskit) ... ok
+test_model_coverage (test_cuprate_2d_pa_mapping.TestPA.test_model_coverage) ... ok
+test_network_target_is_original (test_cuprate_2d_pa_mapping.TestPA.test_network_target_is_original) ... ok
+test_rotation_zero_and_inverse (test_cuprate_2d_pa_mapping.TestPA.test_rotation_zero_and_inverse) ... ok
+test_state_preparation (test_cuprate_2d_pa_mapping.TestPA.test_state_preparation) ... ok
+
+======================================================================
+ERROR: test_bound_cleanup_interface (test_cuprate_2d_pa_mapping.TestPA.test_bound_cleanup_interface)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/test_cuprate_2d_pa_mapping.py", line 135, in test_bound_cleanup_interface
+    clean,proof=compact_bound(qc)
+                ^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/cuprate_2d_shallow_network.py", line 145, in compact_bound
+    check=verify_cleanup(circuit,out)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/cuprate_2d_shallow_network.py", line 127, in verify_cleanup
+    lhs,rhs=wire_segments(before),wire_segments(after)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/cuprate_2d_shallow_network.py", line 120, in wire_segments
+    else: raise ValueError('Unexpected operation: '+name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Unexpected operation: h
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.873s
+
+FAILED (errors=1)

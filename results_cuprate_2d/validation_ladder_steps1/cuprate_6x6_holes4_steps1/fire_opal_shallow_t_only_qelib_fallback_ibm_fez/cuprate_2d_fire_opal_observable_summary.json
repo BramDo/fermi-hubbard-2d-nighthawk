@@ -1,0 +1,110 @@
+{
+  "artifacts": {
+    "bond_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/fire_opal_shallow_t_only_qelib_fallback_ibm_fez/cuprate_2d_fire_opal_bond_observables.csv",
+    "plot": "results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/fire_opal_shallow_t_only_qelib_fallback_ibm_fez/cuprate_2d_fire_opal_readout_corrected_observables.png",
+    "site_observables_csv": "results_cuprate_2d/validation_ladder_steps1/cuprate_6x6_holes4_steps1/fire_opal_shallow_t_only_qelib_fallback_ibm_fez/cuprate_2d_fire_opal_site_observables.csv"
+  },
+  "backend": "ibm_fez",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 6,
+    "ly": 6,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "particle_sector": {
+    "exact_sector_fraction": 0.0439453125,
+    "expected_n_down": 16,
+    "expected_n_up": 16,
+    "mean_abs_n_down_error": 1.470703125,
+    "mean_abs_n_up_error": 1.61328125,
+    "top_particle_sectors": [
+      {
+        "n_down": 16,
+        "n_up": 17,
+        "shots": 56
+      },
+      {
+        "n_down": 16,
+        "n_up": 18,
+        "shots": 51
+      },
+      {
+        "n_down": 17,
+        "n_up": 17,
+        "shots": 51
+      },
+      {
+        "n_down": 16,
+        "n_up": 16,
+        "shots": 45
+      },
+      {
+        "n_down": 18,
+        "n_up": 17,
+        "shots": 42
+      },
+      {
+        "n_down": 15,
+        "n_up": 17,
+        "shots": 39
+      },
+      {
+        "n_down": 17,
+        "n_up": 16,
+        "shots": 39
+      },
+      {
+        "n_down": 17,
+        "n_up": 18,
+        "shots": 38
+      },
+      {
+        "n_down": 15,
+        "n_up": 18,
+        "shots": 30
+      },
+      {
+        "n_down": 17,
+        "n_up": 15,
+        "shots": 29
+      }
+    ]
+  },
+  "profiles": {
+    "raw": {
+      "max_charge": 1.3837890625,
+      "mean_abs_spin_z": 0.6783854166666666,
+      "mean_charge": 0.9345160590277778,
+      "mean_double_occupancy": 0.0986056857638889,
+      "min_charge": 0.2265625,
+      "total_charge": 33.642578125,
+      "total_spin_z": 0.447265625
+    },
+    "readout_corrected": {
+      "max_charge": 1.3915087539591355,
+      "mean_abs_spin_z": 0.6790564019939038,
+      "mean_charge": 0.9357080170078744,
+      "mean_double_occupancy": 0.09892629497373367,
+      "min_charge": 0.22613043497553298,
+      "total_charge": 33.68548861228348,
+      "total_spin_z": 0.4560672092705961
+    }
+  },
+  "readout_calibration": {
+    "p01_max": 0.030029296875,
+    "p01_mean": 0.0004374186197916667,
+    "p10_max": 0.014669926650366748,
+    "p10_mean": 0.001280222765552839,
+    "shots_all0": 4096,
+    "shots_all1": 4090
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "actions": {
+    "main": {
+      "action_id": "2331677",
+      "metadata": {
+        "created_at": "2026-07-03 13:01:47",
+        "model_id": "2331677",
+        "name": "execute",
+        "status": "SUCCESS",
+        "updated_at": "2026-07-03 13:04:07"
+      }
+    },
+    "readout": {
+      "action_id": "2331678",
+      "metadata": {
+        "created_at": "2026-07-03 13:01:52",
+        "model_id": "2331678",
+        "name": "execute",
+        "status": "SUCCESS",
+        "updated_at": "2026-07-03 13:04:28"
+      }
+    }
+  },
+  "checked_at_unix": 1783084065.7158957
+}

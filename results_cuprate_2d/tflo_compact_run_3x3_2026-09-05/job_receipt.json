@@ -1,0 +1,12 @@
+{
+  "job_id": "dae5gat1ierc738lmg10",
+  "backend": "ibm_phoenix",
+  "account_name": "qiskit-runtime-q9",
+  "tag": "tflo-compact-829650b04e584a02",
+  "submitted_unix": 1788631084.448187,
+  "max_execution_time": 5,
+  "circuits": 80,
+  "shots": 5120,
+  "automatic_retry": false,
+  "plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d"
+}

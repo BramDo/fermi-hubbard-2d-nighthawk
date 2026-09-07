@@ -1,0 +1,8 @@
+{
+  "tag": "controls5-116abe9b21b04f0e",
+  "plan_sha256": "3236c873471583cd05df03780e706ebb1b30f3cf5c52a6940fdc894f6cc68c2f",
+  "cap_seconds": 5,
+  "started_unix": 1788720327.4091241,
+  "authorization_consumed_on_attempt": true,
+  "resubmit_allowed": false
+}

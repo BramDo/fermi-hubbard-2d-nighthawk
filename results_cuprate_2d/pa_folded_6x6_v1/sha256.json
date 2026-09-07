@@ -1,0 +1,13 @@
+{
+  "plan.json": "e85d0f046365af44680c85d9195dfd1fe5142a604e0811907ec9e2a0d88dc8c9",
+  "summary.json": "f5ec2e23319b08f2d1c9bc283fde4d4c56ef42018f9b9aa2fa9a1ef06164269e",
+  "unit_tests.txt": "584e127c424e1d52468fb0326a4a16cc0f692fc8eb012518a51839fdf73ad259",
+  "circuits/folded_native.qpy": "8de0f58d06fb32d589d165e1cd10b28f842d3b78ede778fd3e7cc0277e3dedbf",
+  "circuits/folded_twirl.qpy": "93ee0a6df8250793179ad3c81829bb8e8b497b5d9e273bc8820834022437fe20",
+  "source_snapshot/audit_pa_ancilla_6x6.py": "1864e8fea73edae9624b4f587d266c1bd42e5d96a9886cb6d365dbbe246076fe",
+  "source_snapshot/audit_pa_folded_layout.py": "fab0b97a6448a87e533f3daef5491ad37679336375eb12613540e682d8f96f0e",
+  "source_snapshot/cuprate_2d_pa_mapping.py": "a3fd212c6a72dbaee9131b80dd2282ad0c590f6b76b8c68c61a3e4de349c04a3",
+  "source_snapshot/cuprate_2d_pa_pair_synthesis.py": "9ce996cab17b8c9ceb8c2950db6e4e170df0da89ab858911ba545b5b3a224062",
+  "source_snapshot/test_cuprate_2d_pa_mapping.py": "cdb941ef598bafed23fd50c8230a45ffe88c6ba3f4da9d65b2b1328e000da5be",
+  "source_snapshot/test_cuprate_2d_pa_pair_synthesis.py": "133a07cdc72a66409a9941e0194aaaff526d7ceb188c319f01023fc8e3144835"
+}

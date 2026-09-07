@@ -1,0 +1,58 @@
+{
+  "backend": "ibm_marrakesh",
+  "job_id": "d93aa8l958jc73bspbvg",
+  "last_checked_at_utc": "2026-07-03T08:38:16.800321+00:00",
+  "last_status": "DONE",
+  "plan_path": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/ibm_hardware_steps1/cuprate_2d_ibm_hardware_plan.json",
+  "roles": [
+    "main",
+    "readout_all0",
+    "readout_all1"
+  ],
+  "shots": 512,
+  "submitted": true,
+  "submitted_at_utc": "2026-07-02T17:51:30.715967+00:00",
+  "transpiled_summaries": [
+    {
+      "clbits": 72,
+      "depth": 43344,
+      "operation_counts": {
+        "barrier": 1,
+        "cz": 42315,
+        "measure": 72,
+        "rz": 10882,
+        "sx": 71345,
+        "x": 109
+      },
+      "qubits": 156,
+      "size": 124723,
+      "two_qubit_count": 42315,
+      "two_qubit_depth": 19821
+    },
+    {
+      "clbits": 72,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72
+      },
+      "qubits": 156,
+      "size": 72,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 72,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 72,
+        "x": 72
+      },
+      "qubits": 156,
+      "size": 144,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

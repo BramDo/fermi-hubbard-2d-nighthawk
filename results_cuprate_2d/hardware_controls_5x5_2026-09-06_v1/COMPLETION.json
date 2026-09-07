@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_PREPARATION_PASS_DYNAMICS_FAIL",
+  "job_id": "daer9j5nj4cs73afhofg",
+  "QPU_seconds_charged": 3,
+  "cap_seconds": 5,
+  "submitted_jobs": 1,
+  "shots": 6144,
+  "circuits": 12,
+  "new_tests": 8,
+  "existing_regression_tests": 29,
+  "native_number_checks": 12,
+  "dense_operator_checks": 6,
+  "additional_hardware_authorized": false,
+  "canonical_attempt_sha256": "a2b6d76e794c972c79648126e84043b5a5ed56905b8d342950cb9b789596761e",
+  "mutable_hash_exclusions": [
+    "LOG.md"
+  ],
+  "U0_reference_exact_for_finite_circuit": true,
+  "preparation_small_bias_remains": true
+}

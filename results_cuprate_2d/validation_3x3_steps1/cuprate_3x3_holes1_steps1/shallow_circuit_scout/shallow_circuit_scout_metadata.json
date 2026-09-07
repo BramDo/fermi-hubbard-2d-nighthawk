@@ -1,0 +1,54 @@
+{
+  "backend": {
+    "backend": "ibm_marrakesh",
+    "backend_pending_jobs": 6,
+    "optimization_level": 1,
+    "seed_count": 10,
+    "seed_start": 1
+  },
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "families": {
+    "explicit_jw": {
+      "claim_boundary": "Current explicit row-major JW first-order Trotter circuit.",
+      "exact_jw_hamiltonian": true,
+      "family": "explicit_jw",
+      "particle_number_preserving_by_construction": true,
+      "pauli_terms_per_step": 107
+    },
+    "number_preserving_t_only": {
+      "claim_boundary": "Number-preserving shallow ansatz for resource/sector diagnostics. It omits nonlocal row-major JW parity strings and is not a validated 2D Hubbard replacement.",
+      "exact_jw_hamiltonian": false,
+      "family": "number_preserving_t_only",
+      "hopping_layers": 4,
+      "particle_number_preserving_by_construction": true
+    },
+    "number_preserving_t_tprime": {
+      "claim_boundary": "Number-preserving shallow ansatz for resource/sector diagnostics. It omits nonlocal row-major JW parity strings and is not a validated 2D Hubbard replacement.",
+      "exact_jw_hamiltonian": false,
+      "family": "number_preserving_t_tprime",
+      "hopping_layers": 8,
+      "particle_number_preserving_by_construction": true
+    },
+    "onsite_only": {
+      "claim_boundary": "Number-preserving shallow ansatz for resource/sector diagnostics. It omits nonlocal row-major JW parity strings and is not a validated 2D Hubbard replacement.",
+      "exact_jw_hamiltonian": false,
+      "family": "onsite_only",
+      "hopping_layers": 0,
+      "particle_number_preserving_by_construction": true
+    }
+  }
+}

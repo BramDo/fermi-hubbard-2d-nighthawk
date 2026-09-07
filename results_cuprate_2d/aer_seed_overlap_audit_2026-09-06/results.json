@@ -1,0 +1,479 @@
+{
+  "status": "CONFIRMED_ADJACENT_RUN_SEED_OVERLAP",
+  "qiskit": "2.5.2",
+  "aer": "0.17.2",
+  "official_source": "https://github.com/Qiskit/qiskit-aer/blob/0.17.2/src/simulators/circuit_executor.hpp",
+  "source_lines": [
+    823,
+    834
+  ],
+  "source_rule": "circ.seed + shot_index (shot zero uses init_rng)",
+  "tests": [
+    {
+      "parallel": 1,
+      "adjacent_shift_max_error": 0.0,
+      "disjoint_shift_max_difference": 1.4678427262974107,
+      "runs": [
+        {
+          "seed": 2026092000,
+          "values": [
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999927,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999982,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927
+          ],
+          "metadata": {
+            "time_taken": 0.001416188,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 1,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        },
+        {
+          "seed": 2026092001,
+          "values": [
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999927,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999982,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            -0.6365589774457927
+          ],
+          "metadata": {
+            "time_taken": 0.00142531,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 1,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        },
+        {
+          "seed": 2026093000,
+          "values": [
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927
+          ],
+          "metadata": {
+            "time_taken": 0.000950996,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 1,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "parallel": 2,
+      "adjacent_shift_max_error": 0.0,
+      "disjoint_shift_max_difference": 1.4678427262974107,
+      "runs": [
+        {
+          "seed": 2026092000,
+          "values": [
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999927,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999982,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927
+          ],
+          "metadata": {
+            "time_taken": 0.001670725,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 2,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        },
+        {
+          "seed": 2026092001,
+          "values": [
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999927,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.9999999999999982,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.9999999999999927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            -0.6365589774457927
+          ],
+          "metadata": {
+            "time_taken": 0.001208088,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 2,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        },
+        {
+          "seed": 2026093000,
+          "values": [
+            0.8312837488516179,
+            0.9999999999999982,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            -0.6365589774457927,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.8312837488516179,
+            0.9999999999999927
+          ],
+          "metadata": {
+            "time_taken": 0.001188137,
+            "num_bind_params": 1,
+            "parallel_state_update": 1,
+            "required_memory_mb": 1,
+            "input_qubit_map": [
+              [
+                0,
+                0
+              ]
+            ],
+            "method": "statevector",
+            "device": "CPU",
+            "num_qubits": 1,
+            "active_input_qubits": [
+              0
+            ],
+            "num_clbits": 0,
+            "remapped_qubits": false,
+            "parallel_shots": 2,
+            "runtime_parameter_bind": false,
+            "max_memory_mb": 7942,
+            "noise": "kraus",
+            "measure_sampling": false,
+            "batched_shots_optimization": false,
+            "result_types": {
+              "z": "save_expval"
+            },
+            "result_subtypes": {
+              "z": "list"
+            },
+            "fusion": {
+              "applied": false,
+              "max_fused_qubits": 2,
+              "threshold": 14,
+              "enabled": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "interpretation": "Cross-twirl independence cannot be assumed for old base+twirl seeds. Does not prove identical trajectories for different twirls or fully explain historical control discrepancy."
+}

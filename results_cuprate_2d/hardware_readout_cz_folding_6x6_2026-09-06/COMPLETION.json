@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_RETRIEVED_ANALYZED_CLASSICAL64_CHECKED",
+  "job_id": "daen2vdnj4cs73afcn00",
+  "hardware_shots": 13312,
+  "provider_circuits_verified": 26,
+  "qpu_charge_seconds": 5,
+  "qpu_cap_seconds": 15,
+  "no_new_hardware_job": true,
+  "no_resubmission": true,
+  "classical_chi64_complete": true,
+  "classical_chi128_started": false,
+  "classical_reference_certified": false,
+  "matched_accuracy_advantage_demonstrated": false,
+  "particle_number_target": 32,
+  "readout_zne_N": 35.76762870576764,
+  "readout_zne_N95_hybrid": [
+    35.56114746027543,
+    35.97554332948691
+  ],
+  "tests": 41,
+  "classical_summary_sha256": "642f74e6e04b59ae4cd329297bc5592d6bf63efba81903fabd1a4ab63cb4070e",
+  "classical_verification_sha256": "6e0398a797d8fea79dd22e77bb366fb20531f73d74ea7667742ec6de816a4def"
+}

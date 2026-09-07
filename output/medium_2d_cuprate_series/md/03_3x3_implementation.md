@@ -1,0 +1,119 @@
+# Fermi-Hubbard 2D cuprate series, part 3: our 3x3 implementation
+
+Originally published at:
+https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/
+
+Part 3 of 6 in the Fermi-Hubbard 2D cuprate series.
+Series page: https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/
+
+The first real run in this 2D route is a `3x3` lattice. That is small, but it
+is not arbitrary. A 3x3 lattice is small enough for exact fixed-sector
+diagonalization, and large enough to exercise the two-dimensional code path:
+site indexing, bonds, particle sectors, charge/spin observables, time
+evolution, and hardware measurement decoding.
+
+The role of 3x3 is validation, not scale.
+
+## Configuration
+
+The current 3x3 validation run uses:
+
+- lattice: `3x3`
+- sites: `9`
+- qubits: `18`
+- holes: `1`
+- particle sector: `N_up = N_down = 4`
+- exact fixed-sector ED dimension: `15876`
+- full Hubbard Hamiltonian nonzeros: `368046`
+- hardware circuit family: `number_preserving_t_only`
+
+The one-hole sector is useful because it is not trivial but still exactly
+tractable. It also lets the pipeline test particle-sector survival explicitly:
+after measurement, each bitstring can be checked against the expected number
+of spin-up and spin-down particles.
+
+## Why exact fixed-sector ED comes first
+
+Exact diagonalization is expensive, but for 3x3 it is still possible. That is
+why it should come before hardware interpretation.
+
+The fixed-sector exact calculation gives a clean reference for the same
+observables measured on hardware:
+
+- site charge;
+- site spin-z;
+- site double occupancy;
+- nearest-neighbor bond charge correlations;
+- nearest-neighbor bond spin-z correlations.
+
+It also gives a time sweep. That is important because a circuit can look fine
+at step 1 while failing quickly at later time. In this route, the exact full
+Hubbard sweep through step 4 keeps total charge and total spin-z conserved and
+shows early spin melting and doublon formation.
+
+## Exact full ED time sweep
+
+The full exact fixed-sector time sweep gives:
+
+| step | total charge | total spin-z | mean abs spin-z | mean doublon |
+|---:|---:|---:|---:|---:|
+| 0 | 8.000000 | 0.000000 | 0.888889 | 0.000000 |
+| 1 | 8.000000 | 0.000000 | 0.855116 | 0.016223 |
+| 2 | 8.000000 | 0.000000 | 0.778109 | 0.049209 |
+| 3 | 8.000000 | -0.000000 | 0.707763 | 0.069466 |
+| 4 | 8.000000 | -0.000000 | 0.674849 | 0.064354 |
+
+This is the physical reference for the small run. Total charge remains 8.
+Total spin-z remains zero. The mean absolute spin-z decreases, which is a
+simple signature of early spin melting. Double occupancy rises and then bends,
+showing that the interacting dynamics are not just a static bitstring pattern.
+
+## TDHF and Gaussian/free baselines
+
+The validation ladder also includes TDHF and Gaussian/free evolution.
+
+TDHF is a mean-field method. It can be very good at early times for diagonal
+observables, but it is not exact. It can deviate as interaction effects and
+correlations build up.
+
+The Gaussian/free baseline removes the interaction structure. It is useful
+because it asks: what would happen if the system were basically noninteracting?
+When the Gaussian/free result diverges quickly from exact full ED, that is a
+signal that the interacting part of the model is already visible in the chosen
+observables.
+
+Against exact full ED, the early-time RMSEs are:
+
+| step | source | charge RMSE | spin-z RMSE | doublon RMSE |
+|---:|---|---:|---:|---:|
+| 1 | exact t-only | 0.000519 | 0.000896 | 0.000079 |
+| 2 | exact t-only | 0.001871 | 0.003245 | 0.000982 |
+| 3 | exact t-only | 0.013111 | 0.006454 | 0.003472 |
+| 4 | exact t-only | 0.031148 | 0.009996 | 0.007165 |
+| 1 | TDHF | 0.000004 | 0.000029 | 0.000040 |
+| 2 | TDHF | 0.000196 | 0.001375 | 0.001822 |
+| 3 | TDHF | 0.001202 | 0.008724 | 0.011952 |
+| 4 | TDHF | 0.003642 | 0.019529 | 0.032194 |
+| 1 | Gaussian/free | 0.000378 | 0.001924 | 0.000889 |
+| 2 | Gaussian/free | 0.005167 | 0.026965 | 0.011859 |
+| 3 | Gaussian/free | 0.019970 | 0.109488 | 0.044513 |
+| 4 | Gaussian/free | 0.042469 | 0.254813 | 0.093432 |
+
+The pattern is useful. TDHF is excellent at the earliest step, but doublon
+starts to drift later. The Gaussian/free baseline separates faster, especially
+in spin-z and double occupancy.
+
+That gives the hardware comparison a real reference frame. A hardware result
+should not merely look smooth. It should land near the right reference on the
+same observables.
+
+## What the 3x3 run proves and does not prove
+
+The 3x3 run proves that the pipeline can define and compare a small 2D Hubbard
+problem across exact ED, TDHF, Gaussian/free, IBM hardware, and Fire Opal.
+
+It does not prove cuprate physics at scale. It does not prove superconducting
+order. It does not prove quantum advantage.
+
+That limitation is exactly why it is useful. It is a controlled place to find
+the errors before scaling up.

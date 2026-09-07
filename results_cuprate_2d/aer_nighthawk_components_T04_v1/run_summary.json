@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_128_TRAJECTORIES_PER_COMPONENT",
+  "new_qpu_seconds": 0,
+  "model_run_seconds": {
+    "residual_depolarization_only": 106.35028107599646,
+    "gate_time_relaxation_only": 197.53034394199858
+  }
+}

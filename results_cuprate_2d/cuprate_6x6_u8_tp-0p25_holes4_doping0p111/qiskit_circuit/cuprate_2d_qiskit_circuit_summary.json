@@ -1,0 +1,44 @@
+{
+  "circuit_family": "cuprate-2d-explicit-row-major-jw",
+  "claim_boundary": "Real Qiskit circuit for the 2D Hubbard target, but not hardware-routed or optimized for a backend topology.",
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 4,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 20000
+  },
+  "sites": 36,
+  "qubits": 72,
+  "hole_doping": 0.1111111111111111,
+  "total_time": 0.4,
+  "measured": true,
+  "pauli_terms_per_step": 548,
+  "depth": 12812,
+  "two_qubit_depth": 10610,
+  "operation_counts": {
+    "cx": 32928,
+    "h": 7040,
+    "rz": 2192,
+    "sdg": 1760,
+    "s": 1760,
+    "measure": 72,
+    "x": 32,
+    "barrier": 1
+  },
+  "artifacts": {
+    "qpy": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/qiskit_circuit/cuprate_2d_explicit_jw_trotter.qpy",
+    "qasm2": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/qiskit_circuit/cuprate_2d_explicit_jw_trotter.qasm",
+    "terms_csv": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/qiskit_circuit/cuprate_2d_explicit_jw_terms.csv",
+    "summary_json": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/qiskit_circuit/cuprate_2d_qiskit_circuit_summary.json",
+    "report_md": "results_cuprate_2d/cuprate_6x6_u8_tp-0p25_holes4_doping0p111/qiskit_circuit/cuprate_2d_qiskit_circuit_report.md"
+  }
+}

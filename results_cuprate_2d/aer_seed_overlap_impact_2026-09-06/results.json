@@ -1,0 +1,114 @@
+{
+  "status": "SEED_CLUSTER_SENSITIVITY_ONLY",
+  "metric": "linear spin contrast projection",
+  "rows": {
+    "old_512_full": {
+      "mean": 0.5895909122718075,
+      "nominal_trajectories_or_bitshots": 512,
+      "unique_seed_labels": 71,
+      "independent_assumption_se": 0.01683706509123743,
+      "shared_seed_cluster_sensitivity_se": 0.030137749317232343,
+      "se_ratio": 1.7899645308680925
+    },
+    "v1_overlapping_model0": {
+      "mean": 0.6852212415750625,
+      "nominal_trajectories_or_bitshots": 128,
+      "unique_seed_labels": 23,
+      "independent_assumption_se": 0.012848964577650565,
+      "shared_seed_cluster_sensitivity_se": 0.02646316561924561,
+      "se_ratio": 2.0595562746959026
+    },
+    "v1_overlapping_model1": {
+      "mean": 0.7445489341287382,
+      "nominal_trajectories_or_bitshots": 128,
+      "unique_seed_labels": 23,
+      "independent_assumption_se": 0.012015455411590877,
+      "shared_seed_cluster_sensitivity_se": 0.027275888429983557,
+      "se_ratio": 2.270066967555095
+    },
+    "v2_disjoint_model0": {
+      "mean": 0.6166767314028543,
+      "nominal_trajectories_or_bitshots": 128,
+      "unique_seed_labels": 128,
+      "independent_assumption_se": 0.01898495383386061,
+      "shared_seed_cluster_sensitivity_se": 0.01898495383386061,
+      "se_ratio": 1.0
+    },
+    "v2_disjoint_model1": {
+      "mean": 0.6894380175905848,
+      "nominal_trajectories_or_bitshots": 128,
+      "unique_seed_labels": 128,
+      "independent_assumption_se": 0.01509463654224462,
+      "shared_seed_cluster_sensitivity_se": 0.01509463654224462,
+      "se_ratio": 1.0
+    }
+  },
+  "unique_seed_identity_test": {
+    "mean": 15.019462069615509,
+    "nominal_trajectories_or_bitshots": 24,
+    "unique_seed_labels": 24,
+    "independent_assumption_se": 0.6867592663295232,
+    "shared_seed_cluster_sensitivity_se": 0.6867592663295232,
+    "se_ratio": 1.0
+  },
+  "historical_v1_minus_old512": {
+    "contrast_gap": 0.09563032930325499,
+    "diagnostic_se": 0.04010714485599744,
+    "gap_over_diagnostic_se": 2.3843714043123883
+  },
+  "formula": "sum over seed labels of squared sums of twirl-centered residuals, times m/(m-1)/(k*m)^2",
+  "not_a_validated_replacement_ci": true,
+  "caveats": [
+    "Small and unbalanced seed clusters; this is a sandwich sensitivity estimate, not a convergence certificate.",
+    "Different twirls consume common RNG streams differently; labels do not imply identical trajectories.",
+    "Shot zero uses Aer init_rng; preprocessing can affect its stream position.",
+    "Unique seed labels are not an estimate of effective independent sample size.",
+    "Do not assert this fully explains the historical control mismatch.",
+    "Hardware samples unaffected; previous Aer-dependent significance claims require reanalysis or independent rerun."
+  ],
+  "source_sha256": "545683bfb2e23edea34745b25c4966037642e437bd6af55df9dcb925d10686ed",
+  "input_sha256": {
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/plan.json": "9e1e457b75633b3ac20412e2420c3d0a136a917b5da8d4adb3c635ea9ebe4547",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_0/record.json": "9ef5d10112125394772170a2b9ec0c2eb445de5debad337cea25ed9b6673eadd",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_1/record.json": "b424773f2122e0b705855d3ebf32d170c9fad38e6f45b6db0812c29f51d8d80f",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_2/record.json": "0c1a72b36cc4773e136e0b552897b9db416a2601785df9f891652da54f28ff5d",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_3/record.json": "d7bfd1af631c869c3ec8814071b1cf581a33bc983c674bd9f8faf5a88ce57ccc",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_4/record.json": "8ef7775b6801137d7d20f10c15e9a0fb7be857753da7c044b88d0f2fc125f871",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_5/record.json": "6d07bb12b13c3227df4de2912be8add734b88a82059454b3ef0dbb034088aa8c",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_6/record.json": "daa768fb1e4d29f164258373ab5d8b792544ac31f96ed3afe9bd18428f6fec64",
+    "results_cuprate_2d/aer_nighthawk_512_T04_2026-09-05/blocks/twirl_7/record.json": "88d6619de618f8700c327295ff4173a4af17c9c98956ebac60d421ffddb2dbbe",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_0/record.json": "277a1a468ab0af8cae60c97959422b6720fb224a3fe6b1d058ace8ab27a3da85",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_1/record.json": "937ebde8799ff3b37d3772b031797ad68913be70bd290271dd535203bbc097a5",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_2/record.json": "c786b5de62de69507bf82b3cf4ec1082fc30257a6b4a7f414c7d563ab0f27bff",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_3/record.json": "a83783b803c98c0690d92ab3e3a673ea520ee877df3541038bd4960c07bfc6a3",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_4/record.json": "3370db67d6515ac25e055ad84da6d31c8936079bb8d1e4b9562e9f95dc72455a",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_5/record.json": "859e7326d2e836bdd347a89204b1342cdba54e736b5e2616d3dcd55b34982194",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_6/record.json": "d8c1cba988e5550d9274a54e66d39b46c780a7b6ff29844e7545680852cff0c8",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/0_7/record.json": "171463f771a78225f8574c73772b104dece9aa433c778fa082355441b6dc201f",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_0/record.json": "eb9db88e14b609e04a8d30bf959aed9ee8f1f6b0887b599568e49c97fbecf479",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_1/record.json": "698e1a9b6a650c21bddc4c78378e2e4a49b3acf56d8f26712bbdc0ada31a5db2",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_2/record.json": "a9ec8a921391f05b45d6e901f4ede6f57f7d42467d217e7574c82b176e9e70d4",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_3/record.json": "80461e2a93d56a3b2e9321005d2b7af86893a9cefb617376af4079b74914dc86",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_4/record.json": "34fbe10d739730d2145a795aaaf8555c66b88d44dd548c9a1ef1cdcfd4e2bd9f",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_5/record.json": "31c07a4ef09487027443b2f34ec599373b5718b5f0f93875cb4b37f94f041634",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_6/record.json": "d274209ba6e5295f443e75ae4f6fce079cc70e4462f7c6722ac02b2258e58989",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v1/blocks/1_7/record.json": "c1abd95a5b66120b3297dae9fbdc06a8e9bbe180c463c025f3a2125a434f8030",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_0/record.json": "d84eb48282a54cafd3be658a21e5644f7d1eeaec3e567efb45c37c76e0330d1f",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_1/record.json": "7c7fa29e3b0e19a38637d36285c6996d679b62ebc3e772a65757f869862f86ff",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_2/record.json": "3824e2e271f5bbf4eee9cef4fe84b130dbfb79451e89db84f920e300cb0875a5",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_3/record.json": "ddaa258249624c00bb4c1a9189446ce7fdfc5a178218ee195abbea5de4f1aced",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_4/record.json": "561ab8031e989231db78e3a48e98209f3e1588dec613d856829c1e884b625337",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_5/record.json": "b43d210585a649a450dba744f601d139de5584243ccf4dd5b813e142f7496ce0",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_6/record.json": "c3b47b655449cc170441a1cba916da722f0a440c7592da36d9037204d01b134f",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/0_7/record.json": "8e36befe992bf5dc611563bd7e1c6fc9826d576d7461b54a3e5ca606879ce2bc",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_0/record.json": "835e1a0060aed1ab458e08cc52e3ee9e7ceaf840608ca6994aeab19a027d78ae",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_1/record.json": "8378bef2cf7a02b2b9b7c6d73fa738eb32f5bf11df71852b295b1d6c9290c9f3",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_2/record.json": "427bedd1063fcc85e98c6b64be6eeb1172a2f12a42c880e609ff84252351d36c",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_3/record.json": "0010d59b687060d54590ec270e4d2cbcbb0c8e3e5571a662fc7bd751b72bbbf2",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_4/record.json": "4f038fe56f371b0d07b2806648463c0b0bc543b5df08f416248d457b2421fae1",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_5/record.json": "f7b8e2e0d993d050a8e7218865d088623156e27abf806b76ae63ca72cb206ec7",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_6/record.json": "b5ac90058bfb7ddb1314213dee482573c04f8e925fabad525b749b3837c13047",
+    "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds/blocks/1_7/record.json": "9c59937d3a4dd695f78c8dfdc6d9e17fbfda71eb7942973c8d40ecef7becf8ae"
+  },
+  "new_qpu_seconds": 0
+}

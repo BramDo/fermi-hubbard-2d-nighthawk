@@ -1,0 +1,40 @@
+{
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "scope": "same ideal original-network target, no hardware run",
+  "predictions_before_candidate_runs": [
+    "One-qubit cleanup should cut pulses with identical CZ trace.",
+    "Sparse routing may cut CZ counts but can increase serial depth; measure both.",
+    "No physical error/advantage improvement inferred from counts or calibration alone."
+  ],
+  "hardware_authorized": false,
+  "no_provider_calls": true,
+  "no_classical_chi128": true,
+  "limit_seconds": 600,
+  "rss_guard_bytes": 2147483648,
+  "input_sha256": {
+    "audit_shallow_6x6.py": "4cd327bd52673262bcdeea13219eb7d1d1dad06d6a022d80059553ec41d2dacd",
+    "cuprate_2d_shallow_network.py": "9b55643cbe02766d2b93198abf6c1c0e98dcb9c50593bf8f3d9ab2be2794e590",
+    "test_cuprate_2d_shallow_network.py": "1b809cd4a50fb7729f3dd459ff6fe96d61fee10c15c9886d588ab9c882f2177e",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e"
+  },
+  "parent_plan_sha256": "d117dbcda76825b8593c3e884220e7a626b8ae2b0c8677c6ecd816852faeaac6",
+  "calibration_sha256": "b0c722cef67e938a31c9d119d7ee1915300f5853ce2f466e505ea504bbfa7941"
+}

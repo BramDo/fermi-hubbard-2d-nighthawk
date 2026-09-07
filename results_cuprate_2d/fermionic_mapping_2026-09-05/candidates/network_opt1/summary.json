@@ -1,0 +1,19 @@
+{
+  "candidate": "network_opt1",
+  "method": "network",
+  "optimization_level": 1,
+  "compile_seconds": 2.9766941830002906,
+  "qubits": 120,
+  "depth": 1877,
+  "operations": {
+    "rz": 42644,
+    "sx": 23636,
+    "cz": 20736,
+    "x": 9870
+  },
+  "two_qubit_count": 20736,
+  "two_qubit_depth": 584,
+  "qpy_sha256": "5a1a4c0016ec354a7e2935c19d7721d2cb29c93c37ff702f7a54eb11df60c882",
+  "routing_swaps_added": false,
+  "same_reference_product_formula": false
+}

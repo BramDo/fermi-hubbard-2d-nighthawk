@@ -1,0 +1,14 @@
+{
+  "caller": "qiskit_ibm_runtime~sampler.py",
+  "qiskit_version": "qiskit_ibm_runtime-0.48.0,qiskit-2.5.2*,qiskit_aer-0.17.2,qiskit_experiments-0.14.1,qiskit_optimization-0.6.1,qiskit_addon_opt_mapper-0.1.0,qiskit_fermions-0.1.0,qiskit_addon_pna-0.2.0,qiskit_addon_slc-0.1.0,qiskit_addon_sqd-0.12.1,qiskit_addon_utils-0.4.0,mthree-3.0.0,pauli_prop-0.2.0",
+  "timestamps": {
+    "created": "2026-09-06T13:00:28.875531Z",
+    "finished": "2026-09-06T13:01:01.090896Z",
+    "running": "2026-09-06T13:00:45.328158Z"
+  },
+  "usage": {
+    "qpu_charge_time_seconds": 3,
+    "status": "complete"
+  },
+  "circuits_execution_time_ns": 24533248
+}

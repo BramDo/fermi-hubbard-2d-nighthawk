@@ -1,0 +1,506 @@
+[
+  {
+    "logical_qubit": 0,
+    "site": 0,
+    "spin": "up",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "logical_qubit": 1,
+    "site": 0,
+    "spin": "down",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "logical_qubit": 2,
+    "site": 1,
+    "spin": "up",
+    "x": 1,
+    "y": 0
+  },
+  {
+    "logical_qubit": 3,
+    "site": 1,
+    "spin": "down",
+    "x": 1,
+    "y": 0
+  },
+  {
+    "logical_qubit": 4,
+    "site": 2,
+    "spin": "up",
+    "x": 2,
+    "y": 0
+  },
+  {
+    "logical_qubit": 5,
+    "site": 2,
+    "spin": "down",
+    "x": 2,
+    "y": 0
+  },
+  {
+    "logical_qubit": 6,
+    "site": 3,
+    "spin": "up",
+    "x": 3,
+    "y": 0
+  },
+  {
+    "logical_qubit": 7,
+    "site": 3,
+    "spin": "down",
+    "x": 3,
+    "y": 0
+  },
+  {
+    "logical_qubit": 8,
+    "site": 4,
+    "spin": "up",
+    "x": 4,
+    "y": 0
+  },
+  {
+    "logical_qubit": 9,
+    "site": 4,
+    "spin": "down",
+    "x": 4,
+    "y": 0
+  },
+  {
+    "logical_qubit": 10,
+    "site": 5,
+    "spin": "up",
+    "x": 5,
+    "y": 0
+  },
+  {
+    "logical_qubit": 11,
+    "site": 5,
+    "spin": "down",
+    "x": 5,
+    "y": 0
+  },
+  {
+    "logical_qubit": 12,
+    "site": 6,
+    "spin": "up",
+    "x": 0,
+    "y": 1
+  },
+  {
+    "logical_qubit": 13,
+    "site": 6,
+    "spin": "down",
+    "x": 0,
+    "y": 1
+  },
+  {
+    "logical_qubit": 14,
+    "site": 7,
+    "spin": "up",
+    "x": 1,
+    "y": 1
+  },
+  {
+    "logical_qubit": 15,
+    "site": 7,
+    "spin": "down",
+    "x": 1,
+    "y": 1
+  },
+  {
+    "logical_qubit": 16,
+    "site": 8,
+    "spin": "up",
+    "x": 2,
+    "y": 1
+  },
+  {
+    "logical_qubit": 17,
+    "site": 8,
+    "spin": "down",
+    "x": 2,
+    "y": 1
+  },
+  {
+    "logical_qubit": 18,
+    "site": 9,
+    "spin": "up",
+    "x": 3,
+    "y": 1
+  },
+  {
+    "logical_qubit": 19,
+    "site": 9,
+    "spin": "down",
+    "x": 3,
+    "y": 1
+  },
+  {
+    "logical_qubit": 20,
+    "site": 10,
+    "spin": "up",
+    "x": 4,
+    "y": 1
+  },
+  {
+    "logical_qubit": 21,
+    "site": 10,
+    "spin": "down",
+    "x": 4,
+    "y": 1
+  },
+  {
+    "logical_qubit": 22,
+    "site": 11,
+    "spin": "up",
+    "x": 5,
+    "y": 1
+  },
+  {
+    "logical_qubit": 23,
+    "site": 11,
+    "spin": "down",
+    "x": 5,
+    "y": 1
+  },
+  {
+    "logical_qubit": 24,
+    "site": 12,
+    "spin": "up",
+    "x": 0,
+    "y": 2
+  },
+  {
+    "logical_qubit": 25,
+    "site": 12,
+    "spin": "down",
+    "x": 0,
+    "y": 2
+  },
+  {
+    "logical_qubit": 26,
+    "site": 13,
+    "spin": "up",
+    "x": 1,
+    "y": 2
+  },
+  {
+    "logical_qubit": 27,
+    "site": 13,
+    "spin": "down",
+    "x": 1,
+    "y": 2
+  },
+  {
+    "logical_qubit": 28,
+    "site": 14,
+    "spin": "up",
+    "x": 2,
+    "y": 2
+  },
+  {
+    "logical_qubit": 29,
+    "site": 14,
+    "spin": "down",
+    "x": 2,
+    "y": 2
+  },
+  {
+    "logical_qubit": 30,
+    "site": 15,
+    "spin": "up",
+    "x": 3,
+    "y": 2
+  },
+  {
+    "logical_qubit": 31,
+    "site": 15,
+    "spin": "down",
+    "x": 3,
+    "y": 2
+  },
+  {
+    "logical_qubit": 32,
+    "site": 16,
+    "spin": "up",
+    "x": 4,
+    "y": 2
+  },
+  {
+    "logical_qubit": 33,
+    "site": 16,
+    "spin": "down",
+    "x": 4,
+    "y": 2
+  },
+  {
+    "logical_qubit": 34,
+    "site": 17,
+    "spin": "up",
+    "x": 5,
+    "y": 2
+  },
+  {
+    "logical_qubit": 35,
+    "site": 17,
+    "spin": "down",
+    "x": 5,
+    "y": 2
+  },
+  {
+    "logical_qubit": 36,
+    "site": 18,
+    "spin": "up",
+    "x": 0,
+    "y": 3
+  },
+  {
+    "logical_qubit": 37,
+    "site": 18,
+    "spin": "down",
+    "x": 0,
+    "y": 3
+  },
+  {
+    "logical_qubit": 38,
+    "site": 19,
+    "spin": "up",
+    "x": 1,
+    "y": 3
+  },
+  {
+    "logical_qubit": 39,
+    "site": 19,
+    "spin": "down",
+    "x": 1,
+    "y": 3
+  },
+  {
+    "logical_qubit": 40,
+    "site": 20,
+    "spin": "up",
+    "x": 2,
+    "y": 3
+  },
+  {
+    "logical_qubit": 41,
+    "site": 20,
+    "spin": "down",
+    "x": 2,
+    "y": 3
+  },
+  {
+    "logical_qubit": 42,
+    "site": 21,
+    "spin": "up",
+    "x": 3,
+    "y": 3
+  },
+  {
+    "logical_qubit": 43,
+    "site": 21,
+    "spin": "down",
+    "x": 3,
+    "y": 3
+  },
+  {
+    "logical_qubit": 44,
+    "site": 22,
+    "spin": "up",
+    "x": 4,
+    "y": 3
+  },
+  {
+    "logical_qubit": 45,
+    "site": 22,
+    "spin": "down",
+    "x": 4,
+    "y": 3
+  },
+  {
+    "logical_qubit": 46,
+    "site": 23,
+    "spin": "up",
+    "x": 5,
+    "y": 3
+  },
+  {
+    "logical_qubit": 47,
+    "site": 23,
+    "spin": "down",
+    "x": 5,
+    "y": 3
+  },
+  {
+    "logical_qubit": 48,
+    "site": 24,
+    "spin": "up",
+    "x": 0,
+    "y": 4
+  },
+  {
+    "logical_qubit": 49,
+    "site": 24,
+    "spin": "down",
+    "x": 0,
+    "y": 4
+  },
+  {
+    "logical_qubit": 50,
+    "site": 25,
+    "spin": "up",
+    "x": 1,
+    "y": 4
+  },
+  {
+    "logical_qubit": 51,
+    "site": 25,
+    "spin": "down",
+    "x": 1,
+    "y": 4
+  },
+  {
+    "logical_qubit": 52,
+    "site": 26,
+    "spin": "up",
+    "x": 2,
+    "y": 4
+  },
+  {
+    "logical_qubit": 53,
+    "site": 26,
+    "spin": "down",
+    "x": 2,
+    "y": 4
+  },
+  {
+    "logical_qubit": 54,
+    "site": 27,
+    "spin": "up",
+    "x": 3,
+    "y": 4
+  },
+  {
+    "logical_qubit": 55,
+    "site": 27,
+    "spin": "down",
+    "x": 3,
+    "y": 4
+  },
+  {
+    "logical_qubit": 56,
+    "site": 28,
+    "spin": "up",
+    "x": 4,
+    "y": 4
+  },
+  {
+    "logical_qubit": 57,
+    "site": 28,
+    "spin": "down",
+    "x": 4,
+    "y": 4
+  },
+  {
+    "logical_qubit": 58,
+    "site": 29,
+    "spin": "up",
+    "x": 5,
+    "y": 4
+  },
+  {
+    "logical_qubit": 59,
+    "site": 29,
+    "spin": "down",
+    "x": 5,
+    "y": 4
+  },
+  {
+    "logical_qubit": 60,
+    "site": 30,
+    "spin": "up",
+    "x": 0,
+    "y": 5
+  },
+  {
+    "logical_qubit": 61,
+    "site": 30,
+    "spin": "down",
+    "x": 0,
+    "y": 5
+  },
+  {
+    "logical_qubit": 62,
+    "site": 31,
+    "spin": "up",
+    "x": 1,
+    "y": 5
+  },
+  {
+    "logical_qubit": 63,
+    "site": 31,
+    "spin": "down",
+    "x": 1,
+    "y": 5
+  },
+  {
+    "logical_qubit": 64,
+    "site": 32,
+    "spin": "up",
+    "x": 2,
+    "y": 5
+  },
+  {
+    "logical_qubit": 65,
+    "site": 32,
+    "spin": "down",
+    "x": 2,
+    "y": 5
+  },
+  {
+    "logical_qubit": 66,
+    "site": 33,
+    "spin": "up",
+    "x": 3,
+    "y": 5
+  },
+  {
+    "logical_qubit": 67,
+    "site": 33,
+    "spin": "down",
+    "x": 3,
+    "y": 5
+  },
+  {
+    "logical_qubit": 68,
+    "site": 34,
+    "spin": "up",
+    "x": 4,
+    "y": 5
+  },
+  {
+    "logical_qubit": 69,
+    "site": 34,
+    "spin": "down",
+    "x": 4,
+    "y": 5
+  },
+  {
+    "logical_qubit": 70,
+    "site": 35,
+    "spin": "up",
+    "x": 5,
+    "y": 5
+  },
+  {
+    "logical_qubit": 71,
+    "site": 35,
+    "spin": "down",
+    "x": 5,
+    "y": 5
+  }
+]

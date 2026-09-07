@@ -1,0 +1,9 @@
+{
+  "started_unix": 1788631075.5048153,
+  "tag": "tflo-compact-829650b04e584a02",
+  "plan_sha256": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+  "max_execution_time": 5,
+  "run_dir": "/mnt/c/Users/Lenna/SynologyDrive/qlab/fermi-hubbard-2d-cuprate/results_cuprate_2d/tflo_compact_run_3x3_2026-09-05",
+  "authorization_consumed_on_attempt": true,
+  "warning": "Never delete this lock or repeat the POST. Recover the existing job by this unique tag."
+}

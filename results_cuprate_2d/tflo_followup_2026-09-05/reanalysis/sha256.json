@@ -1,0 +1,9 @@
+{
+  "REANALYSIS_REPORT.md": "1437a32e0b1a536ab6c00dd678198ab81d50f04f124df6e933a66ad0a4759661",
+  "bootstrap_pauli_predictions.npz": "19fc58c76b051cb7354d5d0d76ec3668ae744ea944407d6d43179094091b6b57",
+  "results.json": "923eac329c30ea870ad9e52e1c0b095dc1617fd376c0f8991251be8b33d4b2b4",
+  "selected_filter_frozen.json": "af12793ebe7901ec9bb3916f9105954e8bd59ef46103cf6e59900341e3ed8d98",
+  "source_snapshot/cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+  "source_snapshot/refine_cuprate_2d_tflo.py": "72efc02733246387ecdb8ecb1936198275c0e3d36d6aea931369158046cea356",
+  "source_snapshot/test_cuprate_2d_tflo_refinement.py": "5b1925fc82a416d891d074453df9c423f0b3f66502a97e0714da308dc29d85e1"
+}

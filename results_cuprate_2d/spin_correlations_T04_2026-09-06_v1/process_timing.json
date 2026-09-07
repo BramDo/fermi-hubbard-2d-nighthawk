@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "wall_seconds": 20.27159391799796,
+  "includes_imports": true,
+  "includes_Windows_WSL_launcher": false,
+  "full_physics_simulation_time": false
+}

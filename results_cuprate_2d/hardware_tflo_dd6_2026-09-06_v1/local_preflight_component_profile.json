@@ -1,0 +1,10 @@
+{
+  "seconds": {
+    "input_check": 1.1489537860034034,
+    "ISA": 1.1542689239940955,
+    "manual_clock": 10.365180280998175,
+    "SDK_duration": 0.30538098699616967
+  },
+  "duration_seconds": 0.00012101200000000614,
+  "provider_calls": 0
+}

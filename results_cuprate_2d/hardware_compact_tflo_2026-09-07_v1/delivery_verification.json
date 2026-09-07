@@ -1,0 +1,32 @@
+{
+  "job_id": "daf6foe42tqs73avhoeg",
+  "cap_seconds": 15,
+  "charged_quantum_seconds": 7,
+  "provider_circuits_verified": 76,
+  "actual_shots": 38912,
+  "tests_passed": 19,
+  "original_and_compact_TFLO_screen": [
+    false,
+    false
+  ],
+  "QPY_mirrors_verified": 160,
+  "complete_raw_results_saved": true,
+  "original_QPY_files_retained": true,
+  "old_archives_unchanged": true,
+  "combined_bootstrap_byte_exactly_recoverable": true,
+  "independent_standard_library_result_check": {
+    "status": "PASS",
+    "method": "independent Python integer bit extraction and math.fsum; no NumPy or fit helper",
+    "raw_target_profile_max_abs": 0.0,
+    "RMS_max_abs": 1.1102230246251565e-16,
+    "N_max_abs": 7.105427357601002e-15,
+    "rows_checked": 20,
+    "holdout_screen_recomputed": [
+      false,
+      false
+    ],
+    "source_sha256": "287e0ddf3e890bfdaf78b32f56a57e03825ee4d323e5b324481f59932b4b7848"
+  },
+  "no_second_hardware_attempt": true,
+  "seconds": 32.20191639299446
+}

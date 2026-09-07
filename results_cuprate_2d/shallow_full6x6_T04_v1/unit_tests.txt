@@ -1,0 +1,14 @@
+test_2x3_final_fermionic_permutation (test_cuprate_2d_shallow_network.ShallowTests.test_2x3_final_fermionic_permutation) ... ok
+test_bad_cleanup_detected (test_cuprate_2d_shallow_network.ShallowTests.test_bad_cleanup_detected) ... ok
+test_bad_permutation (test_cuprate_2d_shallow_network.ShallowTests.test_bad_permutation) ... ok
+test_cleanup_unitary_and_CZ (test_cuprate_2d_shallow_network.ShallowTests.test_cleanup_unitary_and_CZ) ... ok
+test_fold_pairs_survive_cleanup (test_cuprate_2d_shallow_network.ShallowTests.test_fold_pairs_survive_cleanup) ... ok
+test_physical_event_counts (test_cuprate_2d_shallow_network.ShallowTests.test_physical_event_counts) ... ok
+test_qpy_metadata (test_cuprate_2d_shallow_network.ShallowTests.test_qpy_metadata) ... ok
+test_readout_permutation_and_mask (test_cuprate_2d_shallow_network.ShallowTests.test_readout_permutation_and_mask) ... ok
+test_small_full_unitary_all_routes (test_cuprate_2d_shallow_network.ShallowTests.test_small_full_unitary_all_routes) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.736s
+
+OK

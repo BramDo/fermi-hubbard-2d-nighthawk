@@ -1,0 +1,84 @@
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a></nav>
+
+<p>The first Fermi-Hubbard series on Edukaizen was about a one-dimensional chain. It used 60 qubits for 30 Hubbard sites, 8 Trotter steps, IBM hardware, and ITensorMPS TDVP as the classical reference. The best hardware route was close to the TDVP chi64 reference on the diagonal observables: charge RMSE <code>0.01471</code> and spin RMSE <code>0.03850</code>. The local chi64 TDVP run took about <code>821.277 s</code>.</p>
+
+<p>That first series was not a quantum-advantage claim. It was a reproducible engineering and validation snapshot. The useful part was not just the final number. The useful part was the workflow:</p>
+
+<ul>
+  <li>define the physical model;</li>
+  <li>choose observables that can be compared route by route;</li>
+  <li>use a fermion-aware circuit construction;</li>
+  <li>respect hardware layout and calibration;</li>
+  <li>run hardware;</li>
+  <li>compare against a local classical baseline;</li>
+  <li>keep the interpretation boundary explicit.</li>
+</ul>
+
+<p>This second series keeps that discipline, but moves from a 1D chain to a two-dimensional route.</p>
+
+<h2>Why 2D is a real change</h2>
+
+<p>One-dimensional Hubbard dynamics can already be hard, but the geometry gives you structure. A line can be mapped to a line of fermionic modes. A pair-interleaved Jordan-Wigner ordering and fSWAP routing can keep the circuit compact. The 1D route is still subtle, but the geometry is friendly.</p>
+
+<p>Two dimensions are different. A square lattice has horizontal and vertical bonds. Fermion routing becomes harder. Exact diagonalization fails earlier. Hardware connectivity matters more. A circuit that is acceptable for a small 3x3 lattice may already become too noisy at 4x4 if routing and mitigation are not under control.</p>
+
+<p>That is why the second series does not start by submitting the largest circuit we can write down. It starts with a ladder:</p>
+
+<ul>
+  <li><code>3x3</code>, because exact fixed-sector ED is still possible;</li>
+  <li><code>4x4</code>, because exact ED is no longer a comfortable general route and tensor baselines become necessary;</li>
+  <li>later larger dry-runs only after the 3x3 and 4x4 steps make sense.</li>
+</ul>
+
+<h2>What the new route tries to measure</h2>
+
+<p>The current 2D route uses diagonal Z-basis observables:</p>
+
+[latex syntax="display"]\mathrm{charge}_i=\langle n_{i,\uparrow}+n_{i,\downarrow}\rangle,\quad
+\mathrm{spin}^z_i=\langle n_{i,\uparrow}-n_{i,\downarrow}\rangle,\quad
+D_i=\langle n_{i,\uparrow}n_{i,\downarrow}\rangle[/latex]
+
+<p>It also tracks nearest-neighbor charge and spin-z bond correlations:</p>
+
+[latex syntax="display"]C^{nn}_{ij}=\langle n_i n_j\rangle,\quad
+C^{zz}_{ij}=\langle S^z_i S^z_j\rangle,\quad
+n_i=n_{i,\uparrow}+n_{i,\downarrow}[/latex]
+
+<p>These observables do not prove superconductivity. They do not measure off-diagonal d-wave pairing. They are the first layer of diagnostic physics: does charge move sensibly, does spin-z melt in a controlled way, does doublon formation look plausible, and does the hardware stay in the right particle sector?</p>
+
+<p>That is the right first question. If hardware output fails at this level, a larger claim would be premature.</p>
+
+<h2>What counts as evidence in this series</h2>
+
+<p>In this series, a hardware result is not interpreted by itself. It has to be placed next to local baselines:</p>
+
+<ul>
+  <li>exact fixed-sector ED where possible;</li>
+  <li>TDHF as a mean-field baseline;</li>
+  <li>Gaussian/free-fermion evolution as a noninteracting baseline;</li>
+  <li>MPS circuit simulation for 4x4 and beyond;</li>
+  <li>observable-comparison tables using the same site and bond definitions.</li>
+</ul>
+
+<p>This is the core interpretation boundary:</p>
+
+<p><strong>hardware output is diagnostic until it has been compared with the local baselines and validation files.</strong></p>
+
+<p>That boundary matters especially for the 2D route. A raw IBM or Fire Opal result can look structured while still being dominated by sector leakage, readout error, or circuit noise. The comparison is not optional. It is the thing that makes the result readable.</p>
+
+<h2>The current status</h2>
+
+<p>The present 2D route has four layers:</p>
+
+<ol>
+  <li>A 3x3 validation run with one hole, exact ED, TDHF, Gaussian/free evolution, IBM hardware, and Fire Opal diagnostics.</li>
+  <li>A 3x3 time sweep through step 4, showing how the exact dynamics and approximate baselines separate over time.</li>
+  <li>A 4x4 run with two holes, IBM hardware on <code>ibm_marrakesh</code>, and a quimb MPS circuit baseline for the shallow circuit family.</li>
+  <li>A separate 6x6 Fire Opal-tagged IBM smoke test, which is useful as a large-circuit diagnostic but is not yet a validated physics result.</li>
+</ol>
+
+<p>The main lesson so far is straightforward. 3x3 is a good validation lab. Fire Opal is much cleaner than direct IBM at 3x3. A direct 4x4 IBM run is executable, but still far from the local MPS baseline. The 6x6 Fire Opal-tagged IBM job shows that a larger route can be made to run, but its exact-sector survival is too low to treat as physics without a stronger baseline and validation layer. The next improvement is therefore not just "run bigger". It is "make the circuit shallower, improve the layout and mitigation, and strengthen the tensor baseline".</p>
+
+<p>Part 2 introduces the physical model: the 2D Hubbard Hamiltonian, why it is connected to cuprates, and how recent Google/Willow 2D Hubbard work sets the external scale.</p>
+
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a></nav>

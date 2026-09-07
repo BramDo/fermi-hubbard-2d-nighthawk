@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_EQUAL512_BITSHOTS",
+  "new_qpu_seconds": 0,
+  "new_bitshots": 728,
+  "raw_arm_shots": 512,
+  "zne_arm_shots": 512,
+  "group_run_seconds": {
+    "1": 769.7632678859991,
+    "2": 128.3119963579993,
+    "3": 241.1077438190041
+  },
+  "runner_elapsed_seconds": 1226.7863558160025
+}

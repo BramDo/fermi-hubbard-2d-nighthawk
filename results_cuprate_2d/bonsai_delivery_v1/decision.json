@@ -1,0 +1,87 @@
+{
+  "status": "BONSAI_VALIDATED_FIXED_TARGET_BUT_NO_SHALLOW_CIRCUIT_GAIN",
+  "tested_twirl_candidates": 8,
+  "best_duration_candidate": {
+    "name": "XYZ_count_twirl",
+    "scope": "full preparation+evolution+readout+one control twirl",
+    "operations": {
+      "rz": 29729,
+      "sx": 17713,
+      "cz": 15234,
+      "x": 8750,
+      "measure": 72
+    },
+    "cz": 15234,
+    "physical_X_SX": 26463,
+    "depth": 17290,
+    "CZ_depth": 5069,
+    "snapshot_unaligned_duration_seconds": 0.0005746599999998948,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/count_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 30540,
+      "max_segment_error": 1.4608304229148328e-14,
+      "global_phase_error": 9.190170487634619e-13,
+      "CZ_partial_order_preserved": true
+    }
+  },
+  "fewest_CZ_candidate": {
+    "name": "rectangle72_anneal9_twirl",
+    "layout": "rectangle72",
+    "assignment": "anneal9",
+    "proxy": 4334.399999999999,
+    "graph_edges": 127,
+    "preparation_X": 28,
+    "operations": {
+      "rz": 28887,
+      "sx": 17972,
+      "cz": 14338,
+      "x": 7709,
+      "measure": 72
+    },
+    "cz": 14338,
+    "physical_X_SX": 25681,
+    "depth": 17705,
+    "CZ_depth": 5080,
+    "snapshot_unaligned_duration_seconds": 0.0005868119999998906,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/rectangle72_anneal9_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 28748,
+      "max_segment_error": 4.108165836410786e-14,
+      "global_phase_error": 2.6557052355615235e-12,
+      "CZ_partial_order_preserved": true
+    }
+  },
+  "existing_compact": {
+    "name": "compact_factor1_twirl0",
+    "qpy": "circuits/compact_factor1_twirl0.qpy",
+    "operations": {
+      "rz": 25275,
+      "sx": 18691,
+      "cz": 15400,
+      "x": 7533,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 26224,
+    "depth": 2030,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 7.225200000000045e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "CZ_count_reduction_fraction": 0.068961038961039,
+  "best_duration_ratio_to_existing": 7.953551458781643,
+  "all_candidates_preserve_model_and_old_finite_circuit": true,
+  "encoding_qubits": 72,
+  "encoding_ancillas": 0,
+  "basic_tests_passed": 7,
+  "additional_XYZ_native_state_checks": 2,
+  "full72q_statevector_not_simulated": true,
+  "qDRIFT_not_used": true,
+  "readout_mitigation_and_ZNE_batch_not_prepared": true,
+  "hardware_authorized": false,
+  "QPU_seconds_used": 0,
+  "conclusion": "Lower count does not imply shallow depth. Current implementation does not win; Bonsai not ruled out as a family.",
+  "next_decision": "Do not submit these circuits. Any different evolution decomposition needs a separate matched-reference/error study."
+}

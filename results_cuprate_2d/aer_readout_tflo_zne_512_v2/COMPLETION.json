@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_EXPLORATORY_READOUT_TFLO_ZNE_COMPARISON",
+  "tests": 58,
+  "new_aer_shots": 320,
+  "new_qpu_seconds": 0,
+  "main_arm_shots_each": 512,
+  "equal_time_or_gate_budget": false,
+  "independent_audit": "PASS",
+  "known_limits": [
+    "retrospective U8 reuse",
+    "sparse TFLO training",
+    "hybrid bootstrap/calibration-posterior intervals, not coverage-certified",
+    "no postselection",
+    "no hardware or quantum advantage claim"
+  ]
+}

@@ -1,0 +1,3090 @@
+{
+  "status": "BENCHMARK_SCREEN_COMPLETE",
+  "results": [
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 3,
+        "ly": 3,
+        "holes": 1,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 16,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.7728834800885724,
+        0.7554285008227358,
+        0.7657078083258104,
+        -0.5782033892512475,
+        -0.788928560963071,
+        0.7755318979593481,
+        0.8028151742175675,
+        -0.5939041898883175,
+        0.9849971784527408,
+        0.268123466023584,
+        0.7927044109827829,
+        -0.5895349841770319,
+        -0.7832786904236209,
+        0.778015589477393,
+        0.769811511700156,
+        -0.5670922187647645,
+        -0.7709453522037939,
+        0.751635327798301,
+        -0.6451890020495412,
+        -0.4955710732091445,
+        -0.6224975508174703,
+        -0.4945503274747298,
+        0.26182384091772176,
+        -0.48369986124488884,
+        -0.6266467485539179,
+        -0.49610211882611627,
+        -0.638858135173662
+      ],
+      "physical_means": [
+        [
+          1.0087274896329184,
+          0.7641559904556541,
+          0.09306649430407388
+        ],
+        [
+          0.9062477904627185,
+          -0.671955598788529,
+          0.07923112692907314
+        ],
+        [
+          1.0066983315018614,
+          0.7822302294612096,
+          0.09772477804656313
+        ],
+        [
+          0.895544507835375,
+          -0.6983596820529425,
+          0.07413467204900503
+        ],
+        [
+          0.3734396777618376,
+          -0.35843685621457844,
+          0.002175799110349236
+        ],
+        [
+          0.8984152865971244,
+          -0.6911196975799074,
+          0.07828267798734004
+        ],
+        [
+          1.0026315504731138,
+          0.7806471399505069,
+          0.09465408809807749
+        ],
+        [
+          0.8986403535323042,
+          -0.6684518652324603,
+          0.07529464705962303
+        ],
+        [
+          1.0096550122027463,
+          0.7612903400010474,
+          0.09511297230795773
+        ]
+      ],
+      "normalized_state_norm": 1.0000000000000018,
+      "number_expectation": 8.0,
+      "number_error": 0.0,
+      "total_spin": 5.551115123125783e-16,
+      "max_bond_observed": 16,
+      "fused_two_qubit_updates": 612,
+      "layer_count": 72,
+      "log_retained_norm": -0.11775125551654463,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.001753554999595508,
+      "evolution_seconds": 1.1576213949992962,
+      "observable_seconds": 0.029220415999589022,
+      "kernel_seconds": 1.1886417909990996,
+      "process_cpu_seconds": 1.0071261589999998,
+      "rss_bytes": 324923392,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 72,
+          "updates": 102,
+          "seconds": 0.1959063940012129,
+          "max_bond": 16,
+          "log_retained_norm": 7.660538869913572e-15,
+          "rss_bytes": 324034560
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 72,
+          "updates": 204,
+          "seconds": 0.3654753439986962,
+          "max_bond": 16,
+          "log_retained_norm": -0.0004645424623705715,
+          "rss_bytes": 324526080
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 72,
+          "updates": 306,
+          "seconds": 0.5458635420000064,
+          "max_bond": 16,
+          "log_retained_norm": -0.01080819315635234,
+          "rss_bytes": 324567040
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 72,
+          "updates": 408,
+          "seconds": 0.7592111209996801,
+          "max_bond": 16,
+          "log_retained_norm": -0.035567483398714614,
+          "rss_bytes": 324669440
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 72,
+          "updates": 510,
+          "seconds": 0.938391531999514,
+          "max_bond": 16,
+          "log_retained_norm": -0.06556571922501853,
+          "rss_bytes": 324698112
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 72,
+          "updates": 612,
+          "seconds": 1.1403289299996686,
+          "max_bond": 16,
+          "log_retained_norm": -0.11775125551654463,
+          "rss_bytes": 324706304
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "exact_rmse_charge_spin_doublon": [
+        0.011578771665696248,
+        0.051903849447083435,
+        0.00623111813274858
+      ],
+      "exact_max_spin_error": 0.0692140557471157,
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "3x3_chi16_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 5.379714642000181,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 3,
+        "ly": 3,
+        "holes": 1,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 32,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.7349914781586785,
+        0.732820461556106,
+        0.7383378277500054,
+        -0.5442017053490888,
+        -0.7392155904900137,
+        0.7353871792466317,
+        0.7516994775573449,
+        -0.5437172625649289,
+        0.9695496889868827,
+        0.23761621361374163,
+        0.749810651196149,
+        -0.5404019093840077,
+        -0.7420281684940669,
+        0.7312853832100512,
+        0.7464692411901017,
+        -0.5337149385516369,
+        -0.7396316495377243,
+        0.724926578223132,
+        -0.6136395995463948,
+        -0.48140064259122006,
+        -0.6043512660568734,
+        -0.472563858876549,
+        0.22999400031265116,
+        -0.4720916341015483,
+        -0.6052504028645155,
+        -0.4785670772381689,
+        -0.6111370066941837
+      ],
+      "physical_means": [
+        [
+          1.0010855083012862,
+          0.7339059698573922,
+          0.09713285426404439
+        ],
+        [
+          0.9029319387995417,
+          -0.6412697665495471,
+          0.08111580875196583
+        ],
+        [
+          1.001914205621691,
+          0.7373013848683228,
+          0.09986928629662714
+        ],
+        [
+          0.896008892503792,
+          -0.6477083700611369,
+          0.07986348153275875
+        ],
+        [
+          0.39641704869968786,
+          -0.3659667376865705,
+          0.005707024428006718
+        ],
+        [
+          0.8952956290939293,
+          -0.6451062802900783,
+          0.0796249060215776
+        ],
+        [
+          1.0053713926420078,
+          0.736656775852059,
+          0.10137309560487509
+        ],
+        [
+          0.8936228486807676,
+          -0.6400920898708693,
+          0.07716965503084157
+        ],
+        [
+          1.007352535657296,
+          0.7322791138804281,
+          0.10089201615510213
+        ]
+      ],
+      "normalized_state_norm": 0.999999999999999,
+      "number_expectation": 7.999999999999999,
+      "number_error": -8.881784197001252e-16,
+      "total_spin": 0.0,
+      "max_bond_observed": 32,
+      "fused_two_qubit_updates": 612,
+      "layer_count": 72,
+      "log_retained_norm": -0.03155263296796275,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.0015526930001215078,
+      "evolution_seconds": 7.415844597999239,
+      "observable_seconds": 0.17534641500242287,
+      "kernel_seconds": 7.592806923999888,
+      "process_cpu_seconds": 20.891897997,
+      "rss_bytes": 326557696,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 72,
+          "updates": 102,
+          "seconds": 0.17615603499871213,
+          "max_bond": 16,
+          "log_retained_norm": 7.660538869913572e-15,
+          "rss_bytes": 324009984
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 72,
+          "updates": 204,
+          "seconds": 1.3537031560008472,
+          "max_bond": 32,
+          "log_retained_norm": -9.269485448992538e-06,
+          "rss_bytes": 325939200
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 72,
+          "updates": 306,
+          "seconds": 2.9247910990015953,
+          "max_bond": 32,
+          "log_retained_norm": -0.0007443922601512118,
+          "rss_bytes": 326119424
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 72,
+          "updates": 408,
+          "seconds": 4.483341400999052,
+          "max_bond": 32,
+          "log_retained_norm": -0.005645243079735851,
+          "rss_bytes": 326189056
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 72,
+          "updates": 510,
+          "seconds": 6.005122796999785,
+          "max_bond": 32,
+          "log_retained_norm": -0.013792710682141393,
+          "rss_bytes": 326299648
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 72,
+          "updates": 612,
+          "seconds": 7.396707500000048,
+          "max_bond": 32,
+          "log_retained_norm": -0.03155263296796275,
+          "rss_bytes": 326316032
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "exact_rmse_charge_spin_doublon": [
+        0.0030431807975631704,
+        0.015274347733915259,
+        0.002365359974359431
+      ],
+      "exact_max_spin_error": 0.01865479499240741,
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "3x3_chi32_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 11.872077699001238,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 3,
+        "ly": 3,
+        "holes": 1,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 64,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.719833377253205,
+        0.7223459038359671,
+        0.7273914257157703,
+        -0.5335214565805169,
+        -0.7219346332401211,
+        0.7212206118428844,
+        0.7356039292058336,
+        -0.5279421536194135,
+        0.9599408189936806,
+        0.23386409910495976,
+        0.7354505520601955,
+        -0.5250440575860531,
+        -0.7263712668346469,
+        0.7167532600538757,
+        0.7368914332269039,
+        -0.5220980762459566,
+        -0.7271388818744094,
+        0.7144218691942524,
+        -0.5992540211970169,
+        -0.47372773267784296,
+        -0.5977611822649624,
+        -0.470058135698856,
+        0.22872040215260084,
+        -0.4677615087083834,
+        -0.5977686918521041,
+        -0.46991501157330423,
+        -0.5985127864675163
+      ],
+      "physical_means": [
+        [
+          0.9987437367086189,
+          0.721089640544586,
+          0.09955836305505528
+        ],
+        [
+          0.9030650154323733,
+          -0.6304564411481436,
+          0.0831005745467259
+        ],
+        [
+          1.0003570106986184,
+          0.7215776225415027,
+          0.10073820978306858
+        ],
+        [
+          0.89616911220679,
+          -0.6317730414126236,
+          0.08057002217868098
+        ],
+        [
+          0.40309754095067984,
+          -0.3630383599443604,
+          0.008728871013490132
+        ],
+        [
+          0.8947967527629288,
+          -0.6302473048231243,
+          0.08045799920436855
+        ],
+        [
+          1.0048090033903856,
+          0.7215622634442613,
+          0.10296232873216676
+        ],
+        [
+          0.8926033215095264,
+          -0.6294947547364302,
+          0.07882290786143713
+        ],
+        [
+          1.0063585063400784,
+          0.7207803755343309,
+          0.10355105655316024
+        ]
+      ],
+      "normalized_state_norm": 0.9999999999999998,
+      "number_expectation": 8.0,
+      "number_error": 0.0,
+      "total_spin": -1.1102230246251565e-15,
+      "max_bond_observed": 64,
+      "fused_two_qubit_updates": 612,
+      "layer_count": 72,
+      "log_retained_norm": -0.004498926580306482,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.0022619440023845527,
+      "evolution_seconds": 44.01258359500207,
+      "observable_seconds": 0.41082645200003753,
+      "kernel_seconds": 44.42573039000126,
+      "process_cpu_seconds": 115.223300133,
+      "rss_bytes": 329965568,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 72,
+          "updates": 102,
+          "seconds": 0.18319327300196164,
+          "max_bond": 16,
+          "log_retained_norm": 7.660538869913572e-15,
+          "rss_bytes": 324096000
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 72,
+          "updates": 204,
+          "seconds": 5.777195282000321,
+          "max_bond": 64,
+          "log_retained_norm": -4.352505116814248e-08,
+          "rss_bytes": 329433088
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 72,
+          "updates": 306,
+          "seconds": 23.252266223000333,
+          "max_bond": 64,
+          "log_retained_norm": -1.7007431549191088e-05,
+          "rss_bytes": 330227712
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 72,
+          "updates": 408,
+          "seconds": 31.193052005000936,
+          "max_bond": 64,
+          "log_retained_norm": -0.00040059943818397453,
+          "rss_bytes": 330108928
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 72,
+          "updates": 510,
+          "seconds": 38.100333288999536,
+          "max_bond": 64,
+          "log_retained_norm": -0.0014026334548709585,
+          "rss_bytes": 329900032
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 72,
+          "updates": 612,
+          "seconds": 43.997083673002635,
+          "max_bond": 64,
+          "log_retained_norm": -0.004498926580306482,
+          "rss_bytes": 330764288
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "exact_rmse_charge_spin_doublon": [
+        0.0005756805131105989,
+        0.002443137722306335,
+        0.00045970251000441347
+      ],
+      "exact_max_spin_error": 0.002931032665587363,
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "3x3_chi64_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 48.874296657999366,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 6,
+        "ly": 6,
+        "holes": 4,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 16,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.9148514414341133,
+        0.9217713549914672,
+        0.8490263099318989,
+        -0.8656990202807741,
+        -0.86916672761517,
+        0.8723231127638597,
+        0.887596327362824,
+        -0.8961295338437112,
+        -0.9053209570481606,
+        0.9154777215523128,
+        0.9526989056139146,
+        -0.9565051268912144,
+        0.962221991743441,
+        -0.949991768783457,
+        -0.9363844325804922,
+        0.9267183757212701,
+        0.9365289063573098,
+        -0.8975761303370389,
+        -0.8788022729571322,
+        0.9312037777871902,
+        0.8981251629825968,
+        -0.9143009528636015,
+        -0.9476207710259431,
+        0.9379497926790537,
+        -0.945567710771343,
+        0.9566272415332003,
+        0.9491596221337459,
+        -0.8198279319256172,
+        0.997050982431134,
+        0.8374688211803242,
+        0.8336961550088455,
+        0.9977846850976122,
+        -0.8067314080104045,
+        0.9372516535519686,
+        0.9419953190240554,
+        -0.9368977691417049,
+        0.9395988540324106,
+        -0.9389284144899406,
+        -0.8073524524826408,
+        0.9384830858891504,
+        0.8300052702382147,
+        0.9963131119945028,
+        0.9959123640013358,
+        0.8405766362742758,
+        0.9521503086165686,
+        -0.8004453677204261,
+        -0.9522542326310558,
+        0.9449330617163021,
+        -0.9495373208271152,
+        0.9393461631985449,
+        0.9014649214205884,
+        -0.9029456193721376,
+        -0.8795898060419287,
+        0.9203600167192459,
+        0.9425431511877074,
+        -0.9021319115649243,
+        -0.9314488274341709,
+        0.9247798846410408,
+        0.958391758654867,
+        -0.9529085030972576,
+        0.964481501385267,
+        -0.963722155618163,
+        -0.9212195385497575,
+        0.9080704230348384,
+        0.8895887713564333,
+        -0.8810478400143967,
+        -0.8729853073828936,
+        0.8671415600766926,
+        0.8607390873281757,
+        -0.8486640541295084,
+        -0.9241423031908745,
+        0.9131416196709157,
+        -0.8534529852633906,
+        -0.7487012893053164,
+        -0.7643373782973322,
+        -0.8003993351628982,
+        -0.8328439423600854,
+        -0.9116300700012804,
+        -0.9137114697022428,
+        -0.8649781621503405,
+        -0.8342108228637319,
+        -0.8169697652945457,
+        -0.8238419466326411,
+        -0.8882006698183645,
+        -0.904520372326933,
+        -0.7783818298383611,
+        0.8348998160223208,
+        0.8318069782521532,
+        -0.7601167596023976,
+        -0.8835302914752683,
+        -0.8823994060760668,
+        -0.7617014306312497,
+        0.8270797568673796,
+        0.8371756486685221,
+        -0.7644862019521632,
+        -0.8992819007476609,
+        -0.8917773357738403,
+        -0.8147690011654579,
+        -0.8060267902930826,
+        -0.8505122624938719,
+        -0.8613129032451343,
+        -0.9122453381142444,
+        -0.9299040692226679,
+        -0.8400016431243056,
+        -0.7884782930089645,
+        -0.7625733220764027,
+        -0.7457763478012175,
+        -0.8556336527281826
+      ],
+      "physical_means": [
+        [
+          0.9965400432213231,
+          0.9183113982127903,
+          0.03490677529481387
+        ],
+        [
+          1.0083363551744375,
+          -0.8573626651063364,
+          0.06699285526088966
+        ],
+        [
+          0.9984218074256552,
+          0.8707449201895148,
+          0.058126559138494543
+        ],
+        [
+          1.0042666032404437,
+          -0.8918629306032676,
+          0.05203346782949725
+        ],
+        [
+          0.9949216177479239,
+          0.9103993393002368,
+          0.03924982328394061
+        ],
+        [
+          1.0019031106386498,
+          -0.9546020162525645,
+          0.023044037819004853
+        ],
+        [
+          0.993884888520008,
+          -0.956106880263449,
+          0.018514576834443297
+        ],
+        [
+          1.004833028429611,
+          0.9315514041508812,
+          0.03617197367722036
+        ],
+        [
+          0.9805236119898646,
+          -0.9170525183471743,
+          0.031709100278999286
+        ],
+        [
+          0.973799247584971,
+          0.9050030253721613,
+          0.032657182468849105
+        ],
+        [
+          1.0080878949405023,
+          -0.9062130579230991,
+          0.04808346081209089
+        ],
+        [
+          1.0048354891734448,
+          0.9427852818524984,
+          0.030367577132131257
+        ],
+        [
+          0.9944702346190714,
+          0.9510974761522717,
+          0.021105024227802444
+        ],
+        [
+          0.9353341548959356,
+          -0.8844937770296816,
+          0.023071619988377534
+        ],
+        [
+          0.08274009819427097,
+          -0.07979108062540491,
+          9.500310271565171e-05
+        ],
+        [
+          0.08425957994677113,
+          0.08204426504438334,
+          8.153453642387176e-05
+        ],
+        [
+          0.9347398772292179,
+          0.8719915307811865,
+          0.027340748714009627
+        ],
+        [
+          0.9974512250588248,
+          -0.9394465440828801,
+          0.027843039660595287
+        ],
+        [
+          0.999664780228765,
+          -0.9392636342611755,
+          0.029232538595365787
+        ],
+        [
+          0.9344346832967452,
+          0.8729177691858956,
+          0.026791983990560153
+        ],
+        [
+          0.08684080888364121,
+          0.08315392087814405,
+          0.0001903436586655205
+        ],
+        [
+          0.08175549986219421,
+          -0.07766786386352997,
+          0.00017166209822763734
+        ],
+        [
+          0.9241475295519288,
+          -0.8762978381684974,
+          0.02095221428792357
+        ],
+        [
+          1.0036605854573768,
+          0.9485936471736789,
+          0.027009817541773173
+        ],
+        [
+          1.0050955788142852,
+          0.94444174201283,
+          0.029603455463682482
+        ],
+        [
+          1.0007403489757745,
+          -0.902205270396363,
+          0.04667792419652281
+        ],
+        [
+          0.9796148946613414,
+          0.8999749113805873,
+          0.038300749757400054
+        ],
+        [
+          0.9797943801886084,
+          -0.9223375313763158,
+          0.027269124470836265
+        ],
+        [
+          1.003334471396565,
+          0.9281143560376058,
+          0.03633900988699895
+        ],
+        [
+          0.9972583722211953,
+          -0.9556501308760623,
+          0.020567851582036556
+        ],
+        [
+          0.999620327116448,
+          -0.964101828501715,
+          0.017334146252557026
+        ],
+        [
+          1.0065745577574594,
+          0.914644980792298,
+          0.043286868097653364
+        ],
+        [
+          0.9957295343289817,
+          -0.885318305685415,
+          0.050745193912249714
+        ],
+        [
+          1.0029218736531005,
+          0.8700634337297931,
+          0.06081760630744956
+        ],
+        [
+          0.9939624834006664,
+          -0.8547015707288421,
+          0.0605371547500288
+        ],
+        [
+          1.0055003417599795,
+          0.9186419614308952,
+          0.03884175769794404
+        ]
+      ],
+      "normalized_state_norm": 0.9999999999999987,
+      "number_expectation": 31.99999991958598,
+      "number_error": -8.041401855507502e-08,
+      "total_spin": -8.04141213617271e-08,
+      "max_bond_observed": 16,
+      "fused_two_qubit_updates": 10224,
+      "layer_count": 288,
+      "log_retained_norm": -2.803539753177334,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.015694666999479523,
+      "evolution_seconds": 17.441030246998707,
+      "observable_seconds": 0.12782306000008248,
+      "kernel_seconds": 17.584634337999887,
+      "process_cpu_seconds": 16.140531359,
+      "rss_bytes": 327426048,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 288,
+          "updates": 426,
+          "seconds": 0.5414547319996927,
+          "max_bond": 8,
+          "log_retained_norm": 2.886579864025399e-15,
+          "rss_bytes": 324857856
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 288,
+          "updates": 852,
+          "seconds": 1.171935818001657,
+          "max_bond": 16,
+          "log_retained_norm": -0.0019222232789703456,
+          "rss_bytes": 325459968
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 288,
+          "updates": 1278,
+          "seconds": 1.8284937930002343,
+          "max_bond": 16,
+          "log_retained_norm": -0.0023595304943731135,
+          "rss_bytes": 325791744
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 288,
+          "updates": 1704,
+          "seconds": 2.523039438001433,
+          "max_bond": 16,
+          "log_retained_norm": -0.018912384381014165,
+          "rss_bytes": 326115328
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 288,
+          "updates": 2130,
+          "seconds": 3.278970791001484,
+          "max_bond": 16,
+          "log_retained_norm": -0.058593855137685,
+          "rss_bytes": 326123520
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 288,
+          "updates": 2556,
+          "seconds": 3.991425636999338,
+          "max_bond": 16,
+          "log_retained_norm": -0.11568227947819774,
+          "rss_bytes": 326127616
+        },
+        {
+          "completed_layers": 84,
+          "total_layers": 288,
+          "updates": 2982,
+          "seconds": 4.7027319129992975,
+          "max_bond": 16,
+          "log_retained_norm": -0.12570966472354836,
+          "rss_bytes": 326127616
+        },
+        {
+          "completed_layers": 96,
+          "total_layers": 288,
+          "updates": 3408,
+          "seconds": 5.449392792001163,
+          "max_bond": 16,
+          "log_retained_norm": -0.21902556326569267,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 108,
+          "total_layers": 288,
+          "updates": 3834,
+          "seconds": 6.182496266999806,
+          "max_bond": 16,
+          "log_retained_norm": -0.37032809710364034,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 120,
+          "total_layers": 288,
+          "updates": 4260,
+          "seconds": 6.894151853000949,
+          "max_bond": 16,
+          "log_retained_norm": -0.5476422604302777,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 132,
+          "total_layers": 288,
+          "updates": 4686,
+          "seconds": 7.610883686000307,
+          "max_bond": 16,
+          "log_retained_norm": -0.7844003574255217,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 144,
+          "total_layers": 288,
+          "updates": 5112,
+          "seconds": 8.321208121000382,
+          "max_bond": 16,
+          "log_retained_norm": -1.0339022820086348,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 156,
+          "total_layers": 288,
+          "updates": 5538,
+          "seconds": 9.009461240999372,
+          "max_bond": 16,
+          "log_retained_norm": -1.1545039406180928,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 168,
+          "total_layers": 288,
+          "updates": 5964,
+          "seconds": 9.728735619002691,
+          "max_bond": 16,
+          "log_retained_norm": -1.3308245587417198,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 180,
+          "total_layers": 288,
+          "updates": 6390,
+          "seconds": 10.47975070100074,
+          "max_bond": 16,
+          "log_retained_norm": -1.5050646179825742,
+          "rss_bytes": 326131712
+        },
+        {
+          "completed_layers": 192,
+          "total_layers": 288,
+          "updates": 6816,
+          "seconds": 11.190103826000268,
+          "max_bond": 16,
+          "log_retained_norm": -1.6871348353799738,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 204,
+          "total_layers": 288,
+          "updates": 7242,
+          "seconds": 11.901300271001674,
+          "max_bond": 16,
+          "log_retained_norm": -1.8775505230249334,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 216,
+          "total_layers": 288,
+          "updates": 7668,
+          "seconds": 12.6386560739993,
+          "max_bond": 16,
+          "log_retained_norm": -2.0669552889684843,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 228,
+          "total_layers": 288,
+          "updates": 8094,
+          "seconds": 13.320133592002094,
+          "max_bond": 16,
+          "log_retained_norm": -2.1132901174865983,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 240,
+          "total_layers": 288,
+          "updates": 8520,
+          "seconds": 14.043796850000945,
+          "max_bond": 16,
+          "log_retained_norm": -2.2676460182166944,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 252,
+          "total_layers": 288,
+          "updates": 8946,
+          "seconds": 14.832090929001424,
+          "max_bond": 16,
+          "log_retained_norm": -2.4162147367054443,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 264,
+          "total_layers": 288,
+          "updates": 9372,
+          "seconds": 15.894088910001301,
+          "max_bond": 16,
+          "log_retained_norm": -2.5505191413372823,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 276,
+          "total_layers": 288,
+          "updates": 9798,
+          "seconds": 16.635168102002353,
+          "max_bond": 16,
+          "log_retained_norm": -2.693703232135941,
+          "rss_bytes": 326135808
+        },
+        {
+          "completed_layers": 288,
+          "total_layers": 288,
+          "updates": 10224,
+          "seconds": 17.43120427300164,
+          "max_bond": 16,
+          "log_retained_norm": -2.803539753177334,
+          "rss_bytes": 326135808
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "6x6_chi16_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 22.10905078599899,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 6,
+        "ly": 6,
+        "holes": 4,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 32,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.8493724338129149,
+        0.8481650417820539,
+        0.7587876002354347,
+        -0.7689439208472215,
+        -0.7803720366972523,
+        0.7860952948028165,
+        0.7778550294841765,
+        -0.7966306795555133,
+        -0.7960715327827249,
+        0.785270425948011,
+        0.8999478924822634,
+        -0.8997492028811178,
+        0.8506874922707068,
+        -0.8562339420949222,
+        -0.7850858793509545,
+        0.7907961931161698,
+        0.8174125593357601,
+        -0.7285881152312212,
+        -0.6748620331426727,
+        0.8176004951724768,
+        0.7228330434623266,
+        -0.759208386050863,
+        -0.8606663904979144,
+        0.854141791105593,
+        -0.858703728223391,
+        0.8617696696439325,
+        0.8631041367780705,
+        -0.6404171233590847,
+        0.9783458303206818,
+        0.7130956999431293,
+        0.7158391232581607,
+        0.9883985189622834,
+        -0.6358722026660574,
+        0.834238813013885,
+        0.8532028753615687,
+        -0.8355960431618545,
+        0.8563361260349811,
+        -0.8341789608615848,
+        -0.6264821893059223,
+        0.8364067303684178,
+        0.7038261965510987,
+        0.9875730296971029,
+        0.9780366624584902,
+        0.7282870057099327,
+        0.8698970110229951,
+        -0.6257099024812218,
+        -0.8678284509171627,
+        0.8494453487007726,
+        -0.8756317758356117,
+        0.8444680411256923,
+        0.7384585804970599,
+        -0.7400039117758751,
+        -0.6683611568183111,
+        0.8050757941103337,
+        0.8070110236443784,
+        -0.7328814783344566,
+        -0.7910988500069378,
+        0.7776542217439473,
+        0.8495670021694126,
+        -0.8503192271421599,
+        0.8996193976129715,
+        -0.8940343027197591,
+        -0.7980484536963591,
+        0.7758256288414611,
+        0.7845031733384453,
+        -0.7872752444875767,
+        -0.7808257075993528,
+        0.7735877642393933,
+        0.7718231847850773,
+        -0.7503841554159848,
+        -0.8478111197894667,
+        0.8422570470895923,
+        -0.7505179855392514,
+        -0.6087820452740654,
+        -0.6191437761498009,
+        -0.6233094483428401,
+        -0.6298940861164695,
+        -0.8105344362880078,
+        -0.7324466850384114,
+        -0.6251992403272121,
+        -0.6008862209095237,
+        -0.5580691351414777,
+        -0.5583392285679876,
+        -0.7360009382913147,
+        -0.7424828233785297,
+        -0.5577978006018407,
+        0.6979182123265989,
+        0.7075785232824434,
+        -0.5379280802601554,
+        -0.7158591086375885,
+        -0.7181311404366504,
+        -0.5305801535937464,
+        0.6954490763828161,
+        0.7125156278753797,
+        -0.5481704409103934,
+        -0.7400945102246722,
+        -0.7412683655808868,
+        -0.5537663144178542,
+        -0.5444249110371667,
+        -0.5958599870574168,
+        -0.6188944469822375,
+        -0.725917249210932,
+        -0.8051062871231625,
+        -0.6241700334563539,
+        -0.6204518581791908,
+        -0.6098960812438327,
+        -0.6039045193357888,
+        -0.7443066952762475
+      ],
+      "physical_means": [
+        [
+          1.0006036960154305,
+          0.8487687377974844,
+          0.06267235162290241
+        ],
+        [
+          1.0050781603058934,
+          -0.7638657605413282,
+          0.10034356883443032
+        ],
+        [
+          0.9971383709472179,
+          0.7832336657500344,
+          0.09378324143615871
+        ],
+        [
+          1.0093878250356685,
+          -0.7872428545198449,
+          0.09886655043212417
+        ],
+        [
+          1.005400553417357,
+          0.7906709793653679,
+          0.09522675517956114
+        ],
+        [
+          0.9999006551994272,
+          -0.8998485476816906,
+          0.04731671852771166
+        ],
+        [
+          1.0027732249121077,
+          -0.8534607171828146,
+          0.06827494119645103
+        ],
+        [
+          0.9971448431173924,
+          0.7879410362335622,
+          0.09227261147689317
+        ],
+        [
+          0.9555877779477306,
+          -0.7730003372834906,
+          0.07757233374648437
+        ],
+        [
+          0.9286307689850979,
+          0.7462312641575748,
+          0.07479810070717954
+        ],
+        [
+          1.0181876712942683,
+          -0.7410207147565948,
+          0.11950902850513723
+        ],
+        [
+          1.0032622996961607,
+          0.8574040908017537,
+          0.06763091527525164
+        ],
+        [
+          0.9984670292897293,
+          0.8602366989336618,
+          0.06361280880023223
+        ],
+        [
+          0.8886564932905071,
+          -0.7517606300685776,
+          0.05487879649479338
+        ],
+        [
+          0.15427923486809447,
+          -0.13262506518877626,
+          0.0016191705156969605
+        ],
+        [
+          0.14788117888977803,
+          0.13627969785206134,
+          0.000835220265499842
+        ],
+        [
+          0.9008166948260862,
+          0.7350555078399712,
+          0.06592632734800422
+        ],
+        [
+          0.9911965839001429,
+          -0.8443994592617117,
+          0.06663351479067434
+        ],
+        [
+          0.9889214174133019,
+          -0.845257543448283,
+          0.06492792359748834
+        ],
+        [
+          0.8950377294687522,
+          0.7314444598371701,
+          0.0648738263359395
+        ],
+        [
+          0.1543003868758992,
+          0.14187341657300212,
+          0.001012462533653613
+        ],
+        [
+          0.14683816591578858,
+          -0.12487482837427877,
+          0.0015479899267392128
+        ],
+        [
+          0.8779064457291134,
+          -0.7478034567521085,
+          0.05191061263695834
+        ],
+        [
+          1.009191551108195,
+          0.8586368998089676,
+          0.06957214799792946
+        ],
+        [
+          1.0155818673549597,
+          0.860049908480652,
+          0.07247384228225814
+        ],
+        [
+          1.0007726656394076,
+          -0.7392312461364675,
+          0.11194475421524025
+        ],
+        [
+          0.9316426813539886,
+          0.7367184754643223,
+          0.0797151129177027
+        ],
+        [
+          0.9629352273450391,
+          -0.7699462509894175,
+          0.08250261690816535
+        ],
+        [
+          1.0067223141314954,
+          0.7843765358754425,
+          0.09863754532018826
+        ],
+        [
+          1.0003761124863737,
+          -0.8499431146557863,
+          0.06870874394045384
+        ],
+        [
+          0.9972074525533938,
+          -0.8968268501663653,
+          0.0473271544959063
+        ],
+        [
+          1.011111412427449,
+          0.7869370412689101,
+          0.09951319784963605
+        ],
+        [
+          1.0013860355745656,
+          -0.785889208913011,
+          0.09558005324248511
+        ],
+        [
+          1.0036189716799797,
+          0.7772067359193731,
+          0.09933546552903169
+        ],
+        [
+          0.9892804853154538,
+          -0.761103670100531,
+          0.09366411282377968
+        ],
+        [
+          1.0027770363499373,
+          0.8450340834395295,
+          0.06531184435590673
+        ]
+      ],
+      "normalized_state_norm": 0.9999999999999997,
+      "number_expectation": 32.00000102066119,
+      "number_error": 1.0206611875673843e-06,
+      "total_spin": -1.0206222372799445e-06,
+      "max_bond_observed": 32,
+      "fused_two_qubit_updates": 10224,
+      "layer_count": 288,
+      "log_retained_norm": -2.0411556287220685,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.015011991999926977,
+      "evolution_seconds": 32.03159542399953,
+      "observable_seconds": 0.13628057100140722,
+      "kernel_seconds": 32.18295136300003,
+      "process_cpu_seconds": 30.003403419,
+      "rss_bytes": 331005952,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 288,
+          "updates": 426,
+          "seconds": 0.5934525880002184,
+          "max_bond": 8,
+          "log_retained_norm": 2.886579864025399e-15,
+          "rss_bytes": 325062656
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 288,
+          "updates": 852,
+          "seconds": 1.294927787999768,
+          "max_bond": 32,
+          "log_retained_norm": -3.8964474997988684e-05,
+          "rss_bytes": 326955008
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 288,
+          "updates": 1278,
+          "seconds": 2.2493119639984798,
+          "max_bond": 32,
+          "log_retained_norm": -4.478044296787014e-05,
+          "rss_bytes": 328159232
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 288,
+          "updates": 1704,
+          "seconds": 3.571305546000076,
+          "max_bond": 32,
+          "log_retained_norm": -0.006678912378831052,
+          "rss_bytes": 329490432
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 288,
+          "updates": 2130,
+          "seconds": 4.952175378999527,
+          "max_bond": 32,
+          "log_retained_norm": -0.025137671843727637,
+          "rss_bytes": 329560064
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 288,
+          "updates": 2556,
+          "seconds": 6.436283574999834,
+          "max_bond": 32,
+          "log_retained_norm": -0.05256388529910942,
+          "rss_bytes": 329564160
+        },
+        {
+          "completed_layers": 84,
+          "total_layers": 288,
+          "updates": 2982,
+          "seconds": 7.906147793997661,
+          "max_bond": 32,
+          "log_retained_norm": -0.05597472606189014,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 96,
+          "total_layers": 288,
+          "updates": 3408,
+          "seconds": 9.287912746000075,
+          "max_bond": 32,
+          "log_retained_norm": -0.09311210907997279,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 108,
+          "total_layers": 288,
+          "updates": 3834,
+          "seconds": 10.701896955000848,
+          "max_bond": 32,
+          "log_retained_norm": -0.1788533919840974,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 120,
+          "total_layers": 288,
+          "updates": 4260,
+          "seconds": 12.100305708998349,
+          "max_bond": 32,
+          "log_retained_norm": -0.29195051015155055,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 132,
+          "total_layers": 288,
+          "updates": 4686,
+          "seconds": 13.517673323000054,
+          "max_bond": 32,
+          "log_retained_norm": -0.4309525402095652,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 144,
+          "total_layers": 288,
+          "updates": 5112,
+          "seconds": 14.919419681998988,
+          "max_bond": 32,
+          "log_retained_norm": -0.5746394347860001,
+          "rss_bytes": 329605120
+        },
+        {
+          "completed_layers": 156,
+          "total_layers": 288,
+          "updates": 5538,
+          "seconds": 16.39598004099753,
+          "max_bond": 32,
+          "log_retained_norm": -0.7121265169660723,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 168,
+          "total_layers": 288,
+          "updates": 5964,
+          "seconds": 17.782192369999393,
+          "max_bond": 32,
+          "log_retained_norm": -0.9298044772034577,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 180,
+          "total_layers": 288,
+          "updates": 6390,
+          "seconds": 19.201244002997555,
+          "max_bond": 32,
+          "log_retained_norm": -1.127275288358704,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 192,
+          "total_layers": 288,
+          "updates": 6816,
+          "seconds": 20.63985857499938,
+          "max_bond": 32,
+          "log_retained_norm": -1.262629385906313,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 204,
+          "total_layers": 288,
+          "updates": 7242,
+          "seconds": 22.067647566000232,
+          "max_bond": 32,
+          "log_retained_norm": -1.377781123990186,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 216,
+          "total_layers": 288,
+          "updates": 7668,
+          "seconds": 23.485361717997876,
+          "max_bond": 32,
+          "log_retained_norm": -1.4932774824022108,
+          "rss_bytes": 329637888
+        },
+        {
+          "completed_layers": 228,
+          "total_layers": 288,
+          "updates": 8094,
+          "seconds": 24.912728379000328,
+          "max_bond": 32,
+          "log_retained_norm": -1.5138839626127885,
+          "rss_bytes": 329654272
+        },
+        {
+          "completed_layers": 240,
+          "total_layers": 288,
+          "updates": 8520,
+          "seconds": 26.351727843000845,
+          "max_bond": 32,
+          "log_retained_norm": -1.596604975419079,
+          "rss_bytes": 329654272
+        },
+        {
+          "completed_layers": 252,
+          "total_layers": 288,
+          "updates": 8946,
+          "seconds": 27.765233382000588,
+          "max_bond": 32,
+          "log_retained_norm": -1.724756964730375,
+          "rss_bytes": 329654272
+        },
+        {
+          "completed_layers": 264,
+          "total_layers": 288,
+          "updates": 9372,
+          "seconds": 29.176196091997554,
+          "max_bond": 32,
+          "log_retained_norm": -1.8276628005308686,
+          "rss_bytes": 329658368
+        },
+        {
+          "completed_layers": 276,
+          "total_layers": 288,
+          "updates": 9798,
+          "seconds": 30.571135015998152,
+          "max_bond": 32,
+          "log_retained_norm": -1.934187843152849,
+          "rss_bytes": 329658368
+        },
+        {
+          "completed_layers": 288,
+          "total_layers": 288,
+          "updates": 10224,
+          "seconds": 32.027863570998306,
+          "max_bond": 32,
+          "log_retained_norm": -2.0411556287220685,
+          "rss_bytes": 329658368
+        }
+      ],
+      "threads": 1,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "6x6_chi32_threads1",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 36.85620522699901,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 6,
+        "ly": 6,
+        "holes": 4,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 32,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.849372428593574,
+        0.8481650389204723,
+        0.7587875933681462,
+        -0.768943909444014,
+        -0.7803721270190118,
+        0.7860953472075354,
+        0.7778551339271774,
+        -0.7966307366322758,
+        -0.7960715697847083,
+        0.7852708078410875,
+        0.8999478857850275,
+        -0.8997493013706699,
+        0.8506874696090628,
+        -0.8562339855643983,
+        -0.7850858589863328,
+        0.7907962821052932,
+        0.8174125786359924,
+        -0.7285883860883234,
+        -0.6748619673015395,
+        0.8176005880703622,
+        0.722832950168809,
+        -0.7592087058318787,
+        -0.8606663899601243,
+        0.854141652888085,
+        -0.8587037457124136,
+        0.8617696759478626,
+        0.8631041312250753,
+        -0.6404171911968337,
+        0.9783458263125151,
+        0.7130958684405881,
+        0.7158391798388957,
+        0.9883985799441756,
+        -0.635872241020089,
+        0.8342387237555301,
+        0.8532028881130217,
+        -0.8355958859704529,
+        0.8563361174493412,
+        -0.8341789217638709,
+        -0.626482132994856,
+        0.8364065766819172,
+        0.703826139262193,
+        0.987573045015534,
+        0.9780366592826454,
+        0.7282869483619201,
+        0.869897002664235,
+        -0.6257097352859861,
+        -0.8678284443174211,
+        0.8494451330271487,
+        -0.8756317427895236,
+        0.844468085731651,
+        0.7384585718561256,
+        -0.7400041030656823,
+        -0.6683611112898629,
+        0.8050758765674683,
+        0.8070110096636974,
+        -0.7328815191509571,
+        -0.791098832342158,
+        0.7776546763931749,
+        0.8495669829149024,
+        -0.8503194854313381,
+        0.8996193820447015,
+        -0.8940342629564618,
+        -0.7980484288352023,
+        0.7758256870407704,
+        0.7845031433391081,
+        -0.7872752037035324,
+        -0.7808256856176706,
+        0.7735877377344762,
+        0.771823164368092,
+        -0.7503841515213319,
+        -0.8478111032983258,
+        0.8422570274458927,
+        -0.7505179957550334,
+        -0.608782009542757,
+        -0.619143847465133,
+        -0.623309537216848,
+        -0.6298944006635843,
+        -0.8105345297411073,
+        -0.7324467167761308,
+        -0.6251992988799251,
+        -0.6008864633326652,
+        -0.5580691507030786,
+        -0.5583394434643885,
+        -0.7360008562157696,
+        -0.7424828148929277,
+        -0.5577978083853213,
+        0.6979183746415379,
+        0.7075785548677419,
+        -0.5379279986514423,
+        -0.715858999364839,
+        -0.7181310959524778,
+        -0.5305799733789429,
+        0.6954490313710919,
+        0.7125155668844962,
+        -0.5481702624160876,
+        -0.7400943152068382,
+        -0.7412683836209122,
+        -0.5537664491568842,
+        -0.5444249296535304,
+        -0.5958599973827021,
+        -0.6188947730947063,
+        -0.7259174484717292,
+        -0.805106234215573,
+        -0.6241700485768867,
+        -0.6204517980814465,
+        -0.6098960424097774,
+        -0.603904509884289,
+        -0.7443066697728005
+      ],
+      "physical_means": [
+        [
+          1.0006036948365509,
+          0.8487687337570231,
+          0.06267234847951708
+        ],
+        [
+          1.005078158037934,
+          -0.76386575140608,
+          0.10034357663327775
+        ],
+        [
+          0.9971383899057382,
+          0.7832337371132736,
+          0.09378323308658587
+        ],
+        [
+          1.0093878013525492,
+          -0.7872429352797266,
+          0.09886651637206262
+        ],
+        [
+          1.0054003809718104,
+          0.7906711888128979,
+          0.09522659032000913
+        ],
+        [
+          0.9999007077928213,
+          -0.8998485935778486,
+          0.047316721461133776
+        ],
+        [
+          1.0027732579776678,
+          -0.8534607275867305,
+          0.0682749497948012
+        ],
+        [
+          0.9971447884405198,
+          0.787941070545813,
+          0.09227256950027862
+        ],
+        [
+          0.9555879037261655,
+          -0.7730004823621579,
+          0.07757233602991648
+        ],
+        [
+          0.9286306896155887,
+          0.7462312776859508,
+          0.07479805713202467
+        ],
+        [
+          1.0181878778315347,
+          -0.7410208280003439,
+          0.11950907804967031
+        ],
+        [
+          1.0032623685360198,
+          0.8574040214241047,
+          0.06763097021406744
+        ],
+        [
+          0.9984670348822755,
+          0.8602367108301381,
+          0.06361281371790584
+        ],
+        [
+          0.8886565299858792,
+          -0.7517606612109545,
+          0.05487881289660926
+        ],
+        [
+          0.15427915262344838,
+          -0.13262497893596348,
+          0.001619169972108675
+        ],
+        [
+          0.14788112010846444,
+          0.13627970005263995,
+          0.0008351987711676667
+        ],
+        [
+          0.9008167586322795,
+          0.7350554823878095,
+          0.06592637965327916
+        ],
+        [
+          0.9911964989287156,
+          -0.8443993870417372,
+          0.06663349962314805
+        ],
+        [
+          0.9889214021572648,
+          -0.8452575196066061,
+          0.06492792709051295
+        ],
+        [
+          0.8950377781564693,
+          0.7314443548383867,
+          0.06487389573349897
+        ],
+        [
+          0.15430040786113652,
+          0.14187345287667052,
+          0.0010124617733412444
+        ],
+        [
+          0.1468381961777172,
+          -0.12487485546036264,
+          0.0015479898099826916
+        ],
+        [
+          0.8779063663108755,
+          -0.7478033689751105,
+          0.05191061755141588
+        ],
+        [
+          1.0091916556451361,
+          0.858636788672285,
+          0.06957224902085851
+        ],
+        [
+          1.0155818285289362,
+          0.8600499142605873,
+          0.07247381835924005
+        ],
+        [
+          1.0007727656047782,
+          -0.739231337460904,
+          0.11194477051316812
+        ],
+        [
+          0.9316426173611974,
+          0.7367184939286655,
+          0.07971507626721605
+        ],
+        [
+          0.9629352547436298,
+          -0.7699462644073273,
+          0.08250262802613939
+        ],
+        [
+          1.0067220779744916,
+          0.7843767543676665,
+          0.09863734571356925
+        ],
+        [
+          1.000376251258218,
+          -0.8499432341731202,
+          0.06870876351117661
+        ],
+        [
+          0.9972074404558802,
+          -0.8968268225005817,
+          0.047327161674046825
+        ],
+        [
+          1.011111370897216,
+          0.7869370579379864,
+          0.09951317330438628
+        ],
+        [
+          1.0013860301822122,
+          -0.7858891735213203,
+          0.09558006557074447
+        ],
+        [
+          1.0036189739415973,
+          0.7772067116760735,
+          0.0993354763683543
+        ],
+        [
+          0.98928049357662,
+          -0.7611036579447119,
+          0.09366411931723773
+        ],
+        [
+          1.0027770379262164,
+          0.8450340653721092,
+          0.06531185151990815
+        ]
+      ],
+      "normalized_state_norm": 0.9999999999999984,
+      "number_expectation": 32.00000106294556,
+      "number_error": 1.0629455573507585e-06,
+      "total_spin": -1.0629115062554817e-06,
+      "max_bond_observed": 32,
+      "fused_two_qubit_updates": 10224,
+      "layer_count": 288,
+      "log_retained_norm": -2.0411558851827745,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.01445785499890917,
+      "evolution_seconds": 178.3554247360007,
+      "observable_seconds": 0.22855449700000463,
+      "kernel_seconds": 178.5985214700013,
+      "process_cpu_seconds": 500.393522566,
+      "rss_bytes": 330170368,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 288,
+          "updates": 426,
+          "seconds": 0.675638632998016,
+          "max_bond": 8,
+          "log_retained_norm": 2.886579864025399e-15,
+          "rss_bytes": 325144576
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 288,
+          "updates": 852,
+          "seconds": 2.4659984840000106,
+          "max_bond": 32,
+          "log_retained_norm": -3.896447501442e-05,
+          "rss_bytes": 327516160
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 288,
+          "updates": 1278,
+          "seconds": 6.642130553998868,
+          "max_bond": 32,
+          "log_retained_norm": -4.478044298174793e-05,
+          "rss_bytes": 328888320
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 288,
+          "updates": 1704,
+          "seconds": 14.4339733659981,
+          "max_bond": 32,
+          "log_retained_norm": -0.006678912378802039,
+          "rss_bytes": 329953280
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 288,
+          "updates": 2130,
+          "seconds": 22.118163823997747,
+          "max_bond": 32,
+          "log_retained_norm": -0.025137671843635145,
+          "rss_bytes": 330047488
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 288,
+          "updates": 2556,
+          "seconds": 29.989474656998937,
+          "max_bond": 32,
+          "log_retained_norm": -0.05256388529903828,
+          "rss_bytes": 330088448
+        },
+        {
+          "completed_layers": 84,
+          "total_layers": 288,
+          "updates": 2982,
+          "seconds": 36.526402855000924,
+          "max_bond": 32,
+          "log_retained_norm": -0.05597472606176514,
+          "rss_bytes": 330133504
+        },
+        {
+          "completed_layers": 96,
+          "total_layers": 288,
+          "updates": 3408,
+          "seconds": 42.786745942998095,
+          "max_bond": 32,
+          "log_retained_norm": -0.0931121090798146,
+          "rss_bytes": 330162176
+        },
+        {
+          "completed_layers": 108,
+          "total_layers": 288,
+          "updates": 3834,
+          "seconds": 53.02881179600081,
+          "max_bond": 32,
+          "log_retained_norm": -0.1788533919839677,
+          "rss_bytes": 330182656
+        },
+        {
+          "completed_layers": 120,
+          "total_layers": 288,
+          "updates": 4260,
+          "seconds": 62.01922906500113,
+          "max_bond": 32,
+          "log_retained_norm": -0.291950510151424,
+          "rss_bytes": 330223616
+        },
+        {
+          "completed_layers": 132,
+          "total_layers": 288,
+          "updates": 4686,
+          "seconds": 69.61012791800022,
+          "max_bond": 32,
+          "log_retained_norm": -0.4309525402095355,
+          "rss_bytes": 330223616
+        },
+        {
+          "completed_layers": 144,
+          "total_layers": 288,
+          "updates": 5112,
+          "seconds": 78.51197679100005,
+          "max_bond": 32,
+          "log_retained_norm": -0.5746394347859765,
+          "rss_bytes": 329981952
+        },
+        {
+          "completed_layers": 156,
+          "total_layers": 288,
+          "updates": 5538,
+          "seconds": 87.48249078300069,
+          "max_bond": 32,
+          "log_retained_norm": -0.7121265169660475,
+          "rss_bytes": 330035200
+        },
+        {
+          "completed_layers": 168,
+          "total_layers": 288,
+          "updates": 5964,
+          "seconds": 96.48617709300015,
+          "max_bond": 32,
+          "log_retained_norm": -0.9298044772034211,
+          "rss_bytes": 330063872
+        },
+        {
+          "completed_layers": 180,
+          "total_layers": 288,
+          "updates": 6390,
+          "seconds": 103.78994650299865,
+          "max_bond": 32,
+          "log_retained_norm": -1.12727528835873,
+          "rss_bytes": 330092544
+        },
+        {
+          "completed_layers": 192,
+          "total_layers": 288,
+          "updates": 6816,
+          "seconds": 111.66607760699844,
+          "max_bond": 32,
+          "log_retained_norm": -1.2626293859064524,
+          "rss_bytes": 330203136
+        },
+        {
+          "completed_layers": 204,
+          "total_layers": 288,
+          "updates": 7242,
+          "seconds": 119.25751392600068,
+          "max_bond": 32,
+          "log_retained_norm": -1.3777811239904907,
+          "rss_bytes": 330211328
+        },
+        {
+          "completed_layers": 216,
+          "total_layers": 288,
+          "updates": 7668,
+          "seconds": 126.83872984700065,
+          "max_bond": 32,
+          "log_retained_norm": -1.4932774819481143,
+          "rss_bytes": 330215424
+        },
+        {
+          "completed_layers": 228,
+          "total_layers": 288,
+          "updates": 8094,
+          "seconds": 134.0519175269983,
+          "max_bond": 32,
+          "log_retained_norm": -1.5138839666859831,
+          "rss_bytes": 330227712
+        },
+        {
+          "completed_layers": 240,
+          "total_layers": 288,
+          "updates": 8520,
+          "seconds": 142.2692280279989,
+          "max_bond": 32,
+          "log_retained_norm": -1.5966049649224658,
+          "rss_bytes": 330227712
+        },
+        {
+          "completed_layers": 252,
+          "total_layers": 288,
+          "updates": 8946,
+          "seconds": 149.98996129700026,
+          "max_bond": 32,
+          "log_retained_norm": -1.7247571564911568,
+          "rss_bytes": 330227712
+        },
+        {
+          "completed_layers": 264,
+          "total_layers": 288,
+          "updates": 9372,
+          "seconds": 160.25738701299997,
+          "max_bond": 32,
+          "log_retained_norm": -1.8276630797847453,
+          "rss_bytes": 330227712
+        },
+        {
+          "completed_layers": 276,
+          "total_layers": 288,
+          "updates": 9798,
+          "seconds": 170.47801189299935,
+          "max_bond": 32,
+          "log_retained_norm": -1.9341882559147927,
+          "rss_bytes": 330231808
+        },
+        {
+          "completed_layers": 288,
+          "total_layers": 288,
+          "updates": 10224,
+          "seconds": 178.3374604310011,
+          "max_bond": 32,
+          "log_retained_norm": -2.0411558851827745,
+          "rss_bytes": 330231808
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "6x6_chi32_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 183.68786481600182,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    },
+    {
+      "status": "COMPLETE",
+      "config": {
+        "lx": 6,
+        "ly": 6,
+        "holes": 4,
+        "hopping_t": 1.0,
+        "t_prime_over_t": -0.25,
+        "u_over_t": 8,
+        "chemical_potential": 0.0,
+        "steps": 2,
+        "dt": 0.2,
+        "boundary_x": "open",
+        "boundary_y": "open",
+        "initial_state": "stripe_neel",
+        "shots": 512
+      },
+      "chi": 8,
+      "cutoff": 1e-10,
+      "cutoff_mode": "rel",
+      "moments": [
+        -0.9444059313369904,
+        0.9323377487331997,
+        0.8915560650785784,
+        -0.8990517545652039,
+        -0.9018936550758463,
+        0.9023265165630135,
+        0.8925518692552418,
+        -0.9050960128373012,
+        -0.9194505282723547,
+        0.8989186113836102,
+        0.966940253655033,
+        -0.9560341866638703,
+        0.9796977304756732,
+        -0.947126789052139,
+        -0.9457005555428243,
+        0.9198476953538639,
+        0.9359007953469604,
+        -0.9235884897638421,
+        -0.8725426825719184,
+        0.9317990640555772,
+        0.8583727456000083,
+        -0.8999673339933123,
+        -0.9335350059307412,
+        0.9537389855892208,
+        -0.9786191586813356,
+        0.9628561859153604,
+        0.9889193875996886,
+        -0.8829661668328558,
+        0.9983478896434174,
+        0.9201352011925562,
+        0.9107459971966505,
+        0.999709326143093,
+        -0.8570675294052491,
+        0.9412060859599354,
+        0.93316027037325,
+        -0.9490446871809055,
+        0.926236898216385,
+        -0.9406351053310378,
+        -0.8726807370155953,
+        0.9459011173260623,
+        0.9180362385486333,
+        0.9999209549883884,
+        0.999489500350575,
+        0.9225286055269107,
+        0.9612207111406951,
+        -0.8740875545436301,
+        -0.9538509907713765,
+        0.9515515647875255,
+        -0.9374087782471133,
+        0.9274087392758543,
+        0.9050391541709526,
+        -0.8897213118004657,
+        -0.892751754692304,
+        0.9273726306583978,
+        0.9306405077198165,
+        -0.9329339088482933,
+        -0.920858558845409,
+        0.9289177866601518,
+        0.9441404650050558,
+        -0.9461643110420792,
+        0.9509117610977244,
+        -0.9346525138558512,
+        -0.9257226033681627,
+        0.8781152136236929,
+        0.9060707859002624,
+        -0.9092870668636517,
+        -0.9096961068495777,
+        0.9142199919890276,
+        0.8990748656682065,
+        -0.8860108318021571,
+        -0.9308693154360094,
+        0.9175559992511549,
+        -0.8800267304910604,
+        -0.8031345425834476,
+        -0.8152458152845655,
+        -0.8083311756005145,
+        -0.8250775204228458,
+        -0.9235628304974276,
+        -0.9268246341768819,
+        -0.8656054016314234,
+        -0.8594897479331215,
+        -0.8084453160621186,
+        -0.7681055091081784,
+        -0.8900888878585073,
+        -0.9414753549148789,
+        -0.8719540240717035,
+        0.9184830908359737,
+        0.9104747844305726,
+        -0.8057190621140394,
+        -0.8857795224167798,
+        -0.8696745137043274,
+        -0.8257196667905821,
+        0.9179571935370214,
+        0.9220181058774859,
+        -0.8353082656843251,
+        -0.9054025555589018,
+        -0.8664002119308862,
+        -0.8003280891290545,
+        -0.8249514040955584,
+        -0.8643815619871635,
+        -0.8498434745485153,
+        -0.8903067677380189,
+        -0.8875873830706467,
+        -0.8115340685728305,
+        -0.8234871734627354,
+        -0.8321176541035687,
+        -0.7981435907827608,
+        -0.8536327485173308
+      ],
+      "physical_means": [
+        [
+          1.0060340913018953,
+          0.9383718400350951,
+          0.03301036302818253
+        ],
+        [
+          1.0037478447433128,
+          -0.8953039098218911,
+          0.05109028672579449
+        ],
+        [
+          0.9997835692564163,
+          0.90211008581943,
+          0.046080330807066805
+        ],
+        [
+          1.0062720717910296,
+          -0.8988239410462715,
+          0.051053241995386245
+        ],
+        [
+          1.0102659584443723,
+          0.9091845698279825,
+          0.0488635991164747
+        ],
+        [
+          0.9945469665044187,
+          -0.9614872201594516,
+          0.016382775627852425
+        ],
+        [
+          0.9837145292882329,
+          -0.9634122597639061,
+          0.010151106099895973
+        ],
+        [
+          1.0129264300944802,
+          0.9327741254483441,
+          0.040061864639384215
+        ],
+        [
+          0.9938438472084409,
+          -0.9297446425554012,
+          0.032049486620940065
+        ],
+        [
+          0.9703718092581706,
+          0.9021708733137478,
+          0.03307457561355562
+        ],
+        [
+          1.0207972941966519,
+          -0.8791700397966603,
+          0.06837226982128139
+        ],
+        [
+          0.9898980101707602,
+          0.9436369957599811,
+          0.022426783120753302
+        ],
+        [
+          1.0078814863829877,
+          0.9707376722983481,
+          0.018571904462774125
+        ],
+        [
+          0.9470233896165836,
+          -0.9359427772162722,
+          0.005523188790365924
+        ],
+        [
+          0.040758454582013215,
+          -0.03910634422543058,
+          2.7755575615628914e-17
+        ],
+        [
+          0.04477233833012817,
+          0.04448166447322127,
+          4.865272707266222e-06
+        ],
+        [
+          0.9579307217226569,
+          0.8991368076825923,
+          0.027535595332818602
+        ],
+        [
+          1.0079422084038279,
+          -0.9411024787770778,
+          0.03252622359771892
+        ],
+        [
+          1.0071991035573264,
+          -0.9334360017737113,
+          0.036180923352581384
+        ],
+        [
+          0.9633898098447665,
+          0.9092909271708288,
+          0.025264988224737744
+        ],
+        [
+          0.04102140323148917,
+          0.04094235821987757,
+          -5.551115123125783e-17
+        ],
+        [
+          0.03899094706125705,
+          -0.03848044741183215,
+          2.7755575615628914e-17
+        ],
+        [
+          0.9564334217014675,
+          -0.9176541328421626,
+          0.019389644429652464
+        ],
+        [
+          1.0011497129919256,
+          0.952701277779451,
+          0.02422421760623733
+        ],
+        [
+          1.0050000194856294,
+          0.9324087587614838,
+          0.03589995676009322
+        ],
+        [
+          0.9923410788147565,
+          -0.8973802329857091,
+          0.046088517125114636
+        ],
+        [
+          0.9826895620169531,
+          0.9100621926753509,
+          0.03510692998458689
+        ],
+        [
+          1.0011467005642385,
+          -0.9317872082840549,
+          0.034477959785328305
+        ],
+        [
+          0.9959703860926286,
+          0.9248881727527805,
+          0.03552432440918549
+        ],
+        [
+          1.0010119230185117,
+          -0.9451523880235675,
+          0.027929269574751142
+        ],
+        [
+          0.9918703763790635,
+          -0.9427821374767877,
+          0.024038342421870057
+        ],
+        [
+          1.0238036948722349,
+          0.9019189084959278,
+          0.059018330292909815
+        ],
+        [
+          1.0016081404816948,
+          -0.907678926381957,
+          0.04493227687516349
+        ],
+        [
+          0.997738057430275,
+          0.9119580494193027,
+          0.04083961518924534
+        ],
+        [
+          0.9934679830669753,
+          -0.8925428487351819,
+          0.04719809383779747
+        ],
+        [
+          1.0066566580924272,
+          0.9242126573435822,
+          0.0399201419168809
+        ]
+      ],
+      "normalized_state_norm": 0.9999999999999996,
+      "number_expectation": 32.0,
+      "number_error": 0.0,
+      "total_spin": 9.992007221626409e-16,
+      "max_bond_observed": 8,
+      "fused_two_qubit_updates": 10224,
+      "layer_count": 288,
+      "log_retained_norm": -3.3475444034753696,
+      "truncation_diagnostic_not_error_bound": true,
+      "initialization_seconds": 0.015547243001492461,
+      "evolution_seconds": 14.175353381000605,
+      "observable_seconds": 0.09688368500064826,
+      "kernel_seconds": 14.287836715000594,
+      "process_cpu_seconds": 13.119394907,
+      "rss_bytes": 326496256,
+      "progress": [
+        {
+          "completed_layers": 12,
+          "total_layers": 288,
+          "updates": 426,
+          "seconds": 0.5731498220011417,
+          "max_bond": 8,
+          "log_retained_norm": 2.886579864025399e-15,
+          "rss_bytes": 325025792
+        },
+        {
+          "completed_layers": 24,
+          "total_layers": 288,
+          "updates": 852,
+          "seconds": 1.1252216760003648,
+          "max_bond": 8,
+          "log_retained_norm": -0.007364875778517275,
+          "rss_bytes": 325079040
+        },
+        {
+          "completed_layers": 36,
+          "total_layers": 288,
+          "updates": 1278,
+          "seconds": 1.7910569070008933,
+          "max_bond": 8,
+          "log_retained_norm": -0.011485756215505492,
+          "rss_bytes": 325079040
+        },
+        {
+          "completed_layers": 48,
+          "total_layers": 288,
+          "updates": 1704,
+          "seconds": 2.3656784550003067,
+          "max_bond": 8,
+          "log_retained_norm": -0.0819278682406706,
+          "rss_bytes": 325136384
+        },
+        {
+          "completed_layers": 60,
+          "total_layers": 288,
+          "updates": 2130,
+          "seconds": 2.9679935010026384,
+          "max_bond": 8,
+          "log_retained_norm": -0.18365588135659003,
+          "rss_bytes": 325136384
+        },
+        {
+          "completed_layers": 72,
+          "total_layers": 288,
+          "updates": 2556,
+          "seconds": 3.5945561900007306,
+          "max_bond": 8,
+          "log_retained_norm": -0.30163852035193134,
+          "rss_bytes": 325156864
+        },
+        {
+          "completed_layers": 84,
+          "total_layers": 288,
+          "updates": 2982,
+          "seconds": 4.176087756000925,
+          "max_bond": 8,
+          "log_retained_norm": -0.35341306188578936,
+          "rss_bytes": 325156864
+        },
+        {
+          "completed_layers": 96,
+          "total_layers": 288,
+          "updates": 3408,
+          "seconds": 4.753393278002477,
+          "max_bond": 8,
+          "log_retained_norm": -0.531109053238931,
+          "rss_bytes": 325156864
+        },
+        {
+          "completed_layers": 108,
+          "total_layers": 288,
+          "updates": 3834,
+          "seconds": 5.30847407300098,
+          "max_bond": 8,
+          "log_retained_norm": -0.6233444693104893,
+          "rss_bytes": 325173248
+        },
+        {
+          "completed_layers": 120,
+          "total_layers": 288,
+          "updates": 4260,
+          "seconds": 5.898780612002156,
+          "max_bond": 8,
+          "log_retained_norm": -0.9098889746211979,
+          "rss_bytes": 325197824
+        },
+        {
+          "completed_layers": 132,
+          "total_layers": 288,
+          "updates": 4686,
+          "seconds": 6.473822136002127,
+          "max_bond": 8,
+          "log_retained_norm": -1.1596185562653656,
+          "rss_bytes": 325197824
+        },
+        {
+          "completed_layers": 144,
+          "total_layers": 288,
+          "updates": 5112,
+          "seconds": 7.07282492900049,
+          "max_bond": 8,
+          "log_retained_norm": -1.4198029077861092,
+          "rss_bytes": 325197824
+        },
+        {
+          "completed_layers": 156,
+          "total_layers": 288,
+          "updates": 5538,
+          "seconds": 7.66543549600101,
+          "max_bond": 8,
+          "log_retained_norm": -1.488097471832887,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 168,
+          "total_layers": 288,
+          "updates": 5964,
+          "seconds": 8.267219924000528,
+          "max_bond": 8,
+          "log_retained_norm": -1.6062656276320684,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 180,
+          "total_layers": 288,
+          "updates": 6390,
+          "seconds": 8.856116963001114,
+          "max_bond": 8,
+          "log_retained_norm": -1.7719295611383479,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 192,
+          "total_layers": 288,
+          "updates": 6816,
+          "seconds": 9.459738931000174,
+          "max_bond": 8,
+          "log_retained_norm": -1.8809081436937773,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 204,
+          "total_layers": 288,
+          "updates": 7242,
+          "seconds": 10.10796310600199,
+          "max_bond": 8,
+          "log_retained_norm": -1.9959106795002877,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 216,
+          "total_layers": 288,
+          "updates": 7668,
+          "seconds": 10.682626412002719,
+          "max_bond": 8,
+          "log_retained_norm": -2.201213690676243,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 228,
+          "total_layers": 288,
+          "updates": 8094,
+          "seconds": 11.256665185999736,
+          "max_bond": 8,
+          "log_retained_norm": -2.2649032324222684,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 240,
+          "total_layers": 288,
+          "updates": 8520,
+          "seconds": 11.824106454001594,
+          "max_bond": 8,
+          "log_retained_norm": -2.466070557121838,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 252,
+          "total_layers": 288,
+          "updates": 8946,
+          "seconds": 12.418596884999715,
+          "max_bond": 8,
+          "log_retained_norm": -2.6251579573309116,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 264,
+          "total_layers": 288,
+          "updates": 9372,
+          "seconds": 13.005449860000226,
+          "max_bond": 8,
+          "log_retained_norm": -2.888653789825576,
+          "rss_bytes": 325201920
+        },
+        {
+          "completed_layers": 276,
+          "total_layers": 288,
+          "updates": 9798,
+          "seconds": 13.597168953001528,
+          "max_bond": 8,
+          "log_retained_norm": -3.111443101730902,
+          "rss_bytes": 325206016
+        },
+        {
+          "completed_layers": 288,
+          "total_layers": 288,
+          "updates": 10224,
+          "seconds": 14.168882310001209,
+          "max_bond": 8,
+          "log_retained_norm": -3.3475444034753696,
+          "rss_bytes": 325206016
+        }
+      ],
+      "threads": 3,
+      "threadpools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+          "version": "0.3.31.188.0",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 3,
+          "prefix": "libscipy_openblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+          "version": "0.3.29.dev",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libopenblas",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+          "version": null,
+          "threading_layer": "disabled",
+          "architecture": "Zen"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 3,
+          "prefix": "libgomp",
+          "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+          "version": null
+        }
+      ],
+      "quimb": "1.13.0",
+      "numpy": "2.4.6",
+      "profile": "6x6_chi8_threads3",
+      "process_timing": {
+        "returncode": 0,
+        "cold_worker_seconds": 18.58307773600245,
+        "includes_imports": true,
+        "includes_Windows_WSL_launcher": false
+      }
+    }
+  ],
+  "adjacent_chi_differences": [
+    {
+      "from_chi": 8,
+      "to_chi": 16,
+      "rmse_charge_spin_doublon": [
+        0.01850804578789096,
+        0.024683360298389558,
+        0.008429594856288887
+      ],
+      "max_spin_difference": 0.0514490001865906,
+      "screen_pass": false
+    },
+    {
+      "from_chi": 16,
+      "to_chi": 32,
+      "rmse_charge_spin_doublon": [
+        0.029369057398590685,
+        0.11163567900227875,
+        0.04176332391048592
+      ],
+      "max_spin_difference": 0.16519222992275528,
+      "screen_pass": false
+    }
+  ],
+  "heuristic_stability_screen_pass": false,
+  "certified_6x6_error_bound": false,
+  "no_qpu_seconds": 0,
+  "not_optimized_all8_host_threads": true,
+  "no_6x6_hardware_comparison_yet": true
+}

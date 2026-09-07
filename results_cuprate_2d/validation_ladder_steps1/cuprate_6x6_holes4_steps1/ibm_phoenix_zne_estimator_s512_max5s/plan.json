@@ -1,0 +1,894 @@
+{
+  "account_name": "qiskit-runtime-q9",
+  "backend": "ibm_phoenix",
+  "backend_pending_jobs": 0,
+  "claim_boundary": "PEC/ZNE Estimator diagnostic for diagonal site observables; not a superconductivity or quantum-advantage claim.",
+  "created_at_unix": 1788554655.77019,
+  "instruction_sha256": "fd517e4aa1b18e44cc5291fdcaeed2c7248eb42c74c59563beab1e63cbb2478d",
+  "isa_summary": {
+    "clbits": 0,
+    "depth": 248,
+    "operation_counts": {
+      "barrier": 4,
+      "cz": 777,
+      "rz": 1520,
+      "sx": 1906,
+      "x": 54
+    },
+    "qubits": 120,
+    "size": 4257,
+    "two_qubit_count": 777,
+    "two_qubit_depth": 89
+  },
+  "logical_summary": {
+    "clbits": 0,
+    "depth": 7,
+    "operation_counts": {
+      "barrier": 4,
+      "rz": 72,
+      "rzz": 36,
+      "x": 32,
+      "xx_plus_yy": 120
+    },
+    "qubits": 72,
+    "size": 260,
+    "two_qubit_count": 156,
+    "two_qubit_depth": 5
+  },
+  "max_execution_time": 5,
+  "measurement_mitigation": false,
+  "method": "zne",
+  "observable_count": 108,
+  "observable_records": [
+    {
+      "observable": "n_up",
+      "site": 0,
+      "term_count": 2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 0,
+      "term_count": 2,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 0,
+      "term_count": 4,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 1,
+      "term_count": 2,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 1,
+      "term_count": 2,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 1,
+      "term_count": 4,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 2,
+      "term_count": 2,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 2,
+      "term_count": 2,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 2,
+      "term_count": 4,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 3,
+      "term_count": 2,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 3,
+      "term_count": 2,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 3,
+      "term_count": 4,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 4,
+      "term_count": 2,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 4,
+      "term_count": 2,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 4,
+      "term_count": 4,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 5,
+      "term_count": 2,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "observable": "n_down",
+      "site": 5,
+      "term_count": 2,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 5,
+      "term_count": 4,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "observable": "n_up",
+      "site": 6,
+      "term_count": 2,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 6,
+      "term_count": 2,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 6,
+      "term_count": 4,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 7,
+      "term_count": 2,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 7,
+      "term_count": 2,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 7,
+      "term_count": 4,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 8,
+      "term_count": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 8,
+      "term_count": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 8,
+      "term_count": 4,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 9,
+      "term_count": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 9,
+      "term_count": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 9,
+      "term_count": 4,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 10,
+      "term_count": 2,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 10,
+      "term_count": 2,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 10,
+      "term_count": 4,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 11,
+      "term_count": 2,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "observable": "n_down",
+      "site": 11,
+      "term_count": 2,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 11,
+      "term_count": 4,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "observable": "n_up",
+      "site": 12,
+      "term_count": 2,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 12,
+      "term_count": 2,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 12,
+      "term_count": 4,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 13,
+      "term_count": 2,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 13,
+      "term_count": 2,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 13,
+      "term_count": 4,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 14,
+      "term_count": 2,
+      "x": 2,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 14,
+      "term_count": 2,
+      "x": 2,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 14,
+      "term_count": 4,
+      "x": 2,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 15,
+      "term_count": 2,
+      "x": 3,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 15,
+      "term_count": 2,
+      "x": 3,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 15,
+      "term_count": 4,
+      "x": 3,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 16,
+      "term_count": 2,
+      "x": 4,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 16,
+      "term_count": 2,
+      "x": 4,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 16,
+      "term_count": 4,
+      "x": 4,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 17,
+      "term_count": 2,
+      "x": 5,
+      "y": 2
+    },
+    {
+      "observable": "n_down",
+      "site": 17,
+      "term_count": 2,
+      "x": 5,
+      "y": 2
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 17,
+      "term_count": 4,
+      "x": 5,
+      "y": 2
+    },
+    {
+      "observable": "n_up",
+      "site": 18,
+      "term_count": 2,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 18,
+      "term_count": 2,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 18,
+      "term_count": 4,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 19,
+      "term_count": 2,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 19,
+      "term_count": 2,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 19,
+      "term_count": 4,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 20,
+      "term_count": 2,
+      "x": 2,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 20,
+      "term_count": 2,
+      "x": 2,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 20,
+      "term_count": 4,
+      "x": 2,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 21,
+      "term_count": 2,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 21,
+      "term_count": 2,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 21,
+      "term_count": 4,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 22,
+      "term_count": 2,
+      "x": 4,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 22,
+      "term_count": 2,
+      "x": 4,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 22,
+      "term_count": 4,
+      "x": 4,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 23,
+      "term_count": 2,
+      "x": 5,
+      "y": 3
+    },
+    {
+      "observable": "n_down",
+      "site": 23,
+      "term_count": 2,
+      "x": 5,
+      "y": 3
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 23,
+      "term_count": 4,
+      "x": 5,
+      "y": 3
+    },
+    {
+      "observable": "n_up",
+      "site": 24,
+      "term_count": 2,
+      "x": 0,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 24,
+      "term_count": 2,
+      "x": 0,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 24,
+      "term_count": 4,
+      "x": 0,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 25,
+      "term_count": 2,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 25,
+      "term_count": 2,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 25,
+      "term_count": 4,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 26,
+      "term_count": 2,
+      "x": 2,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 26,
+      "term_count": 2,
+      "x": 2,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 26,
+      "term_count": 4,
+      "x": 2,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 27,
+      "term_count": 2,
+      "x": 3,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 27,
+      "term_count": 2,
+      "x": 3,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 27,
+      "term_count": 4,
+      "x": 3,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 28,
+      "term_count": 2,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 28,
+      "term_count": 2,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 28,
+      "term_count": 4,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 29,
+      "term_count": 2,
+      "x": 5,
+      "y": 4
+    },
+    {
+      "observable": "n_down",
+      "site": 29,
+      "term_count": 2,
+      "x": 5,
+      "y": 4
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 29,
+      "term_count": 4,
+      "x": 5,
+      "y": 4
+    },
+    {
+      "observable": "n_up",
+      "site": 30,
+      "term_count": 2,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 30,
+      "term_count": 2,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 30,
+      "term_count": 4,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "observable": "n_up",
+      "site": 31,
+      "term_count": 2,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 31,
+      "term_count": 2,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 31,
+      "term_count": 4,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "observable": "n_up",
+      "site": 32,
+      "term_count": 2,
+      "x": 2,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 32,
+      "term_count": 2,
+      "x": 2,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 32,
+      "term_count": 4,
+      "x": 2,
+      "y": 5
+    },
+    {
+      "observable": "n_up",
+      "site": 33,
+      "term_count": 2,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 33,
+      "term_count": 2,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 33,
+      "term_count": 4,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "observable": "n_up",
+      "site": 34,
+      "term_count": 2,
+      "x": 4,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 34,
+      "term_count": 2,
+      "x": 4,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 34,
+      "term_count": 4,
+      "x": 4,
+      "y": 5
+    },
+    {
+      "observable": "n_up",
+      "site": 35,
+      "term_count": 2,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "observable": "n_down",
+      "site": 35,
+      "term_count": 2,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "observable": "double_occupancy",
+      "site": 35,
+      "term_count": 4,
+      "x": 5,
+      "y": 5
+    }
+  ],
+  "options": {
+    "_VERSION": 2,
+    "default_precision": "Unset",
+    "default_shots": 512,
+    "dynamical_decoupling": {
+      "enable": "Unset",
+      "extra_slack_distribution": "Unset",
+      "scheduling_method": "Unset",
+      "sequence_type": "Unset",
+      "skip_reset_qubits": "Unset"
+    },
+    "environment": {
+      "job_tags": [
+        "2d-cuprate",
+        "ibm-phoenix",
+        "zne",
+        "budgeted"
+      ],
+      "log_level": "WARNING",
+      "private": false
+    },
+    "execution": {
+      "init_qubits": "Unset",
+      "rep_delay": "Unset"
+    },
+    "experimental": "Unset",
+    "max_execution_time": 5,
+    "resilience": {
+      "layer_noise_learning": {
+        "layer_pair_depths": "Unset",
+        "max_layers_to_learn": "Unset",
+        "num_randomizations": "Unset",
+        "shots_per_randomization": "Unset"
+      },
+      "layer_noise_model": "Unset",
+      "measure_mitigation": false,
+      "measure_noise_learning": {
+        "num_randomizations": "Unset",
+        "shots_per_randomization": "Unset"
+      },
+      "pec": {
+        "max_overhead": "Unset",
+        "noise_gain": "Unset"
+      },
+      "pec_mitigation": false,
+      "zne": {
+        "amplifier": "gate_folding",
+        "extrapolated_noise_factors": [
+          0.0
+        ],
+        "extrapolator": [
+          "linear",
+          "fallback"
+        ],
+        "noise_factors": [
+          1.0,
+          3.0,
+          5.0
+        ]
+      },
+      "zne_mitigation": true
+    },
+    "resilience_level": 0,
+    "seed_estimator": "Unset",
+    "simulator": {
+      "basis_gates": "Unset",
+      "coupling_map": "Unset",
+      "noise_model": "Unset",
+      "seed_simulator": "Unset"
+    },
+    "twirling": {
+      "enable_gates": "Unset",
+      "enable_measure": "Unset",
+      "num_randomizations": "Unset",
+      "shots_per_randomization": "Unset",
+      "strategy": "Unset"
+    }
+  },
+  "pec_max_overhead": null,
+  "qpy_sha256": "65c0739c7dd26d9c882aa55fed80d4fcf7c44fd79bef2341af28ac9473e81130",
+  "shot_accounting": {
+    "combined_shots_upper_bound": 1536,
+    "layer_learning_shots_upper_bound": 0,
+    "note": "Shot bounds are conservative counts, not a prediction of billed QPU seconds.",
+    "target_shots_bound": 1536
+  },
+  "shots": 512,
+  "static_compatibility_passed": true,
+  "submit_requested": true,
+  "zne_noise_factors": [
+    1.0,
+    3.0,
+    5.0
+  ]
+}

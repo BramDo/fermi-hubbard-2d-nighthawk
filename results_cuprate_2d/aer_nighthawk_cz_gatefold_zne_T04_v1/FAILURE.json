@@ -1,0 +1,9 @@
+{
+  "status": "FAILED_PREFLIGHT_BEFORE_NOISY_SAMPLES",
+  "error_type": "AttributeError",
+  "message": "QPY-restored save_expval Instruction has no _subtype",
+  "new_production_trajectories": 0,
+  "new_qpu_seconds": 0,
+  "original_source_in": "source_snapshot",
+  "next_run": "aer_nighthawk_cz_gatefold_zne_T04_v2"
+}

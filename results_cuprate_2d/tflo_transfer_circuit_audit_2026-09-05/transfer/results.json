@@ -1,0 +1,194 @@
+{
+  "stage": "EXPLORATORY_TRANSFER_AUDIT",
+  "new_QPU_seconds": 0,
+  "source_job": "dae5gat1ierc738lmg10",
+  "fixed_tolerance": 1,
+  "fixed_ridge": 0.001,
+  "counts": [
+    175,
+    157,
+    182,
+    167,
+    181,
+    165,
+    179,
+    168,
+    141,
+    190
+  ],
+  "models": [
+    {
+      "method": "linear_linear",
+      "U0_holdout_MSE": 0.002335658501781385,
+      "U8_target_MSE": 0.033644689215823635,
+      "classical_minus_method_MSE_gain_ci95": {
+        "low": -0.006025630182634451,
+        "high": 0.00474996381339373,
+        "valid": 400
+      },
+      "contrast_MSE": 0.034418913616075894,
+      "zero_minus_contrast_MSE_gain_ci95": {
+        "low": -0.008174713505687839,
+        "high": 0.0036093589983330746,
+        "valid": 400
+      },
+      "contrast_projection_fraction": 0.027872288381787975,
+      "contrast_projection_ci95": {
+        "low": -0.05111029384808303,
+        "high": 0.1018638322495605,
+        "valid": 400
+      },
+      "per_time": [
+        {
+          "time": 0.2,
+          "rmse_charge_spin_double": [
+            0.029723841386860867,
+            0.08691841126495142,
+            0.026608140805740758
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            0.03543463884040042,
+            0.03367222065944106,
+            0.02094960165887916
+          ],
+          "out_of_bounds_count": 1
+        },
+        {
+          "time": 0.4,
+          "rmse_charge_spin_double": [
+            0.054691502272984936,
+            0.20505531897302123,
+            0.0729883272538704
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            0.033981065419322706,
+            0.034135928038643,
+            0.01945808743138739
+          ],
+          "out_of_bounds_count": 0
+        }
+      ]
+    },
+    {
+      "method": "affine_no_time",
+      "U0_holdout_MSE": 0.059558714544637494,
+      "U8_target_MSE": 0.07449691442670936,
+      "classical_minus_method_MSE_gain_ci95": {
+        "low": -0.08436677114576054,
+        "high": 0.0006309090520616641,
+        "valid": 400
+      },
+      "contrast_MSE": 0.08871499035297105,
+      "zero_minus_contrast_MSE_gain_ci95": {
+        "low": -0.12047736752277588,
+        "high": -0.023674903288993566,
+        "valid": 400
+      },
+      "contrast_projection_fraction": 0.13053674059459555,
+      "contrast_projection_ci95": {
+        "low": -0.1853596510562855,
+        "high": 0.5382087039284142,
+        "valid": 400
+      },
+      "per_time": [
+        {
+          "time": 0.2,
+          "rmse_charge_spin_double": [
+            0.1433958101202617,
+            0.14622368933289362,
+            0.12963365123137763
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            0.1350111436434942,
+            0.1273269600731336,
+            0.08688169041351439
+          ],
+          "out_of_bounds_count": 2
+        },
+        {
+          "time": 0.4,
+          "rmse_charge_spin_double": [
+            0.1676843605221533,
+            0.15537567532494076,
+            0.09125177256325621
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            0.12294426497618405,
+            0.12485849259626117,
+            0.08006672647512125
+          ],
+          "out_of_bounds_count": 0
+        }
+      ]
+    },
+    {
+      "method": "time_only",
+      "U0_holdout_MSE": 0.002343655690261947,
+      "U8_target_MSE": 0.0313546262220297,
+      "classical_minus_method_MSE_gain_ci95": {
+        "low": 0.0021785774475671163,
+        "high": 0.0021785774475671163,
+        "valid": 400
+      },
+      "contrast_MSE": 0.03353320366959681,
+      "zero_minus_contrast_MSE_gain_ci95": {
+        "low": -6.938893903907228e-18,
+        "high": -6.938893903907228e-18,
+        "valid": 400
+      },
+      "contrast_projection_fraction": 0.0,
+      "contrast_projection_ci95": {
+        "low": 0.0,
+        "high": 0.0,
+        "valid": 400
+      },
+      "per_time": [
+        {
+          "time": 0.2,
+          "rmse_charge_spin_double": [
+            0.023467062815613407,
+            0.08183503927943028,
+            0.016588873417119347
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            6.45555790472714e-15,
+            3.711903020119182e-15,
+            4.858926550189783e-16
+          ],
+          "out_of_bounds_count": 0
+        },
+        {
+          "time": 0.4,
+          "rmse_charge_spin_double": [
+            0.0356178549336176,
+            0.20847789555918064,
+            0.06524431858568851
+          ],
+          "rms_bootstrap_SE_charge_spin_double": [
+            5.0138091694957115e-15,
+            2.1738919578441713e-15,
+            9.619386364572107e-16
+          ],
+          "out_of_bounds_count": 0
+        }
+      ]
+    }
+  ],
+  "classical_FLO_only_MSE": 0.03353320366959681,
+  "raw_U8_MSE": 0.2645180632239252,
+  "zero_contrast_MSE": 0.03353320366959681,
+  "current_TFLO_ablation": {
+    "description": "Replace U8 measured input with same-time U0 measured input; fitted model held fixed per replicate.",
+    "actual_U8_MSE": 0.033644689215823635,
+    "ablated_U8_MSE": 0.03303653887406331,
+    "ablated_minus_real_MSE_gain_ci95": {
+      "low": -0.007416363732061995,
+      "high": 0.003803831320515626,
+      "valid": 400
+    }
+  },
+  "bootstrap_replicates": 400,
+  "bootstrap_failures": 0,
+  "no_model_selected_or_promoted": true,
+  "limits": "Post-hoc diagnostic; same-time U0 contrast points trained the models. No new independent validation or bias-free CI claim."
+}

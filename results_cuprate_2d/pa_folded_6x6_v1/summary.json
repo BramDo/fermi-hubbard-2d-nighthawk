@@ -1,0 +1,50 @@
+{
+  "status": "OFFLINE_FOLDED_PA_TRIAL_COMPLETE",
+  "tests_passed": 11,
+  "native": {
+    "name": "folded_native",
+    "operations": {
+      "sx": 47597,
+      "cz": 25786,
+      "rz": 12595,
+      "x": 1187,
+      "measure": 72
+    },
+    "cz": 25786,
+    "physical_X_SX": 48784,
+    "depth": 10480,
+    "CZ_depth": 4613,
+    "snapshot_unaligned_duration_seconds": 0.0004981679999999218,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/folded_native.qpy"
+  },
+  "twirl": {
+    "name": "folded_twirl",
+    "operations": {
+      "sx": 47552,
+      "rz": 43605,
+      "cz": 25786,
+      "x": 8568,
+      "measure": 72
+    },
+    "cz": 25786,
+    "physical_X_SX": 56120,
+    "depth": 14404,
+    "CZ_depth": 4613,
+    "snapshot_unaligned_duration_seconds": 0.0005331559999999082,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/folded_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 51692,
+      "max_segment_error": 6.009540422857874e-14,
+      "global_phase_error": 2.300767743280712e-12,
+      "CZ_partial_order_preserved": true
+    }
+  },
+  "seconds": 61.20460260300024,
+  "QPU_seconds_used": 0,
+  "hardware_authorized": false,
+  "preparation_included": true,
+  "readout_included": true,
+  "ZNE_protocol_not_prepared": true
+}

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "scope": "PA correctness and offline native resource pilot",
+  "no_provider_calls": true,
+  "QPU_seconds_used": 0,
+  "hardware_authorized": false,
+  "runtime": {
+    "python": "3.12.3",
+    "qiskit": "2.5.2"
+  },
+  "compile_seeds": [
+    9,
+    27
+  ],
+  "saved_backend_qubits": 120,
+  "saved_backend_edges": 218,
+  "source_sha256": {
+    "PA_ANCILLA_PROTOCOL.md": "51da409e179711197eee5b80cd6b4c23cc85869ed2648e04083ff511ffc1fc94",
+    "cuprate_2d_pa_mapping.py": "a3fd212c6a72dbaee9131b80dd2282ad0c590f6b76b8c68c61a3e4de349c04a3",
+    "test_cuprate_2d_pa_mapping.py": "cdb941ef598bafed23fd50c8230a45ffe88c6ba3f4da9d65b2b1328e000da5be",
+    "audit_pa_ancilla_6x6.py": "1864e8fea73edae9624b4f587d266c1bd42e5d96a9886cb6d365dbbe246076fe",
+    "cuprate_2d_shallow_network.py": "9b55643cbe02766d2b93198abf6c1c0e98dcb9c50593bf8f3d9ab2be2794e590",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+    "audit_shallow_6x6.py": "4cd327bd52673262bcdeea13219eb7d1d1dad06d6a022d80059553ec41d2dacd",
+    "cuprate_2d_pa_pair_synthesis.py": "9ce996cab17b8c9ceb8c2950db6e4e170df0da89ab858911ba545b5b3a224062",
+    "test_cuprate_2d_pa_pair_synthesis.py": "133a07cdc72a66409a9941e0194aaaff526d7ceb188c319f01023fc8e3144835"
+  },
+  "parent_manifest_sha256": "0d0be6044899593c1cfd806a9b5a71579db21dc9128dac5838ba462666c26e2c",
+  "backend_properties_sha256": "b0c722cef67e938a31c9d119d7ee1915300f5853ce2f466e505ea504bbfa7941"
+}

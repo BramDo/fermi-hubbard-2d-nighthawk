@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_BUT_INDEPENDENT_BOOTSTRAP_INVALID",
+  "primary_replacement": "results_cuprate_2d/aer_nighthawk_full_cz_half_T04_v2_disjoint_seeds",
+  "all_original_samples_and_analyses_preserved": true,
+  "new_qpu_seconds": 0,
+  "reason": "Adjacent run seeds overlap per-shot RNG seeds; original independent-bootstrap confidence claims are withdrawn."
+}

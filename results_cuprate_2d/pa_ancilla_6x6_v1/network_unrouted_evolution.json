@@ -1,0 +1,20 @@
+{
+  "scope": "diagnostic only; excludes preparation and hardware routing",
+  "qubits": 108,
+  "depth": 11850,
+  "CZ_depth": 3551,
+  "CZ": 11411,
+  "operations": {
+    "rz": 18449,
+    "sx": 18103,
+    "cz": 11411,
+    "x": 5026
+  },
+  "Pauli_weight_histogram": {
+    "5": 60,
+    "3": 60,
+    "6": 60,
+    "4": 210,
+    "8": 50
+  }
+}

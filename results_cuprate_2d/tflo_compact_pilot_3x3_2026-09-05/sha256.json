@@ -1,0 +1,13 @@
+{
+  "PREPARATION_REPORT.md": "284f481f266c9179eb86d8726f2ab323a42f1add1448be858920e935196230f9",
+  "analysis_protocol.json": "cfe212f3935c7c5952b56bd1217aea900ddffab29706c2630be6b8785f69ec5b",
+  "authorization_checkpoint.json": "4de355bb5714ffd00afcc09650b2a3a56f9cf1f509c751afb81403c5cc565a96",
+  "classical_control_predictions.json": "c02896b7be5c6e5adedbbff6e7da4ea97dea919c25039015716dd506969caaca",
+  "manifest.json": "823015bd20de02232c582388294bbf8146de9781292843a17fab1b5c170aab6d",
+  "source_snapshot/cuprate_2d_tflo_refinement.py": "6671af6af2ffbb7de72147c9f9899625e5458843a28497374642c7c4396076db",
+  "source_snapshot/preflight_cuprate_2d_tflo_budget.py": "34747508fc6bb7a88f6f9267868671652bf9748fd55100395e45aa92fb8fc070",
+  "source_snapshot/prepare_cuprate_2d_tflo_compact_pilot.py": "0dcb20c02bcae0689dfd5991923df5048ed1c301a6a01c0fc1307d205dff0d47",
+  "source_snapshot/test_cuprate_2d_tflo_compact_pilot.py": "93b37ac0893a6fccbf3cce4761d98db6707730d3595844faf145c5ded37b0a42",
+  "twirled_sampler_templates.qpy": "80389af9551b3e24d4222e3cbd78bedb2c5c9a8bd1e01d7419f974c17c4edc06",
+  "verification.json": "cbbb2028704e0dbecf5e16be0a034b26eeaf3bf586080704adf17865953556fe"
+}

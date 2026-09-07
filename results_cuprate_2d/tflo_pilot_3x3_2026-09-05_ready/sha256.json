@@ -1,0 +1,19 @@
+{
+  "README.md": "6a809ba3fbf63fdab92b59e47a4ee9fb103a63adbb77c76df40299eecfc554c2",
+  "interacting_holdout_U8_T0.2_reference_state.npz": "0950d6b73d79cf75237c95af6ca839a5195409beeacb1e3897e789da303642c9",
+  "interacting_holdout_U8_T0.4_reference_state.npz": "56dbe97f6bd769cef045a66e2adcbf18ef44ef04e01d45d0dadf610d2ae898e9",
+  "logical_template.qpy": "f1b243dbc4fbefd7466ddf7fde6e806f7f091d36acc72c1c3029bf9a3009a04f",
+  "manifest.json": "453a3d3f237f1912577ef5528f950c96220f0916e231191a929df38d3cbe071e",
+  "native_template.qpy": "c5557ef5c8f8c0565983f12bad38e8a2a5d3b5e689bcbc58d746a93994a7e93a",
+  "source_snapshot/analyze_cuprate_2d_tflo.py": "2d8428e25585e6d6bb9c5e4a9e728c100591896b88817b623c50987e586aad84",
+  "source_snapshot/cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+  "source_snapshot/cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+  "source_snapshot/cuprate_2d_fermionic_pilot.py": "796303333c2e6784e737d32eab2b13679b6296e511197d9fe55026dc4d8c6474",
+  "source_snapshot/cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/prepare_cuprate_2d_tflo.py": "4fa36abe2457cc67a1e6cb95433c16a33ab3b2564622d89266e7684045f25a8f",
+  "source_snapshot/test_cuprate_2d_tflo.py": "ee7d4a1fe7ccbbd692fe18e0c56c2154d6d01d586ddcc7c42b75a4d34e59a539",
+  "source_snapshot/validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266",
+  "twirled_sampler_templates.qpy": "15759843f93ef2b51d5c088441fca16fa08d2ddb5e5974dbda7db4a63e976ee9",
+  "validation.json": "0062d189280c926990ea75bb647018695f7c6842d21fed6cf8cd0243e9e5b660"
+}

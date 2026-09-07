@@ -1,0 +1,57 @@
+{
+  "status": "COMPACT_CANDIDATE_BUILT_CZ_BOTTLENECK_UNRESOLVED",
+  "selected_method": "one-qubit-only cleanup of original CZ trace",
+  "all8_original_factor1_twirls_preserved": true,
+  "factor2_and_factor3_prototypes": "Only twirl0 prepared; full new hardware batch not prepared.",
+  "old": {
+    "name": "original_factor1_twirl0",
+    "operations": {
+      "rz": 48923,
+      "x": 31593,
+      "sx": 18897,
+      "cz": 15400,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 50490,
+    "depth": 3241,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 9.973200000000324e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "new": {
+    "name": "compact_factor1_twirl0",
+    "qpy": "circuits/compact_factor1_twirl0.qpy",
+    "operations": {
+      "rz": 25275,
+      "sx": 18691,
+      "cz": 15400,
+      "x": 7533,
+      "measure": 72
+    },
+    "cz": 15400,
+    "physical_X_SX": 26224,
+    "depth": 2030,
+    "CZ_depth": 564,
+    "snapshot_unaligned_duration_seconds": 7.225200000000045e-05,
+    "exact_edgewise_factor2_possible": true
+  },
+  "depth_reduction_fraction": 0.37365010799136067,
+  "pulse_reduction_fraction": 0.48061002178649237,
+  "snapshot_duration_reduction_fraction": 0.2755384430273322,
+  "original_Hamiltonian_time_and_finite_circuit_preserved": true,
+  "physics_terms_dropped": false,
+  "Trotter_steps_reduced": false,
+  "hardware_error_improvement_measured": false,
+  "new_hardware_submission_authorized": false,
+  "new_QPU_seconds": 0,
+  "classical_chi128_started": false,
+  "exactness": "14 distinct tests plus per-wire2x2 segment and global-phase checks on full72-mode cleanup.",
+  "rejected_routing_candidates": 6,
+  "remaining_bottleneck": "15400 CZ gates,564 CZ layers in baseline.",
+  "input_manifest_sha256": {
+    "hardware": "0d0be6044899593c1cfd806a9b5a71579db21dc9128dac5838ba462666c26e2c",
+    "first_round": "7b62713138239ba81d30138bf287da0b3e7235186908d005f78087303c8c70a4",
+    "frontier_round": "b0228f746b0fc5065666905b383f78b0637121528dcb45e30592a82645c9ee44"
+  }
+}

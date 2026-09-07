@@ -1,0 +1,126 @@
+[
+  {
+    "path": "backend_snapshot.json",
+    "sha256": "983832f2c20ab477381cb3790e05418bf4de5301dc8e98de2a4ebadf099fc5da"
+  },
+  {
+    "path": "candidate_comparison.json",
+    "sha256": "ff2794a2d143e06c53a316553891c43e2678d50c7f9b76a08b504f5487d1c444"
+  },
+  {
+    "path": "candidates/adaptive_look12_opt1/isa_circuit.qpy",
+    "sha256": "88c371c851f8cdab5adb029d424f4c21331b29721af219e401a9be67d1c0164a"
+  },
+  {
+    "path": "candidates/adaptive_look12_opt1/summary.json",
+    "sha256": "c04ad5ba90a12d6aea341746ccfa21ebe25f33c64eb1f8d941fffdc65908abef"
+  },
+  {
+    "path": "candidates/adaptive_look12_opt3/isa_circuit.qpy",
+    "sha256": "991b5c9496788387049946b2f76a2f5822bc8b759d945f5c4cafb555bb69a533"
+  },
+  {
+    "path": "candidates/adaptive_look12_opt3/summary.json",
+    "sha256": "2ef48e1b1789733d34bfab7dc7c676301b7d8430286f10dbe1fc91f81c5e891b"
+  },
+  {
+    "path": "candidates/adaptive_look4_opt1/isa_circuit.qpy",
+    "sha256": "f01f1b2b5610ea6ade63505af4dfb8bf58fab41823713db6a8887f0794b4eaaa"
+  },
+  {
+    "path": "candidates/adaptive_look4_opt1/summary.json",
+    "sha256": "41e3a7be08bef7b515c57229b0d45384e64d1e2a93e79113f4abc13356c8b0f6"
+  },
+  {
+    "path": "candidates/adaptive_look4_opt3/isa_circuit.qpy",
+    "sha256": "cc2a6338a4243fd5d3b04d61923c005fc76dc329b1a28e20fede890df07eeeb7"
+  },
+  {
+    "path": "candidates/adaptive_look4_opt3/summary.json",
+    "sha256": "9532573e56f3a16ec93b9b7d766b37b7d71edf9936135c667bfcc07a9c616980"
+  },
+  {
+    "path": "candidates/network_opt1/isa_circuit.qpy",
+    "sha256": "5a1a4c0016ec354a7e2935c19d7721d2cb29c93c37ff702f7a54eb11df60c882"
+  },
+  {
+    "path": "candidates/network_opt1/summary.json",
+    "sha256": "15e3f0af7e9a3637ba898d1c5b0d132df49cd393cfcd1201aa756745ca3c22c1"
+  },
+  {
+    "path": "candidates/network_opt3/isa_circuit.qpy",
+    "sha256": "41fb11bf5941c535396dd57664a7e463be40e293db4adf1bb9a36acd7d718406"
+  },
+  {
+    "path": "candidates/network_opt3/summary.json",
+    "sha256": "1e5798a3be4b188330f084c7750a7462854b66c803022d93815f1155015fc5a1"
+  },
+  {
+    "path": "layout_candidates.json",
+    "sha256": "fe195da47bf6b8bb269941e6c616da253a7126cf2f89988e062e7446076d20e0"
+  },
+  {
+    "path": "optimization.md",
+    "sha256": "f55c55461f784c42c3b1ee4240d14b1a6111b27e35883980e064b2552990304e"
+  },
+  {
+    "path": "reference_opt3.json",
+    "sha256": "10ad74204abba5425e581ce5c83585920933e52975cb9fcfc5a9ab25be491522"
+  },
+  {
+    "path": "reference_opt3.qpy",
+    "sha256": "2073f2ef2348ac2fab7210743f88db3230d20390b12df2a68544b10865513fb7"
+  },
+  {
+    "path": "steps2/isa_circuit.qpy",
+    "sha256": "41fb11bf5941c535396dd57664a7e463be40e293db4adf1bb9a36acd7d718406"
+  },
+  {
+    "path": "steps2/logical_circuit.qpy",
+    "sha256": "4375084791fc3f051644a1759020372f71a2e230da1a666009d334664ff5ee8c"
+  },
+  {
+    "path": "steps2/observables.json",
+    "sha256": "8052621afb4de70c46c57759c50c7489120c99fafb0559dc51050a2e8c6151c2"
+  },
+  {
+    "path": "steps2/plan.json",
+    "sha256": "7f0e6eb9a60e184436904b613c104000b0f3c1afbc682c6c31b7941815a908bd"
+  },
+  {
+    "path": "steps4/isa_circuit.qpy",
+    "sha256": "fa950aa5478457a5ae2766e61212bd16de0a67406b6c62d3828f5b165f8a79e3"
+  },
+  {
+    "path": "steps4/logical_circuit.qpy",
+    "sha256": "c61d7ac6701eb9bbde7d9cb3e3fa47d28662a8572aa37fe08a32142f0272a156"
+  },
+  {
+    "path": "steps4/observables.json",
+    "sha256": "8052621afb4de70c46c57759c50c7489120c99fafb0559dc51050a2e8c6151c2"
+  },
+  {
+    "path": "steps4/plan.json",
+    "sha256": "86b233112aa5cd5d5887b92375309366221d748967d1d5f8e54c404314393283"
+  },
+  {
+    "path": "steps8/isa_circuit.qpy",
+    "sha256": "d6cce9798fc712771f7edc5437ca5e45d1ab394c772ccaf4173fcd4c0336d87d"
+  },
+  {
+    "path": "steps8/logical_circuit.qpy",
+    "sha256": "88660ff5f5fea57bc00bf356ae497541ee7e749f2e85bc465baf6c8b29ea0620"
+  },
+  {
+    "path": "steps8/observables.json",
+    "sha256": "8052621afb4de70c46c57759c50c7489120c99fafb0559dc51050a2e8c6151c2"
+  },
+  {
+    "path": "steps8/plan.json",
+    "sha256": "7e5d334e66648dc881d25cabfebefb77c75d10ef1da0b36deb6d22f4250df8ab"
+  },
+  {
+    "path": "validation.json",
+    "sha256": "adbc018133beabc6a1f0a2cfed877d932e6478dcdfeed8ce672edd1eebdd30c2"
+  }
+]

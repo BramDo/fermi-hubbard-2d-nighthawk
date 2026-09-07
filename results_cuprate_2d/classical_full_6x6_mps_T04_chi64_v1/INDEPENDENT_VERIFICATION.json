@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "verifier_source_sha256": "491411ab295942ae7685b4137a43551499f712e6bfcbe3968740c7c15e3bc7e6",
+  "continuation_archive_files_checked": 23,
+  "original_archive_and_input_hashes_checked": true,
+  "independent_random_four_qubit_dense_self_test": "PASS",
+  "independent_72_mode_numpy_mps_contraction": "PASS",
+  "contracted_state_norm": 0.9999999999999758,
+  "maximum_moment_difference": 4.107825191113079e-15,
+  "maximum_physical_difference": 3.885780586188048e-15,
+  "both_chi32_comparison_calculations": "PASS",
+  "certified_higher_chi_convergence": false
+}

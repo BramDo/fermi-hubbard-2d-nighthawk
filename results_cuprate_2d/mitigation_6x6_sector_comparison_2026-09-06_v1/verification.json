@@ -1,0 +1,11 @@
+{
+  "source_archive_hashes_verified": 97,
+  "baseline_reproduction_max_abs": 0.0,
+  "independent_integer_sector_disagreements": 0,
+  "independent_direct_bits_vs_pauli_max_abs": 0.0,
+  "postselected_N32_max_abs": 7.105427357601002e-15,
+  "postselected_total_spin_max_abs": 3.3306690738754696e-16,
+  "all_input_hashes_unchanged": true,
+  "python": "3.12.3",
+  "numpy": "2.4.6"
+}

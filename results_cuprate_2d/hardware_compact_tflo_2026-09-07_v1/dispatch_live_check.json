@@ -1,0 +1,64 @@
+{
+  "checked_unix": 1788765992.6888294,
+  "backend": "ibm_phoenix",
+  "pending_jobs": 2,
+  "properties_updated": "2026-09-07 08:43:04+02:00",
+  "quota": {
+    "usage_consumed_seconds": 49.0,
+    "remaining_reported": false,
+    "unknown_is_not_unlimited": true,
+    "selected_plan": "pay-as-you-go",
+    "no_quota_limit_claimed": true
+  },
+  "instance_sha256": "6f963c3f49c03a803a8cf32a97e546fb9bae6523a062f3497e8bc4532ea4f6b9",
+  "timing_fingerprint": "763260241e5316896e2f2c911c09ddc5c78d32f85715f61e3af01efe621e0494",
+  "options": {
+    "max_execution_time": 15,
+    "default_shots": 512,
+    "execution": {
+      "init_qubits": true,
+      "rep_delay": 1e-06,
+      "meas_type": "classified"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": false
+    },
+    "dynamical_decoupling": {
+      "enable": false
+    },
+    "environment": {
+      "job_tags": [
+        "2d-cuprate",
+        "compact-tflo6",
+        "compact-tflo6-1ae199c5cf7645b6"
+      ]
+    }
+  },
+  "plan_sha256": "edfc322feba5b38b16cd161af314eb1113fd0828440ffb43b8c45bbe294aedf8",
+  "full_preflight_sha256": "a26b062e6d1e94a8ba4ff7fd76af3d409fa5f2accd635ee0c129a1c6bc7f9a7b",
+  "full_ISA_reused_only_for_identical_bytes_target_SDK": true,
+  "budget": {
+    "shot_execution_seconds": 3.905900544000149,
+    "estimates_by_internal_subjobs": {
+      "1": 5.905900544000149,
+      "2": 7.905900544000149,
+      "3": 9.905900544000149,
+      "4": 11.905900544000149,
+      "5": 13.905900544000149,
+      "6": 15.905900544000149,
+      "7": 17.905900544000147,
+      "8": 19.905900544000147
+    },
+    "planning_subjobs": 4,
+    "headroom_seconds": 0.75,
+    "cap_seconds": 15,
+    "internal_subjob_count_known": false,
+    "completion_guaranteed": false,
+    "pass": true
+  },
+  "reset_all120_seconds": 2.14e-06,
+  "rep_delay_seconds": 1e-06,
+  "runtime_sessions_with_retries_disabled": 2,
+  "automatic_job_retry": false
+}

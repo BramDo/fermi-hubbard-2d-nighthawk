@@ -1,0 +1,24 @@
+test_allocation_fits_parent_and_exact_costs (test_aer_equal_cz_budget.BudgetTests.test_allocation_fits_parent_and_exact_costs) ... ok
+test_exact_64_allocation_and_proxy (test_aer_equal_cz_budget.BudgetTests.test_exact_64_allocation_and_proxy) ... ok
+test_exact_half_budget_allocation (test_aer_equal_cz_budget.BudgetTests.test_exact_half_budget_allocation) ... ok
+test_invalid_budgets (test_aer_equal_cz_budget.BudgetTests.test_invalid_budgets) ... ok
+test_weights_affine_and_linear_moment (test_aer_equal_cz_budget.BudgetTests.test_weights_affine_and_linear_moment) ... ok
+test_bootstrap_repeatable (test_aer_equal_cz_budget.InferenceTests.test_bootstrap_repeatable) ... ok
+test_half_budget_raw_weights (test_aer_equal_cz_budget.InferenceTests.test_half_budget_raw_weights) ... ok
+test_linear_intercept_exact (test_aer_equal_cz_budget.InferenceTests.test_linear_intercept_exact) ... ok
+test_negative_gain_not_clipped (test_aer_equal_cz_budget.InferenceTests.test_negative_gain_not_clipped) ... ok
+test_physical_units_and_spin_convention (test_aer_equal_cz_budget.InferenceTests.test_physical_units_and_spin_convention) ... ok
+test_quadratic_secondary_intercept (test_aer_equal_cz_budget.InferenceTests.test_quadratic_secondary_intercept) ... ok
+test_ranges_reported_without_clipping (test_aer_equal_cz_budget.InferenceTests.test_ranges_reported_without_clipping) ... ok
+test_shared_prefix_preserves_both_arm_covariance (test_aer_equal_cz_budget.InferenceTests.test_shared_prefix_preserves_both_arm_covariance) ... ok
+test_wrong_inference_shapes_rejected (test_aer_equal_cz_budget.InferenceTests.test_wrong_inference_shapes_rejected) ... ok
+test_zero_reference_spin_rejected (test_aer_equal_cz_budget.InferenceTests.test_zero_reference_spin_rejected) ... ok
+test_fixed_prefixes_and_raw_suffix (test_aer_equal_cz_budget.SelectionTests.test_fixed_prefixes_and_raw_suffix) ... ok
+test_old_bootstrap_strata_rejected (test_aer_equal_cz_budget.SelectionTests.test_old_bootstrap_strata_rejected) ... ok
+test_raw_uses_all64_zne_only30 (test_aer_equal_cz_budget.SelectionTests.test_raw_uses_all64_zne_only30) ... ok
+test_wrong_parent_shapes_rejected (test_aer_equal_cz_budget.SelectionTests.test_wrong_parent_shapes_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.029s
+
+OK

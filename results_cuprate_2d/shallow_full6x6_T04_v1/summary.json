@@ -1,0 +1,444 @@
+{
+  "status": "OFFLINE_SHALLOW_CANDIDATES_VERIFIED_NOT_SUBMITTED",
+  "tests": 9,
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "routing_attribution": {
+    "modes": 72,
+    "sites": 36,
+    "steps": 2,
+    "time": 0.4,
+    "hopping_pairs": 220,
+    "onsite_pairs": 36,
+    "all_pairs_per_sweep": 2556,
+    "logical_fswap_blocks": 10224,
+    "blocks_with_physics": 1024,
+    "pure_routing_blocks": 9200,
+    "pure_routing_fraction_before_compiler": 0.8998435054773083,
+    "selected_physical_CZ_edges": 108,
+    "used_path_edges": 71,
+    "unused_selected_edges": 37,
+    "T1_seconds_min_median_max": [
+      1.6094896711273454e-05,
+      0.00017102972914838602,
+      0.0002697232186978279
+    ],
+    "T2_seconds_min_median_max": [
+      7.493511152799829e-06,
+      0.00013604866557276964,
+      0.00026124183856751827
+    ],
+    "snapshot_not_live_preflight": true,
+    "does_not_predict_fidelity": true
+  },
+  "circuits": [
+    {
+      "name": "original_native_no_twirls",
+      "operations": {
+        "sx": 18897,
+        "rz": 17949,
+        "cz": 15400,
+        "x": 660,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 19557,
+      "depth": 1808,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 6.705200000000003e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "original_factor1_twirl0",
+      "operations": {
+        "rz": 48923,
+        "x": 31593,
+        "sx": 18897,
+        "cz": 15400,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 50490,
+      "depth": 3241,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 9.973200000000324e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl0",
+      "qpy": "circuits/compact_factor1_twirl0.qpy",
+      "operations": {
+        "rz": 25275,
+        "sx": 18691,
+        "cz": 15400,
+        "x": 7533,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26224,
+      "depth": 2030,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.225200000000045e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "original_factor2_twirl0",
+      "operations": {
+        "rz": 48923,
+        "x": 31593,
+        "cz": 30800,
+        "sx": 18897,
+        "measure": 72
+      },
+      "cz": 30800,
+      "physical_X_SX": 50490,
+      "depth": 3896,
+      "CZ_depth": 1416,
+      "snapshot_unaligned_duration_seconds": 0.00014814800000000194,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor2_twirl0",
+      "qpy": "circuits/compact_factor2_twirl0.qpy",
+      "operations": {
+        "cz": 30800,
+        "rz": 25275,
+        "sx": 18691,
+        "x": 7533,
+        "measure": 72
+      },
+      "cz": 30800,
+      "physical_X_SX": 26224,
+      "depth": 2723,
+      "CZ_depth": 1416,
+      "snapshot_unaligned_duration_seconds": 0.00012350000000000222,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "original_factor3_twirl0",
+      "operations": {
+        "rz": 48923,
+        "cz": 46200,
+        "x": 31593,
+        "sx": 18897,
+        "measure": 72
+      },
+      "cz": 46200,
+      "physical_X_SX": 50490,
+      "depth": 4369,
+      "CZ_depth": 1692,
+      "snapshot_unaligned_duration_seconds": 0.00017643599999999905,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor3_twirl0",
+      "qpy": "circuits/compact_factor3_twirl0.qpy",
+      "operations": {
+        "cz": 46200,
+        "rz": 25275,
+        "sx": 18691,
+        "x": 7533,
+        "measure": 72
+      },
+      "cz": 46200,
+      "physical_X_SX": 26224,
+      "depth": 3158,
+      "CZ_depth": 1692,
+      "snapshot_unaligned_duration_seconds": 0.00014895599999999908,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl1",
+      "qpy": "circuits/compact_factor1_twirl1.qpy",
+      "operations": {
+        "rz": 25301,
+        "sx": 18685,
+        "cz": 15400,
+        "x": 7500,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26185,
+      "depth": 2022,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.181200000000042e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl2",
+      "qpy": "circuits/compact_factor1_twirl2.qpy",
+      "operations": {
+        "rz": 25034,
+        "sx": 18687,
+        "cz": 15400,
+        "x": 7517,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26204,
+      "depth": 2036,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.257200000000047e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl3",
+      "qpy": "circuits/compact_factor1_twirl3.qpy",
+      "operations": {
+        "rz": 25128,
+        "sx": 18677,
+        "cz": 15400,
+        "x": 7489,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26166,
+      "depth": 2025,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.241200000000044e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl4",
+      "qpy": "circuits/compact_factor1_twirl4.qpy",
+      "operations": {
+        "rz": 25213,
+        "sx": 18683,
+        "cz": 15400,
+        "x": 7692,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26375,
+      "depth": 2020,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.28520000000005e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl5",
+      "qpy": "circuits/compact_factor1_twirl5.qpy",
+      "operations": {
+        "rz": 25041,
+        "sx": 18685,
+        "cz": 15400,
+        "x": 7566,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26251,
+      "depth": 2040,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.249200000000046e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl6",
+      "qpy": "circuits/compact_factor1_twirl6.qpy",
+      "operations": {
+        "rz": 25069,
+        "sx": 18691,
+        "cz": 15400,
+        "x": 7539,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26230,
+      "depth": 2040,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.233200000000046e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "compact_factor1_twirl7",
+      "qpy": "circuits/compact_factor1_twirl7.qpy",
+      "operations": {
+        "rz": 25288,
+        "sx": 18695,
+        "cz": 15400,
+        "x": 7485,
+        "measure": 72
+      },
+      "cz": 15400,
+      "physical_X_SX": 26180,
+      "depth": 2044,
+      "CZ_depth": 564,
+      "snapshot_unaligned_duration_seconds": 7.265200000000047e-05,
+      "exact_edgewise_factor2_possible": true
+    },
+    {
+      "name": "sparse_left",
+      "routing_fswaps": 11990,
+      "original_physics_events_preserved": 1024,
+      "final_readout_permutation_required": true,
+      "qpy": "circuits/sparse_left.qpy",
+      "operations": {
+        "rz": 41966,
+        "sx": 29820,
+        "cz": 25762,
+        "x": 12671,
+        "measure": 72
+      },
+      "cz": 25762,
+      "physical_X_SX": 42491,
+      "depth": 6422,
+      "CZ_depth": 2002,
+      "snapshot_unaligned_duration_seconds": 0.00022624399999999838,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "name": "sparse_look4",
+      "routing_fswaps": 8530,
+      "original_physics_events_preserved": 1024,
+      "final_readout_permutation_required": true,
+      "qpy": "circuits/sparse_look4.qpy",
+      "operations": {
+        "rz": 32399,
+        "sx": 22460,
+        "cz": 18720,
+        "x": 9265,
+        "measure": 72
+      },
+      "cz": 18720,
+      "physical_X_SX": 31725,
+      "depth": 10045,
+      "CZ_depth": 3423,
+      "snapshot_unaligned_duration_seconds": 0.00035790399999995986,
+      "exact_edgewise_factor2_possible": false
+    },
+    {
+      "name": "sparse_look12",
+      "routing_fswaps": 6252,
+      "original_physics_events_preserved": 1024,
+      "final_readout_permutation_required": true,
+      "qpy": "circuits/sparse_look12.qpy",
+      "operations": {
+        "rz": 25340,
+        "sx": 17949,
+        "cz": 14168,
+        "x": 6944,
+        "measure": 72
+      },
+      "cz": 14168,
+      "physical_X_SX": 24893,
+      "depth": 7722,
+      "CZ_depth": 2555,
+      "snapshot_unaligned_duration_seconds": 0.00027451999999998677,
+      "exact_edgewise_factor2_possible": false
+    }
+  ],
+  "cleanup_proofs": [
+    {
+      "name": "compact_factor1_twirl0",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 9.618866041153556e-16,
+      "global_phase_error": 4.98107462316179e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor2_twirl0",
+      "local_2x2_segments": 61792,
+      "max_segment_error": 9.618866041153556e-16,
+      "global_phase_error": 4.98107462316179e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor3_twirl0",
+      "local_2x2_segments": 92592,
+      "max_segment_error": 9.618866041153556e-16,
+      "global_phase_error": 4.98107462316179e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl1",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 1.5726044133372318e-15,
+      "global_phase_error": 2.4401129286155696e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl2",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 1.4120400496041823e-15,
+      "global_phase_error": 1.2561884032415946e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl3",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 1.4602703977091184e-15,
+      "global_phase_error": 1.532570233953638e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl4",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 2.5697976118015245e-15,
+      "global_phase_error": 1.1777912007157932e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl5",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 1.4120400496041823e-15,
+      "global_phase_error": 4.87832434871554e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl6",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 2.5697976118015245e-15,
+      "global_phase_error": 5.46630336765905e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "compact_factor1_twirl7",
+      "local_2x2_segments": 30992,
+      "max_segment_error": 1.4120400496041823e-15,
+      "global_phase_error": 4.3930956042182793e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "sparse_left",
+      "local_2x2_segments": 51596,
+      "max_segment_error": 8.315230307236455e-15,
+      "global_phase_error": 8.698603381418693e-13,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "sparse_look4",
+      "local_2x2_segments": 37512,
+      "max_segment_error": 9.004248876915987e-15,
+      "global_phase_error": 1.0052222797332502e-12,
+      "CZ_partial_order_preserved": true
+    },
+    {
+      "name": "sparse_look12",
+      "local_2x2_segments": 28408,
+      "max_segment_error": 9.004248876915987e-15,
+      "global_phase_error": 1.9185130352806024e-13,
+      "CZ_partial_order_preserved": true
+    }
+  ],
+  "fastest_snapshot_candidate": "compact_factor1_twirl0",
+  "fastest_duration_reduction_fraction": 0.2755384430273322,
+  "exact_72q_statevector_simulated": false,
+  "equivalence_scope": "Full2x2 unitaries and2x3 state verified; full72 event ledger preserved. All cleanup blocks independently2x2 checked, with CZ traces and global phase.",
+  "no_hardware_calls": true,
+  "hardware_error_improvement_measured": false,
+  "old_job_permission_not_reusable": true,
+  "elapsed_seconds": 200.07738686099765
+}

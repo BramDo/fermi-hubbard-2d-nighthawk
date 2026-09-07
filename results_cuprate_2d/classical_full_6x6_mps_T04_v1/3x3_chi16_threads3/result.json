@@ -1,0 +1,217 @@
+{
+  "status": "COMPLETE",
+  "config": {
+    "lx": 3,
+    "ly": 3,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "chi": 16,
+  "cutoff": 1e-10,
+  "cutoff_mode": "rel",
+  "moments": [
+    -0.7728834800885724,
+    0.7554285008227358,
+    0.7657078083258104,
+    -0.5782033892512475,
+    -0.788928560963071,
+    0.7755318979593481,
+    0.8028151742175675,
+    -0.5939041898883175,
+    0.9849971784527408,
+    0.268123466023584,
+    0.7927044109827829,
+    -0.5895349841770319,
+    -0.7832786904236209,
+    0.778015589477393,
+    0.769811511700156,
+    -0.5670922187647645,
+    -0.7709453522037939,
+    0.751635327798301,
+    -0.6451890020495412,
+    -0.4955710732091445,
+    -0.6224975508174703,
+    -0.4945503274747298,
+    0.26182384091772176,
+    -0.48369986124488884,
+    -0.6266467485539179,
+    -0.49610211882611627,
+    -0.638858135173662
+  ],
+  "physical_means": [
+    [
+      1.0087274896329184,
+      0.7641559904556541,
+      0.09306649430407388
+    ],
+    [
+      0.9062477904627185,
+      -0.671955598788529,
+      0.07923112692907314
+    ],
+    [
+      1.0066983315018614,
+      0.7822302294612096,
+      0.09772477804656313
+    ],
+    [
+      0.895544507835375,
+      -0.6983596820529425,
+      0.07413467204900503
+    ],
+    [
+      0.3734396777618376,
+      -0.35843685621457844,
+      0.002175799110349236
+    ],
+    [
+      0.8984152865971244,
+      -0.6911196975799074,
+      0.07828267798734004
+    ],
+    [
+      1.0026315504731138,
+      0.7806471399505069,
+      0.09465408809807749
+    ],
+    [
+      0.8986403535323042,
+      -0.6684518652324603,
+      0.07529464705962303
+    ],
+    [
+      1.0096550122027463,
+      0.7612903400010474,
+      0.09511297230795773
+    ]
+  ],
+  "normalized_state_norm": 1.0000000000000018,
+  "number_expectation": 8.0,
+  "number_error": 0.0,
+  "total_spin": 5.551115123125783e-16,
+  "max_bond_observed": 16,
+  "fused_two_qubit_updates": 612,
+  "layer_count": 72,
+  "log_retained_norm": -0.11775125551654463,
+  "truncation_diagnostic_not_error_bound": true,
+  "initialization_seconds": 0.001753554999595508,
+  "evolution_seconds": 1.1576213949992962,
+  "observable_seconds": 0.029220415999589022,
+  "kernel_seconds": 1.1886417909990996,
+  "process_cpu_seconds": 1.0071261589999998,
+  "rss_bytes": 324923392,
+  "progress": [
+    {
+      "completed_layers": 12,
+      "total_layers": 72,
+      "updates": 102,
+      "seconds": 0.1959063940012129,
+      "max_bond": 16,
+      "log_retained_norm": 7.660538869913572e-15,
+      "rss_bytes": 324034560
+    },
+    {
+      "completed_layers": 24,
+      "total_layers": 72,
+      "updates": 204,
+      "seconds": 0.3654753439986962,
+      "max_bond": 16,
+      "log_retained_norm": -0.0004645424623705715,
+      "rss_bytes": 324526080
+    },
+    {
+      "completed_layers": 36,
+      "total_layers": 72,
+      "updates": 306,
+      "seconds": 0.5458635420000064,
+      "max_bond": 16,
+      "log_retained_norm": -0.01080819315635234,
+      "rss_bytes": 324567040
+    },
+    {
+      "completed_layers": 48,
+      "total_layers": 72,
+      "updates": 408,
+      "seconds": 0.7592111209996801,
+      "max_bond": 16,
+      "log_retained_norm": -0.035567483398714614,
+      "rss_bytes": 324669440
+    },
+    {
+      "completed_layers": 60,
+      "total_layers": 72,
+      "updates": 510,
+      "seconds": 0.938391531999514,
+      "max_bond": 16,
+      "log_retained_norm": -0.06556571922501853,
+      "rss_bytes": 324698112
+    },
+    {
+      "completed_layers": 72,
+      "total_layers": 72,
+      "updates": 612,
+      "seconds": 1.1403289299996686,
+      "max_bond": 16,
+      "log_retained_norm": -0.11775125551654463,
+      "rss_bytes": 324706304
+    }
+  ],
+  "threads": 3,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 3,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+      "version": "0.3.31.188.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 3,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+      "version": "0.3.29.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+      "version": null,
+      "threading_layer": "disabled",
+      "architecture": "Zen"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 3,
+      "prefix": "libgomp",
+      "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+      "version": null
+    }
+  ],
+  "exact_rmse_charge_spin_doublon": [
+    0.011578771665696248,
+    0.051903849447083435,
+    0.00623111813274858
+  ],
+  "exact_max_spin_error": 0.0692140557471157,
+  "quimb": "1.13.0",
+  "numpy": "2.4.6"
+}

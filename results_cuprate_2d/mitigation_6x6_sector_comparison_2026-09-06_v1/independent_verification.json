@@ -1,0 +1,11 @@
+{
+  "independent_accepted_counts": [
+    48,
+    46,
+    45
+  ],
+  "independent_site_profile_max_abs": 0.0,
+  "independent_lstsq_zne_ratio_max_abs": 8.881784197001252e-16,
+  "input_hashes_unchanged": true,
+  "delivery_hashes_verified": 13
+}

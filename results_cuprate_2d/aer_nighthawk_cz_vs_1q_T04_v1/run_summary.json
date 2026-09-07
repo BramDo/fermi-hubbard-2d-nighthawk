@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_128_TRAJECTORIES_PER_GATE_CLASS",
+  "new_qpu_seconds": 0,
+  "model_run_seconds": {
+    "cz_residual_only": 128.3531305659999,
+    "x_sx_residual_only": 116.81974787299987
+  }
+}

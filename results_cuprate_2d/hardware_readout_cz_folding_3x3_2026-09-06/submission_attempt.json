@@ -1,0 +1,8 @@
+{
+  "tag": "ro-cz-3x3-9cdf57bffdc44a87",
+  "plan_sha256": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+  "cap_seconds": 5,
+  "started_unix": 1788699624.8772829,
+  "authorization_consumed_on_attempt": true,
+  "resubmit_allowed": false
+}

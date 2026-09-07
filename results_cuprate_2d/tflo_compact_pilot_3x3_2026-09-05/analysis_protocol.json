@@ -1,0 +1,39 @@
+{
+  "kind": "prospective compact-circuit validation; no new data yet",
+  "training": "six U=0 training settings, newly measured on compact circuits only",
+  "validation": "two U=0 holdouts, excluded from fit",
+  "targets": "U/t=8 at dimensionless times t_hop*T/hbar=0.2 and 0.4",
+  "fit": "per Pauli exact=m*noisy+c*T+b; ridge toward identity",
+  "ridge": 0.001,
+  "sector_tolerance": 1,
+  "minimum_retained_per_setting": 32,
+  "filter_rule": "abs(N_up-4)+abs(N_down-4)<=1",
+  "filter_selection": "locked now from the previous exploratory U=0 choice; no new selection",
+  "old_model_reused": false,
+  "U8_in_fit_or_filter_selection": false,
+  "primary_metric": "MSE pooled equally over 27 Z/onsite-ZZ observables and both U=8 times",
+  "comparators": [
+    "same-job raw",
+    "same-job filter-only",
+    "frozen classical U=0 FLO-only"
+  ],
+  "bootstrap_replicates": 400,
+  "bootstrap_seed": 2026090517,
+  "bootstrap": "paired twirl IDs across settings, then shots within each block; refit U=0 only",
+  "confidence_interval": "95% percentile paired-gain intervals",
+  "minimum_valid_bootstrap_fraction_for_inference": 0.95,
+  "inference_gate": "TFLO advantage over both raw and FLO-only requires both gain CI lower bounds >0; otherwise inconclusive",
+  "failure_rule": "below 32 in any setting: no primary fit; keep all raw data, no filter relaxation or new job",
+  "diagnostics": "report per-time charge/spin/doublon errors, retention, U=0 validation and physical bounds",
+  "clip_unphysical_estimates": false,
+  "spin_convention": "n_up-n_down, not S_z",
+  "reference": "same two-step finite Trotter circuit, not exact continuous-H evolution",
+  "uncertainty_exclusions": [
+    "TFLO transfer bias",
+    "Trotter error",
+    "between-job hardware drift"
+  ],
+  "historical_comparison": "descriptive only; not a randomized A/B test or causal gate-cleanup proof",
+  "disclosure": "Prior raw and corrected U=8 data informed the follow-up; this is not a wholly blind discovery",
+  "claim_boundary": "small classically simulable pilot; no quantum advantage certification"
+}

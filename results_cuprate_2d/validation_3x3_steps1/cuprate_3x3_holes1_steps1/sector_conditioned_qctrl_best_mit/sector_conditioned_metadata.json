@@ -1,0 +1,29 @@
+{
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "sources": {
+    "fire_opal": {
+      "backend": "ibm_marrakesh",
+      "job_id": "2331675",
+      "path": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/fire_opal_qctrl_steps1/fire_opal_raw_results.json"
+    },
+    "ibm": {
+      "backend": "ibm_marrakesh",
+      "job_id": "d93p8btgc6cc73fe6dm0",
+      "path": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/ibm_hardware_steps1_best_mit/cuprate_2d_ibm_raw_results.json"
+    }
+  }
+}

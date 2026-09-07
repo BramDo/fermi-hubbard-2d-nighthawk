@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_HARDWARE_PILOT_SPIN_IMPROVED_SITE_CHARGE_WORSENED",
+  "job_id": "daem7r642tqs73autong",
+  "actual_qpu_seconds": 3,
+  "cap_seconds": 5,
+  "hardware_shots": 808,
+  "provider_circuits_verified": 26,
+  "tests": 74,
+  "relative_spin_rmse_reduction": 0.27753519438609714,
+  "relative_spin_reduction_hybrid95": [
+    0.10701431039449934,
+    0.38407775102796543
+  ],
+  "charge_rmse_increased": true,
+  "doublon_improvement_resolved": false,
+  "no_repetition": true,
+  "equal_gate_or_time_budget": false,
+  "quantum_advantage_claim": false
+}

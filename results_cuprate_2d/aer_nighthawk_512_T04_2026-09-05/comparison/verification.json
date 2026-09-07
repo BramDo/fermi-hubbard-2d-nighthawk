@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unit_tests": 23,
+  "run_archive_hashes": 44,
+  "input_hashes": 18,
+  "reproduced_hardware_retained_count": 190,
+  "bootstrap_failures": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "diagonal_z_basis": {
+    "bond_observables": [
+      {
+        "bond": "0-1",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "0-3",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "1-2",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "1-4",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "2-5",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "3-4",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "3-6",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "4-5",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "4-7",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "5-8",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "y",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "6-7",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      },
+      {
+        "bond": "7-8",
+        "charge_correlation": "<n_i n_j>",
+        "orientation": "x",
+        "spin_correlation": "<(n_i_up-n_i_down)(n_j_up-n_j_down)>"
+      }
+    ],
+    "site_observables": [
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 1,
+        "n_up_qubit": 0,
+        "site": 0,
+        "spin_z": "n_up - n_down",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 3,
+        "n_up_qubit": 2,
+        "site": 1,
+        "spin_z": "n_up - n_down",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 5,
+        "n_up_qubit": 4,
+        "site": 2,
+        "spin_z": "n_up - n_down",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 7,
+        "n_up_qubit": 6,
+        "site": 3,
+        "spin_z": "n_up - n_down",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 9,
+        "n_up_qubit": 8,
+        "site": 4,
+        "spin_z": "n_up - n_down",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 11,
+        "n_up_qubit": 10,
+        "site": 5,
+        "spin_z": "n_up - n_down",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 13,
+        "n_up_qubit": 12,
+        "site": 6,
+        "spin_z": "n_up - n_down",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 15,
+        "n_up_qubit": 14,
+        "site": 7,
+        "spin_z": "n_up - n_down",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "charge": "n_up + n_down",
+        "double_occupancy": "n_up * n_down",
+        "hole_density": "1 - charge",
+        "n_down_qubit": 17,
+        "n_up_qubit": 16,
+        "site": 8,
+        "spin_z": "n_up - n_down",
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "structure_factors": [
+      {
+        "formula": "S_s(q)=sum_ij exp(i q.(r_i-r_j)) <S_i^z S_j^z> / N",
+        "name": "antiferromagnetic_spin_structure",
+        "wavevector": "(pi, pi)"
+      },
+      {
+        "formula": "S_c(q)=sum_ij exp(i q.(r_i-r_j)) <delta_n_i delta_n_j> / N",
+        "name": "vertical_charge_stripe_structure",
+        "wavevector": "(pi/2, 0) for period-4 charge modulation"
+      }
+    ]
+  },
+  "off_diagonal_pairing": {
+    "d_wave_pair_center_definition": "Delta_d(i)=0.5*(Delta_i,+x + Delta_i,-x - Delta_i,+y - Delta_i,-y), with singlet bond Delta_ij=c_i_up c_j_down - c_i_down c_j_up",
+    "measurement_note": "These are four-fermion off-diagonal correlators. They require additional basis rotations or dedicated fermionic tomography circuits; they cannot be recovered from the existing charge/spin Z-basis pipeline alone.",
+    "pair_centers": [
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 0,
+            "site_j": 1
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 0,
+            "site_j": 3
+          }
+        ],
+        "site": 0,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 1,
+            "site_j": 2
+          },
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 1,
+            "site_j": 0
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 1,
+            "site_j": 4
+          }
+        ],
+        "site": 1,
+        "x": 1,
+        "y": 0
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 2,
+            "site_j": 1
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 2,
+            "site_j": 5
+          }
+        ],
+        "site": 2,
+        "x": 2,
+        "y": 0
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 3,
+            "site_j": 4
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 3,
+            "site_j": 6
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 3,
+            "site_j": 0
+          }
+        ],
+        "site": 3,
+        "x": 0,
+        "y": 1
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 4,
+            "site_j": 5
+          },
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 4,
+            "site_j": 3
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 4,
+            "site_j": 7
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 4,
+            "site_j": 1
+          }
+        ],
+        "site": 4,
+        "x": 1,
+        "y": 1
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 5,
+            "site_j": 4
+          },
+          {
+            "component": "plus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 5,
+            "site_j": 8
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 5,
+            "site_j": 2
+          }
+        ],
+        "site": 5,
+        "x": 2,
+        "y": 1
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 6,
+            "site_j": 7
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 6,
+            "site_j": 3
+          }
+        ],
+        "site": 6,
+        "x": 0,
+        "y": 2
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "plus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 7,
+            "site_j": 8
+          },
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 7,
+            "site_j": 6
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 7,
+            "site_j": 4
+          }
+        ],
+        "site": 7,
+        "x": 1,
+        "y": 2
+      },
+      {
+        "d_wave_components": [
+          {
+            "component": "minus_x",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": 1.0,
+            "site_i": 8,
+            "site_j": 7
+          },
+          {
+            "component": "minus_y",
+            "definition": "singlet_pair_c_i_up_c_j_down_minus_c_i_down_c_j_up",
+            "sign": -1.0,
+            "site_i": 8,
+            "site_j": 5
+          }
+        ],
+        "site": 8,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "pair_correlator": "<Delta_d^dagger(i) Delta_d(j)>"
+  }
+}

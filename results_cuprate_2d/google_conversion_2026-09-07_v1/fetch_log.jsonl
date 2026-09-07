@@ -1,0 +1,16 @@
+{"event": "HTTP_read", "unix": 1788773477.6894004, "start": null, "end": null, "bytes": 13234, "total_transferred": 13234}
+{"event": "HTTP_read", "unix": 1788773477.84253, "start": 0, "end": 0, "bytes": 1, "total_transferred": 13235}
+{"event": "HTTP_read", "unix": 1788773478.0331204, "start": 8798273536, "end": 8798281889, "bytes": 8354, "total_transferred": 21589}
+{"event": "HTTP_read", "unix": 1788773478.3115907, "start": 8798107662, "end": 8798281791, "bytes": 174130, "total_transferred": 195719}
+{"event": "index_complete", "unix": 1788773478.4591112, "entries": 1014, "remote_bytes": 8798281890, "transferred_bytes": 195719}
+{"event": "HTTP_read", "unix": 1788773530.9010334, "start": 0, "end": 0, "bytes": 1, "total_transferred": 1}
+{"event": "HTTP_read", "unix": 1788773534.6627839, "start": 8798107662, "end": 8798281791, "bytes": 174130, "total_transferred": 182485}
+{"event": "HTTP_read", "unix": 1788773536.8264625, "start": 8798076928, "end": 8798142463, "bytes": 65536, "total_transferred": 248021}
+{"event": "HTTP_read", "unix": 1788773539.0869205, "start": 4887150592, "end": 4887216127, "bytes": 65536, "total_transferred": 313557}
+{"event": "HTTP_read", "unix": 1788773540.3067417, "start": 4887176820, "end": 4888236103, "bytes": 1059284, "total_transferred": 1372841}
+{"event": "HTTP_read", "unix": 1788773542.7920387, "start": 4911757164, "end": 4914926095, "bytes": 3168932, "total_transferred": 4607309}
+{"event": "entry_saved", "unix": 1788773543.7199624, "entry": "programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5", "bytes": 29607348}
+{"event": "HTTP_read", "unix": 1788773548.8640354, "start": 6118193975, "end": 6125281976, "bytes": 7088002, "total_transferred": 11760847}
+{"event": "entry_saved", "unix": 1788773550.6966817, "entry": "programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5", "bytes": 56694128}
+{"event": "HTTP_read", "unix": 1788773551.0254972, "start": 6164381696, "end": 6164447231, "bytes": 65536, "total_transferred": 11826383}
+{"event": "HTTP_read", "unix": 1788773553.316695, "start": 6164391861, "end": 6171463080, "bytes": 7071220, "total_transferred": 18897603}

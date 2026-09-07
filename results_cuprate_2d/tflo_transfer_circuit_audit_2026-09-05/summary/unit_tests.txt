@@ -1,0 +1,27 @@
+test_full_2x2_operator_and_parity_reference (test_cuprate_2d_local_followup.FollowupTests.test_full_2x2_operator_and_parity_reference) ... ok
+test_holdout_references_do_not_train (test_cuprate_2d_local_followup.FollowupTests.test_holdout_references_do_not_train) ... ok
+test_identity_noise_recovered (test_cuprate_2d_local_followup.FollowupTests.test_identity_noise_recovered) ... ok
+test_retention_guard (test_cuprate_2d_local_followup.FollowupTests.test_retention_guard) ... ok
+test_target_data_rejected (test_cuprate_2d_local_followup.FollowupTests.test_target_data_rejected) ... ok
+test_time_only_does_not_use_quantum_values (test_cuprate_2d_local_followup.FollowupTests.test_time_only_does_not_use_quantum_values) ... ok
+test_unprepared_zero_time_identity (test_cuprate_2d_local_followup.FollowupTests.test_unprepared_zero_time_identity) ... ok
+/home/bram/.venvs/qiskit/lib/python3.12/site-packages/uncertainties/unumpy/core.py:23: DeprecationWarning: numpy.core is deprecated and has been renamed to numpy._core. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.numeric.
+  from numpy.core import numeric
+test_U8_cannot_enter_selection_or_refitting (test_cuprate_2d_tflo_refinement.RefinementTests.test_U8_cannot_enter_selection_or_refitting) ... ok
+test_fixed_structure_and_CZ_trace (test_cuprate_2d_tflo_refinement.RefinementTests.test_fixed_structure_and_CZ_trace) ... ok
+test_full_operator_equivalence (test_cuprate_2d_tflo_refinement.RefinementTests.test_full_operator_equivalence) ... ok
+test_paired_twirl_resampling (test_cuprate_2d_tflo_refinement.RefinementTests.test_paired_twirl_resampling) ... ok
+test_qpy_roundtrip_and_bound_rejection (test_cuprate_2d_tflo_refinement.RefinementTests.test_qpy_roundtrip_and_bound_rejection) ... ok
+test_raw_baseline_not_forced_to_use_TFLO (test_cuprate_2d_tflo_refinement.RefinementTests.test_raw_baseline_not_forced_to_use_TFLO) ... ok
+test_target_prediction_does_not_read_reference (test_cuprate_2d_tflo_refinement.RefinementTests.test_target_prediction_does_not_read_reference) ... ok
+test_classical_control_never_reads_U8_reference (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_classical_control_never_reads_U8_reference) ... ok
+test_duplicates_missing_and_extra_shots_rejected (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_duplicates_missing_and_extra_shots_rejected) ... ok
+test_integrity_and_path_traversal_guard (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_integrity_and_path_traversal_guard) ... ok
+test_no_overwrite (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_no_overwrite) ... ok
+test_original_record_allocation (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_original_record_allocation) ... ok
+test_prospective_protocol_fixed_and_no_provider_import (test_cuprate_2d_tflo_compact_pilot.CompactPilotTests.test_prospective_protocol_fixed_and_no_provider_import) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 15.421s
+
+OK

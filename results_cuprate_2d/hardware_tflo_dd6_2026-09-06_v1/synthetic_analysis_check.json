@@ -1,0 +1,17 @@
+{
+  "synthetic_only": true,
+  "provider_calls": 0,
+  "QPU_seconds": 0,
+  "analysis_smoke_pass": true,
+  "checks": {
+    "independent_pair_inversion_max_abs": 4.440892098500626e-16,
+    "integer_popcount_max_abs": 0.0,
+    "independent_affine_lstsq_max_abs": 8.08242361927114e-14,
+    "training_U0_only": true,
+    "heldout_excluded_from_fit": true,
+    "target_reference_excluded_from_fit": true,
+    "records": 76,
+    "shots": 38912,
+    "all_source_hardware_hashes_verified": true
+  }
+}

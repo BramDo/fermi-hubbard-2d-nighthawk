@@ -1,0 +1,25 @@
+{"UTC": "2026-09-06T21:48:18.700589+00:00", "stage": "frozen", "source_files": 9, "input_files": 28}
+{"UTC": "2026-09-06T21:48:18.867752+00:00", "stage": "tests_passed", "tests": 6}
+{"UTC": "2026-09-06T21:48:20.205663+00:00", "stage": "contracting", "profile": "3x3_chi16", "mode": 12, "total": 18}
+{"UTC": "2026-09-06T21:48:20.249741+00:00", "stage": "profile_complete", "profile": "3x3_chi16", "extraction_seconds": 0.13312242699612398, "local_profile_max_abs": 6.661338147750939e-16}
+{"UTC": "2026-09-06T21:48:20.386182+00:00", "stage": "contracting", "profile": "3x3_chi32", "mode": 12, "total": 18}
+{"UTC": "2026-09-06T21:48:20.447057+00:00", "stage": "profile_complete", "profile": "3x3_chi32", "extraction_seconds": 0.1377174399967771, "local_profile_max_abs": 4.440892098500626e-16}
+{"UTC": "2026-09-06T21:48:20.745726+00:00", "stage": "contracting", "profile": "3x3_chi64", "mode": 12, "total": 18}
+{"UTC": "2026-09-06T21:48:20.794630+00:00", "stage": "profile_complete", "profile": "3x3_chi64", "extraction_seconds": 0.2974289379999391, "local_profile_max_abs": 7.771561172376096e-16}
+{"UTC": "2026-09-06T21:48:21.365771+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 12, "total": 72}
+{"UTC": "2026-09-06T21:48:21.671657+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 24, "total": 72}
+{"UTC": "2026-09-06T21:48:21.931958+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 36, "total": 72}
+{"UTC": "2026-09-06T21:48:22.116520+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 48, "total": 72}
+{"UTC": "2026-09-06T21:48:22.235712+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 60, "total": 72}
+{"UTC": "2026-09-06T21:48:22.282116+00:00", "stage": "contracting", "profile": "6x6_chi32", "mode": 72, "total": 72}
+{"UTC": "2026-09-06T21:48:22.382194+00:00", "stage": "profile_complete", "profile": "6x6_chi32", "extraction_seconds": 1.4802997279984993, "local_profile_max_abs": 2.4424906541753444e-15}
+{"UTC": "2026-09-06T21:48:24.281027+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 12, "total": 72}
+{"UTC": "2026-09-06T21:48:25.473125+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 24, "total": 72}
+{"UTC": "2026-09-06T21:48:26.404987+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 36, "total": 72}
+{"UTC": "2026-09-06T21:48:26.998694+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 48, "total": 72}
+{"UTC": "2026-09-06T21:48:26.309884+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 60, "total": 72}
+{"UTC": "2026-09-06T21:48:26.386192+00:00", "stage": "contracting", "profile": "6x6_chi64", "mode": 72, "total": 72}
+{"UTC": "2026-09-06T21:48:26.557049+00:00", "stage": "profile_complete", "profile": "6x6_chi64", "extraction_seconds": 5.015207800999633, "local_profile_max_abs": 3.885780586188048e-15}
+{"UTC": "2026-09-06T21:48:26.637457+00:00", "stage": "exact_anchor_started", "qubits": 18}
+{"UTC": "2026-09-06T21:48:37.201916+00:00", "stage": "exact_anchor_complete", "seconds": 10.564471524005057}
+{"UTC": "2026-09-06T21:48:37.958288+00:00", "stage": "worker_complete", "seconds": 18.865140907997556, "chi_screen": false, "FLO_screen": false}

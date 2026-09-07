@@ -1,0 +1,8 @@
+{
+  "analysis/bootstrap_dd0.npz": "e1d9d461d52c4c78c7394435ff90f69d129052efb9df6b1e49a56ba1508d7555",
+  "analysis/bootstrap_dd1.npz": "f6caad3ebfe679a1285d5a7cf3fed27b5c5c6f3bd0237e1e57df153c9a6cc10a",
+  "analysis/calibration_and_points.json": "33af4e58c15809b577660ac422c759165b86ed32b034155fef6d196c81f9533d",
+  "analysis/RAPPORT.md": "0a9f672c0dc755fed2f2745fda32fc2c17d2046e4bb7d858241e92d36ce16ade",
+  "analysis/summary.json": "dc1e1e90026eae8240cb0e0d702d6f891d5aaefd1acbed398c96b41d9bda6a08",
+  "analysis/verification.json": "503df2ca62caddc4880fa222d422e066383878de19c201cf193eee3c8de880ec"
+}

@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-09-06T21:27:00.9547836Z",
+  "repetitions": 5,
+  "sequential": true,
+  "fresh_python_processes": true,
+  "os_caches_flushed": false,
+  "other_machine_load_controlled": false,
+  "powershell_version": "7.6.5",
+  "cpu": [
+    {
+      "Name": "AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  ",
+      "NumberOfCores": 4,
+      "NumberOfLogicalProcessors": 8
+    }
+  ],
+  "whole_machine_cpu_percent_before": 13
+}

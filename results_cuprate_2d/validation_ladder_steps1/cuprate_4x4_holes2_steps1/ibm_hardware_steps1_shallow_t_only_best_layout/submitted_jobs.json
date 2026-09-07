@@ -1,0 +1,117 @@
+{
+  "backend": "ibm_marrakesh",
+  "circuit_family": "number_preserving_t_only",
+  "initial_layout": null,
+  "initial_layout_path": null,
+  "job_id": "d93v9a6vtlqs73ftm6mg",
+  "last_checked_at_utc": "2026-07-03T17:58:09.595871+00:00",
+  "last_status": "DONE",
+  "plan_path": "results_cuprate_2d/validation_ladder_steps1/cuprate_4x4_holes2_steps1/ibm_hardware_steps1_shallow_t_only_best_layout/cuprate_2d_ibm_hardware_plan.json",
+  "readout_repetitions": 3,
+  "readout_shots_requested": 4096,
+  "roles": [
+    "main",
+    "readout_all0_0",
+    "readout_all1_0",
+    "readout_all0_1",
+    "readout_all1_1",
+    "readout_all0_2",
+    "readout_all1_2"
+  ],
+  "shots": 1024,
+  "submitted": true,
+  "submitted_at_utc": "2026-07-03T17:43:04.708369+00:00",
+  "transpiled_summaries": [
+    {
+      "clbits": 32,
+      "depth": 199,
+      "operation_counts": {
+        "barrier": 5,
+        "cz": 341,
+        "measure": 32,
+        "rz": 624,
+        "sx": 817,
+        "x": 23
+      },
+      "qubits": 156,
+      "size": 1837,
+      "two_qubit_count": 341,
+      "two_qubit_depth": 65
+    },
+    {
+      "clbits": 32,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32
+      },
+      "qubits": 156,
+      "size": 32,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 32,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32,
+        "x": 32
+      },
+      "qubits": 156,
+      "size": 64,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 32,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32
+      },
+      "qubits": 156,
+      "size": 32,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 32,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32,
+        "x": 32
+      },
+      "qubits": 156,
+      "size": 64,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 32,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32
+      },
+      "qubits": 156,
+      "size": 32,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 32,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 32,
+        "x": 32
+      },
+      "qubits": 156,
+      "size": 64,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "checked_unix": 1788631075.4531915,
+  "backend": "ibm_phoenix",
+  "instance_sha256": "6f963c3f49c03a803a8cf32a97e546fb9bae6523a062f3497e8bc4532ea4f6b9",
+  "operational": true,
+  "pending_jobs_at_check": 0,
+  "all_80_circuits_ISA_valid": true,
+  "execution_seconds": 0.11423744000000001,
+  "two_subjobs_estimate_seconds": 4.11423744,
+  "subjob_count_known": false,
+  "max_execution_time": 5,
+  "runtime_sessions_with_retries_disabled": 2,
+  "automatic_job_retry": false
+}

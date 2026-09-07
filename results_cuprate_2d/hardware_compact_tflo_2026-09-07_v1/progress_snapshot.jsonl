@@ -1,0 +1,73 @@
+{"UTC": "2026-09-07T07:06:05.649741+00:00", "stage": "template_scheduled", "arm": "original", "twirl": 0, "duration_us": 123.08400000000637, "CZ": 20736}
+{"UTC": "2026-09-07T07:06:14.555842+00:00", "stage": "template_scheduled", "arm": "compact", "twirl": 0, "duration_us": 81.23600000000168, "CZ": 20736}
+{"UTC": "2026-09-07T07:06:38.177917+00:00", "stage": "template_scheduled", "arm": "original", "twirl": 1, "duration_us": 124.44400000000645, "CZ": 20736}
+{"UTC": "2026-09-07T07:06:45.970558+00:00", "stage": "template_scheduled", "arm": "compact", "twirl": 1, "duration_us": 81.2680000000017, "CZ": 20736}
+{"UTC": "2026-09-07T07:07:09.277703+00:00", "stage": "template_scheduled", "arm": "original", "twirl": 2, "duration_us": 123.66800000000636, "CZ": 20736}
+{"UTC": "2026-09-07T07:07:17.129338+00:00", "stage": "template_scheduled", "arm": "compact", "twirl": 2, "duration_us": 81.5000000000017, "CZ": 20736}
+{"UTC": "2026-09-07T07:07:39.278775+00:00", "stage": "template_scheduled", "arm": "original", "twirl": 3, "duration_us": 123.66800000000633, "CZ": 20736}
+{"UTC": "2026-09-07T07:07:47.675818+00:00", "stage": "template_scheduled", "arm": "compact", "twirl": 3, "duration_us": 81.38000000000169, "CZ": 20736}
+{"UTC": "2026-09-07T07:07:48.832079+00:00", "stage": "bound_archived", "index": 0, "total": 76}
+{"UTC": "2026-09-07T07:08:24.134498+00:00", "stage": "bound_archived", "index": 8, "total": 76}
+{"UTC": "2026-09-07T07:08:42.433512+00:00", "stage": "analysis_frozen", "tests_passed": 19}
+{"UTC": "2026-09-07T07:09:10.006105+00:00", "stage": "bound_archived", "index": 16, "total": 76}
+{"UTC": "2026-09-07T07:09:51.588330+00:00", "stage": "bound_archived", "index": 24, "total": 76}
+{"UTC": "2026-09-07T07:10:38.130694+00:00", "stage": "bound_archived", "index": 32, "total": 76}
+{"UTC": "2026-09-07T07:11:16.490445+00:00", "stage": "bound_archived", "index": 40, "total": 76}
+{"UTC": "2026-09-07T07:11:58.864530+00:00", "stage": "bound_archived", "index": 48, "total": 76}
+{"UTC": "2026-09-07T07:12:45.129130+00:00", "stage": "bound_archived", "index": 56, "total": 76}
+{"UTC": "2026-09-07T07:13:22.660584+00:00", "stage": "bound_archived", "index": 64, "total": 76}
+{"UTC": "2026-09-07T07:14:03.546879+00:00", "stage": "bound_archived", "index": 72, "total": 76}
+{"UTC": "2026-09-07T07:14:19.903852+00:00", "stage": "prepared_not_submitted", "PUBs": 76, "shots": 38912, "cap": 15}
+{"UTC": "2026-09-07T07:16:52.083902+00:00", "stage": "ISA_timing_verified", "index": 0, "total": 76}
+{"UTC": "2026-09-07T07:17:38.092511+00:00", "stage": "ISA_timing_verified", "index": 8, "total": 76}
+{"UTC": "2026-09-07T07:18:29.277053+00:00", "stage": "ISA_timing_verified", "index": 16, "total": 76}
+{"UTC": "2026-09-07T07:19:22.285328+00:00", "stage": "ISA_timing_verified", "index": 24, "total": 76}
+{"UTC": "2026-09-07T07:20:15.077143+00:00", "stage": "ISA_timing_verified", "index": 32, "total": 76}
+{"UTC": "2026-09-07T07:20:58.756290+00:00", "stage": "ISA_timing_verified", "index": 40, "total": 76}
+{"UTC": "2026-09-07T07:21:46.056127+00:00", "stage": "ISA_timing_verified", "index": 48, "total": 76}
+{"UTC": "2026-09-07T07:22:38.521838+00:00", "stage": "ISA_timing_verified", "index": 56, "total": 76}
+{"UTC": "2026-09-07T07:23:21.947361+00:00", "stage": "ISA_timing_verified", "index": 64, "total": 76}
+{"UTC": "2026-09-07T07:24:12.197292+00:00", "stage": "ISA_timing_verified", "index": 72, "total": 76}
+{"UTC": "2026-09-07T07:24:20.515695+00:00", "stage": "preflight_passed", "budget": {"shot_execution_seconds": 3.905900544000149, "estimates_by_internal_subjobs": {"1": 5.905900544000149, "2": 7.905900544000149, "3": 9.905900544000149, "4": 11.905900544000149, "5": 13.905900544000149, "6": 15.905900544000149, "7": 17.905900544000147, "8": 19.905900544000147}, "planning_subjobs": 4, "headroom_seconds": 0.75, "cap_seconds": 15, "internal_subjob_count_known": false, "completion_guaranteed": false, "pass": true}, "quota": {"usage_consumed_seconds": 49.0, "remaining_reported": false, "unknown_is_not_unlimited": true, "selected_plan": "pay-as-you-go", "no_quota_limit_claimed": true}}
+{"UTC": "2026-09-07T07:26:32.739399+00:00", "stage": "ready_single_POST", "circuits": 76, "shots": 38912, "cap": 15, "budget": {"shot_execution_seconds": 3.905900544000149, "estimates_by_internal_subjobs": {"1": 5.905900544000149, "2": 7.905900544000149, "3": 9.905900544000149, "4": 11.905900544000149, "5": 13.905900544000149, "6": 15.905900544000149, "7": 17.905900544000147, "8": 19.905900544000147}, "planning_subjobs": 4, "headroom_seconds": 0.75, "cap_seconds": 15, "internal_subjob_count_known": false, "completion_guaranteed": false, "pass": true}}
+{"UTC": "2026-09-07T07:29:39.620705+00:00", "stage": "submitted", "job_id": "daf6foe42tqs73avhoeg", "expected_cap_seconds": 15, "provider_cost_field": 15, "verified": true}
+{"UTC": "2026-09-07T07:30:07.674491+00:00", "stage": "job_status", "job_id": "daf6foe42tqs73avhoeg", "status": "RUNNING"}
+{"UTC": "2026-09-07T07:31:52.267026+00:00", "stage": "lossless_mirror_verified", "index": 0}
+{"UTC": "2026-09-07T07:32:13.033113+00:00", "stage": "lossless_mirror_verified", "index": 16}
+{"UTC": "2026-09-07T07:32:36.226439+00:00", "stage": "lossless_mirror_verified", "index": 32}
+{"UTC": "2026-09-07T07:32:56.785602+00:00", "stage": "lossless_mirror_verified", "index": 48}
+{"UTC": "2026-09-07T07:33:19.346085+00:00", "stage": "lossless_mirror_verified", "index": 64}
+{"UTC": "2026-09-07T07:33:40.136317+00:00", "stage": "lossless_mirror_verified", "index": 80}
+{"UTC": "2026-09-07T07:33:58.346909+00:00", "stage": "job_status", "job_id": "daf6foe42tqs73avhoeg", "status": "DONE"}
+{"UTC": "2026-09-07T07:36:24.309199+00:00", "stage": "provider_input_verified", "index": 0}
+{"UTC": "2026-09-07T07:36:41.389491+00:00", "stage": "provider_input_verified", "index": 8}
+{"UTC": "2026-09-07T07:37:05.563079+00:00", "stage": "provider_input_verified", "index": 16}
+{"UTC": "2026-09-07T07:37:28.634980+00:00", "stage": "provider_input_verified", "index": 24}
+{"UTC": "2026-09-07T07:37:53.215872+00:00", "stage": "provider_input_verified", "index": 32}
+{"UTC": "2026-09-07T07:38:13.090444+00:00", "stage": "provider_input_verified", "index": 40}
+{"UTC": "2026-09-07T07:38:38.344194+00:00", "stage": "provider_input_verified", "index": 48}
+{"UTC": "2026-09-07T07:39:02.753890+00:00", "stage": "provider_input_verified", "index": 56}
+{"UTC": "2026-09-07T07:39:25.161738+00:00", "stage": "provider_input_verified", "index": 64}
+{"UTC": "2026-09-07T07:39:48.287095+00:00", "stage": "provider_input_verified", "index": 72}
+{"UTC": "2026-09-07T07:40:23.853438+00:00", "stage": "retrieved", "shots": 38912, "usage": {"qpu_charge_time_seconds": 7, "status": "complete"}}
+{"UTC": "2026-09-07T07:41:18.521025+00:00", "stage": "analysis_complete", "holdout_screen": [false, false], "target": [{"circuit_arm": "original", "method": "raw", "N": 35.46337890625, "RMS": [0.2749916443954089, 0.7014761296472706, 0.1571015096998798]}, {"circuit_arm": "original", "method": "readout", "N": 35.492762456812954, "RMS": [0.2761041605600813, 0.7016773579630288, 0.15741386843083655]}, {"circuit_arm": "original", "method": "readout_tflo", "N": 31.396329967268795, "RMS": [0.08388916355169083, 0.09185091447248536, 0.050804775660592216]}, {"circuit_arm": "compact", "method": "raw", "N": 35.8681640625, "RMS": [0.28068623979347995, 0.7072469122762151, 0.16478779960987208]}, {"circuit_arm": "compact", "method": "readout", "N": 35.908563377791175, "RMS": [0.28221327963975695, 0.7074665194229589, 0.16537494572709374]}, {"circuit_arm": "compact", "method": "readout_tflo", "N": 31.230641332705282, "RMS": [0.10930447582098057, 0.12586400513493357, 0.06411575785625857]}], "verification": {"independent_readout_pair_inversion_max_abs": 4.440892098500626e-16, "independent_integer_popcount_max_abs": 0.0, "independent_augmented_lstsq_max_abs": 2.353672812205332e-14, "training_U0_only": true, "holdouts_and_target_excluded_from_fit": true, "shots": 38912, "records": 76, "old_archives_not_modified": true}}
+{"UTC": "2026-09-07T07:41:53.636828+00:00", "stage": "lossless_mirror_verified", "index": 0}
+{"UTC": "2026-09-07T07:41:56.341046+00:00", "stage": "lossless_mirror_verified", "index": 16}
+{"UTC": "2026-09-07T07:41:59.362274+00:00", "stage": "lossless_mirror_verified", "index": 32}
+{"UTC": "2026-09-07T07:42:02.288884+00:00", "stage": "lossless_mirror_verified", "index": 48}
+{"UTC": "2026-09-07T07:42:05.268238+00:00", "stage": "lossless_mirror_verified", "index": 64}
+{"UTC": "2026-09-07T07:42:11.031093+00:00", "stage": "lossless_mirror_verified", "index": 80}
+{"UTC": "2026-09-07T07:42:33.674607+00:00", "stage": "lossless_mirror_verified", "index": 96}
+{"UTC": "2026-09-07T07:42:56.380204+00:00", "stage": "lossless_mirror_verified", "index": 112}
+{"UTC": "2026-09-07T07:43:18.227212+00:00", "stage": "lossless_mirror_verified", "index": 128}
+{"UTC": "2026-09-07T07:43:41.335650+00:00", "stage": "lossless_mirror_verified", "index": 144}
+{"UTC": "2026-09-07T07:46:46.567338+00:00", "stage": "lossless_mirror_verified", "index": 0}
+{"UTC": "2026-09-07T07:46:49.162144+00:00", "stage": "lossless_mirror_verified", "index": 16}
+{"UTC": "2026-09-07T07:46:52.373012+00:00", "stage": "lossless_mirror_verified", "index": 32}
+{"UTC": "2026-09-07T07:46:55.458355+00:00", "stage": "lossless_mirror_verified", "index": 48}
+{"UTC": "2026-09-07T07:46:58.469217+00:00", "stage": "lossless_mirror_verified", "index": 64}
+{"UTC": "2026-09-07T07:47:01.202486+00:00", "stage": "lossless_mirror_verified", "index": 80}
+{"UTC": "2026-09-07T07:47:04.475636+00:00", "stage": "lossless_mirror_verified", "index": 96}
+{"UTC": "2026-09-07T07:47:07.382687+00:00", "stage": "lossless_mirror_verified", "index": 112}
+{"UTC": "2026-09-07T07:47:10.225834+00:00", "stage": "lossless_mirror_verified", "index": 128}
+{"UTC": "2026-09-07T07:47:13.402634+00:00", "stage": "lossless_mirror_verified", "index": 144}

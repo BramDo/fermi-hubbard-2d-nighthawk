@@ -1,0 +1,35 @@
+test_control_matches_archived_full_model (test_aer_cuprate_cz_half.FullModelScalingTests.test_control_matches_archived_full_model) ... ok
+test_cz_residual_parameter_exactly_halved (test_aer_cuprate_cz_half.FullModelScalingTests.test_cz_residual_parameter_exactly_halved) ... ok
+test_half_cz_fidelity_between_full_and_relaxation_floor (test_aer_cuprate_cz_half.FullModelScalingTests.test_half_cz_fidelity_between_full_and_relaxation_floor) ... ok
+test_invalid_reduction_scales_rejected (test_aer_cuprate_cz_half.FullModelScalingTests.test_invalid_reduction_scales_rejected) ... ok
+test_non_cz_quantum_channels_are_identical (test_aer_cuprate_cz_half.FullModelScalingTests.test_non_cz_quantum_channels_are_identical) ... ok
+test_readout_unchanged_at_all_scales (test_aer_cuprate_cz_half.FullModelScalingTests.test_readout_unchanged_at_all_scales) ... ok
+test_zero_residual_still_retains_cz_relaxation (test_aer_cuprate_cz_half.FullModelScalingTests.test_zero_residual_still_retains_cz_relaxation) ... ok
+test_benefits_use_readout_on_and_correct_signs (test_aer_cuprate_cz_half.ReadoutAndBenefitTests.test_benefits_use_readout_on_and_correct_signs) ... ok
+test_complex_json_roundtrip_preserves_nonzero_imaginary_part (test_aer_cuprate_cz_half.ReadoutAndBenefitTests.test_complex_json_roundtrip_preserves_nonzero_imaginary_part) ... ok
+test_negative_benefit_not_clipped (test_aer_cuprate_cz_half.ReadoutAndBenefitTests.test_negative_benefit_not_clipped) ... ok
+test_readout_not_applied_to_save_but_applied_to_measured_bits (test_aer_cuprate_cz_half.ReadoutAndBenefitTests.test_readout_not_applied_to_save_but_applied_to_measured_bits) ... ok
+test_wrong_benefit_shape_rejected (test_aer_cuprate_cz_half.ReadoutAndBenefitTests.test_wrong_benefit_shape_rejected) ... ok
+test_ablated_models_have_no_readout (test_aer_cuprate_noise_components.ComponentModelTests.test_ablated_models_have_no_readout) ... ok
+test_every_full_channel_reconstructed (test_aer_cuprate_noise_components.ComponentModelTests.test_every_full_channel_reconstructed) ... ok
+test_no_double_counting_of_relaxation_floor (test_aer_cuprate_noise_components.ComponentModelTests.test_no_double_counting_of_relaxation_floor) ... ok
+test_virtual_rz_is_not_noisy (test_aer_cuprate_noise_components.ComponentModelTests.test_virtual_rz_is_not_noisy) ... ok
+test_noiseless_bell_moments (test_aer_cuprate_noise_components.ExpectationEstimatorTests.test_noiseless_bell_moments) ... ok
+test_noisy_pershot_values_retained_without_measurement (test_aer_cuprate_noise_components.ExpectationEstimatorTests.test_noisy_pershot_values_retained_without_measurement) ... ok
+test_asymmetric_readout_and_all_masks_against_enumeration (test_aer_cuprate_noise_components.ReadoutMomentTests.test_asymmetric_readout_and_all_masks_against_enumeration) ... ok
+test_invalid_dimensions_rejected (test_aer_cuprate_noise_components.ReadoutMomentTests.test_invalid_dimensions_rejected) ... ok
+test_readout_identity (test_aer_cuprate_noise_components.ReadoutMomentTests.test_readout_identity) ... ok
+test_unmask_is_involution_and_zz_sign_is_product (test_aer_cuprate_noise_components.ReadoutMomentTests.test_unmask_is_involution_and_zz_sign_is_product) ... ok
+test_empirical_bootstrap_variance (test_analyze_aer_noise_components.ComponentInferenceTests.test_empirical_bootstrap_variance) ... ok
+test_fixed_twirls_do_not_create_variance (test_analyze_aer_noise_components.ComponentInferenceTests.test_fixed_twirls_do_not_create_variance) ... ok
+test_ideal_metrics_and_projection (test_analyze_aer_noise_components.ComponentInferenceTests.test_ideal_metrics_and_projection) ... ok
+test_models_resampled_independently (test_analyze_aer_noise_components.ComponentInferenceTests.test_models_resampled_independently) ... ok
+test_paired_readout_variants_remain_paired (test_analyze_aer_noise_components.ComponentInferenceTests.test_paired_readout_variants_remain_paired) ... ok
+test_projection_is_not_fidelity_and_is_not_clipped (test_analyze_aer_noise_components.ComponentInferenceTests.test_projection_is_not_fidelity_and_is_not_clipped) ... ok
+test_reproducible_bootstrap (test_analyze_aer_noise_components.ComponentInferenceTests.test_reproducible_bootstrap) ... ok
+test_undefined_zero_spin_projection_rejected (test_analyze_aer_noise_components.ComponentInferenceTests.test_undefined_zero_spin_projection_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 87.131s
+
+OK

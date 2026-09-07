@@ -1,0 +1,7 @@
+# Optional environment for the Q-CTRL Fire Opal QASM route.
+#
+# Keep this separate from requirements.txt: the saved IBM/TDVP analysis path is
+# intentionally pinned and should keep working without Fire Opal installed.
+fire-opal
+qctrl-visualizer
+qiskit-ibm-runtime>=0.40,<0.41

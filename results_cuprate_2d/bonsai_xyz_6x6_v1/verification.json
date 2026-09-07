@@ -1,0 +1,8 @@
+{
+  "XYZ_full_native_2x2_and_2x3_state_errors": [
+    1.6462450581375778e-13,
+    1.0224806495522503e-13
+  ],
+  "load_balance_score_checked": true,
+  "same_original_finite_circuit": true
+}

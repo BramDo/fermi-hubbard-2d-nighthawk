@@ -1,0 +1,28 @@
+{
+  "modes": 72,
+  "sites": 36,
+  "steps": 2,
+  "time": 0.4,
+  "hopping_pairs": 220,
+  "onsite_pairs": 36,
+  "all_pairs_per_sweep": 2556,
+  "logical_fswap_blocks": 10224,
+  "blocks_with_physics": 1024,
+  "pure_routing_blocks": 9200,
+  "pure_routing_fraction_before_compiler": 0.8998435054773083,
+  "selected_physical_CZ_edges": 108,
+  "used_path_edges": 71,
+  "unused_selected_edges": 37,
+  "T1_seconds_min_median_max": [
+    1.6094896711273454e-05,
+    0.00017102972914838602,
+    0.0002697232186978279
+  ],
+  "T2_seconds_min_median_max": [
+    7.493511152799829e-06,
+    0.00013604866557276964,
+    0.00026124183856751827
+  ],
+  "snapshot_not_live_preflight": true,
+  "does_not_predict_fidelity": true
+}

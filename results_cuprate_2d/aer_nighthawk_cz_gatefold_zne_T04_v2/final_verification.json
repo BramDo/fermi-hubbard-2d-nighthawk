@@ -1,0 +1,184 @@
+{
+  "status": "PASS_INDEPENDENT_CIRCUIT_AND_INFERENCE_AUDIT",
+  "checks": [
+    {
+      "group": 1,
+      "twirl": 0,
+      "cz": 2016,
+      "raw_seed_verified": 2026400000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 0,
+      "cz": 3024,
+      "raw_seed_verified": 2026500000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 0,
+      "cz": 1008,
+      "raw_seed_verified": 2026600000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 1,
+      "cz": 2016,
+      "raw_seed_verified": 2026401000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 1,
+      "cz": 3024,
+      "raw_seed_verified": 2026501000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 1,
+      "cz": 1008,
+      "raw_seed_verified": 2026601000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 2,
+      "cz": 2016,
+      "raw_seed_verified": 2026402000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 2,
+      "cz": 3024,
+      "raw_seed_verified": 2026502000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 2,
+      "cz": 1008,
+      "raw_seed_verified": 2026602000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 3,
+      "cz": 2016,
+      "raw_seed_verified": 2026403000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 3,
+      "cz": 3024,
+      "raw_seed_verified": 2026503000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 3,
+      "cz": 1008,
+      "raw_seed_verified": 2026603000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 4,
+      "cz": 2016,
+      "raw_seed_verified": 2026404000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 4,
+      "cz": 3024,
+      "raw_seed_verified": 2026504000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 4,
+      "cz": 1008,
+      "raw_seed_verified": 2026604000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 5,
+      "cz": 2016,
+      "raw_seed_verified": 2026405000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 5,
+      "cz": 3024,
+      "raw_seed_verified": 2026505000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 5,
+      "cz": 1008,
+      "raw_seed_verified": 2026605000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 6,
+      "cz": 2016,
+      "raw_seed_verified": 2026406000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 6,
+      "cz": 3024,
+      "raw_seed_verified": 2026506000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 6,
+      "cz": 1008,
+      "raw_seed_verified": 2026606000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 1,
+      "twirl": 7,
+      "cz": 2016,
+      "raw_seed_verified": 2026407000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 2,
+      "twirl": 7,
+      "cz": 3024,
+      "raw_seed_verified": 2026507000,
+      "serialized_instruction_replay": true
+    },
+    {
+      "group": 3,
+      "twirl": 7,
+      "cz": 1008,
+      "raw_seed_verified": 2026607000,
+      "serialized_instruction_replay": true
+    }
+  ],
+  "independent_linear_draw_max_error": 3.3306690738754696e-16,
+  "primary_spin_ci_independently_reproduced": [
+    0.061217545961338875,
+    0.10315305481932906
+  ],
+  "actual_unique_seed_labels_including_reused_control": 512,
+  "new_cz_applications_including_diagnostic": 774144,
+  "logical_zne_cz_applications_including_reused_control": 774144,
+  "raw128_cz_applications": 129024,
+  "new_qpu_seconds": 0,
+  "all_prior_archives_unchanged": true
+}

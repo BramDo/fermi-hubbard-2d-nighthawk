@@ -1,0 +1,18 @@
+{
+  "aer_result.json": "8b3f1ae061e5dd4f7e6c7dcf687b059c9e936c84fa0411a84fd898b12164269f",
+  "BEVINDINGEN.md": "601f24172a3354bd7207fa47fdc96da316f91f56e0c02f790f6f66d0e8772a3e",
+  "measured_active18.qpy": "21bcef2ccf6068188cc9a431fc4d2c8b9e8a88bfc7ff64df845f5fc2892f8796",
+  "noise_model.json": "f435ac8a1a4d24dd2b5c639dbcc24542f7e0238c9360204d1b88ab1841a95fee",
+  "provenance.json": "ee53074f7948d87d2c230751600776909df18799e8889209596371bb4a7a2adf",
+  "restricted_backend_properties.json": "ebf823ef6080e518199809a8e534a436ed6479a31a01f5cee05e98384ac65a00",
+  "sha256.json": "6182879818e8eb51a87a6abce8d10f7a8e9aacdd36f9326ce66f0c6d3b6ae261",
+  "summary.json": "5a1715c1792b00c25b976ba085be1c1e38f12b64e99599b5cfba4669b31b18a1",
+  "synthetic_memory.json": "03caef2661c20a443f7797dda830004d7086ac463451c15580d40e26369d8719",
+  "unit_tests.txt": "5c33b5b3802961b685a29dc8fe3d4ef83c8deb49c3c2199bc76eb4785c7b09bf",
+  "verification.json": "e2dccbcc757ca860156cbe099381f608a1262a57e09adf505a8081c7e32b5704",
+  "source_snapshot/aer_cuprate_nighthawk_smoke.py": "0e2e74459b7e2e84210a8bb6d25999b2e32d65aa559df73101b056521dc8f288",
+  "source_snapshot/AER_NIGHTHAWK_PROTOCOL.md": "e7354a9892173e04ef29d514a9c1f1e9164f3f295c39e0d5969de631ea367bb6",
+  "source_snapshot/cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "source_snapshot/test_aer_cuprate_nighthawk_smoke.py": "5ec14e89f71541449879746f657b56f1cd49beb086fe5aa37222944839f47da0",
+  "source_snapshot/verify_aer_cuprate_nighthawk_smoke.py": "dde08f824586c1bbf72ec287454d14c91c97018222a59f925ee5026650db840a"
+}

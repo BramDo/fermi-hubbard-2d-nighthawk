@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "copy_files": 4309,
+  "archive_originals": 1074,
+  "archive_unique_objects": 695,
+  "archive_bytes": 255652850,
+  "restoration_smoke": true,
+  "restore_existing_same_hash": true,
+  "restore_refuses_mismatch": true,
+  "source_modified_by_migration": false,
+  "new_hardware_jobs": 0,
+  "articles_published": 0
+}

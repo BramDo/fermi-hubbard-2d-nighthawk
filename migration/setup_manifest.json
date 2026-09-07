@@ -1,0 +1,127 @@
+{
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "selected_packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.2",
+    "matplotlib": "3.9.0",
+    "qiskit": "2.5.2",
+    "qiskit-ibm-runtime": "0.48.0",
+    "qiskit-aer": "0.17.2",
+    "qiskit-fermions": "0.1.0",
+    "quimb": "1.13.0",
+    "cotengra": "0.7.5",
+    "h5py": "3.11.0",
+    "pandas": "2.2.2",
+    "nbformat": "5.10.3",
+    "nbclient": "0.10.0"
+  },
+  "originals_preserved": true,
+  "authored_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "ac6a0270adce267fee5bd39c2d8e368e7e9a2ff5ab063e37bdfe8086b242abbb",
+      "original_backup": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "955f3012e193db959fe7ed2b324582bfbfb7b53810f16a8a317f66ad6158748f",
+      "original_backup": "archive/imported_root/.gitignore"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "6b8eb7be4e8814a30feeb12ab0b4038c63b2c651fdbaa605a94bf7c5a152afba",
+      "original_backup": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "78f578e1fded848261fa50433490ae60cd41f4d8bf949c10c9abfb7c098778d1",
+      "original_backup": "archive/imported_root/README.md"
+    },
+    {
+      "path": "publication/edukaizen_series3/README.md",
+      "sha256": "735e8f741f8492211236c7f01cf18ed72bd89d4a040f06f0bf1720585c4a299b",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/00_series.md",
+      "sha256": "9ceaa0ad7fc44b915b234d8a81dc17fe36431d1e79e420d999e7bb5caf0a58d1",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/01_een_laptop_als_tegenstander.md",
+      "sha256": "0734adb6afeec5b858c17933e42209476a86a3661f8b24a5e30ded5b8766e274",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/02_het_volledige_fermionmodel.md",
+      "sha256": "7aee6273afe4fa0aae0b484cc78b558ac3230e981110c700a74b811631b723ea",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/03_mapping_en_circuitdiepte.md",
+      "sha256": "7d1de556acbd9968436d95b7e992951a44768d32f60aded4524cdbb18391cb1d",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/04_pilots_shots_en_ruis.md",
+      "sha256": "778ad404edb2cb33635ea2f2d4e7aaececefb5decc09b669aac38a44812e6764",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/05_readout_zne_pec_tflo.md",
+      "sha256": "b480204961552d99b23ec66333ce2a338c67bd5945d53894cbceab07f06a24ba",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/06_de_6x6_resultaten.md",
+      "sha256": "0bb3302a012c6b03a9365028dcaab4137777a8ca3173ac6b7b09889c707142cd",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/07_wat_twintig_keer_sneller_betekent.md",
+      "sha256": "2b154f91d2fc06a71caded0585e9ad2e3fc5d61f2ed07979a0e229bec3bc8fac",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/08_google_en_bonsai.md",
+      "sha256": "8cc3e59259842ad7fbe29ea87c1243aa1445e04fd1d64beb225d3282c89ad4ba",
+      "original_backup": null
+    },
+    {
+      "path": "publication/edukaizen_series3/nl/09_volgende_stap.md",
+      "sha256": "fc1e7869e2292d7543a2374be946c0d7414dbae3885497ffbedd30698bb62d07",
+      "original_backup": null
+    },
+    {
+      "path": "scripts/build_series3.py",
+      "sha256": "1b1a73bc1d665c71f5f9c658313de9d63f30f4e5f25cc9d65d03795df0bdd735",
+      "original_backup": null
+    },
+    {
+      "path": "scripts/restore_archives.py",
+      "sha256": "9f6038ca1b585598cc600b6f0b1f536ff97bb80a482e9214cd0c5d0819a961cc",
+      "original_backup": null
+    },
+    {
+      "path": "theory/EXPERIMENT_INDEX.md",
+      "sha256": "3ce67124697f5f6e1ae2db2b290717006931a12f2650413dbcc27142566641f7",
+      "original_backup": null
+    },
+    {
+      "path": "theory/HANDBOOK.md",
+      "sha256": "7f88a81ee2e826b7c7c7c1ea32677b9a7966992240a2042c76e318b732228e8d",
+      "original_backup": null
+    },
+    {
+      "path": "theory/RESULTS_AND_CLAIMS.md",
+      "sha256": "53e7f84fdda1648c041f2cd25f84d2ce6e9b2e2df3aece6ab3ae06971a9c25c7",
+      "original_backup": null
+    },
+    {
+      "path": "theory/references.bib",
+      "sha256": "1d16fa79dbcd7875eda9d71ae7fb3c7aebc15022d5eebea4848ddd6c239b7aaf",
+      "original_backup": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+test_changed_readout_bit_order_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_changed_readout_bit_order_rejected) ... ok
+test_gate_and_measurement_permutation (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_gate_and_measurement_permutation) ... ok
+test_nonterminal_measurement_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_nonterminal_measurement_rejected) ... ok
+test_unmapped_wire_rejected (test_aer_cuprate_nighthawk_smoke.CircuitMappingTests.test_unmapped_wire_rejected) ... ok
+test_asymmetric_readout_matches_physical_not_local_indices (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_asymmetric_readout_matches_physical_not_local_indices) ... ok
+test_cz_channel_matches_original_physical_calibration (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_cz_channel_matches_original_physical_calibration) ... ok
+test_duplicate_layout_rejected (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_duplicate_layout_rejected) ... ok
+test_missing_frequency_supported_without_fabrication (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_missing_frequency_supported_without_fabrication) ... ok
+test_properties_are_unchanged_and_permuted_exactly (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_properties_are_unchanged_and_permuted_exactly) ... ok
+test_symmetric_cz_reverse_present (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_symmetric_cz_reverse_present) ... ok
+test_time_unit_conversion (test_aer_cuprate_nighthawk_smoke.NoiseMappingTests.test_time_unit_conversion) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.767s
+
+OK

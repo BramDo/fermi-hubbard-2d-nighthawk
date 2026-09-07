@@ -1,0 +1,53 @@
+{
+  "inputs_sha256": {
+    "ONDERZOEKSVOORSTEL_SPINCORRELATIES_2D.md": "bc4be719ea7e54957bc559dcccfe9b0b230715056d48d59bfa7419bb7c7e5049",
+    "cuprate_spin_correlation_probe.py": "1d3bb739d8b417d67103fea02674c5bbd329a5fe903bae62e065956c118eac3b",
+    "run_spin_correlation_probe.py": "608d6e394a0603d28f54b469572d33e340722d955838e2d8a7c26a901247025f",
+    "test_spin_correlation_probe.py": "97394f0b7ba0b552886160c8940d7c2e720f268aaec2cc3a3e4ff041fcbe6025",
+    "verify_classical_chi64_continuation.py": "491411ab295942ae7685b4137a43551499f712e6bfcbe3968740c7c15e3bc7e6",
+    "cuprate_2d_tflo.py": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+    "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi16_threads3/result.json": "8141d6dd98cb48726e52e4d422b781babe8f8b2d67158e1661c0d1bf176f3062",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi16_threads3/mps_metadata.json": "94ba1a7c6acce646be53be9254a3d7804ecf7785441787e9b3a5639812d554f9",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi16_threads3/mps_arrays.npz": "732bff9dba03093d51762c1f1c6ceb3744fa0737f4f5097a10c3516595abf038",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi32_threads3/result.json": "5d88580d53373f54ca7cce990f7ce4eb46c55aef1412c20b4d5ba7dba2bbb827",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi32_threads3/mps_metadata.json": "052dd22d43d5139fe0878da2796ef8dd89e8d7a9e03f19b01a142778cb539333",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi32_threads3/mps_arrays.npz": "2ebceb59218906da42b48f166315eaf7a9845d13c3e7293fad7aa54ecbd61315",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi64_threads3/result.json": "dd84315380d51ace8dd42d8365f9a81f7081725d3fc55706b667116d886ad220",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi64_threads3/mps_metadata.json": "9b15648b3f1d1740d26dee75e36de3bf01a17230d8723f3572b77f59632c9ff7",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/3x3_chi64_threads3/mps_arrays.npz": "42d0a02cb3b6331fe30b34181f0bb236c631280b11dddf64a6dc2bc850931182",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/6x6_chi32_threads1/result.json": "e44d0d927bf0832d6405f28041d10202ad25a941586ba10417c08e8404bbccd0",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/6x6_chi32_threads1/mps_metadata.json": "2bcbb87b750bdd89231d6242fd0a76bd5c1b6afaa616f5113eef68748ca66675",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/6x6_chi32_threads1/mps_arrays.npz": "5e7ad0ec05e8a0e174936cdd3311c600e20ccf4a034c0158457ea1af23f1729f",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/6x6_chi64_threads1/result.json": "10d38fd7e6981f4c5853b96a41b4efcc073557d0f7d27c6734f09fe052569d19",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/6x6_chi64_threads1/mps_metadata.json": "9c979560f166b06f920759801d4ac030eea86411400c53a5ace7f065da5bf91d",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/6x6_chi64_threads1/mps_arrays.npz": "dc40148f0d5b87da571a2ed5b61ebf4ade4bdd73c0aa78b730ffa597cab76dcc",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/sha256.json": "dd33fd530d177b3ea3bb3e19dcf2f1aa59eb1dbc9d1c5bb173f6a5039bab7b3f",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_v1/plan.json": "2ca1773bb1bf70e0e020d37921c3ce074b83eada435579255543af7745efa76d",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/sha256.json": "644f9e48ee4850b0f194d7d516dd4248b47a748753f2bd16dcf4a7a5a5d6ec4b",
+    "results_cuprate_2d/classical_full_6x6_mps_T04_chi64_v1/plan.json": "2f8dc40cb91c4841be6727ac23fcdc0a42173cf4ffc01a376c1bd398fc4c2139"
+  },
+  "budget": {
+    "worker_wall_seconds": 180,
+    "process_wall_seconds": 190,
+    "rss_bytes": 2147483648,
+    "threads": 1,
+    "hardware_seconds": 0
+  },
+  "screening": {
+    "primary_Manhattan_distances": [
+      1,
+      2,
+      3
+    ],
+    "proposed_RMS": 0.01,
+    "proposed_max_abs": 0.03,
+    "MPS_spread_RMS": 0.003,
+    "MPS_spread_max_abs": 0.01,
+    "certification": false
+  },
+  "scope": "Saved-state T04 spin correlations with 3x3 exact anchor; all other proposal phases deferred",
+  "timestamp": "2026-09-06T21:48:18.683689+00:00"
+}

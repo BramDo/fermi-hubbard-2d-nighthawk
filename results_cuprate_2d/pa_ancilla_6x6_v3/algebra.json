@@ -1,0 +1,8 @@
+{
+  "modes": 72,
+  "qubits": 108,
+  "ancillas": 36,
+  "edge_algebra_checks": 11472,
+  "loop_rank": 25,
+  "unfixed_boundary_auxiliary_degrees": 11
+}

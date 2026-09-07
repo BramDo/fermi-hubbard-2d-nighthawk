@@ -1,0 +1,21 @@
+test_affine_identity (test_tflo_dd6.PilotTests.test_affine_identity) ... ok
+test_affine_independent_lstsq (test_tflo_dd6.PilotTests.test_affine_independent_lstsq) ... ok
+test_allocation (test_tflo_dd6.PilotTests.test_allocation) ... ok
+test_analysis_holdouts_and_target_do_not_train (test_tflo_dd6.PilotTests.test_analysis_holdouts_and_target_do_not_train) ... ok
+test_analysis_identity (test_tflo_dd6.PilotTests.test_analysis_identity) ... ok
+test_block_compiler_full_small_network (test_tflo_dd6.PilotTests.test_block_compiler_full_small_network) ... ok
+test_budget (test_tflo_dd6.PilotTests.test_budget) ... ok
+test_dd_preserves_dense_unitary_and_timing (test_tflo_dd6.PilotTests.test_dd_preserves_dense_unitary_and_timing) ... ok
+test_invalid_fit (test_tflo_dd6.PilotTests.test_invalid_fit) ... ok
+test_no_extra_target (test_tflo_dd6.PilotTests.test_no_extra_target) ... ok
+test_no_time_feature_bypass (test_tflo_dd6.PilotTests.test_no_time_feature_bypass) ... ok
+test_parameterized_scheduling_before_bind (test_tflo_dd6.PilotTests.test_parameterized_scheduling_before_bind) ... ok
+test_quota_missing_not_unlimited (test_tflo_dd6.PilotTests.test_quota_missing_not_unlimited) ... ok
+test_single_submission_success_and_lock (test_tflo_dd6.PilotTests.test_single_submission_success_and_lock) ... ok
+test_uncertain_submission_cannot_retry (test_tflo_dd6.PilotTests.test_uncertain_submission_cannot_retry) ... ok
+test_unpaired_echo_rejected (test_tflo_dd6.PilotTests.test_unpaired_echo_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.435s
+
+OK

@@ -1,0 +1,69 @@
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/">Previous</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/">Next</a></nav>
+<p>The first real run in this 2D route is a <code>3x3</code> lattice. That is small, but it is not arbitrary. A 3x3 lattice is small enough for exact fixed-sector diagonalization, and large enough to exercise the two-dimensional code path: site indexing, bonds, particle sectors, charge/spin observables, time evolution, and hardware measurement decoding.</p>
+<p>The role of 3x3 is validation, not scale.</p>
+<h2>Configuration</h2>
+<p>The current 3x3 validation run uses:</p>
+<ul>
+<li>lattice: <code>3x3</code></li>
+<li>sites: <code>9</code></li>
+<li>qubits: <code>18</code></li>
+<li>holes: <code>1</code></li>
+<li>particle sector: <code>N_up = N_down = 4</code></li>
+<li>exact fixed-sector ED dimension: <code>15876</code></li>
+<li>full Hubbard Hamiltonian nonzeros: <code>368046</code></li>
+<li>hardware circuit family: <code>number_preserving_t_only</code></li>
+</ul>
+<p>The one-hole sector is useful because it is not trivial but still exactly tractable. It also lets the pipeline test particle-sector survival explicitly: after measurement, each bitstring can be checked against the expected number of spin-up and spin-down particles.</p>
+<h2>Why exact fixed-sector ED comes first</h2>
+<p>Exact diagonalization is expensive, but for 3x3 it is still possible. That is why it should come before hardware interpretation.</p>
+<p>The fixed-sector exact calculation gives a clean reference for the same observables measured on hardware:</p>
+<ul>
+<li>site charge;</li>
+<li>site spin-z;</li>
+<li>site double occupancy;</li>
+<li>nearest-neighbor bond charge correlations;</li>
+<li>nearest-neighbor bond spin-z correlations.</li>
+</ul>
+<p>It also gives a time sweep. That is important because a circuit can look fine at step 1 while failing quickly at later time. In this route, the exact full Hubbard sweep through step 4 keeps total charge and total spin-z conserved and shows early spin melting and doublon formation.</p>
+<h2>Exact full ED time sweep</h2>
+<p>The full exact fixed-sector time sweep gives:</p>
+<table>
+<thead><tr><th>step</th><th>total charge</th><th>total spin-z</th><th>mean abs spin-z</th><th>mean doublon</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>8.000000</td><td>0.000000</td><td>0.888889</td><td>0.000000</td></tr>
+<tr><td>1</td><td>8.000000</td><td>0.000000</td><td>0.855116</td><td>0.016223</td></tr>
+<tr><td>2</td><td>8.000000</td><td>0.000000</td><td>0.778109</td><td>0.049209</td></tr>
+<tr><td>3</td><td>8.000000</td><td>-0.000000</td><td>0.707763</td><td>0.069466</td></tr>
+<tr><td>4</td><td>8.000000</td><td>-0.000000</td><td>0.674849</td><td>0.064354</td></tr>
+</tbody>
+</table>
+<p>This is the physical reference for the small run. Total charge remains 8. Total spin-z remains zero. The mean absolute spin-z decreases, which is a simple signature of early spin melting. Double occupancy rises and then bends, showing that the interacting dynamics are not just a static bitstring pattern.</p>
+<h2>TDHF and Gaussian/free baselines</h2>
+<p>The validation ladder also includes TDHF and Gaussian/free evolution.</p>
+<p>TDHF is a mean-field method. It can be very good at early times for diagonal observables, but it is not exact. It can deviate as interaction effects and correlations build up.</p>
+<p>The Gaussian/free baseline removes the interaction structure. It is useful because it asks: what would happen if the system were basically noninteracting? When the Gaussian/free result diverges quickly from exact full ED, that is a signal that the interacting part of the model is already visible in the chosen observables.</p>
+<p>Against exact full ED, the early-time RMSEs are:</p>
+<table>
+<thead><tr><th>step</th><th>source</th><th>charge RMSE</th><th>spin-z RMSE</th><th>doublon RMSE</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>exact t-only</td><td>0.000519</td><td>0.000896</td><td>0.000079</td></tr>
+<tr><td>2</td><td>exact t-only</td><td>0.001871</td><td>0.003245</td><td>0.000982</td></tr>
+<tr><td>3</td><td>exact t-only</td><td>0.013111</td><td>0.006454</td><td>0.003472</td></tr>
+<tr><td>4</td><td>exact t-only</td><td>0.031148</td><td>0.009996</td><td>0.007165</td></tr>
+<tr><td>1</td><td>TDHF</td><td>0.000004</td><td>0.000029</td><td>0.000040</td></tr>
+<tr><td>2</td><td>TDHF</td><td>0.000196</td><td>0.001375</td><td>0.001822</td></tr>
+<tr><td>3</td><td>TDHF</td><td>0.001202</td><td>0.008724</td><td>0.011952</td></tr>
+<tr><td>4</td><td>TDHF</td><td>0.003642</td><td>0.019529</td><td>0.032194</td></tr>
+<tr><td>1</td><td>Gaussian/free</td><td>0.000378</td><td>0.001924</td><td>0.000889</td></tr>
+<tr><td>2</td><td>Gaussian/free</td><td>0.005167</td><td>0.026965</td><td>0.011859</td></tr>
+<tr><td>3</td><td>Gaussian/free</td><td>0.019970</td><td>0.109488</td><td>0.044513</td></tr>
+<tr><td>4</td><td>Gaussian/free</td><td>0.042469</td><td>0.254813</td><td>0.093432</td></tr>
+</tbody>
+</table>
+<p>The pattern is useful. TDHF is excellent at the earliest step, but doublon starts to drift later. The Gaussian/free baseline separates faster, especially in spin-z and double occupancy.</p>
+<p>That gives the hardware comparison a real reference frame. A hardware result should not merely look smooth. It should land near the right reference on the same observables.</p>
+<h2>What the 3x3 run proves and does not prove</h2>
+<p>The 3x3 run proves that the pipeline can define and compare a small 2D Hubbard problem across exact ED, TDHF, Gaussian/free, IBM hardware, and Fire Opal.</p>
+<p>It does not prove cuprate physics at scale. It does not prove superconducting order. It does not prove quantum advantage.</p>
+<p>That limitation is exactly why it is useful. It is a controlled place to find the errors before scaling up.</p>
+<nav class="fh-series-nav" style="margin:1rem 0;padding:.75rem 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;"><strong>English</strong> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/">2D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/">1D project page</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/">Previous</a> | <a href="https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/">Next</a></nav>

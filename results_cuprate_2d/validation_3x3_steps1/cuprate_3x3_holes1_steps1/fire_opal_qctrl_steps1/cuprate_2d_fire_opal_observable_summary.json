@@ -1,0 +1,110 @@
+{
+  "artifacts": {
+    "bond_observables_csv": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/fire_opal_qctrl_steps1/cuprate_2d_fire_opal_bond_observables.csv",
+    "plot": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/fire_opal_qctrl_steps1/cuprate_2d_fire_opal_readout_corrected_observables.png",
+    "site_observables_csv": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1/fire_opal_qctrl_steps1/cuprate_2d_fire_opal_site_observables.csv"
+  },
+  "backend": "ibm_marrakesh",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 1,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "particle_sector": {
+    "exact_sector_fraction": 0.09444985394352483,
+    "expected_n_down": 4,
+    "expected_n_up": 4,
+    "mean_abs_n_down_error": 1.041869522882181,
+    "mean_abs_n_up_error": 1.0214216163583252,
+    "top_particle_sectors": [
+      {
+        "n_down": 4,
+        "n_up": 4,
+        "shots": 97
+      },
+      {
+        "n_down": 4,
+        "n_up": 5,
+        "shots": 74
+      },
+      {
+        "n_down": 3,
+        "n_up": 4,
+        "shots": 73
+      },
+      {
+        "n_down": 5,
+        "n_up": 4,
+        "shots": 72
+      },
+      {
+        "n_down": 3,
+        "n_up": 5,
+        "shots": 62
+      },
+      {
+        "n_down": 4,
+        "n_up": 3,
+        "shots": 55
+      },
+      {
+        "n_down": 5,
+        "n_up": 5,
+        "shots": 48
+      },
+      {
+        "n_down": 5,
+        "n_up": 3,
+        "shots": 42
+      },
+      {
+        "n_down": 3,
+        "n_up": 3,
+        "shots": 41
+      },
+      {
+        "n_down": 4,
+        "n_up": 6,
+        "shots": 40
+      }
+    ]
+  },
+  "profiles": {
+    "raw": {
+      "max_charge": 1.2210321324245377,
+      "mean_abs_spin_z": 0.3882938439900465,
+      "mean_charge": 0.9437412095639944,
+      "mean_double_occupancy": 0.18056907930325655,
+      "min_charge": 0.6728334956183057,
+      "total_charge": 8.49367088607595,
+      "total_spin_z": 0.2950340798442066
+    },
+    "readout_corrected": {
+      "max_charge": 1.2211360677439473,
+      "mean_abs_spin_z": 0.38683432119619937,
+      "mean_charge": 0.9424265160046077,
+      "mean_double_occupancy": 0.18011710280923865,
+      "min_charge": 0.6730043052105728,
+      "total_charge": 8.481838644041469,
+      "total_spin_z": 0.3150278184131224
+    }
+  },
+  "readout_calibration": {
+    "p01_max": 0.068603515625,
+    "p01_mean": 0.003811306423611111,
+    "p10_max": 0.004884004884004884,
+    "p10_mean": 0.0005833672500339167,
+    "shots_all0": 4096,
+    "shots_all1": 4095
+  }
+}

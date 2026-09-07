@@ -1,0 +1,12 @@
+{
+  "job_id": "daer9j5nj4cs73afhofg",
+  "backend": "ibm_phoenix",
+  "account_name": "qiskit-runtime-q9",
+  "tag": "controls5-116abe9b21b04f0e",
+  "plan_sha256": "3236c873471583cd05df03780e706ebb1b30f3cf5c52a6940fdc894f6cc68c2f",
+  "cap_seconds": 5,
+  "circuits": 12,
+  "shots": 6144,
+  "submitted_unix": 1788720333.4648583,
+  "automatic_retry": false
+}

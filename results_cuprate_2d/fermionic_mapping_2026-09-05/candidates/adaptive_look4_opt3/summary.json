@@ -1,0 +1,19 @@
+{
+  "candidate": "adaptive_look4_opt3",
+  "method": "adaptive_look4",
+  "optimization_level": 3,
+  "compile_seconds": 3.206534348999412,
+  "qubits": 120,
+  "depth": 9619,
+  "operations": {
+    "rz": 28459,
+    "sx": 26747,
+    "cz": 22808,
+    "x": 3294
+  },
+  "two_qubit_count": 22808,
+  "two_qubit_depth": 4350,
+  "qpy_sha256": "cc2a6338a4243fd5d3b04d61923c005fc76dc329b1a28e20fede890df07eeeb7",
+  "routing_swaps_added": false,
+  "same_reference_product_formula": true
+}

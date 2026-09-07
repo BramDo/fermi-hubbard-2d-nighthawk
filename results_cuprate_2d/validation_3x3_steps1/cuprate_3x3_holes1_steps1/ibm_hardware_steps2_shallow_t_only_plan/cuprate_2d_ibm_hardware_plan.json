@@ -1,0 +1,232 @@
+{
+  "backend": "ibm_marrakesh",
+  "backend_num_qubits": 156,
+  "backend_operational": true,
+  "backend_pending_jobs": 44,
+  "circuit_family": "number_preserving_t_only",
+  "claim_boundary": "72-qubit IBM hardware smoke test for diagonal observables. Not a d-wave superconductivity or quantum advantage claim.",
+  "config": {
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "chemical_potential": 0.0,
+    "dt": 0.1,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "initial_state": "stripe_neel",
+    "lx": 3,
+    "ly": 3,
+    "shots": 20000,
+    "steps": 2,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0
+  },
+  "created_at_utc": "2026-07-03T14:40:44.329058+00:00",
+  "initial_layout": null,
+  "initial_layout_path": null,
+  "logical_summaries": [
+    {
+      "clbits": 18,
+      "depth": 14,
+      "operation_counts": {
+        "barrier": 9,
+        "measure": 18,
+        "rz": 36,
+        "rzz": 18,
+        "x": 8,
+        "xx_plus_yy": 48
+      },
+      "qubits": 18,
+      "size": 128,
+      "two_qubit_count": 66,
+      "two_qubit_depth": 10
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 18,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 18,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 18,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 18,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 18,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 18,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ],
+  "mitigation_plan": {
+    "readout": "all-0/all-1 calibration circuits; repeated calibrations are pooled in postprocessing",
+    "readout_shots_note": "IBM SamplerV2 direct runner uses one shots value per run here; different readout_shots requires separate jobs or provider-side support.",
+    "sector_profiles": "postselection is intentionally not applied automatically; keep raw/readout-corrected profiles separate."
+  },
+  "optimization_level": 1,
+  "readout_repetitions": 3,
+  "readout_shots_requested": 4096,
+  "roles": [
+    "main",
+    "readout_all0_0",
+    "readout_all1_0",
+    "readout_all0_1",
+    "readout_all1_1",
+    "readout_all0_2",
+    "readout_all1_2"
+  ],
+  "seed_transpiler": 5,
+  "shots": 1024,
+  "submit": false,
+  "transpiled_summaries": [
+    {
+      "clbits": 18,
+      "depth": 470,
+      "operation_counts": {
+        "barrier": 9,
+        "cz": 390,
+        "measure": 18,
+        "rz": 653,
+        "sx": 913,
+        "x": 19
+      },
+      "qubits": 156,
+      "size": 1993,
+      "two_qubit_count": 390,
+      "two_qubit_depth": 161
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 156,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 156,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 156,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 156,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 1,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18
+      },
+      "qubits": 156,
+      "size": 18,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    },
+    {
+      "clbits": 18,
+      "depth": 2,
+      "operation_counts": {
+        "barrier": 1,
+        "measure": 18,
+        "x": 18
+      },
+      "qubits": 156,
+      "size": 36,
+      "two_qubit_count": 0,
+      "two_qubit_depth": 0
+    }
+  ]
+}

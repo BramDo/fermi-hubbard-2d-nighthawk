@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETE_LOCAL_SAMPLING",
+  "new_aer_shots": 320,
+  "new_qpu_seconds": 0,
+  "wall_seconds": 465.4858060789993
+}

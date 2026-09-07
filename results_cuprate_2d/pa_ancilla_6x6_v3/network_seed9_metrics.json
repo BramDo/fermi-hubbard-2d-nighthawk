@@ -1,0 +1,48 @@
+{
+  "native": {
+    "name": "network_seed9",
+    "ordering": "network",
+    "seed": 9,
+    "scope": "full preparation+evolution+data readout",
+    "operations": {
+      "sx": 41809,
+      "cz": 23138,
+      "rz": 12324,
+      "x": 1282,
+      "measure": 72
+    },
+    "cz": 23138,
+    "physical_X_SX": 43091,
+    "depth": 14603,
+    "CZ_depth": 6288,
+    "snapshot_unaligned_duration_seconds": 0.0006761359999998655,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/network_seed9.qpy"
+  },
+  "twirl": {
+    "name": "network_seed9_twirl",
+    "ordering": "network",
+    "seed": 9,
+    "scope": "full preparation+evolution+data readout+one Pauli twirl",
+    "operations": {
+      "sx": 41759,
+      "rz": 39261,
+      "cz": 23138,
+      "x": 7887,
+      "measure": 72
+    },
+    "cz": 23138,
+    "physical_X_SX": 49646,
+    "depth": 19635,
+    "CZ_depth": 6288,
+    "snapshot_unaligned_duration_seconds": 0.0007229439999998465,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/network_seed9_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 46396,
+      "max_segment_error": 1.9539925233402755e-14,
+      "global_phase_error": 2.7869254743664608e-12,
+      "CZ_partial_order_preserved": true
+    }
+  }
+}

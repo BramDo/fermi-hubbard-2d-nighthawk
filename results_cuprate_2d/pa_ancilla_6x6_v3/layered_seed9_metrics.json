@@ -1,0 +1,48 @@
+{
+  "native": {
+    "name": "layered_seed9",
+    "ordering": "layered",
+    "seed": 9,
+    "scope": "full preparation+evolution+data readout",
+    "operations": {
+      "sx": 39362,
+      "cz": 21670,
+      "rz": 12352,
+      "x": 1218,
+      "measure": 72
+    },
+    "cz": 21670,
+    "physical_X_SX": 40580,
+    "depth": 8733,
+    "CZ_depth": 3745,
+    "snapshot_unaligned_duration_seconds": 0.0004084079999999462,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/layered_seed9.qpy"
+  },
+  "twirl": {
+    "name": "layered_seed9_twirl",
+    "ordering": "layered",
+    "seed": 9,
+    "scope": "full preparation+evolution+data readout+one Pauli twirl",
+    "operations": {
+      "sx": 39318,
+      "rz": 37341,
+      "cz": 21670,
+      "x": 7449,
+      "measure": 72
+    },
+    "cz": 21670,
+    "physical_X_SX": 46767,
+    "depth": 11752,
+    "CZ_depth": 3745,
+    "snapshot_unaligned_duration_seconds": 0.00043635199999993824,
+    "exact_edgewise_factor2_possible": false,
+    "qpy": "circuits/layered_seed9_twirl.qpy",
+    "cleanup_proof": {
+      "local_2x2_segments": 43460,
+      "max_segment_error": 6.013459241079322e-14,
+      "global_phase_error": 1.6049925708642244e-12,
+      "CZ_partial_order_preserved": true
+    }
+  }
+}

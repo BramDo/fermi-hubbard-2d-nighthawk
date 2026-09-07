@@ -1,0 +1,64 @@
+{
+  "checked_unix": 1788726968.5838892,
+  "backend": "ibm_phoenix",
+  "pending_jobs": 0,
+  "properties_updated": "2026-09-06 22:26:38+02:00",
+  "instance_sha256": "6f963c3f49c03a803a8cf32a97e546fb9bae6523a062f3497e8bc4532ea4f6b9",
+  "timing_fingerprint": "1b65b38735b33b651cad6f8056e94430ba3e622b711eab71e179b2862382d25a",
+  "options": {
+    "max_execution_time": 15,
+    "default_shots": 512,
+    "execution": {
+      "init_qubits": true,
+      "rep_delay": 1e-06,
+      "meas_type": "classified"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": false
+    },
+    "dynamical_decoupling": {
+      "enable": false
+    },
+    "environment": {
+      "job_tags": [
+        "2d-cuprate",
+        "tflo-dd6",
+        "tflo-dd6-ebff330e98844a6a"
+      ]
+    }
+  },
+  "quota": {
+    "usage_consumed_seconds": 41.0,
+    "remaining_reported": false,
+    "unknown_is_not_unlimited": true
+  },
+  "budget": {
+    "shot_execution_seconds": 4.570226688000224,
+    "estimates_by_internal_subjobs": {
+      "1": 6.570226688000224,
+      "2": 8.570226688000224,
+      "3": 10.570226688000224,
+      "4": 12.570226688000224,
+      "5": 14.570226688000224,
+      "6": 16.570226688000226,
+      "7": 18.570226688000226,
+      "8": 20.570226688000226
+    },
+    "planning_subjobs": 4,
+    "headroom_seconds": 0.75,
+    "cap_seconds": 15,
+    "internal_subjob_count_known": false,
+    "completion_guaranteed": false,
+    "pass": true
+  },
+  "reset_all120_seconds": 2.14e-06,
+  "rep_delay_seconds": 1e-06,
+  "plan_sha256": "5dae25b56a68c258c20bfd76461b25a22b215bbadf6b6320e553582c2d8cb7fd",
+  "full_preflight_sha256": "bcef2bbe5abda5c3285abc588a8dee3274311628966139aeb070635d43e9bd60",
+  "full_ISA_and_duration_checks_reused_only_for_identical_bytes_and_target": true,
+  "all120_fault_flags_freshly_clear": true,
+  "script_sha256": "4fbab8adee01fa78ec4bf6b51c803e5ef28582722f0109fdacd6269394f59c46",
+  "runtime_sessions_with_retries_disabled": 2,
+  "automatic_job_retry": false
+}

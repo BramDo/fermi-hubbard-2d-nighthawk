@@ -1,0 +1,11 @@
+test_CZ_cancels_only_through_diagonal_endpoints (test_compact_symbolic_tflo.Tests.test_CZ_cancels_only_through_diagonal_endpoints) ... ok
+test_constant_full_operator_and_symbolic_anchors (test_compact_symbolic_tflo.Tests.test_constant_full_operator_and_symbolic_anchors) ... ok
+test_full_small_network_family (test_compact_symbolic_tflo.Tests.test_full_small_network_family) ... ok
+test_measurement_mapping_preserved (test_compact_symbolic_tflo.Tests.test_measurement_mapping_preserved) ... ok
+test_twirl_cleanup_preserves_family (test_compact_symbolic_tflo.Tests.test_twirl_cleanup_preserves_family) ... ok
+test_wrong_anchor_and_gate_rejected (test_compact_symbolic_tflo.Tests.test_wrong_anchor_and_gate_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 9.540s
+
+OK

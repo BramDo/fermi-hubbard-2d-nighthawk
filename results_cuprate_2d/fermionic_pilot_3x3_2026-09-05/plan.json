@@ -1,0 +1,390 @@
+{
+  "submitted": false,
+  "backend": "ibm_phoenix",
+  "account_name": "qiskit-runtime-q9",
+  "tag": "fh3x3-c5dfe715e15f42da",
+  "config": {
+    "lx": 3,
+    "ly": 3,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.1,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "circuit_family": "fermionic_fswap_network",
+  "initial_layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "final_index_layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "logical": {
+    "qubits": 18,
+    "depth": 149,
+    "operations": {
+      "p": 1224,
+      "xx_plus_yy": 612,
+      "cp": 36,
+      "x": 8
+    },
+    "two_qubit_count": 648,
+    "two_qubit_depth": 76
+  },
+  "isa": {
+    "qubits": 120,
+    "depth": 444,
+    "operations": {
+      "sx": 1533,
+      "rz": 1353,
+      "cz": 928,
+      "x": 161
+    },
+    "two_qubit_count": 928,
+    "two_qubit_depth": 132
+  },
+  "qpy_sha256": {
+    "logical": "5b2f589bb844ed5111475fda5905406b09f6a90dce537ab1c9e91e24003d6cf4",
+    "isa": "c6ce4be41181b3b3023458eb1fd3412fc579e56ff57533b0d1a94a534ea9c273"
+  },
+  "options": {
+    "default_shots": 512,
+    "max_execution_time": 5,
+    "resilience_level": 0,
+    "dynamical_decoupling": {
+      "enable": false
+    },
+    "twirling": {
+      "enable_gates": true,
+      "enable_measure": true,
+      "num_randomizations": 8,
+      "shots_per_randomization": 64
+    },
+    "environment": {
+      "job_tags": [
+        "2d-cuprate",
+        "full-fermion-pilot",
+        "fh3x3-c5dfe715e15f42da"
+      ]
+    },
+    "resilience": {
+      "measure_mitigation": false,
+      "pec_mitigation": false,
+      "zne_mitigation": true,
+      "zne": {
+        "amplifier": "gate_folding",
+        "noise_factors": [
+          1.0,
+          3.0,
+          5.0
+        ],
+        "extrapolator": [
+          "linear",
+          "fallback"
+        ],
+        "extrapolated_noise_factors": [
+          0.0
+        ]
+      }
+    }
+  },
+  "observable_count": 27,
+  "measurement_bases": [
+    "Z"
+  ],
+  "target_shots_all_factors": 1536,
+  "gate_only_duration_estimate_s": 1.5655999999999956e-05,
+  "folded_gate_only_seconds_all_shots": 0.0721428479999998,
+  "budget_boundary": "max_execution_time=5 is a provider cap, not a promise of success or a gate-only billing estimate.",
+  "sector": {
+    "n_up": 4,
+    "n_down": 4,
+    "dimension": 15876
+  },
+  "classical_reference_and_validation_seconds": 20.376381344000038,
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "independent_H_hermitian",
+        "value": 0.0,
+        "threshold": 1e-12,
+        "passed": true
+      },
+      {
+        "check": "exact_H_norm",
+        "value": 4.440892098500626e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "logical_state_norm",
+        "value": 6.8833827526759706e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "logical_correct_spin_sector",
+        "value": 6.661338147750939e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "refined_sector_steps2",
+        "value": 6.661338147750939e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "refined_sector_steps4",
+        "value": 4.218847493575595e-14,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "refined_sector_steps8",
+        "value": 7.593925488436071e-14,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "second_order_refinement_ratio_0",
+        "value": 0.06470761430124039,
+        "threshold": 0.7,
+        "passed": true
+      },
+      {
+        "check": "second_order_refinement_ratio_1",
+        "value": 0.01613715797309112,
+        "threshold": 0.7,
+        "passed": true
+      },
+      {
+        "check": "observable_0_charge",
+        "value": 6.994405055138486e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_0_spin_z",
+        "value": 5.662137425588298e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_0_double_occupancy",
+        "value": 4.0939474033052647e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_1_charge",
+        "value": 8.881784197001252e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_1_spin_z",
+        "value": 7.882583474838611e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_1_double_occupancy",
+        "value": 5.065392549852277e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_2_charge",
+        "value": 7.882583474838611e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_2_spin_z",
+        "value": 5.329070518200751e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_2_double_occupancy",
+        "value": 5.342948306008566e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_3_charge",
+        "value": 8.215650382226158e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_3_spin_z",
+        "value": 5.88418203051333e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_3_double_occupancy",
+        "value": 4.996003610813204e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_4_charge",
+        "value": 8.881784197001252e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_4_spin_z",
+        "value": 8.049116928532385e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_4_double_occupancy",
+        "value": 1.235990476633475e-17,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_5_charge",
+        "value": 3.774758283725532e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_5_spin_z",
+        "value": 4.440892098500626e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_5_double_occupancy",
+        "value": 4.371503159461554e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_6_charge",
+        "value": 6.439293542825908e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_6_spin_z",
+        "value": 5.995204332975845e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_6_double_occupancy",
+        "value": 4.2327252813834093e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_7_charge",
+        "value": 5.218048215738236e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_7_spin_z",
+        "value": 4.773959005888173e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_7_double_occupancy",
+        "value": 5.620504062164855e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_8_charge",
+        "value": 5.10702591327572e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_8_spin_z",
+        "value": 5.551115123125783e-15,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "observable_8_double_occupancy",
+        "value": 5.759281940243e-16,
+        "threshold": 1e-10,
+        "passed": true
+      },
+      {
+        "check": "native_ISA_state_equivalence_18_qubits",
+        "value": 6.959557180673206e-14,
+        "threshold": 2e-09,
+        "passed": true
+      }
+    ],
+    "source_sha256": {
+      "cuprate_2d_fermionic_pilot.py": "796303333c2e6784e737d32eab2b13679b6296e511197d9fe55026dc4d8c6474",
+      "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+      "cuprate_2d_fermionic_mapping.py": "61c284f43309eb8728a6b9d06e5555586e748ebca21a2922b420b1e5767999fb",
+      "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+      "cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+      "validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266",
+      "prepare_cuprate_2d_fermionic_sweep.py": "18a75e58a1663886321d1386e7253fd4c93f5a3bfde2b514d08821a809bf11d3",
+      "optimize_cuprate_2d_fermionic_mapping.py": "133bc2e6c98a78cd75c5a5807ee1fab879b35a28c196066f4b7fdd144f7eaa9c",
+      "validate_cuprate_2d_fswap_baseline.py": "45b10c1db8ec5da5d82c9227fa4e58e872d6001b2da0ab70e6838f895c5ba841",
+      "ibm_staged_fermi_hubbard_runner.py": "c69155edac6a6de24db4e5d40ed29e98cf13def9464b2f5fec440d4929683634"
+    }
+  },
+  "reference_kind": "Exact circuit statevector and independent fixed-sector Hamiltonian evolution",
+  "pilot_point_estimate_targets": {
+    "rmse_each_observable": 0.05,
+    "max_site_error_each_observable": 0.1
+  },
+  "target_boundary": "Exploratory point-estimate screen, not a statistical certification or a quantum-advantage claim."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "original": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+    "gzip": "compressed_inputs/programmable_simulation_fermi_hubbard__holon_stripe__5x5__mag_field_0__U_8__trotter_layers_2__exp_vals.h5.gz",
+    "original_sha256": "fbcea07e554c75a06fbe4d3740e95dac19ade0c0a3bf688f2a53768bad619e51",
+    "gzip_sha256": "25f9c2e6c8e67e73e3d8591b517d716939117bb4d2c996dc420a6fcd5d23dda7",
+    "gzip_bytes": 1051867
+  },
+  {
+    "original": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+    "gzip": "compressed_inputs/programmable_simulation_fermi_hubbard__holon_stripe__5x5__mag_field_0__U_8__trotter_layers_3__exp_vals.h5.gz",
+    "original_sha256": "c8c1b8aa5b12478f81068360fdfa176e406e44958920b817df54a821c18c622d",
+    "gzip_sha256": "fa0eaf6692844b368631a1747457cdf5a66ccd36f205ac04ed1a4b0c373d2117",
+    "gzip_bytes": 3106175
+  },
+  {
+    "original": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+    "gzip": "compressed_inputs/programmable_simulation_fermi_hubbard__holon_stripe__6x6__mag_field_0__U_8__trotter_layers_2__exp_vals.h5.gz",
+    "original_sha256": "60741ed154d3e43c1fe7908c76422b31e9f5e50c741916e2acaaed2839102ff8",
+    "gzip_sha256": "f3f3e1cee4d8765c6b1560c38e45bfa87b615cdeb4bc447a9035afe41c6a6dc2",
+    "gzip_bytes": 7126612
+  },
+  {
+    "original": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+    "gzip": "compressed_inputs/programmable_simulation_fermi_hubbard__holon_stripe__6x6__mag_field_0__U_8__trotter_layers_3__exp_vals.h5.gz",
+    "original_sha256": "b3c38b88e27ac596c1dafea0125d69a58c9bb8ad868513069d9e08c79f008ea6",
+    "gzip_sha256": "6085aef7687e02af5f294c51cdd728e10db9645642b8e3ee2765d3ffcc790059",
+    "gzip_bytes": 7110223
+  }
+]

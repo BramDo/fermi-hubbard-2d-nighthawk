@@ -1,0 +1,9 @@
+{
+  "bootstrap_draws.npz": "b695890deae30040287778ceab7e498d1b1b3c8ca968a464ff400fe8e3231734",
+  "REPORT.md": "ea64a337238742a55b4cfce4344f40b2af46274fcfa873979a4ccbd6df1ca48c",
+  "results.json": "7bd957112a3633bf53a29f73cb1bd2be8722ca9258eeec3ded52b3740d067ab0",
+  "unit_tests.txt": "9f343b465dda301d17ee241090446378105e46f03fee11c9f54c2b96f35ce441",
+  "verification.json": "e7b8e4500ff7e44d000bbe6e280e17a52eeac566246ca9d3e5088ac3d167ea61",
+  "source_snapshot/analyze_aer_cuprate_nighthawk_512.py": "8b7d547708614a9d746667e90c2952f8c4e9262da3064a065e835d6dff567bd4",
+  "source_snapshot/test_aer_cuprate_nighthawk_512.py": "4532bc68899f6473717f40e066ad01b671945ae06a9f965ea499890e5ff4e6d1"
+}

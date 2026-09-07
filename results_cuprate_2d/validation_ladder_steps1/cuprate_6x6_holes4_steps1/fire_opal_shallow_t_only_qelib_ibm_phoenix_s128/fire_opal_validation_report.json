@@ -1,0 +1,31 @@
+{
+  "backend": "ibm_phoenix",
+  "backend_supported": false,
+  "circuit_count": 3,
+  "claim_boundary": "Validation establishes Fire Opal input compatibility only; it is not hardware execution or mitigation evidence.",
+  "created_at_unix": 1788547739.8812072,
+  "credential_source": {
+    "account": "qiskit-runtime-q9",
+    "source": "~/.qiskit/qiskit-ibm.json"
+  },
+  "errors": [
+    "requested_backend_not_supported"
+  ],
+  "execution_attempted": false,
+  "fire_opal_version": "12.1.0",
+  "ibm_instance_sha256": "6f963c3f49c03a803a8cf32a97e546fb9bae6523a062f3497e8bc4532ea4f6b9",
+  "provider_calls": [
+    "authenticate_qctrl_account",
+    "show_supported_devices"
+  ],
+  "qasm_sha256": [
+    "fcd30f022899033c3bcecac0e0d72326ce15c306d4f7b65f7eb18cbf5aa53b4b",
+    "5c63254f047bbab2b80fba4e1398510903cf9d7b7061b5bcf0e0f14162a181b6",
+    "0489615d245c43b80b153900fa37362b3cd4a21a7afda8fe70b7dc26c80366a9"
+  ],
+  "qctrl_auth_source": "notebook_in_memory",
+  "qiskit_account": "qiskit-runtime-q9",
+  "quantum_seconds_used": 0,
+  "supported_device_count": 5,
+  "validation_passed": false
+}

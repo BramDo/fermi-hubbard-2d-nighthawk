@@ -1,0 +1,101 @@
+{
+  "pairs": [
+    {
+      "twirl_id": 0,
+      "echo_pairs": 4302,
+      "duration_dt": 30053,
+      "duration_seconds": 0.00012021200000000001,
+      "off_operations": {
+        "rz": 86912,
+        "sx": 63680,
+        "x": 41167,
+        "cz": 20736,
+        "delay": 15725,
+        "measure": 72
+      },
+      "on_operations": {
+        "rz": 86912,
+        "sx": 63680,
+        "x": 49771,
+        "delay": 24329,
+        "cz": 20736,
+        "measure": 72
+      },
+      "original_gate_starts_equal": true,
+      "ideal_per_wire_equivalence": true
+    },
+    {
+      "twirl_id": 1,
+      "echo_pairs": 4287,
+      "duration_dt": 30253,
+      "duration_seconds": 0.00012101200000000001,
+      "off_operations": {
+        "rz": 86871,
+        "sx": 63680,
+        "x": 41816,
+        "cz": 20736,
+        "delay": 15769,
+        "measure": 72
+      },
+      "on_operations": {
+        "rz": 86871,
+        "sx": 63680,
+        "x": 50390,
+        "delay": 24343,
+        "cz": 20736,
+        "measure": 72
+      },
+      "original_gate_starts_equal": true,
+      "ideal_per_wire_equivalence": true
+    },
+    {
+      "twirl_id": 2,
+      "echo_pairs": 4178,
+      "duration_dt": 30093,
+      "duration_seconds": 0.000120372,
+      "off_operations": {
+        "rz": 86706,
+        "sx": 63680,
+        "x": 41768,
+        "cz": 20736,
+        "delay": 15569,
+        "measure": 72
+      },
+      "on_operations": {
+        "rz": 86706,
+        "sx": 63680,
+        "x": 50124,
+        "delay": 23925,
+        "cz": 20736,
+        "measure": 72
+      },
+      "original_gate_starts_equal": true,
+      "ideal_per_wire_equivalence": true
+    },
+    {
+      "twirl_id": 3,
+      "echo_pairs": 4283,
+      "duration_dt": 30153,
+      "duration_seconds": 0.000120612,
+      "off_operations": {
+        "rz": 86845,
+        "sx": 63680,
+        "x": 41106,
+        "cz": 20736,
+        "delay": 15600,
+        "measure": 72
+      },
+      "on_operations": {
+        "rz": 86845,
+        "sx": 63680,
+        "x": 49672,
+        "delay": 24166,
+        "cz": 20736,
+        "measure": 72
+      },
+      "original_gate_starts_equal": true,
+      "ideal_per_wire_equivalence": true
+    }
+  ],
+  "seconds": 661.1314608649991
+}

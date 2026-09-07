@@ -1,0 +1,277 @@
+{
+  "all_passed": true,
+  "audit_checks": 59,
+  "checks": [
+    {
+      "name": "path_reanalysis_REANALYSIS_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_REANALYSIS_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_bootstrap_pauli_predictions.npz",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_bootstrap_pauli_predictions.npz",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_results.json",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_results.json",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_selected_filter_frozen.json",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_selected_filter_frozen.json",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_source_snapshot/cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_source_snapshot/cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_source_snapshot/refine_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_source_snapshot/refine_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "path_reanalysis_source_snapshot/test_cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "hash_reanalysis_source_snapshot/test_cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_OPTIMIZATION_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_OPTIMIZATION_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_checks.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_checks.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_optimized_unbound_templates.qpy",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_optimized_unbound_templates.qpy",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_source_snapshot/cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_source_snapshot/cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_source_snapshot/refine_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_source_snapshot/refine_cuprate_2d_tflo.py",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_source_snapshot/test_cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_source_snapshot/test_cuprate_2d_tflo_refinement.py",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_summary.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_summary.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_00_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_00_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_01_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_01_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_02_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_02_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_03_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_03_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_04_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_04_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_05_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_05_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_06_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_06_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "path_optimization_v2_twirl_07_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "hash_optimization_v2_twirl_07_checkpoint.json",
+      "passed": true
+    },
+    {
+      "name": "protocol_hash",
+      "passed": true
+    },
+    {
+      "name": "selection_frozen_hash",
+      "passed": true
+    },
+    {
+      "name": "optimization_checks",
+      "passed": true
+    },
+    {
+      "name": "primary_analysis_preserved",
+      "passed": true
+    },
+    {
+      "name": "submission_lock_preserved",
+      "passed": true
+    },
+    {
+      "name": "independent_U0_selection_reproduced",
+      "passed": true
+    },
+    {
+      "name": "heldout_MSE_reproduced",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_all_finite",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_400",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_gain_interval_reproduced",
+      "passed": true
+    },
+    {
+      "name": "all_bootstrap_choices_accounted",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_draw_0_reproduced",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_draw_1_reproduced",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_draw_2_reproduced",
+      "passed": true
+    },
+    {
+      "name": "seven_local_unit_tests",
+      "passed": true
+    }
+  ],
+  "optimization_checks": 138,
+  "unit_tests": 7,
+  "new_QPU_seconds": 0,
+  "classical_only_control": {
+    "posthoc_nonselecting_diagnostic": true,
+    "control": "Exact U=0 FLO prediction, without target QPU data",
+    "FLO_only_pooled_Pauli_MSE": 0.03353320366959681,
+    "TFLO_pooled_Pauli_MSE": 0.030716898158452192,
+    "FLO_only_minus_TFLO_gain_ci95": [
+      -0.0027383997649785105,
+      0.004926862691739904
+    ],
+    "statistically_clear_gain_over_FLO_only": false,
+    "physical_RMSE_by_time": [
+      {
+        "time": 0.2,
+        "FLO_only_charge_spin_double": [
+          0.004022362666994426,
+          0.02088742685035876,
+          0.009019810119362703
+        ]
+      },
+      {
+        "time": 0.4,
+        "FLO_only_charge_spin_double": [
+          0.037748655086817004,
+          0.21555819051579345,
+          0.07453920080716436
+        ]
+      }
+    ],
+    "warning": "U=0 is an approximate predictor for the interacting target, not a solution of its U=8 Hamiltonian. This control was not used to retune TFLO."
+  },
+  "original_primary_result_unchanged": true,
+  "filesystem_retry_note": "First optimization attempt stopped on OSError 22 while overwriting a progress log; immutable per-twirl checkpoints and a final single-write log succeeded in optimization_v2."
+}

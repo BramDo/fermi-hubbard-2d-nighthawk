@@ -1,0 +1,802 @@
+[
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.3",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.4",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 3,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0851999999999935e-05,
+    "aligned_duration_seconds": 2.0852000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014241280000000002
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 0,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1091999999999933e-05,
+    "aligned_duration_seconds": 2.1092e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001439488
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.5",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "interacting_holdout_U8_T0.2",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 5,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.4",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 6,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0811999999999936e-05,
+    "aligned_duration_seconds": 2.0812000000000003e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014215680000000002
+  },
+  {
+    "setting_id": "train_U0_T0.2",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "train_U0_T0",
+    "twirl_id": 7,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1211999999999932e-05,
+    "aligned_duration_seconds": 2.1212e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001447168
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.15",
+    "twirl_id": 1,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.1011999999999934e-05,
+    "aligned_duration_seconds": 2.1012e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.001434368
+  },
+  {
+    "setting_id": "train_U0_T0.1",
+    "twirl_id": 2,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0731999999999936e-05,
+    "aligned_duration_seconds": 2.0732000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014164480000000003
+  },
+  {
+    "setting_id": "flo_holdout_U0_T0.35",
+    "twirl_id": 4,
+    "shots": 64,
+    "qiskit_duration_seconds": 2.0771999999999936e-05,
+    "aligned_duration_seconds": 2.0772000000000004e-05,
+    "reset_seconds": 4e-07,
+    "rep_delay_seconds": 1e-06,
+    "all_shots_seconds": 0.0014190080000000002
+  }
+]

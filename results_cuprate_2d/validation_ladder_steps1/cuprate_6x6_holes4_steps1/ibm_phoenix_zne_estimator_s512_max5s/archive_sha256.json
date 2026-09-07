@@ -1,0 +1,77 @@
+[
+  {
+    "path": "estimator_result.json",
+    "bytes": 62840,
+    "sha256": "4908b6f12d7f53e20709f997f16efef3038be8af0b622c1e045681783a8ac5ae"
+  },
+  {
+    "path": "plan.json",
+    "bytes": 15671,
+    "sha256": "70cb3aae6f782fcee7cf74bfc09006986a8c3daa6170e8a52ec1505274fb354e"
+  },
+  {
+    "path": "provider_inputs.json",
+    "bytes": 59089,
+    "sha256": "c1ce25e1a24a084ff73bd560e079a2e74774a4375f55e4ad03db43971290d3a8"
+  },
+  {
+    "path": "provider_metrics.json",
+    "bytes": 639,
+    "sha256": "89ec8782891c702b242c7da84f56fd3bd881344e34b631a0c5e203b78137e787"
+  },
+  {
+    "path": "provider_result_complete.json",
+    "bytes": 15178,
+    "sha256": "51aa340675b33eae73d25c7a16fe87f959cbc705e8340263853c017c6448374b"
+  },
+  {
+    "path": "repeat_verification.json",
+    "bytes": 1404,
+    "sha256": "7db5d18fae6492f971f1bb78c82ca106622bbe5c9356d2e898af15026a8e59bf"
+  },
+  {
+    "path": "site_observables.csv",
+    "bytes": 7387,
+    "sha256": "0e17303721b42b1a902b2d905d384118e15a08efe8d6bc9fef570505b8bc4682"
+  },
+  {
+    "path": "source_snapshot/archive_cuprate_zne_512.py",
+    "bytes": 5318,
+    "sha256": "8d9134e24f16ba5eb1a0b985dc327a2cb1aed88e4c4a1abd220139489e31246c"
+  },
+  {
+    "path": "source_snapshot/compare_cuprate_2d_observables.py",
+    "bytes": 15075,
+    "sha256": "1319bb0514d0a75f1c79cf4b4152b1758e4188e7979f4b3b309b62ffcb896cd8"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_config.json",
+    "bytes": 276,
+    "sha256": "f6f094421ad56ad09aca8086edcf9470451925863c0aa1359d024896e3666919"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_hubbard_pipeline.py",
+    "bytes": 35433,
+    "sha256": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_pec_zne_runner.py",
+    "bytes": 13404,
+    "sha256": "aa6145bf4be6ca05ee9c9e273f79f82b74c8332b87f32cba3786a02b4265715e"
+  },
+  {
+    "path": "source_snapshot/cuprate_2d_qiskit_circuit.py",
+    "bytes": 12329,
+    "sha256": "ca7583a1dfc1722b877bf72afa2694d686beadd9271406d7b45f9b431146e48f"
+  },
+  {
+    "path": "submission_receipt.json",
+    "bytes": 1014,
+    "sha256": "1d04c6334a9081d1bf2686a5d418e002b4e3c44637d9866f83b949d29e29142e"
+  },
+  {
+    "path": "submitted_circuit.qpy",
+    "bytes": 222983,
+    "sha256": "65c0739c7dd26d9c882aa55fed80d4fcf7c44fd79bef2341af28ac9473e81130"
+  }
+]

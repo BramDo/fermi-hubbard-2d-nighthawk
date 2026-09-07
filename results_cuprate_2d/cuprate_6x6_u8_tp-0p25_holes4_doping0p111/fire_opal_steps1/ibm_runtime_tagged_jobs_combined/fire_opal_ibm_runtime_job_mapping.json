@@ -1,0 +1,59 @@
+{
+  "backend": "ibm_marrakesh",
+  "created_at_utc": "2026-07-03T06:55:13.887584+00:00",
+  "interpretation_boundary": "Processed from IBM Runtime jobs carrying Q-CTRL tag because Fire Opal action API still reports PENDING; treat as diagnostic until Fire Opal action payload confirms mapping.",
+  "main_job_id": "d93ap6l958jc73bspr10",
+  "main_job_tags": [
+    "q-ctrl_4106e0a1bbb2ea04379c6187b59eeba27cd049305c5aa79b5cda5f05a2d106c9"
+  ],
+  "main_metrics": {
+    "bss": {
+      "seconds": 20
+    },
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.45.1,qiskit-2.4.1.post1*,qiskit_aer-0.17.2*,qiskit_nature-0.7.2*",
+    "timestamps": {
+      "created": "2026-07-02T18:23:22.130009Z",
+      "finished": "2026-07-03T05:35:51.939963Z",
+      "running": "2026-07-03T05:34:29.219125Z"
+    },
+    "usage": {
+      "quantum_seconds": 20,
+      "seconds": 20,
+      "status": "complete"
+    }
+  },
+  "main_usage_estimation": {
+    "quantum_seconds": 37.729436894
+  },
+  "readout_job_id": "d93ak58oamcc73dc0lo0",
+  "readout_job_tags": [
+    "q-ctrl_4106e0a1bbb2ea04379c6187b59eeba27cd049305c5aa79b5cda5f05a2d106c9"
+  ],
+  "readout_metrics": {
+    "bss": {
+      "seconds": 20
+    },
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.45.1,qiskit-2.4.1.post1*,qiskit_aer-0.17.2*,qiskit_nature-0.7.2*",
+    "timestamps": {
+      "created": "2026-07-02T18:12:37.474961Z",
+      "finished": "2026-07-03T05:33:14.10614Z",
+      "running": "2026-07-03T05:31:52.317174Z"
+    },
+    "usage": {
+      "quantum_seconds": 20,
+      "seconds": 20,
+      "status": "complete"
+    }
+  },
+  "readout_usage_estimation": {
+    "quantum_seconds": 18.44355991
+  },
+  "role_mapping": [
+    "main from d93ap6l958jc73bspr10 pub0",
+    "readout_all0 from d93ak58oamcc73dc0lo0 pub0",
+    "readout_all1 from d93ak58oamcc73dc0lo0 pub1"
+  ],
+  "source": "IBM Runtime jobs tagged q-ctrl / Fire Opal on IBM site"
+}

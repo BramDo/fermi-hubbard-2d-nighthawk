@@ -1,0 +1,39 @@
+{
+  "source_sha256": "ca5edb4f897a5989068992409151088d807a090b308a7662715613c8a6eabe8a",
+  "block_compiler_sha256": "db6456121149617bdb472a7cc288cdd8d525e3d2f109b291c41fef6d404fe78d",
+  "template_file": "parameterized72_blocks.qpy",
+  "qpy_sha256": "8dccdeaa5a0e2da6ad48fa68f1169e39aea4989f61f80c3f50a4f07e69644373",
+  "seconds": 26.2400957380014,
+  "config": {
+    "lx": 6,
+    "ly": 6,
+    "holes": 4,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "compiler": "exact_blockwise_fallback",
+  "unique_cells": 4,
+  "cell_counts": {
+    "(('xx_plus_yy', ('3.141592653589793', '0')), ('p', ('1.5707963267948966',)), ('p', ('1.5707963267948966',)), ('cp', ('-interaction_phase/2',)))": 144,
+    "(('xx_plus_yy', ('3.141592653589793', '0')), ('p', ('1.5707963267948966',)), ('p', ('1.5707963267948966',)))": 9200,
+    "(('xx_plus_yy', ('3.141592653589793 - step_time', '0')), ('p', ('1.5707963267948966',)), ('p', ('1.5707963267948966',)))": 480,
+    "(('xx_plus_yy', ('3.141592653589793 + 0.25*step_time', '0')), ('p', ('1.5707963267948966',)), ('p', ('1.5707963267948966',)))": 400
+  },
+  "dense_cell_unitary_max_abs": 2.8743548373630574e-14,
+  "native_counts": {
+    "sx": 63680,
+    "rz": 45424,
+    "cz": 20736,
+    "x": 32
+  },
+  "depth": 3005,
+  "skeleton": "a2b40cfc28b8a51cecd7c0bfa3b63d53e4c5c93d456b5f7e7fc20820772d1326"
+}

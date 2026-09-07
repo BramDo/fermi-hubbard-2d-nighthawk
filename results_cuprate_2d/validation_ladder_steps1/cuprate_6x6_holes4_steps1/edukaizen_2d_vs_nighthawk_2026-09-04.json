@@ -1,0 +1,156 @@
+{
+  "checked_on": "2026-09-04",
+  "published_source": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/",
+  "old_publication_date": "2026-07-04",
+  "reference": "mps32:mps_chi32",
+  "sites": 36,
+  "step": 1,
+  "time": 0.1,
+  "comparison_directories": [
+    "observable_comparison_shallow_t_only_steps1_vs_mps_hardware",
+    "observable_comparison_shallow_t_only_steps1_vs_mps_qelib_fallback_ibm_fez",
+    "observable_comparison_ibm_phoenix_budgeted_s128_vs_mps",
+    "observable_comparison_ibm_phoenix_pec_zne_s128_vs_mps"
+  ],
+  "checks": {
+    "same_mps_rows_across_four_comparisons": true,
+    "same_config_old_new_direct": true,
+    "same_logical_summary_old_new_direct": true,
+    "rmse_recomputed_independently": true
+  },
+  "recalculated_rmse": [
+    {
+      "route": "old_marrakesh_raw",
+      "sites": 36,
+      "input_sha256": "bdc0a8104fafba0da82c23b14f91259451045e0ec1f863c6257eed099e932118",
+      "charge_rmse": 0.3326871969131872,
+      "spin_z_rmse": 0.7336150371604458,
+      "double_occupancy_rmse": 0.16728291353100724
+    },
+    {
+      "route": "old_fireopal_fez_raw",
+      "sites": 36,
+      "input_sha256": "961d102234dc0a6d9d4000d0e9a79ad86b30866bff16b97196d57946366e207d",
+      "charge_rmse": 0.12724614011193866,
+      "spin_z_rmse": 0.21045410857833577,
+      "double_occupancy_rmse": 0.11680163634735542
+    },
+    {
+      "route": "phoenix_raw",
+      "sites": 36,
+      "input_sha256": "5a1dfae64b97f403a7b2c2b6be493993f3e6205c793f9c0c67f0b808028fbccc",
+      "charge_rmse": 0.13737101546413058,
+      "spin_z_rmse": 0.2157944926876203,
+      "double_occupancy_rmse": 0.05604762757780872
+    },
+    {
+      "route": "phoenix_zne",
+      "sites": 36,
+      "input_sha256": "b796e2db8707cfdf8f395b62958ab0930f4b9f7183c5f1488724217d2c79ae5f",
+      "charge_rmse": 0.1372142589951749,
+      "spin_z_rmse": 0.14980378368562333,
+      "double_occupancy_rmse": 0.05727912856544082
+    },
+    {
+      "route": "phoenix_pec",
+      "sites": 36,
+      "input_sha256": "b796e2db8707cfdf8f395b62958ab0930f4b9f7183c5f1488724217d2c79ae5f",
+      "charge_rmse": 0.4820256107302393,
+      "spin_z_rmse": 0.12502547057951446,
+      "double_occupancy_rmse": 0.17104856715628627
+    }
+  ],
+  "rmse_changes": {
+    "oldIBM_to_phoenix": {
+      "charge_rmse": {
+        "old": 0.3326871969131872,
+        "new": 0.13737101546413058,
+        "old_over_new": 2.421815080780678,
+        "change_percent": -58.708655836859045
+      },
+      "spin_z_rmse": {
+        "old": 0.7336150371604458,
+        "new": 0.21579449268762033,
+        "old_over_new": 3.3996003698871586,
+        "change_percent": -70.5847778798426
+      },
+      "double_occupancy_rmse": {
+        "old": 0.16728291353100724,
+        "new": 0.05604762757780872,
+        "old_over_new": 2.9846564566675893,
+        "change_percent": -66.49530642744345
+      }
+    },
+    "oldIBM_to_zne": {
+      "charge_rmse": {
+        "old": 0.3326871969131872,
+        "new": 0.1372142589951749,
+        "old_over_new": 2.4245818135044264,
+        "change_percent": -58.75577411204671
+      },
+      "spin_z_rmse": {
+        "old": 0.7336150371604458,
+        "new": 0.14980378368562333,
+        "old_over_new": 4.897172949249418,
+        "change_percent": -79.58005546540339
+      },
+      "double_occupancy_rmse": {
+        "old": 0.16728291353100724,
+        "new": 0.05727912856544082,
+        "old_over_new": 2.9204863572581803,
+        "change_percent": -65.75912784133588
+      }
+    },
+    "oldFO_to_zne": {
+      "charge_rmse": {
+        "old": 0.12724614011193866,
+        "new": 0.1372142589951749,
+        "old_over_new": 0.9273536223113171,
+        "change_percent": 7.833729867536454
+      },
+      "spin_z_rmse": {
+        "old": 0.21045410857833574,
+        "new": 0.14980378368562333,
+        "old_over_new": 1.4048651068786924,
+        "change_percent": -28.81878871475536
+      },
+      "double_occupancy_rmse": {
+        "old": 0.11680163634735542,
+        "new": 0.05727912856544082,
+        "old_over_new": 2.039165735803937,
+        "change_percent": -50.96033723782868
+      }
+    },
+    "phoenix_to_zne": {
+      "charge_rmse": {
+        "old": 0.13737101546413058,
+        "new": 0.1372142589951749,
+        "old_over_new": 1.0011424211310371,
+        "change_percent": -0.11411174942986824
+      },
+      "spin_z_rmse": {
+        "old": 0.21579449268762033,
+        "new": 0.14980378368562333,
+        "old_over_new": 1.4405143006299788,
+        "change_percent": -30.580349007110108
+      },
+      "double_occupancy_rmse": {
+        "old": 0.05604762757780872,
+        "new": 0.05727912856544082,
+        "old_over_new": 0.9785000048276726,
+        "change_percent": 2.19724017028633
+      }
+    }
+  },
+  "exclusions": [
+    "Phoenix direct readout_corrected: calibration layout mismatch",
+    "Postselected rows not mixed with unconditioned rows"
+  ],
+  "limitations": [
+    "t-only circuit omits t-prime and differs from explicit Jordan-Wigner branch",
+    "Different backends, compilation/layout/calibration, dates and shot budgets",
+    "No repeat-run statistical significance analysis",
+    "No old billed-QPU-time normalization",
+    "PEC physicality failure; cause not established by this comparison"
+  ]
+}

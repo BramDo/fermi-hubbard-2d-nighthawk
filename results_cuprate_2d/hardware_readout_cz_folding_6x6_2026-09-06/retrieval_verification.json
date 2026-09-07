@@ -1,0 +1,12 @@
+{
+  "status": "DONE_ARCHIVED_VERIFIED",
+  "job_id": "daen2vdnj4cs73afcn00",
+  "shots": 13312,
+  "all26_provider_circuits_match": true,
+  "all26_result_metadata_match": true,
+  "usage": {
+    "qpu_charge_time_seconds": 5,
+    "status": "complete"
+  },
+  "max_execution_time_verified": 15
+}

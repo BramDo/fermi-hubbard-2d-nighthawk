@@ -1,0 +1,163 @@
+{
+  "files": [
+    {
+      "entry": "programmable_simulation_fermi_hubbard/initial_states.json",
+      "relative_file": "downloads/programmable_simulation_fermi_hubbard/initial_states.json",
+      "sha256": "a951c10b9e76f0aa63029d31a74d947fed4abe6583f60bee8daaf7683e3e9823",
+      "CRC32": "808151f9",
+      "bytes": 5563
+    },
+    {
+      "entry": "programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+      "relative_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+      "sha256": "fbcea07e554c75a06fbe4d3740e95dac19ade0c0a3bf688f2a53768bad619e51",
+      "CRC32": "df6653a1",
+      "bytes": 9076288
+    },
+    {
+      "entry": "programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+      "relative_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/5x5/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+      "sha256": "c8c1b8aa5b12478f81068360fdfa176e406e44958920b817df54a821c18c622d",
+      "CRC32": "f4acd385",
+      "bytes": 29607348
+    },
+    {
+      "entry": "programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+      "relative_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_2/exp_vals.h5",
+      "sha256": "60741ed154d3e43c1fe7908c76422b31e9f5e50c741916e2acaaed2839102ff8",
+      "CRC32": "2395279b",
+      "bytes": 56694128
+    },
+    {
+      "entry": "programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+      "relative_file": "downloads/programmable_simulation_fermi_hubbard/holon_stripe/6x6/mag_field_0/U_8/trotter_layers_3/exp_vals.h5",
+      "sha256": "b3c38b88e27ac596c1dafea0125d69a58c9bb8ad868513069d9e08c79f008ea6",
+      "CRC32": "ef12853b",
+      "bytes": 56694128
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 0,
+      "end": 0,
+      "bytes": 1,
+      "status": 206,
+      "content_range": "bytes 0-0/8798281890",
+      "etag": null,
+      "sha256": "5c62e091b8c0565f1bafad0dad5934276143ae2ccef7a5381e8ada5b1a8d26d2"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 8798273536,
+      "end": 8798281889,
+      "bytes": 8354,
+      "status": 206,
+      "content_range": "bytes 8798273536-8798281889/8798281890",
+      "etag": null,
+      "sha256": "6618ae51ed7c6084ecffda4f05380dae84612f22aea88433147de1e143f93ee0"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 8798107662,
+      "end": 8798281791,
+      "bytes": 174130,
+      "status": 206,
+      "content_range": "bytes 8798107662-8798281791/8798281890",
+      "etag": null,
+      "sha256": "4da9b3ea073dd43b213cb55989193fc904175b297f6b90816dc8d8cc53763155"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 8798076928,
+      "end": 8798142463,
+      "bytes": 65536,
+      "status": 206,
+      "content_range": "bytes 8798076928-8798142463/8798281890",
+      "etag": null,
+      "sha256": "ee60497d5d9de1682f58670f082382cd0fcaa33388e43be0c5c0df1fb94b319e"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 4887150592,
+      "end": 4887216127,
+      "bytes": 65536,
+      "status": 206,
+      "content_range": "bytes 4887150592-4887216127/8798281890",
+      "etag": null,
+      "sha256": "7be4dd687e84e6559024aa43de8c7f6e3b7f8657bb8846452119443c9b36afac"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 4887176820,
+      "end": 4888236103,
+      "bytes": 1059284,
+      "status": 206,
+      "content_range": "bytes 4887176820-4888236103/8798281890",
+      "etag": null,
+      "sha256": "c93d4b778c127376b2fce393dca0c22557cda3226847767592239aad0d01c1f5"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 4911726592,
+      "end": 4911792127,
+      "bytes": 65536,
+      "status": 206,
+      "content_range": "bytes 4911726592-4911792127/8798281890",
+      "etag": null,
+      "sha256": "1ebd7d1d54100ab995beeedcfcf531850dc390b1f340d01959a722ddd6f55ccd"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 4911757164,
+      "end": 4914926095,
+      "bytes": 3168932,
+      "status": 206,
+      "content_range": "bytes 4911757164-4914926095/8798281890",
+      "etag": null,
+      "sha256": "066e1c225467100541afcce1a7c5a7b6de015b88fb1ea830e0172ef5451b9838"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 6118178816,
+      "end": 6118244351,
+      "bytes": 65536,
+      "status": 206,
+      "content_range": "bytes 6118178816-6118244351/8798281890",
+      "etag": null,
+      "sha256": "bff1f249b342dbe97ead6f925d05104cde16d4ba7eb4e5b0abd5a111d7a1b195"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 6118193975,
+      "end": 6125281976,
+      "bytes": 7088002,
+      "status": 206,
+      "content_range": "bytes 6118193975-6125281976/8798281890",
+      "etag": null,
+      "sha256": "3a0d98b69eab754a97a0d3e9686c2e6bdcc33086659ee5df4512b2ef0ced9562"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 6164381696,
+      "end": 6164447231,
+      "bytes": 65536,
+      "status": 206,
+      "content_range": "bytes 6164381696-6164447231/8798281890",
+      "etag": null,
+      "sha256": "49ec81bb2247037acde13415b640ec4a58efdc6f9e7e31f523a884ff49182473"
+    },
+    {
+      "url": "https://zenodo.org/records/17881822/files/programmable_simulation_fermi_hubbard.zip?download=1",
+      "start": 6164391861,
+      "end": 6171463080,
+      "bytes": 7071220,
+      "status": 206,
+      "content_range": "bytes 6164391861-6171463080/8798281890",
+      "etag": null,
+      "sha256": "9361b6dd91a2a831491f01b2839d071992a22288b5bcf44450586307ade6ded4"
+    }
+  ],
+  "transferred_bytes": 18897603,
+  "remote_etag": null
+}

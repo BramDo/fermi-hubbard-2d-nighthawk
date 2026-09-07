@@ -1,0 +1,20 @@
+{
+  "algebra.json": "a93bdfd4c5609bd80f9a7a07c45a409a64590bc772ea2b115ca792fdca80ddac",
+  "count_annealing.json": "388b411a805c94dc600cc526cb57abe9a0fc4120f1cc020dc6f25a8c9ad5f4f1",
+  "count_metrics.json": "6623f41228013e2b8bccfea32bb28b7fe6783a67bd69b193c03bd4dbd63c9d5d",
+  "load_annealing.json": "0bbb981ba23b7ef55661805733f7466287f839b420e78ff962ee52fb940aec11",
+  "load_metrics.json": "d96df3092cf68288321a2712db67f40245fcba7defd68202817ae2be4e409c5b",
+  "plan.json": "3ee474a48aa624bfc3fba91e5099f583f92032b0d65f8cb6cccbec6d03b63cca",
+  "summary.json": "6aebd157c40ccaa67919e91fc97e33fac48ee94c51628dbe93175cbf5e1399e5",
+  "unit_tests.txt": "46e6cbdddaa01fcaa1a6d5b1ff6a052da09f16b6bbb07090e04420148c0c0420",
+  "verification.json": "1afb59bccf621213d4c9d37489fc500ed57bafef0f5df0c2953050f6749ece61",
+  "circuits/count.qpy": "046bd38fb0c0ac3bc67bf56a94fe17c69199f9e65a97ab015c463827b20fdb8a",
+  "circuits/count_twirl.qpy": "1419faeb7c92dae6748a7b440766e303dc75da319abd87593f408ad31f1aaf91",
+  "circuits/load.qpy": "9934f0b7fab90e52321b5c7015ddf1efc3056b64a8daf8245002a9a605bbd06c",
+  "circuits/load_twirl.qpy": "bc0f7818d8755ca7272d9cf7fdf5bdeeb0419d5894da3e4b2476c2b117e13d07",
+  "source_snapshot/audit_bonsai_6x6.py": "f4cae2ece6b12c3f537d299a0a7f8e8e6778ce7ec5428acec3accf8fed349fee",
+  "source_snapshot/audit_bonsai_xyz_6x6.py": "8f5cfb0badb518be40cfdbdf28e274179719586680d86ee7c35b0d44a6c8a3c0",
+  "source_snapshot/bonsai_load_balancing.py": "3f72e5453441b60433cc04208514e66240833a0040beb1e574213a63cc58937f",
+  "source_snapshot/cuprate_2d_bonsai.py": "3305391ed6f416baa1cb31359af05f95a77d82f94c0eeaca07f54ab2600eb3ad",
+  "source_snapshot/test_cuprate_2d_bonsai.py": "205f7d6b12ae8b5b5d24f35131e7d7794b431d0a5a4edf836ff262a145ecdaba"
+}

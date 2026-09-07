@@ -1,0 +1,26 @@
+.venv/
+.julia_depot/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Scratch and heavyweight generated outputs not part of the curated snapshot.
+tmp/
+results_fire_opal/
+results_fire_opal_smoke/
+results_ibm_runtime/
+results_new_hardware/
+results_recomputed/
+*.qasm
+
+# Local credentials and environment files.
+.env
+.env.*
+auth.json
+*.pem
+*.key
+
+# Large external references should stay outside Git unless deliberately curated.
+*.pdf
+*.ipynb

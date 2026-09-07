@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "abstract_qasm_characters": 18387,
+      "case_dir": "results_cuprate_2d/validation_3x3_steps1/cuprate_3x3_holes1_steps1",
+      "doping": 0.1111111111111111,
+      "dt": 0.1,
+      "fire_opal_abstract_for_fire_opal": true,
+      "gaussian_charge_rmse_vs_tdhf": 0.0003733983939015224,
+      "gaussian_doublon_rmse_vs_tdhf": 0.0008492833852997858,
+      "gaussian_mean_doublon": 0.017061113885883872,
+      "gaussian_spin_z_rmse_vs_tdhf": 0.0018956578997592957,
+      "holes": 1,
+      "label": "cuprate_3x3_holes1_steps1",
+      "logical_depth": 788,
+      "logical_two_qubit_count": 786,
+      "logical_two_qubit_depth": 589,
+      "lx": 3,
+      "ly": 3,
+      "nearest_bonds": 12,
+      "next_nearest_bonds": 8,
+      "pauli_terms_per_step": 107,
+      "qelib_depth": 713,
+      "qelib_qasm_characters": 18955,
+      "qelib_two_qubit_count": 786,
+      "qelib_two_qubit_depth": 589,
+      "qubits": 18,
+      "sites": 9,
+      "steps": 1,
+      "tdhf_mean_doublon": 0.016259685819607544
+    }
+  ]
+}

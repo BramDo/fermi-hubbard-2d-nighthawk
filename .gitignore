@@ -1,0 +1,31 @@
+# Machine-local state and secrets
+.git/
+.agents/
+.codex/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+auth.json
+qiskit-ibm.json
+credentials.json
+*.pem
+*.key
+*.exe
+*.o
+*.mod
+
+# Exact original bytes are stored losslessly in archive/objects instead.
+*.qpy
+*.npz
+*.h5
+*.pdf
+
+# Runtime output only; historical outputs are explicitly imported.
+tmp/
+*.aux
+*.synctex.gz
+*.bbl
+*.blg
