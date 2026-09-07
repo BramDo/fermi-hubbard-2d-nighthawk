@@ -4,6 +4,9 @@ Gepubliceerd op 7 september 2026:
 [2D Local Quantum Advantage](https://edukaizen.nl/2d-local-quantum-advantage/).
 De hoofdpagina (ID 1089) bevat negen Nederlandstalige artikelen (IDs 1090–1098).
 Een eigen menutak en vorige/volgende-links verbinden de serie.
+Op verzoek staan Hubbard 1D, Hubbard 2D en deze nieuwe serie samen onder
+de navigatieknop **Hubbard**, direct na News. Alle bestaande URLs blijven gelijk.
+Zie [navigatieregistratie](navigation/2026-09-07_hubbard_group/DELIVERY.md).
 Zie [publicatieregistratie](releases/2026-09-07_v1/DELIVERY.md) voor alle IDs,
 verificatie en de afbakening van de visuele controle.
 

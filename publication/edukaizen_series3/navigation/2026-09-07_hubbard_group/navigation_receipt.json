@@ -1,0 +1,3192 @@
+{
+  "status": "GROUPED_AND_SERVER_VERIFIED",
+  "group_id": 1119,
+  "group_label": "Hubbard",
+  "group_url": "#",
+  "branches": [
+    {
+      "id": 332,
+      "title": "Hubbard 1D",
+      "parent": 1119,
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/"
+    },
+    {
+      "id": 373,
+      "title": "Hubbard 2D",
+      "parent": 1119,
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/"
+    },
+    {
+      "id": 1109,
+      "title": "2D Local Quantum Advantage",
+      "parent": 1119,
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/"
+    }
+  ],
+  "backup_path": "/var/www/vhosts/edukaizen.nl/private/hubbard-navigation-20260907T142958Z/backup.sql",
+  "pages_preserved": 233,
+  "existing_menu_items_preserved": 98,
+  "only_existing_parent_changes": [
+    332,
+    373,
+    1109
+  ],
+  "all_existing_stored_orders_preserved": true,
+  "completed_utc": "2026-09-07T14:31:36+00:00",
+  "menu_before": {
+    "21": {
+      "title": "News",
+      "url": "https://edukaizen.nl/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 21,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 1
+    },
+    "332": {
+      "title": "Hubbard 1D",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 331,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 2
+    },
+    "334": {
+      "title": "Part 1: 1D Hubbard model",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-1-1d-hubbard-model/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 324,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 3
+    },
+    "335": {
+      "title": "Part 2: Snake layout and fSWAP",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-2-snake-layout-and-fswap/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 329,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 4
+    },
+    "356": {
+      "title": "Part 3: Qiskit and Fire Opal",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-3-qiskit-ibm-runtime-and-fire-opal/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 339,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 5
+    },
+    "357": {
+      "title": "Part 4: 120-qubit run",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-4-the-120-qubit-quantum-run/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 340,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 6
+    },
+    "358": {
+      "title": "Part 5: Time-to-answer",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-5-quantum-advantage-or-time-to-answer/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 341,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 7
+    },
+    "359": {
+      "title": "Part 6: Tensor networks",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-6-tensor-networks-tdvp-and-chi/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 342,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 8
+    },
+    "360": {
+      "title": "Part 7: Majorana propagation",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-7-majorana-propagation-as-a-laptop-competitor/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 343,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 9
+    },
+    "361": {
+      "title": "Part 8: Reading heatmaps",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-8-heatmaps-as-a-material-like-measurement/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 344,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 10
+    },
+    "646": {
+      "title": "Part 9: Digital vs cold-atom labs",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-10-can-a-quantum-computer-replace-a-quantum-lab/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 641,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 11
+    },
+    "669": {
+      "title": "Part 10: Official Monoprop benchmark",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-11-official-monoprop-benchmark/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 664,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 12
+    },
+    "373": {
+      "title": "Hubbard 2D",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 373,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 14
+    },
+    "379": {
+      "title": "Part 1: 1D to 2D",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 376,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 15
+    },
+    "392": {
+      "title": "Part 2: Cuprates",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 387,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 16
+    },
+    "393": {
+      "title": "Part 3: 3x3",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 388,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 17
+    },
+    "394": {
+      "title": "Part 4: Time",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 389,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 18
+    },
+    "395": {
+      "title": "Part 5: 4x4",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 390,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 19
+    },
+    "396": {
+      "title": "Part 6: 6x6 Fez",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 391,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 20
+    },
+    "424": {
+      "title": "Hadron",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 839,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 21
+    },
+    "425": {
+      "title": "Part 1: Hadron on a quantum processor",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hadron-on-quantum-processor/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 840,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 22
+    },
+    "426": {
+      "title": "Part 2: Quarks and confinement",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quarks-color-fields-confinement/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 841,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 23
+    },
+    "427": {
+      "title": "Part 3: SU(2) and LSH",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/su2-lattice-model-lsh/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 842,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 24
+    },
+    "428": {
+      "title": "Part 4: Hamiltonian and circuit",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hamiltonian-to-quantum-circuit/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 843,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 25
+    },
+    "429": {
+      "title": "Part 5: Fire Opal",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-simulation-fire-opal/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 844,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 26
+    },
+    "430": {
+      "title": "Part 6: Classical simulations",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/classical-simulation-methods/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 845,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 27
+    },
+    "431": {
+      "title": "Part 7: Quantum advantage",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-advantage-comparison/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 846,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 28
+    },
+    "443": {
+      "title": "Black Hole OLE",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-project/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 435,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 29
+    },
+    "444": {
+      "title": "Part 1: What we ran",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-1-what-we-ran/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 437,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 30
+    },
+    "445": {
+      "title": "Part 2: How OLE works",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-2-how-operator-loschmidt-echo-works/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 438,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 31
+    },
+    "446": {
+      "title": "Part 3: Fire Opal and Kingston",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-3-fire-opal-on-ibm-kingston/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 439,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 32
+    },
+    "447": {
+      "title": "Part 4: The tensor-network challenge",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-4-the-tensor-network-challenge/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 440,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 33
+    },
+    "448": {
+      "title": "Part 5: Hawking and scrambling",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-5-hawking-black-holes-and-scrambling/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 441,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 34
+    },
+    "449": {
+      "title": "Part 6: What the result proves",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-6-what-the-result-proves/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 442,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 35
+    },
+    "622": {
+      "title": "Part 7: Local toy model",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-7-local-toy-model-user-guide/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 619,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 36
+    },
+    "477": {
+      "title": "Random Graph",
+      "url": "https://edukaizen.nl/random-graph-sampling/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 469,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 37
+    },
+    "636": {
+      "title": "Part 8: QGSS26 compatibility",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-8-qgss26-ole-otoc-protocol-compatibility/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 633,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 37
+    },
+    "629": {
+      "title": "Start here",
+      "url": "https://edukaizen.nl/random-graph-sampling/random-graph-sampling-beginner-guide/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 627,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 38
+    },
+    "478": {
+      "title": "Part 1: Theory",
+      "url": "https://edukaizen.nl/random-graph-sampling/from-tracker-claim-to-independent-reproduction/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 470,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 39
+    },
+    "479": {
+      "title": "Part 2: Circuit",
+      "url": "https://edukaizen.nl/random-graph-sampling/reproducible-70-qubit-circuit/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 471,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 39
+    },
+    "480": {
+      "title": "Part 3: Qiskit",
+      "url": "https://edukaizen.nl/random-graph-sampling/ibm-hardware-70-qubits-8-checks/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 472,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 40
+    },
+    "481": {
+      "title": "Part 4: Complexity",
+      "url": "https://edukaizen.nl/random-graph-sampling/why-75-percent-is-not-fidelity/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 473,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 41
+    },
+    "482": {
+      "title": "Part 5: Verification",
+      "url": "https://edukaizen.nl/random-graph-sampling/stabilizer-folding-futility/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 474,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 42
+    },
+    "483": {
+      "title": "Part 6: Workflow",
+      "url": "https://edukaizen.nl/random-graph-sampling/classical-simulation-mps-aer-majorana/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 475,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 43
+    },
+    "484": {
+      "title": "Part 7: Conclusion",
+      "url": "https://edukaizen.nl/random-graph-sampling/19-seconds-versus-6-89-million-years/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 476,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 44
+    },
+    "506": {
+      "title": "QOS QML",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 518,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 47
+    },
+    "563": {
+      "title": "Tutorial: UMI counts to a four-qubit circuit",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qml-beginners-guide-umi-to-four-qubit-circuit/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 831,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 48
+    },
+    "564": {
+      "title": "Part 1: The QML task",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/what-is-the-qml-task-cell-classification/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 519,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 49
+    },
+    "614": {
+      "title": "Part 2: QOS theory",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-oracle-sketching-theory/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 520,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 50
+    },
+    "705": {
+      "title": "Floquet-Ising",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 721,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 51
+    },
+    "832": {
+      "title": "Part 3: Gene expression to 40 qubits",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/pbmc68k-from-gene-expression-to-qubits/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 521,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 51
+    },
+    "706": {
+      "title": "Part 1: Floquet physics",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-physics-prethermalization/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 722,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 52
+    },
+    "833": {
+      "title": "Part 4: JAX to hardware",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qos-to-40-qubit-hardware-fire-opal/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 522,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 52
+    },
+    "707": {
+      "title": "Part 2: Ising cycle",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-ising-cycle-heavy-hex/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 723,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 53
+    },
+    "834": {
+      "title": "Part 5: Readout and classifier",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-readout-405-observables-classifier/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 523,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 53
+    },
+    "708": {
+      "title": "Part 3: Two-qubit toy model",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/two-qubit-floquet-toy-model-worked-out/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 724,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 54
+    },
+    "835": {
+      "title": "Part 6: 40-qubit result",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/result-hardware-versus-classical/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 524,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 54
+    },
+    "709": {
+      "title": "Part 4: Oscillation and entanglement",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/magnetization-entanglement-period-four-oscillation/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 725,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 55
+    },
+    "836": {
+      "title": "Part 7: Route to quantum advantage",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/route-to-quantum-advantage-qml/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 525,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 55
+    },
+    "710": {
+      "title": "Part 5: Noise and error mitigation",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/noise-error-mitigation-zne-pec/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 726,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 56
+    },
+    "837": {
+      "title": "Part 8: 60-qubit result",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/proposal-60-qubit-qml-follow-up-study/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 526,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 56
+    },
+    "711": {
+      "title": "Part 6: Toward 51 qubits",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/from-toy-model-to-51-qubits-quantum-advantage/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 727,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 57
+    },
+    "932": {
+      "title": "Work",
+      "url": "https://edukaizen.nl/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 932,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 63
+    },
+    "781": {
+      "title": "Quantum Gold",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 799,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 64
+    },
+    "782": {
+      "title": "Part 1: Why gold is a relativistic quantum problem",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-gold-is-a-relativistic-quantum-problem/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 807,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 66
+    },
+    "783": {
+      "title": "Part 2: Why the 2025 gold VQE study stalled",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-the-2025-gold-vqe-study-stalled/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 808,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 67
+    },
+    "784": {
+      "title": "Part 3: From QE and spin–orbit coupling to Qiskit",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/from-qe-spin-orbit-coupling-wannier90-to-qiskit/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 809,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 68
+    },
+    "785": {
+      "title": "Part 4: Twelve gold spinor modes on four qubits",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/twelve-gold-spinor-modes-on-four-qubits/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 810,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 69
+    },
+    "786": {
+      "title": "Part 5: The 24-qubit route: an active window for transport",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubit-active-window-for-transport/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 811,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 70
+    },
+    "787": {
+      "title": "Part 6: 24 qubits on IBM and with Fire Opal",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubits-on-ibm-and-fire-opal/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 812,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 71
+    },
+    "788": {
+      "title": "Part 7: The road to quantum advantage for gold",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/road-to-quantum-advantage-for-gold/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 813,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 72
+    },
+    "925": {
+      "title": "Part 8: 24 gold spinor modes on IBM with ZNE-PEA",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-gold-spinor-modes-on-ibm-with-zne-pea/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 924,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "961": {
+      "title": "HaPPY Gravity",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 933,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "994": {
+      "title": "Part 9: Forced gold colour on 56 qubits",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/forced-gold-colour-56-qubit-ibm-hardware/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 993,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "962": {
+      "title": "Part 1: Gravity as a phase gate",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/quantum-gravity-controlled-phase/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 934,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 75
+    },
+    "963": {
+      "title": "Part 2: Bosons and convergence",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/bosonic-gravity-cutoff-convergence/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 935,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 76
+    },
+    "964": {
+      "title": "Part 3: The dynamic HaPPY benchmark",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/dynamic-happy-benchmark/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 936,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 77
+    },
+    "965": {
+      "title": "Part 4: The N=145 classical audit",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/n145-classical-audit/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 937,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 78
+    },
+    "966": {
+      "title": "Part 5: MPS and Majorana baselines",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/majorana-mps-classical-baselines/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 938,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 79
+    },
+    "967": {
+      "title": "Part 6: PEA/ZNE and the decisive test",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/pea-zne-runtime-quantum-advantage/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 939,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 80
+    },
+    "975": {
+      "title": "Fibonacci Anyons",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 968,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 81
+    },
+    "976": {
+      "title": "Part 1: Fusion and braiding",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/fusion-f-moves-r-moves-non-abelian-braiding/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 969,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 82
+    },
+    "977": {
+      "title": "Part 2: The 3/5/9-qubit ladder",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/three-five-nine-qubit-validation-ladder/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 970,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 83
+    },
+    "978": {
+      "title": "Part 3: Why nine qubits were too deep",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/why-full-nine-qubit-circuit-was-too-deep/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 971,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 84
+    },
+    "979": {
+      "title": "Part 4: Structure-aware simplification",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/structure-aware-f-move-simplification/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 972,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 85
+    },
+    "980": {
+      "title": "Part 5: IBM hardware diagnostic",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/ibm-marrakesh-hardware-diagnostic/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 973,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 86
+    },
+    "981": {
+      "title": "Part 6: Results and open questions",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/what-the-experiment-establishes/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 974,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 87
+    },
+    "1109": {
+      "title": "2D Local Quantum Advantage",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 1089,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 89
+    },
+    "1110": {
+      "title": "Deel 1: Doel en budget",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1090,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 90
+    },
+    "1111": {
+      "title": "Deel 2: Fermionmodel",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1091,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 91
+    },
+    "1112": {
+      "title": "Deel 3: Mapping en diepte",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1092,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 92
+    },
+    "1113": {
+      "title": "Deel 4: Pilots en shots",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1093,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 93
+    },
+    "1114": {
+      "title": "Deel 5: Foutmitigatie",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1094,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 94
+    },
+    "1115": {
+      "title": "Deel 6: 6x6-resultaten",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1095,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 95
+    },
+    "1116": {
+      "title": "Deel 7: Circa 20x",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1096,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 96
+    },
+    "1117": {
+      "title": "Deel 8: Google en Bonsai",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1097,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 97
+    },
+    "1118": {
+      "title": "Deel 9: Volgende stap",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1098,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 98
+    },
+    "452": {
+      "title": "Advantage List",
+      "url": "https://edukaizen.nl/pro-student-quantum-advantage-list/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 452,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 1000
+    }
+  },
+  "menu_after": {
+    "21": {
+      "title": "News",
+      "url": "https://edukaizen.nl/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 21,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 1
+    },
+    "332": {
+      "title": "Hubbard 1D",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/",
+      "parent": 1119,
+      "object": "page",
+      "object_id": 331,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 2
+    },
+    "1119": {
+      "title": "Hubbard",
+      "url": "#",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 1119,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 2
+    },
+    "334": {
+      "title": "Part 1: 1D Hubbard model",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-1-1d-hubbard-model/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 324,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 3
+    },
+    "335": {
+      "title": "Part 2: Snake layout and fSWAP",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-2-snake-layout-and-fswap/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 329,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 4
+    },
+    "356": {
+      "title": "Part 3: Qiskit and Fire Opal",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-3-qiskit-ibm-runtime-and-fire-opal/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 339,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 5
+    },
+    "357": {
+      "title": "Part 4: 120-qubit run",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-4-the-120-qubit-quantum-run/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 340,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 6
+    },
+    "358": {
+      "title": "Part 5: Time-to-answer",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-5-quantum-advantage-or-time-to-answer/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 341,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 7
+    },
+    "359": {
+      "title": "Part 6: Tensor networks",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-6-tensor-networks-tdvp-and-chi/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 342,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 8
+    },
+    "360": {
+      "title": "Part 7: Majorana propagation",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-7-majorana-propagation-as-a-laptop-competitor/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 343,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 9
+    },
+    "361": {
+      "title": "Part 8: Reading heatmaps",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-8-heatmaps-as-a-material-like-measurement/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 344,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 10
+    },
+    "646": {
+      "title": "Part 9: Digital vs cold-atom labs",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-10-can-a-quantum-computer-replace-a-quantum-lab/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 641,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 11
+    },
+    "669": {
+      "title": "Part 10: Official Monoprop benchmark",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-computer-part-11-official-monoprop-benchmark/",
+      "parent": 332,
+      "object": "post",
+      "object_id": 664,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 12
+    },
+    "373": {
+      "title": "Hubbard 2D",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/",
+      "parent": 1119,
+      "object": "custom",
+      "object_id": 373,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 14
+    },
+    "379": {
+      "title": "Part 1: 1D to 2D",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-1-from-1d-to-2d/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 376,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 15
+    },
+    "392": {
+      "title": "Part 2: Cuprates",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-2-2d-hubbard-cuprates-google/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 387,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 16
+    },
+    "393": {
+      "title": "Part 3: 3x3",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-3-3x3-implementation/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 388,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 17
+    },
+    "394": {
+      "title": "Part 4: Time",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-4-time-evolution-and-hardware-diagnostics/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 389,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 18
+    },
+    "395": {
+      "title": "Part 5: 4x4",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-5-4x4-hardware-and-tensor-baselines/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 390,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 19
+    },
+    "396": {
+      "title": "Part 6: 6x6 Fez",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series-part-6-6x6-tensor-ibm-fire-opal-status/",
+      "parent": 373,
+      "object": "post",
+      "object_id": 391,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 20
+    },
+    "424": {
+      "title": "Hadron",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 839,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 21
+    },
+    "425": {
+      "title": "Part 1: Hadron on a quantum processor",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hadron-on-quantum-processor/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 840,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 22
+    },
+    "426": {
+      "title": "Part 2: Quarks and confinement",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quarks-color-fields-confinement/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 841,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 23
+    },
+    "427": {
+      "title": "Part 3: SU(2) and LSH",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/su2-lattice-model-lsh/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 842,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 24
+    },
+    "428": {
+      "title": "Part 4: Hamiltonian and circuit",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/hamiltonian-to-quantum-circuit/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 843,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 25
+    },
+    "429": {
+      "title": "Part 5: Fire Opal",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-simulation-fire-opal/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 844,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 26
+    },
+    "430": {
+      "title": "Part 6: Classical simulations",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/classical-simulation-methods/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 845,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 27
+    },
+    "431": {
+      "title": "Part 7: Quantum advantage",
+      "url": "https://edukaizen.nl/hadron-quantum-simulation/quantum-advantage-comparison/",
+      "parent": 424,
+      "object": "page",
+      "object_id": 846,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 28
+    },
+    "443": {
+      "title": "Black Hole OLE",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-project/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 435,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 29
+    },
+    "444": {
+      "title": "Part 1: What we ran",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-1-what-we-ran/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 437,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 30
+    },
+    "445": {
+      "title": "Part 2: How OLE works",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-2-how-operator-loschmidt-echo-works/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 438,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 31
+    },
+    "446": {
+      "title": "Part 3: Fire Opal and Kingston",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-3-fire-opal-on-ibm-kingston/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 439,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 32
+    },
+    "447": {
+      "title": "Part 4: The tensor-network challenge",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-4-the-tensor-network-challenge/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 440,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 33
+    },
+    "448": {
+      "title": "Part 5: Hawking and scrambling",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-5-hawking-black-holes-and-scrambling/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 441,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 34
+    },
+    "449": {
+      "title": "Part 6: What the result proves",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-6-what-the-result-proves/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 442,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 35
+    },
+    "622": {
+      "title": "Part 7: Local toy model",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-7-local-toy-model-user-guide/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 619,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 36
+    },
+    "477": {
+      "title": "Random Graph",
+      "url": "https://edukaizen.nl/random-graph-sampling/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 469,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 37
+    },
+    "636": {
+      "title": "Part 8: QGSS26 compatibility",
+      "url": "https://edukaizen.nl/quantum-tracker-ole-q80-part-8-qgss26-ole-otoc-protocol-compatibility/",
+      "parent": 443,
+      "object": "post",
+      "object_id": 633,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 37
+    },
+    "629": {
+      "title": "Start here",
+      "url": "https://edukaizen.nl/random-graph-sampling/random-graph-sampling-beginner-guide/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 627,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 38
+    },
+    "478": {
+      "title": "Part 1: Theory",
+      "url": "https://edukaizen.nl/random-graph-sampling/from-tracker-claim-to-independent-reproduction/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 470,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 39
+    },
+    "479": {
+      "title": "Part 2: Circuit",
+      "url": "https://edukaizen.nl/random-graph-sampling/reproducible-70-qubit-circuit/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 471,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 39
+    },
+    "480": {
+      "title": "Part 3: Qiskit",
+      "url": "https://edukaizen.nl/random-graph-sampling/ibm-hardware-70-qubits-8-checks/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 472,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 40
+    },
+    "481": {
+      "title": "Part 4: Complexity",
+      "url": "https://edukaizen.nl/random-graph-sampling/why-75-percent-is-not-fidelity/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 473,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 41
+    },
+    "482": {
+      "title": "Part 5: Verification",
+      "url": "https://edukaizen.nl/random-graph-sampling/stabilizer-folding-futility/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 474,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 42
+    },
+    "483": {
+      "title": "Part 6: Workflow",
+      "url": "https://edukaizen.nl/random-graph-sampling/classical-simulation-mps-aer-majorana/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 475,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 43
+    },
+    "484": {
+      "title": "Part 7: Conclusion",
+      "url": "https://edukaizen.nl/random-graph-sampling/19-seconds-versus-6-89-million-years/",
+      "parent": 477,
+      "object": "page",
+      "object_id": 476,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 44
+    },
+    "506": {
+      "title": "QOS QML",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 518,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 47
+    },
+    "563": {
+      "title": "Tutorial: UMI counts to a four-qubit circuit",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qml-beginners-guide-umi-to-four-qubit-circuit/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 831,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 48
+    },
+    "564": {
+      "title": "Part 1: The QML task",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/what-is-the-qml-task-cell-classification/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 519,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 49
+    },
+    "614": {
+      "title": "Part 2: QOS theory",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-oracle-sketching-theory/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 520,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 50
+    },
+    "705": {
+      "title": "Floquet-Ising",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/",
+      "parent": 0,
+      "object": "page",
+      "object_id": 721,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 51
+    },
+    "832": {
+      "title": "Part 3: Gene expression to 40 qubits",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/pbmc68k-from-gene-expression-to-qubits/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 521,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 51
+    },
+    "706": {
+      "title": "Part 1: Floquet physics",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-physics-prethermalization/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 722,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 52
+    },
+    "833": {
+      "title": "Part 4: JAX to hardware",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/qos-to-40-qubit-hardware-fire-opal/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 522,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 52
+    },
+    "707": {
+      "title": "Part 2: Ising cycle",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/floquet-ising-cycle-heavy-hex/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 723,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 53
+    },
+    "834": {
+      "title": "Part 5: Readout and classifier",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/quantum-readout-405-observables-classifier/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 523,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 53
+    },
+    "708": {
+      "title": "Part 3: Two-qubit toy model",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/two-qubit-floquet-toy-model-worked-out/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 724,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 54
+    },
+    "835": {
+      "title": "Part 6: 40-qubit result",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/result-hardware-versus-classical/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 524,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 54
+    },
+    "709": {
+      "title": "Part 4: Oscillation and entanglement",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/magnetization-entanglement-period-four-oscillation/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 725,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 55
+    },
+    "836": {
+      "title": "Part 7: Route to quantum advantage",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/route-to-quantum-advantage-qml/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 525,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 55
+    },
+    "710": {
+      "title": "Part 5: Noise and error mitigation",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/noise-error-mitigation-zne-pec/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 726,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 56
+    },
+    "837": {
+      "title": "Part 8: 60-qubit result",
+      "url": "https://edukaizen.nl/quantum-oracle-sketching-qml-gene-expression/proposal-60-qubit-qml-follow-up-study/",
+      "parent": 506,
+      "object": "page",
+      "object_id": 526,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 56
+    },
+    "711": {
+      "title": "Part 6: Toward 51 qubits",
+      "url": "https://edukaizen.nl/floquet-ising-theory-reproducible-toy-model/from-toy-model-to-51-qubits-quantum-advantage/",
+      "parent": 705,
+      "object": "page",
+      "object_id": 727,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 57
+    },
+    "932": {
+      "title": "Work",
+      "url": "https://edukaizen.nl/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 932,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 63
+    },
+    "781": {
+      "title": "Quantum Gold",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 799,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 64
+    },
+    "782": {
+      "title": "Part 1: Why gold is a relativistic quantum problem",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-gold-is-a-relativistic-quantum-problem/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 807,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 66
+    },
+    "783": {
+      "title": "Part 2: Why the 2025 gold VQE study stalled",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/why-the-2025-gold-vqe-study-stalled/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 808,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 67
+    },
+    "784": {
+      "title": "Part 3: From QE and spin–orbit coupling to Qiskit",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/from-qe-spin-orbit-coupling-wannier90-to-qiskit/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 809,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 68
+    },
+    "785": {
+      "title": "Part 4: Twelve gold spinor modes on four qubits",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/twelve-gold-spinor-modes-on-four-qubits/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 810,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 69
+    },
+    "786": {
+      "title": "Part 5: The 24-qubit route: an active window for transport",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubit-active-window-for-transport/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 811,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 70
+    },
+    "787": {
+      "title": "Part 6: 24 qubits on IBM and with Fire Opal",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-qubits-on-ibm-and-fire-opal/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 812,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 71
+    },
+    "788": {
+      "title": "Part 7: The road to quantum advantage for gold",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/road-to-quantum-advantage-for-gold/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 813,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 72
+    },
+    "925": {
+      "title": "Part 8: 24 gold spinor modes on IBM with ZNE-PEA",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/24-gold-spinor-modes-on-ibm-with-zne-pea/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 924,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "961": {
+      "title": "HaPPY Gravity",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 933,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "994": {
+      "title": "Part 9: Forced gold colour on 56 qubits",
+      "url": "https://edukaizen.nl/relativistic-gold-quantum-simulation/forced-gold-colour-56-qubit-ibm-hardware/",
+      "parent": 781,
+      "object": "page",
+      "object_id": 993,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 73
+    },
+    "962": {
+      "title": "Part 1: Gravity as a phase gate",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/quantum-gravity-controlled-phase/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 934,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 75
+    },
+    "963": {
+      "title": "Part 2: Bosons and convergence",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/bosonic-gravity-cutoff-convergence/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 935,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 76
+    },
+    "964": {
+      "title": "Part 3: The dynamic HaPPY benchmark",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/dynamic-happy-benchmark/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 936,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 77
+    },
+    "965": {
+      "title": "Part 4: The N=145 classical audit",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/n145-classical-audit/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 937,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 78
+    },
+    "966": {
+      "title": "Part 5: MPS and Majorana baselines",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/majorana-mps-classical-baselines/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 938,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 79
+    },
+    "967": {
+      "title": "Part 6: PEA/ZNE and the decisive test",
+      "url": "https://edukaizen.nl/happy-gravity-quantum-advantage/pea-zne-runtime-quantum-advantage/",
+      "parent": 961,
+      "object": "page",
+      "object_id": 939,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 80
+    },
+    "975": {
+      "title": "Fibonacci Anyons",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/",
+      "parent": 932,
+      "object": "page",
+      "object_id": 968,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 81
+    },
+    "976": {
+      "title": "Part 1: Fusion and braiding",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/fusion-f-moves-r-moves-non-abelian-braiding/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 969,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 82
+    },
+    "977": {
+      "title": "Part 2: The 3/5/9-qubit ladder",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/three-five-nine-qubit-validation-ladder/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 970,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 83
+    },
+    "978": {
+      "title": "Part 3: Why nine qubits were too deep",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/why-full-nine-qubit-circuit-was-too-deep/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 971,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 84
+    },
+    "979": {
+      "title": "Part 4: Structure-aware simplification",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/structure-aware-f-move-simplification/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 972,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 85
+    },
+    "980": {
+      "title": "Part 5: IBM hardware diagnostic",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/ibm-marrakesh-hardware-diagnostic/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 973,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 86
+    },
+    "981": {
+      "title": "Part 6: Results and open questions",
+      "url": "https://edukaizen.nl/digital-fibonacci-anyons/what-the-experiment-establishes/",
+      "parent": 975,
+      "object": "page",
+      "object_id": 974,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 87
+    },
+    "1109": {
+      "title": "2D Local Quantum Advantage",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "parent": 1119,
+      "object": "page",
+      "object_id": 1089,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 89
+    },
+    "1110": {
+      "title": "Deel 1: Doel en budget",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/1-laptop-versus-quantumcomputer/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1090,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 90
+    },
+    "1111": {
+      "title": "Deel 2: Fermionmodel",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/2-fermionmodel/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1091,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 91
+    },
+    "1112": {
+      "title": "Deel 3: Mapping en diepte",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/3-mapping-circuitdiepte/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1092,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 92
+    },
+    "1113": {
+      "title": "Deel 4: Pilots en shots",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/4-pilots-shots-ruis/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1093,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 93
+    },
+    "1114": {
+      "title": "Deel 5: Foutmitigatie",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/5-foutmitigatie/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1094,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 94
+    },
+    "1115": {
+      "title": "Deel 6: 6x6-resultaten",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/6-resultaten/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1095,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 95
+    },
+    "1116": {
+      "title": "Deel 7: Circa 20x",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/7-snelheidswinst/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1096,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 96
+    },
+    "1117": {
+      "title": "Deel 8: Google en Bonsai",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/8-google-bonsai/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1097,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 97
+    },
+    "1118": {
+      "title": "Deel 9: Volgende stap",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/9-volgende-stap/",
+      "parent": 1109,
+      "object": "page",
+      "object_id": 1098,
+      "type": "post_type",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 98
+    },
+    "452": {
+      "title": "Advantage List",
+      "url": "https://edukaizen.nl/pro-student-quantum-advantage-list/",
+      "parent": 0,
+      "object": "custom",
+      "object_id": 452,
+      "type": "custom",
+      "target": "",
+      "attr_title": "",
+      "description": "",
+      "classes": [
+        ""
+      ],
+      "xfn": "",
+      "stored_order": 1000
+    }
+  }
+}

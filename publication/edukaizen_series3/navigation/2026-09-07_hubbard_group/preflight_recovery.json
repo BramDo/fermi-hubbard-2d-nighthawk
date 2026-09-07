@@ -1,0 +1,35 @@
+{
+  "reason": "Initial preflight expected a page-linked Hubbard 2D item; actual item 373 is custom. Abort occurred before any menu write.",
+  "checked_no_new_hub_or_parent_changes": true,
+  "existing_private_backup": {
+    "path": "/var/www/vhosts/edukaizen.nl/private/hubbard-navigation-20260907T142958Z/backup.sql",
+    "result": "Success: Exported to '/var/www/vhosts/edukaizen.nl/private/hubbard-navigation-20260907T142958Z/backup.sql'.",
+    "downloaded": false
+  },
+  "current_series": {
+    "332": {
+      "db_id": 332,
+      "title": "Hubbard 1D",
+      "menu_item_parent": "0",
+      "object_id": "331",
+      "type": "post_type",
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/"
+    },
+    "373": {
+      "db_id": 373,
+      "title": "Hubbard 2D",
+      "menu_item_parent": "0",
+      "object_id": "373",
+      "type": "custom",
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/"
+    },
+    "1109": {
+      "db_id": 1109,
+      "title": "2D Local Quantum Advantage",
+      "menu_item_parent": "0",
+      "object_id": "1089",
+      "type": "post_type",
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/"
+    }
+  }
+}

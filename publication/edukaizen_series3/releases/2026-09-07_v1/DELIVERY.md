@@ -7,6 +7,11 @@ the private research archive and database backup were not published.
 
 [Open the hub](https://edukaizen.nl/2d-local-quantum-advantage/).
 
+Subsequent authorized navigation change on the same date: all three Hubbard
+series were grouped under one top-level **Hubbard** item. See the separate
+[navigation receipt](../../navigation/2026-09-07_hubbard_group/DELIVERY.md).
+The preservation checks below describe the initial publication stage.
+
 | Part | Page ID | Parent page | Menu ID | Subject |
 | --- | --- | --- | --- | --- |
 | Hub | 1089 | 0 | 1109 | 2D Local Quantum Advantage |

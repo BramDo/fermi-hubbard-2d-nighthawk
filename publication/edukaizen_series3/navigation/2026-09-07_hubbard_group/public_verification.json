@@ -1,0 +1,52 @@
+{
+  "status": "PUBLIC_MENU_DOM_VERIFIED",
+  "group_id": 1119,
+  "pages": [
+    {
+      "url": "https://edukaizen.nl/",
+      "status_code": 200,
+      "hubbard_is_single_top_level": true,
+      "series_order": [
+        332,
+        373,
+        1109
+      ],
+      "all_existing_links_preserved": true
+    },
+    {
+      "url": "https://edukaizen.nl/fermi-hubbard-quantum-simulation-project/",
+      "status_code": 200,
+      "hubbard_is_single_top_level": true,
+      "series_order": [
+        332,
+        373,
+        1109
+      ],
+      "all_existing_links_preserved": true
+    },
+    {
+      "url": "https://edukaizen.nl/fermi-hubbard-2d-cuprate-series/",
+      "status_code": 200,
+      "hubbard_is_single_top_level": true,
+      "series_order": [
+        332,
+        373,
+        1109
+      ],
+      "all_existing_links_preserved": true
+    },
+    {
+      "url": "https://edukaizen.nl/2d-local-quantum-advantage/",
+      "status_code": 200,
+      "hubbard_is_single_top_level": true,
+      "series_order": [
+        332,
+        373,
+        1109
+      ],
+      "all_existing_links_preserved": true
+    }
+  ],
+  "visual_browser_check": false,
+  "visual_check_note": "Chrome binding unavailable; server fields and public HTML hierarchy verified."
+}
