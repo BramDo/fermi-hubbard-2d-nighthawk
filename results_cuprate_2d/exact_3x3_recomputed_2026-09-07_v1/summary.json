@@ -1,0 +1,186 @@
+{
+  "status": "COMPLETE",
+  "calculation": "3x3 exact full t-t-prime-U Hubbard evolution in the complete fixed sector",
+  "exact_meaning": "No MPS truncation, no Trotter approximation for H evolution, no shots; floating-point exponential evaluated numerically and cross-checked; not a symbolic closed-form solution",
+  "basis_dimension": 15876,
+  "n_up": 4,
+  "n_down": 4,
+  "hamiltonian_nnz": 368046,
+  "times": [
+    0.0,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "timings": {
+    "imports_seconds": 2.914275320013985,
+    "basis_setup_seconds": 0.05067812799825333,
+    "hamiltonian_build_seconds": 1.3161482899740804,
+    "independent_hamiltonian_check_seconds": 0.5518296959926374,
+    "observable_setup_seconds": 0.02162945902091451,
+    "exact_evolution": {
+      "0.0": {
+        "repetitions": 1,
+        "evolution_seconds": [
+          1.6695004887878895e-05
+        ],
+        "evolution_median_seconds": 1.6695004887878895e-05,
+        "observables_seconds": [
+          0.002411613008007407
+        ],
+        "evolution_plus_observables_median_seconds": 0.002428308012895286
+      },
+      "0.1": {
+        "repetitions": 5,
+        "evolution_seconds": [
+          0.053215104999253526,
+          0.0384514479956124,
+          0.04121996401227079,
+          0.0480353900056798,
+          0.05089393400703557
+        ],
+        "evolution_median_seconds": 0.0480353900056798,
+        "observables_seconds": [
+          0.00213723600609228,
+          0.001969951990759,
+          0.001921668997965753,
+          0.0030434289947152138,
+          0.0061526869831141084
+        ],
+        "evolution_plus_observables_median_seconds": 0.051078819000395015
+      },
+      "0.2": {
+        "repetitions": 5,
+        "evolution_seconds": [
+          0.0776094339962583,
+          0.05909594800323248,
+          0.0638059499906376,
+          0.06474673099000938,
+          0.05453920300351456
+        ],
+        "evolution_median_seconds": 0.0638059499906376,
+        "observables_seconds": [
+          0.002744378987699747,
+          0.002887223003199324,
+          0.0023801250208634883,
+          0.0033704270026646554,
+          0.0029905110131949186
+        ],
+        "evolution_plus_observables_median_seconds": 0.06618607501150109
+      },
+      "0.4": {
+        "repetitions": 5,
+        "evolution_seconds": [
+          0.09209217200987041,
+          0.09079773401026614,
+          0.08733438397757709,
+          0.0931390920013655,
+          0.09406004199991003
+        ],
+        "evolution_median_seconds": 0.09209217200987041,
+        "observables_seconds": [
+          0.0025687789893709123,
+          0.0027986020140815526,
+          0.002114904986228794,
+          0.0022046680096536875,
+          0.0018330089806113392
+        ],
+        "evolution_plus_observables_median_seconds": 0.09466095099924132
+      }
+    },
+    "exponential_and_ODE_crosschecks_seconds": 0.6406772999907844,
+    "U0_independent_control_seconds": 0.06916371299303137,
+    "frozen_circuit_load_transpile_simulate_observe_seconds": 6.386915039009182,
+    "worker_including_imports_checks_and_state_storage_seconds": 14.137988197995583
+  },
+  "environment": {
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "numpy": "2.4.6",
+    "scipy": "1.16.2",
+    "qiskit": "2.5.2",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so",
+        "version": "0.3.31.188.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-b75cc656.so",
+        "version": "0.3.29.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libopenblas-r0-f650aae0.3.3.so",
+        "version": null,
+        "threading_layer": "disabled",
+        "architecture": "Zen"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "filepath": "/home/bram/.venvs/qiskit/lib/python3.12/site-packages/qiskit_aer.libs/libgomp-a34b3233.so.1.0.0",
+        "version": null
+      }
+    ],
+    "peak_rss_bytes": 364650496,
+    "performance_scope": "one thread; no claim that the whole machine was isolated"
+  },
+  "checks_passed": 64,
+  "checks_failed": 0,
+  "ode_function_evaluations": 305,
+  "full_state_roundtrip_exact": true,
+  "qpu_seconds_used": 0,
+  "no_provider_calls": true,
+  "headline_results": {
+    "0.1": {
+      "norm": 0.9999999999999983,
+      "N_up": 3.999999999999984,
+      "N_down": 3.9999999999999774,
+      "N": 7.999999999999962,
+      "total_spin": 6.217248937900877e-15,
+      "mean_double_occupancy": 0.016222765198735868,
+      "mean_abs_spin": 0.8551155065479499,
+      "spin_profile_rms": 0.9028155441986995,
+      "energy": 3.219646771412954e-15
+    },
+    "0.2": {
+      "norm": 0.9999999999999996,
+      "N_up": 4.000000000000021,
+      "N_down": 4.000000000000017,
+      "N": 8.000000000000037,
+      "total_spin": 4.3298697960381105e-15,
+      "mean_double_occupancy": 0.04920929993229786,
+      "mean_abs_spin": 0.7781090022054529,
+      "spin_profile_rms": 0.8112903502135204,
+      "energy": 1.5765166949677223e-14
+    },
+    "0.4": {
+      "norm": 1.0000000000000024,
+      "N_up": 4.000000000000007,
+      "N_down": 4.0000000000000115,
+      "N": 8.000000000000018,
+      "total_spin": -3.885780586188048e-15,
+      "mean_double_occupancy": 0.06435426424985534,
+      "mean_abs_spin": 0.6748491729280592,
+      "spin_profile_rms": 0.6851657293846412,
+      "energy": 3.6637359812630166e-15
+    }
+  }
+}

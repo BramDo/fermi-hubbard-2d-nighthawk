@@ -19,6 +19,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,
   failed controls and alternative mappings stay visible.
+- [Recomputed exact 3x3 reference](results_cuprate_2d/exact_3x3_recomputed_2026-09-07_v1/RESULTAAT.md):
+  full fixed-sector Hamiltonian evolution at T=0.1, 0.2 and 0.4, with 64 numerical
+  checks and saved state vectors. This is separate from the 6x6 MPS reference.
 - [Edukaizen series 3](https://edukaizen.nl/2d-local-quantum-advantage/): nine
   Dutch articles and a hub, published with explicit approval on 2026-09-07.
   The [complete English series](https://edukaizen.nl/2d-local-quantum-advantage-en/)

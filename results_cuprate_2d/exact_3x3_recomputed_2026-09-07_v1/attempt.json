@@ -1,0 +1,7 @@
+{
+  "started_utc": "2026-09-07T19:19:46.428216+00:00",
+  "status": "STARTED",
+  "hardware_authorized": false,
+  "timeout_seconds": 180,
+  "source_commit": "8f1de94b17c7dbafaa965e03468eed04561fb52d"
+}

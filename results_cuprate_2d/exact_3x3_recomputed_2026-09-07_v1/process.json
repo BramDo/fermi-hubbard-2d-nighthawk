@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "returncode": 0,
+  "cold_worker_and_full_verification_wall_seconds": 14.993683890992543,
+  "includes_imports_and_all_checks": true,
+  "includes_Windows_WSL_launcher": false
+}

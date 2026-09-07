@@ -1,0 +1,10 @@
+{
+  "run_exact_3x3_saved.py": "c92f2dc1277a8e7bf96b5b734f2f4c77f5fd55fd773286874e9ac77c82a3c831",
+  "cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+  "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+  "validate_cuprate_2d_fermionic_dynamics.py": "a67dee7dfb02888a13123f3b5cf8ff4987d20fc64eb7bff901593c42a7d85266",
+  "results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/config.json": "a5aab789c5388cee818ceef0a0c5c0a48858089f9c5ac88c1301f8f71ac5d976",
+  "results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/logical_circuit.qpy": "5b2f589bb844ed5111475fda5905406b09f6a90dce537ab1c9e91e24003d6cf4",
+  "results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/exact_hamiltonian_observables.json": "9650d3b2166c5c152d51f94875cbde6619c1315d663013f425a7f13d371c01a9",
+  "results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/exact_circuit_observables.json": "3247756eee0ecd2b15e5f9f6aa433681e772ed02f1dcacf6ecccbb98e4cca987"
+}

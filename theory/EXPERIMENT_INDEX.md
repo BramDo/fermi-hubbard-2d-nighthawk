@@ -9,6 +9,7 @@ volledige bestandsoverzicht. Oudere Fez/Fire Opal-resultaten zijn context.
 | Volledige fermiontekens | fermionic_dynamics_2026-09-05 | kleine exacte controles |
 | Routing/fSWAP | fermionic_mapping_2026-09-05 | resources; niet vanzelf nauwkeurigheid |
 | Exacte pilot | fermionic_pilot_3x3_2026-09-05 | klassiek controleerbaar |
+| Exacte 3x3 opnieuw berekend | exact_3x3_recomputed_2026-09-07_v1 | volledige sector 15.876 toestanden; T=0.1/0.2/0.4; 64 controles geslaagd |
 | Ruissimulaties | aer_nighthawk_* en aer_readout_tflo_zne_* | opgeslagen ruismodel; geen hardwarebewijs |
 | Seed-audit | aer_seed_overlap_* | gecorrigeerde statistische afhankelijkheid |
 | Readout/CZ-folding | hardware_readout_cz_folding_3x3_2026-09-06 | aparte pilot |

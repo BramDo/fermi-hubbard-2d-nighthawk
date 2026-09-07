@@ -1,0 +1,386 @@
+[
+  {
+    "check": "Hamiltonian_Hermitian",
+    "value": 0.0,
+    "tolerance": 1e-13,
+    "passed": true
+  },
+  {
+    "check": "independent_Fock_Hamiltonian_agreement",
+    "value": 0.0,
+    "tolerance": 1e-13,
+    "passed": true
+  },
+  {
+    "check": "basis_fixed_N_up",
+    "value": 0.0,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "check": "basis_fixed_N_down",
+    "value": 0.0,
+    "tolerance": 0,
+    "passed": true
+  },
+  {
+    "check": "norm_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "N_up_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_down_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "total_spin_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "energy_conservation_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "local_probability_bounds_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_corners_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_edges_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_corners_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_edges_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_corners_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_edges_T0.0",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "norm_T0.1",
+    "value": 1.6653345369377348e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "N_up_T0.1",
+    "value": 1.5987211554602254e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_down_T0.1",
+    "value": 2.2648549702353193e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_T0.1",
+    "value": 3.8191672047105385e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "total_spin_T0.1",
+    "value": 6.217248937900877e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "energy_conservation_T0.1",
+    "value": 3.219646771412954e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "local_probability_bounds_T0.1",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_corners_T0.1",
+    "value": 3.4416913763379853e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_edges_T0.1",
+    "value": 4.107825191113079e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_corners_T0.1",
+    "value": 3.219646771412954e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_edges_T0.1",
+    "value": 4.551914400963142e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_corners_T0.1",
+    "value": 7.979727989493313e-17,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_edges_T0.1",
+    "value": 1.0408340855860843e-17,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "norm_T0.2",
+    "value": 4.440892098500626e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "N_up_T0.2",
+    "value": 2.1316282072803006e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_down_T0.2",
+    "value": 1.687538997430238e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_T0.2",
+    "value": 3.730349362740526e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "total_spin_T0.2",
+    "value": 4.3298697960381105e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "energy_conservation_T0.2",
+    "value": 1.5765166949677223e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "local_probability_bounds_T0.2",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_corners_T0.2",
+    "value": 3.774758283725532e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_edges_T0.2",
+    "value": 7.771561172376096e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_corners_T0.2",
+    "value": 3.552713678800501e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_edges_T0.2",
+    "value": 7.771561172376096e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_corners_T0.2",
+    "value": 1.5265566588595902e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_edges_T0.2",
+    "value": 1.942890293094024e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "norm_T0.4",
+    "value": 2.4424906541753444e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "N_up_T0.4",
+    "value": 7.105427357601002e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_down_T0.4",
+    "value": 1.1546319456101628e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "N_T0.4",
+    "value": 1.7763568394002505e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "total_spin_T0.4",
+    "value": 3.885780586188048e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "energy_conservation_T0.4",
+    "value": 3.6637359812630166e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "local_probability_bounds_T0.4",
+    "value": 0.0,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_corners_T0.4",
+    "value": 1.5543122344752192e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_charge_edges_T0.4",
+    "value": 1.5543122344752192e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_corners_T0.4",
+    "value": 1.4432899320127035e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_spin_z_edges_T0.4",
+    "value": 1.9984014443252818e-15,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_corners_T0.4",
+    "value": 1.1102230246251565e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "D4_double_occupancy_edges_T0.4",
+    "value": 1.457167719820518e-16,
+    "tolerance": 1e-11,
+    "passed": true
+  },
+  {
+    "check": "saved_pilot_T02_observable_reproduction",
+    "value": 8.881784197001252e-16,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "one_step_vs_two_half_exponentials_T04",
+    "value": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "time_reversal_T04",
+    "value": 4.282190988958149e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "independent_DOP853_vs_exponential_T04",
+    "value": 2.8192160334729293e-11,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "check": "U0_sparse_vs_9x9_Gaussian_charge_spin_doublon",
+    "value": 3.597122599785507e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "exact_circuit_norm",
+    "value": 6.8833827526759706e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "exact_circuit_sector_leakage",
+    "value": 2.220446049250313e-16,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "check": "saved_pilot_circuit_observable_reproduction",
+    "value": 8.104628079763643e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  }
+]
