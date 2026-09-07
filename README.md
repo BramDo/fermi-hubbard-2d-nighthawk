@@ -22,6 +22,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
 - [Edukaizen series 3](https://edukaizen.nl/2d-local-quantum-advantage/): nine
   Dutch articles and a hub, published with explicit approval on 2026-09-07.
   [Sources and publication receipts](publication/edukaizen_series3/README.md).
+- [Student Advantage List entry](https://edukaizen.nl/pro-student-quantum-advantage-list/#fermi-hubbard-2d-nighthawk-72q):
+  added on 2026-09-07 as a local execution-metric ratio with unvalidated accuracy.
+  [Registration and verification](publication/advantage_list/2026-09-07_v1/DELIVERY.md).
 - [Google comparison](results_cuprate_2d/google_conversion_2026-09-07_v1/DELIVERY.md):
   actual 5x5 and 6x6 public data, converted to the same observable definitions.
 - [Imported project README](archive/imported_root/README.md): the original

@@ -1,0 +1,22 @@
+{
+  "status": "GITHUB_AND_PAGES_VERIFIED",
+  "commit": "86fb5086154e295275dd2a2839f78de71e133462",
+  "entry_url": "https://github.com/BramDo/pro-student-quantum-advantage-list/blob/86fb5086154e295275dd2a2839f78de71e133462/entries/fermi-hubbard-2d-nighthawk-72q.json",
+  "pages_url": "https://bramdo.github.io/pro-student-quantum-advantage-list/#fermi-hubbard-2d-nighthawk-72q",
+  "feed_url": "https://bramdo.github.io/pro-student-quantum-advantage-list/data/advantage-list.json",
+  "entry_count": 7,
+  "source_entry_matches": true,
+  "workflows": {
+    "Validate list": {
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/BramDo/pro-student-quantum-advantage-list/actions/runs/34135480345"
+    },
+    "pages build and deployment": {
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/BramDo/pro-student-quantum-advantage-list/actions/runs/34135479272"
+    }
+  },
+  "research_repository_private": true
+}

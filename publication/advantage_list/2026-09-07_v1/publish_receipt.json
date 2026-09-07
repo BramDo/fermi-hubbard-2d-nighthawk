@@ -1,0 +1,12 @@
+{
+  "status": "PUBLISHED_AND_SERVER_VERIFIED",
+  "page_id": 451,
+  "url": "https://edukaizen.nl/pro-student-quantum-advantage-list/",
+  "before_sha256": "2aa8dd63934adb6bf1a817e2a33607bd24db8195e62435a7faf5a4d64a54225d",
+  "after_sha256": "bffb35ae0e87a2aaa9c18bf1951a9ceecbbd54af6b3367c3ae0acc3a378c7549",
+  "other_posts_preserved": 232,
+  "menu_items_preserved": 99,
+  "entry_count": 7,
+  "completed_utc": "2026-09-07T14:54:15+00:00",
+  "backup_path": "/var/www/vhosts/edukaizen.nl/private/advantage-list-20260907T145408Z/backup.sql"
+}
