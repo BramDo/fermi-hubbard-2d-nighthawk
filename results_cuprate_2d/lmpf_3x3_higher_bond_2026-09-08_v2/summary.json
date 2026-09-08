@@ -1,0 +1,31 @@
+{
+  "status": "HIGHER_BOND_DIAGNOSTIC_FINISHED",
+  "observables": [
+    {
+      "observable": 8,
+      "relative_gram_change": 0.09825066198676063,
+      "ridge_coefficient_l1_change": 0.3141758516617827,
+      "passes_local_flags": false
+    },
+    {
+      "observable": 9,
+      "relative_gram_change": 0.0863507623653986,
+      "ridge_coefficient_l1_change": 0.5054731712412649,
+      "passes_local_flags": false
+    },
+    {
+      "observable": 22,
+      "relative_gram_change": 0.24838366137552303,
+      "ridge_coefficient_l1_change": 0.8533176154366249,
+      "passes_local_flags": false
+    }
+  ],
+  "all_requested_observables_evaluated": true,
+  "local_stability_flags_pass": false,
+  "full_27_observable_8_twirl_validation": false,
+  "noise_model_validated": false,
+  "six_by_six_started": false,
+  "new_qpu_seconds": 0,
+  "tests_passed": 29,
+  "seconds": 505.9739329130025
+}

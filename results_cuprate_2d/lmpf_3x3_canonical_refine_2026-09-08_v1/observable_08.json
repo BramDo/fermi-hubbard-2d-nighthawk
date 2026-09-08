@@ -1,0 +1,335 @@
+{
+  "observable_index": 8,
+  "exact_ideal_reference": 0.9573505598428009,
+  "chi_results": {
+    "4": {
+      "failure": null,
+      "overlaps_exact": [
+        [
+          0.7535621196866018,
+          0.3351454655957381,
+          0.22346867383861377,
+          0.11237124436799237
+        ],
+        [
+          0.3351454655957381,
+          0.16462074670818722,
+          0.11219339870774993,
+          0.058366099011738753
+        ],
+        [
+          0.22346867383861377,
+          0.11219339870774993,
+          0.07878018325345497,
+          0.04111151622677687
+        ],
+        [
+          0.11237124436799237,
+          0.058366099011738753,
+          0.04111151622677687,
+          0.02180350003717443
+        ]
+      ],
+      "fits": {
+        "exact": {
+          "unregularized": {
+            "coefficients": [
+              2.845819213853636,
+              -0.3510892411810936,
+              -1.4947299726725423
+            ],
+            "projection_residual": 0.05292479399412353,
+            "condition_constrained": 41.39230635911506,
+            "gram_min_eigenvalue": 0.00010316809001840275,
+            "coefficient_l1": 4.691638427707272,
+            "coefficient_l2_squared": 10.4561683444173,
+            "constraint_error": -2.220446049250313e-16,
+            "ridge": 0.0,
+            "rank_constrained": 2
+          },
+          "ridge": {
+            "coefficients": [
+              1.789961037474467,
+              0.2939401260352257,
+              -1.083901163509693
+            ],
+            "projection_residual": 0.09123984412941788,
+            "condition_constrained": 2.8185554663975028,
+            "gram_min_eigenvalue": 0.00010316809001840275,
+            "coefficient_l1": 3.167802327019386,
+            "coefficient_l2_squared": 4.46520304562794,
+            "constraint_error": 0.0,
+            "ridge": 0.017857142857142856,
+            "rank_constrained": 2
+          }
+        }
+      },
+      "ideal_tn_expectation": 0.6040787400855508,
+      "contraction_costs": [
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        },
+        {
+          "max_elements": 256,
+          "estimated_flops": 43368.0
+        }
+      ],
+      "seconds": 3.6606539060012437,
+      "method": "exact contraction of a chi-truncated mixed-canonical MPS; no BP approximation"
+    },
+    "8": {
+      "failure": null,
+      "overlaps_exact": [
+        [
+          0.837066177793088,
+          0.3583350856078044,
+          0.23343053754963078,
+          0.11744206236467017
+        ],
+        [
+          0.3583350856078044,
+          0.17222177368965574,
+          0.11638563017187026,
+          0.06005822352667101
+        ],
+        [
+          0.23343053754963078,
+          0.11638563017187026,
+          0.08116997754903703,
+          0.04247349284748614
+        ],
+        [
+          0.11744206236467017,
+          0.06005822352667101,
+          0.04247349284748614,
+          0.022477958082811878
+        ]
+      ],
+      "fits": {
+        "exact": {
+          "unregularized": {
+            "coefficients": [
+              4.206558261119528,
+              -3.039374768261924,
+              -0.16718349285760475
+            ],
+            "projection_residual": 0.06117157127971362,
+            "condition_constrained": 55.82036104186744,
+            "gram_min_eigenvalue": 6.89896293047668e-05,
+            "coefficient_l1": 7.413116522239057,
+            "coefficient_l2_squared": 26.96088170642424,
+            "constraint_error": -6.661338147750939e-16,
+            "ridge": 0.0,
+            "rank_constrained": 2
+          },
+          "ridge": {
+            "coefficients": [
+              1.9134703877524086,
+              0.18673094242505342,
+              -1.1002013301774622
+            ],
+            "projection_residual": 0.11043647336514395,
+            "condition_constrained": 2.9773874508685547,
+            "gram_min_eigenvalue": 6.89896293047668e-05,
+            "coefficient_l1": 3.200402660354924,
+            "coefficient_l2_squared": 4.906680336588559,
+            "constraint_error": -2.220446049250313e-16,
+            "ridge": 0.017857142857142856,
+            "rank_constrained": 2
+          }
+        }
+      },
+      "ideal_tn_expectation": 0.799300413369859,
+      "contraction_costs": [
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2330900.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2532388.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2809892.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2809892.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2347076.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2813508.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2813508.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2748548.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2748548.0
+        },
+        {
+          "max_elements": 4096,
+          "estimated_flops": 2748548.0
+        }
+      ],
+      "seconds": 2.1975127019977663,
+      "method": "exact contraction of a chi-truncated mixed-canonical MPS; no BP approximation"
+    },
+    "16": {
+      "failure": null,
+      "overlaps_exact": [
+        [
+          0.9325527668964193,
+          0.3816260977707572,
+          0.2433403703643864,
+          0.12129817410168726
+        ],
+        [
+          0.3816260977707572,
+          0.17716172523731408,
+          0.11882063275427919,
+          0.061208397554525056
+        ],
+        [
+          0.2433403703643864,
+          0.11882063275427919,
+          0.0815867542242098,
+          0.042644993330244366
+        ],
+        [
+          0.12129817410168726,
+          0.061208397554525056,
+          0.042644993330244366,
+          0.022550875345532666
+        ]
+      ],
+      "fits": {
+        "exact": {
+          "unregularized": {
+            "coefficients": [
+              7.171064087551338,
+              -8.865657393864595,
+              2.6945933063132577
+            ],
+            "projection_residual": 0.026731372830654854,
+            "condition_constrained": 91.065243498604,
+            "gram_min_eigenvalue": 3.4128782901960786e-05,
+            "coefficient_l1": 18.73131478772919,
+            "coefficient_l2_squared": 137.28487425958266,
+            "constraint_error": 8.881784197001252e-16,
+            "ridge": 0.0,
+            "rank_constrained": 2
+          },
+          "ridge": {
+            "coefficients": [
+              2.0760030597850525,
+              0.08881672461244086,
+              -1.164819784397494
+            ],
+            "projection_residual": 0.12113377456961483,
+            "condition_constrained": 3.091413328091154,
+            "gram_min_eigenvalue": 3.4128782901960786e-05,
+            "coefficient_l1": 3.3296395687949873,
+            "coefficient_l2_squared": 5.674482244931607,
+            "constraint_error": -6.661338147750939e-16,
+            "ridge": 0.017857142857142856,
+            "rank_constrained": 2
+          }
+        }
+      },
+      "ideal_tn_expectation": 0.9237762848218302,
+      "contraction_costs": [
+        {
+          "max_elements": 65536,
+          "estimated_flops": 156651588.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 156651588.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 160744584.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 158098056.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 156651588.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 160744584.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 158098056.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 166382352.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 163628112.0
+        },
+        {
+          "max_elements": 65536,
+          "estimated_flops": 161103392.0
+        }
+      ],
+      "seconds": 3.4159217669985082,
+      "method": "exact contraction of a chi-truncated mixed-canonical MPS; no BP approximation"
+    }
+  },
+  "stability": {
+    "relative_gram_change": 0.08688368471006763,
+    "ridge_coefficient_l1_change": 0.3250653440652881,
+    "passes_local_flags": false
+  }
+}

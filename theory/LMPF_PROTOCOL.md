@@ -167,3 +167,19 @@ The preregistered empirical guardrail fails, so the user-authorized conditional
 6x6 step was not started. Device-noise and higher-bond validation remain open.
 This is an exploratory application, not validated general-purpose hardware
 mitigation. See [the full result and audit](../results_cuprate_2d/lmpf_3x3_hardware_2026-09-08_v1/DELIVERY.md).
+
+## Higher-bond diagnostic and native-topology qualification
+
+The next offline check covers central-site Z_up, Z_down and ZZ at fixed twirl 0,
+not all 27 observables or the full eight-twirl mixture. Actual native gates form
+a path of 18 vertices and 17 edges, despite the two-dimensional Hubbard model.
+There are no circuit-graph loops for nontrivial LCBP corrections here. This
+does not change the ladder topology used in the earlier eight-qubit pilot.
+
+Chi2 to chi4 relative Gram changes are 8.6%-24.8%; independently tested canonical
+MPS propagation on the verified path gives chi8 to chi16 changes of 6.8%-29.7%.
+The necessary 1% overlap / 0.05 coefficient-L1 stability flags fail. No new
+coefficients were applied to the full averaged hardware data. The canonical
+route is a useful refinement backend, but small-chi propagation can disagree
+with D2BP; one chi4 ideal-operator HS discrepancy is about 4% and is retained.
+See [the higher-bond report](../results_cuprate_2d/lmpf_3x3_higher_bond_2026-09-08_v2/DELIVERY.md).

@@ -21,6 +21,8 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Executed comparison and verification](results_cuprate_2d/lmpf_2d_pilot_2026-09-08_v3/DELIVERY.md).
   [Actual 3x3 hardware application](results_cuprate_2d/lmpf_3x3_hardware_2026-09-08_v1/DELIVERY.md):
   spin improves, charge and doublons worsen; the conditional 6x6 step was not started.
+  [Higher-bond diagnostic](results_cuprate_2d/lmpf_3x3_higher_bond_2026-09-08_v2/DELIVERY.md):
+  chi2/4 and a canonical chi8/16 check remain unstable; the native graph is a chain.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

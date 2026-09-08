@@ -1,0 +1,30 @@
+{
+  "status": "CANONICAL_REFINEMENT_FINISHED",
+  "observables": [
+    {
+      "observable": 8,
+      "relative_gram_change": 0.08688368471006763,
+      "ridge_coefficient_l1_change": 0.3250653440652881,
+      "passes_local_flags": false
+    },
+    {
+      "observable": 9,
+      "relative_gram_change": 0.06826139228035563,
+      "ridge_coefficient_l1_change": 0.3785000915656642,
+      "passes_local_flags": false
+    },
+    {
+      "observable": 22,
+      "relative_gram_change": 0.29695576291008374,
+      "ridge_coefficient_l1_change": 0.7937838986601946,
+      "passes_local_flags": false
+    }
+  ],
+  "local_stability_flags_pass": false,
+  "full_27_observable_8_twirl_validation": false,
+  "noise_model_validated": false,
+  "six_by_six_started": false,
+  "new_qpu_seconds": 0,
+  "tests_passed": 31,
+  "seconds": 26.45700867100095
+}

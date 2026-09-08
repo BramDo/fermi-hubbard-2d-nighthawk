@@ -1,0 +1,33 @@
+test_dense_adjoint_matches_density_channel (test_lmpf_2d.ChannelTests.test_dense_adjoint_matches_density_channel) ... ok
+test_dense_unitary_and_bit_order (test_lmpf_2d.ChannelTests.test_dense_unitary_and_bit_order) ... ok
+test_disjoint_singletons_not_made_nonlocal (test_lmpf_2d.ChannelTests.test_disjoint_singletons_not_made_nonlocal) ... ok
+test_fused_noisy_blocks_exact (test_lmpf_2d.ChannelTests.test_fused_noisy_blocks_exact) ... ok
+test_affine_readout_inverse (test_lmpf_2d.ReadoutTests.test_affine_readout_inverse) ... ok
+test_identity_terms_not_rescaled (test_lmpf_2d.ReadoutTests.test_identity_terms_not_rescaled) ... ok
+test_calibration_constraint (test_lmpf_2d.SolverTests.test_calibration_constraint) ... ok
+test_covariance (test_lmpf_2d.SolverTests.test_covariance) ... ok
+test_noiseless_minimum_norm (test_lmpf_2d.SolverTests.test_noiseless_minimum_norm) ... ok
+test_projection_not_value_fit (test_lmpf_2d.SolverTests.test_projection_not_value_fit) ... ok
+test_reject_bad_gram (test_lmpf_2d.SolverTests.test_reject_bad_gram) ... ok
+test_zne_weights (test_lmpf_2d.SolverTests.test_zne_weights) ... ok
+test_full_bond_tn_matches_dense (test_lmpf_2d.TensorTests.test_full_bond_tn_matches_dense) ... ok
+test_loop_correction_matches_complete_small_loop (test_lmpf_2d.TensorTests.test_loop_correction_matches_complete_small_loop) ... ok
+test_nonlocal_gate_rejected (test_lmpf_2d.TensorTests.test_nonlocal_gate_rejected) ... ok
+test_product_operator (test_lmpf_2d.TensorTests.test_product_operator) ... ok
+test_signed_message_pair_unit_edge (test_lmpf_2d.TensorTests.test_signed_message_pair_unit_edge) ... ok
+test_signed_product_loop_no_spurious_correction (test_lmpf_2d.TensorTests.test_signed_product_loop_no_spurious_correction) ... ok
+test_tracked_tensor_scaling (test_lmpf_2d.TensorTests.test_tracked_tensor_scaling) ... ok
+test_bound_and_mixture (test_lmpf_product.ProductTests.test_bound_and_mixture) ... ok
+test_clifford_no_truncation (test_lmpf_product.ProductTests.test_clifford_no_truncation) ... ok
+test_identity (test_lmpf_product.ProductTests.test_identity) ... ok
+test_quimb_chi_one (test_lmpf_product.ProductTests.test_quimb_chi_one) ... ok
+test_bit_endianness (test_lmpf_hardware_inputs.HardwareInputTests.test_bit_endianness) ... ok
+test_invalid_strings_rejected (test_lmpf_hardware_inputs.HardwareInputTests.test_invalid_strings_rejected) ... ok
+test_projection_objective_not_worse_than_richardson (test_lmpf_hardware_inputs.HardwareInputTests.test_projection_objective_not_worse_than_richardson) ... ok
+test_twirl_and_asymmetric_readout_order (test_lmpf_hardware_inputs.HardwareInputTests.test_twirl_and_asymmetric_readout_order) ... ok
+test_round_trip_entangled_and_exponent (test_lmpf_tn_storage.TNStorageTests.test_round_trip_entangled_and_exponent) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.458s
+
+OK

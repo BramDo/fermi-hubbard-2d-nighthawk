@@ -1,0 +1,384 @@
+{
+  "schema": "3x3-higher-bond-local-diagnostic-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "observables": [
+    8,
+    9,
+    22
+  ],
+  "twirl": 0,
+  "chi": [
+    1,
+    2,
+    4
+  ],
+  "noise": {
+    "backend": "ibm_phoenix",
+    "calibration_date": {
+      "__type__": "datetime",
+      "__value__": "2026-09-06T14:35:09+02:00"
+    },
+    "physical_layout": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      109,
+      108,
+      107,
+      106,
+      105,
+      104,
+      103,
+      102,
+      101,
+      111
+    ],
+    "calibration_file": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json",
+    "calibration_sha256": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335",
+    "noise_model": "local effective Pauli-Lindblad depolarizing surrogate from average gate infidelity",
+    "learned_sparse_pauli_lindblad": false,
+    "uses_T1_T2": false,
+    "virtual_rz_without_reported_error_assumed_ideal": true,
+    "mapping": "p=d*r/(d-1); decay_rate=-log(1-p); scale multiplies decay_rate",
+    "readout_prob_1_given_0_and_0_given_1": [
+      [
+        0.005126953125,
+        0.007080078125
+      ],
+      [
+        0.011962890625,
+        0.029296875
+      ],
+      [
+        0.00341796875,
+        0.007080078125
+      ],
+      [
+        0.0009765625,
+        0.0107421875
+      ],
+      [
+        0.000732421875,
+        0.006591796875
+      ],
+      [
+        0.00146484375,
+        0.0087890625
+      ],
+      [
+        0.001220703125,
+        0.01171875
+      ],
+      [
+        0.002685546875,
+        0.01220703125
+      ],
+      [
+        0.000732421875,
+        0.01318359375
+      ],
+      [
+        0.000732421875,
+        0.010986328125
+      ],
+      [
+        0.0576171875,
+        0.22607421875
+      ],
+      [
+        0.0009765625,
+        0.0205078125
+      ],
+      [
+        0.003662109375,
+        0.008056640625
+      ],
+      [
+        0.001953125,
+        0.0126953125
+      ],
+      [
+        0.0009765625,
+        0.010986328125
+      ],
+      [
+        0.002197265625,
+        0.007080078125
+      ],
+      [
+        0.000732421875,
+        0.006103515625
+      ],
+      [
+        0.017822265625,
+        0.033935546875
+      ]
+    ],
+    "readout_calibration_treated_as_known": true,
+    "warning": "Archived backend numbers are not a learned or current hardware noise model."
+  },
+  "inputs": [
+    {
+      "factor": 1,
+      "record_index": 14,
+      "qpy_sha256": "3324c753d0f69db058e21f9aecbae8c8c9cb449335fbd324172a7910b090d5f1",
+      "cz": 1008,
+      "native_depth": 629,
+      "classical_blocks": 748,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    {
+      "factor": 2,
+      "record_index": 15,
+      "qpy_sha256": "a17894e5121c417ce784c16334bbfaac93cee3a65604749c372a899723ebe160",
+      "cz": 2016,
+      "native_depth": 783,
+      "classical_blocks": 748,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    {
+      "factor": 3,
+      "record_index": 23,
+      "qpy_sha256": "e8de61ca794cc9b0cc015cc179c5a02efd40b47b6282ae67fb6802d9c7a521f5",
+      "cz": 3024,
+      "native_depth": 917,
+      "classical_blocks": 748,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    }
+  ],
+  "ridge": 0.017857142857142856,
+  "bp_tolerance": 1e-07,
+  "bp_iterations": 50,
+  "relative_gram_change_tolerance": 0.01,
+  "coefficient_l1_change_tolerance": 0.05,
+  "max_contraction_elements": 4194304,
+  "max_contraction_flops": 2000000000.0,
+  "budget_seconds": 1200,
+  "reference_used_for_fitting": false,
+  "hardware_weights_applied": false,
+  "new_qpu_seconds": 0,
+  "source_sha256": {
+    "lmpf_2d/higher_bond.py": "9061ebfd4f3c26c5ac931fd1c10e813e3cb871b44d0f243e873e7442045f2baf",
+    "lmpf_2d/tn_storage.py": "9256f98314a998e0469a652d418308a8865b28321a9af80b27e0a2fd0a59facf",
+    "lmpf_2d/operators.py": "c9892347c43e664fafc9d07895531df08f3ceffcd223385ead2a053983b5be5d",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/product.py": "fa2748b254a11301f6088a6dc0e2c1dd178cf26efa23ebfbe58b3d7eb27e41b6",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/PLAN_HIGHER_BOND.md": "88e4974aa2794baa4a6944aca03b8319b357ffdc885178b032d89c45d0c44fc6",
+    "test_lmpf_tn_storage.py": "08122cc4cc9a7f7069aa370138ed4157ef3933378f7c91249412baf45e4a16ee"
+  }
+}

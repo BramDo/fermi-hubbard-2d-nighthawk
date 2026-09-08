@@ -1,0 +1,311 @@
+{
+  "schema": "numeric-operator-tn-v1",
+  "sites": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "exponent": 0.0,
+  "tensors": [
+    {
+      "key": "tensor_000",
+      "inds": [
+        "_4796ccAAPRe",
+        "k0"
+      ],
+      "tags": [
+        "I0"
+      ],
+      "shape": [
+        2,
+        4
+      ]
+    },
+    {
+      "key": "tensor_001",
+      "inds": [
+        "_4796ccAAPRe",
+        "_4796ccAAPRf",
+        "k1"
+      ],
+      "tags": [
+        "I1"
+      ],
+      "shape": [
+        2,
+        7,
+        4
+      ]
+    },
+    {
+      "key": "tensor_002",
+      "inds": [
+        "_4796ccAAPRf",
+        "_4796ccAAPRg",
+        "k2"
+      ],
+      "tags": [
+        "I2"
+      ],
+      "shape": [
+        7,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_003",
+      "inds": [
+        "_4796ccAAPRg",
+        "_4796ccAAPRh",
+        "k3"
+      ],
+      "tags": [
+        "I3"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_004",
+      "inds": [
+        "_4796ccAAPRh",
+        "_4796ccAAPRi",
+        "k4"
+      ],
+      "tags": [
+        "I4"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_005",
+      "inds": [
+        "_4796ccAAPRi",
+        "_4796ccAAPRj",
+        "k5"
+      ],
+      "tags": [
+        "I5"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_006",
+      "inds": [
+        "_4796ccAAPRj",
+        "_4796ccAAPRk",
+        "k6"
+      ],
+      "tags": [
+        "I6"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_007",
+      "inds": [
+        "_4796ccAAPRk",
+        "_4796ccAAPRl",
+        "k7"
+      ],
+      "tags": [
+        "I7"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_008",
+      "inds": [
+        "_4796ccAAPRl",
+        "_4796ccAAPRm",
+        "k8"
+      ],
+      "tags": [
+        "I8"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_009",
+      "inds": [
+        "_4796ccAAPRm",
+        "_4796ccAAPRn",
+        "k9"
+      ],
+      "tags": [
+        "I9"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_010",
+      "inds": [
+        "_4796ccAAPRn",
+        "_4796ccAAPRo",
+        "k10"
+      ],
+      "tags": [
+        "I10"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_011",
+      "inds": [
+        "_4796ccAAPRo",
+        "_4796ccAAPRp",
+        "k11"
+      ],
+      "tags": [
+        "I11"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_012",
+      "inds": [
+        "_4796ccAAPRp",
+        "_4796ccAAPRq",
+        "k12"
+      ],
+      "tags": [
+        "I12"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_013",
+      "inds": [
+        "_4796ccAAPRq",
+        "_4796ccAAPRr",
+        "k13"
+      ],
+      "tags": [
+        "I13"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_014",
+      "inds": [
+        "_4796ccAAPRr",
+        "_4796ccAAPRs",
+        "k14"
+      ],
+      "tags": [
+        "I14"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_015",
+      "inds": [
+        "_4796ccAAPRs",
+        "_4796ccAAPRt",
+        "k15"
+      ],
+      "tags": [
+        "I15"
+      ],
+      "shape": [
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "key": "tensor_016",
+      "inds": [
+        "_4796ccAAPRt",
+        "_4796ccAAPRu",
+        "k16"
+      ],
+      "tags": [
+        "I16"
+      ],
+      "shape": [
+        8,
+        4,
+        4
+      ]
+    },
+    {
+      "key": "tensor_017",
+      "inds": [
+        "_4796ccAAPRu",
+        "k17"
+      ],
+      "tags": [
+        "I17"
+      ],
+      "shape": [
+        4,
+        4
+      ]
+    }
+  ],
+  "pickle_used": false
+}

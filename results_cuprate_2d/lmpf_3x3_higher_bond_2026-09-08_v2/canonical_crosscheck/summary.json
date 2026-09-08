@@ -1,0 +1,56 @@
+{
+  "method": "mixed-canonical MPS, independent of D2BP messages",
+  "native_graph": "18 vertices, 17 adjacent edges, no loops",
+  "source_sha256": "ffd704e6f2a2f57832f52097eff23ded92d91351611cbff0a5e2b297e4f0d410",
+  "new_qpu_seconds": 0,
+  "records": [
+    {
+      "observable": 8,
+      "chi": 2,
+      "arm": 0,
+      "seconds": 1.018077232001815,
+      "canonical_norm_squared": 0.6620603238030311,
+      "bp_norm_squared": 0.6620603238030361,
+      "distance_squared": -2.220446049250313e-16,
+      "relative_hs_distance": 0.0,
+      "canonical_expectation_zero": 0.7665953354587588,
+      "bp_expectation_zero": 0.7665953354587624
+    },
+    {
+      "observable": 8,
+      "chi": 2,
+      "arm": 1,
+      "seconds": 0.9062503419991117,
+      "canonical_norm_squared": 0.1737903468080892,
+      "bp_norm_squared": 0.17379034680807856,
+      "distance_squared": -1.6653345369377348e-16,
+      "relative_hs_distance": 0.0,
+      "canonical_expectation_zero": 0.4018310471157527,
+      "bp_expectation_zero": 0.40183104711585854
+    },
+    {
+      "observable": 8,
+      "chi": 4,
+      "arm": 0,
+      "seconds": 0.48710015100004966,
+      "canonical_norm_squared": 0.7535621196866018,
+      "bp_norm_squared": 0.7535621196865906,
+      "distance_squared": 0.0011980401282181141,
+      "relative_hs_distance": 0.03987274662185058,
+      "canonical_expectation_zero": 0.6040787400855508,
+      "bp_expectation_zero": 0.6040787400855575
+    },
+    {
+      "observable": 8,
+      "chi": 4,
+      "arm": 1,
+      "seconds": 0.5178509159995883,
+      "canonical_norm_squared": 0.16462074670818722,
+      "bp_norm_squared": 0.1646207467084223,
+      "distance_squared": -1.1102230246251565e-16,
+      "relative_hs_distance": 0.0,
+      "canonical_expectation_zero": 0.36533485254654546,
+      "bp_expectation_zero": 0.36533485254685794
+    }
+  ]
+}
