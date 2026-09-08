@@ -19,6 +19,8 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   2D Hubbard validation, genuine 2D tensor networks, explicit rejected fits,
   and prepared 3x3/6x6 folding inputs. This is not validated 6x6 hardware mitigation.
   [Executed comparison and verification](results_cuprate_2d/lmpf_2d_pilot_2026-09-08_v3/DELIVERY.md).
+  [Actual 3x3 hardware application](results_cuprate_2d/lmpf_3x3_hardware_2026-09-08_v1/DELIVERY.md):
+  spin improves, charge and doublons worsen; the conditional 6x6 step was not started.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

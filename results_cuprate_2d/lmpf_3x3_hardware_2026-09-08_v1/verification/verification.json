@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED_3X3_EXPLORATORY_APPLICATION_NOT_ACCEPTED_FOR_6X6",
+  "maximum_gram_reconstruction_error": 8.881784197001252e-16,
+  "maximum_optimizer_projected_gradient": 3.3306690738754696e-16,
+  "maximum_raw_sample_reconstruction_error": 6.661338147750939e-16,
+  "native_quimb_chi1_squared_distance": 0.0,
+  "native_quimb_bp_nonconverged_updates": 0,
+  "maximum_accumulated_truncation_bound": 4.7976088229790275,
+  "minimum_schmidt_relative_gap": 0.7972899644913269,
+  "states_saved": 80,
+  "physical_observables": 27,
+  "six_by_six_started": false,
+  "new_qpu_seconds": 0,
+  "verification_source_sha256": "9c5f0a9ce0deea8dabb83337af6b83ba0a1b4f475040f5f92c5a052ffe1383fa",
+  "seconds": 12.081776439998066,
+  "scope": "Software, native-chi1 and saved-evidence checks; not a noise-model or higher-bond convergence certificate."
+}

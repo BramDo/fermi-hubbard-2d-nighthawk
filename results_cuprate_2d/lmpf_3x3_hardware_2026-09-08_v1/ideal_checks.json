@@ -1,0 +1,20 @@
+[
+  {
+    "factor": 1,
+    "twirl": 0,
+    "max_error_vs_saved_reference": 1.7541523789077473e-14,
+    "probability_sum": 0.9999999999998606
+  },
+  {
+    "factor": 2,
+    "twirl": 0,
+    "max_error_vs_saved_reference": 1.7541523789077473e-14,
+    "probability_sum": 0.9999999999998606
+  },
+  {
+    "factor": 3,
+    "twirl": 0,
+    "max_error_vs_saved_reference": 1.7541523789077473e-14,
+    "probability_sum": 0.9999999999998606
+  }
+]

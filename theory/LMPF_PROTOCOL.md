@@ -146,3 +146,24 @@ raw sampled bitstrings, overlaps, coefficients and rejection reasons are kept.
 No cloud service is instantiated, no quantum job is submitted, and no article
 is published. Qiskit 2.5.2 and quimb 1.13.0 are the tested installed versions;
 the environment has not been downgraded to Qiskit 2.1.
+
+## Subsequent actual 3x3 hardware application
+
+On 2026-09-08, `lmpf_2d/archive_3x3.py` applied independently calculated chi=1
+coefficients to the actual saved 3x3 CZ-folding data, using all eight twirls per
+arm and all cross-twirl terms in the Gram matrix. This extends beyond the first
+offline simulation pilot and beyond merely preparing input moments.
+
+The native circuit channel includes its physical preparation gates; the input
+before them is all-zero. A batched rank-one-SVD product TN implements chi=1,
+checked against quimb on small tests and one native 18-qubit observable.
+Three noise-rate variants and unregularized/fixed-ridge coefficients remain
+separate. The known reference is used for validation, never coefficient fitting.
+
+At an equal 640-shot budget including readout calibration, primary L-MPF
+improves spin but worsens charge and doublons versus readout and linear ZNE.
+Its central minimum reconstructed pair probability is -0.060244, not clipped.
+The preregistered empirical guardrail fails, so the user-authorized conditional
+6x6 step was not started. Device-noise and higher-bond validation remain open.
+This is an exploratory application, not validated general-purpose hardware
+mitigation. See [the full result and audit](../results_cuprate_2d/lmpf_3x3_hardware_2026-09-08_v1/DELIVERY.md).

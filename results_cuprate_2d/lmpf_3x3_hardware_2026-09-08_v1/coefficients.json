@@ -1,0 +1,1630 @@
+{
+  "lmpf_ridge_rate_0.7": [
+    {
+      "coefficients": [
+        1.6271314946990785,
+        0.14231197107202304,
+        -0.7694434657711018
+      ],
+      "projection_residual": 0.02076375546609588,
+      "condition_constrained": 3.516850917571756,
+      "gram_min_eigenvalue": -4.4092484885041567e-16,
+      "coefficient_l1": 2.538886931542203,
+      "coefficient_l2_squared": 3.259852845169906,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.0011906172085556,
+        0.2999849048498568,
+        -0.3011755220584123
+      ],
+      "projection_residual": 0.015854690909658298,
+      "condition_constrained": 1.9570702379413574,
+      "gram_min_eigenvalue": -1.241775427814226e-16,
+      "coefficient_l1": 1.6023510441168247,
+      "coefficient_l2_squared": 1.1830802902113833,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.5919847514693601,
+        0.16522009251985173,
+        -0.7572048439892121
+      ],
+      "projection_residual": 0.022889393897678467,
+      "condition_constrained": 3.185774479871084,
+      "gram_min_eigenvalue": -5.04874751008624e-17,
+      "coefficient_l1": 2.514409687978424,
+      "coefficient_l2_squared": 3.135072303643956,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.0110197071957459,
+        0.3091302841061077,
+        -0.32014999130185356
+      ],
+      "projection_residual": 0.017011505789143233,
+      "condition_constrained": 1.930971866377442,
+      "gram_min_eigenvalue": -2.943626758133003e-16,
+      "coefficient_l1": 1.640299982603707,
+      "coefficient_l2_squared": 1.2202183978202714,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.6313547704572757,
+        0.17954382589411977,
+        -0.8108985963513957
+      ],
+      "projection_residual": 0.02058805691591281,
+      "condition_constrained": 3.6174828177144853,
+      "gram_min_eigenvalue": -7.59698406477206e-17,
+      "coefficient_l1": 2.6217971927027914,
+      "coefficient_l2_squared": 3.351110906075073,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.0991155235105683,
+        0.30703035865860434,
+        -0.40614588216917286
+      ],
+      "projection_residual": 0.016595031056071297,
+      "condition_constrained": 2.220184217878093,
+      "gram_min_eigenvalue": -1.5108023320834968e-16,
+      "coefficient_l1": 1.8122917643383454,
+      "coefficient_l2_squared": 1.4672770527629175,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.5774957526604314,
+        0.16555179117502772,
+        -0.7430475438354593
+      ],
+      "projection_residual": 0.021276620499760313,
+      "condition_constrained": 3.2951806960403887,
+      "gram_min_eigenvalue": -6.515072726347994e-17,
+      "coefficient_l1": 2.4860950876709182,
+      "coefficient_l2_squared": 3.06801989762287,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.1126182114028684,
+        0.3070308570227671,
+        -0.4196490684256355
+      ],
+      "projection_residual": 0.017629442469322965,
+      "condition_constrained": 2.1901349129559047,
+      "gram_min_eigenvalue": -2.446033331299252e-16,
+      "coefficient_l1": 1.839298136851271,
+      "coefficient_l2_squared": 1.5082925721399565,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.4689829741079548,
+        0.2964106760141258,
+        -0.7653936501220808
+      ],
+      "projection_residual": 0.022944454734317,
+      "condition_constrained": 2.944341860684034,
+      "gram_min_eigenvalue": -1.0742054526109598e-16,
+      "coefficient_l1": 2.530787300244161,
+      "coefficient_l2_squared": 2.8315977067214058,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.1121407663231189,
+        0.2623612547977958,
+        -0.37450202112091485
+      ],
+      "projection_residual": 0.01914872989972538,
+      "condition_constrained": 2.037563166678319,
+      "gram_min_eigenvalue": -1.0985755219899824e-16,
+      "coefficient_l1": 1.7490040422418296,
+      "coefficient_l2_squared": 1.4459422759604983,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.570039859402275,
+        0.19718893091874845,
+        -0.7672287903210238
+      ],
+      "projection_residual": 0.021328877826379822,
+      "condition_constrained": 3.3100935036237495,
+      "gram_min_eigenvalue": -5.4997544027021965e-17,
+      "coefficient_l1": 2.534457580642047,
+      "coefficient_l2_squared": 3.092548651286256,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.6564715104243817,
+        0.15660265466843695,
+        -0.8130741650928188
+      ],
+      "projection_residual": 0.020094839164616074,
+      "condition_constrained": 3.7513980931170408,
+      "gram_min_eigenvalue": -3.540325494562104e-17,
+      "coefficient_l1": 2.6261483301856376,
+      "coefficient_l2_squared": 3.4295118542382186,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.146012499899021,
+        0.2951337040122851,
+        -0.44114620391130627
+      ],
+      "projection_residual": 0.02126585200574438,
+      "condition_constrained": 2.059482921862581,
+      "gram_min_eigenvalue": -9.335839960799559e-17,
+      "coefficient_l1": 1.8822924078226126,
+      "coefficient_l2_squared": 1.5950585263941708,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.5219570805236022,
+        0.25955361264772026,
+        -0.7815106931713227
+      ],
+      "projection_residual": 0.017412137488237223,
+      "condition_constrained": 3.729158513709301,
+      "gram_min_eigenvalue": -6.050693992119069e-17,
+      "coefficient_l1": 2.563021386342645,
+      "coefficient_l2_squared": 2.994480396335531,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3555319707706055,
+        0.23362640931354195,
+        -0.5891583800841478
+      ],
+      "projection_residual": 0.021138078495572366,
+      "condition_constrained": 2.610011260348591,
+      "gram_min_eigenvalue": -1.647597302299753e-16,
+      "coefficient_l1": 2.178316760168295,
+      "coefficient_l2_squared": 2.2391558197333574,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.5275547864330068,
+        0.17645500008101445,
+        -0.7040097865140214
+      ],
+      "projection_residual": 0.019633123050449064,
+      "condition_constrained": 3.298281139015811,
+      "gram_min_eigenvalue": -8.913539589426472e-17,
+      "coefficient_l1": 2.4080195730280423,
+      "coefficient_l2_squared": 2.8601897721154974,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.535970886082847,
+        0.14247960213894442,
+        -0.6784504882217917
+      ],
+      "projection_residual": 0.01889918632556975,
+      "condition_constrained": 3.3682696934830467,
+      "gram_min_eigenvalue": -3.7957860297351756e-16,
+      "coefficient_l1": 2.3569009764435833,
+      "coefficient_l2_squared": 2.839802064888185,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.6061199653147347,
+        0.20420583478310494,
+        -0.8103258000978399
+      ],
+      "projection_residual": 0.02105882951258453,
+      "condition_constrained": 3.4969302010700156,
+      "gram_min_eigenvalue": -4.1176666076973595e-16,
+      "coefficient_l1": 2.6206516001956794,
+      "coefficient_l2_squared": 3.2779492682462736,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.7566977298951083,
+        0.08772261911561885,
+        -0.8444203490107274
+      ],
+      "projection_residual": 0.028920831385104262,
+      "condition_constrained": 3.1446445336792515,
+      "gram_min_eigenvalue": -1.44033287350227e-17,
+      "coefficient_l1": 2.6888406980214548,
+      "coefficient_l2_squared": 3.806727897946529,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.707375264768076,
+        0.10964679868243526,
+        -0.8170220634505116
+      ],
+      "projection_residual": 0.034088315015036674,
+      "condition_constrained": 2.708453276121646,
+      "gram_min_eigenvalue": -1.071684212521599e-16,
+      "coefficient_l1": 2.634044126901023,
+      "coefficient_l2_squared": 3.594677767368096,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8136289467937636,
+        0.10992623984741054,
+        -0.9235551866411744
+      ],
+      "projection_residual": 0.030474563685474076,
+      "condition_constrained": 3.2389600903428324,
+      "gram_min_eigenvalue": -1.9149702394247286e-16,
+      "coefficient_l1": 2.847110373282349,
+      "coefficient_l2_squared": 4.1542879176270615,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.7429522976077867,
+        0.10411234564831384,
+        -0.8470646432561006
+      ],
+      "projection_residual": 0.03320834726107119,
+      "condition_constrained": 2.8459791157893823,
+      "gram_min_eigenvalue": -7.139260051760412e-17,
+      "coefficient_l1": 2.694129286512201,
+      "coefficient_l2_squared": 3.766240602107241,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.6288157330139292,
+        0.18542133861840523,
+        -0.8142370716323348
+      ],
+      "projection_residual": 0.03728617619994257,
+      "condition_constrained": 2.444939206843389,
+      "gram_min_eigenvalue": -8.862644877575851e-18,
+      "coefficient_l1": 2.628474143264669,
+      "coefficient_l2_squared": 3.3504037737491448,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8633429995917938,
+        0.06115171763686639,
+        -0.9244947172286606
+      ],
+      "projection_residual": 0.03935533059235724,
+      "condition_constrained": 2.81366963662729,
+      "gram_min_eigenvalue": -2.9304206608635695e-17,
+      "coefficient_l1": 2.848989434457321,
+      "coefficient_l2_squared": 4.330477148881384,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.7724603017661174,
+        0.17136911628084356,
+        -0.9438294180469611
+      ],
+      "projection_residual": 0.030188529971598488,
+      "condition_constrained": 3.2054636644500643,
+      "gram_min_eigenvalue": -1.715166470182788e-16,
+      "coefficient_l1": 2.887658836093922,
+      "coefficient_l2_squared": 4.061796865722578,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8263219162496245,
+        0.04377424567456667,
+        -0.8700961619241914
+      ],
+      "projection_residual": 0.039962112869314004,
+      "condition_constrained": 2.6806552390545018,
+      "gram_min_eigenvalue": -2.8057310824308e-17,
+      "coefficient_l1": 2.7401923238483823,
+      "coefficient_l2_squared": 4.094435257353286,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0096833016066475,
+        -0.010999520714349453,
+        -0.9986837808922979
+      ],
+      "projection_residual": 0.04355385654591326,
+      "condition_constrained": 2.9282300680089812,
+      "gram_min_eigenvalue": -2.0706662654518521e-16,
+      "coefficient_l1": 3.019366603213295,
+      "coefficient_l2_squared": 5.036317256429877,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    }
+  ],
+  "lmpf_unregularized": [
+    {
+      "coefficients": [
+        2.546580682014183,
+        -0.09074946456491445,
+        -1.4558312174492685
+      ],
+      "projection_residual": -2.7755575615628914e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -4.316553453240933e-16,
+      "coefficient_l1": 4.093161364028366,
+      "coefficient_l2_squared": 8.612753169026458,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        1.7993564186974136,
+        0.23352972617216367,
+        -1.0328861448695776
+      ],
+      "projection_residual": 1.3322676295501878e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -1.8136667902357914e-16,
+      "coefficient_l1": 3.065772289739155,
+      "coefficient_l2_squared": 4.3590734427771665,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.580042205823849,
+        -0.06477942190808028,
+        -1.5152627839157684
+      ],
+      "projection_residual": 9.992007221626409e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -4.6576618730980855e-17,
+      "coefficient_l1": 4.160084411647698,
+      "coefficient_l2_squared": 8.956835461655302,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        1.8533302052399483,
+        0.2493387072564502,
+        -1.1026689124963989
+      ],
+      "projection_residual": -7.771561172376096e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -4.464970527291793e-16,
+      "coefficient_l1": 3.2053378249927973,
+      "coefficient_l2_squared": 4.712881371177057,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.5290669707331923,
+        -0.025159506827318878,
+        -1.5039074639058732
+      ],
+      "projection_residual": 6.661338147750939e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": 6.023396308701806e-19,
+      "coefficient_l1": 4.058133941466384,
+      "coefficient_l2_squared": 8.658550403229155,
+      "constraint_error": 4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        1.8539457898702314,
+        0.24729646102848646,
+        -1.1012422508987179
+      ],
+      "projection_residual": 2.55351295663786e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.0304068109332645e-17,
+      "coefficient_l1": 3.2024845017974357,
+      "coefficient_l2_squared": 4.711005026579245,
+      "constraint_error": 0.0,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.486426773183373,
+        -0.043939562053319,
+        -1.4424872111300544
+      ],
+      "projection_residual": 6.661338147750939e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.1985021386370284e-17,
+      "coefficient_l1": 3.9728535463667463,
+      "coefficient_l2_squared": 8.265018137790282,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        1.9099968375611882,
+        0.24289332871358774,
+        -1.1528901662747761
+      ],
+      "projection_residual": 1.4432899320127035e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -9.71053337913243e-17,
+      "coefficient_l1": 3.305780332549552,
+      "coefficient_l2_squared": 5.036240824120388,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.4229545786672406,
+        0.17195938144667852,
+        -1.5949139601139193
+      ],
+      "projection_residual": -6.661338147750939e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -1.8336881925213903e-16,
+      "coefficient_l1": 4.189827920227838,
+      "coefficient_l2_squared": 8.444029459318333,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.009985522930407,
+        0.14457318999958169,
+        -1.1545587129299888
+      ],
+      "projection_residual": -6.661338147750939e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.382674094270901e-16,
+      "coefficient_l1": 3.309117425859977,
+      "coefficient_l2_squared": 5.393949031259028,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.48345103918566,
+        0.004216236976193499,
+        -1.487667276161854
+      ],
+      "projection_residual": 8.881784197001252e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -4.251576708457199e-17,
+      "coefficient_l1": 3.9753345523237074,
+      "coefficient_l2_squared": 8.380700765249404,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.594350749438402,
+        -0.08377010424194231,
+        -1.5105806451964594
+      ],
+      "projection_residual": 1.6653345369377348e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -3.1230444780149616e-17,
+      "coefficient_l1": 4.188701498876803,
+      "coefficient_l2_squared": 9.019527127118455,
+      "constraint_error": 4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.0668252798279347,
+        0.21554374725000247,
+        -1.2823690270779375
+      ],
+      "projection_residual": 2.55351295663786e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -7.662234850755511e-17,
+      "coefficient_l1": 3.5647380541558746,
+      "coefficient_l2_squared": 5.96269616592321,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.303036074772433,
+        0.11924866277605178,
+        -1.4222847375484848
+      ],
+      "projection_residual": 8.881784197001252e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -6.833054369053476e-17,
+      "coefficient_l1": 3.8445694750969697,
+      "coefficient_l2_squared": 7.341089279940455,
+      "constraint_error": 0.0,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.222591796757652,
+        0.09491661280549185,
+        -1.317508409563144
+      ],
+      "projection_residual": 8.881784197001252e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -1.894931211919719e-17,
+      "coefficient_l1": 3.6350168191262875,
+      "coefficient_l2_squared": 6.68475186767048,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.400060231348867,
+        -0.026426439357721876,
+        -1.3736337919911452
+      ],
+      "projection_residual": 9.992007221626409e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.3751891984258452e-17,
+      "coefficient_l1": 3.800120462697734,
+      "coefficient_l2_squared": 7.6478572652994785,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.3372526480111935,
+        -0.053782018354571304,
+        -1.2834706296566225
+      ],
+      "projection_residual": -1.3322676295501878e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -6.453788411355635e-16,
+      "coefficient_l1": 3.674505296022387,
+      "coefficient_l2_squared": 7.112939303324794,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        2.537554502536638,
+        0.0037430686596619522,
+        -1.5412975711963
+      ],
+      "projection_residual": -1.1102230246251565e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -1.2493336683552732e-16,
+      "coefficient_l1": 4.0825951423926,
+      "coefficient_l2_squared": 8.814795066882569,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.045615738276662,
+        -0.2760275359167727,
+        -1.7695882023598897
+      ],
+      "projection_residual": 1.1102230246251565e-15,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.5134231560141017e-17,
+      "coefficient_l1": 5.091231476553324,
+      "coefficient_l2_squared": 12.483408831754089,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.203953481930977,
+        -0.28827554065490607,
+        -1.9156779412760712
+      ],
+      "projection_residual": -6.661338147750939e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -1.3020857838683645e-16,
+      "coefficient_l1": 5.407906963861954,
+      "coefficient_l2_squared": 14.018242676409237,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.158650341528695,
+        -0.2500202539097581,
+        -1.9086300876189368
+      ],
+      "projection_residual": 4.440892098500626e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -2.5049622318056586e-17,
+      "coefficient_l1": 5.31730068305739,
+      "coefficient_l2_squared": 13.68245091876871,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.1904270551714924,
+        -0.28366678304109544,
+        -1.906760272130397
+      ],
+      "projection_residual": -3.3306690738754696e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -5.426734156061165e-18,
+      "coefficient_l1": 5.380854110342985,
+      "coefficient_l2_squared": 13.89502637354591,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.2444116469748305,
+        -0.1643914894621052,
+        -2.0800201575127253
+      ],
+      "projection_residual": -4.440892098500626e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -8.570980454645922e-17,
+      "coefficient_l1": 5.488823293949661,
+      "coefficient_l2_squared": 14.879715352492765,
+      "constraint_error": 0.0,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.6069398166443305,
+        -0.4456062336283049,
+        -2.1613335830160256
+      ],
+      "projection_residual": -7.771561172376096e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -8.888566407564217e-17,
+      "coefficient_l1": 6.213879633288661,
+      "coefficient_l2_squared": 17.87994261341553,
+      "constraint_error": 0.0,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.0939723218688373,
+        -0.13628909234566494,
+        -1.9576832295231725
+      ],
+      "projection_residual": 8.881784197001252e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -4.915178345998099e-17,
+      "coefficient_l1": 5.187944643737675,
+      "coefficient_l2_squared": 13.42376307233913,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.601535855367588,
+        -0.4893590755167892,
+        -2.1121767798507984
+      ],
+      "projection_residual": -2.220446049250313e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -7.352493707599245e-17,
+      "coefficient_l1": 6.203071710735175,
+      "coefficient_l2_squared": 17.67182357162988,
+      "constraint_error": 4.440892098500626e-16,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    },
+    {
+      "coefficients": [
+        3.960969731334911,
+        -0.6399472352896876,
+        -2.3210224960452233
+      ],
+      "projection_residual": -5.551115123125783e-16,
+      "condition_constrained": 1.0,
+      "gram_min_eigenvalue": -5.423486460804638e-17,
+      "coefficient_l1": 6.9219394626698225,
+      "coefficient_l2_squared": 21.48595910365427,
+      "constraint_error": 0.0,
+      "ridge": 0.0,
+      "rank_constrained": 1
+    }
+  ],
+  "lmpf_ridge": [
+    {
+      "coefficients": [
+        1.922673334315085,
+        0.028798119576187164,
+        -0.9514714538912725
+      ],
+      "projection_residual": 0.0299287712928179,
+      "condition_constrained": 3.5473974731072704,
+      "gram_min_eigenvalue": -4.316553453240933e-16,
+      "coefficient_l1": 2.9029429077825446,
+      "coefficient_l2_squared": 4.602800009747384,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.213029003563757,
+        0.2734455989793693,
+        -0.4864746025431263
+      ],
+      "projection_residual": 0.0172523692548473,
+      "condition_constrained": 2.5003488622988748,
+      "gram_min_eigenvalue": -1.8136667902357914e-16,
+      "coefficient_l1": 1.9729492050862527,
+      "coefficient_l2_squared": 1.78286939800756,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8827468267877996,
+        0.05878006012548698,
+        -0.9415268869132867
+      ],
+      "projection_residual": 0.032959921454394914,
+      "condition_constrained": 3.2220332158179508,
+      "gram_min_eigenvalue": -4.6576618730980855e-17,
+      "coefficient_l1": 2.883053773826573,
+      "coefficient_l2_squared": 4.434663588028509,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.2270963669209303,
+        0.2839442239246158,
+        -0.511040590845546
+      ],
+      "projection_residual": 0.01894588068442349,
+      "condition_constrained": 2.4272033526433763,
+      "gram_min_eigenvalue": -4.464970527291793e-16,
+      "coefficient_l1": 2.0220811816910924,
+      "coefficient_l2_squared": 1.8475523015024633,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.9319465954866857,
+        0.0723310883859542,
+        -1.0042776838726402
+      ],
+      "projection_residual": 0.029434287740708,
+      "condition_constrained": 3.6772043434180373,
+      "gram_min_eigenvalue": 6.023396308701806e-19,
+      "coefficient_l1": 3.00855536774528,
+      "coefficient_l2_squared": 4.746223100484286,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3135154313857516,
+        0.2778742308887233,
+        -0.591389662274475
+      ],
+      "projection_residual": 0.017908721274515593,
+      "condition_constrained": 2.8137065815494355,
+      "gram_min_eigenvalue": -2.0304068109332645e-17,
+      "coefficient_l1": 2.1827793245489495,
+      "coefficient_l2_squared": 2.1522786093256143,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8609914496538564,
+        0.06565149935528403,
+        -0.9266429490091406
+      ],
+      "projection_residual": 0.029191757503280735,
+      "condition_constrained": 3.4425517057455157,
+      "gram_min_eigenvalue": -2.1985021386370284e-17,
+      "coefficient_l1": 2.8532858980182807,
+      "coefficient_l2_squared": 4.326266450000715,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3318685459967343,
+        0.27605571575411403,
+        -0.6079242617508485
+      ],
+      "projection_residual": 0.01950239671039522,
+      "condition_constrained": 2.727186209761988,
+      "gram_min_eigenvalue": -9.71053337913243e-17,
+      "coefficient_l1": 2.2158485235016965,
+      "coefficient_l2_squared": 2.2196524900412853,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.74476698612879,
+        0.22433337609896276,
+        -0.969100362227753
+      ],
+      "projection_residual": 0.03175011198610023,
+      "condition_constrained": 3.081184716919496,
+      "gram_min_eigenvalue": -1.8336881925213903e-16,
+      "coefficient_l1": 2.9382007244555055,
+      "coefficient_l2_squared": 4.033692811586862,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3410902492083918,
+        0.2198784730669046,
+        -0.5609687222752968
+      ],
+      "projection_residual": 0.021669220308721093,
+      "condition_constrained": 2.5065989482441564,
+      "gram_min_eigenvalue": -2.382674094270901e-16,
+      "coefficient_l1": 2.121937444550593,
+      "coefficient_l2_squared": 2.161555506811239,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8565710920463134,
+        0.10017233621924732,
+        -0.9567434282655611
+      ],
+      "projection_residual": 0.029682016853411652,
+      "condition_constrained": 3.4298715657822556,
+      "gram_min_eigenvalue": -4.251576708457199e-17,
+      "coefficient_l1": 2.913486856531122,
+      "coefficient_l2_squared": 4.372248704295002,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.9685608367853702,
+        0.03167311256314875,
+        -1.0002339493485193
+      ],
+      "projection_residual": 0.031048484986225422,
+      "condition_constrained": 3.613061461025313,
+      "gram_min_eigenvalue": -3.1230444780149616e-17,
+      "coefficient_l1": 3.000467898697038,
+      "coefficient_l2_squared": 4.876702907613891,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.386054362982732,
+        0.26180166305683816,
+        -0.6478560260395703
+      ],
+      "projection_residual": 0.023974074491438624,
+      "condition_constrained": 2.546366044142822,
+      "gram_min_eigenvalue": -7.662234850755511e-17,
+      "coefficient_l1": 2.29571205207914,
+      "coefficient_l2_squared": 2.4094042383985776,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.799156134090244,
+        0.17401477993266365,
+        -0.9731709140229077
+      ],
+      "projection_residual": 0.023823090757845944,
+      "condition_constrained": 3.9090715513944914,
+      "gram_min_eigenvalue": -6.833054369053476e-17,
+      "coefficient_l1": 2.9463418280458153,
+      "coefficient_l2_squared": 4.214305566369747,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.6037042665334875,
+        0.1730176975370051,
+        -0.776721964070493
+      ],
+      "projection_residual": 0.024982864517058445,
+      "condition_constrained": 3.0526684917048215,
+      "gram_min_eigenvalue": -1.894931211919719e-17,
+      "coefficient_l1": 2.5534439281409855,
+      "coefficient_l2_squared": 3.205099507628242,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.7996966119693492,
+        0.07808019838302438,
+        -0.8777768103523738
+      ],
+      "projection_residual": 0.026920789865602313,
+      "condition_constrained": 3.442458588932362,
+      "gram_min_eigenvalue": -2.3751891984258452e-17,
+      "coefficient_l1": 2.755553620704747,
+      "coefficient_l2_squared": 4.015496541305874,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.7995409606231765,
+        0.05009264737934288,
+        -0.8496336080025197
+      ],
+      "projection_residual": 0.023768452918772165,
+      "condition_constrained": 3.726754247079998,
+      "gram_min_eigenvalue": -6.453788411355635e-16,
+      "coefficient_l1": 2.699267216005039,
+      "coefficient_l2_squared": 3.9627342101294354,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.9064086081248666,
+        0.09811633087729557,
+        -1.0045249390021624
+      ],
+      "projection_residual": 0.030949355419292557,
+      "condition_constrained": 3.4924114831764,
+      "gram_min_eigenvalue": -1.2493336683552732e-16,
+      "coefficient_l1": 3.0090498780043244,
+      "coefficient_l2_squared": 4.653090948594713,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0843714158196853,
+        -0.060067474078609795,
+        -1.0243039417410755
+      ],
+      "projection_residual": 0.049642142332754546,
+      "condition_constrained": 2.821636852960167,
+      "gram_min_eigenvalue": -2.5134231560141017e-17,
+      "coefficient_l1": 3.1687428316393706,
+      "coefficient_l2_squared": 5.397410865594648,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0096203331137086,
+        -0.029652648954723804,
+        -0.979967684158985
+      ],
+      "projection_residual": 0.059371265141159646,
+      "condition_constrained": 2.403533847687624,
+      "gram_min_eigenvalue": -1.3020857838683645e-16,
+      "coefficient_l1": 3.019240666227417,
+      "coefficient_l2_squared": 4.99978982485001,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.1642194220697086,
+        -0.04469644690008706,
+        -1.1195229751696218
+      ],
+      "projection_residual": 0.05437084815524795,
+      "condition_constrained": 2.841139543139364,
+      "gram_min_eigenvalue": -2.5049622318056586e-17,
+      "coefficient_l1": 3.3284388441394177,
+      "coefficient_l2_squared": 5.939175171161878,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.059668693611437,
+        -0.039475269356676945,
+        -1.0201934242547603
+      ],
+      "projection_residual": 0.05791244270512308,
+      "condition_constrained": 2.526705809980799,
+      "gram_min_eigenvalue": -5.426734156061165e-18,
+      "coefficient_l1": 3.119337387222874,
+      "coefficient_l2_squared": 5.28458804722648,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.9112182262218498,
+        0.06355272488171271,
+        -0.9747709511035629
+      ],
+      "projection_residual": 0.06448039123245508,
+      "condition_constrained": 2.183537863543716,
+      "gram_min_eigenvalue": -8.570980454645922e-17,
+      "coefficient_l1": 2.9495419022071254,
+      "coefficient_l2_squared": 4.606972464197829,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.191907011678765,
+        -0.10890570289695756,
+        -1.0830013087818076
+      ],
+      "projection_residual": 0.07689507498610448,
+      "condition_constrained": 2.3134491806998483,
+      "gram_min_eigenvalue": -8.888566407564217e-17,
+      "coefficient_l1": 3.3838140233575302,
+      "coefficient_l2_squared": 5.989208634793123,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.120488627428203,
+        0.029313790117679372,
+        -1.1498024175458823
+      ],
+      "projection_residual": 0.053362677957307314,
+      "condition_constrained": 2.8358348519866823,
+      "gram_min_eigenvalue": -4.915178345998099e-17,
+      "coefficient_l1": 3.299604835091765,
+      "coefficient_l2_squared": 5.819376916737763,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.132884026516428,
+        -0.11966083842968461,
+        -1.0132231880867435
+      ],
+      "projection_residual": 0.07661049444809173,
+      "condition_constrained": 2.2253079033652057,
+      "gram_min_eigenvalue": -7.352493707599245e-17,
+      "coefficient_l1": 3.265768053032856,
+      "coefficient_l2_squared": 5.59013421569929,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.363058210246749,
+        -0.21123386293773022,
+        -1.151824347309019
+      ],
+      "projection_residual": 0.09309335027559229,
+      "condition_constrained": 2.2702360863705353,
+      "gram_min_eigenvalue": -5.423486460804638e-17,
+      "coefficient_l1": 3.726116420493498,
+      "coefficient_l2_squared": 6.955363176920012,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    }
+  ],
+  "lmpf_ridge_rate_1.3": [
+    {
+      "coefficients": [
+        2.1945694927045967,
+        -0.09744196118225629,
+        -1.09712753152234
+      ],
+      "projection_residual": 0.046637273159753745,
+      "condition_constrained": 3.1809600589855296,
+      "gram_min_eigenvalue": -1.2703600535373405e-16,
+      "coefficient_l1": 3.3891389854091933,
+      "coefficient_l2_squared": 6.029319014533058,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3747814944963794,
+        0.24399652039058706,
+        -0.6187780148869668
+      ],
+      "projection_residual": 0.018276697848870316,
+      "condition_constrained": 2.9532202918370967,
+      "gram_min_eigenvalue": -7.33185098015078e-17,
+      "coefficient_l1": 2.237556029773933,
+      "coefficient_l2_squared": 2.332444691279868,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.1425213125829354,
+        -0.059189054330330226,
+        -1.0833322582526053
+      ],
+      "projection_residual": 0.05084281730583373,
+      "condition_constrained": 2.908605164835036,
+      "gram_min_eigenvalue": -1.3787566696354365e-16,
+      "coefficient_l1": 3.285042625165871,
+      "coefficient_l2_squared": 5.767509700795314,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.3943725335827295,
+        0.25448418142613893,
+        -0.6488567150088687
+      ],
+      "projection_residual": 0.020599557939086965,
+      "condition_constrained": 2.8175829224145352,
+      "gram_min_eigenvalue": -4.3504231114651634e-17,
+      "coefficient_l1": 2.297713430017737,
+      "coefficient_l2_squared": 2.4300519976181523,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.2129363320134923,
+        -0.050423381197176265,
+        -1.1625129508163166
+      ],
+      "projection_residual": 0.045663179863436876,
+      "condition_constrained": 3.31420149673613,
+      "gram_min_eigenvalue": -4.409519165541664e-18,
+      "coefficient_l1": 3.4258726640269854,
+      "coefficient_l2_squared": 6.251066087732345,
+      "constraint_error": -6.661338147750939e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.4817221841855468,
+        0.24356601605724304,
+        -0.7252882002427901
+      ],
+      "projection_residual": 0.01949703205489628,
+      "condition_constrained": 3.2416733081589406,
+      "gram_min_eigenvalue": -1.3340194528828925e-16,
+      "coefficient_l1": 2.4505764004855797,
+      "coefficient_l2_squared": 2.78086800869701,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.1189491321432183,
+        -0.045780253742990606,
+        -1.073168878400228
+      ],
+      "projection_residual": 0.043291834511107685,
+      "condition_constrained": 3.1904491031816145,
+      "gram_min_eigenvalue": -1.8915704390048077e-17,
+      "coefficient_l1": 3.237898264286437,
+      "coefficient_l2_squared": 5.643732697810075,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.505930505754525,
+        0.239245026430412,
+        -0.7451755321849372
+      ],
+      "projection_residual": 0.021811102892441925,
+      "condition_constrained": 3.085289611301463,
+      "gram_min_eigenvalue": -1.6292688777228975e-17,
+      "coefficient_l1": 2.4903510643698743,
+      "coefficient_l2_squared": 2.880351444600872,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.9918354890764043,
+        0.1359868794284558,
+        -1.1278223685048603
+      ],
+      "projection_residual": 0.04687699490687969,
+      "condition_constrained": 2.875939595542264,
+      "gram_min_eigenvalue": -4.2351808605018226e-17,
+      "coefficient_l1": 3.25564473700972,
+      "coefficient_l2_squared": 5.257884341820841,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.520700385151218,
+        0.17503948269965877,
+        -0.695739867850877
+      ],
+      "projection_residual": 0.024476813334327496,
+      "condition_constrained": 2.81942532876696,
+      "gram_min_eigenvalue": -2.559703446495975e-16,
+      "coefficient_l1": 2.391479735701754,
+      "coefficient_l2_squared": 2.8272224456199826,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.1184976914640665,
+        -0.010492918411965979,
+        -1.1080047730521008
+      ],
+      "projection_residual": 0.04458408565390448,
+      "condition_constrained": 3.1558316376895865,
+      "gram_min_eigenvalue": -3.758318057312979e-17,
+      "coefficient_l1": 3.236995382928133,
+      "coefficient_l2_squared": 5.7158171471816175,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.25772113247607,
+        -0.10915414243802568,
+        -1.1485669900380446
+      ],
+      "projection_residual": 0.05152935202728792,
+      "condition_constrained": 3.1122122968743198,
+      "gram_min_eigenvalue": -1.3250848147778969e-18,
+      "coefficient_l1": 3.5154422649521404,
+      "coefficient_l2_squared": 6.428425469445463,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.5755009583857222,
+        0.22364576208813086,
+        -0.7991467204738532
+      ],
+      "projection_residual": 0.02701006357204594,
+      "condition_constrained": 2.875969327345403,
+      "gram_min_eigenvalue": -1.1711477833932103e-16,
+      "coefficient_l1": 2.5982934409477063,
+      "coefficient_l2_squared": 3.1708561776184245,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0629516843056805,
+        0.07086888198252872,
+        -1.1338205662882093
+      ],
+      "projection_residual": 0.035543694937059556,
+      "condition_constrained": 3.619013725143212,
+      "gram_min_eigenvalue": -9.778637092376148e-18,
+      "coefficient_l1": 3.2676411325764185,
+      "coefficient_l2_squared": 5.546341126751214,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        1.8136683120589165,
+        0.10613782846448216,
+        -0.919806140523399
+      ],
+      "projection_residual": 0.03116578694462724,
+      "condition_constrained": 3.1849554783449245,
+      "gram_min_eigenvalue": -5.242341941220849e-18,
+      "coefficient_l1": 2.8396122810467976,
+      "coefficient_l2_squared": 4.146701320942347,
+      "constraint_error": -4.440892098500626e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0469946086322945,
+        -0.031893759667126376,
+        -1.0151008489651685
+      ],
+      "projection_residual": 0.03984144769510922,
+      "condition_constrained": 3.1909615769451567,
+      "gram_min_eigenvalue": -7.309791057410685e-17,
+      "coefficient_l1": 3.093989217264589,
+      "coefficient_l2_squared": 5.221633873245191,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.0389361209394696,
+        -0.050664510211629654,
+        -0.98827161072784
+      ],
+      "projection_residual": 0.03254889148320439,
+      "condition_constrained": 3.6351428696023027,
+      "gram_min_eigenvalue": -4.265837788311301e-17,
+      "coefficient_l1": 3.0778722418789393,
+      "coefficient_l2_squared": 5.1365081744372745,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.183689448868249,
+        -0.024324828119489217,
+        -1.15936462074876
+      ],
+      "projection_residual": 0.04898151529195183,
+      "condition_constrained": 3.1071667336506583,
+      "gram_min_eigenvalue": -8.40284092338627e-18,
+      "coefficient_l1": 3.367378897736498,
+      "coefficient_l2_squared": 6.113217630205476,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.344844159626401,
+        -0.21016491126069242,
+        -1.1346792483657087
+      ],
+      "projection_residual": 0.0877284205244217,
+      "condition_constrained": 2.322390136221824,
+      "gram_min_eigenvalue": -6.054270645068258e-18,
+      "coefficient_l1": 3.6896883192528023,
+      "coefficient_l2_squared": 6.829960419531028,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.216300849299169,
+        -0.16280276045385123,
+        -1.053498088845318
+      ],
+      "projection_residual": 0.10345821791966264,
+      "condition_constrained": 1.9864263492410885,
+      "gram_min_eigenvalue": -3.561578382054999e-17,
+      "coefficient_l1": 3.4326016985983383,
+      "coefficient_l2_squared": 6.048352416616351,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.4411045699356926,
+        -0.20420144542895863,
+        -1.2369031245067341
+      ],
+      "projection_residual": 0.09913234993402886,
+      "condition_constrained": 2.2964784961264804,
+      "gram_min_eigenvalue": 8.279395474822842e-19,
+      "coefficient_l1": 3.882209139871385,
+      "coefficient_l2_squared": 7.53061909109072,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.2879550435694718,
+        -0.17998736985060665,
+        -1.107967673718865
+      ],
+      "projection_residual": 0.10191697810070183,
+      "condition_constrained": 2.079553896675006,
+      "gram_min_eigenvalue": -2.782266138482681e-17,
+      "coefficient_l1": 3.5759100871389435,
+      "coefficient_l2_squared": 6.494726100706716,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.088206097176599,
+        -0.05499942096447974,
+        -1.0332066762121195
+      ],
+      "projection_residual": 0.10983917279060923,
+      "condition_constrained": 1.828778667533251,
+      "gram_min_eigenvalue": -8.964148093597038e-18,
+      "coefficient_l1": 3.1764121943531984,
+      "coefficient_l2_squared": 5.431145676361248,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.3731998975612485,
+        -0.25573534097761347,
+        -1.117464556583635
+      ],
+      "projection_residual": 0.14370940580332703,
+      "condition_constrained": 1.8217068305470163,
+      "gram_min_eigenvalue": -8.279553989027478e-19,
+      "coefficient_l1": 3.746399795122497,
+      "coefficient_l2_squared": 6.946205353630317,
+      "constraint_error": 2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.3998268054053056,
+        -0.12337422022745259,
+        -1.2764525851778528
+      ],
+      "projection_residual": 0.0965350983331224,
+      "condition_constrained": 2.3078862146509636,
+      "gram_min_eigenvalue": -6.97715770951911e-18,
+      "coefficient_l1": 3.799653610810611,
+      "coefficient_l2_squared": 7.403721096365791,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.2907125389846548,
+        -0.2548913192629613,
+        -1.0358212197216938
+      ],
+      "projection_residual": 0.14020583430633163,
+      "condition_constrained": 1.7707960504654037,
+      "gram_min_eigenvalue": -2.1668446031925645e-17,
+      "coefficient_l1": 3.5814250779693095,
+      "coefficient_l2_squared": 6.385259120122875,
+      "constraint_error": -2.220446049250313e-16,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    },
+    {
+      "coefficients": [
+        2.5153186975621282,
+        -0.36449676863240693,
+        -1.1508219289297212
+      ],
+      "projection_residual": 0.18265881672249282,
+      "condition_constrained": 1.7284017231368856,
+      "gram_min_eigenvalue": -2.8217308656084455e-17,
+      "coefficient_l1": 4.0306373951242565,
+      "coefficient_l2_squared": 7.784077156754631,
+      "constraint_error": 0.0,
+      "ridge": 0.017857142857142856,
+      "rank_constrained": 2
+    }
+  ]
+}
