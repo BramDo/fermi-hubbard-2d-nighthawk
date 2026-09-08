@@ -1,0 +1,4 @@
+{
+  "error_type": "LinAlgError",
+  "error": "Array must not contain infs or NaNs."
+}

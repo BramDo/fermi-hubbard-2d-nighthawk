@@ -1,0 +1,31 @@
+{
+  "archives": [
+    {
+      "archive": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06",
+      "job_id": "daem7r642tqs73autong",
+      "width": 18,
+      "target_shots_per_factor": [
+        512,
+        56,
+        112
+      ],
+      "calibration_shots": 128,
+      "ready_for_validated_lmpf": false,
+      "learned_noise_candidates_in_this_archive": []
+    },
+    {
+      "archive": "results_cuprate_2d/hardware_readout_cz_folding_6x6_2026-09-06",
+      "job_id": "daen2vdnj4cs73afcn00",
+      "width": 72,
+      "target_shots_per_factor": [
+        4096,
+        4096,
+        4096
+      ],
+      "calibration_shots": 1024,
+      "ready_for_validated_lmpf": false,
+      "learned_noise_candidates_in_this_archive": []
+    }
+  ],
+  "new_qpu_seconds": 0
+}

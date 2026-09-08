@@ -1,0 +1,22 @@
+test_dense_adjoint_matches_density_channel (test_lmpf_2d.ChannelTests.test_dense_adjoint_matches_density_channel) ... ok
+test_dense_unitary_and_bit_order (test_lmpf_2d.ChannelTests.test_dense_unitary_and_bit_order) ... ok
+test_disjoint_singletons_not_made_nonlocal (test_lmpf_2d.ChannelTests.test_disjoint_singletons_not_made_nonlocal) ... ok
+test_fused_noisy_blocks_exact (test_lmpf_2d.ChannelTests.test_fused_noisy_blocks_exact) ... ok
+test_affine_readout_inverse (test_lmpf_2d.ReadoutTests.test_affine_readout_inverse) ... ok
+test_identity_terms_not_rescaled (test_lmpf_2d.ReadoutTests.test_identity_terms_not_rescaled) ... ok
+test_calibration_constraint (test_lmpf_2d.SolverTests.test_calibration_constraint) ... ok
+test_covariance (test_lmpf_2d.SolverTests.test_covariance) ... ok
+test_noiseless_minimum_norm (test_lmpf_2d.SolverTests.test_noiseless_minimum_norm) ... ok
+test_projection_not_value_fit (test_lmpf_2d.SolverTests.test_projection_not_value_fit) ... ok
+test_reject_bad_gram (test_lmpf_2d.SolverTests.test_reject_bad_gram) ... ok
+test_zne_weights (test_lmpf_2d.SolverTests.test_zne_weights) ... ok
+test_full_bond_tn_matches_dense (test_lmpf_2d.TensorTests.test_full_bond_tn_matches_dense) ... ok
+test_loop_correction_matches_complete_small_loop (test_lmpf_2d.TensorTests.test_loop_correction_matches_complete_small_loop) ... ok
+test_nonlocal_gate_rejected (test_lmpf_2d.TensorTests.test_nonlocal_gate_rejected) ... ok
+test_product_operator (test_lmpf_2d.TensorTests.test_product_operator) ... ok
+test_tracked_tensor_scaling (test_lmpf_2d.TensorTests.test_tracked_tensor_scaling) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.243s
+
+OK

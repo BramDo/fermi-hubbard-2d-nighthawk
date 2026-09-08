@@ -1,0 +1,204 @@
+{
+  "schema": "lmpf-hardware-inputs-v1",
+  "archive": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "width": 18,
+  "layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "factors": [
+    1,
+    2,
+    3
+  ],
+  "arm_records": [
+    {
+      "factor": 1,
+      "record_indices": [
+        14,
+        25,
+        13,
+        5,
+        24,
+        3,
+        21,
+        22
+      ],
+      "twirl_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "shots_per_twirl": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "factor": 2,
+      "record_indices": [
+        15,
+        19,
+        10,
+        6,
+        16,
+        4,
+        20,
+        18
+      ],
+      "twirl_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "shots_per_twirl": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "factor": 3,
+      "record_indices": [
+        23,
+        2,
+        11,
+        17,
+        8,
+        9,
+        7,
+        12
+      ],
+      "twirl_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "shots_per_twirl": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    }
+  ],
+  "target_shots_per_factor": [
+    512,
+    56,
+    112
+  ],
+  "calibration_shots": 128,
+  "readout_error_posterior_mean": [
+    [
+      0.007692307692307693,
+      0.038461538461538464,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.05384615384615385,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693
+    ],
+    [
+      0.007692307692307693,
+      0.06923076923076923,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.023076923076923078,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.007692307692307693,
+      0.08461538461538462,
+      0.007692307692307693,
+      0.023076923076923078,
+      0.023076923076923078,
+      0.007692307692307693,
+      0.023076923076923078,
+      0.007692307692307693,
+      0.023076923076923078
+    ]
+  ],
+  "readout_model": "independent bit assignment; Jeffreys posterior",
+  "twirl_order": "invert readout first, then undo final X mask",
+  "mean_order": "Z logical modes, then onsite ZZ; identity terms remain separate",
+  "coefficient_conditioning_requires_actual_arm_channels": true,
+  "calibration_uncertainty": "shared posterior covariance, approximate; not coverage-certified",
+  "drift_and_correlated_readout_included": false,
+  "native_qpy_files_present": 26,
+  "qpy_contents_reverified": false,
+  "learned_noise_candidates_in_this_archive": [],
+  "ready_for_validated_lmpf": false,
+  "blocking_inputs": [
+    "Validated arm-specific Heisenberg overlaps on the saved native circuits",
+    "A learned Pauli-Lindblad model or independently validated noise surrogate at the job calibration"
+  ],
+  "do_not_apply_8q_pilot_weights_to_this_archive": true,
+  "not_an_lmpf_mitigated_hardware_result": true,
+  "new_qpu_seconds": 0,
+  "input_sha256": {
+    "plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+    "raw_bitstrings.json": "2767837c0c58db57156a1c875e2fa36925e31ebe61ab7151c838bab20f5e79cf",
+    "job_receipt.json": "0a252ff8bbc9edac0f751676285b302e68d0a0bf77956ac5c8e7a65bd35652a1"
+  },
+  "moments_sha256": "835cc2b6a1481b0ec667bddc89d285d9c32a3faa9258fbeac76ae0a93349df24"
+}

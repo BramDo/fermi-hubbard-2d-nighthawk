@@ -1,0 +1,189 @@
+{
+  "schema": "lmpf-2d-offline-pilot-v1",
+  "paper": "https://arxiv.org/html/2609.05024v1",
+  "config": {
+    "lx": 2,
+    "ly": 2,
+    "holes": 1,
+    "hopping_t": 1.0,
+    "t_prime_over_t": -0.25,
+    "u_over_t": 8.0,
+    "chemical_potential": 0.0,
+    "steps": 2,
+    "dt": 0.2,
+    "boundary_x": "open",
+    "boundary_y": "open",
+    "initial_state": "stripe_neel",
+    "shots": 512
+  },
+  "initial_bits_physical": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+  ],
+  "logical_to_final_physical": [
+    5,
+    2,
+    1,
+    0,
+    3,
+    7,
+    6,
+    4
+  ],
+  "tn_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "tn_cycles": 3,
+  "native_gate_counts": {
+    "sx": 1204,
+    "cz": 675,
+    "rz": 614,
+    "x": 27
+  },
+  "native_depth": 1415,
+  "noise_scales": [
+    1,
+    2,
+    3
+  ],
+  "coefficient_sum": 1,
+  "clifford_rescaling_used": false,
+  "shots_per_lmpf_arm": 512,
+  "raw_equal_total_shots": 1536,
+  "union_simulated_bitshots": 2560,
+  "qpu_seconds": 0,
+  "noise": {
+    "backend": "ibm_phoenix",
+    "calibration_date": {
+      "__type__": "datetime",
+      "__value__": "2026-09-06T14:35:09+02:00"
+    },
+    "physical_layout": [
+      102,
+      103,
+      104,
+      105,
+      112,
+      113,
+      114,
+      115
+    ],
+    "calibration_file": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json",
+    "calibration_sha256": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335",
+    "noise_model": "local effective Pauli-Lindblad depolarizing surrogate from average gate infidelity",
+    "learned_sparse_pauli_lindblad": false,
+    "uses_T1_T2": false,
+    "virtual_rz_without_reported_error_assumed_ideal": true,
+    "mapping": "p=d*r/(d-1); decay_rate=-log(1-p); scale multiplies decay_rate",
+    "readout_prob_1_given_0_and_0_given_1": [
+      [
+        0.002197265625,
+        0.007080078125
+      ],
+      [
+        0.0009765625,
+        0.010986328125
+      ],
+      [
+        0.001953125,
+        0.0126953125
+      ],
+      [
+        0.003662109375,
+        0.008056640625
+      ],
+      [
+        0.005126953125,
+        0.007080078125
+      ],
+      [
+        0.011962890625,
+        0.029296875
+      ],
+      [
+        0.00341796875,
+        0.007080078125
+      ],
+      [
+        0.0009765625,
+        0.0107421875
+      ]
+    ],
+    "readout_calibration_treated_as_known": true,
+    "warning": "Archived backend numbers are not a learned or current hardware noise model."
+  },
+  "chi_values": [
+    1,
+    2
+  ],
+  "loop_size": 4,
+  "max_observables": 1,
+  "seed": 20260908,
+  "runtime_cap_seconds": 300,
+  "target": "ideal finite circuit, not exact Hamiltonian evolution",
+  "regularized_variant_ridge": 0.001953125,
+  "versions": {
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2",
+    "quimb": "1.13.0",
+    "numpy": "2.4.6",
+    "scipy": "1.16.2"
+  },
+  "source_sha256": {
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/operators.py": "45cc6312de25b1a59a25fda481166fd4236e39ee86a7ebaf0e3032307a85ebe6",
+    "lmpf_2d/pilot.py": "0c62a8ad4a066d50ded8b23a28a48b7c0ee0c6a934235c9dd5c3a672d5a735c0",
+    "lmpf_2d/probe.py": "f4144540a9644b4b740141f2bd8a99fe73cb428509d436cff8c5ce5cb5443b08",
+    "lmpf_2d/__init__.py": "5a07345847da7f064fd3d6eda9a52f9a358182af6a8fe137139467868fc0657b",
+    "test_lmpf_2d.py": "7282bbe9fa911273b7fe7cd7da85bafb96d237e7d4640d66e2206fa8a48dbf59",
+    "cuprate_2d_fermionic_dynamics.py": "2da140c7f6c9ab74fa893ea87706ac275c0faa0b0d577134a6ecf45da4c0e901",
+    "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e"
+  },
+  "created_utc": "2026-09-08T16:47:46.422389+00:00"
+}

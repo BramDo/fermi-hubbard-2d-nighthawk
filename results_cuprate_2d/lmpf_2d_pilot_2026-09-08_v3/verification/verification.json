@@ -1,0 +1,21 @@
+{
+  "status": "SAVED_PILOT_VERIFIED",
+  "tests_passed": 23,
+  "operators": 12,
+  "accepted_tn_fits_checked": 94,
+  "rejected_tn_fits": 2,
+  "max_optimizer_projected_gradient": 1.3461454173580023e-14,
+  "max_loop_vs_exact_contraction_frobenius": 2.15360910933092e-14,
+  "bp_propagation_nonconverged_updates": 0,
+  "max_sample_reconstruction_error": 0.0,
+  "max_shot_standard_error_reconstruction_error": 1.3322676295501878e-13,
+  "hardware_mitigation_validated": false,
+  "new_qpu_seconds": 0,
+  "verification_source_sha256": {
+    "lmpf_2d/verify_pilot.py": "4dc4194c44c741ae3716e94e1f6590801072baea3a2da3bf53b3340cb4b23d8a",
+    "test_lmpf_2d.py": "a80aaeb69cebf55c81420fa3305bed307e52cfa239ed5e6c766bcdb6be54bd0f",
+    "test_lmpf_hardware_inputs.py": "f9f64601e83f3fc4510bec938e87a442c1c77522881098fdf8c6c7ed4bf9ff68"
+  },
+  "post_run_validator_is_separate_from_pilot_source_snapshot": true,
+  "scope": "Saved data, solver, sampling and matched-surrogate consistency; not a hardware or TN convergence certificate."
+}
