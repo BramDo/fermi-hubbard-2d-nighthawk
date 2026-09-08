@@ -183,3 +183,12 @@ coefficients were applied to the full averaged hardware data. The canonical
 route is a useful refinement backend, but small-chi propagation can disagree
 with D2BP; one chi4 ideal-operator HS discrepancy is about 4% and is retained.
 See [the higher-bond report](../results_cuprate_2d/lmpf_3x3_higher_bond_2026-09-08_v2/DELIVERY.md).
+
+The subsequent chi32/64 continuation reuses chi16 checkpoints and introduces
+an exact low-memory chain-environment overlap, independently checked with raw
+TN contraction. On the same three central operators and twirl 0, chi32->64
+relative Gram changes are 1.726%, 1.364% and 7.073%; coefficient-L1 changes
+are 0.06326, 0.06537 and 0.21642. The unchanged <=1% / <=0.05 local flags
+still fail. No new weights were applied to the full hardware average, no QPU
+job was submitted, and no 6x6 calculation was started. See the
+[chi32/64 report](../results_cuprate_2d/lmpf_3x3_chi32_64_2026-09-08_v1/DELIVERY.md).

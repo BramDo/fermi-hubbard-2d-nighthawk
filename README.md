@@ -23,6 +23,8 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   spin improves, charge and doublons worsen; the conditional 6x6 step was not started.
   [Higher-bond diagnostic](results_cuprate_2d/lmpf_3x3_higher_bond_2026-09-08_v2/DELIVERY.md):
   chi2/4 and a canonical chi8/16 check remain unstable; the native graph is a chain.
+  [Chi32/64 continuation](results_cuprate_2d/lmpf_3x3_chi32_64_2026-09-08_v1/DELIVERY.md):
+  overlap changes decrease to 1.36%-7.07%, but still miss the fixed stability thresholds.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

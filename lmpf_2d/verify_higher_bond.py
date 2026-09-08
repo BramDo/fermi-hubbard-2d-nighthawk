@@ -31,7 +31,7 @@ def verify(folder):
             exact=np.asarray(result['overlaps_exact']);alternative=np.zeros((4,4))
             for i in range(4):
                 for j in range(i,4):
-                    network=overlap_network(states[i],states[j])
+                    network=(states[i].H & states[j]) if plan.get('overlap_contraction')=='raw_tn_for_independent_audit' else overlap_network(states[i],states[j])
                     # Different tensor ordering feeds a fresh greedy contraction tree.
                     reverse=qtn.TensorNetwork([t.copy() for t in reversed(network.tensors)])
                     reverse.exponent=network.exponent
