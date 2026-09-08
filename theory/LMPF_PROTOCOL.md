@@ -192,3 +192,16 @@ are 0.06326, 0.06537 and 0.21642. The unchanged <=1% / <=0.05 local flags
 still fail. No new weights were applied to the full hardware average, no QPU
 job was submitted, and no 6x6 calculation was started. See the
 [chi32/64 report](../results_cuprate_2d/lmpf_3x3_chi32_64_2026-09-08_v1/DELIVERY.md).
+
+The chi128 continuation reuses the saved chi64 states byte-for-byte and changes
+only the operator-MPS bond limit for the same three observables and twirl 0.
+Chi64->128 relative Gram changes are 0.3639%, 0.2962%, and 3.2948%; fixed-ridge
+coefficient-L1 changes are 0.01258, 0.01319, and 0.08324. Z_up and Z_down pass
+both local flags; ZZ fails both. The thresholds and ridge 1/56 are unchanged.
+All 33 tests and an independent audit of 12 fits passed; numerical reconstruction
+accuracy is not a convergence certificate or a device-noise validation.
+The run function took 474.575 seconds and the audit 6.516 seconds, excluding
+imports and launcher. This is classical mitigation preprocessing, not a new
+timing advantage. No coefficients were applied to the full hardware average,
+and the 6x6 conditional no-go remains. See the
+[chi128 report](../results_cuprate_2d/lmpf_3x3_chi128_2026-09-08_v1/DELIVERY.md).

@@ -1,0 +1,31 @@
+{
+  "status": "CANONICAL_CHI128_FINISHED",
+  "observables": [
+    {
+      "observable": 8,
+      "relative_gram_change": 0.003639214640225781,
+      "ridge_coefficient_l1_change": 0.012577351875452503,
+      "passes_local_flags": true
+    },
+    {
+      "observable": 9,
+      "relative_gram_change": 0.002962139612174233,
+      "ridge_coefficient_l1_change": 0.013186511156897618,
+      "passes_local_flags": true
+    },
+    {
+      "observable": 22,
+      "relative_gram_change": 0.03294802744389431,
+      "ridge_coefficient_l1_change": 0.0832411292585199,
+      "passes_local_flags": false
+    }
+  ],
+  "local_stability_flags_pass": false,
+  "full_27_observable_8_twirl_validation": false,
+  "noise_model_validated": false,
+  "six_by_six_started": false,
+  "hardware_weights_applied": false,
+  "new_qpu_seconds": 0,
+  "tests_passed": 33,
+  "seconds": 474.5746551199991
+}
