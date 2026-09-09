@@ -1,0 +1,161 @@
+{
+  "status": "PREPARED_ONLY_NOT_AUTHORIZED",
+  "backend": "ibm_phoenix",
+  "proposed_max_execution_time_seconds": 5,
+  "source_job_id": "daem7r642tqs73autong",
+  "twirl": 1,
+  "actual_shots_per_folded_factor": 512,
+  "penalty_denominator": 64,
+  "eta": 1,
+  "total_union_shots": 3072,
+  "calibration_shots": 512,
+  "primary_target_shots": 1536,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026090922,
+  "requires_fresh_live_preflight": true,
+  "authorization": false,
+  "submitted": false,
+  "automatic_retry": false,
+  "records": [
+    {
+      "id": "cal_pre_0",
+      "role": "calibration",
+      "state": 0,
+      "provider_index": 0,
+      "shots": 128
+    },
+    {
+      "id": "cal_pre_1",
+      "role": "calibration",
+      "state": 1,
+      "provider_index": 1,
+      "shots": 128
+    },
+    {
+      "id": "block0_shared_factor1",
+      "role": "shared_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 128
+    },
+    {
+      "id": "block0_factor2",
+      "role": "factor2",
+      "factor": 2,
+      "provider_index": 19,
+      "shots": 128
+    },
+    {
+      "id": "block0_baseline_only_factor1",
+      "role": "baseline_only_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 256
+    },
+    {
+      "id": "block0_factor3",
+      "role": "factor3",
+      "factor": 3,
+      "provider_index": 2,
+      "shots": 128
+    },
+    {
+      "id": "block1_shared_factor1",
+      "role": "shared_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 128
+    },
+    {
+      "id": "block1_factor2",
+      "role": "factor2",
+      "factor": 2,
+      "provider_index": 19,
+      "shots": 128
+    },
+    {
+      "id": "block1_baseline_only_factor1",
+      "role": "baseline_only_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 256
+    },
+    {
+      "id": "block1_factor3",
+      "role": "factor3",
+      "factor": 3,
+      "provider_index": 2,
+      "shots": 128
+    },
+    {
+      "id": "block2_shared_factor1",
+      "role": "shared_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 128
+    },
+    {
+      "id": "block2_factor2",
+      "role": "factor2",
+      "factor": 2,
+      "provider_index": 19,
+      "shots": 128
+    },
+    {
+      "id": "block2_baseline_only_factor1",
+      "role": "baseline_only_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 256
+    },
+    {
+      "id": "block2_factor3",
+      "role": "factor3",
+      "factor": 3,
+      "provider_index": 2,
+      "shots": 128
+    },
+    {
+      "id": "block3_shared_factor1",
+      "role": "shared_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 128
+    },
+    {
+      "id": "block3_factor2",
+      "role": "factor2",
+      "factor": 2,
+      "provider_index": 19,
+      "shots": 128
+    },
+    {
+      "id": "block3_baseline_only_factor1",
+      "role": "baseline_only_factor1",
+      "factor": 1,
+      "provider_index": 25,
+      "shots": 256
+    },
+    {
+      "id": "block3_factor3",
+      "role": "factor3",
+      "factor": 3,
+      "provider_index": 2,
+      "shots": 128
+    },
+    {
+      "id": "cal_post_0",
+      "role": "calibration",
+      "state": 0,
+      "provider_index": 0,
+      "shots": 128
+    },
+    {
+      "id": "cal_post_1",
+      "role": "calibration",
+      "state": 1,
+      "provider_index": 1,
+      "shots": 128
+    }
+  ]
+}

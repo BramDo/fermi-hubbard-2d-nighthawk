@@ -1,0 +1,60 @@
+{
+  "schema": "exploratory-penalty-floor-v1",
+  "backend": "ibm_phoenix",
+  "archived_job_id": "daem7r642tqs73autong",
+  "twirl": 1,
+  "actual_shots": [
+    256,
+    512
+  ],
+  "caps": [
+    64,
+    128
+  ],
+  "method_order": [
+    "raw",
+    "readout",
+    "zne",
+    "lmpf_original",
+    "lmpf_floor"
+  ],
+  "physical_order": [
+    "charge",
+    "spin",
+    "D"
+  ],
+  "calibration_shots_per_state": 256,
+  "draws": 8192,
+  "seed": 2026090921,
+  "exploratory_changed_estimator": true,
+  "measured_target_or_exact_reference_used": false,
+  "source_sha256": {
+    "lmpf_2d/penalty_floor.py": "679c2f7b58aaeee87e27c80e9581f4e3a03265462b10a78ee72f97ee72fba621",
+    "lmpf_2d/verify_penalty_floor.py": "e50aabdbad1af8f394fb8de153fdd152e6ef2532ee43ecf626f23fff145e1123",
+    "lmpf_2d/PLAN_PENALTY_FLOOR.md": "3b80dbcc24813999399750412a0673858c67c8574f0cd4a2e2d78f94925fa893",
+    "lmpf_2d/balanced_budget.py": "34750b22ccc1456418cdee28bb03b34615758e891d443f210b0644541c79649d",
+    "lmpf_2d/verify_balanced_budget.py": "86686792f8d765b20e0325bcfcaf09465937e449a6c2d6aeebfe6efbf4a766e9",
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+    "lmpf_2d/budget_calibration_mc.py": "e84afbca5eaafc644dd273596954f8102e2172539de83c198d2beb47a0aa5a69",
+    "test_lmpf_penalty_floor.py": "0723a8f88ad724ec4f2c72173c7f46d20c989ff46a3c97a3b61f59e5bd24114a",
+    "test_lmpf_balanced_budget.py": "b60a1480a79344622e7bea6e5e027ddf6f68facbbc397ed312fff035f938daa0",
+    "test_lmpf_budget_calibration_mc.py": "5489c6ca0c45eb8d08cbf1bedd80f4e15c4fc6d1b4cdb73e1ad260678cde65fc"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/plan.json": "9c926f6cc3e638d5fba74a41e4a0a4d450b68b711bfa734afd331b42aa6f475a",
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/summary.json": "a27f3332857ce730f6c5998ef0ef4aedce57a48b44ee52a0950b7a7a1903dd94",
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/forecast_inputs.json": "2c7f00a008d6cd32ab5715815a9460279f225aa5649aed1b62b4c598a978aef5",
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/calibration_forecast.npz": "e4fb79a6dbaebd2e7262a0a035c7ac956c6f62df23be9527c16c5894df72ce30",
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/sha256.json": "9e91e499fff099bc7584b27a651884e7f5d61d0b7c3270fac4553d41a9ceff9b",
+    "results_cuprate_2d/lmpf_3x3_balanced_budget_2026-09-09_v2/verification/verification.json": "b554178bd162cfdbd732780fcc8505c8510f0e5c3605e4e55fb04adb0bef56b4"
+  },
+  "model_or_accuracy_validated": false,
+  "authorization": false,
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0,
+  "process_limit_seconds": 120
+}

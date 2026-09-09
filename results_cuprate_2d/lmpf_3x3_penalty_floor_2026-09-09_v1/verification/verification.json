@@ -1,0 +1,44 @@
+{
+  "status": "PENALTY_FLOOR_ACTUAL_SHOT_KKT_AUDIT_PASSED",
+  "cases_checked": 4,
+  "calibration_draws_replayed": 8192,
+  "unique_calibration_outcomes": 1406,
+  "joint_covariance_dimensions": [
+    15,
+    15
+  ],
+  "maximum_differences": {
+    "weights": 4.6074255521944e-15,
+    "means": 9.992007221626409e-16,
+    "covariance": 2.949029909160572e-16
+  },
+  "candidate_checks": [
+    {
+      "n": 256,
+      "cap": 64,
+      "weight_stability_fraction": 1.0,
+      "conditional_physical_fraction": 1.0
+    },
+    {
+      "n": 256,
+      "cap": 128,
+      "weight_stability_fraction": 1.0,
+      "conditional_physical_fraction": 0.421630859375
+    },
+    {
+      "n": 512,
+      "cap": 64,
+      "weight_stability_fraction": 1.0,
+      "conditional_physical_fraction": 1.0
+    },
+    {
+      "n": 512,
+      "cap": 128,
+      "weight_stability_fraction": 1.0,
+      "conditional_physical_fraction": 0.421630859375
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "accuracy_improvement_proven": false,
+  "seconds": 9.692084171998431
+}

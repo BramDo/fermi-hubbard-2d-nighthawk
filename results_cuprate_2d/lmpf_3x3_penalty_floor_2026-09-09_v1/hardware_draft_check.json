@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_DRAFT_ACCOUNTING_CHECK_PASSED",
+  "method": "Independent PowerShell JSON parsing, role sums and unique-id checks",
+  "pubs": 20,
+  "unique_ids": 20,
+  "total_shots": 3072,
+  "calibration_shots": 512,
+  "shared_factor1_shots": 512,
+  "baseline_only_factor1_shots": 1024,
+  "factor2_shots": 512,
+  "factor3_shots": 512,
+  "authorized": false,
+  "submitted": false,
+  "live_hardware_compatibility_checked": false
+}

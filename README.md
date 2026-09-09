@@ -72,6 +72,10 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   candidate runs need approximately2-5s under one/two-subjob scenarios, not a guarantee.
   More shots weaken the current penalty:512 fails the ZZ coefficient gate;256 is borderline.
   Nine tests and finite-calibration/KKT/Qiskit audit pass; negative model forecasts remain.
+  [Stable penalty-floor follow-up](results_cuprate_2d/lmpf_3x3_penalty_floor_2026-09-09_v1/DELIVERY.md):
+  cap64 at512 actual shots lowers forecast SD by33-35% versus the old rule,
+  with stable coefficients and valid conditional model means in all8192 draws.
+  Cap128 retains negative probabilities; no hardware accuracy improvement is proven.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

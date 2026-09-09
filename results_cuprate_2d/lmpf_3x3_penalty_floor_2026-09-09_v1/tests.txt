@@ -1,0 +1,20 @@
+test_constant_scores_zero_covariance (test_lmpf_balanced_budget.BudgetTests.test_constant_scores_zero_covariance) ... ok
+test_duration_units_and_invalid (test_lmpf_balanced_budget.BudgetTests.test_duration_units_and_invalid) ... ok
+test_fixed_weight_square_root_scaling (test_lmpf_balanced_budget.BudgetTests.test_fixed_weight_square_root_scaling) ... ok
+test_kkt_and_independent_calibration_derivative (test_lmpf_balanced_budget.BudgetTests.test_kkt_and_independent_calibration_derivative) ... ok
+test_matched_exposure (test_lmpf_balanced_budget.BudgetTests.test_matched_exposure) ... ok
+test_parallel_critical_path (test_lmpf_balanced_budget.BudgetTests.test_parallel_critical_path) ... ok
+test_shared_average_difference_variance (test_lmpf_balanced_budget.BudgetTests.test_shared_average_difference_variance) ... ok
+test_constant_calibration_reduces_to_conditional (test_lmpf_budget_calibration_mc.CalibrationMixtureTests.test_constant_calibration_reduces_to_conditional) ... ok
+test_discrete_total_covariance (test_lmpf_budget_calibration_mc.CalibrationMixtureTests.test_discrete_total_covariance) ... ok
+test_denominator_policy (test_lmpf_penalty_floor.PenaltyFloorTests.test_denominator_policy) ... ok
+test_equal_weights_recover_original_and_zero_difference (test_lmpf_penalty_floor.PenaltyFloorTests.test_equal_weights_recover_original_and_zero_difference) ... ok
+test_fixed_floor_conditional_scaling (test_lmpf_penalty_floor.PenaltyFloorTests.test_fixed_floor_conditional_scaling) ... ok
+test_independent_actual_shot_covariance (test_lmpf_penalty_floor.PenaltyFloorTests.test_independent_actual_shot_covariance) ... ok
+test_invalid_weight_shape_rejected (test_lmpf_penalty_floor.PenaltyFloorTests.test_invalid_weight_shape_rejected) ... ok
+test_probability_normalization_without_clipping (test_lmpf_penalty_floor.PenaltyFloorTests.test_probability_normalization_without_clipping) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.083s
+
+OK
