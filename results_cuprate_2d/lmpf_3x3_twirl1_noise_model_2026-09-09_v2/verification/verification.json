@@ -1,0 +1,92 @@
+{
+  "status": "FROZEN_MODEL_RAW_TN_AND_ASSIGNMENT_AUDIT_PASSED",
+  "saved_operator_means_verified": 12,
+  "bootstrap_replicates_replayed": 10000,
+  "maximum_model_contraction_difference": 8.326672684688674e-16,
+  "maximum_pauli_error": 6.661338147750939e-16,
+  "maximum_physical_error": 4.440892098500626e-16,
+  "maximum_pauli_fixed_calibration_error": 3.3306690738754696e-16,
+  "maximum_pauli_minus_model_error": 1.2212453270876722e-15,
+  "full64_7_14_arm_counts_verified": true,
+  "source_and_input_hashes_verified": true,
+  "shared_calibration_verified": true,
+  "no_model_rescaling_or_clipping": true,
+  "contractions": [
+    {
+      "observable": 8,
+      "arm": 0,
+      "value": 0.9566289303537006,
+      "seconds": 0.19257494900011807
+    },
+    {
+      "observable": 8,
+      "arm": 1,
+      "value": 0.4916710590890642,
+      "seconds": 0.17215747899899725
+    },
+    {
+      "observable": 8,
+      "arm": 2,
+      "value": 0.3090919342276136,
+      "seconds": 0.1724511229986092
+    },
+    {
+      "observable": 8,
+      "arm": 3,
+      "value": 0.18414927570832348,
+      "seconds": 0.17503779400067287
+    },
+    {
+      "observable": 9,
+      "arm": 0,
+      "value": 0.23577373291098552,
+      "seconds": 0.17383091999727185
+    },
+    {
+      "observable": 9,
+      "arm": 1,
+      "value": 0.2740245114468597,
+      "seconds": 0.17263818900028127
+    },
+    {
+      "observable": 9,
+      "arm": 2,
+      "value": 0.25318056225830815,
+      "seconds": 0.17471471300086705
+    },
+    {
+      "observable": 9,
+      "arm": 3,
+      "value": 0.2172981346802821,
+      "seconds": 0.17640572899836116
+    },
+    {
+      "observable": 22,
+      "arm": 0,
+      "value": 0.23767622709275363,
+      "seconds": 0.526584069000819
+    },
+    {
+      "observable": 22,
+      "arm": 1,
+      "value": 0.12384835055289493,
+      "seconds": 0.48787082900162204
+    },
+    {
+      "observable": 22,
+      "arm": 2,
+      "value": 0.0752864127539144,
+      "seconds": 0.5034712509987003
+    },
+    {
+      "observable": 22,
+      "arm": 3,
+      "value": 0.03954034598183568,
+      "seconds": 0.5470294029983052
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0,
+  "noise_model_validated": false,
+  "seconds": 6.296219978001318
+}

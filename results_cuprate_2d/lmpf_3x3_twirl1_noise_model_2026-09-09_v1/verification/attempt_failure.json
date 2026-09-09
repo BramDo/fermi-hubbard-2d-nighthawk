@@ -1,0 +1,13 @@
+{
+  "status": "INDEPENDENT_AUDIT_FAILED_IMPLEMENTATION_TYPE_ERROR",
+  "command": "python -B lmpf_2d/verify_twirl1_noise_check.py results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v1",
+  "exit_code": 1,
+  "exception": "TypeError: list indices must be integers or slices, not str",
+  "location": "verify_twirl1_noise_check.py:90, native['mask'][q] for q in op['support']",
+  "cause": "JSON Pauli support keys are strings; the independent verifier omitted int(q).",
+  "diagnostic_calculation_completed": true,
+  "audit_passed": false,
+  "source_snapshot_preserved": true,
+  "correction": "Convert support site keys to integers and add a regression test; reproduce in v2 without changing v1 numerical outputs.",
+  "new_qpu_seconds": 0
+}

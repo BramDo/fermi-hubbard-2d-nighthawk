@@ -60,6 +60,10 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   central charge is close in the point estimate, but spin/doublons remain inaccurate;
   all six paired improvement intervals include zero. 79 tests and full bootstrap audit pass.
   No robust general hardware improvement or 6x6 go is established.
+  [Frozen noise-model arm check](results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/DELIVERY.md):
+  factor1 agrees within broad shot uncertainty; factor2 ZZ shows a discrepancy
+  in only seven shots. 84 tests, 12 independent contractions and full bootstrap replay pass.
+  This post-hoc diagnostic does not validate the noise model or authorize 6x6.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

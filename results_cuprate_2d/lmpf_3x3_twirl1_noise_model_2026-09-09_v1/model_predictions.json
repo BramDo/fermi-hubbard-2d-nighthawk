@@ -1,0 +1,251 @@
+{
+  "arms": [
+    "ideal_factor1",
+    "noisy_factor1",
+    "noisy_factor2",
+    "noisy_factor3"
+  ],
+  "pauli_order": [
+    "Z_up",
+    "Z_down",
+    "ZZ"
+  ],
+  "pauli_means": [
+    [
+      0.9566289303537007,
+      0.23577373291098555,
+      0.23767622709275335
+    ],
+    [
+      0.491671059089065,
+      0.27402451144685885,
+      0.12384835055289486
+    ],
+    [
+      0.3090919342276139,
+      0.2531805622583082,
+      0.0752864127539145
+    ],
+    [
+      0.18414927570832346,
+      0.2172981346802825,
+      0.03954034598183569
+    ]
+  ],
+  "physical_means": [
+    [
+      0.4037986683676569,
+      -0.36042759872135754,
+      0.011318390957016783
+    ],
+    [
+      0.6171522147320381,
+      -0.10882327382110307,
+      0.08953819500424276
+    ],
+    [
+      0.718863751757039,
+      -0.02795568598465284,
+      0.12825347906699813
+    ],
+    [
+      0.7992762948056971,
+      0.016574429485979522,
+      0.15952323389830741
+    ]
+  ],
+  "joint_probabilities_00_10_01_11": [
+    [
+      0.6075197225893599,
+      0.01036714386613289,
+      0.37079474258749046,
+      0.011318390957016783
+    ],
+    [
+      0.4723859802722047,
+      0.16462627545122477,
+      0.2734495492723278,
+      0.08953819500424276
+    ],
+    [
+      0.4093897273099592,
+      0.21720055381919495,
+      0.2451562398038478,
+      0.12825347906699808
+    ],
+    [
+      0.3602469390926104,
+      0.24840212824753086,
+      0.23182769876155132,
+      0.15952323389830744
+    ]
+  ],
+  "minimum_joint_probability_by_arm": [
+    0.01036714386613289,
+    0.08953819500424276,
+    0.12825347906699808,
+    0.15952323389830744
+  ],
+  "maximum_absolute_pauli_by_arm": [
+    0.9566289303537007,
+    0.491671059089065,
+    0.3090919342276139,
+    0.2172981346802825
+  ],
+  "local_probability_valid_by_arm": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "operator_rescaled": false,
+  "exact_F00_substituted_into_expectation": false,
+  "state_preparation_applied_again": false,
+  "noise_parameters_fitted": false,
+  "records": [
+    {
+      "observable": 8,
+      "chi": 128,
+      "arm": 0,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/states/obs08_chi128_arm0",
+      "npz_sha256": "e05a1134d28768bbbe7601f5be31731c220beacc84a26d64c7292c33df12359d",
+      "metadata_sha256": "0c87af6b66de02eb709f146f8568c50aeb5fa8288f8e6b183f7b387b9a57bafb",
+      "unmask_sign": -1,
+      "mean": 0.9566289303537007,
+      "contraction_and_load_seconds": 0.17979569800081663
+    },
+    {
+      "observable": 8,
+      "chi": 128,
+      "arm": 1,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/states/obs08_chi128_arm1",
+      "npz_sha256": "58c3f36a35ac870e7562a7f3e03636af121368824e706b1732dbc98649ad8c6c",
+      "metadata_sha256": "744ea358c79cd76389f2aba66f8d65fecbe2a7b1aa3249c2a6d035a7eb2ae071",
+      "unmask_sign": -1,
+      "mean": 0.491671059089065,
+      "contraction_and_load_seconds": 0.18610326000271016
+    },
+    {
+      "observable": 8,
+      "chi": 128,
+      "arm": 2,
+      "factor": 2,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/states/obs08_chi128_arm2",
+      "npz_sha256": "31a620b3a7e476fdba77fa595b6ee71da0eb41045146a6f8c781374d3ada8981",
+      "metadata_sha256": "7f8eba31de86a6294ba1a26c580f0c96bf67311a620d2d87af157dd76aa0602f",
+      "unmask_sign": -1,
+      "mean": 0.3090919342276139,
+      "contraction_and_load_seconds": 0.178590143998008
+    },
+    {
+      "observable": 8,
+      "chi": 128,
+      "arm": 3,
+      "factor": 3,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/states/obs08_chi128_arm3",
+      "npz_sha256": "40a8dc2ab36e550038b9381bd043f17e71b5e56100cdf9e348393fd007ff06b8",
+      "metadata_sha256": "866cae328af492e4a1b0cb2593c7ef3f0f54546e29d88816d254fcb3b725bf0d",
+      "unmask_sign": -1,
+      "mean": 0.18414927570832346,
+      "contraction_and_load_seconds": 0.18441867500223452
+    },
+    {
+      "observable": 9,
+      "chi": 128,
+      "arm": 0,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/states/obs09_chi128_arm0",
+      "npz_sha256": "dfe4ae02bc77fe491e9a93bb24c4efabf465ba8cbb5ce438d0326c5688760f99",
+      "metadata_sha256": "2bfdda0a2aa0711bc32f551d048ba5e806d874d316e499671f491a076e97a49c",
+      "unmask_sign": -1,
+      "mean": 0.23577373291098555,
+      "contraction_and_load_seconds": 0.18760405399734736
+    },
+    {
+      "observable": 9,
+      "chi": 128,
+      "arm": 1,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/states/obs09_chi128_arm1",
+      "npz_sha256": "d8aa78e3b05b73dcfa9422583d17173a2293c7588a72375ed7942abc430a391b",
+      "metadata_sha256": "a9ba0c9291c2a40aa8db92ab5523c50326e332e6b10283e014a8d7ad7b8f0a16",
+      "unmask_sign": -1,
+      "mean": 0.27402451144685885,
+      "contraction_and_load_seconds": 0.18334441100159893
+    },
+    {
+      "observable": 9,
+      "chi": 128,
+      "arm": 2,
+      "factor": 2,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/states/obs09_chi128_arm2",
+      "npz_sha256": "58b0b1c439011f167414af9707c469e0342cec11e453042bdea750ecbf256288",
+      "metadata_sha256": "f4902554b088e4da294ca8799586d15d9a0381c2969b8f9091aca654f7225d5f",
+      "unmask_sign": -1,
+      "mean": 0.2531805622583082,
+      "contraction_and_load_seconds": 0.18115336199844023
+    },
+    {
+      "observable": 9,
+      "chi": 128,
+      "arm": 3,
+      "factor": 3,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/states/obs09_chi128_arm3",
+      "npz_sha256": "356e05af790b41c17168292d612cb3b8ef9cb1b62ed4f9b65d63ad9520278efd",
+      "metadata_sha256": "ec67095bfae02136b4c00a982225f1ea79ed65c42487a62000870b1753d6db6c",
+      "unmask_sign": -1,
+      "mean": 0.2172981346802825,
+      "contraction_and_load_seconds": 0.1729213959988556
+    },
+    {
+      "observable": 22,
+      "chi": 256,
+      "arm": 0,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/states/obs22_chi256_arm0",
+      "npz_sha256": "d6f08918d2af191262f28f7f0d35066cb75caeb8501689a230d4ade054c47394",
+      "metadata_sha256": "2b5c7770c879244ee2e384553917c0bf4389400a992394b4811dde1b203bbd2a",
+      "unmask_sign": 1,
+      "mean": 0.23767622709275335,
+      "contraction_and_load_seconds": 0.5345486699989124
+    },
+    {
+      "observable": 22,
+      "chi": 256,
+      "arm": 1,
+      "factor": 1,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/states/obs22_chi256_arm1",
+      "npz_sha256": "bda2585abcdb40a04dd00ed9c986850e6c5c177d0ffd0d7002ead096dab489cb",
+      "metadata_sha256": "d96b946fbeee712120533d5ddfbc0e3e795f49804efc9af2d57510c88e2f79ef",
+      "unmask_sign": 1,
+      "mean": 0.12384835055289486,
+      "contraction_and_load_seconds": 0.534016736997728
+    },
+    {
+      "observable": 22,
+      "chi": 256,
+      "arm": 2,
+      "factor": 2,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/states/obs22_chi256_arm2",
+      "npz_sha256": "04e5404700eaea9651125b0f72e9f3bb771e8e3767c0146da8b6cbde20be0687",
+      "metadata_sha256": "5726223c2b8f6fc72940e14920d165acbb3b3080b778c0871c9858598f38e53e",
+      "unmask_sign": 1,
+      "mean": 0.0752864127539145,
+      "contraction_and_load_seconds": 0.5985932590010634
+    },
+    {
+      "observable": 22,
+      "chi": 256,
+      "arm": 3,
+      "factor": 3,
+      "prefix": "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/states/obs22_chi256_arm3",
+      "npz_sha256": "695d5bfd6d20c19f318104a4529a78ae6b29bc581754857cd2b39a0d5635181d",
+      "metadata_sha256": "0bafb3a0813ce32f14275da7d0b1e8ace592b3fd64a20318b8a2a8e93f458f6f",
+      "unmask_sign": 1,
+      "mean": 0.03954034598183569,
+      "contraction_and_load_seconds": 0.6710519640000712
+    }
+  ]
+}
