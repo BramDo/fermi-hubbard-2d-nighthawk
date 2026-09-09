@@ -1,0 +1,16 @@
+{
+  "forecast_covariance.npz": "09994b45b56cbe95220f58e19d7b550fe6bde01da75f122bbae336746f4e606d",
+  "forecast_inputs.json": "2c7f00a008d6cd32ab5715815a9460279f225aa5649aed1b62b4c598a978aef5",
+  "plan.json": "efad56e04046b27dcaeb08426eae54dc7b6ce7a6a563951ed5ea2b8b7ea0a360",
+  "source_snapshot/PLAN_BALANCED_BUDGET.md": "8d7bb35968456c1955bbcaf3aa604ff64a8d66ddc6b63117afb40801b5691172",
+  "source_snapshot/balanced_budget.py": "34750b22ccc1456418cdee28bb03b34615758e891d443f210b0644541c79649d",
+  "source_snapshot/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+  "source_snapshot/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+  "source_snapshot/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+  "source_snapshot/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+  "source_snapshot/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+  "source_snapshot/test_lmpf_balanced_budget.py": "b60a1480a79344622e7bea6e5e027ddf6f68facbbc397ed312fff035f938daa0",
+  "source_snapshot/verify_balanced_budget.py": "86686792f8d765b20e0325bcfcaf09465937e449a6c2d6aeebfe6efbf4a766e9",
+  "summary.json": "5138c4337bc5f6e641b46f2cce121260eb5652890a2e1a1ab9fcfc9dcbc448b9",
+  "tests.txt": "c631018a218e55689d2a8ebcdfe719046cc0ec2bcb7e626da3d6ee04d1036b73"
+}

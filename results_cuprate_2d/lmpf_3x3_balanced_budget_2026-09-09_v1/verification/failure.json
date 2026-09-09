@@ -1,0 +1,9 @@
+{
+  "status": "CALIBRATION_DELTA_AUDIT_FAILED",
+  "exit_code": 1,
+  "reason": "Independent complex-step versus central-difference calibration derivative disagrees by 0.03473427 in ZZ-derived D output. At symmetric calibration, max/min score ranges have tied extrema and a non-smooth derivative.",
+  "point_weights_and_timing_calculated": true,
+  "full_calibration_covariance_verified": false,
+  "correction": "Preserve v1. Replace first-order calibration propagation by finite future calibration draws and law of total covariance in a separate v2 delivery.",
+  "new_qpu_seconds": 0
+}

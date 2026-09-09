@@ -1,0 +1,33 @@
+{
+  "status": "FINITE_CALIBRATION_KKT_COVARIANCE_AND_QISKIT_AUDIT_PASSED",
+  "calibration_draws_replayed": 8192,
+  "unique_calibration_outcomes_checked": 1406,
+  "cases_checked": 4,
+  "qpy_circuits_checked": 5,
+  "maximum_differences": {
+    "weights": 1.687538997430238e-14,
+    "means": 9.992007221626409e-16,
+    "covariance": 3.5388358909926865e-16
+  },
+  "checked_cases": [
+    {
+      "n": 64,
+      "future_calibration_flag_pass_fraction": 1.0
+    },
+    {
+      "n": 128,
+      "future_calibration_flag_pass_fraction": 1.0
+    },
+    {
+      "n": 256,
+      "future_calibration_flag_pass_fraction": 0.9296875
+    },
+    {
+      "n": 512,
+      "future_calibration_flag_pass_fraction": 0.0
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "authorization": false,
+  "seconds": 9.002650792004715
+}

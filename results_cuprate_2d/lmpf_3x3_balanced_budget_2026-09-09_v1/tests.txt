@@ -1,0 +1,12 @@
+test_constant_scores_zero_covariance (test_lmpf_balanced_budget.BudgetTests.test_constant_scores_zero_covariance) ... ok
+test_duration_units_and_invalid (test_lmpf_balanced_budget.BudgetTests.test_duration_units_and_invalid) ... ok
+test_fixed_weight_square_root_scaling (test_lmpf_balanced_budget.BudgetTests.test_fixed_weight_square_root_scaling) ... ok
+test_kkt_and_independent_calibration_derivative (test_lmpf_balanced_budget.BudgetTests.test_kkt_and_independent_calibration_derivative) ... ok
+test_matched_exposure (test_lmpf_balanced_budget.BudgetTests.test_matched_exposure) ... ok
+test_parallel_critical_path (test_lmpf_balanced_budget.BudgetTests.test_parallel_critical_path) ... ok
+test_shared_average_difference_variance (test_lmpf_balanced_budget.BudgetTests.test_shared_average_difference_variance) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.032s
+
+OK

@@ -1,0 +1,20 @@
+{
+  "calibration_forecast.npz": "e4fb79a6dbaebd2e7262a0a035c7ac956c6f62df23be9527c16c5894df72ce30",
+  "forecast_inputs.json": "2c7f00a008d6cd32ab5715815a9460279f225aa5649aed1b62b4c598a978aef5",
+  "plan.json": "9c926f6cc3e638d5fba74a41e4a0a4d450b68b711bfa734afd331b42aa6f475a",
+  "source_snapshot/PLAN_BALANCED_BUDGET.md": "8d7bb35968456c1955bbcaf3aa604ff64a8d66ddc6b63117afb40801b5691172",
+  "source_snapshot/PLAN_BUDGET_CALIBRATION_MC.md": "c8231a92df88e47e6e74b90d31494c38eaecefdf0e101d272e4bbf4ccb214807",
+  "source_snapshot/balanced_budget.py": "34750b22ccc1456418cdee28bb03b34615758e891d443f210b0644541c79649d",
+  "source_snapshot/budget_calibration_mc.py": "e84afbca5eaafc644dd273596954f8102e2172539de83c198d2beb47a0aa5a69",
+  "source_snapshot/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+  "source_snapshot/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+  "source_snapshot/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+  "source_snapshot/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+  "source_snapshot/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+  "source_snapshot/test_lmpf_balanced_budget.py": "b60a1480a79344622e7bea6e5e027ddf6f68facbbc397ed312fff035f938daa0",
+  "source_snapshot/test_lmpf_budget_calibration_mc.py": "5489c6ca0c45eb8d08cbf1bedd80f4e15c4fc6d1b4cdb73e1ad260678cde65fc",
+  "source_snapshot/verify_balanced_budget.py": "86686792f8d765b20e0325bcfcaf09465937e449a6c2d6aeebfe6efbf4a766e9",
+  "source_snapshot/verify_budget_calibration_mc.py": "6b78af165317c33a72272ae7dfcbe0a9d98ff2ef990fe53f2f7af509e950bbfc",
+  "summary.json": "a27f3332857ce730f6c5998ef0ef4aedce57a48b44ee52a0950b7a7a1903dd94",
+  "tests.txt": "59c44efb5eba58f030ab22ee7095c9e365e86371009f454a8f4afd990cda40ec"
+}
