@@ -1,0 +1,7 @@
+{
+  "type": "TimeoutError",
+  "reason": "Local block deadline reached",
+  "new_qpu_seconds": 0,
+  "automatic_retry": false,
+  "six_by_six_go": false
+}
