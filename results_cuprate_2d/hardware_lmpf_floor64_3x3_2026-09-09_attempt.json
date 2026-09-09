@@ -1,0 +1,9 @@
+{
+  "tag": "lmpf3x3-floor64-4371dac8c4754bd0",
+  "plan_sha256": "9282910c5a52ccf356f28e74ee656a6debb8c95ae521ff72dcec356bfff7dad9",
+  "cap_seconds": 5,
+  "total_shots": 3072,
+  "started_unix": 1788969377.5622249,
+  "authorization_consumed": true,
+  "resubmit_allowed": false
+}

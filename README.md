@@ -76,6 +76,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   cap64 at512 actual shots lowers forecast SD by33-35% versus the old rule,
   with stable coefficients and valid conditional model means in all8192 draws.
   Cap128 retains negative probabilities; no hardware accuracy improvement is proven.
+  [Authorized fresh3x3 floor64 submission](results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/SUBMISSION.md):
+  job dago39b9k43c73adleeg submitted on ibm_phoenix with3072 shots and a provider-verified5s cap.
+  This link is the submission-stage record; no fresh accuracy result was available at that checkpoint.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

@@ -1,0 +1,11 @@
+{
+  "job_id": "dago39b9k43c73adleeg",
+  "checked_unix": 1788969987.9058416,
+  "timestamps": {
+    "created": "2026-09-09T15:56:21.226196Z",
+    "finished": null,
+    "running": "2026-09-09T15:56:22.132917Z"
+  },
+  "usage": null,
+  "circuits_execution_time_ns": null
+}
