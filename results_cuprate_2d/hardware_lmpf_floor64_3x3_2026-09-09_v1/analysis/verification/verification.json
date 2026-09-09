@@ -1,0 +1,18 @@
+{
+  "status": "FRESH_FLOOR64_ASSIGNMENT_KKT_BOOTSTRAP_AUDIT_PASSED",
+  "job_id": "dago39b9k43c73adleeg",
+  "methods_checked": 5,
+  "bootstrap_replicates_replayed": 10000,
+  "maximum_differences": {
+    "paulis": 5.995204332975845e-15,
+    "physical": 3.552713678800501e-15,
+    "physical_fixed_calibration": 2.1094237467877974e-15,
+    "floor_weights": 4.08006961549745e-15,
+    "original_weights": 3.730349362740526e-14,
+    "low_floor_weights": 4.135580766728708e-15
+  },
+  "same_shot_comparison_verified": true,
+  "calibration_only_fit_verified": true,
+  "no_clipping_verified": true,
+  "seconds": 1.2387178509961814
+}

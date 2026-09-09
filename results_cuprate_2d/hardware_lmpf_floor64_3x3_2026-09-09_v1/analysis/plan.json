@@ -1,0 +1,26 @@
+{
+  "job_id": "dago39b9k43c73adleeg",
+  "contract_sha256": "207baaba3583320cb096d078217b21fd1e666a1c6a2919105eb4df8c6d43aa0a",
+  "source_sha256": {
+    "lmpf_2d/analyze_floor_hardware.py": "94f85fc10de52098331ce2ba991a005eaaaeaafa9f6dc5b637f1dfd2f2d4db7c",
+    "lmpf_2d/verify_floor_hardware_analysis.py": "ec13170e7e51244b5592b89c564b1470b31a3afa5dd040dbf9b025fcc0b20936",
+    "lmpf_2d/floor_hardware.py": "259a34e5cc16f31424640ecaa654881e23ad85484b012c149203c9b864340d60",
+    "lmpf_2d/freeze_floor_analysis.py": "eac09db50d415db4389ad9ac7420dd554252c7f3e30c9dae5ed05396a90250d8",
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+    "test_lmpf_floor_analysis.py": "1520503c60a785bf9e3fd4c819b9cfb3e59f41bb1b0bc48c2acbcd07a13ccff6"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/plan.json": "9282910c5a52ccf356f28e74ee656a6debb8c95ae521ff72dcec356bfff7dad9",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/raw_bitstrings.json": "0f760b6fd1fe6e8069faa21d6860b0957d082fb0aaa129d5c96520a18fde08df",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/analysis_inputs.json": "207baaba3583320cb096d078217b21fd1e666a1c6a2919105eb4df8c6d43aa0a",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/analysis_contract_sha256.json": "057d69013bd32abbc6c0ae7f132331adf86981fd9fd67993acc2e796c69bfb7c",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/job_receipt.json": "fc060d56172202799a38caeaa19b603ce8a35767784618dc8c9a8471cfcc7ea7",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/retrieval_verification.json": "9d5994b1c1f204f6b9514e84df75d1e507a5cbda050bdfd89f2002370a808440",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/hardware_archive_sha256.json": "fb892042a343ff4df2004154a3f4d452d8fd11840c2fa00695f3f7f606995f98",
+    "results_cuprate_2d/hardware_lmpf_floor64_3x3_2026-09-09_v1/provider_metrics.json": "fdf678ebd6056ab6b9e79cb98ff4c63859bbe218b07866b8072bf9562c48458d"
+  }
+}

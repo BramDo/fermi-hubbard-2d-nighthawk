@@ -1,0 +1,10 @@
+test_calibration_broadcast_preserves_point (test_lmpf_floor_analysis.FloorAnalysisTests.test_calibration_broadcast_preserves_point) ... ok
+test_floor_penalty_is_eight_times_original (test_lmpf_floor_analysis.FloorAnalysisTests.test_floor_penalty_is_eight_times_original) ... ok
+test_independent_inverse_and_kkt (test_lmpf_floor_analysis.FloorAnalysisTests.test_independent_inverse_and_kkt) ... ok
+test_partial_or_wrong_roles_rejected (test_lmpf_floor_analysis.FloorAnalysisTests.test_partial_or_wrong_roles_rejected) ... ok
+test_sixteen_pub_strata_keep_exposure (test_lmpf_floor_analysis.FloorAnalysisTests.test_sixteen_pub_strata_keep_exposure) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
