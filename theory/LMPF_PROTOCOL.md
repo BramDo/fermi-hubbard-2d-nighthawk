@@ -218,3 +218,15 @@ All 36 tests, independent four-fit audit and lossless archive checks passed.
 Run time: 724.851 s; audit: 8.980 s; new QPU use: zero. No full-profile/twirl,
 noise-model or 6x6 validation follows from this step. See the
 [central ZZ chi256 report](../results_cuprate_2d/lmpf_3x3_zz_chi256_2026-09-09_v1/DELIVERY.md).
+
+The subsequent exact-ideal-norm follow-up replaces only F00 by its algebraic
+Pauli/unitary value 1, in separate copied Grams. G, b, both unregularized and
+ridge weights remain bit-identical. Projection residuals rise by exactly 1-F00.
+The three central exact-norm Gram changes are 0.0857%, 0.0791%, and 0.1803%.
+Separate G/b checks also pass 1%, and the coefficient-L1 checks pass 0.05.
+The original raw ZZ failure and worsened ideal expectation are retained.
+This protocol was defined after the prior diagnosis on the same data; it is
+not independent confirmatory evidence. Forty tests, exact symbolic norm check,
+20,109 native-gate matrix checks and an independent 12-fit KKT audit passed.
+No new hardware value, full-profile/twirl, device-model or 6x6 claim follows.
+See the [exact-norm follow-up](../results_cuprate_2d/lmpf_3x3_exact_norm_2026-09-09_v1/DELIVERY.md).

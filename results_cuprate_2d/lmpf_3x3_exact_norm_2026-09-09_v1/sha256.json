@@ -1,0 +1,17 @@
+{
+  "plan.json": "4f70059476180c91b0a183e0be3a06652a756a257ad0c3c9fba7eefc21919282",
+  "results.json": "d035a2948700fbc020ffc792d1a3067887029c38dd672807b48e8faad76b1700",
+  "tests.txt": "cf7f3734378d50552ecd66abd493fa2271071e9028646b36150ca06c7b86e281",
+  "inputs/ZZ_record.json": "f54106e10159eb5c60e9c695d59fc1a25d399027fc50b8683d77cac9cc35788b",
+  "inputs/Z_down_record.json": "1bfb1b374a1adcba1be6db3f826310d1a7272c7caafb111b3496707c118fceb1",
+  "inputs/Z_up_record.json": "68d3d4249bbab2cab11f01520c3cfe652418b80d76adaf7357014b283c536798",
+  "source_snapshot/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+  "source_snapshot/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+  "source_snapshot/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+  "source_snapshot/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+  "source_snapshot/norm_control.py": "496bff26493d5c5b32dcec81bb7cfcf6d65beb9af2e6c6d550899cc7dc77ccf3",
+  "source_snapshot/operators.py": "c9892347c43e664fafc9d07895531df08f3ceffcd223385ead2a053983b5be5d",
+  "source_snapshot/PLAN_EXACT_NORM.md": "e9412ab51a5c4dcf24b46f07626388419706d9d1d683942ff5b05ae8b5604b7e",
+  "source_snapshot/test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b",
+  "source_snapshot/verify_norm_control.py": "80aa5baa7a374703704f5470d55f88241771fff1af9bdffbb697cc7aea70fd55"
+}

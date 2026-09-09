@@ -1,0 +1,70 @@
+{
+  "schema": "exact-ideal-pauli-norm-followup-v1",
+  "cases": [
+    [
+      "Z_up",
+      8,
+      "lmpf_3x3_chi128_2026-09-08_v1",
+      64,
+      128
+    ],
+    [
+      "Z_down",
+      9,
+      "lmpf_3x3_chi128_2026-09-08_v1",
+      64,
+      128
+    ],
+    [
+      "ZZ",
+      22,
+      "lmpf_3x3_zz_chi256_2026-09-09_v1",
+      128,
+      256
+    ]
+  ],
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 0,
+  "ridge": 0.017857142857142856,
+  "matrix_tolerance": 0.01,
+  "coefficient_l1_tolerance": 0.05,
+  "defined_after_prior_diagnosis": true,
+  "independent_data_validation": false,
+  "new_qpu_seconds": 0,
+  "tn_propagation_performed": false,
+  "source_sha256": {
+    "lmpf_2d/norm_control.py": "496bff26493d5c5b32dcec81bb7cfcf6d65beb9af2e6c6d550899cc7dc77ccf3",
+    "lmpf_2d/verify_norm_control.py": "80aa5baa7a374703704f5470d55f88241771fff1af9bdffbb697cc7aea70fd55",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/operators.py": "c9892347c43e664fafc9d07895531df08f3ceffcd223385ead2a053983b5be5d",
+    "lmpf_2d/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+    "lmpf_2d/PLAN_EXACT_NORM.md": "e9412ab51a5c4dcf24b46f07626388419706d9d1d683942ff5b05ae8b5604b7e",
+    "test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b"
+  },
+  "native_gate_check": {
+    "inputs": [
+      {
+        "factor": 1,
+        "record_index": 14,
+        "qpy_sha256": "3324c753d0f69db058e21f9aecbae8c8c9cb449335fbd324172a7910b090d5f1"
+      },
+      {
+        "factor": 2,
+        "record_index": 15,
+        "qpy_sha256": "a17894e5121c417ce784c16334bbfaac93cee3a65604749c372a899723ebe160"
+      },
+      {
+        "factor": 3,
+        "record_index": 23,
+        "qpy_sha256": "e8de61ca794cc9b0cc015cc179c5a02efd40b47b6282ae67fb6802d9c7a521f5"
+      }
+    ],
+    "native_gates_checked": 20109,
+    "unique_gate_matrices": 57,
+    "maximum_unitarity_error": 2.220446049250313e-16,
+    "scope": "Ideal archived gate matrices only, not physical noisy QPU channels."
+  }
+}

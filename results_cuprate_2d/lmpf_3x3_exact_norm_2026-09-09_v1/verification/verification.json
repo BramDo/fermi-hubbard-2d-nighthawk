@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_NORM_SAVED_EVIDENCE_VERIFIED",
+  "fits_checked": 12,
+  "maximum_direct_KKT_coefficient_error": 8.597567102697212e-13,
+  "maximum_before_after_weight_change": 0.0,
+  "maximum_residual_shift_error": 0.0,
+  "historical_raw_flags_preserved": true,
+  "followup_flags_pass": true,
+  "new_qpu_seconds": 0,
+  "independent_hardware_validation": false,
+  "seconds": 0.5035926370001107,
+  "verifier_source_sha256": "80aa5baa7a374703704f5470d55f88241771fff1af9bdffbb697cc7aea70fd55"
+}
