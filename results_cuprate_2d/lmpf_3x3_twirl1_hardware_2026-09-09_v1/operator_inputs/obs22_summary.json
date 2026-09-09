@@ -1,0 +1,25 @@
+{
+  "status": "TWIRL1_ZZ_RESUMPTION_COMPLETE",
+  "stability": {
+    "raw_full_gram_relative_change": 0.013129585436624893,
+    "exact_norm_full_gram_relative_change": 0.0017990859443744063,
+    "G_relative_change": 0.0013511144510283126,
+    "b_relative_change": 0.005049922116133582,
+    "shot_aware_coefficient_l1_change": 0.018010897938295245,
+    "raw_flags_pass": false,
+    "exact_norm_local_flags_pass": true
+  },
+  "tests_run": 75,
+  "new_states": 1,
+  "reused_states": 7,
+  "assembled_states": 8,
+  "missing_state_seconds": 133.94915028999822,
+  "seconds": 158.02153017099772,
+  "peak_rss_bytes": 491802624,
+  "parent_timeout_preserved": true,
+  "new_qpu_seconds": 0,
+  "hardware_weights_applied": false,
+  "hardware_accuracy_validated": false,
+  "full_3x3_or_8_twirl_validation": false,
+  "six_by_six_go": false
+}

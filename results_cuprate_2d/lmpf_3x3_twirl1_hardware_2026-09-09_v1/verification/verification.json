@@ -1,0 +1,20 @@
+{
+  "status": "TWIRL1_HARDWARE_ASSIGNMENT_KKT_AUDIT_PASSED",
+  "methods_checked": 4,
+  "bootstrap_replicates_replayed": 10000,
+  "operator_sources_verified": 3,
+  "maximum_point_weight_error": 6.661338147750939e-16,
+  "maximum_penalties_error": 2.220446049250313e-16,
+  "maximum_weights_error": 1.7763568394002505e-15,
+  "maximum_pauli_error": 1.7763568394002505e-15,
+  "maximum_physical_error": 1.1102230246251565e-15,
+  "maximum_physical_fixed_calibration_error": 9.159339953157541e-16,
+  "maximum_physical_frozen_weights_error": 1.1379786002407855e-15,
+  "matched_shot_budget_verified": true,
+  "calibration_dependent_weights_verified": true,
+  "paired_intervals_verified": true,
+  "no_clipping_verified": true,
+  "new_qpu_seconds": 0,
+  "hardware_accuracy_validated": false,
+  "seconds": 3.0558865450002486
+}

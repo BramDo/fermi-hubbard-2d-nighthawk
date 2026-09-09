@@ -1,0 +1,22 @@
+{
+  "status": "TWIRL1_ZUP_OPERATOR_CHECK_FINISHED",
+  "stability": {
+    "raw_full_gram_relative_change": 0.0036742052648007805,
+    "exact_norm_full_gram_relative_change": 0.0008583861306466491,
+    "G_relative_change": 0.0004016771655374666,
+    "b_relative_change": 0.0015840092111000289,
+    "shot_aware_coefficient_l1_change": 0.007181433657691916,
+    "raw_flags_pass": true,
+    "exact_norm_local_flags_pass": true
+  },
+  "tests_run": 63,
+  "new_states": 8,
+  "seconds": 50.02315717300007,
+  "peak_rss_bytes": 404275200,
+  "new_qpu_seconds": 0,
+  "hardware_weights_applied": false,
+  "hardware_accuracy_validated": false,
+  "full_3x3_or_8_twirl_validation": false,
+  "six_by_six_go": false,
+  "next_candidate_if_local_flags_pass": "twirl1 central Z_down; not started"
+}

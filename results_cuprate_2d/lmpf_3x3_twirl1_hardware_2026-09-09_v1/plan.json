@@ -1,0 +1,98 @@
+{
+  "schema": "central-twirl1-shot-aware-hardware-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 1,
+  "observables": [
+    8,
+    9,
+    22
+  ],
+  "methods": [
+    "raw64",
+    "readout64",
+    "zne_matched",
+    "lmpf_shot_aware"
+  ],
+  "replicates": 10000,
+  "subset_seed": 2026090917,
+  "bootstrap_seed": 2026090918,
+  "primary_target_shots": {
+    "readout64": [
+      64,
+      0,
+      0
+    ],
+    "zne_matched": [
+      43,
+      7,
+      14
+    ],
+    "lmpf_shot_aware": [
+      43,
+      7,
+      14
+    ]
+  },
+  "shared_calibration_shots": 128,
+  "primary_total_shots": 192,
+  "selected_union_shots": 213,
+  "raw64_calibration_shots_used": 0,
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0,
+  "new_six_by_six_work": false,
+  "exploratory_reused_data": true,
+  "source_sha256": {
+    "lmpf_2d/twirl1_hardware.py": "46d500735575233ef241ecbc89202b4bfe686c1f54be13273fc4464d66852bdc",
+    "lmpf_2d/verify_twirl1_hardware.py": "4ceb0fbbc9c22c3a6ad5e2a7794d1c40896febcd4fa9c2679e5d8510f4802443",
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/verify_single_twirl.py": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af",
+    "lmpf_2d/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+    "lmpf_2d/verify_shot_aware.py": "0b28064255b5e981d3546610e467b0de72153f346ef3ab48dbbf15d32912d0bf",
+    "lmpf_2d/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/PLAN_TWIRL1_HARDWARE.md": "797387db90cdd584d7a746874cb819f98e5bbdb240d87aefd915d192cdeeea71",
+    "test_lmpf_2d.py": "a80aaeb69cebf55c81420fa3305bed307e52cfa239ed5e6c766bcdb6be54bd0f",
+    "test_lmpf_hardware_inputs.py": "f9f64601e83f3fc4510bec938e87a442c1c77522881098fdf8c6c7ed4bf9ff68",
+    "test_lmpf_product.py": "e510f14eaf0aff2da64f6653cb182144fff267963c4d5b0d4cf5073cbc3e35ce",
+    "test_lmpf_tn_storage.py": "7cf0f3605f1e32b4ce3835045a9a5df912a804b16306437eaf8273d1374bfa94",
+    "test_lmpf_canonical_chain.py": "c09ff41725dfb67f37d89fc4fd8e5d8c401dd87473d7ee97e6ae6458c69b74b4",
+    "test_lmpf_chain_contract.py": "fda31e45cb2f226bdcaa776db58773daae88435b3bae60f21a364c33512fc461",
+    "test_lmpf_zz_refine.py": "cdb3b716c892cf553da3a5076321cb35434abc8b62f383078edf229bb67f8faa",
+    "test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b",
+    "test_lmpf_single_twirl.py": "3af419dc30efb86ad14f332c0cdadeb05f158f4bd847b1fda558203c1801b5d8",
+    "test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b",
+    "test_lmpf_twirl_reuse.py": "1bff0568f7624a1112ec7bbc5efa991e05a30451657e0e7b26276e6e68f5ecb4",
+    "test_lmpf_twirl1_zup.py": "abd0af84bb997656cea3d7894f9d00412f1cfdc9c9b64b9bcad7f0a65ba3fb5b",
+    "test_lmpf_twirl1_zdown.py": "66ca6737886cbf371798b946117164abebef2e919a860d131424f2f708ab0a82",
+    "test_lmpf_twirl1_zz.py": "3c7b73bd6418101221f7e43dfa24debdc7d0dbaf65962bd6dafcd5a87502ad64",
+    "test_lmpf_resume_twirl1_zz.py": "b801a9572001f4ceb0e3599ad2e0bfee0aed6914e437b57efd9dac9dd4fd2109",
+    "test_lmpf_twirl1_hardware.py": "9ecfeb3a45671c98576cc1e576ed739c83e3f01d3b5d93a137d13e5fb6201411"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/plan.json": "454f47eb13e5c17ccd814d29bba95ffe446c027bf59cad69a09527384e50b449",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/summary.json": "93efb1f795364520719b47fdbed503d0718bddb22e6756ae8f8310878dc244de",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/sha256.json": "7ad129136ef012a3c86f770400be1c6e61db6f4813f5485692e817047b0212a8",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/chi64.json": "4dbbaf7de15dd9c84219d517919543907b68cf234eddeb36f22d8dd7bde21998",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/chi128.json": "04e3402f7f97760f17053c5837be0024ba0d31caf0e23eab71166aa65d8d2c6b",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/verification/verification.json": "cca98ebba97c759811c0c587367fcf44a054f83965eb6fa150c0438915212030",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/plan.json": "c81eb7cf0f27fe5d1f3680e195663f21e2b5011dbfb262ea4d2204804f9f18c1",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/summary.json": "c5dd868d83c30e97cc9d1eaac5a0c33613d081366c880ab5ed51c834f7709249",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/sha256.json": "e8987f9300884275c38343e0453474114e64ac60367908edf7a0d0979de50c9f",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/chi64.json": "f6ec7f99fee3886d337d982d7e08a939d1e0cbfe4c143b45024fded702a87f06",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/chi128.json": "04d561b68af5b7634f5a840689fb1ceddefba6101a13d2d7ca5c66548a33f7bd",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/verification/verification.json": "defa83e7759d2c9caa1a9e62b67b2d2124bdaa38ad744a31a05de40c2c119985",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/plan.json": "4a5e7578b97fd586c34851b085c5ba375ab82b98c0c129655493278395466f13",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/summary.json": "c46efbe6f0c7ddcd4e7b4407104bf443959e5079ccc18fcb1879b9e5dc368a20",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/sha256.json": "478acf34f2c5879e510b771f8e64b9c6e7ec321f96d85b47ab59c6fea1f8d3b0",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/chi128.json": "9f88c7effd0bb19981b59d17bbada488951252542b317918abcac7cd64319e9b",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/chi256.json": "2a5e3873944b2f67553f36040db15f4baa5679b2ca7e919d5880a55fd99bd8b6",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zz_completed_2026-09-09_v1/verification/verification.json": "d08a87579e3d21c3da5bb6f8d7b7d7fbb0800d7b9fffedf88cbfeff13fd7e758",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/raw_bitstrings.json": "2767837c0c58db57156a1c875e2fa36925e31ebe61ab7151c838bab20f5e79cf",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/job_receipt.json": "0a252ff8bbc9edac0f751676285b302e68d0a0bf77956ac5c8e7a65bd35652a1"
+  },
+  "frozen_weights_sha256": "d11a79df23e2614ac7bbb3b7075c10871d3e32a5781539f686f6c877a805933e"
+}

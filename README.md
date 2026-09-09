@@ -48,7 +48,7 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   63 tests and independent overlap/KKT audit pass. No new hardware values.
   [Twirl1 central Z_down](results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/DELIVERY.md):
   the second operator also passes chi64/128, with 67 tests and an independent audit;
-  the subsequent ZZ steps are listed below; the hardware comparison remains pending.
+  the subsequent ZZ and hardware-comparison steps are listed below.
   [Twirl1 ZZ budget stop](results_cuprate_2d/lmpf_3x3_twirl1_zz_2026-09-09_v1/DELIVERY.md):
   the first attempt saved seven of eight states before its time limit;
   that partial checkpoint and its failure record are preserved.
@@ -56,6 +56,10 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   one extra state completed within 158 seconds, with 75 tests and full independent audit.
   All three exact-norm local gates pass; the raw ZZ Gram change still fails at 1.31%.
   No hardware values have been rescored in these operator-only steps.
+  [Matched twirl1 hardware reanalysis](results_cuprate_2d/lmpf_3x3_twirl1_hardware_2026-09-09_v1/DELIVERY.md):
+  central charge is close in the point estimate, but spin/doublons remain inaccurate;
+  all six paired improvement intervals include zero. 79 tests and full bootstrap audit pass.
+  No robust general hardware improvement or 6x6 go is established.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

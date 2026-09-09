@@ -1,0 +1,21 @@
+{
+  "status": "TWIRL1_ZUP_RAW_TN_KKT_AUDIT_PASSED",
+  "independent_overlaps": 20,
+  "independent_fits": 2,
+  "native_gates_checked": 20205,
+  "unique_native_unitaries": 62,
+  "maximum_native_unitarity_error": 2.220446049250313e-16,
+  "maximum_gram_error": 6.661338147750939e-16,
+  "maximum_weight_error": 4.884981308350689e-15,
+  "maximum_projected_gradient": 8.326672684688674e-17,
+  "maximum_objective_error": 3.552713678800501e-15,
+  "maximum_stability_metric_error": 1.8457457784393227e-14,
+  "largest_contraction_intermediate_elements": 65536,
+  "largest_estimated_contraction_flops": 179693456.0,
+  "raw_flags_pass": true,
+  "exact_norm_local_flags_pass": true,
+  "hardware_accuracy_validated": false,
+  "new_qpu_seconds": 0,
+  "all_source_input_output_hashes_verified": true,
+  "seconds": 3.657088518997625
+}
