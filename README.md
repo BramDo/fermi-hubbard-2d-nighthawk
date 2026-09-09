@@ -43,6 +43,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Archived-twirl reuse check](results_cuprate_2d/lmpf_3x3_twirl_reuse_2026-09-09_v1/DELIVERY.md):
   all 21 comparisons differ internally and as full surrogate channels;
   direct reuse of twirl0 weights is not established. No new hardware scoring.
+  [Twirl1 central Z_up](results_cuprate_2d/lmpf_3x3_twirl1_zup_2026-09-09_v1/DELIVERY.md):
+  eight new chi64/128 operator states pass the fixed local stability checks;
+  63 tests and independent overlap/KKT audit pass. No new hardware values.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,
