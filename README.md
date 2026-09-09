@@ -64,6 +64,10 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   factor1 agrees within broad shot uncertainty; factor2 ZZ shows a discrepancy
   in only seven shots. 84 tests, 12 independent contractions and full bootstrap replay pass.
   This post-hoc diagnostic does not validate the noise model or authorize 6x6.
+  [Exact finite-shot follow-up](results_cuprate_2d/lmpf_3x3_exact_counts_2026-09-09_v1/DELIVERY.md):
+  exhaustive count tests do not confirm the factor2 ZZ bootstrap flag (p=.132).
+  All three joint tests are non-rejecting, conditional on the fixed model/readout.
+  48,705 count vectors independently checked; no proof of a shot-noise-only cause.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

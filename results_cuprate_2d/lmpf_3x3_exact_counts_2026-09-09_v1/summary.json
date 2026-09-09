@@ -1,0 +1,269 @@
+{
+  "status": "EXACT_FINITE_COUNT_DIAGNOSTIC_COMPLETE",
+  "arms": [
+    {
+      "count_vectors": 47905,
+      "statistic": 1.2985861526171227,
+      "p_value": 0.731131504311288,
+      "p_value_tight_ties": 0.731131504311288,
+      "total_mass": 1.0000000000000038,
+      "mean_max_error": 1.0302869668521453e-13,
+      "covariance_max_error": 5.3290705182007514e-14,
+      "factor": 1,
+      "shots": 64,
+      "mask": [
+        1,
+        1
+      ],
+      "observed_counts_00_10_01_11": [
+        7,
+        14,
+        10,
+        33
+      ],
+      "model_physical_probabilities": [
+        0.4723859802722047,
+        0.16462627545122477,
+        0.2734495492723278,
+        0.08953819500424276
+      ],
+      "model_measured_probabilities": [
+        0.09153782665297125,
+        0.27355779848088285,
+        0.16640872887241215,
+        0.4684956459937338
+      ],
+      "observed_frequencies": [
+        0.109375,
+        0.21875,
+        0.15625,
+        0.515625
+      ],
+      "p_value_bonferroni3": 1.0,
+      "secondary_binary_tests": [
+        {
+          "count_vectors": 65,
+          "statistic": 0.019588003149365818,
+          "p_value": 1.0000000000000038,
+          "p_value_tight_ties": 1.0000000000000038,
+          "total_mass": 1.0000000000000038,
+          "mean_max_error": 1.6342482922482304e-13,
+          "covariance_max_error": 1.9539925233402755e-14,
+          "observable": "Z_up",
+          "plus_count": 17,
+          "n": 64,
+          "model_plus_probability": 0.25794655552538337,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 65,
+          "statistic": 0.38330440029881174,
+          "p_value": 0.6045880654223285,
+          "p_value_tight_ties": 0.6045880654223285,
+          "total_mass": 1.0000000000000102,
+          "mean_max_error": 3.979039320256561e-13,
+          "covariance_max_error": 1.1368683772161603e-13,
+          "observable": "Z_down",
+          "plus_count": 21,
+          "n": 64,
+          "model_plus_probability": 0.3650956251338541,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 65,
+          "statistic": 1.1113216719587342,
+          "p_value": 0.3159930125511474,
+          "p_value_tight_ties": 0.3159930125511474,
+          "total_mass": 1.000000000000007,
+          "mean_max_error": 2.7711166694643907e-13,
+          "covariance_max_error": 5.861977570020827e-14,
+          "observable": "ZZ",
+          "plus_count": 40,
+          "n": 64,
+          "model_plus_probability": 0.560033472646705,
+          "p_value_bonferroni9": 1.0
+        }
+      ]
+    },
+    {
+      "count_vectors": 120,
+      "statistic": 5.030948443155312,
+      "p_value": 0.23543987859906315,
+      "p_value_tight_ties": 0.23543987859906315,
+      "total_mass": 1.0000000000000009,
+      "mean_max_error": 2.6645352591003757e-15,
+      "covariance_max_error": 1.3322676295501878e-15,
+      "factor": 2,
+      "shots": 7,
+      "mask": [
+        1,
+        1
+      ],
+      "observed_counts_00_10_01_11": [
+        2,
+        0,
+        1,
+        4
+      ],
+      "model_physical_probabilities": [
+        0.4093897273099592,
+        0.21720055381919495,
+        0.2451562398038478,
+        0.12825347906699808
+      ],
+      "model_measured_probabilities": [
+        0.12984139415731344,
+        0.2455158675001348,
+        0.2179902689921689,
+        0.40665246935038296
+      ],
+      "observed_frequencies": [
+        0.2857142857142857,
+        0.0,
+        0.14285714285714285,
+        0.5714285714285714
+      ],
+      "p_value_bonferroni3": 0.7063196357971895,
+      "secondary_binary_tests": [
+        {
+          "count_vectors": 8,
+          "statistic": 0.1951269113399885,
+          "p_value": 0.7002521545887626,
+          "p_value_tight_ties": 0.7002521545887626,
+          "total_mass": 1.0000000000000002,
+          "mean_max_error": 8.881784197001252e-16,
+          "covariance_max_error": 2.220446049250313e-16,
+          "observable": "Z_up",
+          "plus_count": 3,
+          "n": 7,
+          "model_plus_probability": 0.34783166314948233,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 8,
+          "statistic": 0.24948790829322354,
+          "p_value": 0.7182075889661327,
+          "p_value_tight_ties": 0.7182075889661327,
+          "total_mass": 1.0000000000000002,
+          "mean_max_error": 1.7763568394002505e-15,
+          "covariance_max_error": 2.220446049250313e-16,
+          "observable": "Z_down",
+          "plus_count": 2,
+          "n": 7,
+          "model_plus_probability": 0.3753572616574482,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 8,
+          "statistic": 3.268644712999029,
+          "p_value": 0.13199189474505665,
+          "p_value_tight_ties": 0.13199189474505665,
+          "total_mass": 0.9999999999999999,
+          "mean_max_error": 8.881784197001252e-16,
+          "covariance_max_error": 0.0,
+          "observable": "ZZ",
+          "plus_count": 6,
+          "n": 7,
+          "model_plus_probability": 0.5364938635076963,
+          "p_value_bonferroni9": 1.0
+        }
+      ]
+    },
+    {
+      "count_vectors": 680,
+      "statistic": 2.494817534020875,
+      "p_value": 0.5104617361108091,
+      "p_value_tight_ties": 0.5104617361108091,
+      "total_mass": 1.0000000000000007,
+      "mean_max_error": 2.6645352591003757e-15,
+      "covariance_max_error": 3.1086244689504383e-15,
+      "factor": 3,
+      "shots": 14,
+      "mask": [
+        1,
+        1
+      ],
+      "observed_counts_00_10_01_11": [
+        2,
+        3,
+        6,
+        3
+      ],
+      "model_physical_probabilities": [
+        0.3602469390926104,
+        0.24840212824753086,
+        0.23182769876155132,
+        0.15952323389830744
+      ],
+      "model_measured_probabilities": [
+        0.1607654455576922,
+        0.2322570112150918,
+        0.24857644947821012,
+        0.35840109374900586
+      ],
+      "observed_frequencies": [
+        0.14285714285714285,
+        0.21428571428571427,
+        0.42857142857142855,
+        0.21428571428571427
+      ],
+      "p_value_bonferroni3": 1.0,
+      "secondary_binary_tests": [
+        {
+          "count_vectors": 15,
+          "statistic": 1.4880609344579803,
+          "p_value": 0.2783406093272411,
+          "p_value_tight_ties": 0.2783406093272411,
+          "total_mass": 1.000000000000001,
+          "mean_max_error": 8.881784197001252e-15,
+          "covariance_max_error": 4.440892098500626e-15,
+          "observable": "Z_up",
+          "plus_count": 8,
+          "n": 14,
+          "model_plus_probability": 0.40934189503590235,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 15,
+          "statistic": 0.07644428434544892,
+          "p_value": 0.7960890647734475,
+          "p_value_tight_ties": 0.7960890647734475,
+          "total_mass": 1.000000000000001,
+          "mean_max_error": 1.0658141036401503e-14,
+          "covariance_max_error": 5.329070518200751e-15,
+          "observable": "Z_down",
+          "plus_count": 5,
+          "n": 14,
+          "model_plus_probability": 0.393022456772784,
+          "p_value_bonferroni9": 1.0
+        },
+        {
+          "count_vectors": 15,
+          "statistic": 1.4863393893168713,
+          "p_value": 0.2877884627254618,
+          "p_value_tight_ties": 0.2877884627254618,
+          "total_mass": 1.0000000000000009,
+          "mean_max_error": 7.105427357601002e-15,
+          "covariance_max_error": 3.552713678800501e-15,
+          "observable": "ZZ",
+          "plus_count": 5,
+          "n": 14,
+          "model_plus_probability": 0.5191665393066981,
+          "p_value_bonferroni9": 1.0
+        }
+      ]
+    }
+  ],
+  "primary_count_vectors_total": 48705,
+  "primary_conditional_rejections_at_05": [],
+  "secondary_conditional_rejections_at_05": [],
+  "tests_run": 10,
+  "seconds": 2.409858160001022,
+  "calibration_uncertainty_integrated": false,
+  "noise_model_validated": false,
+  "shot_noise_only_proven": false,
+  "six_by_six_go": false,
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0,
+  "scope": "Post-hoc finite-count tail probabilities conditional on frozen approximate model, fixed shared readout and IID shots; not posterior model probabilities or held-out validation."
+}

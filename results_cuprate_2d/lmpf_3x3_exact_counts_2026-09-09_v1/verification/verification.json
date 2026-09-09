@@ -1,0 +1,77 @@
+{
+  "status": "EXACT_COUNTS_COMBINATORIAL_AND_SCIPY_AUDIT_PASSED",
+  "primary_count_vectors_verified": 48705,
+  "primary_tests_verified": 3,
+  "secondary_tests_verified": 9,
+  "source_input_and_output_hashes_verified": true,
+  "original_bitstrings_and_fixed_readout_verified": true,
+  "maximum_differences": {
+    "mass": 4.274358644806853e-15,
+    "deviance": 1.4210854715202004e-13,
+    "p_value": 7.327471962526033e-15,
+    "normalization": 4.440892098500626e-15,
+    "scipy_mass": 6.106226635438361e-16
+  },
+  "independent_results": [
+    {
+      "factor": 1,
+      "p_value": 0.7311315043112887,
+      "p_value_tight_ties": 0.7311315043112887,
+      "binary": [
+        {
+          "observable": "Z_up",
+          "p_value": 0.9999999999999964
+        },
+        {
+          "observable": "Z_down",
+          "p_value": 0.6045880654223218
+        },
+        {
+          "observable": "ZZ",
+          "p_value": 0.31599301255114703
+        }
+      ]
+    },
+    {
+      "factor": 2,
+      "p_value": 0.2354398785990632,
+      "p_value_tight_ties": 0.2354398785990632,
+      "binary": [
+        {
+          "observable": "Z_up",
+          "p_value": 0.7002521545887627
+        },
+        {
+          "observable": "Z_down",
+          "p_value": 0.7182075889661325
+        },
+        {
+          "observable": "ZZ",
+          "p_value": 0.1319918947450567
+        }
+      ]
+    },
+    {
+      "factor": 3,
+      "p_value": 0.510461736110809,
+      "p_value_tight_ties": 0.510461736110809,
+      "binary": [
+        {
+          "observable": "Z_up",
+          "p_value": 0.2783406093272408
+        },
+        {
+          "observable": "Z_down",
+          "p_value": 0.7960890647734467
+        },
+        {
+          "observable": "ZZ",
+          "p_value": 0.28778846272546166
+        }
+      ]
+    }
+  ],
+  "new_qpu_seconds": 0,
+  "noise_model_validated": false,
+  "seconds": 1.918409686000814
+}

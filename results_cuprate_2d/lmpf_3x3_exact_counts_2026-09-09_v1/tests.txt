@@ -1,0 +1,15 @@
+test_asymmetric_readout_known_case (test_lmpf_exact_counts.ExactCountTests.test_asymmetric_readout_known_case) ... ok
+test_categorical_uniform_all_tied (test_lmpf_exact_counts.ExactCountTests.test_categorical_uniform_all_tied) ... ok
+test_count_vector_numbers_and_uniqueness (test_lmpf_exact_counts.ExactCountTests.test_count_vector_numbers_and_uniqueness) ... ok
+test_deterministic_and_impossible (test_lmpf_exact_counts.ExactCountTests.test_deterministic_and_impossible) ... ok
+test_fair_seven_binary_six_plus (test_lmpf_exact_counts.ExactCountTests.test_fair_seven_binary_six_plus) ... ok
+test_invalid_inputs_rejected_without_clipping (test_lmpf_exact_counts.ExactCountTests.test_invalid_inputs_rejected_without_clipping) ... ok
+test_label_permutation (test_lmpf_exact_counts.ExactCountTests.test_label_permutation) ... ok
+test_readout_identity_and_mask (test_lmpf_exact_counts.ExactCountTests.test_readout_identity_and_mask) ... ok
+test_scipy_mass_and_exact_moments (test_lmpf_exact_counts.ExactCountTests.test_scipy_mass_and_exact_moments) ... ok
+test_uniform_two_identical (test_lmpf_exact_counts.ExactCountTests.test_uniform_two_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.172s
+
+OK

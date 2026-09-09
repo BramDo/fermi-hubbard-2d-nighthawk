@@ -1,0 +1,50 @@
+{
+  "schema": "twirl1-exact-finite-counts-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 1,
+  "central_modes": [
+    8,
+    9
+  ],
+  "shots": [
+    64,
+    7,
+    14
+  ],
+  "calibration_shots": 128,
+  "primary_statistic": "multinomial likelihood-ratio deviance",
+  "tail": "inclusive deviance at least observed",
+  "tie_relative_tolerance": 1e-10,
+  "secondary_tie_tolerance": 1e-12,
+  "primary_family_size": 3,
+  "secondary_family_size": 9,
+  "adjustment": "Bonferroni",
+  "alpha": 0.05,
+  "fixed_readout": "archived shared posterior mean",
+  "calibration_uncertainty_integrated": false,
+  "iid_shots_assumed": true,
+  "posthoc_reused_data": true,
+  "model_fitted": false,
+  "ideal_reference_used": false,
+  "source_sha256": {
+    "lmpf_2d/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+    "lmpf_2d/verify_exact_counts.py": "961b624c29ccd7f2ccd7c84f8691380b6ffa1cee177037bddd01366b2c9e4fdc",
+    "lmpf_2d/PLAN_EXACT_COUNTS.md": "de51aef7e28e60625f073034fa4bace8d4a9be85bb0d001e9ad432f8e23700c2",
+    "test_lmpf_exact_counts.py": "269f46e03e1f2979bcf2df2ac2a573b7b1058d097e1876eb753a7ee76af24b41"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/plan.json": "b0b3ab7d3753260ce64bb84739b549ea8e210bdc55f818b69f8a12d7dd206d55",
+    "results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/summary.json": "b8e4a5ebd8406b0be97b819f351706f0a4261ba491900f713cad3c15d171f2fe",
+    "results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/model_predictions.json": "b3a2d0f43b7134bc862d61bbe443e9a69d81acc3d7aa1a8ebbee314e71575527",
+    "results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/sha256.json": "bd626366e510eed1a766c7b055bede1451bb3ce8d301424d618758e3f9bb259c",
+    "results_cuprate_2d/lmpf_3x3_twirl1_noise_model_2026-09-09_v2/verification/verification.json": "c17119fa1244d0a1f42b7ec0b807930a5593719337a660a8725fcf043d358e80",
+    "results_cuprate_2d/lmpf_3x3_twirl1_hardware_2026-09-09_v1/selected_inputs.json": "3d44aade857cabdc90473d3e545e288db56451005ec86879e8f2211edd3fef7e",
+    "results_cuprate_2d/lmpf_3x3_twirl1_hardware_2026-09-09_v1/plan.json": "dfd193c9b3e984d80e05d3c72e9d462525562cb1b12cc189c309b80b961e8cb6",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/raw_bitstrings.json": "2767837c0c58db57156a1c875e2fa36925e31ebe61ab7151c838bab20f5e79cf",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367"
+  },
+  "process_limit_seconds": 120,
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0
+}

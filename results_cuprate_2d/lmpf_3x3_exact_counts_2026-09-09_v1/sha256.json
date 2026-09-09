@@ -1,0 +1,11 @@
+{
+  "enumeration.npz": "2de9399e7e9e5df9fd980577cb170f30e94753dfa8536bc1bb25c48da2a4181d",
+  "plan.json": "e477eeae5a5a596ae02ef0ccc2b69a6a72eedef4f8acb20f69476c8da6d8a4c6",
+  "selected_inputs.json": "e6b35dd5656a31da43d75200b9fe039a7c71be3b79692c13a7682005e517f689",
+  "source_snapshot/PLAN_EXACT_COUNTS.md": "de51aef7e28e60625f073034fa4bace8d4a9be85bb0d001e9ad432f8e23700c2",
+  "source_snapshot/exact_counts.py": "27236307474234ce425c5b3d98da16e1c1b11948bb529272bfb0e14e7f173bfa",
+  "source_snapshot/test_lmpf_exact_counts.py": "269f46e03e1f2979bcf2df2ac2a573b7b1058d097e1876eb753a7ee76af24b41",
+  "source_snapshot/verify_exact_counts.py": "961b624c29ccd7f2ccd7c84f8691380b6ffa1cee177037bddd01366b2c9e4fdc",
+  "summary.json": "8412b2d66458d0ffd7978d048543f1f921fc86fe499fa03ce8c31afdd15bd5da",
+  "tests.txt": "0841910f3be6ef017834b59d6b2c8a7cbcba90de51d68307b433254819b1569f"
+}
