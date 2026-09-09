@@ -1,0 +1,22 @@
+{
+  "frozen_rule_and_weights.json": "aa617be9ebabd400f7295b9312212d48d3751eeb150d6554bf91f93ccc72e9c5",
+  "plan.json": "3c547f8add2724dc9a602ca626b8f1478c745d682545a1b6bc55b4ba7444161a",
+  "shot_aware_bootstrap.npz": "eb1b6302d4bf031b11fa5fdee76f91a1b00108d0234c5d236627f9e4d90d1012",
+  "summary.json": "b50e34261c843e83928178b772685866b6932c07060aae26c7f13912d717a601",
+  "tests.txt": "a20b7fd2b868588a063b4f7284f99dce1af9e25ce554674dc7288a1544231b1a",
+  "inputs/norm_results.json": "d035a2948700fbc020ffc792d1a3067887029c38dd672807b48e8faad76b1700",
+  "inputs/parent_bootstrap.npz": "1091cde02ede56cb732c40236d2de1bb62d8aa25eb6d1f2181dd896c88132d75",
+  "inputs/parent_frozen_weights.json": "a300f95b993d7768b2181873a1335f0dc1886574091eb4629623a77d2991621d",
+  "inputs/parent_plan.json": "2be654cedf0f81f7c2ed38a315ed84cd38a49d44706615487dc68a9a3e17e6bf",
+  "inputs/parent_selected_inputs.json": "eaac9ce34915cce1b4a8ff3f505b0985da70a2ca04095618dcee93cdf57f9c1b",
+  "inputs/parent_summary.json": "c925c5f4194757a385a316ac8bfb8dca228205c4d7fd65d1f70b198db1ddc383",
+  "source_snapshot/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+  "source_snapshot/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+  "source_snapshot/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+  "source_snapshot/PLAN_SHOT_AWARE.md": "5ae01219095bb4ee07f155532f1b3ac6844216e68c1d841d9763b3e81e95bcd5",
+  "source_snapshot/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+  "source_snapshot/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+  "source_snapshot/test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b",
+  "source_snapshot/verify_shot_aware.py": "0b28064255b5e981d3546610e467b0de72153f346ef3ab48dbbf15d32912d0bf",
+  "source_snapshot/verify_single_twirl.py": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af"
+}

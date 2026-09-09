@@ -1,0 +1,41 @@
+{
+  "schema": "shot-aware-central-pilot-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 0,
+  "observables": [
+    8,
+    9,
+    22
+  ],
+  "target_shots": [
+    43,
+    7,
+    14
+  ],
+  "shared_calibration_shots": 128,
+  "primary_total_shots": 192,
+  "replicates": 10000,
+  "same_subsets_and_bootstrap_draws": true,
+  "exploratory_reused_data": true,
+  "new_qpu_seconds": 0,
+  "source_sha256": {
+    "lmpf_2d/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+    "lmpf_2d/verify_shot_aware.py": "0b28064255b5e981d3546610e467b0de72153f346ef3ab48dbbf15d32912d0bf",
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/verify_single_twirl.py": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+    "lmpf_2d/PLAN_SHOT_AWARE.md": "5ae01219095bb4ee07f155532f1b3ac6844216e68c1d841d9763b3e81e95bcd5",
+    "test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/plan.json": "2be654cedf0f81f7c2ed38a315ed84cd38a49d44706615487dc68a9a3e17e6bf",
+    "results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/summary.json": "c925c5f4194757a385a316ac8bfb8dca228205c4d7fd65d1f70b198db1ddc383",
+    "results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/selected_inputs.json": "eaac9ce34915cce1b4a8ff3f505b0985da70a2ca04095618dcee93cdf57f9c1b",
+    "results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/frozen_weights.json": "a300f95b993d7768b2181873a1335f0dc1886574091eb4629623a77d2991621d",
+    "results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/bootstrap.npz": "1091cde02ede56cb732c40236d2de1bb62d8aa25eb6d1f2181dd896c88132d75",
+    "results_cuprate_2d/lmpf_3x3_exact_norm_2026-09-09_v1/results.json": "d035a2948700fbc020ffc792d1a3067887029c38dd672807b48e8faad76b1700"
+  }
+}

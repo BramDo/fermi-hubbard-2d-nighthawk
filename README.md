@@ -37,6 +37,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Matching central hardware pilot](results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/DELIVERY.md):
   fixed higher-bond weights give negative charge/doublon estimates at matched
   shot budget; no resolved improvement. This pilot does not support 6x6 escalation.
+  [Shot-aware regularization](results_cuprate_2d/lmpf_3x3_shot_aware_2026-09-09_v1/DELIVERY.md):
+  smaller point errors and sampling spread than the old L-MPF on the same data,
+  but negative doublons and no resolved improvement across baselines remain.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

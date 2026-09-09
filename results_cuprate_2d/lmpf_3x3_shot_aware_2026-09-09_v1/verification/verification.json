@@ -1,0 +1,20 @@
+{
+  "status": "SHOT_AWARE_ASSIGNMENT_KKT_AUDIT_PASSED",
+  "operators_checked": 3,
+  "bootstrap_replicates_checked": 10000,
+  "maximum_point_weight_error": 3.3306690738754696e-16,
+  "maximum_objective_error": 4.440892098500626e-16,
+  "maximum_penalties_error": 2.220446049250313e-16,
+  "maximum_weights_error": 1.9984014443252818e-15,
+  "maximum_pauli_error": 1.7763568394002505e-15,
+  "maximum_physical_error": 1.1657341758564144e-15,
+  "maximum_physical_frozen_weights_error": 7.216449660063518e-16,
+  "maximum_physical_fixed_calibration_error": 6.661338147750939e-16,
+  "calibration_dependent_weights_verified": true,
+  "paired_intervals_verified": true,
+  "historical_baselines_unchanged": true,
+  "new_qpu_seconds": 0,
+  "hardware_accuracy_validated": false,
+  "seconds": 1.2954417259988986,
+  "verifier_source_sha256": "0b28064255b5e981d3546610e467b0de72153f346ef3ab48dbbf15d32912d0bf"
+}

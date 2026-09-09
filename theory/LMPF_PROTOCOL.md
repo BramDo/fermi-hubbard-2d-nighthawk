@@ -246,7 +246,20 @@ audit of all 10,000 replicates pass, not the hardware-quality gate. No new QPU,
 full-profile/twirl validation or 6x6 run. See the
 [central hardware report](../results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/DELIVERY.md).
 
-A separate, unexecuted next candidate is shot-allocation-aware regularization:
+After that failed pilot, the next candidate was shot-allocation-aware regularization:
 the frozen scalar ridge 1/56 does not distinguish the 43/7/14 shot counts.
 Any such follow-up must fix its variance penalty before reference scoring,
 retain this failed baseline and remain explicitly exploratory on reused data.
+
+That follow-up has now been executed with one fixed eta=1 penalty:
+Lambda_aa=(range of the readout-corrected four-outcome score)^2/(4*N_a),
+N=(43,7,14). No target means/reference values determine this penalty.
+The original ridge is replaced, not added. Calibration-dependent weights are
+recomputed within the same 10,000 paired calibration/target replicates.
+New central charge/spin/doublon: 0.221461/-0.527273/-0.161307. Absolute point
+errors fall by 57.8%/52.9%/46.4% against old L-MPF; bootstrap SDs also fall.
+Projection losses rise while sampling-variance bounds decrease. All nine
+paired improvement intervals include zero, and negative doublons remain.
+Fifty-one tests and the independent assignment/KKT audit pass; hardware quality,
+noise-model/full-profile validation and 6x6 escalation are not established.
+See the [shot-aware report](../results_cuprate_2d/lmpf_3x3_shot_aware_2026-09-09_v1/DELIVERY.md).
