@@ -1,0 +1,67 @@
+{
+  "schema": "central-single-twirl-hardware-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 0,
+  "observables": [
+    8,
+    9,
+    22
+  ],
+  "methods": [
+    "raw64",
+    "readout64",
+    "zne_matched",
+    "lmpf_matched",
+    "lmpf_all85"
+  ],
+  "replicates": 10000,
+  "bootstrap_seed": 2026090918,
+  "subset_seed": 2026090917,
+  "stratum_sizes": [
+    43,
+    21,
+    7,
+    14
+  ],
+  "primary_target_shots": {
+    "readout64": [
+      64,
+      0,
+      0
+    ],
+    "zne_matched": [
+      43,
+      7,
+      14
+    ],
+    "lmpf_matched": [
+      43,
+      7,
+      14
+    ]
+  },
+  "shared_calibration_shots": 128,
+  "primary_total_shots": 192,
+  "all85_total_shots": 213,
+  "raw64_calibration_shots_used": 0,
+  "selected_union_shots": 213,
+  "new_qpu_seconds": 0,
+  "hardware_mitigation_validated": false,
+  "go_for_6x6": false,
+  "source_sha256": {
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/verify_single_twirl.py": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af",
+    "lmpf_2d/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/PLAN_SINGLE_TWIRL.md": "f3be3d1590444bcf8965b07d8d83c2fb7aa667ee841703facd2f6d691b261d99",
+    "test_lmpf_single_twirl.py": "3af419dc30efb86ad14f332c0cdadeb05f158f4bd847b1fda558203c1801b5d8"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/raw_bitstrings.json": "2767837c0c58db57156a1c875e2fa36925e31ebe61ab7151c838bab20f5e79cf",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/job_receipt.json": "0a252ff8bbc9edac0f751676285b302e68d0a0bf77956ac5c8e7a65bd35652a1"
+  }
+}

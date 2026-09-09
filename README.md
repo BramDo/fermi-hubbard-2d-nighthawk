@@ -34,6 +34,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Exact ideal-norm follow-up](results_cuprate_2d/lmpf_3x3_exact_norm_2026-09-09_v1/DELIVERY.md):
   the central exact-norm/G/b stability checks pass; all weights remain unchanged.
   This retrospective diagnostic is not a new hardware improvement or full 3x3 validation.
+  [Matching central hardware pilot](results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/DELIVERY.md):
+  fixed higher-bond weights give negative charge/doublon estimates at matched
+  shot budget; no resolved improvement. This pilot does not support 6x6 escalation.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

@@ -1,0 +1,17 @@
+{
+  "status": "SINGLE_TWIRL_ASSIGNMENT_INVERSE_AUDIT_PASSED",
+  "methods_checked": 5,
+  "bootstrap_replicates_checked": 10000,
+  "maximum_point_physical_error": 2.220446049250313e-16,
+  "maximum_bootstrap_pauli_error": 1.5543122344752192e-15,
+  "maximum_bootstrap_physical_error": 8.881784197001252e-16,
+  "maximum_fixed_calibration_error": 6.661338147750939e-16,
+  "maximum_percentile_interval_error": 5.551115123125783e-16,
+  "matched_budget_verified": true,
+  "coefficient_and_subset_provenance_verified": true,
+  "paired_intervals_verified": true,
+  "new_qpu_seconds": 0,
+  "hardware_accuracy_validated": false,
+  "seconds": 0.8463432680000551,
+  "verifier_source_sha256": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af"
+}

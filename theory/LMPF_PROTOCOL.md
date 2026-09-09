@@ -230,3 +230,23 @@ not independent confirmatory evidence. Forty tests, exact symbolic norm check,
 20,109 native-gate matrix checks and an independent 12-fit KKT audit passed.
 No new hardware value, full-profile/twirl, device-model or 6x6 claim follows.
 See the [exact-norm follow-up](../results_cuprate_2d/lmpf_3x3_exact_norm_2026-09-09_v1/DELIVERY.md).
+
+The matching central twirl0 hardware reanalysis then applies those unchanged
+weights to the actual archived measurements. Readout-only uses 64 target shots;
+linear ZNE and L-MPF use 43/7/14, with the same 128 calibration shots (192 total).
+A single fixed seeded subset is used, not the earlier first43 convention.
+Matched L-MPF central charge/spin/doublon are -0.029469/-0.712862/-0.309473,
+against exact finite-circuit 0.404671/-0.362021/0.009685. All three point errors
+are larger than readout and ZNE. All six paired bootstrap improvement intervals
+include zero; the 7/14 folded shots severely limit the inference.
+All-85-shot L-MPF is secondary and unmatched; it improves the spin point but
+charge/doublons remain negative. No clipping, refitting or favourable-method
+selection was performed. Forty-five tests and an independent assignment-inverse
+audit of all 10,000 replicates pass, not the hardware-quality gate. No new QPU,
+full-profile/twirl validation or 6x6 run. See the
+[central hardware report](../results_cuprate_2d/lmpf_3x3_central_hardware_2026-09-09_v1/DELIVERY.md).
+
+A separate, unexecuted next candidate is shot-allocation-aware regularization:
+the frozen scalar ridge 1/56 does not distinguish the 43/7/14 shot counts.
+Any such follow-up must fix its variance penalty before reference scoring,
+retain this failed baseline and remain explicitly exploratory on reused data.
