@@ -1,0 +1,170 @@
+{
+  "raw_gram": [
+    [
+      0.9996343586730504,
+      0.5426951801380802,
+      0.3719188282468957,
+      0.2773939662353661
+    ],
+    [
+      0.5426951801380802,
+      0.34034786255589977,
+      0.24783810496563805,
+      0.1906617620029426
+    ],
+    [
+      0.3719188282468957,
+      0.24783810496563805,
+      0.18542169548872323,
+      0.14464752452192348
+    ],
+    [
+      0.2773939662353661,
+      0.1906617620029426,
+      0.14464752452192348,
+      0.11372300404088233
+    ]
+  ],
+  "exact_norm_gram": [
+    [
+      1.0,
+      0.5426951801380802,
+      0.3719188282468957,
+      0.2773939662353661
+    ],
+    [
+      0.5426951801380802,
+      0.34034786255589977,
+      0.24783810496563805,
+      0.1906617620029426
+    ],
+    [
+      0.3719188282468957,
+      0.24783810496563805,
+      0.18542169548872323,
+      0.14464752452192348
+    ],
+    [
+      0.2773939662353661,
+      0.1906617620029426,
+      0.14464752452192348,
+      0.11372300404088233
+    ]
+  ],
+  "raw_min_eigenvalue": 2.5225108265323352e-05,
+  "exact_norm_min_eigenvalue": 2.538435897893223e-05,
+  "raw_ideal_norm_squared": 0.9996343586730504,
+  "exact_ideal_norm_squared": 1.0,
+  "weights": [
+    1.5934284297471568,
+    -0.09508133498031746,
+    -0.4983470947668394
+  ],
+  "weights_unchanged_by_exact_F00": true,
+  "penalty": [
+    0.023988235828488372,
+    0.14735630580357142,
+    0.07367815290178571
+  ],
+  "objectives": {
+    "projection_loss": 0.147586295305839,
+    "conditional_sampling_variance_bound": 0.08053659580300859,
+    "surrogate_objective": 0.2281228911088476,
+    "coefficient_l1": 2.1868568594943136
+  },
+  "states": [
+    {
+      "chi": 128,
+      "arm": 0,
+      "native_factor": 1,
+      "unmask_sign": -1,
+      "seconds": 7.554329801001586,
+      "roundtrip_norm_error": 0.0,
+      "npz_sha256": "dfe4ae02bc77fe491e9a93bb24c4efabf465ba8cbb5ce438d0326c5688760f99",
+      "metadata_sha256": "2bfdda0a2aa0711bc32f551d048ba5e806d874d316e499671f491a076e97a49c"
+    },
+    {
+      "chi": 128,
+      "arm": 1,
+      "native_factor": 1,
+      "unmask_sign": -1,
+      "seconds": 7.7060677250010485,
+      "roundtrip_norm_error": 0.0,
+      "npz_sha256": "d8aa78e3b05b73dcfa9422583d17173a2293c7588a72375ed7942abc430a391b",
+      "metadata_sha256": "a9ba0c9291c2a40aa8db92ab5523c50326e332e6b10283e014a8d7ad7b8f0a16"
+    },
+    {
+      "chi": 128,
+      "arm": 2,
+      "native_factor": 2,
+      "unmask_sign": -1,
+      "seconds": 9.902603298000031,
+      "roundtrip_norm_error": 0.0,
+      "npz_sha256": "58b0b1c439011f167414af9707c469e0342cec11e453042bdea750ecbf256288",
+      "metadata_sha256": "f4902554b088e4da294ca8799586d15d9a0381c2969b8f9091aca654f7225d5f"
+    },
+    {
+      "chi": 128,
+      "arm": 3,
+      "native_factor": 3,
+      "unmask_sign": -1,
+      "seconds": 8.171892636000848,
+      "roundtrip_norm_error": 0.0,
+      "npz_sha256": "356e05af790b41c17168292d612cb3b8ef9cb1b62ed4f9b65d63ad9520278efd",
+      "metadata_sha256": "ec67095bfae02136b4c00a982225f1ea79ed65c42487a62000870b1753d6db6c"
+    }
+  ],
+  "contraction_costs": [
+    {
+      "max_elements": 65536,
+      "estimated_flops": 352430400,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 351952192,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 349821216,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 348824128,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 352888640,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 350645936,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 349684160,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 347531600,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 346565392,
+      "method": "exact_open_chain_environment"
+    },
+    {
+      "max_elements": 65536,
+      "estimated_flops": 346252160,
+      "method": "exact_open_chain_environment"
+    }
+  ],
+  "seconds": 34.09694143100205
+}
