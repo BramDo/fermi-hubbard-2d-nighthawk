@@ -1,0 +1,7 @@
+{
+  "tests_passed": 10,
+  "qpy_roundtrips": 20,
+  "physics_and_measurement_signatures_verified": true,
+  "shots": 3072,
+  "new_qpu_seconds": 0
+}
