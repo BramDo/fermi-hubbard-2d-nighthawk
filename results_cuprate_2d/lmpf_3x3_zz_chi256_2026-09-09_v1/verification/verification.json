@@ -1,0 +1,23 @@
+{
+  "status": "HIGHER_BOND_SAVED_EVIDENCE_VERIFIED",
+  "fits_checked": 4,
+  "preserved_failures": [],
+  "maximum_gram_reconstruction_error": 1.3322676295501878e-15,
+  "maximum_optimizer_projected_gradient": 9.947554932554503e-17,
+  "maximum_ideal_expectation_reconstruction_error": 4.163336342344337e-16,
+  "largest_contracted_intermediate_elements": 262144,
+  "local_stability_flags_pass": false,
+  "full_profile_or_8_twirl_validation": false,
+  "new_qpu_seconds": 0,
+  "seconds": 8.979881456999465,
+  "verification_source_sha256": "5c65d698b93653683ae401d13925c0ebc73a17f66a09105ccc50d679b8c187bb",
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.2",
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2",
+    "quimb": "1.13.0",
+    "cotengra": "0.7.5"
+  },
+  "scope": "Saved-state, alternate-contraction, fitting and classification audit; not a physical convergence or noise-model certificate."
+}

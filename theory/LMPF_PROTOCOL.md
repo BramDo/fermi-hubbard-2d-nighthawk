@@ -205,3 +205,16 @@ imports and launcher. This is classical mitigation preprocessing, not a new
 timing advantage. No coefficients were applied to the full hardware average,
 and the 6x6 conditional no-go remains. See the
 [chi128 report](../results_cuprate_2d/lmpf_3x3_chi128_2026-09-08_v1/DELIVERY.md).
+
+The 2026-09-09 central-ZZ-only chi256 refinement reuses chi128 checkpoints.
+Its coefficient-L1 change is 0.03219, passing 0.05; full-Gram change is 1.3098%,
+still above 1%. The ideal expectation worsens from 0.223031 to 0.237676 against
+the exact finite-circuit value 0.229400. This nonmonotone diagnostic is retained.
+An explicitly post-hoc decomposition attributes 98.085% of the squared Gram
+change to F00, the ideal squared HS norm (exactly 1 by unitarity and O^2=I).
+G and b change by 0.1311% and 0.4988%, respectively. No F00 substitution, fit
+change or revised acceptance test was applied. The fixed combined flag fails.
+All 36 tests, independent four-fit audit and lossless archive checks passed.
+Run time: 724.851 s; audit: 8.980 s; new QPU use: zero. No full-profile/twirl,
+noise-model or 6x6 validation follows from this step. See the
+[central ZZ chi256 report](../results_cuprate_2d/lmpf_3x3_zz_chi256_2026-09-09_v1/DELIVERY.md).

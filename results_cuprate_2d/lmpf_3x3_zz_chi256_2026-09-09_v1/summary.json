@@ -1,0 +1,20 @@
+{
+  "status": "CANONICAL_CHI256_FINISHED",
+  "observables": [
+    {
+      "observable": 22,
+      "relative_gram_change": 0.013098320512743785,
+      "ridge_coefficient_l1_change": 0.032186915908623104,
+      "passes_local_flags": false
+    }
+  ],
+  "local_stability_flags_pass": false,
+  "full_27_observable_8_twirl_validation": false,
+  "noise_model_validated": false,
+  "six_by_six_started": false,
+  "hardware_weights_applied": false,
+  "new_qpu_seconds": 0,
+  "tests_passed": 36,
+  "seconds": 724.8514458660002,
+  "process_peak_rss_bytes": 568713216
+}

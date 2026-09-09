@@ -28,6 +28,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Chi128 continuation](results_cuprate_2d/lmpf_3x3_chi128_2026-09-08_v1/DELIVERY.md):
   central Z_up and Z_down pass the local flags; ZZ still fails at 3.29% Gram change.
   These are coefficient diagnostics, not newly improved hardware measurements.
+  [Central ZZ chi256](results_cuprate_2d/lmpf_3x3_zz_chi256_2026-09-09_v1/DELIVERY.md):
+  coefficient change passes; full-Gram change is still 1.31%, above 1%.
+  The ideal ZZ expectation overshoots the exact reference; large states are losslessly archived.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

@@ -1,0 +1,25 @@
+{
+  "status": "POST_HOC_COMPONENT_DIAGNOSTIC",
+  "input_sha256": "f54106e10159eb5c60e9c695d59fc1a25d399027fc50b8683d77cac9cc35788b",
+  "source_sha256": "5ebf21663ae6b7ae29b2407b79e110780560f23e89e75d4aa7eeea3565c35005",
+  "relative_gram_change": 0.013098320512743785,
+  "ideal_norm_term_fraction_of_squared_gram_change": 0.9808511742954095,
+  "noisy_G_relative_change": 0.0013105259779363555,
+  "ideal_noisy_b_relative_change": 0.004988387587751139,
+  "ideal_norm_squared_128": 0.9799880399552476,
+  "ideal_norm_squared_256": 0.9938862682668324,
+  "exact_ideal_norm_squared": 1.0,
+  "norm_identity": "For O=Z8 Z9 and unitary U, Tr[(U_dagger O U)^2]/2^18=1.",
+  "absolute_ideal_expectation_error_128": 0.006369658678924889,
+  "absolute_ideal_expectation_error_256": 0.008275784924357016,
+  "predeclared_stability": {
+    "relative_gram_change": 0.013098320512743785,
+    "ridge_coefficient_l1_change": 0.032186915908623104,
+    "passes_local_flags": false
+  },
+  "fits_modified": false,
+  "acceptance_criteria_modified": false,
+  "hardware_weights_applied": false,
+  "new_qpu_seconds": 0,
+  "scope": "Explains the failed full-Gram flag; not a replacement acceptance test or a convergence certificate."
+}
