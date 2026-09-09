@@ -1,0 +1,30 @@
+{
+  "status": "INCOMPLETE_TIME_BUDGET",
+  "completed_states": 7,
+  "planned_states": 8,
+  "completed_chi128_arms": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "completed_chi256_arms": [
+    0,
+    1,
+    2
+  ],
+  "missing_chi256_arm": 3,
+  "missing_factor": 3,
+  "process_cap_seconds": 600,
+  "block_deadline_seconds": 590,
+  "automatic_retry": false,
+  "tests_run": 72,
+  "partial_saved_evidence_verified": true,
+  "archive_verified": true,
+  "full_stability_flags": null,
+  "high_chi_coefficients": null,
+  "hardware_accuracy_validated": false,
+  "six_by_six_go": false,
+  "new_qpu_seconds": 0,
+  "next_step": "Only missing twirl1 ZZ chi256 factor3 state, then full audits; not started"
+}

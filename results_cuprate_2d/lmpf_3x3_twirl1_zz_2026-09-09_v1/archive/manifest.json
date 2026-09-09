@@ -1,0 +1,70 @@
+{
+  "schema": "result-local-lossless-v1",
+  "original_files": [
+    {
+      "path": "states/obs22_chi256_arm0.npz",
+      "bytes": 15927951,
+      "sha256": "d6f08918d2af191262f28f7f0d35066cb75caeb8501689a230d4ade054c47394"
+    },
+    {
+      "path": "states/obs22_chi256_arm1.npz",
+      "bytes": 16283148,
+      "sha256": "bda2585abcdb40a04dd00ed9c986850e6c5c177d0ffd0d7002ead096dab489cb"
+    },
+    {
+      "path": "states/obs22_chi256_arm2.npz",
+      "bytes": 16786347,
+      "sha256": "04e5404700eaea9651125b0f72e9f3bb771e8e3767c0146da8b6cbde20be0687"
+    }
+  ],
+  "objects": [
+    {
+      "sha256": "d6f08918d2af191262f28f7f0d35066cb75caeb8501689a230d4ade054c47394",
+      "uncompressed_bytes": 15927951,
+      "parts": [
+        {
+          "path": "archive/objects/d6f08918d2af191262f28f7f0d35066cb75caeb8501689a230d4ade054c47394.gz.part000",
+          "bytes": 9000000,
+          "sha256": "5888a04b33e5c86d6d7be77d6ebc53d0a522ef0fb1f1f90c6a5a1cdf90e53065"
+        },
+        {
+          "path": "archive/objects/d6f08918d2af191262f28f7f0d35066cb75caeb8501689a230d4ade054c47394.gz.part001",
+          "bytes": 6931715,
+          "sha256": "dfb7e08c73520705c10424b6950c0d69f238f8ae733cbf0c4f4fe1bc3b502c1c"
+        }
+      ]
+    },
+    {
+      "sha256": "bda2585abcdb40a04dd00ed9c986850e6c5c177d0ffd0d7002ead096dab489cb",
+      "uncompressed_bytes": 16283148,
+      "parts": [
+        {
+          "path": "archive/objects/bda2585abcdb40a04dd00ed9c986850e6c5c177d0ffd0d7002ead096dab489cb.gz.part000",
+          "bytes": 9000000,
+          "sha256": "9f545a10674fda5f51c3d1d6014402008a39741263d3769a299b0df7271ead20"
+        },
+        {
+          "path": "archive/objects/bda2585abcdb40a04dd00ed9c986850e6c5c177d0ffd0d7002ead096dab489cb.gz.part001",
+          "bytes": 7287196,
+          "sha256": "186b0faf6569a2569c2760a082320bbe6daf8567bc24545a1427c8f73047fd67"
+        }
+      ]
+    },
+    {
+      "sha256": "04e5404700eaea9651125b0f72e9f3bb771e8e3767c0146da8b6cbde20be0687",
+      "uncompressed_bytes": 16786347,
+      "parts": [
+        {
+          "path": "archive/objects/04e5404700eaea9651125b0f72e9f3bb771e8e3767c0146da8b6cbde20be0687.gz.part000",
+          "bytes": 9000000,
+          "sha256": "995ed350bc5a867ff223663b7964d69a44f9739e8f1d57c88748c0915d4e7284"
+        },
+        {
+          "path": "archive/objects/04e5404700eaea9651125b0f72e9f3bb771e8e3767c0146da8b6cbde20be0687.gz.part001",
+          "bytes": 7790640,
+          "sha256": "5a45ce9e1820549358abe84c1a86ad9a86d7436f2c8336fc0ad3120ecb66aa69"
+        }
+      ]
+    }
+  ]
+}

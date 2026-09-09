@@ -1,0 +1,10 @@
+{
+  "chi": 128,
+  "arm": 0,
+  "native_factor": 1,
+  "unmask_sign": 1,
+  "seconds": 29.50136433899752,
+  "roundtrip_norm_error": 0.0,
+  "npz_sha256": "45cb1da860180305ff000852da3a52ba84333a784bd54a0a74b7a0d731d4a3f2",
+  "metadata_sha256": "6b1ac1d6982606b7f0c6b97d459eb221a1cd8f1990f3dec95e2fb3efd8e98fcf"
+}

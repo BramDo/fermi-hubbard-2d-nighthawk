@@ -1,0 +1,20 @@
+{
+  "status": "PARTIAL_SAVED_EVIDENCE_VERIFIED_NOT_CONVERGENCE",
+  "completed_states": 7,
+  "missing_state": {
+    "chi": 256,
+    "arm": 3,
+    "factor": 3
+  },
+  "independent_overlaps": 16,
+  "independent_complete_low_chi_fits": 1,
+  "maximum_low_chi_gram_error": 7.771561172376096e-16,
+  "maximum_low_chi_weight_error": 4.440892098500626e-15,
+  "largest_intermediate_elements": 262144,
+  "largest_estimated_flops": 1562378384.0,
+  "full_chi128_256_stability_available": false,
+  "hardware_accuracy_validated": false,
+  "new_qpu_seconds": 0,
+  "audit_seconds": 6.30049930700261,
+  "source_sha256": "291916c929eca8ee73c6621b75bbba19108832b01843384be22b23b2692c5695"
+}

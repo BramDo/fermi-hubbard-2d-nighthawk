@@ -49,6 +49,9 @@ single circuit. See [the result and claim register](theory/RESULTS_AND_CLAIMS.md
   [Twirl1 central Z_down](results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/DELIVERY.md):
   the second operator also passes chi64/128, with 67 tests and an independent audit;
   central ZZ and the matching hardware comparison remain pending.
+  [Twirl1 ZZ budget stop](results_cuprate_2d/lmpf_3x3_twirl1_zz_2026-09-09_v1/DELIVERY.md):
+  seven of eight states are saved and partially audited; the last chi256 arm
+  remains missing. Large states are losslessly archived; no stability verdict yet.
 - [Theory and conventions](theory/HANDBOOK.md): Hubbard physics, fermion signs,
   mappings, dynamics, observables, mitigation, and classical complexity.
 - [Experiments and result paths](theory/EXPERIMENT_INDEX.md): successes,

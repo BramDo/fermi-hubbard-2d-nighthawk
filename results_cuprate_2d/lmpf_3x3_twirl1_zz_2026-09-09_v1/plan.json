@@ -1,0 +1,374 @@
+{
+  "schema": "twirl1-central-zz-chi128-256-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "twirl": 1,
+  "observable": 22,
+  "support": {
+    "8": "Z",
+    "9": "Z"
+  },
+  "observable_feature_index": 2,
+  "central_calibration_mode_indices": [
+    0,
+    1
+  ],
+  "physical_modes": [
+    109,
+    108
+  ],
+  "layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "chi": [
+    128,
+    256
+  ],
+  "arms": [
+    "ideal_factor1",
+    "noisy_factor1",
+    "noisy_factor2",
+    "noisy_factor3"
+  ],
+  "inputs": [
+    {
+      "factor": 1,
+      "record_index": 25,
+      "twirl": 1,
+      "qpy": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/provider_inputs/circuit_025.qpy",
+      "qpy_sha256": "e6ca43b0dc94d0bf9a548b22de5af9b6a8286f920385deb1a7631035b9a765d6",
+      "mask": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "native_gates": {
+        "rz": 2466,
+        "sx": 1678,
+        "cz": 1008,
+        "x": 575
+      },
+      "depth": 629,
+      "classical_blocks": 755
+    },
+    {
+      "factor": 2,
+      "record_index": 19,
+      "twirl": 1,
+      "qpy": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/provider_inputs/circuit_019.qpy",
+      "qpy_sha256": "a285560b7008ba728d7507aa501458a26b4c41117be8e6d8a1b9907df9bc9caa",
+      "mask": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "native_gates": {
+        "rz": 2466,
+        "cz": 2016,
+        "sx": 1678,
+        "x": 575
+      },
+      "depth": 787,
+      "classical_blocks": 755
+    },
+    {
+      "factor": 3,
+      "record_index": 2,
+      "twirl": 1,
+      "qpy": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/provider_inputs/circuit_002.qpy",
+      "qpy_sha256": "8259d831f7ad569cdd95fd164f503e3b52296494a5dfaa2a5dc85f1fd69dcee6",
+      "mask": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "native_gates": {
+        "cz": 3024,
+        "rz": 2466,
+        "sx": 1678,
+        "x": 575
+      },
+      "depth": 917,
+      "classical_blocks": 755
+    }
+  ],
+  "noise": {
+    "backend": "ibm_phoenix",
+    "calibration_date": {
+      "__type__": "datetime",
+      "__value__": "2026-09-06T14:35:09+02:00"
+    },
+    "physical_layout": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      109,
+      108,
+      107,
+      106,
+      105,
+      104,
+      103,
+      102,
+      101,
+      111
+    ],
+    "calibration_file": "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json",
+    "calibration_sha256": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335",
+    "noise_model": "local effective Pauli-Lindblad depolarizing surrogate from average gate infidelity",
+    "learned_sparse_pauli_lindblad": false,
+    "uses_T1_T2": false,
+    "virtual_rz_without_reported_error_assumed_ideal": true,
+    "mapping": "p=d*r/(d-1); decay_rate=-log(1-p); scale multiplies decay_rate",
+    "readout_prob_1_given_0_and_0_given_1": [
+      [
+        0.005126953125,
+        0.007080078125
+      ],
+      [
+        0.011962890625,
+        0.029296875
+      ],
+      [
+        0.00341796875,
+        0.007080078125
+      ],
+      [
+        0.0009765625,
+        0.0107421875
+      ],
+      [
+        0.000732421875,
+        0.006591796875
+      ],
+      [
+        0.00146484375,
+        0.0087890625
+      ],
+      [
+        0.001220703125,
+        0.01171875
+      ],
+      [
+        0.002685546875,
+        0.01220703125
+      ],
+      [
+        0.000732421875,
+        0.01318359375
+      ],
+      [
+        0.000732421875,
+        0.010986328125
+      ],
+      [
+        0.0576171875,
+        0.22607421875
+      ],
+      [
+        0.0009765625,
+        0.0205078125
+      ],
+      [
+        0.003662109375,
+        0.008056640625
+      ],
+      [
+        0.001953125,
+        0.0126953125
+      ],
+      [
+        0.0009765625,
+        0.010986328125
+      ],
+      [
+        0.002197265625,
+        0.007080078125
+      ],
+      [
+        0.000732421875,
+        0.006103515625
+      ],
+      [
+        0.017822265625,
+        0.033935546875
+      ]
+    ],
+    "readout_calibration_treated_as_known": true,
+    "warning": "Archived backend numbers are not a learned or current hardware noise model."
+  },
+  "calibration_errors": [
+    [
+      0.007692307692307693,
+      0.007692307692307693
+    ],
+    [
+      0.007692307692307693,
+      0.007692307692307693
+    ]
+  ],
+  "stratum_masks": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "penalty": [
+    0.024743724701016448,
+    0.15199716602052962,
+    0.07599858301026481
+  ],
+  "shot_allocation": [
+    43,
+    7,
+    14
+  ],
+  "eta": 1.0,
+  "new_states_maximum": 8,
+  "process_timeout_seconds": 600,
+  "block_deadline_seconds": 590,
+  "relative_tolerance": 0.01,
+  "coefficient_l1_tolerance": 0.05,
+  "max_contraction_elements": 4194304,
+  "max_contraction_flops": 3000000000.0,
+  "target_bitstrings_read": false,
+  "reference_expectations_used": false,
+  "twirl0_states_reused": false,
+  "single_z_states_reused": false,
+  "new_qpu_seconds": 0,
+  "source_sha256": {
+    "lmpf_2d/twirl1_zz.py": "7cff9c1b21dfe56a06e02122a01082f84258b3b4b0b05d16d08c6b73fcaaf1e6",
+    "lmpf_2d/verify_twirl1_zz.py": "a3d7777d5b4a853b90c733e2eda08c424e8bb7ed88c38a5d2785fd2a104e73b2",
+    "lmpf_2d/twirl1_zdown.py": "af0aea9d2733498dd345231540c2c16978c98b3093d5db7078dd6b2487cc6935",
+    "lmpf_2d/twirl1_zup.py": "db0597c15322bc6eb15e64161107f699caef6299254a41c625a318b1704c7bbd",
+    "lmpf_2d/portable_archive.py": "7f0f9fbcfb615a2557a081459b062be4938b9d8448efa9de31289c5b36b98ae8",
+    "lmpf_2d/canonical_chain.py": "ffd704e6f2a2f57832f52097eff23ded92d91351611cbff0a5e2b297e4f0d410",
+    "lmpf_2d/chain_contract.py": "416791226738ec4d9fa6ab5f7555bb76ccfbb9551fb69b7de65249b7b17790b5",
+    "lmpf_2d/tn_storage.py": "9256f98314a998e0469a652d418308a8865b28321a9af80b27e0a2fd0a59facf",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "lmpf_2d/operators.py": "c9892347c43e664fafc9d07895531df08f3ceffcd223385ead2a053983b5be5d",
+    "lmpf_2d/product.py": "fa2748b254a11301f6088a6dc0e2c1dd178cf26efa23ebfbe58b3d7eb27e41b6",
+    "lmpf_2d/fit.py": "27f53294eff526f6bb89622b75d8146c2ae57073906cced8892f8c90a2ff740b",
+    "lmpf_2d/norm_control.py": "496bff26493d5c5b32dcec81bb7cfcf6d65beb9af2e6c6d550899cc7dc77ccf3",
+    "lmpf_2d/shot_aware.py": "67e8126eda77eb5dfb4d09b2eb4094f3929e2cb2ea6e5d45d6309ecf75c82e47",
+    "lmpf_2d/single_twirl.py": "255d3c3c071acef0ca21c7256cfa7c943a874096e539690718d1da577ad8df43",
+    "lmpf_2d/hardware_inputs.py": "ab336902c3208c62b56a241457249f5d0367a3945f87b96abefe22dae3401a8d",
+    "lmpf_2d/twirl_reuse_check.py": "1867f516b57c774a892416078a3487a8eb93fb7c2818b28085522a3b17d85615",
+    "lmpf_2d/verify_twirl_reuse.py": "9f486809ff1f592071f9082398394609f5f587ca36e9a261d8367fc2f208f855",
+    "lmpf_2d/verify_shot_aware.py": "0b28064255b5e981d3546610e467b0de72153f346ef3ab48dbbf15d32912d0bf",
+    "lmpf_2d/verify_single_twirl.py": "7180c8fb0c2bbbd48caeb17ee5fe417144f3baa16f57766b954126881d6de2af",
+    "test_lmpf_2d.py": "a80aaeb69cebf55c81420fa3305bed307e52cfa239ed5e6c766bcdb6be54bd0f",
+    "test_lmpf_hardware_inputs.py": "f9f64601e83f3fc4510bec938e87a442c1c77522881098fdf8c6c7ed4bf9ff68",
+    "test_lmpf_product.py": "e510f14eaf0aff2da64f6653cb182144fff267963c4d5b0d4cf5073cbc3e35ce",
+    "test_lmpf_tn_storage.py": "7cf0f3605f1e32b4ce3835045a9a5df912a804b16306437eaf8273d1374bfa94",
+    "test_lmpf_canonical_chain.py": "c09ff41725dfb67f37d89fc4fd8e5d8c401dd87473d7ee97e6ae6458c69b74b4",
+    "test_lmpf_chain_contract.py": "fda31e45cb2f226bdcaa776db58773daae88435b3bae60f21a364c33512fc461",
+    "test_lmpf_zz_refine.py": "cdb3b716c892cf553da3a5076321cb35434abc8b62f383078edf229bb67f8faa",
+    "test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b",
+    "test_lmpf_single_twirl.py": "3af419dc30efb86ad14f332c0cdadeb05f158f4bd847b1fda558203c1801b5d8",
+    "test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b",
+    "test_lmpf_twirl_reuse.py": "1bff0568f7624a1112ec7bbc5efa991e05a30451657e0e7b26276e6e68f5ecb4",
+    "test_lmpf_twirl1_zup.py": "abd0af84bb997656cea3d7894f9d00412f1cfdc9c9b64b9bcad7f0a65ba3fb5b",
+    "test_lmpf_twirl1_zdown.py": "66ca6737886cbf371798b946117164abebef2e919a860d131424f2f708ab0a82",
+    "test_lmpf_twirl1_zz.py": "3c7b73bd6418101221f7e43dfa24debdc7d0dbaf65962bd6dafcd5a87502ad64",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/NEXT_ZZ.md": "cd5c8ae11a3a1ced09118b34ad12f5c7e2d99fa5a35e35ac5f13a521d168b099",
+    "scripts/restore_archives.py": "9f6038ca1b585598cc600b6f0b1f536ff97bb80a482e9214cd0c5d0819a961cc"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/job_receipt.json": "0a252ff8bbc9edac0f751676285b302e68d0a0bf77956ac5c8e7a65bd35652a1",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335",
+    "results_cuprate_2d/lmpf_3x3_shot_aware_2026-09-09_v1/frozen_rule_and_weights.json": "aa617be9ebabd400f7295b9312212d48d3751eeb150d6554bf91f93ccc72e9c5",
+    "results_cuprate_2d/lmpf_3x3_shot_aware_2026-09-09_v1/sha256.json": "2c3eb3734dbe806717f33d9a3f95cdf616862f848043e760b6a01105277269da",
+    "results_cuprate_2d/lmpf_3x3_twirl_reuse_2026-09-09_v1/summary.json": "9a6d64ab60c3e265675ca2077f6ef4eb341186ee63374cafd03b87f906c210c8",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/summary.json": "c5dd868d83c30e97cc9d1eaac5a0c33613d081366c880ab5ed51c834f7709249",
+    "results_cuprate_2d/lmpf_3x3_twirl1_zdown_2026-09-09_v1/sha256.json": "e8987f9300884275c38343e0453474114e64ac60367908edf7a0d0979de50c9f"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.2",
+    "qiskit": "2.5.2",
+    "quimb": "1.13.0",
+    "cotengra": "0.7.5"
+  }
+}
