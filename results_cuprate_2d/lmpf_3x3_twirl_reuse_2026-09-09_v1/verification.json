@@ -1,0 +1,16 @@
+{
+  "status": "TWIRL_REUSE_MATRIX_AUDIT_PASSED",
+  "native_circuits": 24,
+  "comparison_pairs": 21,
+  "full_surrogate_channels_distinguished": 21,
+  "independent_calibration_reconstruction": true,
+  "unique_local_matrices": 130,
+  "maximum_archive_logdet_error": 1.7763568394002505e-15,
+  "maximum_local_matrix_logdet_error": 2.2204460492503128e-16,
+  "dense_three_qubit_checks": 6,
+  "maximum_dense_logdet_error": 2.0816681711721685e-16,
+  "all_source_input_output_hashes_verified": true,
+  "hardware_robustness_validated": false,
+  "new_qpu_seconds": 0,
+  "elapsed_seconds": 2.9381590880002477
+}

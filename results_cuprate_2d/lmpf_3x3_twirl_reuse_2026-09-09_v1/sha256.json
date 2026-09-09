@@ -1,0 +1,21 @@
+{
+  "plan.json": "e6529bb734d72b385c6ab20573b2cc97d0d523b1e775ac8dff71b344ac422f3f",
+  "source_snapshot/PLAN_TWIRL_REUSE.md": "01ea391a0851048d1166f29c19c4abf00c63215c32f07d22417f32acb565a6bc",
+  "source_snapshot/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+  "source_snapshot/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+  "source_snapshot/test_lmpf_2d.py": "a80aaeb69cebf55c81420fa3305bed307e52cfa239ed5e6c766bcdb6be54bd0f",
+  "source_snapshot/test_lmpf_canonical_chain.py": "c09ff41725dfb67f37d89fc4fd8e5d8c401dd87473d7ee97e6ae6458c69b74b4",
+  "source_snapshot/test_lmpf_chain_contract.py": "fda31e45cb2f226bdcaa776db58773daae88435b3bae60f21a364c33512fc461",
+  "source_snapshot/test_lmpf_hardware_inputs.py": "f9f64601e83f3fc4510bec938e87a442c1c77522881098fdf8c6c7ed4bf9ff68",
+  "source_snapshot/test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b",
+  "source_snapshot/test_lmpf_product.py": "e510f14eaf0aff2da64f6653cb182144fff267963c4d5b0d4cf5073cbc3e35ce",
+  "source_snapshot/test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b",
+  "source_snapshot/test_lmpf_single_twirl.py": "3af419dc30efb86ad14f332c0cdadeb05f158f4bd847b1fda558203c1801b5d8",
+  "source_snapshot/test_lmpf_tn_storage.py": "7cf0f3605f1e32b4ce3835045a9a5df912a804b16306437eaf8273d1374bfa94",
+  "source_snapshot/test_lmpf_twirl_reuse.py": "1bff0568f7624a1112ec7bbc5efa991e05a30451657e0e7b26276e6e68f5ecb4",
+  "source_snapshot/test_lmpf_zz_refine.py": "cdb3b716c892cf553da3a5076321cb35434abc8b62f383078edf229bb67f8faa",
+  "source_snapshot/twirl_reuse_check.py": "1867f516b57c774a892416078a3487a8eb93fb7c2818b28085522a3b17d85615",
+  "source_snapshot/verify_twirl_reuse.py": "9f486809ff1f592071f9082398394609f5f587ca36e9a261d8367fc2f208f855",
+  "summary.json": "9a6d64ab60c3e265675ca2077f6ef4eb341186ee63374cafd03b87f906c210c8",
+  "tests.txt": "27f9f187a35e741c46095fb68c76dcf20af8dcd2898bc312148afa094909dbcb"
+}

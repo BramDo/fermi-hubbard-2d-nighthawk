@@ -1,0 +1,69 @@
+{
+  "schema": "twirl-reuse-gate-v1",
+  "job_id": "daem7r642tqs73autong",
+  "backend": "ibm_phoenix",
+  "layout": [
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    109,
+    108,
+    107,
+    106,
+    105,
+    104,
+    103,
+    102,
+    101,
+    111
+  ],
+  "source_sha256": {
+    "lmpf_2d/twirl_reuse_check.py": "1867f516b57c774a892416078a3487a8eb93fb7c2818b28085522a3b17d85615",
+    "lmpf_2d/verify_twirl_reuse.py": "9f486809ff1f592071f9082398394609f5f587ca36e9a261d8367fc2f208f855",
+    "lmpf_2d/PLAN_TWIRL_REUSE.md": "01ea391a0851048d1166f29c19c4abf00c63215c32f07d22417f32acb565a6bc",
+    "lmpf_2d/archive_3x3.py": "c03fdaca3ff911c4a6d76f112f020c4bf9fd04ef587565996f06de581eb2542f",
+    "lmpf_2d/model.py": "01ffe6a6fd28c6a1c4c644e2b2879ff52a9c7e68181a4ed80220d7c5a24f860c",
+    "test_lmpf_2d.py": "a80aaeb69cebf55c81420fa3305bed307e52cfa239ed5e6c766bcdb6be54bd0f",
+    "test_lmpf_hardware_inputs.py": "f9f64601e83f3fc4510bec938e87a442c1c77522881098fdf8c6c7ed4bf9ff68",
+    "test_lmpf_product.py": "e510f14eaf0aff2da64f6653cb182144fff267963c4d5b0d4cf5073cbc3e35ce",
+    "test_lmpf_tn_storage.py": "7cf0f3605f1e32b4ce3835045a9a5df912a804b16306437eaf8273d1374bfa94",
+    "test_lmpf_canonical_chain.py": "c09ff41725dfb67f37d89fc4fd8e5d8c401dd87473d7ee97e6ae6458c69b74b4",
+    "test_lmpf_chain_contract.py": "fda31e45cb2f226bdcaa776db58773daae88435b3bae60f21a364c33512fc461",
+    "test_lmpf_zz_refine.py": "cdb3b716c892cf553da3a5076321cb35434abc8b62f383078edf229bb67f8faa",
+    "test_lmpf_norm_control.py": "87d27e6a100ae36738201ce064964b5d798e2e23ab71eb9bcb386b17f2294c7b",
+    "test_lmpf_single_twirl.py": "3af419dc30efb86ad14f332c0cdadeb05f158f4bd847b1fda558203c1801b5d8",
+    "test_lmpf_shot_aware.py": "0a5e91c65836e8df963fad6a7954806fcbc52d930d89470cbc1d0b0b1a704a1b",
+    "test_lmpf_twirl_reuse.py": "1bff0568f7624a1112ec7bbc5efa991e05a30451657e0e7b26276e6e68f5ecb4"
+  },
+  "input_sha256": {
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/plan.json": "c53a7205fa55c54adac6ec5feced77931ffc625945d77b827f27be7220bb3367",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/job_receipt.json": "0a252ff8bbc9edac0f751676285b302e68d0a0bf77956ac5c8e7a65bd35652a1",
+    "results_cuprate_2d/hardware_readout_cz_folding_3x3_2026-09-06/live_backend_properties.json": "cc7596f9504b69abbe9c7693c2b8875059eb6148992f827fce09be478ecd2335"
+  },
+  "factors": [
+    1,
+    2,
+    3
+  ],
+  "twirls": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "new_qpu_seconds": 0,
+  "new_tn_states": 0,
+  "target_bitstrings_read": false,
+  "reference_values_used": false,
+  "logdet_tolerance": 1e-10,
+  "scope": "necessary structural and full-surrogate-channel checks; no hardware validation"
+}
