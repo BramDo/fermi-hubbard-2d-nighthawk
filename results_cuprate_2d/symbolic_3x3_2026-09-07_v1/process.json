@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "returncode": 0,
+  "elapsed_seconds": 21.630312191991834,
+  "includes_imports_and_checks": true,
+  "includes_Windows_WSL_launcher": false
+}

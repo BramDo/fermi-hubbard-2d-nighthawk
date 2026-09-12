@@ -1,0 +1,7 @@
+{
+  "run_symbolic_3x3.py": "01a7cf48bd32d1f3bc6fa620fbc8c635517be6a782dac33f7ebb4ffdad5f3699",
+  "theory/SYMBOLIC_3X3_DERIVATION.md": "3f964edd34ffc77887af4fab8855af24fdc54e7fb9ff4dc1675290f4b10a60d3",
+  "cuprate_2d_exact_sector_baseline.py": "870d1108391f066cf2b3884e3d17482bf02938db84d7ba9c395abeee8344909e",
+  "cuprate_2d_hubbard_pipeline.py": "d313fb9696669cb652c1286a8cb70808f7cafad26d4d50915de6c3fdd235d18e",
+  "results_cuprate_2d/fermionic_pilot_3x3_2026-09-05/config.json": "a5aab789c5388cee818ceef0a0c5c0a48858089f9c5ac88c1301f8f71ac5d976"
+}

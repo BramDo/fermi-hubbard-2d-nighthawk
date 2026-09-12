@@ -1,0 +1,385 @@
+{
+  "status": "CENTRAL_DOUBLON_EXPONENTIAL_PILOT_KERNEL_VERIFIED",
+  "theorem_count": 66,
+  "additional_theorems_since_finite_pilot": 37,
+  "axioms": {
+    "ExponentialPilot.term_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExponentialPilot.term_norm_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExponentialPilot.conjugation_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExponentialPilot.term_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExponentialPilot.coefficient_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExponentialPilot.time_series_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.entry_matrix": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CentralPilot.projected_initial": [
+      "propext"
+    ],
+    "CentralPilot.projected_first": [
+      "propext"
+    ],
+    "CentralPilot.projected_second_paths": [
+      "propext"
+    ],
+    "CentralPilot.projected_second_mass": [
+      "propext"
+    ],
+    "CentralPilot.fourth_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.overlap_nil_left": [
+      "propext"
+    ],
+    "CentralPilot.overlap_nil_right": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CentralPilot.zero_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.second_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.fourth_coefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.matches_archive_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.polynomial_through_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.value_append": [
+      "propext"
+    ],
+    "CentralPilot.value_scale": [
+      "propext"
+    ],
+    "CentralPilot.advance_matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.support_one": [
+      "propext"
+    ],
+    "CentralPilot.initial_values": [
+      "propext"
+    ],
+    "CentralPilot.first_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.second_values": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.value_cons": [
+      "propext"
+    ],
+    "CentralPilot.value_project": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CentralPilot.overlap_cons": [
+      "propext"
+    ],
+    "CentralPilot.overlap_matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.projected_support_two": [
+      "propext"
+    ],
+    "CentralPilot.first_projected_matrix_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.second_projected_matrix_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.matrix_fourth_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.h4_symmetric": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CentralMoment.centre_empty": [
+      "propext"
+    ],
+    "CentralMoment.left_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.right_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.first_row_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.first_column_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.moment_zero_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.moment_zero_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.moment_one_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.moment_one_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.square_symmetric": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralMoment.moment_two_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.lift_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.evaluation_continuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.evaluation_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.complex_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.summand_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_as_moments": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.coefficient_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.generator_plus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.generator_minus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.projector_diagonal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.projector_matches_site": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.exact_expectation_hasSum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.polynomial_through_four": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.matches_archived_even_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralDynamics.exact_series_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CentralPilot.support_zero": []
+  },
+  "commands": [
+    {
+      "module": "DynamicsAudit",
+      "exit_code": 0,
+      "seconds": 20.22209099200154
+    },
+    {
+      "module": "WrongDynamicFourth",
+      "exit_code": 1,
+      "seconds": 17.056593069000883
+    },
+    {
+      "module": "WrongDynamicSecond",
+      "exit_code": 1,
+      "seconds": 16.569380464999995
+    },
+    {
+      "module": "WrongBinomialFactor",
+      "exit_code": 1,
+      "seconds": 16.976553077000062
+    }
+  ],
+  "lean_version": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "negative_controls_rejected": 3,
+  "observable": "central site (index 4) doublon, open 3x3 U8 t1 tprime=-1/4",
+  "initial_masks": [
+    325,
+    170
+  ],
+  "certified_powers": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "certified_coefficients": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "1"
+  ],
+  "pilot_connected_to_exact_exponential": true,
+  "projector_matches_site_observable": true,
+  "archived_even_coefficients_certified": 3,
+  "all_605_coefficients_proved": false,
+  "uniform_degree4_error_bound_proved": false,
+  "degree108_end_to_end_accuracy_proved": false,
+  "hardware_accuracy_proved": false,
+  "qpu_seconds": 0,
+  "elaboration_option": "Local backward.isDefEq.respectTransparency=false, as in pinned MatrixExponential.lean; kernel unchanged",
+  "numerical_check_path": "/mnt/c/Users/Lenna/Documents/ChatGPT/edukaizen en artikelen/lean-hubbard-3x3-bridge-pilot/dynamics-checks/20260910T165720793298Z/result.json",
+  "numerical_check_sha256": "2ed07235afb7dec1d06ebbe266b0f7ec9a00a9001d53217f19ad5498f8568e02",
+  "finite_check_sha256": "d1f28a67f738c9cd974ca9016b49caf54a3877105759981b858865fe2c7e92f8",
+  "compile_receipt_sha256": "3787c1b29ab96fc404ced659c953cc69d5f3f9e95b4ac4f0a77362bff3b7099c",
+  "compile_evidence": "/mnt/c/Users/Lenna/Documents/ChatGPT/edukaizen en artikelen/lean-hubbard-3x3-bridge-pilot/evidence/20260910T170904758337Z",
+  "source_sha256": {
+    "AnalyticPilot.lean": "7742389fed1f803e1b63cc6f0fb926c8b7684298356696c97df8f0c11b520e22",
+    "audit_dynamics.py": "2b39d47aa7850a0aa82f04dda57556c587d5ae5062868c3614aaed18d7ef5528",
+    "CoefficientPilot.lean": "2a0c16cdf38f67d9151a772d6cc5efff6655b4c8927462e7fb9f99d4b7d173b4",
+    "DynamicsAudit.lean": "6a70f0368786f71a02f1232c7bd22b9e01fb2077433f38c325f248be137614a0",
+    "DynamicsPilot.lean": "80d2c43cbb3d676f8ca545ce62bed485a97c785f708ecdea4b0cb65540764c08",
+    "MatrixPilot.lean": "d84191c311cb2d566250d43d2941189a5b317088f0790220ff88f12e3ecd07d5",
+    "MomentPilot.lean": "85a8e54a9310875b04aeb30517aafae0801f03c4452b2806f577a8f0ee8dfd6d",
+    "ProjectionPilot.lean": "64fd2f55af000bee00aa96d056fed2a4e2ec978a0a0a9fb51f1a7bd447a230d5",
+    "SparsePilot.lean": "891dfc0e826ca2e5cc1f3b839ff5f5cdea165d2bdf916d1a6d5839da7f8ecd8c",
+    "WrongBinomialFactor.lean": "8d429cfd9f6d7c47f2dfaa162d93e3a23fcd59d2c7881de9f923c8569903212f",
+    "WrongDynamicFourth.lean": "5854c3126818bae5bcfb00a3614445fa0dbda675a259c101b62e9c7950e50bf6",
+    "WrongDynamicSecond.lean": "10a277f4f7f7dd50acdb64ebcaa6282e730ec9ef9276e34f09e8fea517985cab"
+  },
+  "compiled_sha256": {
+    "AnalyticPilot.olean": "9becba4318f00ee5a9cb575ac6c37efd1d16e93bf6b757799dc61492956bc071",
+    "CoefficientPilot.olean": "d01a40def6cafa315c69702f015dc39ae52ca2e98b0279d28cf083a810a5fcae",
+    "DynamicsPilot.olean": "8f97382a6cd1096060050de9fb26ef802491e33462bdddccff9fce468729cee5",
+    "MatrixPilot.olean": "8022c4c882ccfb7851ef9713619cc886c6a8aa6bdad4fa1af4f3ef6cb8a65486",
+    "MomentPilot.olean": "954c665b7552a9ee8a89c8c648d1879df7fcde5ab45b64f49f2089788ed37281",
+    "ProjectionPilot.olean": "ba0784fac6caef2774b987c237e635f8f38ca94ec011cd0e0d05681f3d019d99",
+    "SparsePilot.olean": "9d125b2ff308a827a61c6d2291feda6a6e08281af1f8e15a1e1252a789fbed63"
+  },
+  "audit_script_sha256": "2b39d47aa7850a0aa82f04dda57556c587d5ae5062868c3614aaed18d7ef5528"
+}

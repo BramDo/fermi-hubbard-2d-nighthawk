@@ -1,0 +1,12 @@
+test_complete_import_closure (__main__.ReleaseTests.test_complete_import_closure) ... ok
+test_frozen_sources (__main__.ReleaseTests.test_frozen_sources) ... ok
+test_incomplete_comment_rejected (__main__.ReleaseTests.test_incomplete_comment_rejected) ... ok
+test_line_comments_preserve_newlines (__main__.ReleaseTests.test_line_comments_preserve_newlines) ... ok
+test_nested_comments (__main__.ReleaseTests.test_nested_comments) ... ok
+test_only_standard_axioms_allowed (__main__.ReleaseTests.test_only_standard_axioms_allowed) ... ok
+test_private_local_paths_not_build_dependencies (__main__.ReleaseTests.test_private_local_paths_not_build_dependencies) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.746s
+
+OK

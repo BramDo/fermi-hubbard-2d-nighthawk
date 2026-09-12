@@ -1,0 +1,281 @@
+[
+  {
+    "T_rational": "1/10",
+    "time": 0.1,
+    "sites": [
+      {
+        "site": 0,
+        "x": 0,
+        "y": 0,
+        "charge": 0.9995545148113655,
+        "spin_z": 0.9620049448664479,
+        "double_occupancy": 0.01838688191921182,
+        "max_difference_from_numeric_reference": 2.4424906541753444e-15
+      },
+      {
+        "site": 1,
+        "x": 1,
+        "y": 0,
+        "charge": 0.9902644376674952,
+        "spin_z": -0.9529639653280442,
+        "double_occupancy": 0.01809127813904615,
+        "max_difference_from_numeric_reference": 7.66053886991358e-15
+      },
+      {
+        "site": 2,
+        "x": 2,
+        "y": 0,
+        "charge": 0.9995545148113655,
+        "spin_z": 0.9620049448664479,
+        "double_occupancy": 0.01838688191921182,
+        "max_difference_from_numeric_reference": 3.6637359812630166e-15
+      },
+      {
+        "site": 3,
+        "x": 0,
+        "y": 1,
+        "charge": 0.9902644376674952,
+        "spin_z": -0.9529639653280442,
+        "double_occupancy": 0.01809127813904615,
+        "max_difference_from_numeric_reference": 6.661338147750939e-15
+      },
+      {
+        "site": 4,
+        "x": 1,
+        "y": 1,
+        "charge": 0.04072419008455768,
+        "spin_z": -0.03616391815361516,
+        "double_occupancy": 9.224655559097276e-05,
+        "max_difference_from_numeric_reference": 3.95516952522712e-16
+      },
+      {
+        "site": 5,
+        "x": 2,
+        "y": 1,
+        "charge": 0.9902644376674952,
+        "spin_z": -0.9529639653280442,
+        "double_occupancy": 0.01809127813904615,
+        "max_difference_from_numeric_reference": 3.552713678800501e-15
+      },
+      {
+        "site": 6,
+        "x": 0,
+        "y": 2,
+        "charge": 0.9995545148113655,
+        "spin_z": 0.9620049448664479,
+        "double_occupancy": 0.01838688191921182,
+        "max_difference_from_numeric_reference": 5.88418203051333e-15
+      },
+      {
+        "site": 7,
+        "x": 1,
+        "y": 2,
+        "charge": 0.9902644376674952,
+        "spin_z": -0.9529639653280442,
+        "double_occupancy": 0.01809127813904615,
+        "max_difference_from_numeric_reference": 4.218847493575595e-15
+      },
+      {
+        "site": 8,
+        "x": 2,
+        "y": 2,
+        "charge": 0.9995545148113655,
+        "spin_z": 0.9620049448664479,
+        "double_occupancy": 0.01838688191921182,
+        "max_difference_from_numeric_reference": 4.440892098500626e-15
+      }
+    ],
+    "N_exact": "8",
+    "total_spin_exact": "0",
+    "mean_D_50_digits": "0.016222765198735871149905606291067208219669226884495",
+    "spin_RMS_50_digits": "0.90281554419870355784810685814980742131839254509858",
+    "uniform_local_charge_error_bound": 2.768550468646766e-79,
+    "uniform_local_spin_and_doublon_error_bound": 1.384275234323383e-79
+  },
+  {
+    "T_rational": "1/5",
+    "time": 0.2,
+    "sites": [
+      {
+        "site": 0,
+        "x": 0,
+        "y": 0,
+        "charge": 0.9998240288753278,
+        "spin_z": 0.8753726274811303,
+        "double_occupancy": 0.05706055406346013,
+        "max_difference_from_numeric_reference": 3.3306690738754696e-15
+      },
+      {
+        "site": 1,
+        "x": 1,
+        "y": 0,
+        "charge": 0.9641156651707948,
+        "spin_z": -0.8428695200803555,
+        "double_occupancy": 0.05336869835634633,
+        "max_difference_from_numeric_reference": 4.884981308350689e-15
+      },
+      {
+        "site": 2,
+        "x": 2,
+        "y": 0,
+        "charge": 0.9998240288753278,
+        "spin_z": 0.8753726274811303,
+        "double_occupancy": 0.05706055406346013,
+        "max_difference_from_numeric_reference": 5.551115123125783e-15
+      },
+      {
+        "site": 3,
+        "x": 0,
+        "y": 1,
+        "charge": 0.9641156651707948,
+        "spin_z": -0.8428695200803555,
+        "double_occupancy": 0.05336869835634633,
+        "max_difference_from_numeric_reference": 4.6629367034256575e-15
+      },
+      {
+        "site": 4,
+        "x": 1,
+        "y": 1,
+        "charge": 0.14424122381550938,
+        "spin_z": -0.13001242960309917,
+        "double_occupancy": 0.0011666897114538041,
+        "max_difference_from_numeric_reference": 1.8318679906315083e-15
+      },
+      {
+        "site": 5,
+        "x": 2,
+        "y": 1,
+        "charge": 0.9641156651707948,
+        "spin_z": -0.8428695200803555,
+        "double_occupancy": 0.05336869835634633,
+        "max_difference_from_numeric_reference": 4.107825191113079e-15
+      },
+      {
+        "site": 6,
+        "x": 0,
+        "y": 2,
+        "charge": 0.9998240288753278,
+        "spin_z": 0.8753726274811303,
+        "double_occupancy": 0.05706055406346013,
+        "max_difference_from_numeric_reference": 7.105427357601002e-15
+      },
+      {
+        "site": 7,
+        "x": 1,
+        "y": 2,
+        "charge": 0.9641156651707948,
+        "spin_z": -0.8428695200803555,
+        "double_occupancy": 0.05336869835634633,
+        "max_difference_from_numeric_reference": 4.551914400963142e-15
+      },
+      {
+        "site": 8,
+        "x": 2,
+        "y": 2,
+        "charge": 0.9998240288753278,
+        "spin_z": 0.8753726274811303,
+        "double_occupancy": 0.05706055406346013,
+        "max_difference_from_numeric_reference": 5.551115123125783e-15
+      }
+    ],
+    "N_exact": "8",
+    "total_spin_exact": "0",
+    "mean_D_50_digits": "0.049209299932297738888230539909540091576065583488119",
+    "spin_RMS_50_digits": "0.81129035021351615221528579085294553351169259614443",
+    "uniform_local_charge_error_bound": 3.650453367776426e-46,
+    "uniform_local_spin_and_doublon_error_bound": 1.825226683888213e-46
+  },
+  {
+    "T_rational": "2/5",
+    "time": 0.4,
+    "sites": [
+      {
+        "site": 0,
+        "x": 0,
+        "y": 0,
+        "charge": 1.003751160894311,
+        "spin_z": 0.7592053195440641,
+        "double_occupancy": 0.08190593330125553,
+        "max_difference_from_numeric_reference": 1.4432899320127035e-15
+      },
+      {
+        "site": 1,
+        "x": 1,
+        "y": 0,
+        "charge": 0.8975054334845789,
+        "spin_z": -0.6686182867253857,
+        "double_occupancy": 0.06097848781490988,
+        "max_difference_from_numeric_reference": 3.1086244689504383e-15
+      },
+      {
+        "site": 2,
+        "x": 2,
+        "y": 0,
+        "charge": 1.003751160894311,
+        "spin_z": 0.7592053195440641,
+        "double_occupancy": 0.08190593330125553,
+        "max_difference_from_numeric_reference": 2.886579864025407e-15
+      },
+      {
+        "site": 3,
+        "x": 0,
+        "y": 1,
+        "charge": 0.8975054334845789,
+        "spin_z": -0.6686182867253857,
+        "double_occupancy": 0.06097848781490988,
+        "max_difference_from_numeric_reference": 4.551914400963142e-15
+      },
+      {
+        "site": 4,
+        "x": 1,
+        "y": 1,
+        "charge": 0.39497362248444,
+        "spin_z": -0.3623481312747138,
+        "double_occupancy": 0.0076506937840349325,
+        "max_difference_from_numeric_reference": 4.385380947269368e-15
+      },
+      {
+        "site": 5,
+        "x": 2,
+        "y": 1,
+        "charge": 0.8975054334845789,
+        "spin_z": -0.6686182867253857,
+        "double_occupancy": 0.06097848781490988,
+        "max_difference_from_numeric_reference": 3.9968028886505635e-15
+      },
+      {
+        "site": 6,
+        "x": 0,
+        "y": 2,
+        "charge": 1.003751160894311,
+        "spin_z": 0.7592053195440641,
+        "double_occupancy": 0.08190593330125553,
+        "max_difference_from_numeric_reference": 1.6653345369377348e-15
+      },
+      {
+        "site": 7,
+        "x": 1,
+        "y": 2,
+        "charge": 0.8975054334845789,
+        "spin_z": -0.6686182867253857,
+        "double_occupancy": 0.06097848781490988,
+        "max_difference_from_numeric_reference": 4.9960036108132044e-15
+      },
+      {
+        "site": 8,
+        "x": 2,
+        "y": 2,
+        "charge": 1.003751160894311,
+        "spin_z": 0.7592053195440641,
+        "double_occupancy": 0.08190593330125553,
+        "max_difference_from_numeric_reference": 2.220446049250313e-15
+      }
+    ],
+    "N_exact": "8",
+    "total_spin_exact": "0",
+    "mean_D_50_digits": "0.064354264249855178719560363441449534623684953910679",
+    "spin_RMS_50_digits": "0.68516572938463872969890195786803739478601153986801",
+    "uniform_local_charge_error_bound": 5.057564789057199e-13,
+    "uniform_local_spin_and_doublon_error_bound": 2.5287823945285995e-13
+  }
+]

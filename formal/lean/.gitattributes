@@ -1,0 +1,2 @@
+# Preserve exact source and certificate hashes across Windows/Linux clones.
+* -text

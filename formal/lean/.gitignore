@@ -1,0 +1,9 @@
+.lake/
+.verification/
+__pycache__/
+*.olean
+*.ilean
+*.c
+checks/pilot/dynamics-checks/
+checks/pilot/latest-dynamics-check.json
+checks/pilot/independent-check.json

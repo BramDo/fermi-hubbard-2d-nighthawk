@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETE",
+  "method": "Exact rational Taylor coefficients, not a compact closed elementary formula",
+  "degree": 108,
+  "coefficient_arithmetic": "arbitrary-precision integers and exact fractions",
+  "uniform_local_charge_error_bound_T_le_04": 5.057564789057199e-13,
+  "max_difference_from_numeric_reference": 7.66053886991358e-15,
+  "low_order_latex": {
+    "C_corner": "\\frac{2147501 T^{8}}{64512} - \\frac{8321 T^{6}}{640} + \\frac{123 T^{4}}{64} - \\frac{T^{2}}{16} + 1",
+    "S_corner": "\\frac{69072161 T^{8}}{322560} - \\frac{37511 T^{6}}{384} + \\frac{5233 T^{4}}{192} - \\frac{65 T^{2}}{16} + 1",
+    "D_corner": "- \\frac{2297461 T^{8}}{13440} + \\frac{32509 T^{6}}{480} - \\frac{403 T^{4}}{24} + 2 T^{2}",
+    "C_edge": "- \\frac{6721 T^{8}}{1260} - \\frac{98 T^{6}}{45} + \\frac{8 T^{4}}{3} - T^{2} + 1",
+    "S_edge": "- \\frac{2495 T^{8}}{12} + \\frac{4714 T^{6}}{45} - \\frac{92 T^{4}}{3} + 5 T^{2} - 1",
+    "D_edge": "- \\frac{28712 T^{8}}{105} + \\frac{4228 T^{6}}{45} - 20 T^{4} + 2 T^{2}",
+    "C_centre": "- \\frac{1001881 T^{8}}{8960} + \\frac{87433 T^{6}}{1440} - \\frac{881 T^{4}}{48} + \\frac{17 T^{2}}{4}",
+    "S_centre": "- \\frac{2006561 T^{8}}{80640} - \\frac{40727 T^{6}}{1440} + \\frac{655 T^{4}}{48} - \\frac{15 T^{2}}{4}",
+    "D_centre": "\\frac{14479 T^{8}}{360} - \\frac{293 T^{6}}{36} + T^{4}",
+    "mean_D": "- \\frac{17512379 T^{8}}{90720} + \\frac{76631 T^{6}}{1080} - \\frac{877 T^{4}}{54} + \\frac{16 T^{2}}{9}"
+  },
+  "timings": {
+    "imports_and_symbolic_unit_tests_seconds": 2.707727834000252,
+    "Hamiltonian_and_integer_setup_seconds": 1.7998211399826687,
+    "exact_integer_powers_seconds": 8.490153418999398,
+    "exact_observable_coefficients_seconds": 5.976280896982644,
+    "formula_evaluation": {
+      "0.1": {
+        "samples_seconds": [
+          0.09289783597341739,
+          0.0035527609870769083,
+          0.003740952000953257,
+          0.0034901649923995137,
+          0.00543330900836736
+        ],
+        "median_seconds": 0.003740952000953257
+      },
+      "0.2": {
+        "samples_seconds": [
+          0.08918895001988858,
+          0.003640534996520728,
+          0.005421968991868198,
+          0.005160460976185277,
+          0.00349864101735875
+        ],
+        "median_seconds": 0.005160460976185277
+      },
+      "0.4": {
+        "samples_seconds": [
+          0.043663808988640085,
+          0.003741597000043839,
+          0.003745733993127942,
+          0.00480491598136723,
+          0.007399362017167732
+        ],
+        "median_seconds": 0.00480491598136723
+      }
+    },
+    "worker_total_seconds": 20.9412837389973
+  },
+  "peak_rss_bytes": 356278272,
+  "sympy_version": "1.13.1",
+  "numerical_propagator_called": false,
+  "qpu_seconds_used": 0
+}

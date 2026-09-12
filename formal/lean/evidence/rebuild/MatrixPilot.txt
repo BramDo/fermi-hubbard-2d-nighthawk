@@ -1,0 +1,7 @@
+CentralPilot.value_append (xs ys : Terms) (r : Raw) : value (xs ++ ys) r = value xs r + value ys r
+CentralPilot.value_scale (a : ℤ) (xs : Terms) (r : Raw) : value (scale a xs) r = a * value xs r
+CentralPilot.advance_matrix (xs : Terms) (hx : supportValid xs = true) (t : State) :
+  value (advance xs) t.val = ∑ s, value xs s.val * H4 s t
+CentralPilot.initial_values (t : State) : value p0 t.val = if initialState = t then 1 else 0
+CentralPilot.first_values (t : State) : value p1 t.val = H4 initialState t
+CentralPilot.second_values (t : State) : value p2 t.val = (h4Matrix * h4Matrix) initialState t

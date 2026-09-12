@@ -1,0 +1,2 @@
+/mnt/c/Users/Lenna/Documents/ChatGPT/edukaizen en artikelen/lean-hubbard-3x3-bridge-pilot/evidence/20260910T170904758337Z/dynamics-audits/20260910T171711968539Z/sources/WrongDynamicSecond.lean:4:37: error: unsolved goals
+⊢ False

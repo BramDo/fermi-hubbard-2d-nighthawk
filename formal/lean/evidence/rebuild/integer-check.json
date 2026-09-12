@@ -1,0 +1,46 @@
+{
+  "status": "INDEPENDENT_INTEGER_PILOT_PASSED",
+  "coefficients": [
+    "0",
+    "0",
+    "1"
+  ],
+  "projected_two_step_states": 16,
+  "h4_projected_square_norm": 1024,
+  "h_projected_square_norm": 4,
+  "support_sizes": [
+    1,
+    24,
+    245,
+    1289,
+    3841
+  ],
+  "U0_coefficients": [
+    "0",
+    "0",
+    "1"
+  ],
+  "no_diagonal_coefficients": [
+    "0",
+    "0",
+    "0"
+  ],
+  "sample_leading_values": [
+    {
+      "T": "1/100",
+      "leading": 1e-08
+    },
+    {
+      "T": "1/50",
+      "leading": 1.6e-07
+    },
+    {
+      "T": "1/10",
+      "leading": 0.0001
+    }
+  ],
+  "archive_sha256": "d8ae9334632e21c662c9cc7605fb4fc29e21bff950bb84e81ee9e8acaac31b6d",
+  "source_sha256": "84412096c3551c85cfe4c7b1e0f71810201beaf1320375efa298e7c133f621e2",
+  "warning": "Leading T4 term alone is insensitive to U; not a test of full interacting dynamics.",
+  "qpu_seconds": 0
+}

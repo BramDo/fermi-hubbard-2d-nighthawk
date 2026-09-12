@@ -1,0 +1,170 @@
+[
+  {
+    "time": 0.1,
+    "degree": 4,
+    "mean_D": 0.016153703703703705,
+    "difference_from_numeric": -6.90614950321633e-05,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.1,
+    "degree": 8,
+    "mean_D": 0.016222727956459435,
+    "difference_from_numeric": -3.7242276432897237e-08,
+    "rigorous_remainder_bound": 574.3833675692499
+  },
+  {
+    "time": 0.1,
+    "degree": 12,
+    "mean_D": 0.016222765191799784,
+    "difference_from_numeric": -6.936083651876146e-12,
+    "rigorous_remainder_bound": 68.79391725798652
+  },
+  {
+    "time": 0.1,
+    "degree": 20,
+    "mean_D": 0.01622276519873587,
+    "difference_from_numeric": 3.469446951953614e-18,
+    "rigorous_remainder_bound": 0.07425614123715754
+  },
+  {
+    "time": 0.1,
+    "degree": 32,
+    "mean_D": 0.01622276519873587,
+    "difference_from_numeric": 3.469446951953614e-18,
+    "rigorous_remainder_bound": 1.8093988884760615e-08
+  },
+  {
+    "time": 0.1,
+    "degree": 48,
+    "mean_D": 0.01622276519873587,
+    "difference_from_numeric": 3.469446951953614e-18,
+    "rigorous_remainder_bound": 4.808766891727101e-20
+  },
+  {
+    "time": 0.1,
+    "degree": 64,
+    "mean_D": 0.01622276519873587,
+    "difference_from_numeric": 3.469446951953614e-18,
+    "rigorous_remainder_bound": 7.485294981732891e-34
+  },
+  {
+    "time": 0.1,
+    "degree": 108,
+    "mean_D": 0.01622276519873587,
+    "difference_from_numeric": 3.469446951953614e-18,
+    "rigorous_remainder_bound": 1.384275234323383e-79
+  },
+  {
+    "time": 0.2,
+    "degree": 4,
+    "mean_D": 0.045125925925925923,
+    "difference_from_numeric": -0.004083374006371938,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.2,
+    "degree": 8,
+    "mean_D": 0.04917284574250441,
+    "difference_from_numeric": -3.6454189793450054e-05,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.2,
+    "degree": 12,
+    "mean_D": 0.049209188851367984,
+    "difference_from_numeric": -1.1108092987793805e-07,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.2,
+    "degree": 20,
+    "mean_D": 0.049209299933683844,
+    "difference_from_numeric": 1.3859816072603337e-12,
+    "rigorous_remainder_bound": 513476.28765270446
+  },
+  {
+    "time": 0.2,
+    "degree": 32,
+    "mean_D": 0.04920929993229774,
+    "difference_from_numeric": -1.249000902703301e-16,
+    "rigorous_remainder_bound": 370.2982320917302
+  },
+  {
+    "time": 0.2,
+    "degree": 48,
+    "mean_D": 0.04920929993229774,
+    "difference_from_numeric": -1.249000902703301e-16,
+    "rigorous_remainder_bound": 5.8480485082453496e-05
+  },
+  {
+    "time": 0.2,
+    "degree": 64,
+    "mean_D": 0.04920929993229774,
+    "difference_from_numeric": -1.249000902703301e-16,
+    "rigorous_remainder_bound": 5.769788923091784e-14
+  },
+  {
+    "time": 0.2,
+    "degree": 108,
+    "mean_D": 0.04920929993229774,
+    "difference_from_numeric": -1.249000902703301e-16,
+    "rigorous_remainder_bound": 1.825226683888213e-46
+  },
+  {
+    "time": 0.4,
+    "degree": 4,
+    "mean_D": -0.13131851851851853,
+    "difference_from_numeric": -0.19567278276837385,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.4,
+    "degree": 8,
+    "mean_D": 0.032802465636684305,
+    "difference_from_numeric": -0.031551798613171034,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.4,
+    "degree": 12,
+    "mean_D": 0.06270284605059256,
+    "difference_from_numeric": -0.0016514181992627747,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.4,
+    "degree": 20,
+    "mean_D": 0.0643593568486919,
+    "difference_from_numeric": 5.092598836561879e-06,
+    "rigorous_remainder_bound": null
+  },
+  {
+    "time": 0.4,
+    "degree": 32,
+    "mean_D": 0.0643542625728071,
+    "difference_from_numeric": -1.6770482363925865e-09,
+    "rigorous_remainder_bound": 27064075793000.023
+  },
+  {
+    "time": 0.4,
+    "degree": 48,
+    "mean_D": 0.06435426424985492,
+    "difference_from_numeric": -4.163336342344337e-16,
+    "rigorous_remainder_bound": 96904325432.82817
+  },
+  {
+    "time": 0.4,
+    "degree": 64,
+    "mean_D": 0.06435426424985517,
+    "difference_from_numeric": -1.6653345369377348e-16,
+    "rigorous_remainder_bound": 5183073.888804904
+  },
+  {
+    "time": 0.4,
+    "degree": 108,
+    "mean_D": 0.06435426424985517,
+    "difference_from_numeric": -1.6653345369377348e-16,
+    "rigorous_remainder_bound": 2.5287823945285995e-13
+  }
+]

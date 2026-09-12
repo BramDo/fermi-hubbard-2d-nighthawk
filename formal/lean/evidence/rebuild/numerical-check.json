@@ -1,0 +1,47 @@
+{
+  "status": "EXPONENTIAL_PILOT_NUMERICAL_AND_SYMBOLIC_CHECKS_PASSED",
+  "dimension": 15876,
+  "nnz": 368046,
+  "small_time_checks": [
+    {
+      "T": 0.005,
+      "numerical_doublon": 6.248728455701325e-10,
+      "leading_T4": 6.25e-10,
+      "ratio": 0.9997965529122119,
+      "relative_leading_error": 0.00020348848692813232,
+      "norm": 1.0
+    },
+    {
+      "T": 0.01,
+      "numerical_doublon": 9.991865131316098e-09,
+      "leading_T4": 1e-08,
+      "ratio": 0.9991865131316098,
+      "relative_leading_error": 0.00081414916804735,
+      "norm": 1.0000000000000002
+    },
+    {
+      "T": 0.02,
+      "numerical_doublon": 1.5948013894974212e-07,
+      "leading_T4": 1.6e-07,
+      "ratio": 0.9967508684358882,
+      "relative_leading_error": 0.0032597228324569754,
+      "norm": 1.0000000000000004
+    }
+  ],
+  "scaled_next_order_estimates": [
+    8.137883511523114,
+    8.13486868390223,
+    8.122828910279434
+  ],
+  "archived_next_coefficient": "-293/36 (not Lean-certified here)",
+  "toy_two_level_series": "-T**4/3 + T**2",
+  "commuting_limit": "unchanged observable",
+  "numpy": "2.4.6",
+  "scipy": "1.16.2",
+  "sympy": "1.13.1",
+  "seconds": 6.462834055000712,
+  "source_sha256": "2b34ba3fd08c3c9a6a6fd1088295a76ef35e660ca5b8ceabad4bb4b82cfe0ddf",
+  "builder_sha256": "84412096c3551c85cfe4c7b1e0f71810201beaf1320375efa298e7c133f621e2",
+  "rigorous_floating_point_enclosure": false,
+  "qpu_seconds": 0
+}

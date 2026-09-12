@@ -1,0 +1,2 @@
+/tmp/hubbard-lean-rebuild-_61r0xpl/.verification/20260912T151937797237Z/WrongFactor.lean:3:39: error: unsolved goals
+⊢ False

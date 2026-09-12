@@ -1,0 +1,894 @@
+{
+  "original_local_commit": "d97c3b5fb8affc27ad9ba091c636b9aff2ca7f5f",
+  "modules": [
+    "AnalyticPilot",
+    "ConcreteConstants",
+    "ConcreteDefs",
+    "EvenTaylorRemainder",
+    "CommutatorRemainder",
+    "MatrixRemainder",
+    "ConcreteLogic",
+    "ConcreteShift",
+    "ConcreteObservables",
+    "SparsePilot",
+    "MatrixPilot",
+    "ProjectionPilot",
+    "ConcreteRows000",
+    "ConcreteRows001",
+    "ConcreteRows002",
+    "ConcreteRows003",
+    "ConcreteRows004",
+    "ConcreteRows005",
+    "ConcreteRows006",
+    "ConcreteRows007",
+    "ConcreteRows008",
+    "ConcreteRows009",
+    "ConcreteRows010",
+    "ConcreteRows011",
+    "ConcreteRows012",
+    "ConcreteRows013",
+    "ConcreteRows014",
+    "ConcreteRows015",
+    "ConcreteRows016",
+    "ConcreteRows017",
+    "ConcreteRows018",
+    "ConcreteRows019",
+    "ConcreteRows020",
+    "ConcreteRows021",
+    "ConcreteRows022",
+    "ConcreteRows023",
+    "ConcreteRows024",
+    "ConcreteRows025",
+    "ConcreteRows026",
+    "ConcreteRows027",
+    "ConcreteRows028",
+    "ConcreteRows029",
+    "ConcreteRows030",
+    "ConcreteRows031",
+    "ConcreteRows032",
+    "ConcreteRows033",
+    "ConcreteRows034",
+    "ConcreteRows035",
+    "ConcreteRows036",
+    "ConcreteRows037",
+    "ConcreteRows038",
+    "ConcreteRows039",
+    "ConcreteRows040",
+    "ConcreteRows041",
+    "ConcreteRows042",
+    "ConcreteRows043",
+    "ConcreteRows044",
+    "ConcreteRows045",
+    "ConcreteRows046",
+    "ConcreteRows047",
+    "ConcreteRows048",
+    "ConcreteRows049",
+    "ConcreteRows050",
+    "ConcreteRows051",
+    "ConcreteRows052",
+    "ConcreteRows053",
+    "ConcreteRows054",
+    "ConcreteRows055",
+    "ConcreteRows056",
+    "ConcreteRows057",
+    "ConcreteRows058",
+    "ConcreteRows059",
+    "ConcreteRows060",
+    "ConcreteRows061",
+    "ConcreteRows062",
+    "ConcreteRows063",
+    "ConcreteRows064",
+    "ConcreteRows065",
+    "ConcreteRows066",
+    "ConcreteRows067",
+    "ConcreteRows068",
+    "ConcreteRows069",
+    "ConcreteRows070",
+    "ConcreteRows071",
+    "ConcreteRows072",
+    "ConcreteRows073",
+    "ConcreteRows074",
+    "ConcreteRows075",
+    "ConcreteRows076",
+    "ConcreteRows077",
+    "ConcreteRows078",
+    "ConcreteRows079",
+    "ConcreteRows080",
+    "ConcreteRows081",
+    "ConcreteRows082",
+    "ConcreteRows083",
+    "ConcreteRows084",
+    "ConcreteRows085",
+    "ConcreteRows086",
+    "ConcreteRows087",
+    "ConcreteRows088",
+    "ConcreteRows089",
+    "ConcreteRows090",
+    "ConcreteRows091",
+    "ConcreteRows092",
+    "ConcreteRows093",
+    "ConcreteRows094",
+    "ConcreteRows095",
+    "ConcreteRows096",
+    "ConcreteRows097",
+    "ConcreteRows098",
+    "ConcreteRows099",
+    "ConcreteRows100",
+    "ConcreteRows101",
+    "ConcreteRows102",
+    "ConcreteRows103",
+    "ConcreteRows104",
+    "ConcreteRows105",
+    "ConcreteRows106",
+    "ConcreteRows107",
+    "ConcreteRows108",
+    "ConcreteRows109",
+    "ConcreteRows110",
+    "ConcreteRows111",
+    "ConcreteRows112",
+    "ConcreteRows113",
+    "ConcreteRows114",
+    "ConcreteRows115",
+    "ConcreteRows116",
+    "ConcreteRows117",
+    "ConcreteRows118",
+    "ConcreteRows119",
+    "ConcreteRows120",
+    "ConcreteRows121",
+    "ConcreteRows122",
+    "ConcreteRows123",
+    "ConcreteRows124",
+    "ConcreteRows125",
+    "ConcreteCertificate",
+    "ConcreteBits",
+    "ConcreteExamples",
+    "ConcreteProofs",
+    "MomentPilot",
+    "CoefficientPilot",
+    "DynamicsPilot"
+  ],
+  "sources": {
+    "AnalyticPilot.lean": {
+      "sha256": "7742389fed1f803e1b63cc6f0fb926c8b7684298356696c97df8f0c11b520e22",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/AnalyticPilot.lean"
+    },
+    "ConcreteConstants.lean": {
+      "sha256": "51c2d77791381f1120557a7f712367af1db1aed0546e6545f4a8a52dd87d5f24",
+      "original_path": "lean-concrete-hubbard/ConcreteConstants.lean"
+    },
+    "ConcreteDefs.lean": {
+      "sha256": "8cbc2e69b31e742ee8b7de67c0dea60e50579979825b16ee87709dc526e6adb6",
+      "original_path": "lean-concrete-hubbard/ConcreteDefs.lean"
+    },
+    "EvenTaylorRemainder.lean": {
+      "sha256": "87b466a3b0d60caaffef8ba5e210bb1ca71ba7c530af7e548d41a447389ef857",
+      "original_path": "lean-hubbard-remainder/EvenTaylorRemainder.lean"
+    },
+    "CommutatorRemainder.lean": {
+      "sha256": "d77b4e05f1056e73da7e30846f0997f88af5b0f36f35b9668674e192e9d51e3e",
+      "original_path": "lean-hubbard-remainder/CommutatorRemainder.lean"
+    },
+    "MatrixRemainder.lean": {
+      "sha256": "e6d3abe7ec41b77300e7fdafa58184c621159ac95e512b7239e5ca92be4f63c5",
+      "original_path": "lean-hubbard-remainder/MatrixRemainder.lean"
+    },
+    "ConcreteLogic.lean": {
+      "sha256": "2b68b5d031a4190d0d6ba5f20d74cffe533aa14c18d2e155457b7e9d49085888",
+      "original_path": "lean-concrete-hubbard/ConcreteLogic.lean"
+    },
+    "ConcreteShift.lean": {
+      "sha256": "02306df210114559cc7cd4071d85eac875c5a262bd12b973f529822fb232d110",
+      "original_path": "lean-concrete-hubbard/ConcreteShift.lean"
+    },
+    "ConcreteObservables.lean": {
+      "sha256": "1e781d41378c81c2eab0aaef33e25e0e8d213ba0a4dc96f50b7e2964be04ee93",
+      "original_path": "lean-concrete-hubbard/ConcreteObservables.lean"
+    },
+    "SparsePilot.lean": {
+      "sha256": "891dfc0e826ca2e5cc1f3b839ff5f5cdea165d2bdf916d1a6d5839da7f8ecd8c",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/SparsePilot.lean"
+    },
+    "MatrixPilot.lean": {
+      "sha256": "d84191c311cb2d566250d43d2941189a5b317088f0790220ff88f12e3ecd07d5",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/MatrixPilot.lean"
+    },
+    "ProjectionPilot.lean": {
+      "sha256": "64fd2f55af000bee00aa96d056fed2a4e2ec978a0a0a9fb51f1a7bd447a230d5",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/ProjectionPilot.lean"
+    },
+    "ConcreteRows000.lean": {
+      "sha256": "c840e592f7787ebd14db0030cee85832162ad079c157fe0832a4509a21f53a6b",
+      "original_path": "lean-concrete-hubbard/ConcreteRows000.lean"
+    },
+    "ConcreteRows001.lean": {
+      "sha256": "84f2341f028fa89ac0871789188aa0dd6280578e0364e8c6f98500f6d032b00d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows001.lean"
+    },
+    "ConcreteRows002.lean": {
+      "sha256": "4b36ad1be90525335b84390aaae6651c023b883d61f779f9fae2b52cc6c74c16",
+      "original_path": "lean-concrete-hubbard/ConcreteRows002.lean"
+    },
+    "ConcreteRows003.lean": {
+      "sha256": "e8ec6a91b9112b4c4713816eea32ea3cfca6fd8cb89126fd7b3401affd591f69",
+      "original_path": "lean-concrete-hubbard/ConcreteRows003.lean"
+    },
+    "ConcreteRows004.lean": {
+      "sha256": "7342c33d58a90bd4fad93f768cf1bb7f1f2ddac59f1e5d1a846253e9cc4f1a3a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows004.lean"
+    },
+    "ConcreteRows005.lean": {
+      "sha256": "a2ec9ee3aa08907187445c2f1f73cb9fdd4a9a0ebe00b77d1fbe5731ed0faec0",
+      "original_path": "lean-concrete-hubbard/ConcreteRows005.lean"
+    },
+    "ConcreteRows006.lean": {
+      "sha256": "ccd2dc85bbd19adfcfa4db7e4751ef1963eec9bef2cd29cce55a992569226970",
+      "original_path": "lean-concrete-hubbard/ConcreteRows006.lean"
+    },
+    "ConcreteRows007.lean": {
+      "sha256": "927b5d218eab6d9733b74e171d9b1feca17ed4938d5fcc946e95d40dd8d00291",
+      "original_path": "lean-concrete-hubbard/ConcreteRows007.lean"
+    },
+    "ConcreteRows008.lean": {
+      "sha256": "420794da88ff7de8525c0b6a3389eff515bae4d6e0451ab48d69024ef0db5117",
+      "original_path": "lean-concrete-hubbard/ConcreteRows008.lean"
+    },
+    "ConcreteRows009.lean": {
+      "sha256": "c93ad3fc5686117b07df1ba4ba8834c7871ed7bb7e3ec43bdc59fecce73fa2e7",
+      "original_path": "lean-concrete-hubbard/ConcreteRows009.lean"
+    },
+    "ConcreteRows010.lean": {
+      "sha256": "bef227f4770a6e500851a2d5a5ad7520305f0a2cb12d23931f7fcd3053928e44",
+      "original_path": "lean-concrete-hubbard/ConcreteRows010.lean"
+    },
+    "ConcreteRows011.lean": {
+      "sha256": "3b791ae51924ebfaeba4a3603581946b6034160cd63b8f08adc1996f878cf52d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows011.lean"
+    },
+    "ConcreteRows012.lean": {
+      "sha256": "cb4243abb65a5cc5c5c81c506e4a5beab101d46f79ac41e5a6f1b4faea9f60b7",
+      "original_path": "lean-concrete-hubbard/ConcreteRows012.lean"
+    },
+    "ConcreteRows013.lean": {
+      "sha256": "5ee227af1a185034a1c05b1389199f0a08fec7064a14cdf0a20d1c301465afee",
+      "original_path": "lean-concrete-hubbard/ConcreteRows013.lean"
+    },
+    "ConcreteRows014.lean": {
+      "sha256": "15146c9c9101a88fc4dd161fed73b6396ff17d7ee98b3cad2354ed3562503b7f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows014.lean"
+    },
+    "ConcreteRows015.lean": {
+      "sha256": "a9976a0013c92ef4df06118293f7bdfb535fe11813b8d3eb7fa21a60cfca0539",
+      "original_path": "lean-concrete-hubbard/ConcreteRows015.lean"
+    },
+    "ConcreteRows016.lean": {
+      "sha256": "52f9a6d0aad646063819750ad9d24a52aa0460cc6bcffcfc515b301c58941761",
+      "original_path": "lean-concrete-hubbard/ConcreteRows016.lean"
+    },
+    "ConcreteRows017.lean": {
+      "sha256": "72cf76a2994453ad260321f712ff5def5f2a04809fdc11f5689757dbda34d894",
+      "original_path": "lean-concrete-hubbard/ConcreteRows017.lean"
+    },
+    "ConcreteRows018.lean": {
+      "sha256": "905b4b2c2b07744bd8bc1ce444577aded4940c4f6990f4bf407769272dc4fcc5",
+      "original_path": "lean-concrete-hubbard/ConcreteRows018.lean"
+    },
+    "ConcreteRows019.lean": {
+      "sha256": "ff0b0f5116aaa85a4cb92851906f50064115f76e1d4e49a912c4f500b411fe37",
+      "original_path": "lean-concrete-hubbard/ConcreteRows019.lean"
+    },
+    "ConcreteRows020.lean": {
+      "sha256": "c3840631ec41afd6b81a5db3d6a98d57edc9882ed96909cbaa581119fc0ecacd",
+      "original_path": "lean-concrete-hubbard/ConcreteRows020.lean"
+    },
+    "ConcreteRows021.lean": {
+      "sha256": "a164cace5fa46d33ced495816c5c394e9f12bfe17fd5cc25aaec58c6a6343151",
+      "original_path": "lean-concrete-hubbard/ConcreteRows021.lean"
+    },
+    "ConcreteRows022.lean": {
+      "sha256": "0a8a0512c7cb8ceec258736be056606f385a8289673db5a51c469f78cb871b8d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows022.lean"
+    },
+    "ConcreteRows023.lean": {
+      "sha256": "eae86fa36c0a6aa7cfd2598c2f0419476fcf6bb5a8deee130cb9ca89e2be6684",
+      "original_path": "lean-concrete-hubbard/ConcreteRows023.lean"
+    },
+    "ConcreteRows024.lean": {
+      "sha256": "0917466ef631f8f8f20b953da5367c35d3c548fef2b1fdb33a44681057a682e4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows024.lean"
+    },
+    "ConcreteRows025.lean": {
+      "sha256": "cb93ac9a569ddc33adc5d9da5b0cf2cbe636b63a9adfd80d72a2a6c8e667cb1a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows025.lean"
+    },
+    "ConcreteRows026.lean": {
+      "sha256": "4cb524f54072d070fa4fd15f78dc36d19ae061cd8b6d87cbda1d73d5542a3a92",
+      "original_path": "lean-concrete-hubbard/ConcreteRows026.lean"
+    },
+    "ConcreteRows027.lean": {
+      "sha256": "330e63a6895b09bbc6136e0a9581f90aa1417537a16ba1b4bb0a30483252e85f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows027.lean"
+    },
+    "ConcreteRows028.lean": {
+      "sha256": "4b11b873f3b3356deae4c710b28d4d2905bcf37153501b6cc16c7fc45ef83a94",
+      "original_path": "lean-concrete-hubbard/ConcreteRows028.lean"
+    },
+    "ConcreteRows029.lean": {
+      "sha256": "844508a4dd99d0c5753dfe407345d6eb74f7e666d7a5885639e3a443ec366514",
+      "original_path": "lean-concrete-hubbard/ConcreteRows029.lean"
+    },
+    "ConcreteRows030.lean": {
+      "sha256": "e8c09a145080a3c61b4d563af18c4efcf9e0d78a1eb74ae59eda991b500a86af",
+      "original_path": "lean-concrete-hubbard/ConcreteRows030.lean"
+    },
+    "ConcreteRows031.lean": {
+      "sha256": "37fc5b57cf2b9d042745dd754e624d7db2676bc5cb07e3502b03f1000b402a56",
+      "original_path": "lean-concrete-hubbard/ConcreteRows031.lean"
+    },
+    "ConcreteRows032.lean": {
+      "sha256": "3efecffbea081a1eb1e5ac6ec1f2cfc298089247084396adff14b24086e0ff0c",
+      "original_path": "lean-concrete-hubbard/ConcreteRows032.lean"
+    },
+    "ConcreteRows033.lean": {
+      "sha256": "7b88a61f9b2226116e733aba3fc26d987bb3f3f6439760aa259c6d6a689d1665",
+      "original_path": "lean-concrete-hubbard/ConcreteRows033.lean"
+    },
+    "ConcreteRows034.lean": {
+      "sha256": "fc9a092f4896d30adbed2c9784a5ce233dc588b4cc9c998565678b122a815897",
+      "original_path": "lean-concrete-hubbard/ConcreteRows034.lean"
+    },
+    "ConcreteRows035.lean": {
+      "sha256": "5d4eb319c55b5c5227505102368f08826791955daa3146821abea29706f022ec",
+      "original_path": "lean-concrete-hubbard/ConcreteRows035.lean"
+    },
+    "ConcreteRows036.lean": {
+      "sha256": "67bbe8fb7b49adb39925b7ed4c110911544c8a01ea7de4849f68d9a052c1fcac",
+      "original_path": "lean-concrete-hubbard/ConcreteRows036.lean"
+    },
+    "ConcreteRows037.lean": {
+      "sha256": "a6a5495c3d83707e9948ed4cef6a5c5590264c78fb666be54b8acc05cf275df4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows037.lean"
+    },
+    "ConcreteRows038.lean": {
+      "sha256": "642e6d97b191c4029909ad7f66e1f32ab3ba086b5f6e467c2b00b0e0479ef4d0",
+      "original_path": "lean-concrete-hubbard/ConcreteRows038.lean"
+    },
+    "ConcreteRows039.lean": {
+      "sha256": "c4821f18fb743fc6e026aa587775ca1fe94ade532ed9bb74caf9efcc87ddb513",
+      "original_path": "lean-concrete-hubbard/ConcreteRows039.lean"
+    },
+    "ConcreteRows040.lean": {
+      "sha256": "8c93725f8864ea33d5b6c351d075da8669785f622e77eea9a62452edeca0a274",
+      "original_path": "lean-concrete-hubbard/ConcreteRows040.lean"
+    },
+    "ConcreteRows041.lean": {
+      "sha256": "76eea3f72be24650158f1a2afdfcc25db89a45e372819f592d631065116db50f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows041.lean"
+    },
+    "ConcreteRows042.lean": {
+      "sha256": "c9bac149257ec09be05b0c0faac49fc74a7346d7958753b9e63a1285798619e1",
+      "original_path": "lean-concrete-hubbard/ConcreteRows042.lean"
+    },
+    "ConcreteRows043.lean": {
+      "sha256": "60d0884843d5ac5bce9ed2931fae0ace6820c0df8047411b813fa1f048478415",
+      "original_path": "lean-concrete-hubbard/ConcreteRows043.lean"
+    },
+    "ConcreteRows044.lean": {
+      "sha256": "84e08c7bd700f7116f75749613dcc6c59d555528b82c8c59d88ebc761253f91e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows044.lean"
+    },
+    "ConcreteRows045.lean": {
+      "sha256": "66a6c19d0c39e106e54b7a92d602539c53d0d58a0c2afd11312f16b4c7e9b102",
+      "original_path": "lean-concrete-hubbard/ConcreteRows045.lean"
+    },
+    "ConcreteRows046.lean": {
+      "sha256": "a064788569c0a6e4999b551dbb272f13c82e336e94b6d4c1d10c9690c91fdc52",
+      "original_path": "lean-concrete-hubbard/ConcreteRows046.lean"
+    },
+    "ConcreteRows047.lean": {
+      "sha256": "096b9f79f320247a04323a78c7ccacd05a51518987a63b6c8261a7d8a1fc129f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows047.lean"
+    },
+    "ConcreteRows048.lean": {
+      "sha256": "a91843643210c0621f278be1997fe29743a29ec207d7bfa0b4bb1e72a16d781d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows048.lean"
+    },
+    "ConcreteRows049.lean": {
+      "sha256": "65a1806e2d169d6c909a58e9e123572feeb3c8716dc862d4f4d2f58db5f2052e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows049.lean"
+    },
+    "ConcreteRows050.lean": {
+      "sha256": "66664dbfd9895618492a9bb34ed4744f0f93fb54e1badd9393a7487a8d93fb2b",
+      "original_path": "lean-concrete-hubbard/ConcreteRows050.lean"
+    },
+    "ConcreteRows051.lean": {
+      "sha256": "c413f2effb1473b77c5828f20f1812af054f0ea1c0f8d4037b3db402ce136353",
+      "original_path": "lean-concrete-hubbard/ConcreteRows051.lean"
+    },
+    "ConcreteRows052.lean": {
+      "sha256": "25ee01c61a88675d5e7c8adb7994527f670a7669e552dcc76d2336b721f8ae71",
+      "original_path": "lean-concrete-hubbard/ConcreteRows052.lean"
+    },
+    "ConcreteRows053.lean": {
+      "sha256": "f4db3733718d33421061b24da61bdc97a8827360f467141e64532924264fce38",
+      "original_path": "lean-concrete-hubbard/ConcreteRows053.lean"
+    },
+    "ConcreteRows054.lean": {
+      "sha256": "6c02525867a57535fd7430911a7ee6541e55fbdcc0dcd6d7287e316523edc8b4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows054.lean"
+    },
+    "ConcreteRows055.lean": {
+      "sha256": "8aee38ed90a1b7549682f7811ce2f332312d75c6d423f057be6a966903774f32",
+      "original_path": "lean-concrete-hubbard/ConcreteRows055.lean"
+    },
+    "ConcreteRows056.lean": {
+      "sha256": "661a870be97332c8116dc961430d82212600f9c256ace2fa19379ff2042314de",
+      "original_path": "lean-concrete-hubbard/ConcreteRows056.lean"
+    },
+    "ConcreteRows057.lean": {
+      "sha256": "a6996295b147d2af383008dbde2a8603f0ea6f98fb54416f37c7ab0a1fb1d77e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows057.lean"
+    },
+    "ConcreteRows058.lean": {
+      "sha256": "c0f027b9321124b58fe5889f3a5ff3baa15a93b389f2ddabafcd9b4ce2ac795e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows058.lean"
+    },
+    "ConcreteRows059.lean": {
+      "sha256": "4012b93eab1d6fe5e715ffe806137bb9f4b2d79414208c405334accbfb6d72e3",
+      "original_path": "lean-concrete-hubbard/ConcreteRows059.lean"
+    },
+    "ConcreteRows060.lean": {
+      "sha256": "a42e522de6aad99438d36d23cbc11ebb4b0179ee63cfea2c0df36d018fc52e96",
+      "original_path": "lean-concrete-hubbard/ConcreteRows060.lean"
+    },
+    "ConcreteRows061.lean": {
+      "sha256": "e1e3cdbcb1960a9f9b70593fc0996d5413f6fe012723a3c3e26f8f21a303911f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows061.lean"
+    },
+    "ConcreteRows062.lean": {
+      "sha256": "5c3d7135cd69088413404bf5f334f28fcd9b6ee6ea7ffdba2c03aea4a9f780f4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows062.lean"
+    },
+    "ConcreteRows063.lean": {
+      "sha256": "c2b339548b30cf9a463fbc8e03c2a880d1f18593f2880fc68b5fc7bd18c3904d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows063.lean"
+    },
+    "ConcreteRows064.lean": {
+      "sha256": "46a27909baea2c80f1a7f1c8c0027fbdbcc11c7e784c64d86ea30684df4fd718",
+      "original_path": "lean-concrete-hubbard/ConcreteRows064.lean"
+    },
+    "ConcreteRows065.lean": {
+      "sha256": "4ea6fd05db9e502342cfa5efec7055857875742a57012fb5f3412db7f7e28a48",
+      "original_path": "lean-concrete-hubbard/ConcreteRows065.lean"
+    },
+    "ConcreteRows066.lean": {
+      "sha256": "557582229e8d9892ec5ead68d9be5fb1c98bde803188d6d6786f0806d3543859",
+      "original_path": "lean-concrete-hubbard/ConcreteRows066.lean"
+    },
+    "ConcreteRows067.lean": {
+      "sha256": "3276d81b6c757ac7448b7af76cc0bade791e4121e929a023a4529148372661b3",
+      "original_path": "lean-concrete-hubbard/ConcreteRows067.lean"
+    },
+    "ConcreteRows068.lean": {
+      "sha256": "735d8344839264c46fe9956bac031324c9cae5fa5ed4c8dbff0eb0d261e66797",
+      "original_path": "lean-concrete-hubbard/ConcreteRows068.lean"
+    },
+    "ConcreteRows069.lean": {
+      "sha256": "5881815339ee7dc4df8a09e3796566c288780ab9428ff90d0e1efd6181ed8269",
+      "original_path": "lean-concrete-hubbard/ConcreteRows069.lean"
+    },
+    "ConcreteRows070.lean": {
+      "sha256": "c58276dfe6756e84cd15a034fbfca825d78fa1c42ba775288c90cbe80827c86c",
+      "original_path": "lean-concrete-hubbard/ConcreteRows070.lean"
+    },
+    "ConcreteRows071.lean": {
+      "sha256": "b81545e209f28195c2ccc7a7e15ee341c3aa464c18d7abda2bd192abeabee871",
+      "original_path": "lean-concrete-hubbard/ConcreteRows071.lean"
+    },
+    "ConcreteRows072.lean": {
+      "sha256": "f5cc49eaeb44c7229851a471a6c82d0df204de38b1bd56fa54261de4189ccb52",
+      "original_path": "lean-concrete-hubbard/ConcreteRows072.lean"
+    },
+    "ConcreteRows073.lean": {
+      "sha256": "272a1805f1846a8fa3914d928f038642bffa0f866f9f989f9d6ae0c9cb4542c4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows073.lean"
+    },
+    "ConcreteRows074.lean": {
+      "sha256": "1749026682735b907ebf7e4a9c8bb216dcda7634dbbf108a656ce834797ff114",
+      "original_path": "lean-concrete-hubbard/ConcreteRows074.lean"
+    },
+    "ConcreteRows075.lean": {
+      "sha256": "f86767d0e28f9881805f194eeeb6bd0e085a17611bb4bdaafeae482d9606a105",
+      "original_path": "lean-concrete-hubbard/ConcreteRows075.lean"
+    },
+    "ConcreteRows076.lean": {
+      "sha256": "d5607f90d688e3377fd4bdc46c8b19c79b3b7bfffcbbc42c07eccbbd77b5d352",
+      "original_path": "lean-concrete-hubbard/ConcreteRows076.lean"
+    },
+    "ConcreteRows077.lean": {
+      "sha256": "d9e4f1f42fbedb81a563c95e1bf535e85acbf5b14f9d1e0e394d0cc3dfde1991",
+      "original_path": "lean-concrete-hubbard/ConcreteRows077.lean"
+    },
+    "ConcreteRows078.lean": {
+      "sha256": "f4aa4d38f81e01787a18de68319cb9650124c20dc3ac757eb961b9f16f851e99",
+      "original_path": "lean-concrete-hubbard/ConcreteRows078.lean"
+    },
+    "ConcreteRows079.lean": {
+      "sha256": "af0c04b19da15491425adfd9b624367daffe8c648368a011f1e5945e913d61ca",
+      "original_path": "lean-concrete-hubbard/ConcreteRows079.lean"
+    },
+    "ConcreteRows080.lean": {
+      "sha256": "f33dc8cc9c09a3fa9dc81c6a1acf89f67d4205a67925bc9ece1971ce24d48a16",
+      "original_path": "lean-concrete-hubbard/ConcreteRows080.lean"
+    },
+    "ConcreteRows081.lean": {
+      "sha256": "0d8affdd48e54ef025111328ae392fef5ca82e783c6a7acda0705e61d1ad3d54",
+      "original_path": "lean-concrete-hubbard/ConcreteRows081.lean"
+    },
+    "ConcreteRows082.lean": {
+      "sha256": "68daa9a17f06a8a3432a7c854819daf5a763d6b2224cf1264615f90a146c4470",
+      "original_path": "lean-concrete-hubbard/ConcreteRows082.lean"
+    },
+    "ConcreteRows083.lean": {
+      "sha256": "4416e424bb06a9ea4c3549fed37241a5a3a10a108abf8a9664ca8db08a582733",
+      "original_path": "lean-concrete-hubbard/ConcreteRows083.lean"
+    },
+    "ConcreteRows084.lean": {
+      "sha256": "418a9ece825a945143392de92afcea3693210775c9266b1f828e69fac87b220d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows084.lean"
+    },
+    "ConcreteRows085.lean": {
+      "sha256": "edfbc5772c38cb8c5014fc3601dd82029ea61c605f70b28d42272060fa9e8510",
+      "original_path": "lean-concrete-hubbard/ConcreteRows085.lean"
+    },
+    "ConcreteRows086.lean": {
+      "sha256": "253be493915861144814de29f8e25368f3a2859768638e8cbb478085b3bbff80",
+      "original_path": "lean-concrete-hubbard/ConcreteRows086.lean"
+    },
+    "ConcreteRows087.lean": {
+      "sha256": "f501719fb9e5f6acb6ac34d163d38fd72535c8647187cf0540fedc456fa050ac",
+      "original_path": "lean-concrete-hubbard/ConcreteRows087.lean"
+    },
+    "ConcreteRows088.lean": {
+      "sha256": "ed495cdcbd76eea092e2405046465f365502876f786493ef6d9876671f5ff097",
+      "original_path": "lean-concrete-hubbard/ConcreteRows088.lean"
+    },
+    "ConcreteRows089.lean": {
+      "sha256": "924200c76bfc4e06e85d25bf683edb2ba54ffbaab0fd9eabe0e206c709082f3b",
+      "original_path": "lean-concrete-hubbard/ConcreteRows089.lean"
+    },
+    "ConcreteRows090.lean": {
+      "sha256": "12508fd0d6f4f7855d513cf2c8e652b1c315234d1e9d30ac05204eaace80fa6e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows090.lean"
+    },
+    "ConcreteRows091.lean": {
+      "sha256": "e6f0e6f7076012ee46a51431d0be3e651576509de4c3244ee9c7772ae4eb78d0",
+      "original_path": "lean-concrete-hubbard/ConcreteRows091.lean"
+    },
+    "ConcreteRows092.lean": {
+      "sha256": "d2579fa83d7d7fef0aa7caa12a4d7afd99bad6cc5e348567aff35b177c0a4512",
+      "original_path": "lean-concrete-hubbard/ConcreteRows092.lean"
+    },
+    "ConcreteRows093.lean": {
+      "sha256": "fcb288293f2e36338d6e34e7e6c1d6c619f2d5e05e67ec4aa367f93ba37117e5",
+      "original_path": "lean-concrete-hubbard/ConcreteRows093.lean"
+    },
+    "ConcreteRows094.lean": {
+      "sha256": "18a19669754cefbd811ba8f6307c3ed721760ad6606d375aa8dfc2705b252520",
+      "original_path": "lean-concrete-hubbard/ConcreteRows094.lean"
+    },
+    "ConcreteRows095.lean": {
+      "sha256": "b7a14c95dc7af2228221ea1d34c69d2dbf16b9d1c926921ee25dbbd9a52399c0",
+      "original_path": "lean-concrete-hubbard/ConcreteRows095.lean"
+    },
+    "ConcreteRows096.lean": {
+      "sha256": "950362a7b669b39f72421c0bb8b5582fd45be916b413cb49f4564204704d5968",
+      "original_path": "lean-concrete-hubbard/ConcreteRows096.lean"
+    },
+    "ConcreteRows097.lean": {
+      "sha256": "368022b75a0b35a89bcd9cba4f3fd5f749e3ee7b8f5ef045897056354db2b62d",
+      "original_path": "lean-concrete-hubbard/ConcreteRows097.lean"
+    },
+    "ConcreteRows098.lean": {
+      "sha256": "3f3f1b4118363c29076b1ca36431ab76ea255c9600f78f55dc5ee4e654761fbe",
+      "original_path": "lean-concrete-hubbard/ConcreteRows098.lean"
+    },
+    "ConcreteRows099.lean": {
+      "sha256": "39de2c811cd17b4cdb64d5aeb36dca2944785c6d451f1c86b19de7577c504652",
+      "original_path": "lean-concrete-hubbard/ConcreteRows099.lean"
+    },
+    "ConcreteRows100.lean": {
+      "sha256": "c00da2cb8950590a55d5bfe93ebbc784bb27d2fc5d531fc3ae948dcef8479a37",
+      "original_path": "lean-concrete-hubbard/ConcreteRows100.lean"
+    },
+    "ConcreteRows101.lean": {
+      "sha256": "a06dd4fe33a47243caf4ac3384199c39a737db19f53ce1de217b904d0bfbf552",
+      "original_path": "lean-concrete-hubbard/ConcreteRows101.lean"
+    },
+    "ConcreteRows102.lean": {
+      "sha256": "6ee26b9e031e2b7fd00c7cae2d774064feb3a1a2a9d8efc29be45ce825addd7f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows102.lean"
+    },
+    "ConcreteRows103.lean": {
+      "sha256": "4c675fa911b6c60ea5d171e38375804cb3839a86d92395d71cc60b539d85a76f",
+      "original_path": "lean-concrete-hubbard/ConcreteRows103.lean"
+    },
+    "ConcreteRows104.lean": {
+      "sha256": "23354b32d59ba203b174e280326e4e675d06bdcb7027569aacfb604e9026431b",
+      "original_path": "lean-concrete-hubbard/ConcreteRows104.lean"
+    },
+    "ConcreteRows105.lean": {
+      "sha256": "640fb5581bffb2a7f18741b2e4b74c1d08114556f975369338aa95905354c17c",
+      "original_path": "lean-concrete-hubbard/ConcreteRows105.lean"
+    },
+    "ConcreteRows106.lean": {
+      "sha256": "88be4b3827c40c19ecad9d002eed230920760f87590274eb08cc4a749673aa74",
+      "original_path": "lean-concrete-hubbard/ConcreteRows106.lean"
+    },
+    "ConcreteRows107.lean": {
+      "sha256": "85b24886cd5a600e55fa8c3b5761102ce841128990d15a048aff61800871841e",
+      "original_path": "lean-concrete-hubbard/ConcreteRows107.lean"
+    },
+    "ConcreteRows108.lean": {
+      "sha256": "423346c950612f059f2fa45985c80e8d61f5f2375294ccf240d328b3a97170e9",
+      "original_path": "lean-concrete-hubbard/ConcreteRows108.lean"
+    },
+    "ConcreteRows109.lean": {
+      "sha256": "48cce17978cfc330f4c3bf6b1ec80cc6c6aa74f029442e3fbe6dd88cfd8be623",
+      "original_path": "lean-concrete-hubbard/ConcreteRows109.lean"
+    },
+    "ConcreteRows110.lean": {
+      "sha256": "ad3b2c33fc796285334918c2f3cf5829e7d2d5737a7c30952899f86f978c46b7",
+      "original_path": "lean-concrete-hubbard/ConcreteRows110.lean"
+    },
+    "ConcreteRows111.lean": {
+      "sha256": "9bc426c989280a14008e87474a6f400ddbed523ed9b17c9a5a2d27c043495b31",
+      "original_path": "lean-concrete-hubbard/ConcreteRows111.lean"
+    },
+    "ConcreteRows112.lean": {
+      "sha256": "f9461545371d532e6901f66bdf02e10cfe38c2ce832567b47d9c188ce24d5e3a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows112.lean"
+    },
+    "ConcreteRows113.lean": {
+      "sha256": "e8cac4f39ba2af2a85ff8ed77aed4449696a9923ecefaaabc63710419af6eea4",
+      "original_path": "lean-concrete-hubbard/ConcreteRows113.lean"
+    },
+    "ConcreteRows114.lean": {
+      "sha256": "e3800756c681f3532d40ba6b5730f94023d9bc632ac38cc99eebb32d4f3b02e2",
+      "original_path": "lean-concrete-hubbard/ConcreteRows114.lean"
+    },
+    "ConcreteRows115.lean": {
+      "sha256": "85efcc2c8cbaaf2e0909518839b9158f9ac31c16faeebb15ffecc4a6956f3646",
+      "original_path": "lean-concrete-hubbard/ConcreteRows115.lean"
+    },
+    "ConcreteRows116.lean": {
+      "sha256": "7ca49d03b396fac5724338db45a9fff929efe3db1425a809fb06a7b1bae5d65c",
+      "original_path": "lean-concrete-hubbard/ConcreteRows116.lean"
+    },
+    "ConcreteRows117.lean": {
+      "sha256": "d54266bc90441932a31ec8567000ebf52083784609edbd484b980c2f27744397",
+      "original_path": "lean-concrete-hubbard/ConcreteRows117.lean"
+    },
+    "ConcreteRows118.lean": {
+      "sha256": "c7bf2d9e7a226b45b86beed4a64380a5329e9891e25100d9affd91f50222610b",
+      "original_path": "lean-concrete-hubbard/ConcreteRows118.lean"
+    },
+    "ConcreteRows119.lean": {
+      "sha256": "66e6a5ed6942612e07f41542899071f0437611c16792e2d4537b58d3111adc4a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows119.lean"
+    },
+    "ConcreteRows120.lean": {
+      "sha256": "2e91640b7a0256b376a1736bcf98f5537b6f7b448b08b8f0fc6bd7acfd3fe579",
+      "original_path": "lean-concrete-hubbard/ConcreteRows120.lean"
+    },
+    "ConcreteRows121.lean": {
+      "sha256": "fb1bded2a2f856189be2ac0177ae7a240b37c1163a92fc29a3e4b61b0f21bf04",
+      "original_path": "lean-concrete-hubbard/ConcreteRows121.lean"
+    },
+    "ConcreteRows122.lean": {
+      "sha256": "791f6ba5ebad4fdfd08ba972dd68994bb10c408d25da199db27d44c77ce1575a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows122.lean"
+    },
+    "ConcreteRows123.lean": {
+      "sha256": "ac8c25c0f7bde39340b59f50700ba9aafac0d6c433e22f7b80b2a88dbcddc152",
+      "original_path": "lean-concrete-hubbard/ConcreteRows123.lean"
+    },
+    "ConcreteRows124.lean": {
+      "sha256": "5b1bb4eb69a963f11e8c6a60229750741fb7af87379167aba22058b1daaa38ba",
+      "original_path": "lean-concrete-hubbard/ConcreteRows124.lean"
+    },
+    "ConcreteRows125.lean": {
+      "sha256": "dfff135d80358b37d67784905dc1c0ce96659e0942120bfb2a42c603a335224a",
+      "original_path": "lean-concrete-hubbard/ConcreteRows125.lean"
+    },
+    "ConcreteCertificate.lean": {
+      "sha256": "8a290962b5470f550a0368bffce0bdb7243d7760abb5b0eca425126a1b913614",
+      "original_path": "lean-concrete-hubbard/ConcreteCertificate.lean"
+    },
+    "ConcreteBits.lean": {
+      "sha256": "1a4a8086716d3e44518be64a21652668c74fd6159d74d05da0d18535c31788f2",
+      "original_path": "lean-concrete-hubbard/ConcreteBits.lean"
+    },
+    "ConcreteExamples.lean": {
+      "sha256": "3b9861abd49314b50d0c27cb3f87a11933350087f5a3067bc79e4d90942fd292",
+      "original_path": "lean-concrete-hubbard/ConcreteExamples.lean"
+    },
+    "ConcreteProofs.lean": {
+      "sha256": "7697b2bc090c49246207ab3578f6338d29202a738f8475b3554df221543c878c",
+      "original_path": "lean-concrete-hubbard/ConcreteProofs.lean"
+    },
+    "MomentPilot.lean": {
+      "sha256": "85a8e54a9310875b04aeb30517aafae0801f03c4452b2806f577a8f0ee8dfd6d",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/MomentPilot.lean"
+    },
+    "CoefficientPilot.lean": {
+      "sha256": "2a0c16cdf38f67d9151a772d6cc5efff6655b4c8927462e7fb9f99d4b7d173b4",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/CoefficientPilot.lean"
+    },
+    "DynamicsPilot.lean": {
+      "sha256": "80d2c43cbb3d676f8ca545ce62bed485a97c785f708ecdea4b0cb65540764c08",
+      "original_path": "lean-hubbard-3x3-bridge-pilot/DynamicsPilot.lean"
+    }
+  },
+  "files": {
+    ".gitignore": "e6325771e27d2ff0ba807b83e764350a67f29d8501f1956b8ce11f4deaeace6f",
+    "AnalyticPilot.lean": "7742389fed1f803e1b63cc6f0fb926c8b7684298356696c97df8f0c11b520e22",
+    "CoefficientPilot.lean": "2a0c16cdf38f67d9151a772d6cc5efff6655b4c8927462e7fb9f99d4b7d173b4",
+    "CommutatorRemainder.lean": "d77b4e05f1056e73da7e30846f0997f88af5b0f36f35b9668674e192e9d51e3e",
+    "ConcreteBits.lean": "1a4a8086716d3e44518be64a21652668c74fd6159d74d05da0d18535c31788f2",
+    "ConcreteCertificate.lean": "8a290962b5470f550a0368bffce0bdb7243d7760abb5b0eca425126a1b913614",
+    "ConcreteConstants.lean": "51c2d77791381f1120557a7f712367af1db1aed0546e6545f4a8a52dd87d5f24",
+    "ConcreteDefs.lean": "8cbc2e69b31e742ee8b7de67c0dea60e50579979825b16ee87709dc526e6adb6",
+    "ConcreteExamples.lean": "3b9861abd49314b50d0c27cb3f87a11933350087f5a3067bc79e4d90942fd292",
+    "ConcreteLogic.lean": "2b68b5d031a4190d0d6ba5f20d74cffe533aa14c18d2e155457b7e9d49085888",
+    "ConcreteObservables.lean": "1e781d41378c81c2eab0aaef33e25e0e8d213ba0a4dc96f50b7e2964be04ee93",
+    "ConcreteProofs.lean": "7697b2bc090c49246207ab3578f6338d29202a738f8475b3554df221543c878c",
+    "ConcreteRows000.lean": "c840e592f7787ebd14db0030cee85832162ad079c157fe0832a4509a21f53a6b",
+    "ConcreteRows001.lean": "84f2341f028fa89ac0871789188aa0dd6280578e0364e8c6f98500f6d032b00d",
+    "ConcreteRows002.lean": "4b36ad1be90525335b84390aaae6651c023b883d61f779f9fae2b52cc6c74c16",
+    "ConcreteRows003.lean": "e8ec6a91b9112b4c4713816eea32ea3cfca6fd8cb89126fd7b3401affd591f69",
+    "ConcreteRows004.lean": "7342c33d58a90bd4fad93f768cf1bb7f1f2ddac59f1e5d1a846253e9cc4f1a3a",
+    "ConcreteRows005.lean": "a2ec9ee3aa08907187445c2f1f73cb9fdd4a9a0ebe00b77d1fbe5731ed0faec0",
+    "ConcreteRows006.lean": "ccd2dc85bbd19adfcfa4db7e4751ef1963eec9bef2cd29cce55a992569226970",
+    "ConcreteRows007.lean": "927b5d218eab6d9733b74e171d9b1feca17ed4938d5fcc946e95d40dd8d00291",
+    "ConcreteRows008.lean": "420794da88ff7de8525c0b6a3389eff515bae4d6e0451ab48d69024ef0db5117",
+    "ConcreteRows009.lean": "c93ad3fc5686117b07df1ba4ba8834c7871ed7bb7e3ec43bdc59fecce73fa2e7",
+    "ConcreteRows010.lean": "bef227f4770a6e500851a2d5a5ad7520305f0a2cb12d23931f7fcd3053928e44",
+    "ConcreteRows011.lean": "3b791ae51924ebfaeba4a3603581946b6034160cd63b8f08adc1996f878cf52d",
+    "ConcreteRows012.lean": "cb4243abb65a5cc5c5c81c506e4a5beab101d46f79ac41e5a6f1b4faea9f60b7",
+    "ConcreteRows013.lean": "5ee227af1a185034a1c05b1389199f0a08fec7064a14cdf0a20d1c301465afee",
+    "ConcreteRows014.lean": "15146c9c9101a88fc4dd161fed73b6396ff17d7ee98b3cad2354ed3562503b7f",
+    "ConcreteRows015.lean": "a9976a0013c92ef4df06118293f7bdfb535fe11813b8d3eb7fa21a60cfca0539",
+    "ConcreteRows016.lean": "52f9a6d0aad646063819750ad9d24a52aa0460cc6bcffcfc515b301c58941761",
+    "ConcreteRows017.lean": "72cf76a2994453ad260321f712ff5def5f2a04809fdc11f5689757dbda34d894",
+    "ConcreteRows018.lean": "905b4b2c2b07744bd8bc1ce444577aded4940c4f6990f4bf407769272dc4fcc5",
+    "ConcreteRows019.lean": "ff0b0f5116aaa85a4cb92851906f50064115f76e1d4e49a912c4f500b411fe37",
+    "ConcreteRows020.lean": "c3840631ec41afd6b81a5db3d6a98d57edc9882ed96909cbaa581119fc0ecacd",
+    "ConcreteRows021.lean": "a164cace5fa46d33ced495816c5c394e9f12bfe17fd5cc25aaec58c6a6343151",
+    "ConcreteRows022.lean": "0a8a0512c7cb8ceec258736be056606f385a8289673db5a51c469f78cb871b8d",
+    "ConcreteRows023.lean": "eae86fa36c0a6aa7cfd2598c2f0419476fcf6bb5a8deee130cb9ca89e2be6684",
+    "ConcreteRows024.lean": "0917466ef631f8f8f20b953da5367c35d3c548fef2b1fdb33a44681057a682e4",
+    "ConcreteRows025.lean": "cb93ac9a569ddc33adc5d9da5b0cf2cbe636b63a9adfd80d72a2a6c8e667cb1a",
+    "ConcreteRows026.lean": "4cb524f54072d070fa4fd15f78dc36d19ae061cd8b6d87cbda1d73d5542a3a92",
+    "ConcreteRows027.lean": "330e63a6895b09bbc6136e0a9581f90aa1417537a16ba1b4bb0a30483252e85f",
+    "ConcreteRows028.lean": "4b11b873f3b3356deae4c710b28d4d2905bcf37153501b6cc16c7fc45ef83a94",
+    "ConcreteRows029.lean": "844508a4dd99d0c5753dfe407345d6eb74f7e666d7a5885639e3a443ec366514",
+    "ConcreteRows030.lean": "e8c09a145080a3c61b4d563af18c4efcf9e0d78a1eb74ae59eda991b500a86af",
+    "ConcreteRows031.lean": "37fc5b57cf2b9d042745dd754e624d7db2676bc5cb07e3502b03f1000b402a56",
+    "ConcreteRows032.lean": "3efecffbea081a1eb1e5ac6ec1f2cfc298089247084396adff14b24086e0ff0c",
+    "ConcreteRows033.lean": "7b88a61f9b2226116e733aba3fc26d987bb3f3f6439760aa259c6d6a689d1665",
+    "ConcreteRows034.lean": "fc9a092f4896d30adbed2c9784a5ce233dc588b4cc9c998565678b122a815897",
+    "ConcreteRows035.lean": "5d4eb319c55b5c5227505102368f08826791955daa3146821abea29706f022ec",
+    "ConcreteRows036.lean": "67bbe8fb7b49adb39925b7ed4c110911544c8a01ea7de4849f68d9a052c1fcac",
+    "ConcreteRows037.lean": "a6a5495c3d83707e9948ed4cef6a5c5590264c78fb666be54b8acc05cf275df4",
+    "ConcreteRows038.lean": "642e6d97b191c4029909ad7f66e1f32ab3ba086b5f6e467c2b00b0e0479ef4d0",
+    "ConcreteRows039.lean": "c4821f18fb743fc6e026aa587775ca1fe94ade532ed9bb74caf9efcc87ddb513",
+    "ConcreteRows040.lean": "8c93725f8864ea33d5b6c351d075da8669785f622e77eea9a62452edeca0a274",
+    "ConcreteRows041.lean": "76eea3f72be24650158f1a2afdfcc25db89a45e372819f592d631065116db50f",
+    "ConcreteRows042.lean": "c9bac149257ec09be05b0c0faac49fc74a7346d7958753b9e63a1285798619e1",
+    "ConcreteRows043.lean": "60d0884843d5ac5bce9ed2931fae0ace6820c0df8047411b813fa1f048478415",
+    "ConcreteRows044.lean": "84e08c7bd700f7116f75749613dcc6c59d555528b82c8c59d88ebc761253f91e",
+    "ConcreteRows045.lean": "66a6c19d0c39e106e54b7a92d602539c53d0d58a0c2afd11312f16b4c7e9b102",
+    "ConcreteRows046.lean": "a064788569c0a6e4999b551dbb272f13c82e336e94b6d4c1d10c9690c91fdc52",
+    "ConcreteRows047.lean": "096b9f79f320247a04323a78c7ccacd05a51518987a63b6c8261a7d8a1fc129f",
+    "ConcreteRows048.lean": "a91843643210c0621f278be1997fe29743a29ec207d7bfa0b4bb1e72a16d781d",
+    "ConcreteRows049.lean": "65a1806e2d169d6c909a58e9e123572feeb3c8716dc862d4f4d2f58db5f2052e",
+    "ConcreteRows050.lean": "66664dbfd9895618492a9bb34ed4744f0f93fb54e1badd9393a7487a8d93fb2b",
+    "ConcreteRows051.lean": "c413f2effb1473b77c5828f20f1812af054f0ea1c0f8d4037b3db402ce136353",
+    "ConcreteRows052.lean": "25ee01c61a88675d5e7c8adb7994527f670a7669e552dcc76d2336b721f8ae71",
+    "ConcreteRows053.lean": "f4db3733718d33421061b24da61bdc97a8827360f467141e64532924264fce38",
+    "ConcreteRows054.lean": "6c02525867a57535fd7430911a7ee6541e55fbdcc0dcd6d7287e316523edc8b4",
+    "ConcreteRows055.lean": "8aee38ed90a1b7549682f7811ce2f332312d75c6d423f057be6a966903774f32",
+    "ConcreteRows056.lean": "661a870be97332c8116dc961430d82212600f9c256ace2fa19379ff2042314de",
+    "ConcreteRows057.lean": "a6996295b147d2af383008dbde2a8603f0ea6f98fb54416f37c7ab0a1fb1d77e",
+    "ConcreteRows058.lean": "c0f027b9321124b58fe5889f3a5ff3baa15a93b389f2ddabafcd9b4ce2ac795e",
+    "ConcreteRows059.lean": "4012b93eab1d6fe5e715ffe806137bb9f4b2d79414208c405334accbfb6d72e3",
+    "ConcreteRows060.lean": "a42e522de6aad99438d36d23cbc11ebb4b0179ee63cfea2c0df36d018fc52e96",
+    "ConcreteRows061.lean": "e1e3cdbcb1960a9f9b70593fc0996d5413f6fe012723a3c3e26f8f21a303911f",
+    "ConcreteRows062.lean": "5c3d7135cd69088413404bf5f334f28fcd9b6ee6ea7ffdba2c03aea4a9f780f4",
+    "ConcreteRows063.lean": "c2b339548b30cf9a463fbc8e03c2a880d1f18593f2880fc68b5fc7bd18c3904d",
+    "ConcreteRows064.lean": "46a27909baea2c80f1a7f1c8c0027fbdbcc11c7e784c64d86ea30684df4fd718",
+    "ConcreteRows065.lean": "4ea6fd05db9e502342cfa5efec7055857875742a57012fb5f3412db7f7e28a48",
+    "ConcreteRows066.lean": "557582229e8d9892ec5ead68d9be5fb1c98bde803188d6d6786f0806d3543859",
+    "ConcreteRows067.lean": "3276d81b6c757ac7448b7af76cc0bade791e4121e929a023a4529148372661b3",
+    "ConcreteRows068.lean": "735d8344839264c46fe9956bac031324c9cae5fa5ed4c8dbff0eb0d261e66797",
+    "ConcreteRows069.lean": "5881815339ee7dc4df8a09e3796566c288780ab9428ff90d0e1efd6181ed8269",
+    "ConcreteRows070.lean": "c58276dfe6756e84cd15a034fbfca825d78fa1c42ba775288c90cbe80827c86c",
+    "ConcreteRows071.lean": "b81545e209f28195c2ccc7a7e15ee341c3aa464c18d7abda2bd192abeabee871",
+    "ConcreteRows072.lean": "f5cc49eaeb44c7229851a471a6c82d0df204de38b1bd56fa54261de4189ccb52",
+    "ConcreteRows073.lean": "272a1805f1846a8fa3914d928f038642bffa0f866f9f989f9d6ae0c9cb4542c4",
+    "ConcreteRows074.lean": "1749026682735b907ebf7e4a9c8bb216dcda7634dbbf108a656ce834797ff114",
+    "ConcreteRows075.lean": "f86767d0e28f9881805f194eeeb6bd0e085a17611bb4bdaafeae482d9606a105",
+    "ConcreteRows076.lean": "d5607f90d688e3377fd4bdc46c8b19c79b3b7bfffcbbc42c07eccbbd77b5d352",
+    "ConcreteRows077.lean": "d9e4f1f42fbedb81a563c95e1bf535e85acbf5b14f9d1e0e394d0cc3dfde1991",
+    "ConcreteRows078.lean": "f4aa4d38f81e01787a18de68319cb9650124c20dc3ac757eb961b9f16f851e99",
+    "ConcreteRows079.lean": "af0c04b19da15491425adfd9b624367daffe8c648368a011f1e5945e913d61ca",
+    "ConcreteRows080.lean": "f33dc8cc9c09a3fa9dc81c6a1acf89f67d4205a67925bc9ece1971ce24d48a16",
+    "ConcreteRows081.lean": "0d8affdd48e54ef025111328ae392fef5ca82e783c6a7acda0705e61d1ad3d54",
+    "ConcreteRows082.lean": "68daa9a17f06a8a3432a7c854819daf5a763d6b2224cf1264615f90a146c4470",
+    "ConcreteRows083.lean": "4416e424bb06a9ea4c3549fed37241a5a3a10a108abf8a9664ca8db08a582733",
+    "ConcreteRows084.lean": "418a9ece825a945143392de92afcea3693210775c9266b1f828e69fac87b220d",
+    "ConcreteRows085.lean": "edfbc5772c38cb8c5014fc3601dd82029ea61c605f70b28d42272060fa9e8510",
+    "ConcreteRows086.lean": "253be493915861144814de29f8e25368f3a2859768638e8cbb478085b3bbff80",
+    "ConcreteRows087.lean": "f501719fb9e5f6acb6ac34d163d38fd72535c8647187cf0540fedc456fa050ac",
+    "ConcreteRows088.lean": "ed495cdcbd76eea092e2405046465f365502876f786493ef6d9876671f5ff097",
+    "ConcreteRows089.lean": "924200c76bfc4e06e85d25bf683edb2ba54ffbaab0fd9eabe0e206c709082f3b",
+    "ConcreteRows090.lean": "12508fd0d6f4f7855d513cf2c8e652b1c315234d1e9d30ac05204eaace80fa6e",
+    "ConcreteRows091.lean": "e6f0e6f7076012ee46a51431d0be3e651576509de4c3244ee9c7772ae4eb78d0",
+    "ConcreteRows092.lean": "d2579fa83d7d7fef0aa7caa12a4d7afd99bad6cc5e348567aff35b177c0a4512",
+    "ConcreteRows093.lean": "fcb288293f2e36338d6e34e7e6c1d6c619f2d5e05e67ec4aa367f93ba37117e5",
+    "ConcreteRows094.lean": "18a19669754cefbd811ba8f6307c3ed721760ad6606d375aa8dfc2705b252520",
+    "ConcreteRows095.lean": "b7a14c95dc7af2228221ea1d34c69d2dbf16b9d1c926921ee25dbbd9a52399c0",
+    "ConcreteRows096.lean": "950362a7b669b39f72421c0bb8b5582fd45be916b413cb49f4564204704d5968",
+    "ConcreteRows097.lean": "368022b75a0b35a89bcd9cba4f3fd5f749e3ee7b8f5ef045897056354db2b62d",
+    "ConcreteRows098.lean": "3f3f1b4118363c29076b1ca36431ab76ea255c9600f78f55dc5ee4e654761fbe",
+    "ConcreteRows099.lean": "39de2c811cd17b4cdb64d5aeb36dca2944785c6d451f1c86b19de7577c504652",
+    "ConcreteRows100.lean": "c00da2cb8950590a55d5bfe93ebbc784bb27d2fc5d531fc3ae948dcef8479a37",
+    "ConcreteRows101.lean": "a06dd4fe33a47243caf4ac3384199c39a737db19f53ce1de217b904d0bfbf552",
+    "ConcreteRows102.lean": "6ee26b9e031e2b7fd00c7cae2d774064feb3a1a2a9d8efc29be45ce825addd7f",
+    "ConcreteRows103.lean": "4c675fa911b6c60ea5d171e38375804cb3839a86d92395d71cc60b539d85a76f",
+    "ConcreteRows104.lean": "23354b32d59ba203b174e280326e4e675d06bdcb7027569aacfb604e9026431b",
+    "ConcreteRows105.lean": "640fb5581bffb2a7f18741b2e4b74c1d08114556f975369338aa95905354c17c",
+    "ConcreteRows106.lean": "88be4b3827c40c19ecad9d002eed230920760f87590274eb08cc4a749673aa74",
+    "ConcreteRows107.lean": "85b24886cd5a600e55fa8c3b5761102ce841128990d15a048aff61800871841e",
+    "ConcreteRows108.lean": "423346c950612f059f2fa45985c80e8d61f5f2375294ccf240d328b3a97170e9",
+    "ConcreteRows109.lean": "48cce17978cfc330f4c3bf6b1ec80cc6c6aa74f029442e3fbe6dd88cfd8be623",
+    "ConcreteRows110.lean": "ad3b2c33fc796285334918c2f3cf5829e7d2d5737a7c30952899f86f978c46b7",
+    "ConcreteRows111.lean": "9bc426c989280a14008e87474a6f400ddbed523ed9b17c9a5a2d27c043495b31",
+    "ConcreteRows112.lean": "f9461545371d532e6901f66bdf02e10cfe38c2ce832567b47d9c188ce24d5e3a",
+    "ConcreteRows113.lean": "e8cac4f39ba2af2a85ff8ed77aed4449696a9923ecefaaabc63710419af6eea4",
+    "ConcreteRows114.lean": "e3800756c681f3532d40ba6b5730f94023d9bc632ac38cc99eebb32d4f3b02e2",
+    "ConcreteRows115.lean": "85efcc2c8cbaaf2e0909518839b9158f9ac31c16faeebb15ffecc4a6956f3646",
+    "ConcreteRows116.lean": "7ca49d03b396fac5724338db45a9fff929efe3db1425a809fb06a7b1bae5d65c",
+    "ConcreteRows117.lean": "d54266bc90441932a31ec8567000ebf52083784609edbd484b980c2f27744397",
+    "ConcreteRows118.lean": "c7bf2d9e7a226b45b86beed4a64380a5329e9891e25100d9affd91f50222610b",
+    "ConcreteRows119.lean": "66e6a5ed6942612e07f41542899071f0437611c16792e2d4537b58d3111adc4a",
+    "ConcreteRows120.lean": "2e91640b7a0256b376a1736bcf98f5537b6f7b448b08b8f0fc6bd7acfd3fe579",
+    "ConcreteRows121.lean": "fb1bded2a2f856189be2ac0177ae7a240b37c1163a92fc29a3e4b61b0f21bf04",
+    "ConcreteRows122.lean": "791f6ba5ebad4fdfd08ba972dd68994bb10c408d25da199db27d44c77ce1575a",
+    "ConcreteRows123.lean": "ac8c25c0f7bde39340b59f50700ba9aafac0d6c433e22f7b80b2a88dbcddc152",
+    "ConcreteRows124.lean": "5b1bb4eb69a963f11e8c6a60229750741fb7af87379167aba22058b1daaa38ba",
+    "ConcreteRows125.lean": "dfff135d80358b37d67784905dc1c0ce96659e0942120bfb2a42c603a335224a",
+    "ConcreteShift.lean": "02306df210114559cc7cd4071d85eac875c5a262bd12b973f529822fb232d110",
+    "DynamicsPilot.lean": "80d2c43cbb3d676f8ca545ce62bed485a97c785f708ecdea4b0cb65540764c08",
+    "EvenTaylorRemainder.lean": "87b466a3b0d60caaffef8ba5e210bb1ca71ba7c530af7e548d41a447389ef857",
+    "MatrixPilot.lean": "d84191c311cb2d566250d43d2941189a5b317088f0790220ff88f12e3ecd07d5",
+    "MatrixRemainder.lean": "e6d3abe7ec41b77300e7fdafa58184c621159ac95e512b7239e5ca92be4f63c5",
+    "MomentPilot.lean": "85a8e54a9310875b04aeb30517aafae0801f03c4452b2806f577a8f0ee8dfd6d",
+    "ProjectionPilot.lean": "64fd2f55af000bee00aa96d056fed2a4e2ec978a0a0a9fb51f1a7bd447a230d5",
+    "SparsePilot.lean": "891dfc0e826ca2e5cc1f3b839ff5f5cdea165d2bdf916d1a6d5839da7f8ecd8c",
+    "checks/lean-hubbard-3x3-verification/inputs/coefficients.json": "d8ae9334632e21c662c9cc7605fb4fc29e21bff950bb84e81ee9e8acaac31b6d",
+    "checks/pilot/check.py": "84412096c3551c85cfe4c7b1e0f71810201beaf1320375efa298e7c133f621e2",
+    "checks/pilot/check_dynamics.py": "2b34ba3fd08c3c9a6a6fd1088295a76ef35e660ca5b8ceabad4bb4b82cfe0ddf",
+    "evidence/original/ANALYTIC_VERIFICATION.md": "17e6b0941a26dc0fba2ba4d73c730decf1b6fb7b7793191154fe2cc7794c87a7",
+    "evidence/original/DynamicsAudit.txt": "670fbf3d549338eb65ab4395c1ab99112e9549b0808717159fc4debb83e5ca88",
+    "evidence/original/ORIGINAL_README.md": "5f96c13910e5ecea2c0ad57b90b2bc85d9f94408331b8fd2fe445af83500bd75",
+    "evidence/original/WrongBinomialFactor.txt": "fa66424621c4fa1b45c433e2c9e9a8a8cc304ec16da2557a477ad1c3b86e858a",
+    "evidence/original/WrongDynamicFourth.txt": "a15f5beb3cfb14728eb5d808091b93bda646d671669d43f5269af3319383d1ac",
+    "evidence/original/WrongDynamicSecond.txt": "bfc84753cf627d44458843eac980e2d4a6912f4ad6db0022568a33a808c65e9b",
+    "evidence/original/dynamics-verification.json": "bb0e8b5a59c9c3ef5bb27b594055bbfd2a79ae0cc90dd162d1bad3587aec1938",
+    "lake-manifest.json": "3c4b8cb2d7c88c6152e7faa9872de7b44b54195528a60027a950080998a0ab59",
+    "lakefile.toml": "101a324e5bcbdd5c5db9548af2af19710ad20a285eb4295f81b913eb32e0b3e8",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "verify.py": "6aa19bc7d6ba7ec8b64313f635550a1e09332af2a61c5d809758f23315ce53a8"
+  }
+}
