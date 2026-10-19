@@ -1,4 +1,10 @@
-> **Latest route/result register, 19 October 2026:** [1D, historical 2D and full-fermion Nighthawk](docs/FERMIONIC_ROUTES.md). The October 5 sparse hardware measurements and chi128 T=0.8 refinement are separate from the September paired job described below. [October values and exact small-state checks](publication/fermionic_review_2026-10-19_v1/REVIEW.md). The repository remains private; failed TFLO controls and unconverged MPS do not establish Google-level accuracy.
+> **Public repository since 19 October 2026.** The owner explicitly authorized
+> public access to this research archive and its Git history. Earlier statements
+> that access requires permission describe the previous private status. Circuit
+> identity and all accuracy/convergence caveats below remain unchanged.
+
+
+> **Latest route/result register, 19 October 2026:** [1D, historical 2D and full-fermion Nighthawk](docs/FERMIONIC_ROUTES.md). The October 5 sparse hardware measurements and chi128 T=0.8 refinement are separate from the September paired job described below. [October values and exact small-state checks](publication/fermionic_review_2026-10-19_v1/REVIEW.md). The repository is now public; failed TFLO controls and unconverged MPS do not establish Google-level accuracy.
 
 # Fermi-Hubbard 2D on IBM Nighthawk
 
