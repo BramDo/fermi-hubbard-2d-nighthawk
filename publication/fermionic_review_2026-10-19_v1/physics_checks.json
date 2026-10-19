@@ -1,0 +1,8 @@
+{
+  "legacy_one_step_max_probability_change_U8_vs_U0": 2.220446049250313e-16,
+  "legacy_one_step_max_probability_change_tprime": 0.0,
+  "full_two_step_max_probability_change_U8_vs_U0": 0.14007574601767703,
+  "full_two_step_max_probability_change_tprime": 0.003203784692002845,
+  "scope": "Exact 2x3 ideal statevectors; not a 6x6 accuracy or convergence certificate",
+  "new_qpu_seconds": 0
+}

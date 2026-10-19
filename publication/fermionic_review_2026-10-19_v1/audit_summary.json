@@ -1,0 +1,95 @@
+{
+  "github": [
+    {
+      "repo": "BramDo/fermi-hubbard-2d-cuprate",
+      "private": false,
+      "branch": "main",
+      "head": "d9d5481f6e2f0e76a79edfdc60e7c5eddc36cd02",
+      "tree": "cee19172cfe190fd3f107dcff2fd9dadffe2bf45",
+      "date": "2026-07-07T18:43:28Z",
+      "source_checks": {
+        "cuprate_2d_fermionic_dynamics.py": {
+          "remote_blob": null,
+          "local_blob": "70af3418551d0a8b2c27682c0c7baa5a7e18455d",
+          "identical": false
+        },
+        "cuprate_2d_fermionic_mapping.py": {
+          "remote_blob": null,
+          "local_blob": "9ed5c7e86c99cc158d15086e79da87e584d8a554",
+          "identical": false
+        },
+        "cuprate_2d_tflo.py": {
+          "remote_blob": null,
+          "local_blob": "3d5a13d2c3b1bfbfbbe0ef1647e9e7ea56dd09fb",
+          "identical": false
+        },
+        "benchmark_fermionic_6x6_mps.py": {
+          "remote_blob": null,
+          "local_blob": "12a2c28f27b3b65c3eb12a308bd040534bbd6e08",
+          "identical": false
+        }
+      }
+    },
+    {
+      "repo": "BramDo/fermi-hubbard-2d-nighthawk",
+      "private": true,
+      "branch": "main",
+      "head": "e7faf3906aadce5de89dd5e62377ef5ec7611ee2",
+      "tree": "6bcebf85b10f8e5f1a884f0a16396d44ba24a347",
+      "date": "2026-09-12T16:03:49Z",
+      "source_checks": {
+        "cuprate_2d_fermionic_dynamics.py": {
+          "remote_blob": "70af3418551d0a8b2c27682c0c7baa5a7e18455d",
+          "local_blob": "70af3418551d0a8b2c27682c0c7baa5a7e18455d",
+          "identical": true
+        },
+        "cuprate_2d_fermionic_mapping.py": {
+          "remote_blob": "9ed5c7e86c99cc158d15086e79da87e584d8a554",
+          "local_blob": "9ed5c7e86c99cc158d15086e79da87e584d8a554",
+          "identical": true
+        },
+        "cuprate_2d_tflo.py": {
+          "remote_blob": "3d5a13d2c3b1bfbfbbe0ef1647e9e7ea56dd09fb",
+          "local_blob": "3d5a13d2c3b1bfbfbbe0ef1647e9e7ea56dd09fb",
+          "identical": true
+        },
+        "benchmark_fermionic_6x6_mps.py": {
+          "remote_blob": "12a2c28f27b3b65c3eb12a308bd040534bbd6e08",
+          "local_blob": "12a2c28f27b3b65c3eb12a308bd040534bbd6e08",
+          "identical": true
+        }
+      }
+    }
+  ],
+  "wordpress_ids": [
+    331,
+    371,
+    376,
+    387,
+    388,
+    389,
+    390,
+    391,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1121,
+    1122,
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128,
+    1129,
+    1130
+  ],
+  "latex_active": true
+}
